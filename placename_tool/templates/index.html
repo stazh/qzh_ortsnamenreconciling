@@ -85,7 +85,7 @@
         </div>
 
         <!-- Detail View -->
-        <div id="detail-view" class="hidden flex-col h-full">
+        <div id="detail-view" class="hidden flex-col h-full w-full">
             <!-- Header -->
             <div class="p-6 border-b border-slate-700 bg-slate-850 flex justify-between items-start">
                 <div>
@@ -355,7 +355,9 @@
             renderList(); // Update selected styling in list
             
             document.getElementById('empty-state').classList.add('hidden');
-            document.getElementById('detail-view').classList.remove('hidden');
+            const detailView = document.getElementById('detail-view');
+            detailView.classList.remove('hidden');
+            detailView.classList.add('flex');
             document.getElementById('detail-name').textContent = place.name;
             
             // Format occurrences text
