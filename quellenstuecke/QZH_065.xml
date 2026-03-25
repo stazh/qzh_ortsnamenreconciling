@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Quellen zur Zürcher Geschichte</title>
+                <respStmt>
+                    <persName>Walter Letsch</persName>
+                    <resp key="transcript"/>
+                </respStmt>
+                <respStmt>
+                    <persName>Denia Stettler</persName>
+                    <resp key="tagging"/>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Staatsarchiv des Kantons Zürich</publisher>
+                <date type="electronic" when="2024-10-10"/>
+                <date type="print" when="2024-10-10"/>
+            </publicationStmt>
+            <seriesStmt xml:id="ssrq-sds-fds">
+                <title>Quellen zur Zürcher Geschichte</title>
+                <respStmt>
+                    <persName>Staatsarchiv des Kantons Zürich</persName>
+                    <resp>Herausgeberschaft</resp>
+                </respStmt>
+                <idno>QZH_065</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=273791"
+                            >StAZH C II 1, Nr. 329</idno>
+                    </msIdentifier>
+                    <head>Versetzung der Morgengabe und Heimsteuer von Anna Fink auf den
+                        Leihenzenten von Fällanden</head>
+                    <msContents>
+                        <summary>Abt Eberhart von Reichenau beurkundet, dass mit seiner Zustimmung
+                            Johannes Fink, Bürger von Zürich, 31 Mark Silber, die er als Eigentum
+                            seiner Ehefrau Anna von der Morgengabe her besitze, und 150 Gulden,
+                            welche derselben als Heimsteuer gehören, auf seinen Teil des
+                            Laienzehnten in Fällanden, den er von Reichenau zu Lehen trage,
+                            versichert, und dass mit Zustimmung von Anna die erwähnten Summen ihm
+                            zum Leibding und ihren gemeinschaftlichen Kindern zu Eigen gemacht
+                            werden. Der Aussteller siegelt.</summary>
+                        <msItem>
+                            <textLang>Deutsch</textLang>
+                            <filiation type="current">Orginal</filiation>
+                            <filiation type="original"><origDate when="1360-11-25"/></filiation>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><material>Pergament</material></support>
+                                <extent><dimensions type="leaves">
+                                        <height unit="cm" quantity="20"/>
+                                        <width unit="cm" quantity="33"/>
+                                    </dimensions><dimensions type="plica">
+                                        <width unit="cm" quantity="1.2"/>
+                                    </dimensions></extent>
+                            </supportDesc>
+                        </objectDesc>
+                        <sealDesc>
+                            <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1"
+                                nontei:material="wax" nontei:shape="oval"
+                                nontei:attachment="sealed on a parchment tag"
+                                nontei:condition="well-preserved">
+                                <persName role="sigillant">Abt von Reichenau</persName>
+                            </seal>
+                        </sealDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origDate when="1360-11-25"/></origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>
+                    <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+                </p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc> </profileDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+                    <term ref="key003398">Aussteuer</term>
+                    <term ref="key005098">Eherecht</term>
+                    <term ref="key000597">Erbrecht</term>
+                    <term ref="key000818">Leibgeding</term>
+                    <term ref="key000112">Morgengabe</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <pb facs="C_II_1__Nr__329__r_.tif"/>
+                <p>Wir, <persName>Eberhart</persName>, von gottes genaden abt dez gotzhus in der
+                        <placeName ref="LOC_46.82704_9.4076">Richen Owe</placeName>, sant Benedicten
+                    ordens, in <placeName ref="LOC_47.66033_9.17582">Costentzer</placeName> bystom,
+                    <lb/>tuͦn kunt allen, <supplied>die</supplied> disen brief sehent oder hoͤrent
+                    lesen, dz fu̍r uns kam <persName>Johans Vink</persName>, burger <placeName
+                        ref="LOC_47.36667_8.55">Zu̍rich</placeName>. Offenbarte und verjach
+                    <lb/>offenlich vor uns, dz er hat in siner gewalt ein und drissig mark loͤtigez
+                    silbers, die fron <persName>Annen</persName>, siner elichen wirten <lb/>recht
+                    eigen sint von ir morgengab wegen und anderhalb hundert guldin guͦter und genger <choice>
+                        <abbr>floren</abbr>
+                        <expan>florentiner</expan>
+                    </choice>, die ir eigen <lb/>sint von ir heinstu̍r wegen. Und bat uns, dz wir im
+                        <unclear>gennden</unclear> dz selb guͦt, allez beidu̍, heinstu̍r und
+                    morgengab der <lb/>vorgenanten fron <persName>Annen</persName>, siner elichen
+                    wirtenn, ze setzenne uf sinen teil und uff all sin rechtung dez leyen ze<lb
+                        break="no"/>henden ze <placeName ref="LOC_47.37169_8.63869"
+                        >Vellanden</placeName>, den er von uns ze lehen hat. Wir erhorten sin bette
+                    und haben im gunnen und verhengt, dz er <lb/>der selben fron
+                        <persName>Annen</persName>, siner elichen wirtenn, die obgenanten ein und
+                    drissig mark silbers, ir morgengab, und <lb/>die anderhalb hundert guldin, ir
+                    heinstu̍r, mit unserer hant, willen und gunst ze einem rechten pfantschilling
+                        verse<lb break="no"/>zet hat uff sinen teil und uff all sin rechtung dez
+                    leyen zehenden ze <placeName ref="LOC_47.37169_8.63869">Vellanden</placeName>.
+                    Wir haben oͧch der selben fron <lb/><persName>Annen</persName>, <persName><choice>
+                            <abbr>Johs</abbr>
+                            <expan>Johans</expan>
+                        </choice> Vinken</persName> elichen wirtenn, und iren erben erlobet und
+                    erloben mit disem brief, dz sy den egenannden <lb/>zehenden mit allem recht, so
+                    darzuͦ gehoͤrt, mit allen nu̍tzen und zinsen und mit aller ehafti nach
+                        pfantschi<lb break="no"/>lings recht ze habenn und ze niessen, als lang und
+                    all die wile, so ez der obgenant <persName><choice>
+                            <abbr>Johs</abbr>
+                            <expan>Johans</expan>
+                        </choice> Vink</persName> oder sin <lb/>erben von der egenanten fron
+                        <persName>Annen</persName>, siner elichen wirtenn, noch von der erben umb
+                    die vorgenanten ein und <lb/>drissig mark silbers, ir morgengab, und die
+                    anderhalb hundert guldin, ir heinstu̍r, nit erlediget noch erloͤst <lb/>sint, an
+                    all geverd. Man sol oͧch wissen, dz die obgenante fron
+                    <persName>Anne</persName>, <persName>Johans Vinken</persName> elichu̍ wirtenn,
+                    dem selben, ir wirt, die obgenanten ein und drissig mark silbers, ir morgengab,
+                    und die anderhalb hundert guldin, ir heinstu̍r, uff <lb/>dem vorgenanten
+                    pfantschilling mit unserer hant, willen und gunst ze einem rechten lipding
+                    gemachet hat <lb/>und den kinden ze eigen, die sy jetz sament hant oder noch mit
+                    enander gewinnent. Und her u̍ber ze warer <lb/>urkund haben wir unser insigel
+                    offenlich gehenket an disen brief, der geben ist ze <placeName
+                        ref="LOC_47.66033_9.17582">Costentz</placeName> an <origDate
+                        when="1360-11-25">sant <persName ref="GND_118565109">Cuͦnratz</persName>
+                        abent, so man von gottes gebu̍rte zalte dru̍cehen hundert jar und darnach in
+                        dem sechzigosten jare</origDate>.</p>
+                <pb facs="C_II_1__Nr__329__v_.tif"/>
+                <ab type="dorsal" hand="laterHand">Erbbrief von der <placeName
+                        ref="LOC_46.82704_9.4076">Richenoͧw</placeName>
+                    <lb/>und von <placeName ref="LOC_47.37169_8.63869">Fellanden</placeName>
+                    <lb/><origDate when="1360">1360</origDate></ab>
+            </div>
+        </body>
+        <back>
+            <div>
+                <p>Im Rahmen von Eheschliessungen wurden im Mittelalter verschiedene
+                    Gütertransaktionen getätigt, die insbesondere der langfristigen finanziellen
+                    Absicherung von Frauen dienten. Zu den unterschiedlichen Funktionsweisen solcher
+                    Heimsteuern, Morgengaben und Widerlegungen vgl. den Kommentar zu <ref
+                        target="https://qzh.sources-online.org/exist/apps/qzh/quellenstuecke/QZH_063"
+                        >QZH, Nr. 63</ref>, für weitere Fälle auch <ref
+                        target="https://qzh.sources-online.org/exist/apps/qzh/quellenstuecke/QZH_064"
+                        >QZH, Nr. 64</ref> (1357), <ref
+                        target="https://qzh.sources-online.org/exist/apps/qzh/quellenstuecke/QZH_066"
+                        > QZH, Nr. 66</ref> (1430) und <ref
+                        target="https://qzh.sources-online.org/exist/apps/qzh/quellenstuecke/QZH_067"
+                        > QZH, Nr. 67</ref> (1444).</p>
+            </div>
+        </back>
+    </text>
+</TEI>

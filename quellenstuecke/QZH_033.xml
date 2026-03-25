@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='../../Ressourcen/Stylesheet.xsl'?>
+<?xml-model href="http://www.tei-c.org/ns/1.0" type="application/xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Quellen zur Zürcher Geschichte</title>
+                <respStmt>
+                    <persName>Laura Schmid. Mit einem Kommentar von Rainer Hugener</persName>
+                    <resp key="transcript"/>
+                </respStmt>
+                <respStmt>
+                    <persName>Rainer Hugener und Laura Schmid</persName>
+                    <resp key="tagging"/>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Staatsarchiv des Kantons Zürich</publisher>
+                <date type="electronic" when="2024-04-18"/>
+                <date type="print" when="2024-04-18"/>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Quellen zur Zürcher Geschichte</title>
+                <respStmt>
+                    <persName>Staatsarchiv des Kantons Zürich</persName>
+                    <resp>Herausgeberschaft</resp>
+                </respStmt>
+                <idno>QZH_033</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=346298"
+                            >StAZH C IV 1.5.3 a, Nr. 3</idno>
+                    </msIdentifier>
+                    <head>Erteilung des Marktrechts an die Stadt Kyburg</head>
+                    <msContents>
+                        <summary>Herzog Leopold von Österreich bewilligt dem Schultheissen, dem Rat
+                            und den Bürgern von Kyburg zur Unterstützung der Stadt zwei Jahrmärkte
+                            am 23. April und am 28. Oktober sowie jeweils Dienstags einen
+                            Wochenmarkt. Der Aussteller siegelt.</summary>
+                        <msItem>
+                            <textLang>Deutsch</textLang>
+                            <filiation type="current">Orginal</filiation>
+                            <filiation type="original"><origDate when="1370-01-21"/></filiation>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><material>Pergament</material></support>
+                                <extent><dimensions type="leaves">
+                                        <height unit="cm" quantity="24.0"/>
+                                        <width unit="cm" quantity="28.0"/>
+                                    </dimensions><dimensions type="plica">
+                                        <width unit="cm" quantity="5.0"/>
+                                    </dimensions></extent>
+                            </supportDesc>
+                        </objectDesc>
+                        <sealDesc>
+                            <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1"
+                                nontei:attachment="slit" nontei:condition="absent"/>
+                        </sealDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origDate when="1370-01-21"/>
+                            <origPlace>Schaffhausen</origPlace></origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>
+                    <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+                </p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc> </profileDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+                    <term ref="key000793">Markt</term>
+                    <term ref="key003737">Herrschaftsrechte</term>
+
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <group>
+            <text>
+                <body corresp="Sigle1">
+                    <div>
+                        <pb n="r" facs="C_IV_1_5_3_a__Nr__3.tif"/>
+                        <p><lb/><seg>Wir, <persName role="issuer" ref="GND_136648320"
+                                    >Lu̍polt</persName>, von gottes gnaden herczog ze <placeName
+                                    ref="LOC_Lat_Long">Oͤsterich</placeName>, ze <placeName
+                                    ref="LOC_Lat_Long">Steyr</placeName>, ze <placeName
+                                    ref="LOC_Lat_Long">Kernden</placeName> und ze
+                                    <placeName>Krain</placeName>, graf ze <placeName
+                                    ref="LOC_Lat_Long">Tyrol</placeName>
+                                <abbr>etc</abbr>, <lb/>tuͦn kunt, das wir ze hilfe und ze pesserung
+                                unsrer stat ze <placeName ref="LOC_Lat_Long">Kyburg</placeName> und von manigvaltiger gebresten und
+                                <lb/>notdurft wegen, die in lang zit swerlich angelegen sind, unsern
+                                getrewen, <space unit="characters" quantity="2"/> dem schultheizzen
+                                    <space unit="characters" quantity="2"/>, dem rate und <lb/>den
+                                burgern gemeinlich daselbs, armen und richen, die gnad getan haben
+                                und tuͦn ouch wizzentlich mit disem <lb/>brief, daz si fu̍rbas
+                                eweklich in der <choice>
+                                    <abbr>egen</abbr>
+                                    <expan>egenannten</expan>
+                                </choice> ir stat haben su̍llen und mu̍gen zwen jarmerkt alle jar,
+                                einen <lb/>an sant <persName when="--04-23">Joͤrien</persName> tag
+                                und den andern an <date when="--10-28">sant <persName
+                                        ref="GND_1013804538">Symons</persName> und sant <persName
+                                        ref="GND_118713337">Judas</persName> tag</date> der
+                                zwelfbotten, mit allen rechten, <lb/>wirden und eren, als ander
+                                unser stett in <placeName ref="LOC_Lat_Long"
+                                    >Thurgoͤw</placeName> und in <placeName
+                                    ref="LOC_Lat_Long">Ergoͤw</placeName> ir jarmerkt
+                                gewonlich habent. Si <lb/>su̍llen ouch alle wuchen eins jeglichen
+                                zinstages einen wuchenmerkt haben mit allen rechten und gedinget,
+                                <lb/>als ander unser stet und merkt von alter her gehebt
+                                habent.</seg>
+                            <seg>Da von gebieten wir allen unsern lantvoͤgten, <lb/>voͤgten und
+                                phlegern, gegenwu̍rtigen und ku̍nftigen, den dirre brief gezoͤuget
+                                wirt, und wellen, daz si die <lb/><choice>
+                                    <abbr>egen</abbr>
+                                    <expan>egenannten</expan>
+                                </choice> unser burger by dirr gegenwu̍rtigen unsrer gnad der
+                                jarmerkt und wuchenmerkt vesteklich halten <lb/>und schirmen, daz in
+                                von yeman kain laid, irrung noch ingrif daran bescheche in dhain
+                                wise, wan wir <lb/>vesteklich meynen und wellen, daz si und
+                                    <supplied resp="lau">ir</supplied> nachkomen fu̍rbas eweklich
+                                daby beliben, an alle irrung und hinderung.</seg>
+                            <seg>Und geben in des zuͦ einer ewigen gedechtnuzz disen brief,
+                                versigelten mit unserm ingsigel, <lb/>geben ze
+                                <placeName ref="LOC_Lat_Long">Schafhusen</placeName>
+                                <origDate when="1370-01-21">an <date when="--01-21">sant <persName
+                                            ref="GND_114430704X">Agnesen</persName> tag</date> nach
+                                    Crists gebu̍rde dru̍tzehen hundert <lb/>jar, darnach in dem
+                                    sibentzigisten jare.</origDate>. </seg>
+                        </p>
+                    </div>
+                    <div>
+                        <ab type="chancery_notation"><lb/>
+                            <choice>
+                                <abbr>mgr</abbr><expan>magister</expan>
+                            </choice> curie <lb/>per <persName>Spies</persName></ab>
+                        <!-- Heinrich Spies von Thann, Landvogt in den oberen Landen. -->
+                    </div>
+                    <pb n="v"/>
+                    <div>
+
+                        <ab type="dorsal" hand="hand15c"><lb/>Von <persName ref="GND_136648320"
+                                >herzog Lüpolten</persName>
+                            <lb/> von <placeName ref="LOC_Lat_Long">Österych</placeName>,
+                                <date when="1370">1370</date>.</ab>
+                        <ab type="dorsal" hand="hand17c"><lb/>Jahr- und wuchen-merkhten <lb/>
+                            freyheit zu <placeName ref="LOC_Lat_Long">Kyburg</placeName>.</ab>
+                        <ab type="dorsal" hand="hand18c"><persName ref="GND_136648320">Herzog
+                                Lüpolden</persName> von <placeName ref="LOC_Lat_Long"
+                                >Österreich</placeName> denen von <placeName ref="LOC_Lat_Long">Kyburg</placeName> ertheilte <lb/>jahr-
+                            und wuchen-marcktes-freyheit. <date when="1370">1370</date></ab>
+                        <!-- Frühere Signatur: Trk. 255. Bn. 1. Nr. 7. -->
+                    </div>
+
+
+                </body>
+
+                <back>
+                    <div>
+                        <p>Als Herrschaftssitz und Zentrum der zunächst kyburgischen und dann
+                            habsburgischen Verwaltung kam der Ortschaft
+                            <placeName ref="LOC_Lat_Long">Kyburg</placeName> im Mittelalter trotz
+                            ihrer bescheidenen Grösse eine besondere Funktion zu. So wurden die
+                            Siedlung als Stadt und ihre Bewohner als Bürger angesprochen, die
+                            bestimmte Vorrechte genossen. Bereits 1337 hatte ihnen Herzog
+                            <persName ref="GND_118848399">Albrecht II.</persName>
+                            die Befreiung von Steuern, Fallabgaben und Ehegenossame sowie eine
+                            Beschränkung der Wehrpflicht gewährt (<bibl><ref
+                                    target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id= 279728"
+                                    >StAZH C IV 1.5.3 a, Nr. 1</ref></bibl>). Mit dem vorliegenden
+                            Privileg kam das Recht hinzu, zweimal jährlich einen Jahrmarkt und
+                            jeweils dienstags einen Wochenmarkt durchzuführen. Diese Rechte blieben
+                            bestehen, nachdem die Grafschaft
+                            <placeName ref="LOC_Lat_Long">Kyburg</placeName> 1424 vorübergehend und ab 1452
+                            definitiv an die Stadt <placeName ref="LOC_47.37721_8.52731">Zürich</placeName>
+                            übergegangen war (<bibl>HLS, <ref
+                                    target=" https://hls-dhs-dss.ch/de/articles/000120">Kyburg
+                                    [Dorf]</ref></bibl>).</p>
+                    </div>
+                </back>
+
+            </text>
+        </group>
+    </text>
+</TEI>

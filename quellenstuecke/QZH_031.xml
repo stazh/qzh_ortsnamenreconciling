@@ -1,0 +1,900 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css“?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <respStmt>
+                    <persName>Tessa Gerber. Mit einem Kommentar von Michael Schaffner</persName>
+                    <resp key="transcript"/>
+                </respStmt>
+                <respStmt>
+                    <persName>Michael Schaffner</persName>
+                    <resp key="tagging"/>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <date type="electronic" when="2021-05-01"/>
+                <date type="print" when="2018-12-31"/>
+            </publicationStmt>
+            <seriesStmt xml:id="ssrq-sds-fds">
+                <title>Quellen zur Zürcher Geschichte</title>
+                <respStmt>
+                    <persName>Staatsarchiv des Kantons Zürich</persName>
+                    <resp>Herausgeberschaft</resp>
+                </respStmt>
+                <idno>QZH_031</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4981073"
+                            >StAZH A 27.93, Nr. 141</idno>
+                    </msIdentifier>
+                    <head>Untersuchung gegen Regula Dolder wegen Verdachts auf Kindstötung und
+                        Blasphemie</head>
+                    <msContents>
+                        <summary>Regula Dolder von Meilen wird durch die Nachgänger befragt, nachdem
+                            sie durch den Untervogt von Meilen wegen des Vorwurfs der Kindstötung
+                            verhaftet und nach Zürich geführt worden ist. Neben der Tötung ihres
+                            Kindes wird ihr vorgeworfen, ihre uneheliche Schwangerschaft
+                            verheimlicht und in blasphemischer Weise vom Heiligen Geist gesprochen
+                            zu haben. Im Zuge der Verhöre, die auch die Anwendung der Folter
+                            einschliessen, macht die Angeklagte sich widersprechende Aussagen.
+                            Während sie zunächst bestreitet, den Tod ihres Kindes herbeigeführt zu
+                            haben, legt sie darauf ein Geständnis ab und spricht davon, dass sie vom
+                            Teufel verführt worden sei. Die Tat sei in ihrer Verzweiflung begründet
+                            gewesen, da ihr Bruder ihr das Kind habe entziehen und nach Schwaben
+                            schicken wollen. Zu einem späteren Zeitpunkt widerruft Regula Dolder
+                            jedoch ihr Geständnis und rechtfertigt sich damit, dass sie durch den
+                            Untervogt von Meilen nach ihrer Verhaftung zu entsprechenden Aussagen
+                            gedrängt worden sei. Im Zuge des Verfahrens werden mehrere Personen aus
+                            dem persönlichen und nachbarschaftlichen Umfeld der Angeklagten befragt
+                            sowie Rudolf Gwerb, der Pfarrer von Meilen, um eine Stellungnahme
+                            gebeten. Schliesslich wird Regula Dolder in das Spital verbracht mit der
+                            Begründung, dass ihr gesundheitlicher Zustand eine Befragung bis auf
+                            Weiteres verunmöglichen würde.</summary>
+                        <msItem>
+                            <textLang>Deutsch</textLang>
+                            <filiation type="current">Aufzeichnungen (3 Doppelblätter; 3
+                                Einzelblätter)</filiation>
+                            <filiation type="original"><origDate from="1655-08-10" to="1655-10-26"
+                            /></filiation>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><material>Papier</material></support>
+                                <extent/>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origDate when="1655-08-10"/></origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>
+                    <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+                </p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc> </profileDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+                    <term ref="key005343">Ausserehelicher Geschlechtsverkehr</term>
+                    <term ref="key000482">Blasphemie</term>
+                    <term ref="key003369">Folter</term>
+                    <term ref="key000334">Gefängnis</term>
+                    <term ref="key111114">Kindstötung</term>
+                    <term ref="key003496">Krankheiten</term>
+                    <term ref="key005411">Medizinische Versorgung</term>
+                    <term ref="key000301">Pfarrer</term>
+                    <term ref="key111117">Psychische Krankheit</term>
+                    <term ref="key005333">Schwangerschaft</term>
+                    <term ref="key003559">Spital</term>
+                </keywords>
+            </textClass>
+            <particDesc default="false"/>
+            <settingDesc default="false"/>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <group>
+            <text>
+                <body corresp="Sigle1">
+                    <div>
+                        <pb n="1" facs="A_27_50_5__Nr__8_1__S__1_.tif"/>
+                        <p>
+                            <add place="left top"><lb/>Actum <date when="1655-08-07"> zinstags, denn
+                                    <lb/>7. augusti 1655</date>.</add>
+                        </p>
+                        <p>
+                            <lb/>Demnach gestrigs tags durch den undervogt von <placeName
+                                ref="LOC_Lat_Long">Meilen</placeName>
+                            <lb/>gfängklich allhar gefürt worden <persName>Regula Dolder</persName>,
+                            gebürtig <lb/>von gedachtem <placeName ref="LOC_Lat_Long"
+                                >Meilen</placeName>
+                            <add place="left margin" type="sign">Ruͦdolf Dolders <abbr>sl.</abbr>
+                                tochter</add> und deß Jacob Schmiden von <lb/><placeName
+                                ref="LOC_Lat_Long">Bonstetten</placeName> geweßne ehewürtin,
+                            von der bezüchtigung <lb/>wegen, ob hete sy ihr eigen kindt, <add
+                                place="left margin" type="sign">ein knäblin</add> wüßentlich
+                            ersteckt <lb/>und umbgebracht. Und nun an hüt uff nebentstehenden
+                            <lb/>tag zuͦ ihr in den <placeName ref="LOC_Lat_Long"
+                                >Wellenberg</placeName> gekehrt herr zunftmeister
+                                <lb/><persName>Hanß Balthaßer Keller</persName> und herr raths-herr
+                                <persName>Hanß <lb/>Hartmann Hofmeister</persName>, ihr solche
+                            unthat fürhaltend und <lb/>sy darüber befragende. Hat dieselbe erstens
+                            angezeigt, <lb/>wie sy vor siben jahr ungfahr hochzyt gehalten mit
+                                <lb/><persName>Jacob Schmiden</persName> von <placeName
+                                ref="LOC_Lat_Long">Bonstetten</placeName>, by deme sy sich
+                            ein zyt <lb/>lang zuͦ gedachtem <placeName ref="LOC_Lat_Long"
+                                >Bonstetten</placeName> ufgehalten und sy her<lb break="no"/>nach
+                            etwaß zyts by ihrer 67 jahrigen muͦter, einem <lb/>frommen und
+                            gotts-förchtigen wyb, da sy von <lb/>ihrem mann von etlichen jahren nüt
+                            mehr ghort und <lb/>wüße auch nit, obe er tod oder läbendig, und habe sy
+                            <lb/>sich leider gehënckt an einen gsellen, genant <persName>Ruͦdli
+                                Wetli</persName>
+                            <lb/>von <placeName ref="LOC_Lat_Long">Undermeilen</placeName>,
+                            von deme sy schwanger worden. <lb/>Und <subst>
+                                <del>nach deme</del>
+                                <add place="left margin" type="sign">etlich monat ehe</add>
+                            </subst> daß kind an die welt kommen <add place="left margin"
+                                type="sign">werd künftig samb<lb break="no"/>stags 8 oder 9
+                                wuchen</add> habe der <lb/>vatter sich darvon gemachet und wüße nit,
+                            wo er <lb/>seige. Sy aber, alß sie daß kindt für ihre höchste
+                            <lb/>freüwd gehaltten, seige willens gsyn, ob glych deß <lb/>vatters
+                            usstritt ihren groß hertzenleid verursachet, <lb/>allen müglichisten
+                            flyß in uferziehung deßen anzewanden. <lb/>Zuͦ dem und habe sy es zuͦ
+                            dem <abbr>hl.</abbr> tauf kommen unnd <lb/>zuͦ gevätteren erbitten laßen
+                                <persName>Heinrich Lindinger</persName> unnd <lb/>ihrers bruͦders
+                            frauw. Daß es nun dißeren weg gang <lb/>und ihr lieb kindlin todt, seige
+                            ihre von hertzen leid, <lb/>habe es verschienen sontag abents, vor dem
+                            sy wollen <lb/>schlaffen gahn, mit guͦter rathsame in syn gwarsamme
+                            <lb/>und alß sy in daß <add place="above">beth</add> kommen, ihr an die
+                            lingke syten ge<lb break="no"/>legt und daruf geschlafen. In dem schlaf
+                            seige ihro <lb/>vil angsthaftes yngefallen und da sy lang vor tag <add
+                                place="left margin" type="sign">ungefahr 2 stund</add>
+                            <lb/>widerumb erwachet, habe sy es nit mehr an der syten <lb/>ghan,
+                            sonderen tod in dem beth funden, erachte wol <lb/>es müße zwüschent den
+                            küßenen erstickt syn. Seige ihro <pb n="2" facs="A_27_50_5__Nr__8_1__S__2_.tif"/>
+                            <lb/>gar schwehr fürkommen und hete vil lieber wünschen <lb/>mögen, daß
+                            es noch läbendig were. Seige also mit <lb/>ihrem willen gantz nit
+                            geschehen, bette demütigist, <lb/>mann woltte doch ihr daß kind laßen
+                            zuͦ kommen zuͦ<lb break="no"/>sehen, ob es etwaß zeichens von sich geben
+                            möchte <lb/>uff befragen. Aber ob dann nit schon an ihme ein
+                            <lb/>zeichen gspürt worden, indem, da man es ihro daheimb <lb/>uff den
+                            arm gëben, etliche bluͦts tröpflin uß synem <lb/>nässlin geschoßen und
+                            obe sy deßen, waß sy <lb/>gestern zu vogt <persName>Brendli</persName>
+                            gsagt, nit mehr gestendig. <lb/>Antwortte sy deß ersten halber, daß ein
+                            gschwerli <lb/>in dem kind müße verborgen gsyn <add place="above"
+                                >syn,</add> waß dann sy zu <lb/>vogt <persName>Brëndli</persName>
+                            gsagt, seige <add place="above">sy</add> nach bekandtlich, sy habe ihm
+                            <lb/>aber anders nüt können sagen, alß daß sy es an der <lb/>linggen
+                            brust ghan, nit mit dem vorsatz, es zuͦ erstecken. <lb/>Bekenne auch,
+                            daß sy zuͦ ihme geredt, begehre nit länger <lb/>zeleben, wyl ihr kind
+                            tod, der meinung seige sy noch, <lb/>könte wol erachten, sy wurd wenig
+                            lust mehr uff <lb/>dißer welt haben. Jedoch und nachdeme mann <lb/>mit
+                            fründtlichistem ernst sy wyter befraget, hat sy <lb/>endtlichen bekent,
+                            daß sy einen willen darzuͦ ge<lb break="no"/>habt, waß sy aber bewegt,
+                            seige nid gsyn einicher <lb/>haß, den sy zuͦ dem kind getragen, sondern
+                            nebent <lb/>der großen bekümbernuß, deren sy sich angenommen, daß der
+                            <lb/>vatter ussgetretten und daß deßelben fründt sich ihrer <lb/>auch so
+                            gar nid annemmen wollen, lutere böße ufsätz und <lb/>anstiftungen deß
+                            leidigen satans, der allenthalben hie <lb/>laufe und sech, wenn er
+                            verschlinge. Achte wol, sy <lb/>hab schwerlich gesündiget, seige ihro
+                            von hertzen leid, <lb/>wolle gern sterben, hofe zuͦ werden ein kind der
+                                sälig<lb break="no"/>keit, bete, mann wolle ihr sach bald mit gnaden
+                                uß<lb break="no"/>machen und sy nit lang hier liggen laßen. </p>
+                        <p>
+                            <lb/>Daß man aber uff sy argwohne, daß sy namlich <lb/>vor und noch der
+                            geburt daß kind hab wollen verderben, <lb/><del>gehert</del> konne sy
+                            gar nid gestehen, seige zwaren in dem <pb n="3" facs="A_27_50_5__Nr__8_1__S__3_.tif"/>
+                            <lb/>sy schwanger (daß sy aber nit zuͦsyn gewüsst) <add
+                                place="left margin" type="sign">by herrn doctor
+                                    <persName>Gyger</persName>
+                                <lb/>gsyn, von ihme</add>
+                            <lb/>anderer ursachen halber ein tranck begehrt und ihme <lb/>daß wäßer
+                            gebracht, anfangs nit sagend, daß es sy <lb/>angieng. Da habe er sy
+                            befraget, ob die frauw <lb/>schon lang kranck gsyn, sy gesagt, nein, und
+                            ihn gfraget <lb/>obe sy, die frauw, schwanger, der hat es beneinet.
+                            <lb/>In deme habe sy es ihme geoffenbaret, daß es sy <lb/>betreffen
+                            thete. In dem sy genüßen, seigen by ihr <lb/>gsyn 2. wyber und ein
+                            tochter. Daß sy daß kind <lb/>uf den boden gelegt und mit füßen
+                            geschupft, seigen lutere <lb/>uflagen, züget auch hoch, daß ihro niemand
+                            theilhaft <lb/>worden alß vorbemelter <persName>Wetli</persName> und ihr
+                            emann. <lb/>Stunde hierüber uf, fieng ein erbärmbklich gschrey an
+                            <lb/>wegen der bekümbernuß, in die ihre alte muͦtter werde <lb/>von
+                            ihrent wegen gstürtzt werden, prysste glückselig <lb/>die stund, in
+                            deren ihr vatter gstorben, daß er es nit <lb/>erlebt, bate nachmahlen,
+                            mit ihrer sach fürderlich <lb/>in gnaden zuͦylen. </p>
+                            </div>
+                            <div>
+                        <p>
+                            <lb/><abbr>Actum</abbr>
+                            <date when="1655-08-08">mittwuchs, den <lb/>8 Augusti 1655</date>. </p>
+                        <p>
+                            <lb/>Uff nebentstehenden tag sind obbemelte herren wider<lb break="no"
+                            />umb zuͦ der <persName>Regula Dolder</persName> in den <placeName
+                                ref="LOC_Lat_Long">Wellenberg</placeName>
+                            <lb/>kehrt und sy befraget, wie sy daß kind erstekt und <lb/>waß sy
+                            darzuͦ angereitzt habe. Die hat es folgender gstalt <lb/>bekendt: Alß sy
+                            verschienen sontag abents zur ruh sich <lb/>wollen begeben, habe sy
+                            flyßig mit dem kind gebetet, <lb/>daß die lüth ob ihrer camer woll hören
+                            mögen, daruf <lb/>habe sy es, wie ein threüwe mutter thuͦn soll, flyßig
+                            <lb/>versorget. Zwo stund vor tag seige sy erwachet, da <lb/>ihro
+                            einmahls gar schwehr worden, habe daß kind ge<lb break="no"/>nomen uff
+                            den arm<del>en</del>, umb es an der lingken brust <lb/>sugen zelaßen. In
+                            deme hete der bösse geist ihro dermaßen <lb/>zuͦgesetzt, daß sy ihm ehe
+                            gfolget weder dem guͦtten, und <lb/>dem kind den lingken arm
+                            vorsetzlicher wyß an den halß <lb/>gelegt und es getruckt, von dem es
+                            alßo bald in dem sugen <lb/>gestorben. Ein bitterlicher reüwen habe in
+                            demselben by <lb/>ihr yngekehrt, habe daß todte kind an ihr syten gelegt
+                            <lb/>biß am morgen. Verlange sy jetz gar übel biß sy <lb/>widerumb zuͦ
+                            ihm kome, wie sy verhoffe bald geschehen <pb n="4" facs="A_27_50_5__Nr__8_1__S__4_.tif"/>
+                            <lb/>werde in der ewigen freüwd, waß sies aber sy in ver<lb break="no"
+                            />richtung dißer unthat gsyn, wüße sy nit, konne aber er<lb break="no"
+                            />achten, sy müße nit recht bettet haben, daß sy gott <lb/>also fallen
+                            laßen. Zügete nochmahlen hoch, daß sy sich <lb/>mit keinem anderen, alß
+                            dem <persName>Wetli</persName> vergangen, und noch <lb/>deme er, welches
+                            am montag vor liechtmeß beschehen, <lb/>ussgetretten, habe sy etliche
+                            anständ ghan, die sy ehlichen <lb/>wollen, und under anderen einen
+                                <persName>Laubi</persName> von <placeName ref="LOC_Lat_Long"
+                                >Wipkingen</placeName>. <lb/>Habe aber von keinem nüt horen wollen
+                            und obglych wol <lb/>ihro mit der marter getreüwt, man sy auch lehr
+                            ufziehen <lb/>laßen, ist sy doch by obiger ußag verbliben und <lb/>hat
+                            wyters nit bekennen wollen, umb fürderliche uß<lb break="no"/>machung
+                            ihrer sach demütigst bittend.</p>
+
+                        <p>
+                            <lb/>Ihres guͦts halber gab sy dißeren bericht, daß sy habe <lb/>einen
+                            brief von 200 gulden, den zinße ihro ihr bruͦder <lb/><persName>Hartman
+                                Dolder</persName>. Mehr 100 <abbr>lb</abbr>, die besitze ihr muter
+                            <lb/>nach in lybding; habe auch beth, kasten und schone kleider
+                            <lb/>darin, in dem huß, da sy gewohnet im veld, in dem <lb/>huß seigen 2
+                            meitli, <persName>Trini</persName> und <persName>Margreth
+                                Dolder</persName>. </p>
+                        <p>
+                            <lb/>Antwortt <lb/><persName>Regula Dolder</persName> von <placeName
+                                ref="LOC_Lat_Long">Meilen</placeName>
+                        </p>
+                        <p>
+                            <lb/>1. Vom <date when="1655-08-07">7 Augusti 1655</date>. <lb/>2. den
+                                <date when="1655-08-08">8ten dito</date>. </p>
+                        <p>
+                            <lb/>Wylen sy gar schwachen, blöden lybs, <lb/>desgleichen gar
+                            verendërlich in ihren <lb/>reden und zum theil das ansëchen hat,
+                            <lb/>als wenn sy ihrer sinnen halben umb <lb/>etwas verwirth were, ward
+                            ihre <lb/>sach für einmahln ynngestelt und solle <lb/>sy biß uff weitere
+                            verordnung <lb/>in dem spitahl uffgehalten werden. <lb/>Den <date
+                                when="1655-08-18">18 Augst 1655</date>. </p>
+                    </div>
+                    <div>
+                        <pb n="5" facs="A_27_50_5__Nr__8_2.tif"/>
+                        <p>
+                            <lb/>Actum <date when="1655-08-10">frytags, den <lb/>10. augusti
+                                1655</date>. </p>
+                        <p>
+                            <lb/>Herr zunftmeister <persName>Keller</persName> und herr rathsherr
+                                <persName>Hofmeister</persName>
+                            <lb/>sind uff unbentstehenden tag widerumb zuͦ der <persName>Regula
+                                <lb/>Dolder</persName> in den <placeName
+                                ref="LOC_Lat_Long">Wellenberg</placeName> gekert, sy
+                            ernstlich befragende, <lb/>ob sy deßen, waß sy vormahlen bekendt, noch
+                            gichtig und <lb/>ihren darnebent zuͦ gmüt geführt, wie schwer sy sich an
+                            gott <lb/>und einer oberkeit versündigt, wan sy uß einem ungrimten
+                            <lb/>widermuͦt ihr selber unrecht thuͦn woltte, ist sy uff voriger
+                            <lb/>bekandtnuß nit verbliben, sonderen hochzüget, daß sy kein <lb/>hand
+                            an daß kind, es zuͦ erstecken nit angelegt. Sy habe <lb/>verschienen
+                            sontag am morgen zwo stund vor tag daß <lb/>kind gesaugt, in dem seige
+                            sy entschlafen, nach dem sy wider<lb break="no"/>umb erwachet, habe sy
+                            es an ihrer lingken syten tod ligen <lb/>funden, welches ihr gar schwer
+                            fürkommen seige. Daß sy aber <lb/>vor dem anders geredt, seige von
+                            deßwegen geschehen, wyl <lb/>sy zuͦ <placeName
+                                ref="LOC_Lat_Long">Meilen</placeName> eins mahls uberfallen
+                            und naher <placeName ref="LOC_47.37721_8.52731">Zürich</placeName> ge<lb
+                                break="no"/>führt, auch von vogt <persName>Brendli</persName> so
+                            starck an sy gsetzt worden, <lb/>habe sy es uß forcht gethan und
+                            gedacht, wann es joch <lb/>syn müße, wolle sy gern sterben. </p>
+                    </div>
+                    <div>
+                        <pb n="6" facs="A_27_50_5__Nr__8_3__S__1_.tif"/>
+                        <p>
+                            <lb/>Actum <date when="1655-08-10">frytags den <lb/>10. augusti
+                                1655</date>. </p>
+                        <p>
+                            <lb/>Herr zunftmeister <persName>Keller</persName> und herr rathsherr
+                                <persName>Hofmeister</persName>
+                            <lb/>habent uff nebentstehenden tag sich widerumb zuͦ der
+                                <lb/><persName>Regula Dolder</persName> in den <placeName
+                                ref="LOC_Lat_Long">Wellenberg</placeName> verfüegt, sy
+                            ernstlich <lb/>befragend, ob sy deßen, waß sy den 7. und 8<hi rend="sup"
+                                >n</hi>. <lb/>bekandt, noch gstande und ihro darnebent zuͦ gemüth
+                            geführt, <lb/>wie hoch sy sich an gott und der oberkeit versündigen
+                                <lb/><del>wurde</del>, wann sy uß einer ungrimten begird zuͦ sterben
+                            <lb/>ihr selber unrecht <subst>
+                                <del>thuͦn wurde</del>
+                                <add place="inline">thete</add>
+                            </subst>, daß sy nit allein <lb/>die zytliche, sonder auch die ewige
+                            straaf uf sich ziehen <lb/>wurde. Uff dißes nun sagte sy, wyl sy höre,
+                            <lb/>daß sy sich so grob versündigen wurde, wolle sy ihro <lb/>gwüßer
+                            ruhen und es anzeign, wie es hargangen: <lb/>Daß namblich am sontag am
+                            morgen, 2 stund vor tag, <lb/>sy daß kind ufgenommen, anderst yngwunden
+                            und an <lb/>die lingke brust gelegt, es zu saugen, daran seige <lb/>sy
+                            entschlafen, und wie sy widerumb erwachet, habe sy <lb/>es tod liggen
+                            funden, daß hauptlin an ihrer lingken <lb/>syten haltend. Seige also daß
+                            kind nit mit ihrem <lb/>willen gestorben, habe gantz kein hand deßwegen
+                            nit <lb/>an ihns gelegt, mann könne uf dißes kecklich richten, seige
+                            <lb/>zuͦfriden, wie mann es mit ihr mache, werde sy zum <lb/>tod
+                            verurtheilt, so woll sy ihre seel gott bevohlen, werde <lb/>mann ihro
+                            aber das läben schenken, seige sy aber zuͦfriden <lb/>und wolle
+                            schauwen, wie sy sich mit ehren erhalte. Daß sy <lb/>es aber vor dißmol
+                            anderst bekent, seige deßwegen gschehen, <lb/>wyl sy zu <placeName
+                                ref="LOC_Lat_Long">Meilen</placeName> einsmahls überfallen
+                            und naher <placeName ref="LOC_47.37721_8.52731">Zürich</placeName>
+                            <lb/>gführt, auch von vogt <persName>Brendli</persName>, so stark
+                                <del>a</del> in sy gsetzt <lb/>worden, habe sy selber nit gwüsst,
+                            was sy sag, und gedacht, <lb/>wann sy <add place="above">doch</add>
+                            sterben müß, wünschte sy, das es bald geschehe. </p>
+                            </div>
+                            <div>
+                        <p>
+                            <lb/>Actum <date when="1655-08-14">zinstags denn <lb/>14<hi rend="sup"
+                                    >n</hi>. augusti 1655</date>. </p>
+                        <p>
+                            <lb/>Alß beide herren nachgängere widerumb in den <placeName
+                                ref="LOC_Lat_Long">Wellenberg</placeName>
+                            <lb/>gekehrt und ihro die nothurft deß jehnigen, waß durch die
+                            <lb/>ufgenomne kundtschaft sich befunden, für gehalten, mit ernstlich
+                            <lb/>zuͦsprechen die warheit zu bekennen, ist sy anfänglich mit
+                            <lb/>obiger antwortt begegnet. Da mann aber etliche von den
+                            <lb/>kundtschaften <add place="above">ihro</add> für die augen gestelt,
+                            hat sy widerumb <lb/>bekent, daß sy daß kind uf und uff ihre arm
+                            genommen, <lb/>an die lingke brust gesetzt, und mit dem arm
+                            vorsetzlicher <lb/>wyß an den halß getrukt, darvon es gstorben. Ihr
+                            bruͦder <lb/>seige die gröste ursach an dißem jamer, in deme er sy sampt
+                            <lb/>dem kind weg und in daß <placeName ref="LOC_Lat_Long"
+                                >Schwabenland</placeName> schicken wollen.</p></div>
+                                <div>
+                        <pb n="7" facs="A_27_50_5__Nr__8_3__S__2_.tif"/>
+                        <p>
+                            <lb/>Actum <date when="1655-08-15">mitwochs, denn <lb/>15. augusti
+                                1655</date>. </p>
+                        <p>
+                            <lb/>Nebentstehenden tags, am morgen umb 6 Uhren, sind die herren
+                            <lb/>nachgänger widerumb zuͦ ihr, der <persName>Regel Dolder</persName>,
+                            gekehrt, ihro <lb/>zuͦ gmüth gführt ihr grosse hartneckigkeit, in deme,
+                            daß, waß sy <lb/>daß eine mahl bekenne, daß ander widerumb laugne, unnd
+                            <lb/>ihro nach nothurft mit großem ernst zugesprochen, die grundtliche
+                            <lb/>wahrheit zuͦbekennen und hat dieselbig hierüber dissere ant<lb
+                                break="no"/>wortt gegeben. Sy wolle uff dem läben und sterben, daß
+                            <lb/>sy gantz <add place="above">keins</add> schuld an ihres kindts tod
+                            nit trage, könte über <lb/>ihr gwüßne nit bringen anders zuͦsagen, mann
+                            werde, ob gott <lb/>woll, sy auch nit zwingen, ihr gwüßen anzeliegen und
+                            zesagen, <lb/>waß nit seige. Hieruf ist sy uff daß bänckli geseßen
+                            <lb/>und by ußstehung nebentstehender marter<note>Das in der Marginalie
+                                befindliche Zeichen signalisiert, dass die Angeklagte zwei Mal
+                                aufgezogen wurde: einmal leer und einmal mit einem Gewicht
+                                    (<q>stein</q>) an den Füssen.</note> uff obiger be<lb break="no"
+                            />kandtnuß bestendige verharret, daß sy aber die unzimmenden <lb/>wort,
+                            die in der kundtschaft verzeichnet, ußgelassen, ist <add place="above"
+                                >sy</add> be<lb break="no"/>kandtlich gsyn und obglych ihr mit dem
+                            anderen stein ge<lb break="no"/>dreüwt worden, <del>ist</del> hat sy
+                            doch die meinung nit enderen <lb/>wollen.</p></div>
+                            <div>
+                        <p>
+                            <lb/>Actum <date when="1655-08-17">frytags, den 17<hi rend="sup">n</hi>.
+                                <lb/>augusti 1655</date>. </p>
+                        <p>
+                            <lb/>Alß mann derselben in dem <placeName ref="LOC_Lat_Long"
+                                >Wellenberg</placeName> noch wyters fürgehalten, waß mann
+                            <lb/>mehrers durch kundtschaft vernommen, ist sy nochmahlen (halb tod)
+                            by <lb/>obiger ußag verbliben, daß sy namblich uff dem sterben wolle,
+                            daß sy kein <lb/>schuld an deß kindts tod nit trage. Obe aber sy es grad
+                            nach der geburth <lb/>mit den füßen under daß beth geschürpft, wolle sy
+                            nit laugnen, es auch nit <lb/>bejahen, dann sy damahlen wegen großer
+                            schwachheit, forcht und bekümbernuß <lb/>nit gwüst, waß sy gethan. </p>
+                        <p>
+                            <lb/>Antwort <lb/><persName>Regula Dolderin</persName> von <placeName
+                                ref="LOC_Lat_Long">Meilen</placeName>
+                            <lb/>3 den <date when="1655-08-10">10<hi rend="sup">ten</hi>. augusti
+                                1655</date>, <lb/>4 den <date when="1655-08-14">14<hi rend="sup"
+                                    >ten</hi>. <abbr>dto</abbr></date>, <lb/>5 den <date
+                                when="1655-08-15">15<hi rend="sup">ten</hi>.
+                            <abbr>dto</abbr></date>, <lb/>6 den <date when="1655-08-17">17<hi
+                                    rend="sup">ten</hi>. <abbr>dto</abbr></date>. </p>
+                    </div>
+                    <div>
+                        <pb n="8" facs="A_27_50_5__Nr__8_4__S__1_.tif"/>
+                        <p>
+                            <lb/>Actum <date when="1655-08-14">zinstags, denn <lb/>14<hi rend="sup"
+                                    >n</hi>. augusti 1655</date>. </p>
+                        <p>
+                            <lb/>Durch beide herren nachgängere ufgenommene kundtschaften <lb/>wegen
+                            der in verhaft ligenden <persName>Regula Dolder</persName> von
+                                <lb/><placeName ref="LOC_Lat_Long">Undermeilen</placeName>.
+                            Und sagtend die manspersohnen by ihren <lb/>lyblich geschwornen eiden,
+                            die wybspersohnen aber by <lb/>ihren wyblichen treüwen, namblich: </p>
+                        <p><lb/>Undervogt <persName>Brëndlin</persName> von <placeName
+                                ref="LOC_Lat_Long">Meilen</placeName></p>
+                        <p>
+                            <lb/>Nach deme mann ghört, daß daß kind tod, habe mann also bald
+                            <lb/>den argwohn uf sy, die mutter, gworfen, samb sy hand <lb/>an irs
+                            gelegt, es zuͦ erstecken, wyl sy, wie er hören sagen, <lb/>niemahlen
+                            wollen bekennen, daß sy schwanger, immerzuͦ ge<lb break="no"/>artznet
+                            und mann auch vermeint, wan sy können hett, sy <lb/>es grad nach der
+                            geburt verwahrloßet hete, weßwegen <lb/>ylents zuͦ ihro geschickt worden
+                            2 gschworne, sy zeverwahren. <lb/>Nach deme seige er selber zu ihro
+                            gangen, daß kind, welches <lb/>schon kalt und erstarret, besichtiget und
+                            ein blauw mössli <lb/>an dem hälssli nit wyt von der gurgel funden,
+                            daruf <lb/>habe er es laßen ußwinden und der mutter uf die arm
+                            <lb/>geben, da seigen uß deßen rechtem naßlöchlin etliche tröpfli
+                            <lb/>häll bluͦt geschoßen, worüber sy sehr erschrocken. Als man <lb/>sy
+                            naher <placeName ref="LOC_47.37721_8.52731">Zürich</placeName> gführt, habe
+                            er anderer gscheften halber <lb/>auch hinyn müßen, seige zuͦ <placeName
+                                ref="LOC_Lat_Long">Küßnacht</placeName> auch in daß schiff
+                                ge<lb break="no"/>stigen unnd gar fründtlich ihro zugesprochen, daß
+                            sy denn <lb/>fehler erkenne. Die habe anfängklich nit gestehen wollen,
+                            <lb/>daß daß kind mit ihrem willen unnd zuͦthuͦn erstickt, da sy
+                            <lb/>aber noch by der statt, seige sy in sich selber gegangen unnd
+                            <lb/>bekent, daß sy es uf den lingken arm genommen, an die lingke
+                            <lb/>brust gesetzt unnd daran truckt, biß es gestorben. Da habe <lb/>er
+                            sy befraget, ob es auch zablet und geschreüwen, habe sy <lb/>gsagt,
+                            nein, aber es habe ein wenig gränelet. Darüber <lb/>ihne, vogt,
+                            gebetten, er wolle ein mittel syn, daß ihre sach <lb/>ehist mit gnaden
+                            ussgemachet werde. </p>
+                        <p><lb/><persName>Heinrich Sutz</persName>, seckelmeister zuͦ <placeName
+                                ref="LOC_Lat_Long">Meilen</placeName></p>
+                        <p>
+                            <lb/>Mann habe ihro etliche tag vor der <abbr>hl.</abbr> pfingsten weg
+                            <lb/>botten zuͦ <placeName ref="LOC_Lat_Long"
+                            >Meilen</placeName>, wyl sy daselbst ihr rechtsame vermannet, <lb/>ihr
+                            bruͦder aber, ob glych er sy uß synem huß gethan, habe ge<lb break="no"
+                            />beten, mann wolte sy, alß ein kranck, blöd mensch, nach ein zyt <pb
+                                n="9" facs="A_27_50_5__Nr__8_4__S__2_.tif"/>
+                            <lb/>lang dulden, daß geschehen. Nachdem er ghört deß kindli hin<lb
+                                break="no"/>scheid und waß die lüth darüber urtheilind, habe er es
+                            dem <lb/>vogt angezeigt, der darüber einen stillstand halten lassen.</p>
+                        <p><lb/><persName>Hanß Räbman</persName>, ihr nachpur</p>
+                        <p>
+                            <lb/>Sy habe immerzuͦ glauͦgnet, daß sy schwanger, er seige mit ihro
+                            <lb/>naher <placeName ref="LOC_47.37721_8.52731">Zürich</placeName> gfahren
+                            und von ihro, alß gar nach by ihr sitzend, <lb/>ghört, waß der vogt
+                            anzeigt unnd obstaht. </p>
+                        <p><lb/><persName>Hanß Wetli</persName>, deß kindts vatters vetter</p>
+                        <p>
+                            <lb/>Sy habe in dem schif geredt, wann sy lyb unnd seel müße ver<lb
+                                break="no"/>lieren, seige niemand daran schuldig, alß ihrer bruͦder
+                                <persName>Hartmann</persName>, <lb/>der ihro den
+                                <persName>Wetli</persName> nit lassen wöllen. Habe daß bluͦt an
+                            <lb/>der windlen auch gsehen und in dem schiff auch ghört, daß <lb/>sy
+                            gegen dem vogt bekent, wie obstaht. </p>
+                        <p><lb/><persName>Caspar Wyman</persName> von <placeName
+                                ref="LOC_Lat_Long">Meilen</placeName></p>
+                        <p>
+                            <lb/>Vogt <persName>Brendli</persName> habe gar fründtlich in dem schiff
+                            mit ihro gredt <lb/>und habe sy alldort bekendt, wie obvermeldt. </p>
+                        <p><lb/><persName>Aneli Bleüwler</persName>, ihr nachpürin</p>
+                        <p>
+                            <lb/>Sy seige an einem mitwuͦchen zuͦ ihr kommen, ihr geklagt, wie
+                            <lb/>kranck sy were, daß sy aber schwanger nimmer gestehen wollen,
+                            <lb/>und disse ungrimte wort ussgelaßen, wann sy <del>se</del>
+                            schwanger, <lb/>seige es ihro von dem <abbr>hl.</abbr> geist hyngsegnet.
+                            Am sambstag daruf, <lb/>2 stund, ehe sy geneßen ohngfahr, seige sy by
+                            ihr gsyn, sy heimb<lb break="no"/>zesuchen, die habe triax<note>Triax
+                                oder Theriak bezeichnete ein vormodernes Arzneimittel, dessen genaue
+                                Inhaltsstoffe und Zusammensetzung variierten. Vgl. <bibl>Idiotikon, <ref target="https://digital.idiotikon.ch/idtkn/id14.htm#!page/140039/mode/1up">Bd.
+                                14, Sp. 39</ref></bibl>.</note> von ihr begehrt, dene sy ihr auch geben
+                            <lb/>woruf sy gar blöd worden. Wie daß kind gestorben, habe sy <lb/>ihro
+                            auch grüft und sich eben mechtig übel ghebt. Sy, zügin, habe <lb/>daß
+                            kind besichtiget, daß noch warm gsyn, habe aber nüt ungrads an ihme
+                            funden, alß ein klein blauw mössli an dem hälssli, habe <lb/>auch
+                            gsehen, daß uß synem nässli gefloßen 2 oder 3 tröpfli bluͦts und seige
+                            daß kind damahlen schon bstabet gsyn. </p>
+                        <p><lb/><persName>Barbel Murer</persName>, auch ihr nachpürin</p>
+                        <p>
+                            <lb/>Sy habe immerzuͦ geartzent, wyl sy schwanger gsyn, auch daß <lb/>sy
+                            es seige, niemahlen bekennen wöllen, sonder immerzuͦ gsagt, sy <lb/>habe
+                            etwaß getruncken, daß ihr solch unglegenheit mache. Ihres <pb n="10" facs="A_27_50_5__Nr__8_4__S__3_.tif"/>
+                            <lb/>bruͦders tochter habe gesehen, daß sy bald nach demme sy ge<lb
+                                break="no"/>neßen, daß kind under daß beth geschlingget, daß voller
+                            <lb/>kodt unnd bschißen worden, welchs zügin <persName>Barbara
+                                Murer</persName>
+                            <lb/>selbs widerumb gewëschen und gerathsammet habe. Daß <add
+                                place="above">daß</add> todte <lb/>kind <del>hab</del> ein blauw
+                            mössli an dem halssli ghan, habe sy gsehen. </p>
+                        <p><lb/><persName>Anna Guggenbüel</persName>, ihr nachpürin</p>
+                        <p>
+                            <lb/>Wie oben von <persName>Barbara Murer</persName> anzeigt worden,
+                            auch daß <lb/>sy vil träncke yngenommen von krüteren, habe vehrner von
+                            <lb/>ihro ghört die ungrimten wort, wie ob von <persName>Aneli Bleüw<lb
+                                    break="no"/>ler</persName> vermalt, daß kind gsehen im herd
+                            ligen, wie es aber <lb/>gestorben, habe sy bezügt, daß sy daran nit
+                            schuldig. </p>
+                        <p><lb/><persName>Catharina Dolder</persName>, uß ihrem huß</p>
+                        <p>
+                            <lb/>Obzwahren sy sich immerzuͦ kranck gestelt, habe sy doch niemahlen,
+                            <lb/>auch gegen dem herren pfarrer zu <placeName
+                                ref="LOC_Lat_Long">Meilen</placeName> nit, gestehen wollen
+                            <lb/>daß sy schwanger oder jemandesse theilhaft worden. Ihres
+                            <lb/>bruders tochter, die by ihr gsyn, da <add place="above">sy</add>
+                            geneßen, habe gesehen, <lb/>wie ungrimt sy sich erzeigt. Es habe auch
+                            herr pfarrer <lb/>darüber bevolhen, daß mann sy wol vergaume, dann sy
+                            <lb/>schwermütig seige, sonsten habe sy daß kind mehr dann wie
+                            <lb/>geliebet und habe sy großere liebe von keiner muter nie
+                            <lb/>gesehen. Am sontag abents habe sy flyßig mit ihme gebetten, <lb/>am
+                            morgen, vor betzyt, kome sy zuͦ ihnen hinuf gelaufen, <lb/>es todt uff
+                            den armen haltend, sy gebetten, sy wollind doch <lb/>sagen, daß sy daß
+                            kind habind gsehen sterben, darzuͦ sy nit <lb/>versehen wöllen. Habint
+                            an deß kinds hälssli gsehen ein <lb/>blauw mössli <del>mössli</del> und
+                            uß synem nässli ein tröpflin <lb/>bluͦt uf die windlen schießen. Hab
+                            etlich wuchen darnach <lb/>uf dem fuͦß gelaßen. </p>
+                        <p><lb/><persName>Margretha Dolder</persName></p>
+                        <p>
+                            <lb/>Ein glyches. </p>
+                        <p><lb/><persName>Maria Schuldtheiß</persName></p>
+                        <p>
+                            <lb/>Habe die <persName>Regul</persName> auch wollen heimbsuchen, da sy
+                            genessen, <lb/>die sy im beth funden, daß kind aber wyt von dem
+                            <lb/>bath im herd ligend, wie tod. Ihm habe sy wyn angfertigt <lb/>und
+                            der <persName>Barbel Murer</persName> übergëben, die es widerumb ge<lb
+                                break="no"/>rathsammet. </p>
+                        <pb n="11" facs="A_27_50_5__Nr__8_4__S__4_.tif"/>
+                        <p>
+                            <lb/>Actum <date when="1655-08-17">frytags, denn <lb/>17. augusti
+                                1655</date>. </p>
+                        <p><lb/><persName>Hartmann Dolder</persName>, der verhaften bruͦder</p>
+                        <p>
+                            <lb/>Zeiget an, er habe nit gwüsst, daß der <persName>Wetli</persName>
+                            so vil mit ihro ze schaffen <lb/>ghan. Daß er sy nit mehr in dem huß
+                            dulden wollen, seige die <lb/>ursach gsyn deß hußes engi. Sy habe vernd
+                            auch koret mit <persName>Ruͦdi <lb/>Meyer</persName> von <placeName
+                                ref="LOC_Lat_Long">Üetikon</placeName>. Habe, syt sy geneßen,
+                            niemahlen mehr mit <lb/>ihro geredt (der bruͦder). </p>
+                        <p><lb/><persName>A. Dolder</persName>, bruͦders tochter</p>
+                        <p>
+                            <lb/>Bestetiget by ihren wyblichen treüwen, daß inheige, waß sy <lb/>dem
+                            vogt <persName>Brendli</persName> angezeigt und er es in schrift
+                            überschickt. </p>
+                        <p>
+                            <lb/>Ufgenomene kundtschaften <lb/>wegen <persName>Regel
+                                Dolder</persName> von <placeName ref="LOC_Lat_Long">Under<lb
+                                    break="no"/>meilen</placeName>, <date when="1655-08-14">14
+                                    <abbr>Aug.</abbr> 55</date>. </p>
+                    </div>
+                    <div>
+                        <pb n="12" facs="A_27_50_5__Nr__8_5__S__1_.tif"/>
+                        <p>
+                            <lb/>Wol, edle, fromme, ehren- und nottveste, fürsichtege, <lb/>fürnëme
+                            und wol wyse, insonders hocherende, <lb/>groß günstege <abbr>gn.</abbr>
+                            in minen <abbr>h.</abbr>, den sälben sy mynen <lb/>underthenege, auch
+                            schuldege und jeder zit bereitwylege <lb/>dienst zuͦ vor. Ehs hatt mir
+                            gestergs tags meyster <lb/><persName>Jacob Burkhart</persName>, der durn
+                            hüetter, bevollen, ich söli <lb/>der verhafften <persName>Rägula
+                                Dolderin</persName> ires bruͦders, des <lb/><persName>Hartmann
+                                Dolders</persName>, dochter gebieten, dz sy uff hütt <lb/>vor eüch,
+                            min <abbr>gn. h.</abbr> ehrschinen deuten, welechs ich flisig
+                            <lb/>verrichtett. Es bitett aber sy, die dochter, mich ganzs
+                            <lb/>drungelich, sambt ierm hochziter und fründschafft, mann <lb/>iren
+                            fehrschonen, wilen sy sich gestern laßen insägnen <lb/>und ehlichen
+                            hochzit gehalten. Sy welich doch gern vor <lb/>mir und andern ehlichen
+                            personen anzeigen, waß ir <lb/>bäse im geberen ires kinths begangen und
+                            wann <lb/>dan <add place="left margin" type="sign">sy</add> dz nit
+                            gestehen weli oder ir unsser <abbr>gn. h.</abbr> begäri, <lb/>daß sy
+                            ehrschienen söli, weli sy sölchs gern thuͦen. Und <lb/>zeigt hiemit vohr
+                            mir und filen ehrlichen lüten an, <lb/>daß ir <del>bäs</del> bässe, die
+                                <persName>Rägula Dolder</persName> jeder zit glaug<lb break="no"
+                            />net, sy syge nit schwanger und habe mithin sahen brucht,
+                            <lb/>inzunëmmen, sy habe sonst ein krankheit. Uff ein zit <lb/>syge sy
+                            by ir in den khammer gsin, do syge sy ab dem <lb/>bet uff gstanden und
+                            habe <del>deß</del> dz kindt ständlingen <lb/>geboren und syge die
+                            geburtt uff dem <subst>
+                                <del>herdt</del>
+                                <add place="left margin" type="sign">boden</add>
+                            </subst> glëgen, <lb/>welchs sy, <add place="left margin" type="sign"
+                                >die zügin</add>, gar übel ehrschroken und nit gwüst, waß das
+                            <lb/>werden weli. Ehs habe aber sy, die <persName>Rägel</persName>
+                            <del rend="strikethrough">die ge</del>, das <lb/>kindt mit den feüssen
+                            gestirzst und geschupfett. <lb/>So heige dz kindt als baltt angfangen
+                            schryen, <lb/>umb welichs sy, die zügin, nach mehr ehrschroken und
+                            <lb/>ehrst gehörtt, dz es ein kindt ist. Syge sy, die zügin, <lb/>uß der
+                            khammer heruß gsprungen und den nachburs <lb/>wiberen gerufft und sy
+                            vermannt gschwint zelauffen, <lb/>welchs sy, die wiber, auch gschwindt
+                            gethon. Diß syge ir <lb/>zewüßen, welichs ich nit ehrmanglen wilen,
+                            eüch, min <abbr>gn. h.</abbr>
+                            <lb/>mit mehrheit zebrichten, darby die <abbr>h.</abbr> in gottes
+                            <lb/>gnedegen schutzs und schirmm und ich mich zuͦ iren großen gonsten
+                            <lb/>thrüwlich empfellen thuͦn. Uß <placeName ref="LOC_Lat_Long"
+                                >Meyllen</placeName>, den <date when="1655-08-15">15ten augsten
+                                <lb/>1655</date>. </p>
+                        <p>
+                            <lb/>Den <abbr>h.</abbr> undertheneger und gehorsammer <lb/>diener,
+                                <lb/><persName>Hanß Brändli</persName>. </p>
+                        <p><pb n="13" facs="A_27_50_5__Nr__8_5__S__2_.tif"/><!-- leere Seite --></p>
+                        <p><pb n="14" facs="A_27_50_5__Nr__8_5__S__3_.tif"/><!-- leere Seite --></p>
+                        <p><pb n="15" facs="A_27_50_5__Nr__8_5__S__4_.tif"/></p>
+                        <p>
+                            <lb/>Dem wol edlen, frommen, <lb/>ehren und notvesten, für<lb break="no"
+                            />sichtegen, <lb/>fürnämen und wol <lb/>wysen <abbr>h. h.</abbr> junker
+                                zunfft<lb break="no"/>meister
+                            <persName>Fäller</persName><!-- Identifikation noch unklar --> und
+                                <abbr>h.</abbr>
+                            <lb/>raths heren <persName>Hoffmeister</persName>, <lb/>einem insonders
+                            hochen, <lb/>groß günstegen, gnedegen, <lb/>lieben heren zu ehr
+                            <lb/>öffnen. <lb/>Dito <placeName ref="LOC_Lat_Long"
+                                >Zürich</placeName>. </p>
+                    </div>
+                    <div>
+                        <pb n="16" facs="A_27_50_5__Nr__8_6__S__1_.tif"/>
+                        <p>
+                            <lb/>Hoch-geacht, gestreng, fromm, edel, vest, ehrn- und nothvest für<lb
+                                break="no"/>nemm, fürsichtig, ehrsamm und weyß, innsonders
+                            gross-günstig, hoch-<lb/>ehrend, gnädig, gebiettend herren, <abbr>e.
+                                e.</abbr> weyßheit seyend <lb/>mein freündtlich gruͦß, gehorsamme,
+                            schuldige und willige dienst, <lb/>ungespartes fleysses, in aller
+                            underthänigkeit, yeder zeyt bevor. <lb/>Dises geschicht <abbr>e. e.
+                                w.</abbr> auff ihrn genädigen befehl, welchen nächts <lb/>abets
+                            unser undervogt <persName>Brändle</persName> bey mir schrifftlich wol
+                            abgelegt <lb/>wegen <persName>Regeln Dolder</persName>, ab dem
+                                <placeName ref="LOC_Lat_Long">Meiler-Veld</placeName>,
+                            schuldig und gehor<lb break="no"/>sammlich zuberichten. Dise
+                                <persName>Regel</persName> ist in 3. 4. wochen vor der <lb/>ostern
+                            diß jars zuͦ mir kommen, etwas schwachheit des leybs kla<lb break="no"
+                            />gende <lb/>und raht begehrende. Weyl aber ihr klagen mich etwz
+                                verdäch<lb break="no"/>tigs beduncken wöllen, hab ich sy mit dem
+                            bscheid abgefertiget, daß <lb/>ich sy mit erster gelegenheit selb
+                            besuͦchen und alsdann recht ver<lb break="no"/>hören wölle, welch es
+                            dann auch beschehen. Underzwüschet aber <lb/>hatt seckelmeister
+                                <persName>Sutz</persName>, im <placeName>Veld</placeName> im
+                            stillstand angemeldet, es <lb/>were guͦt, mann wurde dise
+                                <persName>Regel Dolderin</persName> wider weysen, wo <lb/>sy
+                            harkommen und wo ihr man daheimen, damit nit ehrliche <lb/>knaben mit
+                            ihr in ein böß geschrey und verdacht kommind, wie seinem <lb/>sohn schon
+                            widerfahren seye. Hierauff der stillstand disen ein<lb break="no"
+                            />hälligen schluß gemachet, daß sy noch vor ostern das veld rau<lb
+                                break="no"/>menn söllt<del>end</del>. Nach solichem des
+                                <persName>Suzen</persName> fürbringen und schluß <lb/>des
+                            stillstands hab ich dise <persName>Dolderin</persName> besuͦcht, in
+                            gegenwart der <lb/>2 töchteren, bey denen sy zuͦhauß war, und
+                                <persName>Hans Jacob Hoff<lb break="no"/>mans</persName> frauwen
+                            (dißmahl zu <placeName ref="LOC_Lat_Long"
+                                >Wättischweyl</placeName> wohnend), all dreyen <lb/>ehrlichen und
+                            unverlaumbdeten menschen, ihr klagen angehört <lb/>und endtlich sy also
+                            angeredt: Wenn es seye, wie die leüth sagind, so <lb/>seye sy schwanger
+                            und dahar komm ihre schwachheit. Hatt sy träff<lb break="no"/>lich dafür
+                            gelaügnet, sy wüsse von keinem man, sey auch keinsen <lb/>schuldig. Ihr
+                            vetter, seckelmeister <persName>Sutz</persName>, hab ihro einen solichen
+                            ruͦf ge<lb break="no"/>machet und mit dergleychen mehr worten hatt sy
+                            ihr unzucht ver<lb break="no"/>neinet: Ich kan mich aber nit mehr wüssen
+                            zuͦ gedencken, ob sy <lb/>domahl die angedeütteten wort vom
+                                <abbr>h.</abbr> geist gebraucht habe, <lb/>mein schwache gedächtnus
+                            lasset manches wider meinen <lb/>willen fallen. Doch sind die drey
+                            angeregten, domahl anwesen<lb break="no"/>den weybs-persohnen bey mir in
+                            dem credit, daß ihrer <lb/>aussag wol zuͦtrawen, dann sy und ich habend
+                            diser <persName>Regel</persName> mit <lb/>ernst zuͦgesprochen, wenn
+                            etwas vorgangen, solle sys uns be<lb break="no"/>kennen, so sey ihro
+                            dest besser zhelfen. Hatt aber do noch hernach, <lb/>als ich in 1. 2.
+                                <add place="left margin" type="sign">mahl</add> wider besuͦcht, nüt
+                            bekennt, sonder nur auff <lb/>arzney getrungen, damit sy wider von ihrer
+                            schwachheit ge<lb break="no"/>näsen möge <abbr>etc</abbr>. Sonst die
+                            treffen und gottslesteren wort be<lb break="no"/>träffend, habend mit
+                            die zwey obgedachten hauß-meittle <lb/><persName>Cathri</persName> und
+                                <persName>Verena Dolderin</persName>, item der
+                                <persName>Regeln</persName> bruͦders fraw, an <lb/>dem tag, do sy
+                            ihr kind sol umbgebracht haben, auch gesagt, daß sy <lb/>die wort auß
+                            ihrem mund selbs gehört habind. </p>
+                        <p>
+                            <lb/>Zu der zeyt, als die <persName>Regel</persName> ihrens kinds
+                            genäsen, hab ich sy <lb/><add place="left margin">etlich tag
+                                darnach</add> abermahl besuͦcht, aber bey ihro funden, dz sy vilmehr
+                            tröstlichen <pb n="17" facs="A_27_50_5__Nr__8_6__S__2_.tif"/>
+                            <lb/>zuͦsprächen, als ein ernstlich erinneren ihres begangnen fehlers
+                            von <lb/>nöthen hatte. Söliche leidige thaatt hett ich ihren nit
+                            vertrauwet. <lb/>Dann, als ich bey 14. tagen ungefahr <add place="above"
+                                >ihro</add> angedeüttet, sy werde fillicht <lb/>mit gelegenheit für
+                            ein ehrsamm eegericht citiert werden, sy köne <lb/>sich deshalben
+                            bedencken, die waarheit bekennen und unser ge<lb break="no"/>nädig
+                            herren demütig umb verzeyhung bitten, so werd ihro gewüß <lb/>genad
+                            widerfahren, hatt sy zur selben zeyt vil von ihrm kind ge<lb break="no"
+                            />redt, wie es so wol
+                            drue<!-- msr: sich entwickeln, wachsen, stark werden (vgl. Idiotikon 14, 718) -->,
+                            wie lieb es ihro seye und dz sys dem <lb/><persName>Wetle</persName> nit
+                            lassen wölle, wenn er sy schon nit zur ee haben müsse. <lb/>Sy hab ihr
+                            sach auff gott gesezt, wenn schon yedermann über sy schreye. Das
+                            <lb/>und anders redt sy abermal in beyseyn ihrer hauß-meittlin und
+                            <lb/>das ist also dessen <abbr>e. e.</abbr> weyßheit ich schuldig und
+                            willig, der <persName>Regel <lb/>Doldern</persName> halben hab berichten
+                            sollen und wöllen. </p>
+                        <p>
+                            <lb/>Hiemit <abbr>e. e. w.</abbr> göttlicher gnaden-schirm und derselben
+                            <lb/>mich, ihrn geringen diener, zu beharrlichen gunsten, demütigst
+                            <lb/>und underthänigst, befehlend. <abbr>Dat</abbr>
+                            <placeName ref="LOC_Lat_Long">Meilen</placeName>, <date
+                                when="1655-08-17"> den 17. <abbr>aug</abbr> 1655</date>. </p>
+                        <p>
+                            <lb/><abbr>E. e.</abbr> weysheit <lb/><choice>
+                                <abbr>underth.</abbr>
+                                <expan>underthenig</expan>
+                            </choice>
+                            <choice>
+                                <abbr>gehors.</abbr>
+                                <expan>gehorsam</expan>
+                            </choice> und <choice>
+                                <abbr>w. d.</abbr>
+                                <expan>willig diener</expan>
+                            </choice>
+                            <lb/><persName ref="GND_128511745">Ruͦdolf Gwerb</persName>, <lb/>diener
+                            der kilchen daselbsten. </p>
+                    </div>
+                    <div>
+                        <pb n="18" facs="A_27_50_5__Nr__8_7__S__1_.tif"/>
+                        <p>
+                            <add place="left top">Actum frytags, den <date when="1655-10-26">26ten
+                                    octobris <lb/>a<hi rend="sup">o</hi>. 1655</date>. <choice>
+                                    <abbr>Prentbs</abbr>
+                                    <expan>Presentibus</expan>
+                                </choice> herr zunfftmeist<lb break="no"/>er
+                                    <persName>Keller</persName>, herr zunfftmeister
+                                    <lb/><persName>Wirtz</persName> und herr vogt
+                                    <persName>Rahn</persName><!-- msr: wahrscheinlich nicht in GND -->.</add>
+                        </p>
+                        <p>
+                            <lb/>Wie jetzt etwas zyts lang im spittal enthaltene
+                                <lb/><persName>Regula Dolderin</persName> von <placeName
+                                ref="LOC_Lat_Long">Meilen</placeName> ist uß erkhandtnuß
+                            <lb/>myner <abbr>gn<hi rend="sup">e</hi> hr</abbr> widerumb in den
+                                <placeName ref="LOC_Lat_Long">Wellen<lb break="no"
+                                />berg</placeName> gesetzt und ihres todtenen kindts, auch
+                            <lb/>ußgesagter gottlosser reden halber, nachmahls <lb/>ernstlichen
+                            befraget und ermahnet worden, <lb/>die grundtliche warheit an zezeigen.
+                            Daruf <lb/>ist sy by ihren vorgehenden zwo ledtsten ussag<lb break="no"
+                            />en antwortlich verbliben, daß sy nammlich<lb break="no"/>en an ihres
+                            kindts <abbr>sel.</abbr> todt mit ihrem wüssen <lb/>und willen kein
+                            einiche ursach nit seige und <lb/>mehrers nit wünschen möchte, dann daß
+                            ihr <lb/>liebes kindt <abbr>sel.</abbr> noch in läben were, wann <lb/>sy
+                            schon nüt anders, dann was sy am lyb trage, <lb/>haben und mit demselben
+                            von einer <del>zum</del> schür <lb/>zur anderen gahn müeßte. Wann sy
+                            sich hier<lb break="no"/>under schuldig wüsste, wolte sy nit mehr
+                            zeleben <lb/>begëhren, dann sy kein rüewige zyt haben konnte. <lb/>Die
+                            gottlossen reden betrëffende, so solle <lb/>der herr pfarrer, wie sy
+                            verstendiget worden, die <lb/>selben also berichtlich angezeiget haben,
+                            daß <lb/>sy geredt, wann sy schwanger, so seige sy nit <lb/>so
+                            gottsellig, daß solliches vom heiligen geist <lb/>harkomme. Sy wüsse
+                            aber nüt darvon, vil <lb/>weniger, daß sy by gebehrung deß kindts
+                                <abbr>sel.</abbr>
+                            <lb/>dasselbe mit ihren fuͤessen geschupft haben <lb/>solte. Daß sy
+                                <del>dann</del> anfangs in ihrer ussag <lb/>ihro selbsten unrëcht
+                            gethan, so seige selbiges <lb/>uß grossem schrëcken, deme sy
+                            underworffen, <lb/>beschëhen. Sonsten pittet sy gantz demütig <lb/>gott
+                            und myn gnedig herren umb verzychung <lb/>ihrer begangnen fehleren, die
+                            ihro threüwlich leid <lb/>seigend, und umb gnedigste derselben ußmach-
+                            <lb/>und ihrer widererledigung. Anerbiethet sich darby <lb/>fürohin
+                            gottsellig, frombklich und ehrlich zehalten <lb/>und niemandem im
+                            gringsten beschwerlich ze<lb break="no"/>syn und sich etwann an ein
+                            ehrlich orth an tisch ze<lb break="no"/>begëben. </p>
+                        <p>
+                            <lb/>Verte. </p>
+                        <pb n="19" facs="A_27_50_5__Nr__8_7__S__2_.tif"/>
+                        <p>
+                            <lb/>Wëgen vorstendter <persName>Regula Dolderin</persName> ist herr
+                                <lb/><persName>Hamman</persName><!-- msr: Pfarrerbuch --> im
+                            spittal, gewessner pfarrer zuͦ <lb/><placeName ref="LOC_Lat_Long"
+                                >Matt</placeName>, in synem bricht was er die zythar by <lb/>ihro
+                            funden habe, verhördt worden. <del>Der hatt <lb/>daruf berichtet</del>
+                            Wellicher gesagt, daß sy ihme <lb/>ihren handel umbstendtlich anzeiget,
+                            wie in <lb/>ihrer ussag mit mehrerem begriffen, und <lb/>seige uff ihren
+                            reden <del>styffe beharret</del> auch in <lb/>ihren grösten
+                            schwachheiten, da ihres lëbens <lb/>kein hoffnung mehr ware <add
+                                place="left margin" type="sign">styff beharret</add>. Sonsten seige
+                            <lb/>sy ein gar schreckhafftes mentsch und hette <lb/>er ihro abthröüwen
+                            und <add place="above">sy</add> beredten können, was <lb/>er nur hette
+                            wöllen, auch einmahl 12 stund <lb/>lang in <foreign xml:lang="la">paroxissmo</foreign>
+                            gelegen. <del>Sunsten</del> Sy <lb/>habe ihme bezüget, daß ihr kind ihro
+                            so lieb <lb/>alß ihr eigen hertz gewessen und desselben <lb/>todt
+                            hertzlich leid sige, auch mehrers nit begëhrte, <lb/>dann daß myn
+                                <abbr>gn. h.</abbr> glych wie unsser <lb/>herr gott ihro in ihr
+                            hertz hinyn sehend. Sy <lb/>wüsse, daß sy gegen ihrem kind niemahl<lb
+                                break="no"/>en nüt bösses nur nit im sinn gehabt habe. <lb/>Er züg,
+                            synes bedunckens finde sy ein mahl <lb/>ihres kindts <abbr>sl.e</abbr>
+                            todt <add place="above">halber</add> unschuldig und könne <lb/>nit
+                            glauben, daß sy hand an dasselbe <lb/>gelegt habe.</p></div>
+                            <div>
+                        <p>
+                            <add place="left margin">Actum zinstags, den <date when="1655-10-30"
+                                    >30ten <lb/>8bris a<hi rend="sup">o</hi> 1655</date>, <choice>
+                                    <abbr>prentbs</abbr>
+                                    <expan>presentibus</expan>
+                                </choice> herr <lb/>zunfftmeister <persName>Keller</persName> und
+                                <lb/>herr rathsherr <persName>Hoffmeister</persName>.</add>
+                        </p>
+                        <p>
+                            <lb/>Nachdem der verhafften <persName>Regula Dolderin</persName> er<lb
+                                break="no"/>offnet, daß myn gnedig <abbr>hrn</abbr> uß allen
+                            umbstenden <lb/>so vil abnemmen mögind, daß sy nit so unschuldig seige
+                            <lb/>an ihres kindts <abbr>sel.</abbr> todt, wie sy aber fürgëben
+                            <lb/>thüege, deßwegen an ihre antwort noch nit kommen <lb/>kömind, darby
+                            aber <add place="above">sy</add> alles ernsts ermahnet <lb/>worden.
+                            Wylen sy alß ein kranck, geschwullenes <lb/>mentsch sich keines anderen
+                            alß deß sterbens in <pb n="20" facs="A_27_50_5__Nr__8_7__S__3_.tif"/>
+                            <lb/>kurtzer zyt ze versechen, daß derowegen sy gott <lb/>und die
+                            oberkheit ehren, ihr hertz gentzlich ruhmen <lb/>und kein beschwerdt
+                            gewissen weder den boden <lb/>tragen, sonders in grundt der wärheit
+                            bekennen <lb/>sölle, wie sy mit ermeltem ihrem kind <abbr>sel.</abbr>
+                                umb<lb break="no"/>zogen hatt. Daruf die selbe antwortlichen
+                            <lb/>bezüget, daß, so war gott im himel lëbe, sy <lb/>die grundtliche
+                                <add place="left margin">warheit</add> fürgegëben und an ihres
+                            lieben <lb/>kindts <abbr>sel.</abbr> todt einiche schuld nit habe, darby
+                            <lb/>wölle sy leben und sterben, und solte gegen <lb/>ihro fürgenommen
+                            werden, was eß auch imer <lb/>were. Damahlen, alß sy sich selbsten
+                                unwahrhafft<lb break="no"/>er wyß an ihres kindts todt schuldig syn
+                            gesagt, <lb/>habe sy weder ruͦch noch rast in ihrem gwiss<lb break="no"
+                            />en gehabt, biß sy die warheit ihrer unschuld <lb/>angezeiget. </p>
+                        <p>
+                            <lb/>Sonsten pittet sy nochmahlen demütigist <lb/>und umb deß jüngsten
+                            gerichts willen myn <lb/>gnedig herren ihren nun mehr lang gewahrten
+                            <lb/>handel gnedigist ussmachen wöllind, wellichen <lb/>wäg eß auch
+                            unsser her gott leithen werde, seige <lb/>sy willig und gedultig, selbes
+                            ußzestehen. <lb/>Ihre begangene fehler seigen ihro hertzlich <lb/>leid
+                            und begëhre darumbe gnedige verzychung, <lb/>wann sy die gnad ihrer
+                            erledigung erlangen <lb/>werde, wolle sy sich selbs ohne jemandts be<lb
+                                break="no"/>schwerdt wol erhalten, wo sy aber zuͦvor wyters
+                            <lb/>solte gemarteret werden, wurde sy zuͦ einem <lb/>gar arbeitsellige
+                            mentschen werden, der ihme <lb/>selbsten nit mehr helffen könndte.</p></div>
+                            <div>
+                        <pb n="21" facs="A_27_50_5__Nr__8_7__S__4_.tif"/>
+                        <p>
+                            <lb/>Antwort <lb/><add place="inline" hand="later hand">8.</add> Regula
+                            Dolderin von <placeName ref="LOC_Lat_Long">Meilen</placeName>
+                            <lb/><add place="below" hand="later hand">wegen ihres todten kinds und
+                                ausgegoßenen <lb/>godtlosen reden. <date when="1655"
+                                >1655</date>.</add>
+                            <lb/>7. Actum <date when="1655-10-26">26ten 8bris A<hi rend="sup"
+                                >o</hi>. <hi rend="underline">1655</hi></date>, <lb/>8. Actum <date
+                                when="1655-10-30">30ten dito</date>. <lb/>Deßglychen herren
+                                <persName>Hammanns</persName>
+                            <lb/>ihrenthalben gegebnen bricht. </p>
+                        <p>
+                            <lb/>Wylen sy gar arbeithsëllig und blöden <lb/>lybs, daß man ihro mit
+                            der marther <lb/>für dißmahlen nit beykommen kan, in <lb/>deßen aber
+                            ihre sach über alle maßen <lb/>schlipfferig und bedenkhlich, alß werd
+                            <lb/>sy für einmahlen widerumb in den <lb/>spitahl erkëndt umbe zuͦ
+                            sëchen, wie <lb/>es sich mit ihro erziechen werde, indeßen <lb/>aber ihr
+                            hab und guͤtli nachgefraget werde. </p>
+                        <p>
+                            <lb/>Actum samstags, den <origDate when="1655-10-19">19. 9bris
+                                1655</origDate>, <lb/>coram senatu. </p>
+                    </div>
+                </body>
+
+                <back>
+                    <div>
+                        <p> Der Fall der <persName>Regula Dolder</persName> von <placeName ref="LOC_Lat_Long">Meilen</placeName> steht exemplarisch für die im
+                            Zeitraum vom 16. bis zum 18. Jahrhundert 
+                            durchgeführten Verfahren wegen des Vorwurfs der Kindstötung. Für weitere
+                            Ausführungen zu diesem Delikt vgl. den Fall der <persName>Anna Oberholzer</persName> (<bibl><ref target="https://qzh.sources-online.org/quellenstuecke/QZH_030">QZH,
+                            Nr. 30</ref></bibl>).</p> <p>Im Zuge der Ermittlungen zu <persName>Regula Dolder</persName> wurden
+                        verschiedene Personen aus dem Umfeld der Angeklagten einvernommen und ihre
+                        Aussagen verschriftlicht. Der dabei von den Schreibern durchgeführte
+                        Redaktionsprozess lässt sich an den vorliegenden Akten beispielhaft
+                        nachvollziehen: Für die Einvernahme vom 10. August 1655 sind zwei
+                        verschiedene Versionen überliefert, von denen die zweite ausführlicher ist. Daraus wird deutlich, 
+                        dass es sich bei den Akten nicht um wörtliche Protokolle, sondern teils mehrfach redigierte Reinschriften handelt. Gleichzeitig ist davon auszugeben,
+                        dass sie sich inhaltlich eng an den Aussagen der einvernommenen Personen orientieren.
+                        So wurde in einer zeitgenössischen Ordnung für die Nachgänger die Pflicht der
+                        Schreiber betont, sämtliche Aussagen getreu
+                        wiederzugeben (<bibl><ref target="https://qzh.sources-online.org/quellenstuecke/QZH_032">QZH, Nr. 32</ref></bibl>).</p></div>
+                </back>
+
+            </text>
+        </group>
+    </text>
+</TEI>

@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='../../Ressourcen/Stylesheet.xsl'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Quellen zur Zürcher Geschichte</title>
+				<respStmt>
+					<persName>Thomas Neukom</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Thomas Neukom</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Staatsarchiv des Kantons Zürich</publisher>
+				<date type="electronic" when="2025-05-01"/>
+			</publicationStmt>
+			<seriesStmt>
+				<title>Quellen zur Zürcher Geschichte</title>
+				<respStmt>
+					<persName>Staatsarchiv des Kantons Zürich</persName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>QZH_100</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4753023">StAZH A 27.3.7, Nr. 39</idno>
+					</msIdentifier>
+					<head>Verzeichnis von Zürchern, die 1525 an der Schlacht bei Griessen beteiligt waren</head>
+					<msContents>
+						<summary>Namentliches Verzeichnis jener Zürcher, die 1525 am Bauernkrieg auf der Seite der Klettgauer teilgenommen haben und auf dem Kirchhof zu Griessen waren, als sich die Klettgauer dem Hause Österreich auf Gnade oder Ungnade ergeben mussten. Aufgezählt werden rund 110 Männer aus den Gemeinden Eglisau, Uhwiesen, Bülach, Weiningen, Oberglatt , Buch am Irchel, Kloten, Wil bei Rafz, Hüntwangen, Rafz, Wasterkingen. 13 Mann sollen umgekommen sein.</summary>
+						<msItem>
+							<textLang>Deutsch</textLang>
+							<filiation type="original"><origDate when="1525-11"/>ca.</filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support><material>Papier</material></support>
+								<extent/>
+							</supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin><origDate when="1525-11">ca.</origDate></origin>
+					</history>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<editorialDecl>
+				<p>
+					<ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+				</p>
+			</editorialDecl>
+		</encodingDesc>
+		<profileDesc> </profileDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term ref="key003587">Bauern</term>
+					<term ref="key000266">Krieg</term>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div> 
+						<pb n="1" facs="A_27_3_7__Nr__39__S__1_.tif"/>
+						<head type="subtitle">I.</head>
+						<head>Diß sind zue <placeName ref="LOC_Lat_Long">Grießenn</placeName> im kilchhoff gweßenn</head>
+						<p>
+							<lb/><persName>Heinrich Schnetzler</persName> uß der grafschafft <placeName ref="LOC_Lat_Long">Kiburg</placeName>, sitzt 
+							<lb/>uff einem hoff ob <placeName ref="LOC_Lat_Long">Eglisow</placeName>,
+							<placeName ref="LOC_Lat_Long">Töschried</placeName> <add place="above">genant</add>, diser hat die 
+							<lb/>anzeigt und sind aber nit hie.</p>
+						<p><lb/>Sin knecht, heist <persName>Marx Wiget</persName>,
+							<lb/><persName>Gabriel Meyer</persName> von <placeName ref="LOC_Lat_Long">Uewißenn</placeName>, und sind sunst ouch uewißer 
+							<lb/>da gsin, die er nit bekent.
+							</p>
+					</div>
+					<div>
+						<head type="subtitle"><placeName ref="LOC_Lat_Long">Bülach</placeName></head>
+					<p>
+						<lb/><persName>Marx Graff</persName>,
+						<lb/><persName>Jacob Rot</persName>
+						</p>
+					</div>
+					<div>
+						<head type="subtitle"><placeName ref="LOC_Lat_Long">Eglisow</placeName></head>
+						<p>
+						<lb/><persName>Cuenrat Schwarber</persName>,
+						<lb/><persName>Heinrich Schwarber</persName>,
+						<lb/><persName>Marx Angst</persName>,
+						<lb/><persName>Junghans Schnetzler</persName>,
+						<lb/><persName>Ruedi Scherer</persName>,
+						<lb/><persName>Hans Pfaff</persName>,
+						<lb/>Item <persName><unclear>Bennhans</unclear> Schnetzlers</persName> knecht, heist <persName>Kuentz</persName>,
+						<lb/><persName>Hans Hirtz</persName><!-- nicht Fietz, msr -->
+						</p>
+					</div>
+					<div>
+						<head type="subtitle"><placeName ref="LOC_Lat_Long">Winingenn</placeName></head>
+						<p>
+						<lb/><persName>Conrat Nunnenmacher</persName>
+						</p>
+					</div>
+					<div>
+						<head type="subtitle"><placeName ref="LOC_Lat_Long">Oberglat</placeName></head>
+						<p>
+						<lb/>Des <unclear>wirt</unclear> <persName>Koffels</persName> sun und sin knecht
+						</p>
+					</div>
+					<div>
+						<head type="subtitle"><placeName ref="LOC_Lat_Long">Buech am Irchel</placeName></head>
+						<p>
+						<lb/><persName>Ziriacks</persName>,
+						<lb/><persName>Kleinhans Kramer</persName>,
+						<lb/><persName>Gratias Kramer</persName> von <placeName ref="LOC_Lat_Long">Greßlickenn</placeName>
+							</p>
+					</div>
+					<div>
+						<pb n="2" facs="A_27_3_7__Nr__39__S__2__.tif"/>
+						<head type="subtitle"><placeName ref="LOC_Lat_Long">Klotenn</placeName></head>
+						<p>
+						<lb/><persName>Heini Kleinwernli</persName>
+							</p>
+					</div>
+					<div>
+						<pb n="3" facs="A_27_3_7__Nr__39__S__3_.tif"/>
+					</div>
+					<div>
+						<pb n="4" facs="A_27_3_7__Nr__39__S__4_.tif"/>
+					<ab type="dorsal"><lb/>Verzeichnus deren, so zu <placeName ref="LOC_Lat_Long">Grießenn</placeName> im kirchhof gwesen.</ab>
+							</div>
+							<div>
+						<pb n="5" facs="A_27_3_7__Nr__39__S__5_.tif"/>
+						<head type="subtitle">II.</head>
+						<table>
+							<row><cell><placeName ref="LOC_Lat_Long">Wil</placeName></cell><cell><placeName ref="LOC_Lat_Long">Wil</placeName></cell></row>
+						<row><cell><persName>Henßi Schnider</persName></cell><cell><persName>Andres Nükums</persName> knecht <persName>Hans</persName></cell></row>
+						<row><cell><persName>Heini Knuch</persName></cell><cell><persName>Hans <subst><del>Pfister</del><add place="inline">Metzger</add></subst></persName></cell></row>
+						<row><cell><persName>Henßi Nükum</persName></cell><cell><persName>Matthiß Heller</persName></cell></row>
+						<row><cell><persName>Cuenrat Schmidli</persName></cell><cell><persName>Bürgi Wildfang</persName></cell></row>
+						<row><cell><persName>Hans Pur</persName></cell><cell><persName>Hans Pur</persName></cell></row>
+						<row><cell><persName>Heinrich Heller</persName></cell> <cell><persName>Heintz Götz</persName> ist im kilchoff gsin</cell></row>
+						<row><cell><persName>Heini Widmer</persName></cell><cell><persName>Hans Morart</persName></cell></row>
+						<row><cell><persName>Hans Berchtold</persName></cell><cell><persName>Hans Widmer von Bugge</persName></cell></row>
+						<row><cell><persName>Andres Nükum</persName></cell><cell><persName>Ludi von Bugge</persName></cell></row>
+						<row><cell><persName>Burckhart Schnider</persName></cell><cell/></row>
+						<row><cell><persName>Hans Stoffel </persName></cell><cell/></row>
+						<row><cell><persName>Hans von <unclear>Muchenn</unclear></persName></cell><cell/></row></table>
+						<p><num n="5">Fünff</num> sind von <placeName ref="LOC_Lat_Long">Wil</placeName>
+						umkomenn.</p>
+						<p>Diß sind nit hie:</p>
+						<p><lb/><persName>Schenckheini</persName>,
+						<lb/><persName>Junghans Henßi</persName>,
+						<lb/><persName>Nükums</persName> knecht,
+							<lb/><persName>Bartli Pur</persName>,
+							<lb/><persName>Hans Tenger</persName>,
+							<lb/><persName>Zens Heller</persName>,
+							<lb/><persName>Hans Poley</persName> ist im kilchhoff gsin und aber nit hie,
+							<lb/><persName>Bueb Hans</persName>,
+							<lb/><persName>Heinrich Angst</persName>,
+							<lb/><persName>Marti Schenckhans</persName>,
+							<lb/><persName>Marti Schmid</persName> von
+							<lb/><persName>Wil</persName>, und sin sun
+							<lb/><persName>Heinrich</persName>,
+						<lb/><persName>Cuenrat Heller</persName></p>
+					</div>
+						<div><pb n="6" facs="A_27_3_7__Nr__39__S__6_.tif"/></div>
+					<div>
+						<pb n="7" facs="A_27_3_7__Nr__39__S__7_.tif"/>
+						
+						<head type="subtitle">III.</head>
+						<head type="subtitle"><placeName ref="LOC_Lat_Long">Hüntwangen</placeName></head>
+						<p>
+							<lb/><persName>Conrat Demund</persName>,
+							<lb/><persName>Gorius Tökeli</persName>,
+							<lb/><persName>Junghans Meyer</persName>,
+							<lb/><persName>Bartli Ludj</persName>,
+							<lb/><persName>Marx Hemeler</persName>
+						</p>
+						<p>Diß sind nit hie:</p>
+						<p><lb/><persName>Marti Meyer</persName>,
+						<lb/><persName>Großhans Meyer</persName>,
+						<lb/><persName>Heinrich Streßler</persName>,
+							<lb/><persName>Bleßi Schnider</persName>,
+							<lb/><persName>Jacob Hilprant</persName>,
+							<lb/><persName>Hans Hilprant</persName>,
+							<lb/><persName>Baltiß Demuet</persName>,
+							<lb/><persName>Hans Stoll</persName>,
+							<lb/><persName>Marx Demuet</persName>
+						</p>
+						<p><lb/><num value="4">iiij</num> sind umkomenn.</p>
+					</div>
+					<div>
+						<pb n="8" facs="A_27_3_7__Nr__39__S__8_.tif"/>
+					</div>
+					<div>
+						<pb n="9" facs="A_27_3_7__Nr__39__S__9_.tif"/>
+						<head type="subtitle"><placeName ref="LOC_Lat_Long">Wasterchingen</placeName></head>
+						<p>
+						<lb/><persName>Hans Röteli</persName><!-- nicht Föteli, msr -->,
+						<lb/><persName>Galli Spüeler</persName>.</p>
+						<p><lb/>Die sind im kilchoff gsin und aber jetz nit hie.
+						</p>
+							<p>Die sind ouch nit hie:</p>
+						<p><lb/><persName>Hanselman Berchtold</persName>
+						<lb/>und sin brüder <persName>Heini</persName>,
+						<lb/><persName>Hans Metzger</persName>,
+							<lb/><persName>Cuenrat Schacher</persName>
+							<lb/>mit <num value="3">drigen</num> sunen,
+							<lb/><persName>Lienhart Schützer</persName>,
+							<lb/><persName>Cuenrat Schützer</persName>,
+							<lb/><persName>Thoman Schützer</persName>,
+							<lb/><persName>Hans Schützer</persName>,
+						<lb/><persName>Hans Uelrich</persName>, der wirt,
+							<lb/><persName>Hans Stülinger</persName>,
+							<lb/><persName>Kleinhans Spueler</persName>,
+							<lb/><persName>Naßhans Berchtold,</persName>
+							<lb/><persName>Hans Stülinger</persName>,
+							<lb/><persName>Hans Henßeler</persName>,
+						<lb/>und sin brüder
+						<lb/><persName>Cuenrat</persName>,
+						<lb/><persName>Andres Wigacher</persName></p>
+						<p><lb/><num value="4">iiij</num> sind umkomenn.</p>
+					</div>
+						<div><pb n="10" facs="A_27_3_7__Nr__39__S__10_.tif"/></div>
+					<div>
+						<pb n="11" facs="A_27_3_7__Nr__39__S__11_.tif"/>
+						<head type="subtitle">IV.</head>
+						<head type="subtitle"><placeName ref="LOC_Lat_Long">Raffts</placeName></head>
+						<p><lb/><persName>Heini Höffli</persName>,
+							<lb/><persName>Adam Sigerist</persName>,
+							<lb/><persName>Marti Götz</persName>,
+						<lb/><persName>Heini Henßeler</persName>, der seit, er sige <del>umb st</del> gen
+						<placeName ref="LOC_Lat_Long">Grießen</placeName> gangenn und habe gelt abhin treit, sige also ins spil komenn, und ist um sin
+						gelt komen.
+						<lb/><persName>Heini Angst</persName>,
+							<lb/><persName>Bastion Weber</persName>
+						</p>
+						<p>Die sind nit hie:</p>
+						<p><lb/><persName>Heini Meyer</persName>,
+							<lb/>müller <persName>Hans Graff</persName>,
+						<lb/><del>Hans,</del>
+						<lb/><persName>Lux Ruetschman</persName>,
+							<lb/><persName>Zentz <del>M</del> Meyer</persName>,
+							<lb/><persName>Petter Angst</persName>,
+							<lb/>Rüffli Ruetschman,
+							<lb/><persName>Cuenrat Danck</persName>,
+							<lb/><persName>Jacob Buchterli</persName>,
+							<lb/><persName>Zens Höffli</persName>,
+							<lb/><persName>Hanselman Ruetschman</persName>,
+							<lb/><persName>Hans Keller</persName>,
+						<lb/><persName>Conrat Schnider</persName></p>
+					</div>
+					<div>
+						<pb n="12" facs="A_27_3_7__Nr__39__S__12_.tif"/>
+					</div>
+				</body>
+				<back>
+					<div><p>
+						Vor 500 Jahren kam es im Rahmen des Bauernkrieges in ganz Süddeutschland zu zahlreichen Aufständen, Unruhen und blutigen Schlachten. So wie der Bauernkrieg 
+						seinen Anfang in unmittelbarer Nähe zur Eidgenossenschaft genommen hatte, in einem Gebiet von Waldshut über den Klettgau bis in den Hegau, 
+						so fand er im Wesentlichen auch dort sein Ende, mit der Schlacht bei Griessen am 4. November 1525.</p> 
+						<p>Die eigentlichen Kriegsereignisse schwappten zwar nicht auf die Eidgenossenschaft über, aber es gab, unter dem Einfluss der in Memmingen 
+						formulierten zwölf Bauernartikel, auch auf eidgenössischem Gebiet Unruhen, nicht zuletzt im Untertanengebiet der Stadt Zürich (vgl. dazu etwa <bibl><ref target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html">Niederhäuser 2025</ref></bibl>). 
+						Der Obrigkeit gelang
+						es allerdings, diese Unrast weitgehend ohne Kämpfe und ohne grosse Konzessionen beizulegen.</p>
+						<p>Dass sich die ländliche Bevölkerung mit den Anliegen der Bauern in Süddeutschland identifizierte, zeigte sich nicht nur in den 
+						Forderungen, die sie gegenüber der eigenen Obrigkeit stellte, sondern auch durch konkrete Unterstützung in den benachbarten Orten nördlich des Rheins. 
+						Sowohl am Anfang wie auch am Schluss des Bauernkriegs gab es zahlreiche Personen aus dem Zürcher Gebiet, die den Untertanen in der 
+						süddeutschen Nachbarschaft zu Hilfe eilten. So zogen zahlreiche Zürcher 1524 gegen den Willen ihrer Obrigkeit nach Waldshut, um 
+						bei der Verteidigung der Stadt zu helfen. Und ebenso zeigte sich am Schluss, dass gegen das ausdrückliche Verbot aus Zürich mehr als 
+						hundert Personen aus zürcherischen Dörfern den Bauern in der Schlacht vom 4. November 1525 geholfen hatten.</p>
+						<p>Nachdem das Bauernheer vor dem Dorf Griessen bereits von der berittenen Vorhut der Truppen unter adligem Befehl geschlagen worden war, 
+						flüchteten die Überlebenden in den ummauerten Kirchhof von Griessen und verschanzten sich über Nacht dort. Ihre Gegner zündeten das Dorf an 
+						und beschossen die Bauern, gingen anschliessend aber dazu über, diese zum Aufgeben zu überreden, was gegen den Morgen des 5. November auch gelang (vgl. <bibl><ref target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html">Müller 1961</ref>, S. 83-85</bibl>; <bibl><ref target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html">Scott 1979</ref>, S. 164</bibl>). 
+						Bei der Gefangennahme und Entwaffnung zeigte sich, dass über hundert Männer aus dem Rafzerfeld 
+						(die vier Dörfer Rafz, Wil, Hüntwangen und Wasterkingen gehörten niedergerichtlich zur Zürcher Landvogtei Eglisau, hochgerichtlich aber zur Landgrafschaft Klettgau) und weiteren Dörfern unter Zürcher 
+						Hoheit die Klettgauer Bauern unterstützt hatten und dass ein gutes Dutzend weitere dabei umgekommen waren (vgl. den Schlachtbericht des Grafen von Sulz (<bibl><ref target="https://www.archivinformationssystem.at/detail.aspx?ID=3420800">FHKA SUS RA 134.1.41</ref></bibl>; ediert in: <bibl><ref target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html">Loserth, Schlachtbericht</ref>, <ref target="https://www.digitale-sammlungen.de/de/view/bsb11621777?q=%28loserth+%29&amp;page=124,125">Anhang 6, S. 121-122</ref></bibl>); vgl. auch <bibl><ref target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html">EA</ref>, Bd. 4/1a, Nr. 319, S. 801</bibl>).</p>
+						<p>Dies geht aus einer Liste mit dem Titel <q>Diß sind zue Grießenn im kilchhoff gweßenn</q> hervor. Wer die undatierte Liste geschrieben hat, 
+						ist unklar. Sie führt nach Ortschaften auf, wer im Kirchhof von Griessen gewesen ist. Der überwiegende Teil der Aufgelisteten stammte 
+						aus den vier Dörfern Rafz, Wil, Hüntwangen und Wasterkingen, zwanzig weitere aus anderen Zürcher Dörfern. Dabei scheint ein Teil der 
+						Aufgeführten bei der Erstellung der Liste persönlich anwesend gewesen zu sein. Von weiteren Männern heisst es <q>Diß sind nit hie</q>. 
+						Ihre Namen dürften von den Anwesenden genannt worden zu sein. Dass darüber hinaus noch weitere Personen beteiligt gewesen sein könnten, 
+						geht aus der Bemerkung hervor, Gabriel Meyer von Uhwiesen habe nicht <q>bekennen</q> wollen, wer ausser ihm von Uhwiesen noch dabei gewesen sei. 
+						Aus den Dörfern Wil, Hüntwangen und Wasterkingen werden insgesamt 13 Tote vermeldet, ohne dass ihre Namen aufgeführt wären.
+					</p>
+					<p>Vgl. zum Bauernkrieg von 1525 generell <bibl><ref target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html">Schwerhoff 2024</ref></bibl>; zum Ende in Griessen vgl. ebd. S. 493-495.</p></div>
+				</back>
+			</text>
+		</group>
+	</text>
+</TEI>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='../../Ressourcen/Stylesheet.xsl'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<teiHeader>
+   <fileDesc>
+      <titleStmt>
+         <title>Quellen zur Zürcher Geschichte</title>
+         <respStmt>
+            <persName>Janine Baumgartner; Mario Bonato; Dunja Giger; Nicolas Käser</persName>
+            <resp key="transcript"/>
+         </respStmt>
+         <respStmt>
+            <persName>Patrick Rüegg; Michael Schaffner</persName>
+            <resp key="tagging"/>
+         </respStmt>
+      </titleStmt>
+      <publicationStmt>
+         <publisher>Staatsarchiv des Kantons Zürich</publisher>
+         <date type="electronic" when="2021-05-01"/>
+      </publicationStmt>
+      <seriesStmt>
+         <title>Territorienbildung der Städte im Spätmittelalter</title>
+         <respStmt>
+            <persName>Laura Bitterli und Simon Teuscher</persName>
+            <resp>Herausgeberschaft</resp>
+         </respStmt>
+         <idno>QZH_050</idno>
+      </seriesStmt>
+      <sourceDesc>
+         <msDesc>
+            <msIdentifier>
+               <idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=5125018"
+                  >StAZH A 124.1, Nr. 21</idno>
+            </msIdentifier>
+            <head>Zeugenaussagen (Kundschaften) betreffend die Blutsgerichtsbarkeit in der Herrschaft Grüningen
+            </head>
+            <msContents>
+               <summary>Männer aus verschiedenen Dörfern, Weilern und Höfen beschreiben, welche Grenzbeschreibungen in der Herrschaft Grüningen sie von ihren Vorfahren gehört und gelernt haben. </summary>
+               <msItem>
+                  <textLang>Deutsch</textLang>
+                  <filiation type="current">Aufzeichnungen (Einzelblatt)</filiation>
+                  <filiation type="original"><origDate from="1436-01-01" to="1439-12-31"></origDate></filiation>
+               </msItem>
+            </msContents>
+            <physDesc>
+               <objectDesc>
+                  <supportDesc>
+                     <support><material>Papier</material></support>
+                     <extent/>
+                  </supportDesc>
+               </objectDesc>
+            </physDesc>
+            <history>
+               <origin><origDate from="1436-01-01" to="1439-12-31"></origDate></origin>
+            </history>
+         </msDesc>
+      </sourceDesc>
+   </fileDesc>
+   <encodingDesc>
+      <editorialDecl>
+         <p>
+            <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+         </p>
+      </editorialDecl>
+   </encodingDesc>
+   <profileDesc> </profileDesc>
+   <profileDesc>
+      <textClass default="false">
+         <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+            <term ref="key000273">Abgaben</term>
+            <term ref="key000057">Gericht</term>
+            <term ref="key000305">Grenze</term>
+            <term ref="key003994">Hochgerichtsbarkeit</term>
+            <term ref="key003261">Kundschaft</term>
+         </keywords>
+      </textClass>
+   </profileDesc>
+</teiHeader>
+  <text>
+      <body>
+         <div>
+            <pb n="1" facs="A_124_1__Nr__21__S__1_.tif"/>
+            
+            <head><lb/>Dis ist die kuntschaft, so ze <placeName ref="LOC_47.28706_8.92092">Wald</placeName> ingenomen ist,
+               <lb/>als von der hochen gerichten wegen, so zuo der grafschaft <placeName ref="LOC_47.28333_8.75">Grueningen</placeName>
+               <lb />gehoerent, und wie wol dis kuntschaft und der alt rodel,
+               <lb/>die lagen und kreiss nit gelich nemment, so zichent sich doch die kriess ze G<damage agent="faded ink"><supplied resp="msr">rüningen</supplied></damage></head>
+            <p><lb/><persName>Rudger Cuontz</persName>von <placeName ref="LOC_47.28706_8.92092">Wald</placeName> ist by 50 jar alt und seit, daz er von
+               <lb/>sinen eltern und vordern gehoert hab, daz die gar <choice><abbr>eigenl</abbr><expan>eigenlich</expan></choice> retten, daz
+               <lb/>die hochen gericht, so zuo der <subst><del>herschaft</del><add place="above">grafschaft</add></subst> <placeName ref="LOC_47.28333_8.75">Grueningen</placeName> gehoerren, anfachen
+               <lb/>zuo dem <placeName>Windachten Boum</placeName> by der fluo ze <placeName ref="LOC_47.22557_8.82228">Rapreswil</placeName> und gand um
+               <lb/>dannen in der <placeName ref="LOC_47.22983_8.83884">Jonen<add place="above">grund</add></placeName>, von der <placeName  ref="LOC_47.22983_8.83884">Jonen<add place="above">grund</add></placeName> in <del>die</del> daz <placeName ref="LOC_47.29586_8.70724">Asp</placeName>, daz <placeName ref="LOC_47.29586_8.70724">Asp</placeName> uf in
+               <lb/>die <placeName ref="LOC_47.17076_9.21729">Langenegg</placeName>, von dannen gen <placeName>Aechtentswil</placeName> in die <placeName>Linden</placeName>,
+               <lb/>usser der <placeName>Linden</placeName> in <placeName>Uttinger tobel</placeName>, <del>von</del> <placeName>Uttinger tobel</placeName> uf bis an den
+               <lb/><placeName ref="LOC_47.28454_8.82428">Rotenstein</placeName>, von dem <placeName ref="LOC_47.28454_8.82428">Rotenstein</placeName> an den <placeName ref="LOC_47.30614_8.96505">Toessstok</placeName>, <del><add place="above">und waz in den zilen</add></del> von dem <placeName ref="LOC_47.30614_8.96505">Toessstok</placeName>
+               <lb/>bis gen <placeName ref="LOC_47.37209_8.86816">Landenberg</placeName> in den graben, <add place="above">und waz in den zilen snews her in smiltzet</add>, dannenthin gen <placeName ref="LOC_47.33319_8.80982">Kempten</placeName> in
+               <lb/>den bach.</p>
+            <p><lb/><persName>Heini Wartis</persName> von <placeName>Vegswil</placeName>, ist 70 jar alt, <choice><abbr>d</abbr><expan>dicit</expan></choice> als <persName>Ruedger Cuontz</persName>,
+               <lb/><persName>Uely Tobler</persName> von Tobel ist by 80 jar alt und <choice><abbr>d</abbr><expan>dicit</expan></choice> als <persName>Ruedger Cuontz</persName>,
+               <lb/><del><persName>Heini Brendly</persName></del>
+               <lb/><persName>Peter Gûntersperger</persName> ab <placeName ref="LOC_47.261_8.91057">Gûntersperg</placeName>, der ist by 80 jar alt und
+               <lb/><choice><abbr>d</abbr><expan>dicit</expan></choice> als <persName>Ruedger Cuontz</persName>.
+               <lb/><persName>Hans Streller</persName> von <placeName ref="LOC_47.28706_8.92092">Wald</placeName>, ist ob 60 jar alt und <choice><abbr>d</abbr><expan>dicit</expan></choice> als der <persName>Cuontz</persName>.
+               <lb/><persName>Heini Brunner</persName> von <placeName ref="LOC_47.265_8.92851">Louppen</placeName> ist ob 50 jar alt und <choice><abbr>d</abbr><expan>dicit</expan></choice> als der <persName>Cuontz</persName>.
+               <lb/><persName>Hans Buman</persName> usserm <placeName>Underholtz</placeName>, <choice><abbr>d</abbr><expan>dicit</expan></choice> als <persName>Ruedger Cuontz</persName>.
+               <table>
+                 <row> <cell><lb/><persName>Hans Furer</persName> ab <placeName>Hûttenberg</placeName>, ist ob 40 jar alt,</cell><cell/></row>
+              <row> <cell><persName>Rudy Buman</persName> von <placeName>Dietrichswil</placeName>, ist by 60 jar alt,</cell><cell/></row>
+               <row><cell><persName>Heini Graf</persName> usserm <placeName>Riet</placeName>, ist by 40 jar alt,</cell><cell><choice><abbr>d</abbr><expan>dicit</expan></choice> als <persName>Ruedger Cuontz</persName>.</cell></row>
+                  <row><cell><persName>Hans Lang</persName> ab <placeName ref="LOC_47.27894_8.93417">Hittenberg</placeName>, ist by 70 jar alt,</cell><cell/></row>
+               <row><cell><persName>Heini Schufelberger</persName>, ist 70 jar alt,</cell><cell/></row></table></p>
+            
+              <p><lb/><persName>Heini Huten</persName> ab <placeName>Walppersperg</placeName> ist by 80 jar alt und ist vor
+               <lb/>ziten des <persName>Gesslers</persName> knecht 6 jar gesin.
+              </p>
+            <p>
+               <table><row><cell><persName>Hans Hofman</persName> von <placeName>Vegswil</placeName>, ist ab 60 jar alt,</cell><cell/></row> 
+               <row><cell><persName>Egly Cuentzy</persName> von <placeName>Gipfwil</placeName>, ist 45 jar alt,</cell><cell/></row>
+               <row><cell><persName>Herman Weber</persName> ab <placeName>Hûschwil</placeName>, ist 40 jar alt,</cell><cell/></row>
+                  <row> <cell><persName>Hans Turst</persName> von <placeName ref="LOC_47.30385_8.86546">Bernegg</placeName>, ist 50 jar alt,</cell><cell><choice><abbr>d</abbr><expan>dicit</expan></choice> als <persName>Ruedger Cuontz</persName>.</cell></row>
+                  <row><cell><persName>Ruedy Brendly</persName> von <placeName ref="LOC_47.28706_8.92092">Wald</placeName>, ist ob 50 jar alt,</cell><cell/></row>
+               <row><cell><persName>Uely Furer</persName> ab <placeName>Hûschwil</placeName>, ist by 40 jar alt,</cell><cell/></row></table></p>
+            
+            <pb n="2" facs="A_124_1__Nr__21__S__2_.tif"/>
+            
+            <p><lb/><persName>Hans Kumbelly</persName> von <placeName ref="LOC_47.25559_8.85806">Ferrich</placeName> <choice><abbr>d</abbr><expan>dicit</expan></choice>,
+               <lb/><persName>Cueny Cuontz</persName> von <placeName ref="LOC_47.28706_8.92092">Wald</placeName>, ist by 40 jar alt, <choice><abbr>d</abbr><expan>dicit</expan></choice>
+               <lb/><persName>Cueni Ris</persName> von <placeName ref="LOC_47.27942_8.86162">Obertûnnroten</placeName>, ist ob 30 jar alt, <choice><abbr>d</abbr><expan>dicit</expan></choice>.</p>
+            
+            <p><lb/><persName>Heini Brendly</persName> von <placeName ref="LOC_47.28795_8.76324">Buel</placeName>, ist by 80 jar alt, <choice><abbr>d</abbr><expan>dicit</expan></choice> als <persName>Ruedger Cuontz</persName>,
+               <lb/>dann umb den windachten boum, den hat er nit gehoert nennnen.</p>
+            <p><lb/><persName>Ruedy Langenrûtten</persName> von <placeName ref="LOC_47.28795_8.76324">Buel</placeName>, ist 60 jar alt, <choice><abbr>d</abbr><expan>dicit</expan></choice> als der <persName>Brendly</persName>.
+               <lb/><persName>Casper Schnider</persName> von <placeName>Vegswil</placeName>, ist 50 jar alt, <choice><abbr>d</abbr><expan>dicit</expan></choice> als der <persName>Brendly</persName>.
+               <lb/><persName>Hofman Gerwer</persName>, ist by 40 jar alt, <choice><abbr>d</abbr><expan>dicit</expan></choice> als der <persName>Brendly</persName>.
+               <lb/><persName>Cueni Rotenfluo</persName>, ist 35 jar alt, <choice><abbr>d</abbr><expan>dicit</expan></choice> als der <persName>Brendly</persName>.</p>
+               <p><lb/>Sy sagent ouch all, <add place="above">dz inen wol wissent sye, dz</add> der hof <placeName ref="LOC_47.29362_8.94768">Im Geheisch</placeName>, daruff <persName>Cueny Obhoeltzer</persName>
+               <lb/>sitzt <del>in der</del> innwendig <del>dem</del> den obgeseiten kreiß mer den ein vierdenteil
+               <lb/>einer guoten mil wegs in hochen und kleinnen gerichten sitze.</p>
+               <p><lb/>Sy sagent auch all, daz sy von iren vordern und alten gehoert haben,
+               <lb/>daz einer sas uff dem hof <placeName ref="LOC_47.29362_8.94768">Im Geheisch</placeName>, etwe vil jaren einem vogt von
+                  <lb/><placeName ref="LOC_47.28333_8.75">Grueningen</placeName> jerlich ein kalb von liepdaett wegen schenkt. Item am lesten wolt
+                  <lb/>derselb daz kalb nit mer geben. Item ein herr von <placeName ref="LOC_47.28333_8.75">Grueningen</placeName> wolt daz haben
+                  <lb/>und leit uff den hof von <placeName ref="LOC_47.28706_8.92092">Wald</placeName> 1 pfund ewigs geltz fùr daz kalb. Daz
+                  <lb/>selb  geltz gebent sy noch hûtt by tag und nempt man es <choice><abbr>kalbsd</abbr><expan>kalbsdenar</expan></choice>.</p>
+               <p><lb/>Sy sagent ouch, daz inen wol wissent sye, daz einer saesse uff dem
+               <lb/>hof <placeName ref="LOC_47.29362_8.94768">Im Geheisch</placeName>, hies der <persName>Wisman</persName>, wol zwûrent gevangen <del>war</del> und
+               <lb/>gen <placeName ref="LOC_47.28333_8.75">Grueningen</placeName> gefuert wurde, von des wegen, daz er den voegten nit
+               <lb/>woelt gehorsamy tuon. Und wart allweg darzuo gehalten, daz er swerren
+               <lb/>und gehorsamy tuon muosset, als ein ander, der in hochen und kleinnen
+               <lb/>gerichten sesshaft ist, daz daz von minem herren von <persName ref="GND_120633957">Toggenburg</persName> noch
+               <lb/>nieman andern nie gewert wart.</p>
+         </div>
+      </body>
+     <back>
+        <div><p>
+           Zu den Grüninger Kundschaften vgl. den Kommentar zu <bibl><ref target="https://qzh.sources-online.org/quellenstuecke/QZH_044">QZH, Nr. 44</ref></bibl>.
+        </p></div>
+     </back>
+   </text>
+</TEI>

@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css“?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0"
+ xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <respStmt>
+     <persName>Andrea Schmid-Kunz</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Michael Schaffner</persName>
+     <resp key="tagging"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <date type="electronic" when="2021-05-01"/>
+    <date type="print" when="2018-12-31"/>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Gelebte Reformation. Zürich 1500-1800</title>
+    <respStmt>
+     <persName>Francisca Loetz. Unter Mitarbeit von Wolfram Schneider-Lastin</persName>
+     <resp>Herausgeberschaft</resp>
+    </respStmt>
+    <idno>QZH_017</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier>
+      <idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4890448">StAZH A 7.22, Nr. 39</idno>
+     </msIdentifier>
+     <head>Scheidungsbegehren von Jacob Öffeli und Elsi Diggelmann</head>
+     <msContents>
+      <msItem>
+       <textLang>Deutsch</textLang>
+       <filiation type="current">Aufzeichnungen</filiation>
+       <filiation type="original"></filiation>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support><material>Papier</material></support>
+        <extent/>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history><origin><origDate from="1530-01-01" to="1530-12-31"></origDate></origin></history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p>
+     <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+    </p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc> </profileDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term ref="key005343">Ausserehelicher Geschlechtsverkehr</term>
+     <term ref="key000863">Ehe</term>
+     <term ref="key000611">Ehebruch</term>
+     <term ref="key004344">Ehegericht</term>
+     <term ref="key005098">Eherecht</term>
+     <term ref="key003400">Ehescheidung</term>
+     <term ref="key111111">Häusliche Gewalt</term>
+     <term ref="key003496">Krankheiten</term>
+     <term ref="key000959">Vergewaltigung</term>
+    </keywords>
+   </textClass>
+   <particDesc default="false"/>
+   <settingDesc default="false"/>
+  </profileDesc>
+ </teiHeader>
+ <text>
+  <group>
+   <text>
+    <body>
+     <pb n="1" facs="StAZH_A_7_22__Nr__39__S__1_.tif"/>
+     <div><p><lb/><persName>Jacob Öfeli</persName> von <placeName ref="LOC_Lat_Long">Waͤrikon</placeName> uß der pfarr <placeName ref="LOC_Lat_Long">Ustri</placeName>, xxx
+      jerig, gab also
+      <lb/>für, das er unnd <persName>Elsy Tikelmanin</persName> vor xv jaren einandren
+      <lb/>genommen heigind und ze <placeName ref="LOC_Lat_Long">Ustri</placeName> mitteinandren ze kilchenn
+      <lb/>syend gangen, demnach in sines vatters hus by gewonet
+      <lb/>ze bett und tisch <abbr>etc.</abbr>. Und als sy umb sant Jacobs tag zemen
+      <lb/>kamend, luff sy nach wienacht wider von im, und gab
+      <lb/>für ein ursach von im us, er wer iren nit mans gnug.</p>
+      <p><lb/><persName>Elsy Tickelmanin</persName> von <placeName ref="LOC_Lat_Long">Hittnow</placeName> us <placeName ref="LOC_Lat_Long">Pfäffikonner</placeName> 
+      pfarr, über
+      <lb/>xxx jaren alt, ist der ee unnd was die selben antrifft
+      <lb/>bekantlich, denn sy hend einanderen von holdschafft unnd
+      <lb/>liebe wegen genon.</p>
+      <p><lb/>Aber leider, so sye er ir man nie worden, heig sich iren
+      <lb/>nie vermogen, wie wol sy mitt im, hin und har, fert
+      <lb/>und opfer getan heig. Und von desselben wegen gwan
+      <lb/>er ein hass und widerwillen zuͦ iren (als der
+      unmogen<lb break="no"/>den luten art ist), zuerst an sy, das sys gseit hat, trowt
+      <lb/>und bochet unmenschlich mitt iren, als für sin person.</p>
+      <p><lb/>Item so hatt er ein bruͦder, den konnend die
+      plateren an, der
+      <lb/>aß und tranck mitt dem volck uß allen gschiren <abbr>ect.</abbr>, darab
+      <lb/>sy ein schüchen hat und meldets. Das ward von iren
+      <lb/>gar übel empfangen, muͦßt sich liden, bis das sy
+      die blateren
+      <lb/>erarbt, und noch me arbeitseliger und unwerder ward,
+      <lb/>ouch übel gehalten von allem huß volck, dar von sy ein
+      <lb/>lange klag möchte füren, je zuͦ letzt, da sy
+      weder
+      <lb/>vom man noch den sinen kein hilff oder trost hatt,
+      <lb/>muͦßt sy von not wegen von inen zuhen und zuͦ den
+      <lb/>iren keren, kam alßo zuͦ irem vatter uff <placeName ref="LOC_Lat_Long">Ringlikon
+      am
+       <lb/>Albis</placeName> ob <placeName ref="LOC_Lat_Long">Rieden</placeName>, da er dazemal hin was zogen.</p>
+      <pb n="2" facs="StAZH_A_7_22__Nr__39__S__2_.tif"/>
+      <p><lb/>Demnach seit <persName>Jacob</persName>, das sy zum dickernmal syend wider
+      <lb/>zemen taͤdinget und eins worden, aber sy luffe
+      allweg 
+      <lb/>wider von imm, sunthalb unverschult und unverdienet,
+      <lb/>denn er wil iren kein ursach geben haben, und meinte
+      <lb/>er sye mans gnug, darumb die schuld iren und nit sin sye.</p> 
+      <p><lb/>Über diß redt <persName>Elsy</persName> also, nach dem und sy by den iren
+      <lb/>ettwas wider zuͦ ir selbs was kommen, heig es sich
+      dick
+      <lb/>begeben, wie er seit, das sy vertaͤdinget syend und
+      zemmen
+      <lb/>kommen, ettwen ouch uff sin enbietten <abbr>etc.</abbr>.
+      <lb/>Aber so dick sy wider zuͦ im kommen und
+      understanden
+      <lb/>heig, das best ze tuͦn, so sye er allweg glych wie
+      vor
+      <lb/>unwirsch mitt iren gsin, also das sy kein guͦtz
+      noch
+      <lb/>fruntschafft nie von im hab empfunden. Besunder hett
+      <lb/>sy vil unbild ze klagen, namlich das er iren ein arm
+      <lb/>hett abgeschlagen und vii löcher in das houpt, sem<lb break="no"/>lichs 
+      und anders, was iren ze vil unlidenlich,
+      <lb/>darum het sy von imm muͤssen gan und zuͦ den
+      <lb/>iren keren.</p>
+      <p><lb/>Wyter, so klagt <persName>Jacob</persName>, das sin frow ebruchig unnd
+      <lb/>truwlos an im sye worden vor iiii jaren und ob
+      <lb/>sy des nit an red sin, wurd er sy dess bezugen. Und
+      <lb/>so sy sich also het vergangen, ist er ouch verfallen,
+      <lb/>aber nach iren, ettwen vor iii jaren, und hett
+      <lb/>iii kind gmacht, da by wol schin ist, das er
+      <lb/>ein man ist, sy seg was sy welle.</p>
+      <pb n="3" facs="StAZH_A_7_22__Nr__39__S__3_.tif"/>
+      <p><lb/>Die frow blibt daruf, wie obstat, das er ir man nie
+      <lb/>sye worden, und das sy unverfellt von im sye kommen.
+      <lb/>Das hette sy nudtesterminder geduldet und sich mit im
+      <lb/>gelitten anfenglich, wenn er nit so untugenlich und
+      <lb/>unbescheidenlich mitt iren hett gefaren.
+      <lb/>Und als sy alßo sinthalb ane hilf und trost was, hett
+      <lb/>es sich begeben, das iren ein schmach ist zuͦ gefuͤgt
+      <lb/>vor v jaren, von einem, der sy hat verfellt unnd 
+      <lb/>ein kind gmacht, dess kan sy nit lougnen. Wer <persName>Jacob</persName>
+      <lb/>ir man gsin, wie er solt und sich für git, so were
+      <lb/>iren semlichs nit widerfaren. Das er aber jetz (wie
+      <lb/>er seit) kind heig gmacht, das lat sy stan, redt
+      <lb/>aber alßo, wenn er noch hüt by tag sin heil mitt
+      <lb/>iren wil versuͦchen, verzihen und tuͦn, was ein
+      <lb/>biderman tuͦn sol, so wil sy deßglichen gegen
+      im
+      <lb/>ouch tuͦn und sich fromklich und redlich mitt
+      im
+      <lb/>haltenn.
+      <lb/>Git hiemitt ir sach uff gott und dem rechten.</p>
+      <p><lb/>Uff die zwen artikel, so die frow anzeigt, namlich,
+      <lb/>das er ir man nie sye worden und sy bedi darum
+      <lb/>fert und opfer getan heigind,
+      <lb/>item von des schlahens wegen ein arm ab <abbr>etc.</abbr>, 
+      <lb/>ward <persName>Jacob</persName> beruͦfft, ernstlich ermant und
+      gfragt,
+      <lb/>aber er bleib daruff, er wer ir man gsin wie
+      <lb/>anderer frowen. Doch was er anred der ferten unnd
+      <lb/>opfren, nit me kond man uß im bringen.</p>
+      <pb n="4" facs="StAZH_A_7_22__Nr__39__S__4_.tif"/>
+      <p><lb/>Item des schlahens halb was er gichtig, das er iren
+      <lb/>ein arm hett ab geschlagen und löcher ins houpt,
+      <lb/>aber umb ursach, die er doch nit kond noch wott
+      <lb/>erzellen, ward doch flißklich gfraget.</p>
+      <p><lb/>Demnach liessend die richter bed partyen mittsampt
+      <lb/>iren bystenderen, gegen einanderen reden, aber
+      <lb/>er wott ir man gsin sin und sy unverfellt von
+      <lb/>im kommen <abbr>etc</abbr>.</p>
+      <p><lb/>Alßo habend die richter sy bede in namen und
+      <lb/>zu handen eins ersamen radts lassen verfassen
+      <lb/>die warheit ze erfaren und wyter bescheid (wie
+      <lb/>sy in der sach söllind handlen) empfohlen.</p></div>
+    </body>
+    <back>
+     <div><p>
+      Die auf ungefähr 1530 zu datierenden Akten
+      des Ehegerichts beinhalten die typischen, an das katholische Kirchenrecht
+      anknüpfenden Vorwürfe, mit denen vor dem reformierten <placeName ref="LOC_Lat_Long">Zürcher</placeName> Ehegericht auf
+      Scheidung geklagt werden konnte: Während <persName>Jacob Öffeli</persName> seiner Ehefrau <persName>Elsi
+      Tikelmann</persName> vorwirft, ihn grundlos verlassen und betrogen zu haben, argumentiert
+      diese, sie sei von ihrem Ehemann geschlagen, von seiner Familie verächtlich
+      behandelt und von seinem Bruder mit den <quote>Blattern</quote> angesteckt worden. Ihr Mann
+      sei impotent, habe Ehebruch begangen und trage ausserdem dafür die
+      Verantwortung, dass sie vergewaltigt und dabei geschwängert worden sei. Dass die
+      Eheleute schon zuvor in heftige Konflikte geraten, aber immer wieder
+      zusammengeführt worden waren, zeugt davon, dass das Ehegericht das Ideal einer
+      lebenslänglichen Bindung verfolgte und Scheidungen zu vermeiden suchte. Auch
+      <persName>Elsi Tikelmanns</persName> Bereitschaft zu erneuter Versöhnung entsprach diesem Ideal des
+      reformierten Ehegerichts.
+      </p>
+     </div>
+    </back>
+   </text>
+  </group>
+ </text>
+</TEI>

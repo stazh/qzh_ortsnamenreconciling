@@ -1,0 +1,460 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='../../Ressourcen/Stylesheet.xsl'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Quellen zur Zürcher Geschichte</title>
+                <respStmt>
+                    <persName>Anina Steinmann. Mit einem Kommentar von Michael
+                        Schaffner</persName>
+                    <resp key="transcript"/>
+                </respStmt>
+                <respStmt>
+                    <persName>Sarah Murer</persName>
+                    <resp key="tagging"/>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Staatsarchiv des Kantons Zürich</publisher>
+                <date type="electronic" when="2021-05-01"/>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Quellen zur Zürcher Geschichte</title>
+                <respStmt>
+                    <persName>Staatsarchiv des Kantons Zürich</persName>
+                    <resp>Herausgeberschaft</resp>
+                </respStmt>
+                <idno>QZH_073</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4769618">C II 12, Nr. 1015</idno>
+                    </msIdentifier>
+                    <head>Ordnung der Stadt Zürich betreffend Reorganisation der Verwaltung des Amts Rüti</head>
+                    <msContents>
+                        <summary>Die jeweils waltenden Amtleute werden dazu angehalten, das Almosenbrot nicht mehr an die Zins- und Zehntleute sowie an verschiedene Bediensteten zu verteilen (1) oder die Vergabe teilweise sogar ganz einzustellen (9), ihre eigenen Dienstleute gänzlich aus den privaten Vorräten zu verköstigen (2), ohne die Hinzuziehung eines Obmanns keine neuen Knechte einzustellen (3), nur eine vorgegebene Menge Holz zu fällen und zu verteilen (4), das Kloster aus eigenen Mitteln reinigen (5) und erhalten zu lassen (6), den Fuhrlohn gerecht anzusetzen (7), keine Lehensbriefe mehr aus der Amtskasse zu bezahlen (13), für allfällige Hochzeits- oder Taufgaben (14) sowie den Lohn der Vögte (10) und Landschreiber von Grüningen (11) nur eine bestimmte Geldsumme auszugeben, die Schweine ohne den bisherigen Gebrauch von Roggen zu füttern (17) und schliesslich mehr Geld für den Verkauf der Butter zu verlangen (18). Des Weiteren wird bekannt gegeben, dass der Zehnte des Amts Rüti wie zuvor belassen (15) und das Zehntrecht von Tann ebenfalls dem Amt Rüti zugeführt werden soll (16). Ausserdem finden die jährlichen Pacht- und Rechnungsverhandlungen neu nur noch in Rüti und nicht mehr zusätzlich auch in Uster statt (8) und den Ammännern dieser beiden Dörfer wird der Geldzusatz aus den Zinsen abgesprochen (12).</summary>
+                        <msItem>
+                            <textLang>Deutsch</textLang>
+                            <filiation type="current">Original, Heft (2 Doppelblätter)</filiation>
+                            <filiation type="original"><origDate when="1624-05-16"
+                            />16.05.1624</filiation>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><material>Papier</material></support>
+                                <extent/>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origDate when="1624-05-16"/></origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>
+                    <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+                </p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc> </profileDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+                    <term ref="key000207">Amt</term>
+                    <term ref="key004175">Ausgaben</term>
+                    <term ref="key000490">Bauwesen</term>
+                    <term ref="key005369">Buchführung</term>
+                    <term ref="key004536">Finanzen</term>
+                    <term ref="key000010">Kloster</term>
+                    <term ref="key000212">Löhne</term>
+                    <term ref="key000574">Rechnungswesen</term>
+                    <term ref="key000187">Unterhalt</term>
+                    <term ref="key000204 ">Verwaltung</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+ <text>
+  <group>
+   <text>
+    <body corresp="Sigle1">
+     <div>
+         <pb n="1" facs="C_II_12__Nr__1015__S__1_.tif"/>
+         <head>Deß ampts zu <placeName ref="LOC_Lat_Long">Rüthi</placeName> reformation, so anno <origDate when="1624">1624</origDate>
+       <lb/>bschëchen, luthet die selbig <add place="left margin">deß kurzen inhalts</add> allso:</head>
+     <div>
+       <ab type="marginal note" place="left margin">Allmoßen gebäch.</ab>
+      </div>
+         <div><p>
+      <seg n="1">
+       <lb/>Es sölle von dem allmoßen gebäch weder
+       <lb/>den zinß noch zenden lüthen noch auch den
+       <lb/>werchlüthen, dientsten und anderem der
+       <lb/>glichen gsind gar nützit wyters gegeben,
+       <lb/>sonders sy umb ire verdiente lidlöhn in
+       <lb/>ander weg befridiget werden söllint <abbr>etc</abbr>.
+      </seg>
+         </p>
+      </div>
+      <div>
+       <ab type="marginal note" place="left margin"><lb/>Ein amptman sol syne
+        <lb/>dienst uß dem synen
+        <lb/>spyßen.
+       </ab>
+      </div>
+          <div> 
+       <p><seg n="2">
+        <lb/>Was demnach des ambtmans dienst und werch<lb break="no"/>knëcht belanget, die sölle ein amptman von
+        <lb/><add place="inline">und</add> uß dem synen spyßen und inen an brott
+        <lb/>uß dem allmoßen gebäch gar nützit werden
+        <lb/>laßen, auch ein amptman für ire tag
+        <lb/>löhn, die sy in synem dienst zu bringend,
+        <lb/>weder wenig noch vill verrëchnen, sonders
+        <lb/>die selben uß synem seckel abfergen <abbr>etc</abbr>.</seg>
+       </p>
+      </div>
+     <div>
+       <p> <seg n="3">
+        <lb/>Wan der alten werch knëchten einer, so in
+        <lb/>dißerem ampt lange jar gedienth, mit todt ab<lb break="no"/>gienge, <del>sof</del> so sölle der amptman
+        <lb/>ohne vorwüssen und erlauben eines
+        <lb/>obmans einen <add place="left margin" type="sign">anderen an deß abgënden
+        <lb/><subst><del>knëcht</del><add place="inline">stadt</add></subst></add> anzunemmen nit befugt<!-- koll -->
+        <lb/>syn, sonders den selben darumb zuvor
+        <lb/>befraggen sölle.</seg>
+       </p>
+      </div>
+      <div>
+       <ab type="marginal note" place="left margin"><lb/>Ein ambtman soll jerrlich
+       <lb/>meer nit als <num value="100">100</num> claffter
+       <lb/>holtz fehlen <abbr>etc</abbr>.
+       </ab>
+      </div>
+      <seg n="4"><div>
+       <p>
+        <lb/>Ein ambtman soll fürbaßhin mehr nit dan
+        <lb/><num value="100">ein hundert</num> rëchte gmeine klaffter holtz fehlen
+        <lb/>und darvon einem herren predicanten
+        <lb/>jerrlichen <num value="12">zwölff</num> claffter werden und
+        <lb/>gefolgen laßen und die anderen <num value="88">88</num> claft<lb break="no"/>er
+       </p>
+      </div>
+          <pb n="2" facs="C_II_12__Nr__1015__S__2_.tif"/>
+       <div>
+      <p>
+       <lb/>in die <del><gap reason="illegible" quantity="1" unit="cm"/></del> gmein hußhaltung und die pfistereyg
+       <lb/>dienen söllind mit der erlüterung, daß von
+       <lb/>solchem holtz einem amptman für den feller-,
+       <lb/>schytter-, ufmacher- und fhurlohn von
+       <lb/>jedem claffter mehr nit dan <num value="0.5">ein halbe</num>
+       <lb/>cronen gehören. Wan er aber in synem
+       <lb/>costen mehr holtzes, dan jetz gmeldet, hauwen
+       <lb/>unnd zu hei füehren laßen welte, sölle i<subst><del>nn</del><add place="inline">m</add></subst>
+       <lb/>daßelbig unabgschlagen syn.
+      </p>
+       </div></seg>
+      <div>
+       <ab type="marginal note" place="left margin"><lb/>Durch syne eigne
+       <lb/>dienst den hoff
+       <lb/>süberen laßen.
+       </ab>
+      </div>
+      <seg n="5"><div>
+       <p>
+        <lb/>Feerners sölle der lohn von dem kath und wu̍st
+        <lb/>uß dem hoff zefëren gentzlich uf ghebt syn, also daß
+        <lb/>ein ambtman darfür nützit wyters verrëchnen,
+        <lb/>sonder<del>lichen</del> söllichen fhur lohn selbs über sich nëmmen
+        <lb/>unnd daß closter, sambt dem hoff, durch syne eigne
+        <lb/>dienst süberen laßen sölle.
+       </p>
+      </div></seg>
+      <div>
+       <ab type="marginal note" place="left margin"><lb/>Ein ambtman sol syne
+       <lb/>güter in synem costen
+       <lb/>in ehren und gutem
+        <lb/>wëßen erhalten.
+       </ab>
+      </div>
+      <seg n="6"><div>
+       <p>
+        <lb/>Deßglychen sölle ein ambtman syne güetter so
+        <lb/>wol der zühn und süberung halber als auch in
+        <lb/>ander weg in synem eignem costen, ohne
+        <lb/>deß ambts schaden, in ehren und gutem wëßen
+        <lb/>erhalten unnd für die erbuwung und verbeßerung
+        <lb/>derselben (ußert dem, so über deß ambts eigen
+        <lb/>güeter und höltzer gadt) gar nütt mehr verrëchnen,
+        <lb/>sonders den uncosten für sich selbs abfergen unnd
+        <lb/>bezallen und er sich der darnaher empfahenden
+        <lb/>nutzung vernügen laßen.
+       </p>
+      </div></seg>
+         <pb n="3" facs="C_II_12__Nr__1015__S__3_.tif"/>
+      <div><ab type="marginal note" place="left margin"><lb/>Wan der amptman dem
+      <lb/>ziegler holtz, stein, leim
+       <lb/>etc. führt im fuhrlohn be<lb break="no"/>scheidenlich fahren sölle.
+      </ab>
+      </div>
+      <seg n="7"><div>
+       <p>
+        <lb/>Deß zieglers halben laßt man es, innansëhung
+        <lb/>er ein armmen nütling und mit ville der
+        <lb/>kinderen beladen, auch dem ambt weder
+        <lb/>deß brotts noch anderen dingen halber nit be<lb break="no"/>schwerlich ist, by dem verding als von einem
+        <lb/>jedern brand <num value="30">30</num> <abbr></abbr> und ein mütt kërnen
+        <lb/>rëcht noch malen verbliben. Darby aber
+        <lb/>sind die ambtlüth<del>en</del> ermanet, daß sy in verëch<lb break="no"/>nung deß fëhrlohns vom holtz, steinen, leim
+        <lb/>und derglychen sachen auch bscheidenlich
+        <lb/>darhär farind und nütt überflüßigs ver<lb break="no"/>rechnind <abbr>etc</abbr>. Daruf der obmann zur
+        <lb/>zyth der gwonlichen visitation ein flyßiges
+        <lb/>uf sëhen haben und dass darvon mangel
+        <lb/>syn möchte jedes mals zu verbeßeren wol
+        <lb/>wüßen wirt.
+       </p>
+      </div></seg>
+      <div>
+       <ab type="marginal note" place="left margin"><lb/><choice><abbr>N<hi rend="sup">a</hi>.</abbr><expan>Nota</expan></choice>: Dißer articul
+        <lb/>ist im <date when="1624-12">decembri <choice><abbr>a<hi rend="sup">o</hi>.</abbr><expan>anno</expan></choice> 1624</date>
+       <lb/>umb etwas geenderet
+       <lb/>worden.
+       </ab>
+      </div>
+      <seg n="8"><div>
+       <p>
+        <lb/>Die zechenden verlychung und abrëchnung, so die
+        <lb/>ambtlüth jerrlichen mit den zinßlüthen zu
+           <lb/><placeName ref="LOC_Lat_Long">Uster</placeName> gehalten betreffende, ist angesëchen,
+           <lb/>daß sömliches, umb minderen costens und zu<lb break="no"/>lauffs willen, nit meer zu <placeName ref="LOC_Lat_Long">Uster</placeName>, sonders
+           <lb/>zuͦ <placeName ref="LOC_Lat_Long">Rüthi</placeName> im ambthuß beschëchen unnd, so die
+           <lb/>zyth verhanden, es der gmeind zu <placeName ref="LOC_Lat_Long">Uster</placeName> in
+        <lb/>der kilchen ofentlich verkündt unnd zu
+        <lb/>wüßen gethan werden sölle, da sich dan
+        <lb/>niemandt dahin verfügen, der nit mit dem
+        <lb/>ambtman etwas abzurëchnen habe.
+       </p>
+      </div></seg>
+      <div>
+       <ab type="marginal note" place="left margin"><lb/>Die <num value="4">4</num> <choice><abbr>mt</abbr><expan>mütt</expan></choice> kernen, so
+        <lb/>den werch knëchten gehn
+        <lb/>worden, sind abkëndt.</ab>
+      </div>
+      <seg n="9"><div>
+       <p>
+        <lb/>Die <num value="4">vier</num> mütt kernen, welliche ein amptman für
+        <lb/>die mütschli, die man vhor dißerem den werchknëchten
+           <lb/>zu geben befügt gsyn, ingschriben, söllent gëntz<pb n="4" break="no" facs="C_II_12__Nr__1015__S__4_.tif"/>lich ufgehebt 
+           und in kein rëchnung wyters
+        <lb/>gebracht werden.
+       </p>
+      </div></seg>
+      <div>
+       <ab type="marginal note" place="left margin"><lb/>Das <choice><abbr>mltr</abbr><expan>malter</expan></choice> haber, so
+           <lb/>jerrlich einem vogt zuͦ <placeName ref="LOC_Lat_Long">Grüeningen</placeName> geben worden
+        <lb/>ist abgestrickt <abbr>etc</abbr>.
+       </ab>
+      </div>
+      <seg n="10"><div>
+       <p>
+        <lb/>Unnd wie wol vhor dißerem einem vogt zu
+           <lb/><placeName ref="LOC_Lat_Long">Grüeningen</placeName> jerrlichen uß dißerem ampt ein <choice><abbr>mltr</abbr><expan>malter</expan></choice>
+        <lb/>haber zum guten jahr verehrt worden, die
+        <lb/>wyl aber ein vogt von syner vogtey nacher sonsten
+        <lb/>ein guten genuß hatt, da sölle sölliches malter
+        <lb/>haber hiemit auch abgestrickt syn und deßnacher
+           <lb/>einem vogt zu <placeName ref="LOC_Lat_Long">Grüeningen</placeName> nützit wyters gegeben
+        <lb/>werden.
+       </p>
+      </div></seg>
+      <div>
+       <ab type="marginal note" place="left margin"><lb/>Dem landtschryber
+        <lb/><num value="12">12</num> <abbr></abbr> für syn müy <abbr>etc</abbr>.
+       </ab>
+      </div>
+      <seg n="11"><div>
+       <p>
+           <lb/>Einem landtschryber zu <placeName ref="LOC_Lat_Long">Grüeningen</placeName> sölle fürhin
+        <lb/>jerrlichen für syn mit dem allmosen und zeenden
+        <lb/>habende müyg und arbeith mehr nit als <num value="12">12</num> <abbr></abbr> zu
+        <lb/>gestelt werden.
+       </p>
+      </div></seg>
+      <div>
+       <ab type="marginal note" place="left margin"><lb/>Die <num value="5">5</num> <abbr></abbr> gelts söllend
+        <lb/>beiden amman auch ab<lb break="no"/>këndt syn.
+       </ab>
+      </div>
+      <seg n="12"><div>
+       <p>
+        <lb/>Ebenmeßig söllend die <num value="5">fünff</num> pfund gëlts, die
+           <lb/>beide aman zu <placeName ref="LOC_Lat_Long">Rüthi</placeName> und <placeName ref="LOC_Lat_Long">Uster</placeName> für den inzug der
+        <lb/>jerrlichen zinßen zugestelt worden, auch abkendt
+        <lb/>syn und inen die nit mehr gegeben werden, sonder
+        <lb/>sy sich irer bestimbten blonung setigen laßen.
+       </p>
+      </div></seg>
+      <div>
+       <ab type="marginal note" place="left margin"><lb/>Das ambt soll dheine
+        <lb/>lëhenbrief meer zallen.
+       </ab>
+      </div>
+      <seg n="13"><div>
+       <p>
+        <lb/>Für die lehen- und reversbrieff, so in dißerm
+        <lb/>ambt gemachet werdent, sol ein ambtman auch
+        <lb/>nütt wyters verrëchnen, sonders die lehenlüth
+        <lb/>die selben bezallen heißen und sich allso diß orts
+        <lb/>der deßhalb in der gmeinen reformations an<lb break="no"/>gsëchnen und in der ambtlüthen eid begriffnen
+        <lb/>ordnung gmeß verhalten.
+       </p>
+      </div></seg>
+      <div>
+       <ab type="marginal note" place="left margin"><lb/>Ein ambtmann soll
+        <lb/>für die inbindeten
+        <lb/>meer nit als <num value="0.5">1/2</num> cronen
+        <lb/>verrëchnen.
+       </ab>
+      </div>
+      <seg n="14"><div>
+       <p>
+        <lb/>Unnd diewyln die küechleten, deßglychen die
+        <lb/>beithemeli, gottenkitel und hochzyth gaaben,
+           <pb n="5" facs="C_II_12__Nr__1015__S__5_.tif"/>
+        <lb/>sambt dem costen, so ein ambtmann von wegen
+        <lb/>der hochzyten verrëchnet, schon vor mallen
+        <lb/>(in-) und abgestelt worden, da laßt man
+        <lb/>es darby nach malen verblyben, allso das
+        <lb/>ein ambtman allein die inbindeten und für
+        <lb/>jede nun <num value="1">j</num> <abbr></abbr>, <num value="12">xij</num> <abbr></abbr> verrëchnen und daß überig
+        <lb/>uß dem synen abfergen sölle.
+       </p>
+      </div></seg>
+      <div>
+       <ab type="marginal note" place="left margin"><lb/>Der zechenden halb
+        <lb/>laßt man es verbliben.
+       </ab>
+      </div>
+      <seg n="15"><div>
+       <p>
+           <lb/>Sovil dan die dem ambt <placeName ref="LOC_Lat_Long">Rüthi</placeName> zu gehörenden
+        <lb/>zëchenden beth<add place="below">r</add>ifft, da laßt man es hürigs
+        <lb/>jars rëcht by dem, wie es der selben verlych<lb break="no"/>ung halber von alterhar gebrucht worden,
+        <lb/>verbliben, in hoffnung, man sich deß orts aller
+        <lb/>bescheidenheit beflyßen und dem ambt mit
+        <lb/>unnotwendigem costen verschonen werde. Wo
+        <lb/>nit, kan deßwegen jederzyth auch gebürend
+        <lb/>insehens beschëchen.
+       </p>
+      </div></seg>
+      <div>
+          <ab type="marginal note" place="left margin"><lb/>Der zëchenden zu <placeName ref="LOC_Lat_Long">Tann</placeName>
+        <lb/>soll uf der freyen gant
+        <lb/>uß grüeft und verlich<lb break="no"/>en werden.
+       </ab>
+      </div>
+      <seg n="16"><div>
+       <p>
+           <lb/>Was aber den zeenden zu <placeName ref="LOC_Lat_Long">Tann</placeName> belanget, der
+           <lb/>vor der zyth einem ambtmann zu <placeName ref="LOC_Lat_Long">Rüthi</placeName> umb etliche
+        <lb/>gringe stuck zu deß ambts zimblichen schaden
+        <lb/>jerrlichen zu geeignet worden, da wellend
+        <lb/>myn gnedig herren, daß söllicher zeenden nun 
+           <lb/>fürhin dem ambt <placeName ref="LOC_Lat_Long">Rüthi</placeName> wider eigenthumblichen
+        <lb/>zu dienen, also daß kein ambtman in werender
+        <lb/>syner verwaltung noch auch uf synen abzug
+        <lb/>kein ansprach daran haben, sonders der
+        <lb/>selbig nëbent anderen zëchenden jerrlichen umb
+        <lb/>daß mechist verlichen werden sölle.
+       </p>
+      </div></seg>
+      <div>
+       <ab type="marginal note" place="left margin"><lb/>Kein roggen meer
+        <lb/>verrëchnen, der mit
+        <lb/>den schwynen verbrucht.
+       </ab>
+      </div>
+      <seg n="17"><div>
+       <p>
+        <lb/>Sodenne befindt sich, daß die ambtlüth jerrlichen
+        <lb/>in <num value="20">zwentzig</num> und mehr mütt roggen verrëchnend,
+        <lb/>die sy mit den schwynen verbrucht habind. Wil
+        <lb/>nun in anderen ëmbteren ein sölliches uff die form
+        <lb/>nit gebrucht wirt, so ward söllicher tittel
+           <pb n="6" facs="C_II_12__Nr__1015__S__6_.tif"/>
+        <lb/>in dißerem ampt auch ufgehept, also daß ein
+           <lb/>amptmann zu <placeName ref="LOC_Lat_Long">Rüthi</placeName> zum mehsten der schwynen
+        <lb/>nüt wyters derglychen inschryben, sonders den
+        <lb/>roggen, glych wie andere frücht, umb den mehisten
+        <lb/>pfening verkauffen und er syne schwyn ohne
+        <lb/>deß ambts schaden erhalten sölle.
+       </p>
+      </div></seg>
+      <div>
+       <ab type="marginal note" place="left margin"><lb/>Für ein pfund ancken
+        <lb/><num value="1">ein</num> batzen verrëchnen.
+       </ab>
+      </div>
+      <seg n="18"><div>
+       <p>
+           <lb/>Letstlichen, die wil die ambtlüth<del>en</del> zu <placeName ref="LOC_Lat_Long">Rüthi</placeName>
+        <lb/>für ein pfund ancken, so dem ambt jerrlich ingadt,
+        <lb/>bißhar mehr nit als <num value="0.5">ein halben</num> batzen, daß eben
+        <lb/>ein grings ist, verrëchnet, habent sy, myn herren,
+        <lb/>angesëchen unnd wellend, daß nun fürhin ein ambt<lb break="no"/>man für ein pfund ancken <num value="1">ein</num> batzen ver<lb break="no"/>rëchnen sölle.
+       </p>
+      </div></seg>
+         <pb n="7" facs="C_II_12__Nr__1015__S__7_.tif"/>
+         <pb n="8" facs="C_II_12__Nr__1015__S__8_.tif"/>
+      <div>
+       <ab type="dorsal" place="verso"><lb/>Verzeichnuß.
+           <lb/>Deß ambts zu <placeName ref="LOC_Lat_Long">Rüthi</placeName> reformat<lb break="no"/>ion, anno <origDate when="1624">1624</origDate>.
+      </ab>
+      </div>
+     </div>
+    </body>
+    
+    <back>
+     <div>
+     <p> Mit der Reformation setzte die Stadt <placeName ref="LOC_47.37721_8.52731">Zürich</placeName>
+                            in der Abtei <placeName ref="LOC_Lat_Long">Rüti</placeName> einen
+                            Amtmann ein, der die Finanzen des Klosters zu verwalten hatte (für die
+                            Reformation des Klosters vgl. <bibl><ref
+                                    target="https://qzh.sources-online.org/quellenstuecke/QZH_071"
+                                    >QZH, Nr. 71</ref></bibl>). Die zahlreichen, aus Abgaben und
+                            Herrschaftsrechten herrührenden klösterlichen Einkünfte verwendete die
+                            Stadt zu einem Anteil auch für das Almosenwesen auf der
+                            Landschaft. So wurden unter anderem Brote an Bedürftige ausgeteilt, die
+                            sich in den Quellen als <q>Rüthi brödtli</q> oder<q> mütschli von
+                                Rütti</q> niedergeschlagen haben (vgl. etwa <bibl><ref
+                                    target="https://qzh.sources-online.org/exist/apps/qzh/quellenstuecke/QZH_016"
+                                    >QZH, Nr. 16</ref></bibl>).</p>
+         <p>Die Amtleute waren gegenüber der Obrigkeit zur Rechenschaft verpflichtet und schickten
+                            jährliche Abrechnungen nach Zürich (vgl. <bibl><ref
+                                    target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=324387"
+                                    >StAZH F III 28</ref></bibl>). Dennoch war ihre
+                            Verwaltungstätigkeit auch immer wieder Gegenstand von Untersuchungen
+                            seitens des Rates. In einigen Fällen kam es auch zu Sanktionierungen
+                            wegen Misswirtschaft und Veruntreuung. Zwei spektakuläre Fälle stellen
+                            in diesem Zusammenhang derjenige des im Jahr 1551 zum Tod verurteilten
+                                <persName>Rudolf Kolb</persName> sowie des 1711 des Amtes enthobenen
+                                <persName>Johannes Herrliberger</persName> dar (vgl. <bibl><ref
+                                    target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html"
+                                    >Niederhäuser 2020</ref>, S. 69-71</bibl>). Wie aus der
+                            vorliegenden Ordnung hervorgeht, suchte der Rat die Verwaltung seitens
+                            der Amtleute und die Handhabung der Einnahmen und Ausgaben des
+                            Klosteramtes verschiedentlich genauer zu regeln, allerdings offenbar mit
+                            begrenztem Erfolg. </p>
+     </div>
+    </back>
+    
+   </text>
+  </group>
+ </text>
+</TEI>  

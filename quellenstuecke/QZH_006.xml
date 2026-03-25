@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css“?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0"
+ xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <respStmt>
+     <persName>Andrea Schmid-Kunz</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Michael Schaffner</persName>
+     <resp key="tagging"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <date type="electronic" when="2021-05-01"/>
+    <date type="print" when="2018-12-31"/>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Gelebte Reformation. Zürich 1500-1800</title>
+    <respStmt>
+     <persName>Francisca Loetz. Unter Mitarbeit von Wolfram Schneider-Lastin</persName>
+     <resp>Herausgeberschaft</resp>
+    </respStmt>
+    <idno>QZH_006</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier>
+      <idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4899936">StAZH A 27.125, Nr. 55</idno>
+     </msIdentifier>
+     <head>Schreiben des Paters Joachim Pfeiffer aus dem Kloster Einsiedeln betreffend Mustapha Caffa</head>
+     <msContents>
+      <msItem>
+       <textLang>Deutsch</textLang>
+       <filiation type="current">Aufzeichnung (Doppelblatt)</filiation>
+       <filiation type="original"><origDate when="1706-07-25"/></filiation>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support><material>Papier</material></support>
+        <extent/>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+     <origin><origDate when="1706-07-25"/></origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p>
+     <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+    </p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc> </profileDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term ref="key000325">Fremde</term>
+     <term ref="key000010">Kloster</term>
+     <term ref="key000670">Konfession</term>
+     <term ref="key005339">Konversion</term>
+     <term ref="key003408">Taufe</term>
+    </keywords>
+   </textClass>
+   <particDesc default="false"/>
+   <settingDesc default="false"/>
+  </profileDesc>
+ </teiHeader>
+ <text>
+  <group>
+   <text>
+    <body>
+     <div>
+      <pb n="1" facs="StAZH_A_27_68_2__Nr__3_4__S__1_.tif"/>
+      <p> 
+       <seg><lb/>Hochgeacht-wohledelgebohrn-gestreng-fürsichtig-
+       <lb/>und weise, hochgeehrtiste herren <abbr>etc</abbr>.</seg></p>
+       <p><seg><lb/>Aus ihrem sub dato 24 currentis an meinem gnädigen
+       <lb/>fürsten und <abbr>h.</abbr> abgelassnem, habe zu vernemmen gehabt,
+       <lb/>wie das sie einige information und nachricht verlangen,
+       <lb/>ob nit vor etwas zeits ein gewüsser man, bekleidt
+       <lb/>und gestaltet als ihr schreiben außweist, sich hiereinge<lb break="no"/>funden,
+        der sich nambset <persName>Mustaffa Caffa</persName>, ein dürkh
+       <lb/>aus <placeName ref="LOC_Lat_Long">Algiers</placeName>, und ob er den <abbr>h.</abbr> tauff empfangen habe.</seg>
+       <seg><lb/>Wan nun ihro hoch <abbr>frstl. gnd.</abbr> nit anheimbsch, als
+       <lb/>füege in dero abwesenheit zu <choice><abbr>freündtl.er</abbr><expan>freündtlicher</expan></choice> antwort, ds
+       <lb/>ja, vor etwelchen wuchen ein solcher, sich <persName>Mustaffa Caffa</persName> von
+       <lb/><placeName ref="LOC_Lat_Long">Algiers</placeName> nambsete, alhier gewesen, und den <abbr>h.</abbr> tauff empfangen.
+       <lb/>Ob aber es gleich der jenige seye, der sich dermahlen al<lb break="no"/>dort 
+       einfindt, mag ich nit wisen.</seg><seg> Und dis ist, waß über ihr
+       <lb/>genambstes zu berichten hab, nachst göttlicher empfehlung
+       <lb/>verbleibendt, <abbr>mgen. hhen.</abbr> diensbeflißner
+       <lb/><choice><abbr>p.</abbr><expan>pater</expan></choice> <persName>Joachim Pfeiffer</persName>, decan.</seg>
+       <seg><lb/>Geben in unseren <abbr>festl.</abbr> gotshaus <placeName ref="LOC_Lat_Long">Einsidlen</placeName>, den 25ten julii <abbr>a<hi rend="sup">o</hi></abbr> 1706.</seg></p>
+      <pb n="2" facs="StAZH_A_27_68_2__Nr__3_4__S__4_.tif"/>
+      <p>  <lb/>Denen hochgeacht-wohledelgebohrn-
+       <lb/>gestreng- fürsichtig- und weisen herren,
+       <lb/><abbr>hrn.</abbr> bürgermeister und rath der statt 
+       <lb/><placeName ref="LOC_47.37721_8.52731">Zürich</placeName>, meinen hochgeehrtisten <abbr>hrn.</abbr>,
+       <lb/>in <placeName ref="LOC_47.37721_8.52731">Zürich</placeName>.</p></div>
+    </body>
+    <back><div>
+     <p>In diesem einzigartigen Fall lässt sich verfolgen, wie konsequent der <orgName>Rat</orgName> die
+      Geschichte des Türken <persName>Caffa</persName> alias <persName>Cara</persName> zu überprüfen suchte, der sich als versklavter
+      osmanischer Muslim und geflüchteter Galeerenflüchtling ausgab, welcher zum Reformiertentum
+      konvertiert sei. Offenbar hielt der Rat die Darlegungen des schliesslich als Betrüger
+      aufgedeckten Mannes für glaubwürdig genug, um vielfältige Erkundigungen einzuziehen.
+      Ausserdem weisen die Akten darauf hin, dass <persName>Caffa</persName> seine vermeintliche Konversion als
+      symbolisches Kapital einzusetzen vermochte, um sich von den jeweiligen Orten unterstützen zu
+      lassen, an denen er seine Geschichte verkaufte.</p>
+    </div></back>
+   </text>
+  </group>
+ </text>
+</TEI>

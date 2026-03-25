@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlaceName Reconciliation</title>
+    <!-- Tailwind via CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Leaflet for maps -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <style>
+        body { font-family: 'Inter', sans-serif; background-color: #0f172a; color: #f8fafc; }
+        .source-badge-GeoAdmin { background-color: #ef4444; } /* Red */
+        .source-badge-ortsnamen\.ch { background-color: #22c55e; } /* Green */
+        .source-badge-Wikidata { background-color: #3b82f6; } /* Blue */
+        .source-badge-GeoNames { background-color: #eab308; } /* Yellow */
+        
+        /* Custom scrollbar */
+        ::-webkit-scrollbar { width: 6px; }
+        ::-webkit-scrollbar-track { background: #1e293b; }
+        ::-webkit-scrollbar-thumb { background: #475569; border-radius: 3px; }
+        ::-webkit-scrollbar-thumb:hover { background: #64748b; }
+        
+        .map-container { height: 180px; z-index: 10; border-radius: 0.5rem; }
+    </style>
+</head>
+<body class="h-screen flex overflow-hidden">
+
+    <!-- Sidebar -->
+    <div class="w-1/3 border-r border-slate-700 bg-slate-900 flex flex-col">
+        <!-- Header & Stats -->
+        <div class="p-4 border-b border-slate-700 bg-slate-800">
+            <h1 class="text-xl font-bold mb-4 flex items-center gap-2">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-blue-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/><circle cx="12" cy="10" r="3"/></svg>
+                PlaceName Resolver
+            </h1>
+            
+            <div class="flex items-center gap-4 text-sm mb-4">
+                <div class="flex-1 flex flex-col items-center p-2 rounded bg-slate-700/50">
+                    <span class="text-slate-400">Total</span>
+                    <span id="stat-total" class="font-semibold text-lg">0</span>
+                </div>
+                <div class="flex-1 flex flex-col items-center p-2 rounded bg-green-500/10 border border-green-500/20">
+                    <span class="text-green-400">Resolved</span>
+                    <span id="stat-resolved" class="font-semibold text-lg text-green-400">0</span>
+                </div>
+                <div class="flex-1 flex flex-col items-center p-2 rounded bg-blue-500/10 border border-blue-500/20">
+                    <span class="text-blue-400">Pending</span>
+                    <span id="stat-pending" class="font-semibold text-lg text-blue-400">0</span>
+                </div>
+            </div>
+
+            <!-- Progress Bar -->
+            <div class="h-2 w-full bg-slate-700 rounded-full overflow-hidden mb-4">
+                <div id="progress-bar" class="h-full bg-green-500 transition-all duration-500 w-0"></div>
+            </div>
+
+            <!-- Actions -->
+            <div class="flex justify-between items-center">
+                <div class="flex gap-2">
+                    <button id="btn-filter-all" class="px-3 py-1 text-xs rounded-full bg-slate-700 text-white" onclick="filterList('all')">All</button>
+                    <button id="btn-filter-pending" class="px-3 py-1 text-xs rounded-full bg-blue-500/20 text-blue-400 border border-blue-500/30" onclick="filterList('pending')">Pending</button>
+                    <button id="btn-filter-resolved" class="px-3 py-1 text-xs rounded-full bg-green-500/20 text-green-400 border border-green-500/30" onclick="filterList('resolved')">Resolved</button>
+                </div>
+                <button id="btn-apply-all" class="px-4 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded shadow-lg text-sm font-medium transition-colors" onclick="applyChanges()">
+                    Apply to XML
+                </button>
+            </div>
+        </div>
+
+        <!-- List -->
+        <div id="placename-list" class="flex-1 overflow-y-auto p-2">
+            <!-- Populated by JS -->
+            <div class="flex items-center justify-center h-full text-slate-500">Loading...</div>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="w-2/3 bg-slate-800 flex flex-col relative">
+        <!-- Initial empty state -->
+        <div id="empty-state" class="absolute inset-0 flex flex-col items-center justify-center text-slate-500 z-50 bg-slate-800">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-16 h-16 mb-4 text-slate-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="m15 15 6 6m-6-6a6 6 0 0 1-12 0 6 6 0 0 1 12 0"/><path d="M12 7v5l3 3"/></svg>
+            <p class="text-lg">Select a place name from the list</p>
+        </div>
+
+        <!-- Detail View -->
+        <div id="detail-view" class="hidden flex-col h-full w-full">
+            <!-- Header -->
+            <div class="p-6 border-b border-slate-700 bg-slate-850 flex justify-between items-start">
+                <div>
+                    <h2 class="text-3xl font-bold mb-2 text-white" id="detail-name">Place Name</h2>
+                    <div class="flex items-center gap-2 text-sm text-slate-400 mb-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+                        <span id="detail-occurrences">Found in 0 files</span>
+                    </div>
+                </div>
+                
+                <div class="flex gap-2">
+                    <button class="px-4 py-2 bg-slate-700 hover:bg-slate-600 rounded text-sm transition-colors" onclick="skipCurrent()">
+                        Skip (Do Not Resolve)
+                    </button>
+                    <button class="px-4 py-2 bg-red-500/20 hover:bg-red-500/30 text-red-400 rounded text-sm transition-colors hidden" id="btn-unresolve" onclick="unresolveCurrent()">
+                        Undo Resolution
+                    </button>
+                </div>
+            </div>
+
+            <div class="flex-1 overflow-y-auto p-6">
+                <!-- Context / Snippets -->
+                <div class="bg-slate-900 rounded-lg p-4 mb-6 border border-slate-700 shadow-sm">
+                    <h3 class="text-sm font-semibold text-slate-400 uppercase tracking-wider mb-3">
+                        XML Context Examples
+                    </h3>
+                    <div id="detail-contexts" class="space-y-3 text-sm text-slate-300 font-serif leading-relaxed max-h-60 overflow-y-auto pr-2">
+                        <!-- Populated by JS -->
+                    </div>
+                </div>
+
+                <!-- Manual Override Map & Form -->
+                <div class="bg-slate-900 rounded-lg p-4 mb-6 border border-slate-700 shadow-sm">
+                    <h3 class="text-sm font-semibold text-slate-400 uppercase tracking-wider mb-4 flex items-center justify-between">
+                        Custom Coordinates
+                        <span class="text-xs font-normal lowercase bg-slate-800 px-2 py-1 rounded">No exact match? Enter manually.</span>
+                    </h3>
+                    <div class="flex gap-4 items-end">
+                        <div class="flex-1">
+                            <label class="block text-xs text-slate-400 mb-1">Latitude (WGS84)</label>
+                            <input type="number" step="0.00001" id="custom-lat" class="w-full bg-slate-800 border border-slate-600 rounded px-3 py-2 text-white focus:outline-none focus:border-blue-500 transition-colors" placeholder="e.g. 47.36667">
+                        </div>
+                        <div class="flex-1">
+                            <label class="block text-xs text-slate-400 mb-1">Longitude (WGS84)</label>
+                            <input type="number" step="0.00001" id="custom-lng" class="w-full bg-slate-800 border border-slate-600 rounded px-3 py-2 text-white focus:outline-none focus:border-blue-500 transition-colors" placeholder="e.g. 8.55000">
+                        </div>
+                        <button class="px-4 py-2 bg-blue-600 hover:bg-blue-500 text-white rounded font-medium transition-colors" onclick="resolveCustom()">
+                            Use Custom
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Resolution State Details -->
+                <div id="resolution-state" class="hidden mb-6 p-4 rounded-lg bg-green-900/20 border border-green-500/30">
+                    <div class="flex items-center gap-3">
+                        <div class="w-10 h-10 rounded-full bg-green-500/20 flex items-center justify-center text-green-400">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                        </div>
+                        <div>
+                            <h3 class="text-green-400 font-medium text-lg">Resolved</h3>
+                            <p class="text-sm text-green-300/70" id="resolution-info">Coords: ... Source: ...</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- API Search Results -->
+                <div class="border-b border-slate-700 pb-3 mb-4">
+                    <h3 class="text-sm font-semibold text-slate-400 uppercase tracking-wider mb-3">API Match Candidates</h3>
+                    <div class="flex gap-2 items-center">
+                        <input type="text" id="alt-search-term"
+                            class="flex-1 bg-slate-800 border border-slate-600 rounded px-3 py-1.5 text-white text-sm focus:outline-none focus:border-blue-500 transition-colors"
+                            placeholder="Alternativer Suchbegriff…"
+                            onkeydown="if(event.key==='Enter') triggerAltSearch()">
+                        <button onclick="triggerAltSearch()"
+                            class="px-3 py-1.5 bg-slate-700 hover:bg-slate-600 text-white rounded text-sm transition-colors whitespace-nowrap">
+                            Suchen
+                        </button>
+                    </div>
+                    <p class="text-xs text-slate-500 mt-1.5" id="active-search-label"></p>
+                </div>
+
+                <div id="search-loading" class="py-8 flex flex-col items-center justify-center text-slate-400 hidden">
+                    <svg class="animate-spin h-8 w-8 text-blue-500 mb-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle><path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path></svg>
+                    <span>Searching Wikidata, ortsnamen.ch, GeoAdmin, GeoNames...</span>
+                </div>
+                
+                <div id="search-results-container" class="space-y-4">
+                    <!-- Results populated here -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // State
+        let allPlaces = [];
+        let currentFilter = 'all'; // all, pending, resolved
+        let activePlace = null;
+        let maps = {}; // Store leaflet map instances to clean them up
+        
+        // Initialize
+        document.addEventListener('DOMContentLoaded', () => {
+            fetchPlaces();
+        });
+
+        // ─── API Calls ───────────────────────────────────────────────────────
+
+        function fetchPlaces() {
+            fetch('/api/placenames')
+                .then(res => res.json())
+                .then(data => {
+                    allPlaces = data.placenames;
+                    
+                    // Update stats
+                    document.getElementById('stat-total').textContent = data.total;
+                    document.getElementById('stat-resolved').textContent = data.resolved;
+                    document.getElementById('stat-pending').textContent = data.pending;
+                    
+                    // Progress bar
+                    const percent = data.total === 0 ? 0 : (data.resolved / data.total) * 100;
+                    document.getElementById('progress-bar').style.width = `${percent}%`;
+                    
+                    renderList();
+                    
+                    // Update active view if needed
+                    if (activePlace) {
+                        const updatedPlace = allPlaces.find(p => p.name === activePlace.name);
+                        if (updatedPlace) {
+                            activePlace = updatedPlace;
+                            updateDetailView();
+                        }
+                    }
+                })
+                .catch(err => console.error("Error fetching places:", err));
+        }
+
+        function searchPlace(name) {
+            document.getElementById('search-loading').classList.remove('hidden');
+            document.getElementById('search-results-container').innerHTML = '';
+            document.getElementById('active-search-label').textContent = `Suche nach: «${name}»`;
+            
+            fetch(`/api/search?name=${encodeURIComponent(name)}`)
+                .then(res => res.json())
+                .then(data => {
+                    document.getElementById('search-loading').classList.add('hidden');
+                    renderSearchResults(data.results);
+                })
+                .catch(err => {
+                    console.error("Search error:", err);
+                    document.getElementById('search-loading').classList.add('hidden');
+                    document.getElementById('search-results-container').innerHTML = `<div class="p-4 text-red-400 bg-red-900/20 rounded">Search failed.</div>`;
+                });
+        }
+
+        function triggerAltSearch() {
+            const term = document.getElementById('alt-search-term').value.trim();
+            if (term) searchPlace(term);
+        }
+
+        function resolve(name, lat, lng, source) {
+            fetch('/api/resolve', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ name, lat, lng, source })
+            })
+            .then(res => res.json())
+            .then(() => {
+                fetchPlaces(); // Refresh list to update UI
+                // Select next pending item automatically
+                const nextPending = allPlaces.find(p => p.status === 'pending' && p.name !== name);
+                if (nextPending) {
+                    selectPlace(nextPending.name);
+                }
+            });
+        }
+
+        function skipCurrent() {
+            if (!activePlace) return;
+            fetch('/api/skip', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ name: activePlace.name })
+            })
+            .then(res => res.json())
+            .then(() => fetchPlaces());
+        }
+
+        function unresolveCurrent() {
+            if (!activePlace) return;
+            fetch('/api/unresolve', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ name: activePlace.name })
+            })
+            .then(res => res.json())
+            .then(() => fetchPlaces());
+        }
+
+        function applyChanges() {
+            const btn = document.getElementById('btn-apply-all');
+            const originalText = btn.textContent;
+            btn.innerHTML = 'Applying...';
+            btn.disabled = true;
+            
+            fetch('/api/apply', { method: 'POST' })
+            .then(res => res.json())
+            .then(data => {
+                btn.textContent = originalText;
+                btn.disabled = false;
+                if (data.error) {
+                    alert('Error: ' + data.error);
+                } else {
+                    alert(`Successfully modified ${data.modified_count} XML files.`);
+                }
+            })
+            .catch(err => {
+                console.error("Apply error:", err);
+                btn.textContent = originalText;
+                btn.disabled = false;
+                alert("Failed to apply changes.");
+            });
+        }
+
+        // ─── UI Rendering ────────────────────────────────────────────────────
+
+        function filterList(filter) {
+            currentFilter = filter;
+            // Update button styles
+            ['all', 'pending', 'resolved'].forEach(f => {
+                const btn = document.getElementById(`btn-filter-${f}`);
+                if (f === filter) {
+                    btn.classList.add('ring-2', 'ring-white');
+                } else {
+                    btn.classList.remove('ring-2', 'ring-white');
+                }
+            });
+            renderList();
+        }
+
+        function renderList() {
+            const container = document.getElementById('placename-list');
+            container.innerHTML = '';
+            
+            const filtered = allPlaces.filter(p => {
+                if (currentFilter === 'all') return true;
+                if (currentFilter === 'pending') return p.status === 'pending';
+                if (currentFilter === 'resolved') return p.status === 'resolved';
+                return true;
+            });
+            
+            if (filtered.length === 0) {
+                container.innerHTML = `<div class="text-center p-8 text-slate-500">No items match filter.</div>`;
+                return;
+            }
+            
+            filtered.forEach(p => {
+                const isSelected = activePlace && activePlace.name === p.name;
+                const activeClass = isSelected ? 'bg-blue-600/30 border-blue-500 text-white' : 'bg-slate-800 border-slate-700 text-slate-300 hover:bg-slate-700';
+                
+                let statusDot = '<div class="w-2 h-2 rounded-full bg-blue-500"></div>';
+                if (p.status === 'resolved') statusDot = '<div class="w-2 h-2 rounded-full bg-green-500"></div>';
+                if (p.status === 'skipped') statusDot = '<div class="w-2 h-2 rounded-full bg-slate-500"></div>';
+                
+                const el = document.createElement('div');
+                el.className = `p-3 border rounded-lg cursor-pointer mb-2 transition-colors flex items-center justify-between ${activeClass}`;
+                el.onclick = () => selectPlace(p.name);
+                
+                el.innerHTML = `
+                    <div class="flex items-center gap-3 overflow-hidden">
+                        ${statusDot}
+                        <div class="truncate font-medium">${p.name}</div>
+                    </div>
+                    <div class="text-xs bg-slate-900/50 px-2 py-1 rounded-full text-slate-400 shrink-0">
+                        ${p.count}
+                    </div>
+                `;
+                container.appendChild(el);
+            });
+        }
+
+        function selectPlace(name) {
+            const place = allPlaces.find(p => p.name === name);
+            if (!place) return;
+            
+            activePlace = place;
+            renderList(); // Update selected styling in list
+            
+            document.getElementById('empty-state').classList.add('hidden');
+            const detailView = document.getElementById('detail-view');
+            detailView.classList.remove('hidden');
+            detailView.classList.add('flex');
+            document.getElementById('detail-name').textContent = place.name;
+            
+            // Format occurrences text
+            const uniqueFiles = new Set(place.occurrences.map(o => o.file)).size;
+            document.getElementById('detail-occurrences').textContent = `Found ${place.count} times across ${uniqueFiles} files`;
+            
+            // Render contexts
+            const contextsContainer = document.getElementById('detail-contexts');
+            contextsContainer.innerHTML = '';
+            const contextsToShow = place.occurrences.slice(0, 50);
+            contextsToShow.forEach(occ => {
+                 const div = document.createElement('div');
+                 div.className = "border-l-2 border-slate-600 pl-3 py-1 bg-slate-800/50 rounded-r";
+                 div.innerHTML = `
+                    <div class="flex items-center justify-between text-xs text-slate-500 font-sans font-medium mb-1">
+                        <span>${occ.file}:${occ.line}</span>
+                        <span class="bg-slate-800 px-1 py-0.5 rounded border border-slate-700">Exact: "${occ.exact_name}"</span>
+                    </div>
+                    <div class="break-words">${occ.context || 'Context not available'}</div>
+                 `;
+                 contextsContainer.appendChild(div);
+            });
+            if (place.occurrences.length > 50) {
+                 const div = document.createElement('div');
+                 div.className = "text-xs text-slate-500 italic mt-2 font-sans";
+                 div.textContent = `...and ${place.occurrences.length - 50} more occurrences.`;
+                 contextsContainer.appendChild(div);
+            }
+            
+            // Clear custom inputs
+            document.getElementById('custom-lat').value = '';
+            document.getElementById('custom-lng').value = '';
+            
+            updateDetailView();
+            
+            // Pre-fill alternative search term input
+            document.getElementById('alt-search-term').value = place.name;
+            document.getElementById('active-search-label').textContent = '';
+            
+            // Initiate search
+            searchPlace(place.name);
+        }
+
+        function updateDetailView() {
+            const unresolveBtn = document.getElementById('btn-unresolve');
+            const stateBox = document.getElementById('resolution-state');
+            const infoText = document.getElementById('resolution-info');
+            
+            if (activePlace.status === 'resolved') {
+                unresolveBtn.classList.remove('hidden');
+                stateBox.classList.remove('hidden');
+                infoText.textContent = `Coordinates: ${activePlace.coords.lat}, ${activePlace.coords.lng} via ${activePlace.coords.source}`;
+            } else {
+                unresolveBtn.classList.add('hidden');
+                stateBox.classList.add('hidden');
+            }
+        }
+
+        function resolveCustom() {
+            if (!activePlace) return;
+            const lat = document.getElementById('custom-lat').value;
+            const lng = document.getElementById('custom-lng').value;
+            if (lat && lng) {
+                resolve(activePlace.name, parseFloat(lat), parseFloat(lng), 'Manual Override');
+            }
+        }
+
+        function renderSearchResults(results) {
+            const container = document.getElementById('search-results-container');
+            container.innerHTML = '';
+            
+            // Cleanup old maps
+            Object.values(maps).forEach(map => map.remove());
+            maps = {};
+            
+            if (!results || results.length === 0) {
+                container.innerHTML = `
+                    <div class="p-6 text-center border border-dashed border-slate-600 rounded-lg text-slate-400">
+                        <p class="mb-2">No API results found for "${activePlace.name}".</p>
+                        <p class="text-sm">Try using the Custom Coordinates manual override above.</p>
+                    </div>
+                `;
+                return;
+            }
+            
+            results.forEach((r, index) => {
+                const mapId = `map-${index}`;
+                
+                const el = document.createElement('div');
+                el.className = "bg-slate-900 rounded-lg border border-slate-700 overflow-hidden flex flex-col group hover:border-blue-500/50 transition-colors";
+                
+                // Color badge logic
+                let badgeClass = "bg-slate-600";
+                if (r.source === 'GeoAdmin') badgeClass = "source-badge-GeoAdmin";
+                if (r.source === 'ortsnamen.ch') badgeClass = "source-badge-ortsnamen.ch";
+                if (r.source === 'Wikidata') badgeClass = "source-badge-Wikidata";
+                if (r.source === 'GeoNames') badgeClass = "source-badge-GeoNames";
+                
+                el.innerHTML = `
+                    <!-- Map header / container -->
+                    <div id="${mapId}" class="map-container relative border-b border-slate-700"></div>
+                    
+                    <!-- Content -->
+                    <div class="p-4 flex-1 flex flex-col justify-between">
+                        <div>
+                            <div class="flex items-start justify-between mb-2">
+                                <h4 class="text-lg font-bold text-white leading-tight">${r.name}</h4>
+                                <span class="px-2 py-1 text-xs font-semibold rounded text-white shadow-sm ${badgeClass}">
+                                    ${r.source}
+                                </span>
+                            </div>
+                            <p class="text-sm text-slate-400 mb-3 line-clamp-2" title="${r.description}">${r.description || 'No description available'}</p>
+                            
+                            <div class="flex items-center gap-4 text-xs font-mono text-slate-500 mb-4 bg-slate-950 p-2 rounded">
+                                <div><span class="text-slate-600 uppercase">LAT</span> <span class="text-slate-300 ml-1">${r.lat}</span></div>
+                                <div><span class="text-slate-600 uppercase">LNG</span> <span class="text-slate-300 ml-1">${r.lng}</span></div>
+                            </div>
+                        </div>
+                        
+                        <div class="flex justify-between items-center gap-2 mt-auto">
+                            ${r.url ? `<a href="${r.url}" target="_blank" class="text-blue-400 hover:text-blue-300 text-sm font-medium flex items-center gap-1 transition-colors">
+                                View Source
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-3 h-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                            </a>` : '<div></div>'}
+                            
+                            <button class="px-5 py-2 bg-blue-600 hover:bg-blue-500 text-white rounded shadow text-sm font-medium transition-colors focus:ring-2 focus:ring-blue-400 focus:ring-offset-2 focus:ring-offset-slate-900" 
+                                onclick="resolve('${activePlace.name}', ${r.lat}, ${r.lng}, '${r.source}')">
+                                Use This Location
+                            </button>
+                        </div>
+                    </div>
+                `;
+                
+                container.appendChild(el);
+                
+                // Initialize map slightly after DOM insertion
+                setTimeout(() => {
+                    initMap(mapId, r.lat, r.lng, r.name, r.source);
+                }, 10);
+            });
+        }
+        
+        function initMap(elementId, lat, lng, name, source) {
+            // Check if coordinates make sense
+            if (!lat || !lng) return;
+            
+            const map = L.map(elementId, {
+                zoomControl: false,
+                attributionControl: false
+            }).setView([lat, lng], 9);
+            
+            L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+                attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+            }).addTo(map);
+            
+            // Custom marker colors based on source
+            let markerColor = '#3b82f6'; // Blue default
+            if (source === 'GeoAdmin') markerColor = '#ef4444'; // Red
+            if (source === 'ortsnamen.ch') markerColor = '#22c55e'; // Green
+            if (source === 'GeoNames') markerColor = '#eab308'; // Yellow
+
+            const markerHtml = `
+                <div style="
+                    background-color: ${markerColor};
+                    width: 14px;
+                    height: 14px;
+                    border-radius: 50%;
+                    border: 2px solid white;
+                    box-shadow: 0 0 4px rgba(0,0,0,0.5);
+                    transform: translate(-50%, -50%);
+                "></div>
+            `;
+            
+            const customIcon = L.divIcon({
+                html: markerHtml,
+                className: '',
+                iconSize: [14, 14]
+            });
+
+            L.marker([lat, lng], {icon: customIcon}).addTo(map).bindTooltip(name, {
+                direction: 'top',
+                offset: [0, -10]
+            });
+            
+            maps[elementId] = map;
+        }
+
+    </script>
+</body>
+</html>

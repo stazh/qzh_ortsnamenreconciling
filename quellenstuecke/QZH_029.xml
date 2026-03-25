@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css“?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0"
+ xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <respStmt>
+     <persName>Katja Rehmann. Mit einem Kommentar von Michael Schaffner</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Katja Rehmann; Michael Schaffner</persName>
+     <resp key="tagging"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <date type="electronic" when="2021-05-01"/>
+    <date type="print" when="2018-12-31"/>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Quellen zur Zürcher Geschichte</title>
+    <respStmt>
+     <persName>Staatsarchiv des Kantons Zürich</persName>
+     <resp>Herausgeberschaft</resp>
+    </respStmt>
+    <idno>QZH_029</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier>
+      <idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4634188">StAZH A 27.18.11, Nr. 32</idno>
+     </msIdentifier>
+     <head>Untersuchung gegen Jacob Grob betreffend den Verdacht auf Diebstahl</head>
+     <msContents>
+      <summary>Jacob Grob, ein gelernter Messerschmid, rechtfertigt seine Arbeitslosigkeit und die
+       beanspruchte Armenversorgung damit, dass er vor einigen Jahren von Landsknechten im Elsass an
+       der Hand derart verletzt worden sei, dass er seither sein Handwerk nicht mehr betreiben könne. Er besteht
+       jedoch darauf, nie etwas gestohlen zu haben. Auch nachdem die Kundschafter ihn erneut unter
+       Folter befragt haben, gesteht er keine Vergehen. Er wird schliesslich nach Leistung der Urfehde
+       entlassen.</summary>
+      <msItem>
+       <textLang>Deutsch</textLang>
+       <filiation type="current">Aufzeichnungen (Doppelblatt)</filiation>
+       <filiation type="original"><origDate when="1578-07-07"/></filiation>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support><material>Papier</material></support>
+        <extent/>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin><origDate when="1578-07-07"/></origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p>
+     <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+    </p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc> </profileDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term ref="key111118">Arbeitsunfähigkeit</term>
+     <term ref="key005358">Armenversorgung</term>
+     <term ref="key000581">Bettel</term>
+     <term ref="key000291">Diebstahl</term>
+     <term ref="key003369">Folter</term>
+     <term ref="key111112">Körperliche Behinderung</term>
+     <term ref="key003394">Körperverletzung</term>
+     <term ref="key000480">Urfehde</term>
+     <term ref="key000078">Verhör</term>
+    </keywords>
+   </textClass>
+   <particDesc default="false"/>
+   <settingDesc default="false"/>
+  </profileDesc>
+ </teiHeader>
+ <text>
+  <group>
+   <text>
+    <body corresp="Sigle1">
+     <pb n="1" facs="A_27_18_11__Nr__32__S__1_.tif"/>
+     <div>
+      <p>
+       <lb/><persName>Jacob Grob</persName>, ein meßerschmid von <placeName ref="LOC_47.30149_8.85275">Hinwyl</placeName>, gibt
+       uff befragen <lb/> syneß thuͦnß und laßenß halber, dißen bscheid: Alß er <lb/>vor etlich
+       vergangnen jaren uff synem hanndwerch <lb/>gewandlet, hetind im zuͦ
+       <placeName ref="LOC_48.46222_7.48194">Obernee</placeName><!-- msr: Obernai, Elsass --> unfer ob
+       <placeName ref="LOC_48.58392_7.74553">Strassburg</placeName>
+       <lb/>die landtßknëcht, daßëlbß er by einem meister gwerchet, <lb/>so übel ann synerr rëchten
+       hand verlezt, daß er fürter<lb break="no"/>hin daß hanndwerck nit meer tryben könne. Volgends
+       <lb/>er gen <placeName ref="LOC_47.20791_7.53714">Solothurn</placeName> keert unnd daßëlbß in boten wyß <lb/>den lüthen
+       über fäld gangen. Bitet derhalben üch, <lb/>myn gnedig herren, innansëchen, daß er von syner
+       <lb/>bößen hand wëgen zum hanndwerch nit meer <lb/>tugenlich, zuͦdem ouch sonster niemandem
+       nützit <lb/>entreit, unnd erst by acht wuchen von
+       <placeName ref="LOC_47.20791_7.53714">Solothurn</placeName>
+       <lb/>dem heiligen allmuͦßen nachganngen, umb gnad, <lb/>ouch umb erledigung der gfängknuß.
+      </p>
+     </div>
+     <div>
+      <ab place="left margin" type="marginal note">j mal. <lb/>iij mal 2.<note>Diese Angaben
+        beziehen sich darauf, wie oft und mit welchem Gewicht gefoltert wurde. Hier wurde der
+        Befragte also einmal ohne und drei Mal mit dem 2. Gewicht hochgezogen.</note></ab>
+     </div>
+     <div>
+      <p>
+       <lb/>Wiewol mine herren die verordneten widerumb zu gemeltem
+        <lb/><persName>Groben</persName> inn gfennknuss kert unnd gegen demselben <lb/>mit allem
+       ernst handlen lassen, hat er doch einicher <lb/>angriffen <del>bekhandtlich syn</del> noch
+       anderer bössen stucken <lb/>bekhandtlich syn wellen. Bittet üch, min gnedig herren, <lb/>umb
+       gnad unnd erledigung der gfengknuss.</p>
+      <p><pb n="2"/></p>
+      <p><pb n="3"/></p></div>
+      <div><pb n="4" facs="A_27_18_11__Nr__32__S__4_.tif"/>
+       <head><persName>Jacob Groben</persName> von <placeName ref="LOC_47.30149_8.85275">Hinwyl</placeName>
+        <lb/><subst><del hand="later hand">antwort</del>
+         <lb/><add place="below" hand="hand18c">argwöhnisches verhalten. <date when="1578"
+          >1578</date>.</add></subst></head>
+      </div>
+      <div>
+      <p>
+       <lb/>Diewyl er einicher bösen stucken gichtig <lb/>unnd min herren nüt inn handen, <lb/>sol
+       er uff ein gewonnlich urfehd <lb/>der gfanngknus erlassen werdenn. <lb/>Actum den <origDate
+        when="1578-07-07">7den july anno <abbr>etc</abbr> 78</origDate>, <lb/><choice><abbr>pnt</abbr><expan>presentibus</expan></choice> herr
+       <persName ref="GND_143680544">Kambli</persName> und beid reth.</p>
+     </div>
+    </body>
+   </text>
+  </group>
+ </text>
+</TEI>

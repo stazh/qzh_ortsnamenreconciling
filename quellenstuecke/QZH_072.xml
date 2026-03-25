@@ -1,0 +1,397 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='../../Ressourcen/Stylesheet.xsl'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quellen zur Zürcher Geschichte</title>
+        <respStmt>
+          <persName>Michael Fröstl und Patrick Rüegg. Mit einem Kommentar von Michael
+            Schaffner</persName>
+          <resp key="transcript"/>
+        </respStmt>
+        <respStmt>
+          <persName>Patrick Rüegg und Michael Schaffner</persName>
+          <resp key="tagging"/>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Staatsarchiv des Kantons Zürich</publisher>
+        <date type="electronic" when="2021-05-01"/>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Quellen zur Zürcher Geschichte</title>
+        <respStmt>
+          <persName>Staatsarchiv des Kantons Zürich</persName>
+          <resp>Herausgeberschaft</resp>
+        </respStmt>
+        <idno>QZH_072</idno>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=250951">StAZH C I,
+              Nr. 2382</idno>
+          </msIdentifier>
+          <head>Spruch im Konflikt zwischen Sebastian Hegner und der Stadt Zürich um Hegners
+            Ansprüche an das Kloster Rüti und den Verbleib des Klosterarchivs</head>
+          <msContents>
+            <summary>Lux Ritter, alt Schultheiss der Stadt Luzern, Christoffel Schorno, Statthalter
+              und Bannerherr von Schwyz und Aegidius Tschudi, Landammann von Glarus, Teilnehmer an
+              der Konferenz der st. gallischen Schirmorte in Rapperswil, legen den Streit zwischen
+              Sebastian Hegner, Konventual des Klosters Rüti, nunmehr in Rapperswil wohnhaft, und
+              dem Rat von Zürich unter folgenden Bestimmungen bei: Sebastian Hegner verpflichtet
+              sich, die beschlagnahmten Zinse und Gülten des Klosters Rüti herauszugeben (1).
+              Bürgermeister und Rat von Zürich sichern Sebastian Hegner bis an sein Lebensende
+              jährlich 30 Mütt Kernen, 30 Eimer Wein, und jede Fronfasten 35 Gulden erstmals auf die
+              Fronfasten zu Weihnachten, einschliesslich Garten und Matten in Rapperswil, die dem
+              Kloster Rüti gehören, zu (2). Sebastian Hegner verzichtet auf Wiedereinsetzung in das
+              Gotteshaus Rüti, vorbehalten ein christliches Konzil und eine allgemeine Reformation
+              (3). Sebastian Hegner verpflichtet sich, den Abt von Weissenau zur Herausgabe der
+              Freiheitsbriefe, Urbare, Bücher, Register und Rödel an Schultheiss und Rat von Baden
+              zu bewegen (4). Alle Schmähworte sollen aufgehoben und Sebastian Hegner sicheres
+              Geleit durch das Zürcher Gebiet zugesichert sein (5). Das Eigentum von Sebastian
+              Hegner im Zürcher Gebiet soll ihm ohne Einschränkung ausgehändigt werden (6). Es
+              siegeln die drei Schiedsleute.</summary>
+            <msItem>
+              <textLang>Deutsch</textLang>
+              <filiation type="current">Original</filiation>
+              <filiation type="original">
+                <origDate when="1559-01-26" />
+              </filiation>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <support>
+                  <material>Pergament</material>
+                </support>
+                <extent>
+                  <dimensions type="leaves">
+                    <height unit="cm" quantity="66.5" />
+                    <width unit="cm" quantity="42.0" />
+                  </dimensions>
+                  <dimensions type="plica">
+                    <width unit="cm" quantity="7.0" />
+                  </dimensions>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+            <sealDesc>
+              <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1"
+                nontei:material="wax" nontei:shape="round"
+                nontei:attachment="sealed on a parchment tag"
+                nontei:condition="damaged">
+                <persName role="sigillant"
+                  >Lux Ritter</persName>
+              </seal>
+              <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="2"
+                nontei:material="wax" nontei:shape="round"
+                nontei:attachment="sealed on a parchment tag"
+                nontei:condition="well-preserved">
+                <persName role="sigillant">Christoffel Schorno</persName>
+              </seal>
+              <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="3"
+                nontei:material="wax" nontei:shape="round"
+                nontei:attachment="sealed on a parchment tag"
+                nontei:condition="damaged">
+                <persName role="sigillant">Aegidius Tschudi</persName>
+              </seal>
+            </sealDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate when="1559-01-26" />
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>
+          <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien" />
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+    </profileDesc>
+    <profileDesc>
+      <textClass default="false">
+        <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+          <term ref="key003308">Archivgeschichte</term>
+          <term ref="key005367">Beschlagnahmung</term>
+          <term ref="key000165">Garten</term>
+          <term ref="key003648">Geistlichkeit</term>
+          <term ref="key000600">Geleit</term>
+          <term ref="key000350">Getreide</term>
+          <term ref="key004009">Kirchengut</term>
+          <term ref="key000010">Kloster</term>
+          <term ref="key000670">Konfession</term>
+          <term ref="key005404">Konzil</term>
+          <term ref="key000882">Nahrungsmittel</term>
+          <term ref="key003732">Orden</term>
+          <term ref="key000222">Renten</term>
+          <term ref="key001117">Schiedsspruch</term>
+          <term ref="key000122">Urbar</term>
+          <term ref="key000817">Vertrag</term>
+          <term ref="key000129">Wein</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <group>
+      <text>
+        <body corresp="Sigle1">
+          <div>
+            <pb n="r" facs="C_I__Nr__2382__r___Bild_1_.tif"/><!-- kollationiert msr Juni 2025 -->
+            <p>
+              <seg><lb/>Wir, harnachbenemptenn <persName ref="GND_1163844489">Lux Ritter</persName>, allt schultheis
+                der statt <placeName ref="LOC_47.05048_8.30635">Lutzernn</placeName>, <persName>Cristoffel Schornno</persName>,
+                statthallter unnd pannerherr zuͦ <placeName ref="LOC_47.02076_8.65414">Schwytz</placeName> unnd <persName ref="GND_118624326">Gilg
+                  Tschudi</persName>, lanndtamman zuͦ <placeName ref="LOC_47.04057_9.06804">Glarus</placeName>, diser zyth uß
+                bevälch unnser herren <lb/>unnd oberen uff dem tag zuͦ <placeName ref="LOC_47.22557_8.82228">Rapperschwyl</placeName> versampt, thuͦnd
+              khundt unnd bekennend offenntlich mit diserm brief, demnach sich spann gehalten hat
+              zwüschenndt dem würdigen herren <persName ref="GND_1089463588">Sebastian Hegner</persName>, conventhual
+                dess gotshus <placeName ref="LOC_47.2592_8.849">Rüti</placeName>, jezt zuͦ <placeName ref="LOC_47.22557_8.82228">Rapperschwyl</placeName>
+              wonnende des einen, unnd den edlen, gestrenngen <lb/>vesten, fromen, fürsichtigen unnd
+                wysenn herren burgermeister unnd rath der statt <placeName ref="LOC_47.36667_8.55">Zürich</placeName>,
+              unnseren günstigen herren, guͦten frünnden unnd gethrüwen, lieben 
+              eidtgnossenn dem annderen theil</seg> von deßwegen, alls dann gemelter herr <persName ref="GND_1089463588">Sebastian
+                Hegner</persName> vor den <num value="40">vierzig</num> jaren inn das gots<lb break="no" />hus <placeName ref="LOC_47.2592_8.849">
+              Rüti</placeName> komenn unnd darinn alls ein recht incoporiert glyd unnd conventhuales
+              gewonnt unnd aber verschinnes jars uß rechtmässigen ursachen (alls er vermeint) daruß
+              abgeträtten unnd demnach unnseren gnedigen unnd günnstigen herren, den <num value="12">zwölff</num>
+              ordten der eidtgnosschaft uff wylen haltennnden tagleist<lb
+                break="no" />unngen zuͦ <placeName ref="LOC_47.47333_8.30592">Baden</placeName> nachgeworben unnd
+              sich beclagt, wiewol er siderhar enndrungs zyth der religion mit sampt sinem lieben
+              herren unnd mitbruͦder, herr <persName>Wolffen Huͦber</persName>, seligen, im gotshus <placeName ref="LOC_47.2592_8.849">
+              Rüti</placeName> gewonnt, sich daselbs ennthalten, aber von der alten religion inn
+              seinem hertzen, willen unnd gmüt nie abgstannd<lb break="no" />enn, sonnder was er unnd
+              sin mitbruͦder selig bißhar gethann, sye söllichs uß bevelch irs oberen unnd
+              geistlichen vatters, appt <persName>Felixen</persName>, seligen, beschächen, dess er
+              guͦten, brieflichen schyn vonn im habe. Da sy täglicher hoffnung gwäsen, bemält ir herren
+              von <placeName ref="LOC_47.36667_8.55">Zürich</placeName> wurden inen ir gotshus mit haab unnd guͦt <lb/>widerumb
+              zuͦstellenn, unnd so nun herr <persName>Wollffganng</persName> ouch von diser zyth
+              gescheiden unnd er ann sinem ennd ann inn begeerdt, sich hindan zethuͦn unnd ann ordt
+              unnd ennd zuͦverfügen, da er siner glüpt unnd religion möge pflägenn, darzuͦ inn sin
+              geistlicher obrer by sinem glüpt ouch ermanndt, die<lb break="no" />wyl mann kein
+              widerkerrung ann gesagten sinen herren von <placeName ref="LOC_47.36667_8.55">Zürich</placeName> spürren
+              mögen, hab er sich gen <placeName ref="LOC_47.22557_8.82228">Rapperschwyl</placeName> (alls ann das ordt, da er
+              burger sye) gefügt, den orden widerumb angethann unnd im fürgenommen siner frommen
+              vatter unnd muͦtter seligen verschaffung, ouch sinem glüpt <lb/>unnd eignen 
+              conncientz nach, deßglychen der stiffteren willen unnd ordnung gnuͦg zethund
+              unnd das übrig zyth sines läbenns allso zuͦverschlyssen. Unnd so nun kein glid dess
+              convenndts <placeName ref="LOC_47.2592_8.849">Rüti</placeName> meer vorhannden, der beharret sye, dann allein
+              er, welle im nach siner pflicht unnd gwüssne
+       <lb/>gepürren, darzuͦ
+              zethuͦnd unnd, so er zuͦ niemannd besseren trost, dann zuͦ hochgemelten unnseren
+              gnedigen unnd günnstigen herren, den <num value="12">zwölff</num> ordten, hab, die im hilff unnd trost gegen
+              genannten sinen herren von <placeName ref="LOC_47.36667_8.55">Zürich </placeName> (die ir lieb eidtgnossen
+              syen) bewysen mögen, so were sin diennstlich unnd <lb/>unnderthening pit umb gots
+              willen, das sy im gegen inen mit thrüwen beholffen sin weltenn, das sy im alls ein
+              rechten, unabgeträttnen glyd unnd conventuales das gotshus <placeName ref="LOC_47.2592_8.849">Rüti</placeName>
+              mit sinem inkommen unnd wäsenn, wie sy das zuͦ iren hannden ingenommen, zuͦstellen, sy
+              fürbass hannd abthügen <lb/>unnd allda ungsumpt unnd ungeirrt
+              lassenn, wie ire frommen vorderen ouch gethan, unnd sy nach vermög irs schirmbrieffs
+              zuthuͦn schuldig syen. Unnd so das allso geschäche, so sölle durch zuͦthuͦn sins
+              gnedigen herren uß der <placeName ref="LOC_47.76317_9.5966">Wyssenaw</placeName> alls hußvatters unnd sinen allda
+              fürderlich ein convennt uffgericht <lb/>unnd ein vorstennder prelath nach altem bruch
+              gesetzt werden unnd nützis annders, dann was der stifftern will unnd dess ordenns
+              bruch sye unnd von alterhargebracht und man zethuͦn schuldig, allda wolbeacht werdenn.
+              So unnd aber ir pith unnd anhalten by genannten sinen herrenn <lb/>von
+              <placeName ref="LOC_47.36667_8.55">Zürich</placeName> nützit verfachen möchte, were sin diennstlichs anrüffenn, so
+              vorgedachts gotshus <placeName ref="LOC_47.2592_8.849">Rüti</placeName> inn iren, der <num value="12">zwölff</num> ordten oberkeiten
+              sampt oder sonnders ützit ingenndts hete, im gnedigklich zuͦvergonnen, dasselbig inn
+              hafft zeleggen, damit er zuͦ sin rechten kommen. Das begerre er <lb/>umb sy mit sinem
+              armmen gepäth, ouch ungespardt lybs unnd guͦts nach sinem vermögen jederzyth
+              unnderthening zuͦverdiennenn. Daruff aber unnser gethrüw, lieb eidtgnossen
+              vonn <placeName ref="LOC_47.36667_8.55">Zürich</placeName> durch ire gesanndten vorgenannten
+              unnseren gnedigen unnd günnstigen herren, den <num value="12">zwölf</num> <lb/>ordten darthuͦn unnd
+              anntzeigen lassenn, alls im <date when="1525">fünnffunndzwanntzigosten jar</date> der minderen zaal
+              ire herren nit allein zuͦ <placeName ref="LOC_47.2592_8.849">Rüti</placeName>, sonnder inn allen clösteren inn
+              iren oberkeiten gelegenn etwas reformation unnd enndrung gethann, syenndt sy domaln
+              mit herren appt unnd gemeinem convendt inn by<lb break="no" />sin irer frünnden
+              gütlich überkomenn, die convenntherren (die nit uff dess closters
+              pfarren gwäsenn) mit essen, thrinncken unnd jerlichen inkommen eerlich versächen unnd
+              sich die sälben dargegen irer religion verglycht, wie dann er, herr <persName ref="GND_1089463588">Baschian</persName>
+              ouch gethan habe. Demnach dess <date when="1525">sibenn<lb break="no" />unndfünnffzigisten jars</date> alls ire
+              herren den jezigen iren amptsman ingsezt, sye herr <persName ref="GND_1089463588">Baschian</persName> vor
+              iren gsanndten erschinnen mit annzeigung, das er uff abganng herr <persName>Wolffen
+                Huͦbers</persName>, seligen, so ouch ein conventherr zuͦ <placeName ref="LOC_47.2592_8.849">Rüti</placeName>
+              gwäsenn, nit allso allein blyben moge unnd desshalb umb ein frünntlich <lb/>urloub
+              gepätenn, unnd das sy inn mit dem, so er ererbt oder von eren lüthen überkommen,
+              verfarren lassenn. Wie söllichs iren herren fürkomen, habenndt sy etlich ir räthen
+              verordnoth, inne für sy zuͦbeschicken unnd mit im früntlich abzekommen. Unnd alls sich
+              söllichs etlich tag uß obligennden <lb/>gschäfften verzogen, sye er daruff vonn <placeName ref="LOC_47.2592_8.849">
+                Rüti</placeName> abgescheidenn unnd gen <placeName ref="LOC_47.22557_8.82228">Rapperschwyl</placeName> gfarrenn
+              unnd wiewol sy im demnach inn <num value="10">zëchen</num> tag ein gütlichen tag gen <placeName ref="LOC_47.36667_8.55">Zürich</placeName>
+              bestimpt. Ouch demnach, alls sy vernommenn, das er etwas unsicherheit besorgt, habennt
+              sy im durch iren schaffner zuͦ <placeName ref="LOC_47.2592_8.849">Rüti</placeName>
+       <lb/>empoten, soveer im nachmal gfellig sye, inn der sach gütlich zehanndlen unnd
+              abzekomenn, so wellennd sy im ann gelegne ordt inn ir statt oder lanndtschafft tag
+              ansetzen unnd dahin ein fry, sicher gleyt geben unnd darvon wider ann sin gwaarsame
+              komen lassenn. Daruff er inen mit <lb/>anntwurt begegnoth, er sye
+              von jezigem appt uß der <placeName ref="LOC_47.76317_9.5966">Wyssenow</placeName> so hoch ermanndt, das im
+              zuͦstannde, sin eer unnd eid zehaltenn, dem müsse er ghorsam sin. Welle aber für sin
+              personn inen kein unruͦw machen, begerre allein dess sinen haruß,
+              dess sy im nie kein stund vor gsin syen <abbr>etc</abbr>. <lb/>Unnd diewyl dann
+              gemelter herr <persName ref="GND_1089463588">Baschian</persName> mitler wyl einannderen orden unnd waͤsen
+              angenommenn, den verthrag, so vor den <num value="32">zweyunnddryssig</num> jaren mit raath der sinen mit im
+              gemacht, inn vergess gstellt unnd onne allen anlaß, noth oder ursach hinnderrucks inen
+              abgeträtten, <lb/>unnderstannde inen vyl unuͦw unnd
+              widerwertigkeit zuͦerwecken, ouch inn aller hanndlung dem closter <placeName ref="LOC_47.2592_8.849">Rüti</placeName>
+              sine zinns unnd gülten inn unnser lieben eidtgnossen von <placeName ref="LOC_47.02076_8.65414">
+              Schwyz</placeName> gepietten inn arrest unnd verpot gelegt unnd sich gegen iren herren
+              unnd oberen allso undannckpar erzeigt, so <lb/>hab inen nit gfallen wellen, vyl 
+              tagleistunngen mit im zehalten unnd annder lüth mit im zuͦ unruͦw
+              unnd vergebnem costen zuͦbrinngen. Dann, so gemeltem herr <persName ref="GND_1089463588">Baschian</persName>
+              sin fürnemmen mit dem arrestieren unnd verpieten sölte gestattet werdenn, dargegen
+              anndre, es werennd geist<lb break="no" />lich oder wältlich pärsonnen von 
+              eidtgnossen glycher gstallt zuͦ iren herren unnd oberen kommenn unnd sy sich
+              ouch der sachen beladen, arrestieren unnd verpieten soltenn, sye zuͦbesorgen, es sölte
+              vyl unwillenns brinngen unnd unnseren herren unnd obern minder dann
+              inen zuͦerlyden <lb/>sin, das ein theil dem annderen sine widerwerttigen
+              uffennthalten, hilff unnd bystannd thuͦn solte, welches den gschwornen pünndten gstrags
+              zuͦwider sye. Darumb irer herren unnd obern ganntz früntlich pith, das wir ir
+              enntschuldigunng des abschlags der tagsatzung nit ver<lb break="no" />argenn, die häfft, 
+              so über dess gotshus <placeName ref="LOC_47.2592_8.849">Rüti</placeName> inkommen angelegt, uffheben unnd
+              enntschlachen unnd fürrer niemanndt söllicher verhinndrungen nach inthrägen
+              gestatten. Unnd inn, herr <persName ref="GND_1089463588">Baschian</persName>, alls im unghorsamen abwysen
+              unnd heissen rüwig sin, dess syennd sy gegen unnseren herr<lb break="no" />en unnd
+              oberen ouch gsinnoth zethuͦn unnd sich söllicher unrüwigen lüthen nüzit zuͦbeladen <abbr>
+              etc</abbr>. Unnd alls der <num value="12">zwölff</num> orten gesanndten sy zuͦ
+              beidentheilen uff vylen tagleistungen zuͦ <placeName ref="LOC_47.47333_8.30592">Baden</placeName>
+              inn iren anligen unnd beschwärden, jeden theil sonnderlich der lennge nach verhört, <lb/>unnd
+              sy alls die guͦtherrzigenn gernn gsächen, das söllicher spann mit ruͦw unnd inn
+              frünntligkeit abweg gethan werden möchte, unnd zuͦ fürganng desselbigen ettliche
+              gütliche unnd frünntliche mittel gestelt unnd dernäbennt gedacht, ir lieb 
+              eidtgnossen vonn <placeName ref="LOC_47.36667_8.55">Zürich</placeName> ganntz frünntlich gepäten,
+              sich mit gemeltem <lb/>herr <persName ref="GND_1089463588">Baschian</persName> vonn irer herren unnd
+              oberen pit wegen gütlichen nach zimlicher glägennheit zuͦbethragenn, damit sy unnd ir
+              herren unnd oberen der sachen gerüwigot werden unnd darumb uff diserm angsezten tag
+              zuͦ <placeName ref="LOC_47.22557_8.82228">Rapperschwyl</placeName> gütlich unnd frünntlich anntwurt zuͦgeben.
+              Darnäbent <lb/>unns obgemelten <num value="3">dryen</num> ouch sonnderlich angehennckht unnd bevolchen,
+              allen möglichen vlyß unnd ernnst anzuͦwennden unnd so inn gestelten mitlen etwas
+              manngels sin welte, das nach unsserem besten verstannd zuͤverbesseren,
+              damit sy der sachen unnd dess spanns gütlichen unnd frünntlichen <lb/>betragen
+              werdenn. Wellchem angehennckhten bevelch wir uff hüt dato nachkomenn, sy, die beid
+              parthyen für unns genommenn. Unnd alls aber unnser lieb eidtgnossen
+              vonn <placeName ref="LOC_47.36667_8.55">Zürich</placeName> ann den gestellten mitlen ettwas
+              beschwerd unnd durch ire gesanndten die frommen, eerenvesten unnd
+              wysen <lb/>meyster <persName>Yttelhannsen Thuͦmysen</persName>, dess raaths, unnd <persName>Johann
+              Äschern</persName>, irn stattschryber, anzeigen lassenn, das iren herren die gestelten
+              mittel uß allerlei bewegennden ursachen keins wägs annemlich sin
+              wellen. Soveer mann aber die inn ettlichen weg ennderen, wurden ire herren unnd <lb/>oberen
+              (nit vonn sin, herr <persName ref="GND_1089463588">Baschian</persName>) sonnder von gmeiner, ir lieben 
+              eidtgnossen, pith wegenn, etwas thuͦn, das sy sonnst gegen niemandt zethuͦn
+              gsinnoth werennd. Unnd als wir söllichs, ouch woran manngel ann gestelten mitlen gwesen,
+              verstanndenn, so habennt wir uff ir güt<lb break="no" />lichs
+              bewilligen unnd zuͦlassenn etliche gütliche unnd frünntliche mittel unnd artickel uff
+              hinder sich brinngung irer herren unnd oberen gestellt, wie die harnach vonn eim
+              artickel zum anndern eigentlich begriffen unnd geschriben stannd. <seg>
+                Erstlichen sölle genannter herr <persName ref="GND_1089463588">Sebastian <lb/>Hegner</persName>
+                schuldig unnd verpunnden sin, dem gotshus <placeName ref="LOC_47.2592_8.849">Rüti</placeName>
+              sine zinns unnd gültenn, so er inn arrest unnd hafft gelegt (by den selbig ordten, wo
+              er umb hafft angrüfft) widerumb verschaffen, enntschlagen werden, darmit dem gotshus
+              sin arrestierte zinns, gülten unnd gütter widerumb <lb/>inganngen unnd verlanngen
+                mogenn, wie von alterhar.</seg> 
+              <seg>Zum anndern, das herr burgermeister und
+                rath der statt <placeName ref="LOC_47.36667_8.55">Zürich</placeName> nit allein von unnser, der <num value="3">dryer</num> ordten gsanndten, sonnder von gmeiner 
+                eidtgnossen pith wegen und inen zu eeren unnd gfallen gemelten herr <persName ref="GND_1089463588">Baschian Hegner</persName>, <lb/>sin läben 
+                lanng und bis zuͦ ennd siner wyl und läptag alle jar järlichen uß dess gotshus <placeName ref="LOC_47.2592_8.849">Rüti</placeName> inkommen 
+                  geben und ußzerichten verschaffen: <num value="30">Dryssig</num> müt kernen, <num value="30">dryssig</num> eymer wynn der wärrschaft, wie es dasselben jars wachst,
+                  und uff jede fronvasten <num value="35">dryssig und fünff guldin</num>. Unnd <lb/>im die überanntwurten gen <placeName ref="LOC_47.22557_8.82228">Rapperschwyl</placeName> zuͦ
+                  sinen sicheren hannden, onne sin wytteren costen unnd mit der ersten bezallung, anfachen uff die verganngen 
+                  fronvasten zuͦ wienächt, darzuͤ bestimpte suma kernen und wyn angenndts zuͦ sinen hannden 
+                  verschaffen und antwurten <lb/>gen <placeName ref="LOC_47.22557_8.82228">Rapperschwyl</placeName>, wie obstaadt.
+              Sy söllen im ouch übergeben unnd zustellen inn schlyß wyß den gardten unnd die matten zuͦ
+                <placeName ref="LOC_47.22557_8.82228">Rapperschwyl,</placeName> so dem gotshus <placeName ref="LOC_47.2592_8.849">Rüti</placeName> 
+                zuͤgehördt, die zuͦ nutzen und zuͦ niessen sin läbenlang. Doch das er solliche ouch im gepürrlichen büw unnd eerren <lb/>erhalten 
+                unnd wann dann er, herr <persName ref="GND_1089463588">Baschian</persName>, mit todt abganngen, 
+                so söllend dann herr burgermeister unnd rath der statt <placeName ref="LOC_47.36667_8.55">Zürich</placeName> von 
+                dess gotshus <placeName ref="LOC_47.2592_8.849">Rüti</placeName> wegen 
+                der obgenannten jerlichen verzinnsung und lybgedings ledig unnd inen ouch bemelter garten und matten zuͦ <lb/>dem 
+                gotshus <placeName ref="LOC_47.2592_8.849">Rüti</placeName> widerumb heimgfallen sin.</seg> 
+              <seg n="3">Zum dritten, so soll sich herr <persName ref="GND_1089463588">Baschian Hegner</persName> der 
+                insatzung inn das gotshus <placeName ref="LOC_47.2592_8.849">Rüti</placeName> hiermit
+                (biß uff ein cristennlich conncilium unnd ein allgemeine reformation) genntzlich verzychen unnd er nach niemanndt von sinet 
+                wegen genannte <lb/>herr burgermeister und raath der statt <placeName ref="LOC_47.36667_8.55">Zürich</placeName> darmit nit wyter beunruͤwigen 
+                nach verschaffen gethann werden, inn kein wyß nach wege. So aber gemelter 
+                herr <persName ref="GND_1089463588">Baschian Hegner</persName> ein christenlich conncilium 
+                und ein allgemeine reformation erläben, so sölle im dann hiermit <lb/>nüzit vertädinngoth, 
+                sonnder sin recht vorbehalten unnd hiermit niemanndt nüt geben nach genommen sin.</seg>
+              <seg n="4">Zum vierdten, nachdem herr burgermeister unnd rath der statt 
+                <placeName ref="LOC_47.36667_8.55">Zürich</placeName> vermeint, das inen herr <persName ref="GND_1089463588">Baschian</persName> all fryheiten, brieff, sigel, urbar, 
+                bücher, register unnd rödel, dem <lb/>gotshus <placeName ref="LOC_47.2592_8.849">Rüti</placeName> 
+                zuͤgehörig, und er hinnder im habe, überantwurten und inhenndig machen, unnd aber 
+                herr <persName ref="GND_1089463588">Baschian</persName> daruff geantwurt, das söllichs nit inn 
+                siner macht unnd gwalt stande, dann appt <persName>Felix</persName> seliger 
+                gedächtnuß, die hinder sin geistlichen oberherren, den appt uß der <lb/>
+                <placeName ref="LOC_47.76317_9.5966">Wyssenauw</placeName>, geflöchtent, der hab im die allein zuͤ fürstannd sines rechten gelichenn, 
+                dem selben müsse ers by sinen eidts pflichten wider zuͦstellen <abbr>etc</abbr>. 
+                Da habennt wir gesprochenn, das herr <persName ref="GND_1089463588">Baschian Hegner</persName> 
+                by sinem oberherren, dem appt uß der <placeName ref="LOC_47.76317_9.5966">Wyssenouw</placeName> anwärbung thuͦn unnd ver<lb break="no" />mogen,
+                das sin gnad vergünnstigen welle, söllich fryheit, brieff, sigell, urbar, bücher, 
+                register, rödel unnd was er hinnder im habe, so dem gotshus <placeName ref="LOC_47.2592_8.849">Rüti</placeName> zuͦstenndig 
+                unnd zuͤgehörig syen, hinnder schultheis unnd rath zuͦ <placeName ref="LOC_47.47333_8.30592">Baden</placeName> 
+                als zuͦ gmeinen hannden gelegt werdenn, damit <lb/>wellicher
+                theil dero notwenndig, sich darinn ersächen moge. Unnd sollichs bestan, biß 
+                uff ein christennlich conncilium oder ein allgemeine refformation, wie obstaadt. 
+                Und ob eindtwederer theil der selben briefen, wydimuß oder abschrifften begerdte, das soll im uff sin costen mit eins
+                <lb/>schultheissen unnd raths zuͦ <placeName ref="LOC_47.47333_8.30592">Badenn</placeName> besiglung vergonndt unnd so sy allein unbesigelt coppyen begeredten, söllennd inen 
+                die ouch mitgetheilt werdenn.</seg> 
+              <seg n="5">Zum fünnfften, das alle wort, wie sich die von mund oder geschrifft zwüschen inen verlouffen, hiermit fry uffgehept und  
+                <lb/>niemand siner eeren halb uffheblich nach verwissennlich sin. Unnd das ouch herr <persName ref="GND_1089463588">Bastian</persName> inn gotswys
+                durch unnser eidtgnossen vonn <placeName ref="LOC_47.36667_8.55">Zürich</placeName> statt 
+                und lannd sicher und ungevechd lyps unnd guͦts durch zuͤwanndlen vergonnt unnd zuͤgelassen sölle werdenn.</seg> 
+              <seg n="6">Zum sëchsten <lb/>unnd letsten, so ouch herr <persName ref="GND_1089463588">Baschian</persName> ettwas eignen 
+                wyters guͤts, es were im gotshus <placeName ref="LOC_47.2592_8.849">Rüti</placeName> oder ann annderen ordten inn unnser lieben eidgtnossen
+                vonn <placeName ref="LOC_47.36667_8.55">Zürich</placeName> gepieth nach hete, das söllenndt sy im fry, onne allen beschwärrung oder abzug vervolgen unnd zuͤ gan lassenn.</seg> 
+              <seg n="7">Unnd als <lb/>wir inen daruff zuͦ beiden theilen sölliche unnsere gestelte gütliche 
+                mittel überanntwurt und sy darby gepäten, die gegen einannderen früntlich uff- und anzuͤnemmen, daruff 
+                sy antzeigt das sy des nit gwalt nach bevelch, wellennd aber die zuͦ beidentheilen ann ir herren und obern
+                <lb/>brinngen unnd ir anntwurt zum fürderlichisten unnsern gnedigen unnd günnstigen 
+                herren, schultheis unnd rat der statt <placeName ref="LOC_47.05048_8.30635">Lutzernn</placeName> zuͦ schryben, welches dann beschechen. 
+                Unnd habent zuͦ beidentheilen sölliche abgeschribne, unnsere gestelte mittel gegen einanndern gütlich,
+                <lb/>unnd früntlich uff- unnd angenommen unnd von unns <num value="3">dryen</num> schid- unnd spruchlüten 
+                dess brieflichen schyn unnder unnseren angehennckten insiglen begärrt unnd gepäten, die 
+                wir inen zuͤ gezügkhnuß, uff ir pith unnd begerren, doch unns unnd 
+                unnseren erbenn <lb/>onne schaden geben unnd werden lassen.</seg> <seg>Uff <origDate when="1559-01-26">dornnstag, den 
+                sechsunndzwanntzigosten tag des monnath jenners nach der 
+              gepurt Christi unnsers herren gezalt thussenndt fünnffhunndert fünffzig und nün jarr</origDate></seg>.<lb/>
+            </p>
+            <pb n="v" facs="C_I__Nr__2382__v_.tif"/>
+            <div>
+              <ab type="dorsal" place="verso">Vertrag mit <persName ref="LOC_47.2592_8.849">Sebastian Hegner</persName> von <placeName ref="LOC_47.50564_8.72413">Winterthur</placeName>,
+                <lb/>umb die anspraach, so er an das closter <placeName ref="LOC_47.2592_8.849">Rüti</placeName> ge<lb break="no"/>hept hatt, actum im <origDate when="1559">1559</origDate>. jar.
+              </ab>
+            </div>
+          </div>
+        </body>
+
+        <back>
+          <div>
+            <p>Der vorliegend edierte Schiedsspruch beendete die Auseinandersetzung zwischen <placeName ref="LOC_47.36667_8.55">Zürich</placeName> und dem letzten Konventualen des Klosters <placeName
+              ref="LOC_47.2592_8.849">Rüti</placeName>, <persName ref="GND_1089463588">Sebastian Hegner</persName>, 
+              um das Schicksal der im Jahr 1525 in ein Klosteramt umgewandelten Prämonstratenserabtei (für die Ordnung von 1525 vgl. <bibl><ref target="https://qzh.sources-online.org/exist/apps/qzh/quellenstuecke/QZH_071">QZH, Nr. 71</ref></bibl>).</p>
+              <p>Die Urkunde dokumentiert auch das Handeln der eidgenössischen Schiedsleute in dieser Angelegenheit, darunter der Glarner 
+                Landammann <persName ref="GND_118624326">Aegidius Tschudi</persName>. Aufgrund der territorialen Nähe des Klosters <placeName ref="LOC_47.2592_8.849">Rüti</placeName> zu den altgläubig verbliebenen Orten (insbesondere <placeName ref="LOC_47.02076_8.65414">Schwyz</placeName>) 
+                und seinen umfangreichen Einkünften auch in katholischen Gebieten, erlangte der Konflikt eine auf die ganze Eidgenossenschaft ausstrahlende Bedeutung. Im Zuge der Auseinandersetzung berief sich <persName ref="GND_1089463588">Sebastian Hegner</persName> unter anderem auf die Schirmpflicht, die <placeName ref="LOC_47.36667_8.55">Zürich</placeName> mit der Verburgrechung des Klosters im Jahr 1401 eingegangen war (<bibl><ref target="https://qzh.sources-online.org/exist/apps/qzh/quellenstuecke/QZH_069">QZH, Nr. 69</ref></bibl>).</p>
+            <p>Die Urkunde stellt schliesslich auch ein wichtiges Zeugnis der zürcherischen Archivgeschichte dar. 
+              Im Zug der Reformation hatte Abt <persName>Felix Klauser</persName> bereits 1525 zentrale Urkunden, Urbare und weitere Dokumente der klösterlichen Herrschaft nach <placeName ref="LOC_47.22557_8.82228">Rapperswil</placeName> überführt und von dort aus dem Mutterstift <placeName ref="LOC_47.76317_9.5966">Weissenau</placeName> übergeben. 
+              Der Verlust dieser Titel wog für <placeName ref="LOC_47.36667_8.55">Zürich</placeName> schwer, insbesondere mit Blick auf das Einziehen der Einkünfte aus dem weitläufigen Klosterbesitz. Der Schiedsspruch sah vor, dass das Schriftgut an die Stadt <placeName ref="LOC_47.47333_8.30592">Baden</placeName> zur Verwendung durch beide Konfliktparteien ausgehändigt werden sollte. 
+              Der Rat der Stadt <placeName ref="LOC_47.47333_8.30592">Baden</placeName> bestätigte die Hinterlegung der Schriften in einer eigenen Urkunde (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4772955">StAZH C V 3.5 a, Nr. 1)</ref></bibl>. Von <placeName ref="LOC_47.47333_8.30592">Baden</placeName> gelangten sie wieder in das Kloster und letztlich nach <placeName ref="LOC_47.36667_8.55">Zürich</placeName>.</p>
+            <p>Zur Reformation des Klosters <placeName ref="LOC_47.2592_8.849">Rüti</placeName> vgl. <bibl><ref target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html">Niederhäuser 2020</ref></bibl> sowie <bibl><ref target="https://qzh.sources-online.org/exist/apps/qzh/quellenstuecke/QZH_071">QZH, Nr. 71</ref></bibl>; 
+              zur Archivgeschichte vgl. <bibl><ref target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html">Sieber 2001</ref>, S. 80-81</bibl>; <bibl><ref target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html">HS IV</ref>, S. 520-521</bibl>. 
+           .</p>
+            
+          </div>
+        </back>
+
+      </text>
+    </group>
+  </text>
+</TEI>  

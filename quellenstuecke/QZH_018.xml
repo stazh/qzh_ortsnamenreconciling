@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css“?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0"
+ xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <respStmt>
+     <persName>Andrea Schmid-Kunz</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Michael Schaffner</persName>
+     <resp key="tagging"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <date type="electronic" when="2021-05-01"/>
+    <date type="print" when="2018-12-31"/>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Gelebte Reformation. Zürich 1500-1800</title>
+    <respStmt>
+     <persName>Francisca Loetz. Unter Mitarbeit von Wolfram Schneider-Lastin</persName>
+     <resp>Herausgeberschaft</resp>
+    </respStmt>
+    <idno>QZH_018</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier>
+      <idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3436031">StAZH A 9.2, Nr. 3</idno>
+     </msIdentifier>
+     <head>Bericht des Ehegerichts der Stadt Zürich über Pfarrer Hans Göldi wegen Ehebruch mit einer Prostituierten</head>
+     <msContents>
+      <msItem>
+       <textLang>Deutsch</textLang>
+       <filiation type="current">Aufzeichnungen</filiation>
+       <filiation type="original"></filiation>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support><material>Papier</material></support>
+        <extent/>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history><origin><origDate when="1587-09-19"></origDate></origin></history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p>
+     <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+    </p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc> </profileDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term ref="key004344">Ehegericht</term>
+     <term ref="key000325">Fremde</term>
+     <term ref="key000301">Pfarrer</term>
+     <term ref="key005421">Prostitution</term>
+    </keywords>
+   </textClass>
+   <particDesc default="false"/>
+   <settingDesc default="false"/>
+  </profileDesc>
+ </teiHeader>
+ <text>
+  <group>
+   <text>
+    <body>
+     <pb n="1" facs="StAZH_A_9_2__Nr__3__S__1_.tif"/>
+     <div><p><lb/>Edlenn, vestenn, frommen, fürsichtigen, eer<lb break="no"/>samen 
+      und wyßenn, innsonnders gönnstigenn,
+      <lb/>gnnedignn, liebenn herren. Nachdem unns fürkom<lb break="no"/>en 
+      unnd verstänndiget wordenn, wie das herr
+      <lb/><persName>Hanns Gölldi</persName>, pfharherr zu <placeName ref="LOC_Lat_Long">Mhur</placeName>, sich inn jetz letst
+      <lb/>halltenndem jarmergkt nachts unnder dem <placeName ref="LOC_Lat_Long">Hällm<lb break="no"/>huß</placeName> 
+      mit unnd gägenn einer gmeinen mätzenn
+      <lb/>etlicher gstallt gar argwönnisch erzeigt, unnd das
+      <lb/>etlich wälltsche kremer erzellter maßen inne
+      <lb/>funnden haben söllenn. Deßhalben haben
+      <lb/>wir nachbemällte personnen, für unns be<lb break="no"/>schigkenn 
+      unnd innen söliches fürhallten lassen,
+      <lb/>ob doch demsëlbigenn allso sige oder nit. Daruff
+      <lb/>sy unns (wie hernnach vermälldot wirt) allso
+      <lb/>berichtet: Erstlichenn,</p>
+      <p><lb/><persName>Moritz Benneradt</persName>, ein kremer vonn <placeName ref="LOC_Lat_Long">Arburg</placeName>. Alls er
+      <lb/>mit annderen meer kremeren, verschinner
+      <lb/>mittwuchenn zu nacht, um acht, alld zwüschendt
+      <lb/>nün unnd achten, uß dem wirtzhuß keerdt unnd
+       <lb/>unnder das <placeName ref="LOC_Lat_Long">Hällmhuß</placeName>, zu irenn stännden alld
+      <lb/>gädenn, mit liecht ganngen, hete er inn dem
+      <lb/>schumacher winngkell ein gemeine gesächen,
+      <lb/>hinnder deren were herr <persName>Hanns Gölldi</persName> sitz<lb break="no"/>en 
+      gewäßenn, denn sy also staannd, mit irer
+      <lb/>güppen tegkenn, unnd das liecht ablöschenn
+      <lb/>wellenn. Das er aber gesächenn, das er etwas
+      <lb/>tadtlichs, alld lybliche werch mit iren volbracht,
+      <lb/>könne er nit sagenn, alleinn aber habe er zu
+      <lb/>ime gesagt, das zimme synnem stannd gar nit.
+      <lb/>Hiemit er inn zornn gëgenn ime erwachßen,
+      <lb/>allso, das er mit tadtlicher hannd gëgen ime 
+      <lb/>gefharenn. Er sige aber mit ime zufridenn
+      <lb/>unnd überkhommenn.</p>
+      <pb n="2" facs="StAZH_A_9_2__Nr__3__S__2_.tif"/>
+      <p><lb/><persName>Moritz Gydonnis</persName>, ouch ein kremer von <placeName ref="LOC_Lat_Long">Lucernn</placeName>.
+      <lb/>Er habe nüdt annders gesëchenn, dann das ein
+      <lb/>gemeinne dirnn, herr <persName>Hannß Gölldi</persName>, mit
+      <lb/>irer güppenn degkenn wellenn.</p>
+      <p><lb/><persName>Wilhälm Schomal</persName>, ouch ein kremer uß dem <placeName ref="LOC_Lat_Long">Augstall</placeName>.
+      <lb/>Er habe gesëchenn, das herr <persName>Hanns Gölldi</persName> hinnder
+      <lb/>der mätzenn gewäßenn, aber mit irenn nützit
+      <lb/>ußgericht, allein hab sy inne wellenn vertegk<lb break="no"/>enn, 
+      unnd das liecht ablöschenn.</p>
+      <p><lb/>Unnd letstlich bezüget <persName>Gabriel Laba</persName>, auch ein krem<lb break="no"/>er 
+      unnd uß dem <placeName ref="LOC_Lat_Long">Augstal</placeName>, glych wie oberzellterr
+      <lb/><persName>Schomal</persName> unnd <persName>Gydonniß</persName>.</p>
+      <p><seg><lb/>Nach wellicher jetzverschribnner personnen sagen
+      <lb/>wir (vomwëgen unnsërs thragennden ampts
+      <lb/>unnd habennden befelchs) genannten herr <persName>Hannß<lb break="no"/>en Gölldi</persName> 
+      für unns citierenn unnd beschryb<lb break="no"/>enn lassen (der dann ganntz gehormsamlich kom<lb break="no"/>en 
+      unnd erschinnen). Da wir imme mit allem
+      <lb/>ernnst dißers (wie jetzgehördt) fürhallten lass<lb break="no"/>enn, 
+      der daruff diserenn bescheid allso gëb<lb break="no"/>en. 
+      Er habe etlicher sachenn halber alhie by sonnd<lb break="no"/>erbarenn 
+      personnen zuthun gehept unnd nnach<lb break="no"/>gänntz 
+      einnen thrunngk mit einannderen ge<lb break="no"/>than 
+      unnd (leider) zimlich thrunngken, ouch
+      <lb/>nachts, unnd sonnders vonn einem synner gut<lb break="no"/>en 
+      gönneren, das er by imme über nacht be<lb break="no"/>lybe, gepëtenn wordenn, 
+      das er ime abgeschlag<lb break="no"/>en, unnd willenns gewäßenn, zu synnen
+      <lb/>töchterenn, so alhie wohnnende, zukherenn.
+      <lb/>Hiemit über die <placeName ref="LOC_Lat_Long">Ober Bruggen</placeName> ganngnenn,
+       <pb n="3" facs="StAZH_A_9_2__Nr__3__S__3_.tif"/>
+       <lb/>unnder das <placeName ref="LOC_Lat_Long">Hällmhuß</placeName> komenn unnd etliche
+      <lb/>kremer glychfhalls ouch, da were ein gmeine
+      <lb/>dirnn gewäßenn, unnd er vonn etlichen krem<lb break="no"/>erenn, 
+      mit worthenn zimlich ruch, samm er et<lb break="no"/>was 
+      bößes inn synnem fürnëmmen habe,
+      <lb/>angefharenn ouch angeredt, allso, das es ime
+      <lb/>unlydennlich gewäßenn, hiemit die gemein
+      <lb/>dirnn für inne gestannden (unnd villicht
+      <lb/>vermeinndt, vor etwas unnfhalls zu synn).
+      <lb/>Sonnst hab er annders fürnëmmens nit,
+      <lb/>sonnders allein heimzukherenn im sinn
+      <lb/>gehept, bezüge es ouch, so hoch unnd thür by
+      <lb/>synner sälligkeit unnd ehren, das er mit
+      <lb/>vermällter dirnnen nützit, weder wennig
+      <lb/>nach vill, zuschaffenn, alld inn dem sinn uß<lb break="no"/>zurichtenn 
+      gehept, pitte deßhalbenn gott,
+      <lb/>denn allmächtigenn, unnd unns, ganntz
+      <lb/>unnderthennig unnd zum aller höchstenn,
+      <lb/>wir welltinnd doch ime söliches ganntz ge<lb break="no"/>nedennklich 
+      verzychenn, unnd nit zu dem
+      <lb/>höchstenn rächnenn unnd achtenn, dann
+      <lb/>er glych (wie zuvor) nachmalen bezüge,
+      <lb/>das er mit gesagter gemeinen dirnnen,
+      <lb/>ganntz nützit ußgericht nnach zuschaffenn
+      <lb/>gehept, werde es ouch kein eerlicher mann,
+      <lb/>vonn ime nit sagenn alld redenn könn<lb break="no"/>en <abbr>etc</abbr>.</seg>    <seg>Wann nun wir
+      <lb/>disers alles (wie harinnen vergriffenn)
+      <lb/>gehördt unnd verstannden, habennd wir
+      <lb/>unns diser sachenn halber, wyter nit an<lb break="no"/>nëmen 
+      alld beladenn können, sonnd<lb break="no"/>ers 
+      habennd alle unnd ganntze hannd<lb break="no"/>lunng 
+      geschrifftlichenn verfassenn
+      <lb/>unnd sölliche <abbr>e. e. wten.</abbr> übergëben unnd
+       <pb n="4" facs="StAZH_A_9_2__Nr__3__S__4_.tif"/>
+      <lb/>zugestellt. Was nun diesëlbig harinnen hannd
+      <lb/>lot unnd fürnimpt, wellennd wir unns ganntz
+      <lb/>unnderthennigklich gefallenn lassenn.</seg> <seg><choice><abbr>Actm </abbr><expan>Actum</expan></choice>
+      <lb/><origDate when="1587-09-19">zynnstags, denn 19ten herpstmonnat
+      <lb/>a<hi rend="sup">o</hi> 1587</origDate>.</seg></p>
+    <p><seg><lb/><abbr>E. e. wten</abbr>
+      <lb/>unnderthennige
+      <lb/>burger unnd dienn<lb break="no"/>er 
+      an dem eegricht.</seg></p></div>
+     <div><p><pb n="5" facs="StAZH_A_9_2__Nr__3__S__5_.tif"/><!-- msr: leere Seite --></p></div>
+     <pb n="6" facs="StAZH_A_9_2__Nr__3__S__6_.tif"/>
+      <div>
+       <ab place="verso" type="dorsal"><p>
+      <seg><lb/>Den <date when="1587-09-19">19.ten 7bris 1587</date>.
+      <lb/>Wyßunng.
+        <lb/>Herr <persName>Hannsen Gölldi</persName> pfhar<lb break="no"/>err zu <placeName ref="LOC_Lat_Long">Mhur</placeName> belanngende.
+      <lb/>Wiewol man gloubt, es syge mit
+      <lb/>den werchen nüdt thettlichs ver<lb break="no"/>gangen, 
+        so ist doch die sach ëben
+      <lb/>ergerlich, sonderlich wyls frömbde
+      <lb/>personen gsëhen. Derhalben
+      <lb/>soll er, <persName>Göldi</persName>, biß jezt donstag
+       <lb/>inn <placeName ref="LOC_Lat_Long">Wellenberg</placeName> gelegt, und ein
+      <lb/>march silbers zebuß gëben. Und
+      <lb/>soll im mit ernst undersagt werden,
+      <lb/>das er mit bisshar gebruchten sachen
+      <lb/>nit mehr kommen, dann dise das
+      <lb/>letst syn sölle</seg>. <seg><choice><abbr>Actm</abbr><expan>Actum</expan></choice> <origDate when="1587-09-25">montags, den
+      <lb/>25.ten Septembris an<hi rend="sup">o</hi>. 87</origDate>,
+        <lb/><choice><abbr>pnt</abbr><expan>presentibus</expan></choice> herr <persName ref="GND_143680544">Kambli</persName>, und beid reth.</seg></p></ab></div>
+    </body>
+    <back>
+     <div><p>
+      Dem Bericht des Ehegerichts an den Rat
+      zufolge haben nachts auswärtige Krämer Pfarrer <persName>Göldi</persName> im städtischen <placeName ref="LOC_Lat_Long">Helmhaus</placeName>
+      auffällig nahe bei einer Prostituierten sitzen sehen. Diese habe darauf umgehend
+      versucht, den Pfarrer mit ihrem Hut zu verdecken, und das Kerzenlicht
+      ausgeblasen. Die Befragung der Zeugen und des Angeklagten habe ergeben, dass dem
+      Pfarrer kein sexueller Kontakt hätte nachgewiesen werden, doch auch <persName>Göldi</persName> das
+      Ehegericht nicht von seiner Unschuld hätte überzeugen können. Der Fall, der
+      offensichtlich für eine Anzeige gesorgt hat, belegt, an welchen Stellen
+      Prostituierte in der Stadt anwesend waren, welche Dienste ihnen zugeschrieben
+      wurden und wie schwerwiegend insbesondere für einen verheirateten Pfarrer der
+      Verdacht war, mit ihnen die Ehe gebrochen zu haben. Pfarrer <persName>Göldi</persName> wurde zu einer
+      mehrtägigen Gefängnis- und einer Geldstrafe verurteilt.
+      </p>
+     </div>
+    </back>
+   </text>
+  </group>
+ </text>
+</TEI>

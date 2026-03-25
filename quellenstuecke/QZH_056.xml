@@ -1,0 +1,943 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='../../Ressourcen/Stylesheet.xsl'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Quellen zur Zürcher Geschichte</title>
+                <respStmt>
+                    <persName>Tessa Gerber. Mit einem Kommentar von Sarah Murer und Michael
+                        Schaffner</persName>
+                    <resp key="transcript"/>
+                </respStmt>
+                <respStmt>
+                    <persName>Sarah Murer</persName>
+                    <resp key="tagging"/>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Staatsarchiv des Kantons Zürich</publisher>
+                <date type="electronic" when="2021-05-01"/>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Quellen zur Zürcher Geschichte</title>
+                <respStmt>
+                    <persName>Staatsarchiv des Kantons Zürich</persName>
+                    <resp>Herausgeberschaft</resp>
+                </respStmt>
+                <idno>QZH_056</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=5115294"
+                            >STAZH F III 4 (1542, Beilage)</idno>
+                    </msIdentifier>
+                    <head>Rechnung des Bauamts der Stadt Zürich über den Wiederaufbau von Regensberg
+                        nach dem dortigen Stadtbrand</head>
+                    <msContents>
+                        <summary>Die Rechnung des Bauamtes der Stadt Zürich über den Wiederaufbau
+                            von Regensberg nach dem dortigen Stadtbrand listet Ausgaben für
+                            Zimmerleute, Maurer, Bauknechte, Fuhrleute, Dachdecker, Schmiede und
+                            Schlosser sowie für Kalk, Ziegel, Sand und allerlei weitere Kosten auf.
+                            Insgesamt belaufen sich die Ausgaben des Bauamtes für den Wiederaufbau
+                            auf 1775 Pfund, zehn Schilling und einen Pfennig.</summary>
+                        <msItem>
+                            <textLang>Deutsch</textLang>
+                            <filiation type="current">Aufzeichnungen, Heft</filiation>
+                            <filiation type="original"><origDate when="1542-07-31"
+                                />31.07.1542</filiation>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><material>Papier</material></support>
+                                <extent/>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origDate when="1542-07-31"/></origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>
+                    <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+                </p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc> </profileDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+                    <term ref="key000207">Amt</term>
+                    <term ref="key004175">Ausgaben</term>
+                    <term ref="key000490">Bauwesen</term>
+                    <term ref="key005369">Buchführung</term>
+                    <term ref="key004536">Finanzen</term>
+                    <term ref="key000212">Löhne</term>
+                    <term ref="key000574">Rechnungswesen</term>
+                    <term ref="key000187">Unterhalt</term>
+                    <term ref="key000204 ">Verwaltung</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <group>
+            <text>
+                <body corresp="Sigle1">
+                    <div>
+                        <pb n="1" facs="F_III_4__1542__Beilage__S__1_.tif"/>
+                        <head><lb/><date when="1542">1542</date>. <lb/>Waß uff den buw zuͦ
+                                <placeName ref="LOC_47.48295_8.43791">Regensperg</placeName>
+                            <lb/>gangen, allein die brunst belangend, <lb/>vom <date
+                                from="1541-07-31" to="1542-07-31">letsten tag july im 41. jar
+                                <lb/>biß uff den letsten july im 42.</date></head>
+                        <pb n="2" facs="F_III_4__1542__Beilage__S__2_.tif"/>
+                        <!-- leere Seite -->
+                        <pb n="3" facs="F_III_4__1542__Beilage__S__3_.tif"/>
+                        <head><lb/>Alerley gelt, <date when="1542">1542</date></head>
+                        <p>
+                            <lb/><measureGrp>
+                                <measure unit="lb" quantity="1">j </measure>, <measure unit="ß"
+                                    quantity="18">x viij </measure>
+                            </measureGrp> rit roß knechten lon und <lb/>zergelt gen <placeName
+                                ref="LOC_47.48295_8.43791">Regensperg</placeName> zwen tag <lb/>des
+                                <date when="1541-08-28">28. ougsten im 41 jar</date>. </p>
+                        <p>
+                            <lb/><measureGrp>
+                                <measure unit="lb" quantity="4">iiij </measure>, <measure unit="ß"
+                                    quantity="16">x vj </measure>
+                            </measureGrp> gab ich herrn gfatter vogt, <lb/>so er darglichen, des
+                                <date when="--08-28">28 ougsten</date> etlichen, <lb/>so sand gfürt
+                            und tagstein brochen. </p>
+                        <p>
+                            <lb/><measureGrp>
+                                <measure unit="lb" quantity="8">viij </measure>, <measure unit="ß"
+                                    quantity="14">xiiij </measure>
+                            </measureGrp> dem köu̍ffler von <placeName ref="LOC_47.51096_8.47099"
+                                >Nerach</placeName>, des <lb/>die tagstein gsin sind, des <date
+                                when="--09-07">7. septembers</date>. </p>
+                        <p>
+                            <lb/><measureGrp>
+                                <measure unit="lb" quantity="3">iij </measure>, <measure unit="ß"
+                                    quantity="19">xviiij </measure>
+                            </measureGrp>
+                            <persName>Felix Mu̍ller</persName> und <persName>Adam
+                                <lb/>Brämen</persName>, hört etlichs von kalch zuͦ <lb/>messen und
+                            zerung und trinkgelt, <lb/>des <date when="--09-12">12.
+                                septembers</date>. </p>
+                        <p>
+                            <lb/><measureGrp>
+                                <measure unit="lb" quantity="1">j </measure>, <measure unit="ß"
+                                    quantity="8">viij </measure>
+                            </measureGrp> einem von <placeName ref="LOC_47.45041_8.52993"
+                                >Ru̍mlang</placeName> und <lb/><persName>Bübly Mu̍ller</persName>
+                            von <num value="2">2</num> wägen mit <lb/>sag spänen uff <placeName
+                                ref="LOC_47.48295_8.43791">Regenspurg</placeName> zuͦ <lb/>füren
+                            und fu̍r dz mal des <date when="--09-21">21 septembers</date>. </p>
+                        <p>
+                            <lb/><measureGrp>
+                                <measure unit="lb" quantity="6">vj </measure>, <measure unit="ß"
+                                    quantity="17">xvij </measure>
+                            </measureGrp> fu̍r <num value="3">3</num> mal, als ich <abbr>m</abbr>
+                            <persName>Pur</persName>, <lb/><abbr>m</abbr>
+                            <persName> Stoll</persName> und herrn statschriber zuͦ <lb/><placeName
+                                ref="LOC_47.48295_8.43791">Regensperg</placeName> sind gsin fu̍r
+                            lezgelt, <lb/>herren, knechten und roßlon zuͦ <lb/>sammen gerechnot des
+                                <date when="--10-02">2. octobers</date>. </p>
+                        <p>
+                            <lb/><measure unit="ß" quantity="6">vj </measure> dem <persName>Bischoff</persName> botten
+                            lon gen <lb/><placeName ref="LOC_47.48295_8.43791"
+                                >Regensperg</placeName> des <date when="--10-06">6 octobers</date>. </p>
+                        <p>
+                            <lb/>Suma <measureGrp>
+                                <measure unit="lb" quantity="27">xxvij </measure>, <measure
+                                    unit="ß" quantity="18">xviij </measure></measureGrp>.</p>
+                    </div>
+                    <div>
+                        <pb n="4" facs="F_III_4__1542__Beilage__S__4_.tif"/>
+                        <head type="subtitle">Alerley gelt ußgeben</head>
+                        <p>
+                            <lb/><measureGrp>
+                                <measure unit="lb" quantity="1">j </measure>, <measure unit="ß"
+                                    quantity="18">xviij ß</measure>
+                            </measureGrp> dem <persName>Jacob Goßwiler</persName> umb <lb/>gelten
+                            uff <placeName ref="LOC_47.48295_8.43791">Regensperg</placeName>
+                            gebracht, <lb/>des <date when="--10-08">8. octobers</date>. </p>
+                        <p>
+                            <lb/><measure unit="ß" quantity="5">v </measure> dem <persName>Hans
+                                Siber</persName> umm <num value="2">j</num> kalch riteren <lb/>uff
+                                <placeName ref="LOC_47.48295_8.43791">Regensperg</placeName>, des
+                                <date when="--10-16">16. octobers</date>. </p>
+                        <p>
+                            <lb/><measureGrp>
+                                <measure unit="lb" quantity="33">xxxiij </measure>, <measure
+                                    unit="ß" quantity="19">xviiij </measure>, <measure unit="d"
+                                    quantity="7">vij ₰</measure>
+                            </measureGrp> herrn gfatter <lb/>vogt uff <placeName
+                                ref="LOC_47.48295_8.43791">Regensperg</placeName>, so er nach und
+                            <lb/>nach mir dar glichen den boukknechten, <lb/>ouch fu̍r etlich fuͦr
+                            und maͧl <lb/>mit im luter abgerechnot, des <date when="--10-27">27.
+                                <lb/>octobers</date>, in by sin undervogt <persName>
+                                Houpts</persName>.</p>
+                        <p>
+                            <lb/><measureGrp>
+                                <measure unit="lb" quantity="4">iiij </measure>, <measure unit="ß"
+                                    quantity="9">viiij </measure>
+                            </measureGrp> fu̍r <num value="2">2</num> ritt uff <placeName
+                                ref="LOC_47.48295_8.43791">Regensperg</placeName>, <lb/>fu̍r rit
+                            roß, knechten lon und <lb/>lezgelt, ouch den zimberlu̍ten zuͦ
+                            <lb/>vertrincken, des <date when="--10-28">28. octobers</date>. </p>
+                        <p>
+                            <lb/><measure unit="lb" quantity="2">ij </measure> dem undervogt
+                                <persName> Houpten</persName> fu̍r geng <lb/>und zerung, als er von
+                            des buws <lb/>wegen hin und wider glouffen, <lb/>im gen des <date
+                                when="--10-28">28. octobers</date>. </p>
+                        <p>
+                            <lb/><measureGrp>
+                                <measure unit="lb" quantity="5">v </measure>, <measure unit="ß"
+                                    quantity="5">v </measure>
+                            </measureGrp>
+                            <persName>Hans Schönen</persName>, wirt zum Affen<lb break="no"/>wagen,
+                            so die von <placeName ref="LOC_47.45876_8.43661"> Buchs</placeName> an
+                            im <lb/>verzert, als sy minen herren mit <lb/><num value="17">17</num>
+                            wägnen ein eer tagwen gethan <lb/>und ziegel uff <placeName
+                                ref="LOC_47.48295_8.43791">Regensperg</placeName> gfürt <lb/>hatend,
+                            des <date when="--11-12">12. novembers</date>. </p>
+                        <p>
+                            <lb/><measure unit="lb" quantity="8">viij </measure>
+                            <persName>Hensy Mu̍ller</persName> zuͦ <placeName ref="LOC_47.48295_8.43791">Regensperg</placeName>
+                            des <lb/><date when="--11-18">18. novembers</date> huß zins von
+                                <abbr>m</abbr>
+                            <persName> Petter <lb/>Engelhartz</persName> wegen. </p>
+                        <p>
+                            <lb/>Suma <measureGrp>
+                                <measure unit="lb" quantity="56">lvj </measure>, <measure unit="ß"
+                                    quantity="16">xvj </measure>, <measure unit="d" quantity="7"
+                                    >vij ₰</measure></measureGrp>.</p>
+                    </div>
+                    <div>
+                        <pb n="5" facs="F_III_4__1542__Beilage__S__5_.tif"/>
+                        <head type="subtitle"><lb/>Alerley gelt, <date when="1542"
+                            >1542</date></head>
+                        <p>
+                            <lb/><measureGrp>
+                                <measure unit="lb" quantity="5">v </measure>, <measure unit="ß"
+                                    quantity="4">iiij </measure>
+                            </measureGrp> herrn gfatter vogt uff <placeName ref="LOC_47.48295_8.43791">Regensperg</placeName>
+                            <lb/>fu̍r etliche mal den hafneren und <lb/><persName>Felix
+                                Mu̍ller</persName>.</p>
+                        <p>
+                            <lb/><measureGrp>
+                                <measure unit="lb" quantity="26">xx vj </measure>, <measure
+                                    unit="ß" quantity="12">vij </measure>
+                            </measureGrp> dem <persName>Hans Meyer</persName>, hafner <lb/>hinderm
+                            hof, von <num value="2">2</num> öfnen und siner <lb/>frowen <measure
+                                unit="ß" quantity="10">10 </measure> ztrinckgelt, des <date
+                                when="--12-21">21 decembers</date>, <lb/>von des predicanten wegen
+                            zuͦ <placeName ref="LOC_47.48295_8.43791">Regensperg</placeName>. </p>
+                        <p>
+                            <lb/><measureGrp>
+                                <measure unit="lb" quantity="6">vj </measure>, <measure unit="ß"
+                                    quantity="18">xviij </measure>, <measure unit="d" quantity="6"
+                                    >vj ₰</measure>
+                            </measureGrp>
+                            <persName>Heinrich Pluwler</persName> umb <lb/><num value="16">16</num>
+                            ramen in des predicanten huß zuͦ <lb/><placeName
+                                ref="LOC_47.48295_8.43791">Regensperg</placeName>, des <date
+                                when="--01-16">16. jenners</date>. </p>
+                        <p>
+                            <lb/><measureGrp>
+                                <measure unit="lb" quantity="88">lxxxvij </measure>, <measure
+                                    unit="ß" quantity="9">viiij </measure>, <measure unit="d"
+                                    quantity="4">iiij ₰</measure>
+                            </measureGrp> dem <persName ref="GND_123182441">Karly vonn
+                                <lb/>Ägry</persName><note><persName ref="GND_123182441">Carl von Aegeri</persName> (1510-1562) war ein 
+                                    prominenter Zürcher Glasmaler. Die hier abgerechneten Aufträge betreffen sowohl Kirchenfenster als auch
+                                    Wappenscheiben (<q>mit miner gnedigen heren schilt</q>) und sind heute vor Ort nicht mehr erhalten. Vgl. <bibl>HLS, <ref target="https://hls-dhs-dss.ch/de/articles/018287/2001-03-06/">Carl von Aegeri</ref></bibl>.</note> umb <num value="15">15</num> schiben und j
+                            waldglaß <lb/>venster, deß glich umb <num value="5">5</num> kilchen
+                            venster, <lb/>hand <num value="8">8</num> liechter und <num value="2"
+                                >2</num> rundelen <lb/>mit miner gnedigen heren schilt, luter mit
+                            <lb/>im abgerechnet in by sin her <lb/> seckelmeisters, <date
+                                when="--01-17">17. jenners</date>. </p>
+                        <p>
+                            <lb/><measureGrp>
+                                <measure unit="lb" quantity="17">xvj </measure>, <measure unit="ß"
+                                    quantity="12">xij </measure>, </measureGrp> dem <persName>Adem
+                                Spies</persName> von <placeName ref="LOC_47.51096_8.47099"
+                                >Nerach</placeName>, <lb/>umb tagstein zum kilchthurn, des
+                                <lb/><date when="--06-30">letsten juny</date>. </p>
+                        <p>
+                            <lb/><measureGrp>
+                                <measure unit="lb" quantity="5">v </measure>, <measure unit="ß"
+                                    quantity="2">ij </measure>, </measureGrp> rit abermal
+                                <abbr>m</abbr>
+                            <persName>Stol</persName>, ich und <lb/><abbr>m</abbr>
+                            <persName>Jacob Nöggy</persName>
+                            <num value="2">2</num> mal, als wir den <lb/>kilchthurn verdingten,
+                            lezgelt, rit <lb/>roßlon, ouch ritlon. </p>
+                        <p>
+                            <lb/>Suma <measure unit="lb" quantity="148">j<hi rend="sup">c</hi>
+                                xxxxviij </measure>, <measure unit="ß" quantity="17">xvij
+                                </measure>, <lb/><measure unit="d" quantity="10">x ₰</measure>.
+                        </p>
+                    </div>
+                    <div>
+                        <pb n="6" facs="F_III_4__1542__Beilage__S__6_.tif"/>
+                        <head type="subtitle"><lb/>Alerlley ußgeben</head>
+                        <p>
+                            <lb/><measureGrp>
+                                <measure unit="lb" quantity="77">lxxvij </measure>, <measure
+                                    unit="ß" quantity="4">iiij </measure>, <measure unit="d"
+                                    quantity="4">iiij ₰</measure>, </measureGrp> her gfater vogt
+                            fu̍r <lb/>allerley, so er in minen herren namen <lb/>mir darglichen hat
+                            und nach und <lb/>nach ußgeben, ouch fu̍r die mal, <lb/>so er denen
+                            geben, so minen gnädigen herren <lb/>ertagwen gethaͧn, als sy zum kilch
+                            <lb/>thurn die tagstein von <persName>Nerach</persName> gfuͦrt
+                            <lb/>hand, hab luter mit im abgerechnot, <lb/>den <date
+                                when="1542-07-31">letsten tag july im 42. jar</date>. </p>
+                        <p>
+                            <lb/><measureGrp>
+                                <measure unit="lb" quantity="6">vj </measure>, <measure unit="ß"
+                                    quantity="13">xiij </measure>
+                            </measureGrp> beden werchmeistern, mir und <lb/>minen knecht letzgelt,
+                            rit, roßlon und <lb/>zerung zuͦ <placeName ref="LOC_47.49066_8.49987"
+                                >Niderglat</placeName>, als wir ein <lb/>anschlag uber des
+                            predicanten huß <lb/>da selbs gethan, ouch zuͦ
+                                <placeName ref="LOC_47.48295_8.43791">Regensperg</placeName>
+                            <lb/>gsin warend <num value="2">2</num> tag, uff den <lb/><date
+                                when="--07-31">letsten july</date>. </p>
+                        <p>
+                            <lb/>Summa <measureGrp>
+                                <measure unit="lb" quantity="83">lxxxiij </measure>, <measure
+                                    unit="ß" quantity="17">x vij </measure>, <measure unit="d"
+                                    quantity="3">iij ₰</measure></measureGrp>.</p>
+                        <p>
+                            <lb/>Summa allerley geltz ußgeben <lb/><measureGrp>
+                                <measure unit="lb" quantity="317">iij<hi rend="sup">c</hi>, xvij
+                                    </measure>, <measure unit="ß" quantity="9">viiij </measure>,
+                                    <measure unit="d" quantity="9">viiij ₰</measure></measureGrp>. </p>
+                        <pb n="7" facs="F_III_4__1542__Beilage__S__7_.tif"/>
+                        <pb n="8" facs="F_III_4__1542__Beilage__S__8_.tif"/>
+                        <!-- leere Seiten -->
+                    </div>
+                    <div>
+                        <pb n="9" facs="F_III_4__1542__Beilage__S__9_.tif"/>
+                        <head type="subtitle"><lb/>Zimberlu̍ten geben</head>
+                        <!-- 4 Paragraphen, 1 Summa -->
+                        <p>
+                            <lb/><measureGrp>
+                                <measure unit="lb" quantity="195">j<hi rend="sup">c</hi> lxxxxv
+                                    </measure>, <measure unit="ß" quantity="17">xvij </measure>,
+                                    <measure unit="d" quantity="6">vj ₰</measure>, </measureGrp> dem
+                                <abbr>m</abbr>
+                            <lb/><persName>Adam Brämen</persName>, als er minen herren die
+                            <lb/>ziegelhu̍ten mit siner zuͦ ghört, die <lb/>schu̍r und des
+                            predicanten huß zuͦ <lb/><placeName ref="LOC_47.48295_8.43791">
+                                Regensperg</placeName> gemacht hat, mit im <lb/>abgerechnot des
+                                <date when="--10-02">2. octobers</date>, in by sin
+                                <lb/><abbr>m</abbr>
+                            <persName>Ruͦdolf Stollen</persName>, her gfater stat<lb break="no"
+                            />schribers und her gfatter vogtz von <lb/><placeName
+                                ref="LOC_47.48295_8.43791">Regensperg</placeName> und wz im form
+                                <lb/><date when="1541-07-31">letsten tag july im 41. jar</date> an
+                            <lb/>gelt worden ist, hie nit in dz <lb/>ußgeben gstelt worden, sonder
+                            in <lb/>die verding rechnung gleit worden.</p>
+                        <p>
+                            <lb/><measure unit="lb" quantity="140">j<hi rend="sup">c</hi> xxxx
+                                </measure> dem <persName>Jörg Stadler</persName>, tischmacher,
+                            <lb/>von <num value="2">2</num> stuben, <num value="2">2</num> kameren
+                            und der <lb/>kuchy zuͦ <placeName ref="LOC_47.48295_8.43791"
+                                >Regensperg</placeName> in des pre<lb break="no"/>dicanten huß des
+                                <date when="--12-28">28. decembers</date>, wz <lb/>im also verdingt
+                            hat ouch müssen <lb/>2 schregtillinen und als fu̍rholtz <lb/>und werch
+                            machen, mit allem unncosten, <lb/>ußgnomen die ysin nagel, muͦst ich
+                            <lb/>zalen, ouch von allen venstern und thu̍ren. </p>
+                        <p>
+                            <lb/><measure unit="lb" quantity="7">vij </measure> gab ich im zuͦ
+                            einer besserung und <lb/>vererung, ouch siner frowen und <lb/>knechten
+                            zuͦ trinckgelt. </p>
+                        <p>
+                            <lb/><measureGrp>
+                                <measure unit="lb" quantity="24">xxiiij </measure>, <measure
+                                    unit="ß" quantity="19">xviiij </measure>, </measureGrp>
+                            <abbr>m</abbr>
+                            <persName>Adam Brämen</persName> vonn <lb/>etlichen holtzen zuͦ werchen
+                            in des <lb/>predicanten huß der kemj schoß, etlichen <lb/>tillinen, ouch
+                            dem tach stuͦl mit den <lb/>schupf rapfen uff der kilchen, mit <lb/>im
+                            luter abgerechnot des <date when="--02-02">2. hornung</date>.</p>
+                        <p>
+                            <lb/>Suma <measureGrp>
+                                <measure unit="lb" quantity="367">iij<hi rend="sup">c</hi>, lxvij
+                                    </measure>, <measure unit="ß" quantity="16">xvj </measure>,
+                                    <measure unit="d" quantity="6">vj ₰</measure></measureGrp>.</p>
+                    </div>
+                    <div>
+                        <pb n="10" facs="F_III_4__1542__Beilage__S__10_.tif"/>
+                        <head><lb/>Zimberlu̍then geben, <date when="1542">1542</date></head>
+                        <p>
+                            <lb/><measureGrp>
+                                <measure unit="lb" quantity="23">xxiij </measure>, <measure
+                                    unit="ß" quantity="18">xviij </measure>
+                            </measureGrp>, <abbr>m</abbr>
+                            <persName>Adam Bräm</persName> von dem <lb/>holz zum kilchthurn zuͦ
+                            werchen, <lb/>zuͦ vellen und uff zuͦ machen, ouch <lb/>von zwey eichinen
+                            keneln by miner <lb/>gnedigen herren schu̍r, mit im abgerechnet,
+                            <lb/>des <date when="1542-07-31">letsten tag july im 42. jar</date>. </p>
+                        <p>
+                            <lb/>Suma <measureGrp>
+                                <measure unit="lb" quantity="23">xxiij </measure>, <measure
+                                    unit="ß" quantity="18">xviij </measure></measureGrp>.</p>
+                        <p>
+                            <lb/>Summa zimberlu̍then geben <lb/><measureGrp>
+                                <measure unit="lb" quantity="391">iij<hi rend="sup">c</hi> lxxxxj
+                                    </measure>, <measure unit="ß" quantity="14">xiiij </measure>,
+                                    <measure unit="d" quantity="6">vj ₰</measure></measureGrp>.</p>
+                    </div>
+                    <div>
+                        <pb n="11" facs="F_III_4__1542__Beilage__S__11_.tif"/>
+                        <head><lb/>Mureren geben, <date when="1542">1542</date></head>
+                        <p>
+                            <lb/><measure unit="lb" quantity="203">ij<hi rend="sup">c</hi>, iij
+                                </measure>, <abbr> m</abbr>
+                            <persName>Petter Engelharten</persName> geben und <lb/>mit im luter
+                            abgerechnot des <date when="--10-02">2. october</date>, <lb/>in bysin
+                                <abbr>m</abbr>
+                            <persName>R. Stollen</persName>, heren gfater <lb/>statschriber, her
+                            gfater vogts uff <placeName ref="LOC_47.48295_8.43791">Regen<lb break="no"/>sperg</placeName> und
+                            ist dz gelt namlich <measure unit="lb" quantity="198">198 </measure>, <lb/>
+                            <measure unit="ß" quantity="10">10 </measure>, so ich in form <date
+                                when="1541-07-31">letsten tag julj <lb/>im 41. jar</date> geben hie
+                            herin nit <lb/>gerechnet, dann sy mir in der vordrigen <lb/>rechnung
+                            abgangen sind, es ist ouch <lb/>alles herin gerechnot, es sy der kalch
+                            <lb/>und der fu̍rschuß am kalch, der <lb/>zigel ofen, die nebend tagwen,
+                            <lb/>die kilch und des predicanten huß <lb/>sampt dem rincmu̍rli, ouch
+                            der <lb/>ganzen ringmur, lut des verdings. </p>
+                        <p>
+                            <lb/><measure unit="lb" quantity="5">v </measure>sinen knechten
+                            ztrinckgelt geben, <lb/>hießend mine herren. </p>
+                        <p>
+                            <lb/><measureGrp>
+                                <measure unit="lb" quantity="158">j<hi rend="sup">c</hi> lviij
+                                    </measure>, <measure unit="ß" quantity="3">iij </measure>
+                            </measureGrp>
+                            <abbr> m</abbr>
+                            <persName>Peter Engelhart</persName>, des <date when="--01-16">16 <lb/>
+                                jenners</date>, lut eins zedels, so mir <lb/>her seckelmeister geben
+                            hat und <lb/>ist dz die letst rechnung, die ich <lb/>mit im thann han,
+                            in by sin <lb/><abbr>m</abbr>
+                            <persName>Ruͦdolf Stollen</persName> und <abbr> m</abbr>
+                            <persName>Jacob <lb/>Nöggis</persName>. Gschach hie in minen <lb/>huß,
+                            hat mir ouch etlich kernen <lb/>und win zuͦ gelt gschlagen. </p>
+                        <p>
+                            <lb/><measureGrp>
+                                <measure unit="lb" quantity="2">ij </measure>, <measure unit="ß"
+                                    quantity="7">vij </measure>
+                            </measureGrp>
+                            <abbr> m</abbr>
+                            <persName>Peter Weger</persName> umb j zwifach <lb/>mund loch in des
+                            predicanten huß ,<lb/>des <date when="--02-10">10. hornung</date> zalt. </p>
+                        <p>
+                            <lb/>Suma <measureGrp>
+                                <measure unit="lb" quantity="368">iij<hi rend="sup">c</hi>, lxviij
+                                    </measure>, <measure unit="ß" quantity="10">x </measure></measureGrp>.</p>
+                    </div>
+                    <div>
+                        <pb n="12" facs="F_III_4__1542__Beilage__S__12_.tif"/>
+                        <head type="subtitle"><lb/>Mureren geben, <date when="1542"
+                            >1542</date></head>
+                        <p>
+                            <lb/><measure unit="lb" quantity="60">lx </measure>, <abbr>m</abbr>
+                            <persName>Petter Murer</persName> geben uff den buw <lb/>am kilch thurn,
+                            des <date when="1542-07-31">letsten july <lb/>im 42. jar</date>. </p>
+                        <p>
+                            <lb/>Suma <measure unit="lb" quantity="60">lx </measure>.</p>
+                        <p>
+                            <lb/>Summa den mureren geben <lb/><measureGrp>
+                                <measure unit="lb" quantity="427">iiij<hi rend="sup">c</hi> xxviij
+                                    </measure>, <measure unit="ß" quantity="10">x </measure>
+                            </measureGrp>.</p>
+                    </div>
+                    <div>
+                        <pb n="13" facs="F_III_4__1542__Beilage__S__13_.tif"/>
+                        <head type="subtitle"><lb/>Böu̍lknechten geben <add place="above">
+                                <date when="1542">1542</date>
+                            </add></head>
+                        <p>
+                            <lb/><measureGrp>
+                                <measure unit="lb" quantity="7">vij </measure>, <measure unit="ß"
+                                    quantity="10">x </measure>
+                            </measureGrp>
+                            <persName>Marx Houpten</persName>, pur <persName>Hansen</persName>,
+                                <lb/><persName>Hensy Schwelly</persName>, <persName>Heini
+                                Truben</persName> und <persName> Felix <lb/>Wißmu̍ller</persName>,
+                            yeder <num value="6">6</num> tag sand graben, <lb/>nam her gfatter vogt
+                            des <date when="--08-28">28. ougst</date>. </p>
+                        <p>
+                            <lb/><measureGrp>
+                                <measure unit="lb" quantity="7">vij </measure>, <measure unit="ß"
+                                    quantity="7">vij </measure>, <measure unit="d" quantity="6">vj
+                                    ₰</measure>
+                            </measureGrp> nam gfater vogt zuͦ <placeName ref="LOC_47.48295_8.43791"
+                                >Regensperg</placeName>
+                            <lb/>des <date when="--09-02">2. septembers</date>. Hat er den
+                            boulknechten <lb/> geben. </p>
+                        <p>
+                            <lb/><measureGrp>
+                                <measure unit="lb" quantity="1">j </measure>, <measure unit="ß"
+                                    quantity="12">xij </measure>
+                            </measureGrp> dem <persName>Petter</persName> in der rebgruͦb, als
+                            <lb/>er <persName>Hans Bantli</persName> die öfen in des
+                            <lb/>predicanten huß hat helfen machen, <lb/>des <date when="--09-04">4.
+                                septembers</date>. </p>
+                        <p>
+                            <lb/><measureGrp>
+                                <measure unit="lb" quantity="13">xiij </measure>, <measure unit="ß"
+                                    quantity="8">viij </measure>
+                            </measureGrp>
+                            <persName>Marx Houpten</persName>, pur <persName>Hansen</persName>,
+                            <lb/>und dem <persName> Bragler</persName>, als sy sand graben <lb/>und
+                            ander werch gethaͧn. Mit inen <lb/>gerechnot dem <date when="--07-31"
+                                >letsten july</date>. </p>
+                        <p>
+                            <lb/>Summa <measureGrp>
+                                <measure unit="lb" quantity="29">xxviiij </measure>, <measure
+                                    unit="ß" quantity="17">xvij </measure>, <measure unit="d"
+                                    quantity="6">vj ₰</measure></measureGrp>.</p>
+                    </div>
+                    <div>
+                        <pb n="14" facs="F_III_4__1542__Beilage__S__14_.tif"/>
+                        <!-- leere Seite -->
+                        <pb n="15" facs="F_III_4__1542__Beilage__S__15_.tif"/>
+                        <head><lb/>Kareren geben</head>
+                        <p>
+                            <lb/><measureGrp>
+                                <measure unit="lb" quantity="59">lviiij </measure>, <measure
+                                    unit="ß" quantity="10">x </measure>
+                            </measureGrp>
+                            <persName>Kuͦnrat Fursten</persName>, <persName>Hensly Fryen</persName>
+                            <lb/>und dem puren zu <placeName>Vallenden Brunnen</placeName>
+                            <lb/>von 17 fuͦder stein und ziegel ab dem <lb/><placeName
+                                ref="LOC_47.38572_8.56687">Zürichberg</placeName>, ouch käpfer und
+                            venster stein <lb/>uß der stat alles hinuß zuͦ der <lb/>kilchen und des
+                            predicanten huß uff <lb/><placeName ref="LOC_47.48295_8.43791"
+                                >Regensperg</placeName>, mit inen gerechnot des <date when="--08-08"
+                                >8. ougsten</date>. </p>
+                        <p>
+                            <lb/><measure unit="lb" quantity="60">lx </measure> dem <persName>Bübly
+                                Mu̍ller</persName>, hat allerley gfärt. <lb/>Nam gfater vogt
+                                <persName>Steinbru̍chel</persName><note><persName>Erhard
+                                    Steinbrüchel</persName> war Landvogt von Regensberg von
+                                1538 bis 1544. Vgl. <bibl><ref
+                                        target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html"
+                                        >Dütsch 1994</ref>, S. 120</bibl>.</note> des <date
+                                when="--08-28">28. ougst</date>. </p>
+                        <p>
+                            <lb/><measureGrp>
+                                <measure unit="lb" quantity="3">iij </measure>
+                                <measure unit="ß" quantity="7">vij </measure>
+                                <measure unit="d" quantity="6">vj ₰</measure>
+                            </measureGrp> gfater vogt, als sine knecht <lb/>minen herren ouch etwaz
+                            karet hatend.</p>
+                        <p>
+                            <lb/><measure unit="lb" quantity="3">iij </measure> dem jungen
+                                <persName> Bramenn</persName>, als er minen herren <lb/>3 tag karrt
+                            hat. Nam gfater vogt des <lb/><date when="--08-28">28. ougst</date>. </p>
+                        <p>
+                            <lb/><measure unit="lb" quantity="1">j </measure> gfater vogt hatend
+                            sine knecht <num value="1">j</num> tag <lb/>karet, den <date
+                                when="--09-07">7. september</date>.</p>
+                        <p>
+                            <lb/><measure unit="lb" quantity="61">lxj </measure> dem
+                                <persName>Felix Mu̍ller</persName> selb geben des <date
+                                when="--09-12">12. <lb/> septembers</date> in by sin <abbr>m</abbr>
+                            <persName>Adam Brämen</persName>. </p>
+                        <p>
+                            <lb/><measure unit="lb" quantity="2">ij </measure>
+                            <persName>Üly Mu̍ller</persName> von <num value="400">400</num> zieglen
+                            uff <placeName ref="LOC_47.48295_8.43791">Regen<lb break="no"
+                                />sperg</placeName> zuͦ füren des <date when="--09-20">20.
+                                septembers</date>. </p>
+                        <p>
+                            <lb/><measure unit="lb" quantity="1">j </measure> dem
+                                <persName>Brämen</persName> j tag stein zfüren des <date
+                                when="--09-20">20. septembers</date>. </p>
+                        <p>
+                            <lb/><measure unit="lb" quantity="3">iij </measure> dem <persName>
+                                Schultheß</persName>, murer, von 3 tagen stein <lb/>zuͦ füren des
+                                <date when="--09-20">20. septembers</date>. </p>
+                        <p>
+                            <lb/><measure unit="lb" quantity="2">ij </measure>
+                            <persName>Clein Üly Brämen</persName> von <num value="400">400</num>
+                            zieglen zuͦ <lb/>füren, des <date when="--09-22">22.
+                            septembers</date>.</p>
+                        <p>
+                            <lb/><measure unit="lb" quantity="3">iij </measure> dem <persName>
+                                Brämen</persName> hat 3 tag kalch und <lb/>stein gfürt des <date
+                                when="--09-22">22. septembers</date>. </p>
+                        <p>
+                            <lb/>Suma <measureGrp>
+                                <measure unit="lb" quantity="198">j <hi rend="sup">c</hi> lxxxxviij
+                                    </measure>, <measure unit="ß" quantity="17">xvij </measure>,
+                                    <measure unit="d" quantity="6">vj ₰</measure></measureGrp>.</p>
+                    </div>
+                    <div>
+                        <pb n="16" facs="F_III_4__1542__Beilage__S__16_.tif"/>
+                        <head type="subtitle"><lb/>Kareren geben</head>
+                        <p>
+                            <lb/><measure unit="lb" quantity="7">vij </measure> dem <persName>
+                                Schultheß</persName>, murer, hat 7 tag kalch <lb/>und stein gfürt,
+                            zalt des <date when="--09-23">23. septembers</date>. </p>
+                        <p>
+                            <lb/><measureGrp>
+                                <measure unit="lb" quantity="67">lxvij </measure>, <measure
+                                    unit="ß" quantity="17">xvij </measure>, <measure unit="d"
+                                    quantity="6">vj ₰</measure>, </measureGrp> dem <persName>Felix
+                                Mu̍ller</persName> und <lb/>mit im gerechnot in by sin undervogt
+                                <lb/><persName>Houpten</persName>, <persName>Heinj
+                                Köu̍ffeller</persName> und <persName>Hans <lb/>Houpten der
+                                jung</persName>, des <date when="--10-14">14. octobers</date>. </p>
+                        <p>
+                            <lb/><measure unit="lb" quantity="8">viij </measure>
+                            <persName>Simon Mu̍ller</persName>, <persName>Üly Brämen</persName> und
+                                <abbr>m</abbr>
+                            <persName>Adam <lb/>Brämen</persName> von <num value="600">600</num>
+                            zieglen, 2 fäder laden <lb/>gen <placeName ref="LOC_47.48295_8.43791"
+                                >Regensperg</placeName> zfüren, des <date when="--10-19">19.
+                                octobers</date>. </p>
+                        <p>
+                            <lb/><measureGrp>
+                                <measure unit="lb" quantity="65">lxv </measure>, <measure unit="ß"
+                                    quantity="15">xv </measure>, </measureGrp> von <num value="25"
+                                >25</num> fuͦder zieglen uff <placeName ref="LOC_47.48295_8.43791"
+                                    >Regen<lb break="no"/>sperg</placeName> zuͦ füren, nam undervogt
+                                <persName>Houpt</persName>
+                            <lb/>in an zwey stößen und hab as luter <lb/>mit im abgerechnot des
+                                <date when="--10-27">27. octobers</date>, <lb/>in by sin her gfater
+                            vogts uff <placeName ref="LOC_47.48295_8.43791">Regensperg</placeName>. </p>
+                        <p>
+                            <lb/><measure unit="lb" quantity="3">iij </measure>
+                            <persName>Felix Mu̍ller</persName> von <placeName
+                                ref="LOC_47.49392_8.44815">Nidersteimer</placeName> von <lb/>leim
+                            zuͦ füren zuͦ des predicanten <lb/>zwey öfnen, des <date
+                                when="1541-11-30">letsten novembers im 41</date>. </p>
+                        <p>
+                            <lb/><measureGrp>
+                                <measure unit="lb" quantity="8">viij </measure>, <measure unit="ß"
+                                    quantity="19">xviiij </measure>
+                            </measureGrp> nam her gfater vogt. Hat <lb/>mirs etlichen kareren
+                            darglichen, nach <lb/>und nach zalt des <date when="1541-12-02">2
+                                decembers im 41</date>.</p>
+                        <p>
+                            <lb/><measure unit="lb" quantity="3">iij </measure>, <persName>Hensy
+                                Mu̍ller</persName> zuͦ <placeName ref="LOC_47.48295_8.43791"
+                                >Regensperg</placeName>, <lb/>des <date when="--01-07">7
+                                jenners</date> hat er <abbr>m</abbr>
+                            <persName>Peter <lb/> Engelhart</persName> sin blunder uff einem
+                            <lb/>wagen herin gfürt im <date when="1542">42. jar</date>. </p>
+                        <p>
+                            <lb/>Suma <measureGrp>
+                                <measure unit="lb" quantity="163">j<hi rend="sup">c</hi> lxiij
+                                    </measure>, <measure unit="ß" quantity="11">xj </measure>,
+                                    <measure unit="d" quantity="6">vj ₰</measure></measureGrp>.</p>
+                    </div>
+                    <div>
+                        <pb n="17" facs="F_III_4__1542__Beilage__S__17_.tif"/>
+                        <head><lb/>Kareren geben</head>
+                        <p>
+                            <lb/><measureGrp>
+                                <measure unit="lb" quantity="6">vj </measure>, <measure unit="ß"
+                                    quantity="7">vij </measure>, <measure unit="d" quantity="6">vj
+                                    ₰</measure>
+                            </measureGrp> dem <persName>Heini Surber</persName> und
+                                <lb/><persName>Felix Troger</persName> des <date when="--07-31"
+                                >letsten july</date>, als <lb/>sy karet hand und an dem kalch
+                            <lb/>thurn gwerchet. </p>
+                        <p>
+                            <lb/>Suma <measureGrp>
+                                <measure unit="lb" quantity="6">v<del>i</del>j </measure>, <measure
+                                    unit="ß" quantity="7">vij </measure>, <measure unit="d"
+                                    quantity="6">vj ₰</measure></measureGrp>.</p>
+                        <p>
+                            <lb/>Suma kareren geben <lb/><measureGrp>
+                                <measure unit="lb" quantity="368">iij<hi rend="sup">c</hi> lxviij
+                                    </measure>, <measure unit="ß" quantity="16">xvj </measure>,
+                                    <measure unit="d" quantity="6">vj ₰</measure></measureGrp>.</p>
+                        <pb n="18" facs="F_III_4__1542__Beilage__S__18_.tif"/>
+                        <!-- leere Seite -->
+                    </div>
+                    <div>
+                        <pb n="19" facs="F_III_4__1542__Beilage__S__19_.tif"/>
+                        <head type="subtitle"><lb/>Tachteckeren</head>
+                        <p>
+                            <lb/><measureGrp>
+                                <measure unit="lb" quantity="8">viij </measure>, <measure unit="ß"
+                                    quantity="16">xvj </measure>
+                            </measureGrp> dem <persName>Uͦly Helbling</persName> und <lb/>sinen
+                            knechten, als sy des predicanten <lb/>huß und die kilchen zuͦ <placeName
+                                ref="LOC_47.48295_8.43791">Regesperg</placeName>
+                            <lb/>teckt hand, mit im gerechnot <lb/>des <date when="--10-23">23.
+                                octobers</date>. </p>
+                        <p>
+                            <lb/>Suma <measureGrp>
+                                <measure unit="lb" quantity="8">viij </measure>, <measure unit="ß"
+                                    quantity="16">xvj </measure>
+                            </measureGrp>.</p>
+                    </div>
+                    <div>
+                        <pb n="20" facs="F_III_4__1542__Beilage__S__20_.tif"/>
+                        <head type="subtitle"><lb/>Schmiden und schloßeren geben</head>
+                        <p>
+                            <lb/><measureGrp>
+                                <measure unit="lb" quantity="10">x </measure>, <measure unit="ß"
+                                    quantity="14">xiiij </measure>
+                            </measureGrp> dem <persName>Felix Waser</persName> umb allerley
+                            <lb/>schloßer werch zur schu̍r, nam her <lb/>gfater vogt des <date
+                                when="--10-02">2. octobers</date>. </p>
+                        <p>
+                            <lb/><measureGrp>
+                                <measure unit="lb" quantity="14">xiiij </measure>, <measure
+                                    unit="ß" quantity="16">xvj </measure>
+                            </measureGrp>
+                            <persName>Michel Schmid</persName>
+                            <placeName>Uff Dorff</placeName>, <lb/>umb ij<hi rend="sup">m</hi> vj<hi
+                                rend="sup">c</hi> fuͦß tili und gantz <lb/>nagel, des <date
+                                when="--10-15">15. octobers</date>. </p>
+                        <p>
+                            <lb/><measureGrp>
+                                <measure unit="lb" quantity="33">xxxiij </measure>, <measure
+                                    unit="ß" quantity="18">xviij </measure>, <measure unit="d"
+                                    quantity="4">iiij ₰</measure>
+                            </measureGrp>
+                            <persName>Hans Banen</persName>, <lb/>dem schloßer, von dem underen
+                            theil <lb/>ins predicanten huß zuͦ <placeName ref="LOC_47.48295_8.43791"
+                                >Regensperg</placeName>
+                            <lb/>zuͦ hencken, namlich die thu̍ren, <lb/>vensterladen, ofen thu̍rly
+                            und wz <lb/>by der stuben und darunder ist, <lb/>mit im gerechnot des
+                                <date when="1541-11-12">12. novembers 41</date>. </p>
+                        <p>
+                            <lb/><measureGrp>
+                                <measure unit="lb" quantity="22">xxij </measure>, <measure unit="ß"
+                                    quantity="13">xiij </measure>
+                            </measureGrp> dem <persName>Mutz Hasen</persName> vom <lb/>oberen theil
+                            in des predicanten huß <lb/>zuͦ <placeName ref="LOC_47.48295_8.43791"
+                                >Regensperg</placeName> zuͦ hencken und <lb/>zuͦ beschlan, des <date
+                                when="--12-10">10. decembers</date>. </p>
+                        <p>
+                            <lb/>Suma <measureGrp>
+                                <measure unit="lb" quantity="82">lxxxij </measure>, <measure
+                                    unit="ß" quantity="1">j </measure>, <measure unit="d"
+                                    quantity="4">iiij ₰</measure></measureGrp>.</p>
+                        <pb n="21" facs="F_III_4__1542__Beilage__S__21_.tif"/>
+                        <!-- leere Seite -->
+                    </div>
+                    <div>
+                        <pb n="22" facs="F_III_4__1542__Beilage__S__22_.tif"/>
+                        <head type="subtitle"><lb/>Umb kalch, ziegel und sand</head>
+                        <p>
+                            <lb/><measureGrp>
+                                <measure unit="lb" quantity="14">x iiij </measure>, <measure
+                                    unit="ß" quantity="8">viij </measure>
+                            </measureGrp>
+                            <persName>Felix Mu̍ller</persName> umb 288 mu̍tt <lb/>sand des <date
+                                when="--09-12">12. septembers</date>. </p>
+                        <p>
+                            <lb/><measureGrp>
+                                <measure unit="lb" quantity="65">lxv </measure>, <measure unit="ß"
+                                    quantity="17">xvij </measure>, <measure unit="d" quantity="6"
+                                    >vj ₰</measure>
+                            </measureGrp> dem <persName>Lienhart Rößly</persName>, <lb/>ziegler im
+                                <placeName ref="LOC_47.486389_8.428611"> Pflasterbach</placeName>,
+                            umb allerley <lb/>brentstein, kalch und ziegel zur <lb/>ziegel hu̍ten
+                            und brenn ofen, ouch <lb/>zuͦ des predicanten huß gebrucht, <lb/>mit im
+                            gerechnot des <date when="--10-07">7. octobers</date>.</p>
+                        <p>
+                            <lb/><measureGrp>
+                                <measure unit="lb" quantity="11">xj </measure>, <measure unit="ß"
+                                    quantity="13">xiij </measure>
+                            </measureGrp> dem ziegler zuͦ <placeName ref="LOC_47.48295_8.43791"
+                                >Regensperg</placeName>
+                            <lb/>umb 900 mitel und 1600 kemy <lb/>stein, des <date when="--11-04">4.
+                                novembers</date>. </p>
+                        <p>
+                            <lb/><measure unit="ß" quantity="15">xv </measure> nam her gfater vogt
+                            in, hat er <lb/>dar glichen umb sand füren, des <lb/><date
+                                when="--11-06">6. november</date>. </p>
+                        <p>
+                            <lb/><measureGrp>
+                                <measure unit="lb" quantity="6">vj </measure>, <measure unit="ß"
+                                    quantity="16">xvj </measure>
+                            </measureGrp>
+                            <persName>Lienhart Rößlin</persName>, ziegler <lb/>im <placeName
+                                ref="LOC_47.486389_8.428611">Pflasterbach</placeName>, umb 17
+                                <unclear>meter</unclear> kalch , <lb/>des <date when="--07-07">7.
+                                july</date>. </p>
+                        <p>
+                            <lb/><measureGrp>
+                                <measure unit="lb" quantity="11">xj </measure>, <measure unit="ß"
+                                    quantity="1">j </measure>
+                            </measureGrp> von sand zuͦ füren undervogt
+                                <lb/><persName>Houpten</persName> und sinen gsellen, nam der
+                            <lb/>undervogt <persName>Houpt</persName> in des <date when="--07-21"
+                                >21. juli</date>. </p>
+                        <p>
+                            <lb/><measureGrp>
+                                <measure unit="lb" quantity="8">viij </measure>, <measure unit="ß"
+                                    quantity="4">iiij </measure>
+                            </measureGrp>
+                            <persName>Lienhart Rößli</persName> umb 16 meter <lb/>kalch und 400
+                            mitelstein des <lb/><date when="1542-07-31">letsten july im 42.
+                                jar</date>.</p>
+                        <p>
+                            <lb/><measureGrp>
+                                <measure unit="lb" quantity="29">xx viiij </measure>, <measure
+                                    unit="ß" quantity="10">x </measure>
+                            </measureGrp> dem <persName>Felix Mu̍ller</persName>
+                            <lb/>von steimer vonn 590 mu̍tt sand, <lb/>den <date when="1542-07-31"
+                                >letsten july im 42. jar</date>. </p>
+                        <p>
+                            <lb/>Summa <measureGrp>
+                                <measure unit="lb" quantity="147">j<hi rend="sup">c</hi> xlviij
+                                    </measure>, <measure unit="ß" quantity="4">iiij </measure>,
+                                    <measure unit="d" quantity="6">vj ₰</measure></measureGrp>.</p>
+                        <pb n="23" facs="F_III_4__1542__Beilage__S__23_.tif"/>
+                        <p>
+                            <lb/>Suma summarum waß uff den buw <lb/>zuͦ <placeName
+                                ref="LOC_47.48295_8.43791">Regensperg</placeName> gangen allein die
+                            <lb/>brunst belangend vom <date when="1541-07-31">letsten tag juli
+                                <lb/>im 41. jar</date> bis uff den <date when="1542-07-31">letsten
+                                tag juli <lb/>im 42. jar</date> an einer summ <lb/><measureGrp>
+                                <measure unit="lb" quantity="1775">j<hi rend="sup">m</hi> vij<hi
+                                        rend="sup">c</hi> lxxv </measure>, <measure unit="ß"
+                                    quantity="10">x </measure>, <measure unit="d" quantity="1">j ₰</measure></measureGrp>.</p>
+                        <pb n="24" facs="F_III_4__1542__Beilage__S__24_.tif"/>
+                        <!-- leere Seite -->
+                    </div>
+                </body>
+
+                <back>
+                    <div>
+                        <p>Das Städtchen <placeName ref="LOC_47.48295_8.43791"
+                                >Regensberg</placeName> wurde wahrscheinlich in der ersten Hälfte
+                            des 13. Jahrhunderts als Vorburgsiedlung der Burg <placeName
+                                ref="LOC_47.4828_8.4381">Neu-Regensberg</placeName> – im Unterschied
+                            zu <placeName ref="LOC_47.42889_8.48121">Alt-Regensberg</placeName> in
+                                <placeName ref="LOC_47.4341_8.46874">Regensdorf</placeName> –
+                            angelegt. Die Quellenlage ist zu unsicher, um genaue Angaben zu Zeit und
+                            Anlass des Baus von Burg und Stadt zu machen, wahrscheinlich ist aber,
+                            dass beide in Zusammenhang mit dem Höhepunkt der Macht der Freiherren von 
+                              <persName ref="GND_133563375">Regensberg</persName> entstanden,
+                            um deren Position gegenüber den <persName ref="GND_118826891"
+                                >Kyburgern</persName>, <persName ref="GND_118544233"
+                                >Habsburgern</persName> und <persName ref="GND_1210891239"
+                                >Rapperswilern</persName> zu stärken. Dafür spricht auch die erhöhte
+                            Lage, zumal <placeName ref="LOC_47.42889_8.48121"
+                                >Alt-Regensberg</placeName> eine Niederungsburg war.</p>
+                        <p>In der zweiten Hälfte des 13. Jahrhunderts wurde vermehrt Druck durch die
+                                <persName ref="GND_118544233">Habsburger</persName> und die Stadt
+                                <placeName ref="LOC_47.36667_8.55">Zürich</placeName> auf die
+                                <persName ref="GND_133563375">Freiherren von Regensberg</persName>
+                            ausgeübt, was schlussendlich dazu führte, dass Burg und Stadt um
+                            1302 an die <persName ref="GND_118544233">Habsburger</persName>
+                            übergingen, welche sie 1409 an <placeName ref="LOC_47.36667_8.55"
+                                >Zürich</placeName> verpfändeten (<bibl><ref
+                                    target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=365749"
+                                    >StAZH C I, Nr. 2671</ref></bibl>). Ein Stadtrecht hatte
+                                <placeName ref="LOC_47.48295_8.43791">Regensberg</placeName> nicht
+                            und auch das Marktrecht erhielt das Städtchen erst 1694 (<bibl><ref
+                                    target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=189021"
+                                    >StAZH A 139.6</ref>, Nr. 215</bibl>), jedoch sind ab 1362
+                            Privilegien und steuerliche Freiheiten belegt, darunter auch das Recht,
+                            dass Bürger nur vor das eigene Schultheissengericht gezogen werden
+                            durften (<bibl><ref
+                                    target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=346739"
+                                    >StAZH C IV 1.7.3, Nr. 3</ref></bibl>). Im Zürcher Stadtstaat
+                            wurde <placeName ref="LOC_47.48295_8.43791">Regensberg</placeName> zum
+                            Gerichts- und Verwaltungszentrum der gleichnamigen Landvogtei und
+                            beherbergte somit unter anderem den Landvogt, den Landschreiber und
+                            einen Untervogt. Zwar war <placeName ref="LOC_47.48295_8.43791"
+                                >Regensberg</placeName> ab der Restauration Hauptort des
+                            gleichnamigen Oberamts und späteren Bezirks, doch das Städtchen verlor
+                            diese Funktion 1871 an das angrenzende – und von da an auch
+                            namensgebende – <placeName ref="LOC_47.48146_8.4585"
+                                >Dielsdorf</placeName>.</p>
+                        <p>Der Stadtbrand von 1540 beschädigte einen Grossteil der bestehenden
+                            Bauten wie die Oberburg, angrenzende Wohnhäuser und die reformierte
+                            Kirche samt Pfarrhaus. Die Unterburg und der Ortsteil <placeName
+                                ref="LOC_47.48128_8.4372">Höfli</placeName> blieben verschont. Für
+                            den Wiederaufbau der Kirche wurden Fenster und Glocken aus dem
+                                <placeName ref="LOC_47.387139_8.57533">Kloster St.
+                                Martin</placeName> auf dem <placeName ref="LOC_47.38572_8.56687"
+                                >Zürichberg</placeName> verwendet. Bauherr <persName
+                                ref="GND_129995126">Hans Rudolf Lavater</persName> hielt die
+                            Regensberger an, <q>gemurete</q> Häuser, oder zumindest die unteren
+                            Stockwerke, aus Stein zu bauen. Diese neuen Häuser bildeten eine Art
+                            Häuserring und fungierten so als Fortsetzung der Ringmauer; dies auch,
+                            weil den Brandgeschädigten das Bauen auf die Ringmauer explizit erlaubt
+                            wurde. In der Mitte entstand dadurch eine grosse Freifläche. Der Brand
+                            von 1540 war nicht der letzte in <placeName ref="LOC_47.48295_8.43791"
+                                >Regensberg</placeName>, Teile des Städtchens standen 1766, 1822,
+                            1825 und 2011 erneut in Flammen.</p>
+                        <p>Das vorliegende Heft liegt als Beilage der Bauamtsrechnung des Jahres
+                            1542 bei. Eine vergleichbare separate Abrechnung zum Wiederaufbau von
+                            Regensberg ist bereits für das Vorjahr überliefert. </p>
+                        <p>Bei den Bauamtsrechnungen (<bibl><ref
+                                    target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=324002"
+                                    >StAZH F III 4</ref></bibl>) handelt es sich um eine zentrale
+                            vormoderne Rechnungsserie, deren Einzelbände jeweils ein Jahr – vom 1.
+                            August bis zum 31. Juli – dokumentieren und circa 150 bis 230 Seiten
+                            umfassen. Für die Zeitspanne von 1527 bis 1798 sind sie fast lückenlos
+                            erhalten, davor lediglich diejenigen Bände für die Jahre 1475, 1477 und
+                            1524. Grundsätzlich folgen alle  Bände demselben Aufbau: Zuerst sind die
+                            Einnahmen des Bauamts verschriftlicht, danach die Ausgaben, beides
+                            jeweils in Rubriken unterteilt. Teilweise sind spezielle Abrechnungen zu
+                            grösseren Bauwerken vorhanden, oder auch beispielsweise zum Unterhalt
+                            von Kriegsschiffen in Zeiten bewaffneter Auseinandersetzungen. Die
+                            Rechnungen belegen primär Unterhalts- und Reparaturarbeiten, aber auch
+                            grössere Vorhaben wie der hier vorliegende Wiederaufbau von <placeName
+                                ref="LOC_47.48295_8.43791">Regensberg</placeName>.</p>
+                        <p>Aufgrund des Fehlens von Korrekturen und Ergänzungen kann davon
+                            ausgegangen werden, dass es sich bei den überlieferten Bauamtsrechnungen
+                            um Reinschriften handelt, welche wohl als zusammenfassende
+                            <q>Geschäftsberichte</q> für den Säckelmeister oder den Rat verfasst wurden,
+                            und nicht um fortlaufende Rechnungen des Bauherrn. Zudem übersteigt die
+                            Anzahl der Schreiberhände diejenige der Bauherren, was den Schluss
+                            nahelegt, dass das Verfassen der Rechnungen nicht Aufgabe der Amtsträger
+                            selbst war. In den Rechnungen des Säckelmeisteramts treten die Beträge
+                            des Bauamtes summarisch im Kontext der übrigen Einnahmen und Ausgaben
+                            der Stadt <placeName ref="LOC_47.36667_8.55">Zürich</placeName> auf
+                                    (<bibl><ref
+                                    target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=324410"
+                                    >StAZH F III 32</ref></bibl>). </p>
+                        <p>Die grösste Aussagekraft haben die Bauamtsrechnungen im Bereich der
+                            Baugeschichte, aber auch zu einzelnen Handwerkern und dem Handwerk
+                            selbst lassen sich Aussagen machen. Weiter werden auch Wetterschäden
+                            erfasst, wodurch sie zudem als klimageschichtliche Quellen verwendet
+                            werden können. Durch den grossen abgedeckten Zeitraum lassen sich auch
+                            linguistische oder statistische Untersuchungen beispielsweise zur Preis-
+                            und Lohnentwicklung durchführen</p>
+                        <p>Einige Jahre nach dem Brand von Regensberg wurde 1543 mit dem
+                            Baumeisterbuch eine zentrale Rechtssammlung angelegt, in dem zahlreiche
+                            für das vormoderne Zürcher Bauwesen relevante Bestimmungen kompiliert
+                            wurden (<bibl><ref
+                                    target="https://rechtsquellen.sources-online.org/ZH_NF_I_1_3/SSRQ_ZH_NF_I_1_3_183"
+                                    >SSRQ ZH NF I/I/3, Nr. 183</ref></bibl>).</p>
+                        <p>Zu Regensberg und seinen Bauten vgl. <bibl><ref target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html">KdS ZH NA VII, S.
+                                    286-327</ref></bibl>; zum Zürcher Bauamt in der Vormoderne vgl.
+                            <bibl><ref target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html">Guex 1986</ref></bibl>; für eine Auswertung der
+                            ersten überlieferten Bauamtsrechnung vgl. <bibl><ref target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html">Bauer
+                                1997</ref></bibl>; für eine Beschreibung einzelner Jahrgänge der
+                            Serie vgl. <bibl><ref target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html">IWQZH, Nr. 239</ref></bibl>.</p>
+                    </div>
+                </back>
+
+            </text>
+        </group>
+    </text>
+</TEI>

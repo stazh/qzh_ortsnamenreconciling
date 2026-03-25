@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='../../Ressourcen/Stylesheet.xsl'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Quellen zur Zürcher Geschichte</title>
+				<respStmt>
+					<persName>Helena Dobiess. Mit einem Kommentar von Helena Dobiess</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Helena Dobiess</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Staatsarchiv des Kantons Zürich</publisher>
+				<date type="electronic" when="2021-05-01"/>
+			</publicationStmt>
+			<seriesStmt>
+				<title>Quellen zur Zürcher Geschichte</title>
+				<respStmt>
+					<persName>Staatsarchiv des Kantons Zürich</persName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>QZH_084</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+					    <idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=5095120">STAZH F II a 185 (fol. 92 r - 93 v)</idno>
+					</msIdentifier>
+					<head>Offnung von Oberdürnten
+					</head>
+					<msContents>
+						<summary>Der Hofstattrodel von Oberdürnten setzt Rechtsnormen für die
+							wirtschaftlichen und gesellschaftlichen Akteure im Dorf fest. Zunächst
+							wird an die Übertragung des Hofs von Oberdürnten an das Kloster Rüti im
+							Jahr 1286 und die damit einhergehende Zugehörigkeit von Zwing und Bann
+							zum Kloster Rüti erinnert (1-2). Geregelt werden dann die Abhaltung der
+							Gerichtsversammlung in Oberdürnten mindestens zweimal jährlich sowie die
+							Verpflichtung der Hofjünger zur Teilnahme daran (3-5). Weiter wird
+							zwischen den Gerichtsbarkeiten des Klosters Rüti einerseits und
+							Grüningens andererseits unterschieden (6-9). Die eigentlichen
+							rechtlichen Bestimmungen betreffen die Zuständigkeiten und Termine für
+							die Wartung von Grenzzäunen und Wegen inner- und ausserhalb des Dorfs
+							(10-17; 23), gefolgt von Bestimmungen über die Viehhaltung, das
+							Weidewesen und die Waldnutzung (18-22). Zuletzt wird das Recht zur
+							Viehhaltung von Fremden festgelegt (24).</summary>
+						<msItem>
+							<textLang>Deutsch</textLang>
+							<filiation type="current">Abschrift</filiation>
+							<filiation type="original"><origDate from="1519-01-01" to="1519-12-31"></origDate></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support><material>Papier</material></support>
+								<extent/>
+							</supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+					<origin><origDate from="1485-01-01" to="1485-12-31">ca., Original</origDate></origin>
+					</history>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<editorialDecl>
+				<p>
+					<ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+				</p>
+			</editorialDecl>
+		</encodingDesc>
+		<profileDesc> </profileDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term ref="key000012">Offnung</term>
+					<term ref="key000335">Nutzungsrecht</term>
+					<term ref="key000497">Mündlichkeit</term>
+					<term ref="key000471">Schriftlichkeit</term>
+					<term ref="key000010">Kloster</term>
+					<term ref="key000057">Gericht</term>
+					<term ref="key000597">Erbrecht</term>
+					<term ref="key000468">Rechtsgewohnheit</term>
+					<term ref="key000863">Ehe</term>
+					<term ref="key004414">Landwirtschaft</term>
+					<term ref="key000249">Wald</term>
+					<term ref="key000519">Zaun</term>
+					<term ref="key000298">Vieh</term>
+					<term ref="key000048">Weiderecht</term>
+					<term ref="key000606">Wegrecht</term>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+				    <pb n="92r" facs="F_II_a_185__fol__91_v-92_r_.tif"/>
+					<!-- kollationiert msr -->
+					<head>Abgschriftt mins her von <placeName ref="LOC_47.2592_8.849"
+							>Ru̍tis</placeName> hoff rodel zuͦ <placeName ref="LOC_47.27942_8.86162"
+							>Ober Du̍rten</placeName></head>
+					<p>
+						<seg n="1">
+							<lb/>Zuͦ wussen si mengklichem, das die lieb gehept in <persName
+								ref="GND_118557513">Cristo</persName>,
+								<persName>Elisabeth</persName>, her <persName>Ludwigs</persName>,
+							<lb/>grafen zuͦ <persName ref="GND_1089191162">Homberc</persName>
+							elicher gemachel, mit desselben macht, gunst, wu̍ssen und willen
+							<lb/>iren hoff zuͦ <placeName ref="LOC_47.27942_8.86162">Ober
+								Dunroten</placeName>, dem erwu̍rdigen in <persName
+								ref="GND_118557513">Cristo</persName>, aptt und conventt des gotshus
+							<lb/>ze <placeName ref="LOC_47.2592_8.849">Ru̍ti</placeName>,
+							premonstraten ordens, <placeName ref="LOC_47.66033_9.17582"
+								>Costentzer</placeName> bistumbs, mitt aller gerichtigkeit und zuͦ
+							<lb/>gehorden, namlich bann, zwing, zuͦgengen, vongengen, wasser,
+							wasserunsinen, <lb/>och andren pflichtung und eigenschaften, so si
+							habent, oben, unden oder innethalben, <lb/>nach recht der eigenschaft
+							zuͦ besitzen verkeuftt hat und uͤbergeben, <lb/>willentlich und fry umb
+								<num value="25.5">sechsthalb und zwentzig</num> march silbers
+							Zu̍richer gewichtes, <lb/>und ist somlichen kouff mit brief und siglen,
+							so ein gotzhus <placeName ref="LOC_47.2592_8.849">Ruͤti</placeName>
+							darumb hat, <lb/>bestetiget und uffgericht bi dem schloss <placeName
+								ref="LOC_47.22557_8.82228">Raperswile</placeName>
+							<date when="1286-10-14">inn den jaren unsers <lb/>herren thusent
+								zweihundertt achtzig und sechs, keiserlicher zins zal fünffzechni,
+								<lb/>uff sanntt Calixen tag</date>. Und sind dis die artickel des
+							hoffrodels zuͦ <placeName ref="LOC_47.27942_8.86162">Ober
+								Duͤrten</placeName>
+							<abbr>etc</abbr>. <lb/>Warend hie bi der edel <persName>Ruͦdolf von
+								Bechburc</persName>, ritter, und <persName>Henirich von
+								Ebinoͤch</persName>, <lb/>aman zuͦ <placeName
+								ref="LOC_47.36583_8.67896">Grifense</placeName> und ander
+							gloubwirdig lüts <abbr>etc</abbr>. </seg>
+					</p>
+					<p>
+						<seg n="2"><lb/>Item zum ersten die vogty von cleingericht zuͦ <placeName
+								ref="LOC_47.27942_8.86162">Ober Dunroten</placeName> gehoͤrent dem
+							gotzhus <lb/><placeName ref="LOC_47.2592_8.849">Ruͤti</placeName>, von
+							was gerechtigkeit das gotzhus daselbs zuͦ <placeName
+								ref="LOC_47.27942_8.86162">Ober Du̍rten</placeName> hab, und oͧch
+							das dorff und <lb/>lu̍dt daselbs ist geoffnot worden uff <date> donstag
+								nach unnsers herren fronlichnoms tag <lb/>im jar nach der geburt
+								Cristi <abbr>etc</abbr></date>an einem offnen meyen gricht, durch
+							den <lb/>frommen <persName>Altthansen Risen</persName>, daselbs
+							sesshaftt, von heissens wegen, oͧch mit urtel bekent <lb/>des wisen und
+							fuͤrsichtigen <persName>Hansen Widmers</persName>, der zit vogtt zuͦ
+								<placeName ref="LOC_47.28333_8.75">Gruͤningen</placeName>, der do
+							offelich <lb/>zuͦ gericht sas von bevelch und innamen des erwu̍rdigen
+							und geistlichen herren, her <lb/><persName>Marxen</persName>, aptt ze
+								<placeName ref="LOC_47.2592_8.849">Ruͤti</placeName>, und ist die
+							offnnung und gerechtigkeit des gotzhus und dorffs <lb/>daselbs also
+							beschehen durch den genanten <persName>Hans Risen</persName>, was im
+							darfon zewu̍ssen sy, und <lb/>wie er das von sinen eltern gehört hab,
+							niemant zuͦ lieb noch zuͦ leid, dan alein <lb/>durch des rechten willen
+								<abbr>etc</abbr> und dem ist also:</seg></p>
+					<p>
+						<seg n="4"><lb/>Des ersten, so sol ein her von <placeName
+								ref="LOC_47.2592_8.849">Ruͤti</placeName> alle jar <num value="2"
+								>zwei</num> gericht dahaben, eins ze meyen, <lb/>das ander ze herpst
+							und dazwuͤschent so dick man des notturftig ist. </seg></p>
+				    <pb n="92v" facs="F_II_a_185__fol__92_v-93_r_.tif"/>
+					<p>
+						<seg n="5"><lb/>Item ein her von <placeName ref="LOC_47.2592_8.849"
+								>Ruͤti</placeName> sol da zuͦ <placeName ref="LOC_47.27942_8.86162"
+								>Ober Du̍rten</placeName> einen weibel haben, und wen ein her
+							<lb/>von <placeName ref="LOC_47.2592_8.849">Ru̍ti</placeName> da wil
+							gericht haben, so sol er das durch den weibel vor verkuͤnden <lb/>den
+							hoff jüngern zehus und zehoff oder under ougen ob <num value="14"
+								>viertzehen</num> tagen und <lb/>under <num value="3">dryen</num>
+							wuchen <abbr>etc</abbr>. </seg></p>
+					<p>
+						<seg n="6"><lb/>Item und wer gericht gehoͤrig dar ist und nitt erschint, der
+							verfalt einem herren <lb/>von <placeName ref="LOC_47.2592_8.849"
+								>Ru̍ti</placeName>
+							<num value="3">dry</num> schilling haller an gnad, er bring den us, dz
+							in lips oder herren <lb/>nodt gehindert hab etc. </seg></p>
+					<p>
+						<seg n="7"><lb/>Die hoff juͤnger sprechent oͧch, ein her von <placeName
+								ref="LOC_47.2592_8.849">Ru̍ti</placeName> hab ze <placeName
+								ref="LOC_47.27942_8.86162">Ober Duͦrten</placeName> ze richten
+							<lb/>umb eigen und erb und gelt schulden, öch umb all stoͤß, spenn und
+							freͣfel, so <lb/>da gevallend.</seg></p>
+					<p>
+						<seg n="8"><lb/>Fu̍rer hat ein her von <placeName ref="LOC_47.2592_8.849"
+								>Ru̍ti</placeName> da zerichten biß an das bluͦt, darumb hat ein
+							vogt <lb/>ze <placeName ref="LOC_47.28333_8.75">Gruͤningen</placeName>
+							zerichten. </seg></p>
+					<p>
+						<seg n="9"><lb/>Witer sprechend die hoff jünger, wen das gericht wirt
+							angefangen, hat den <lb/>ein hoffjuͤnger zeclagen umb eigen oder erb.
+							Die selben sollend des ersten ir <lb/>sach durch ir erloͧpten
+							fuͤrsprechen, ir clag und sach fuͤrnemen. </seg></p>
+					<p>
+						<seg n="10"><lb/>Item darnach, wer ein gast da, der oͧch zeschaffen het, der
+							sol darnach der erst <lb/>cleger sin, und sol man im richten, und recht
+							lassen gan bitz ze end siner sach. </seg></p>
+					<p>
+						<seg n="11"><lb/>Item, wo einer den andren u̍berschritte, mayte, u̍ber offen
+							march und zil, <lb/>und das kuntlich wurd, der ist einem herren von
+								<placeName ref="LOC_47.2592_8.849">Ru̍ti</placeName> verfallen <num
+								value="3">dru̍</num> pfund <lb/>haller ze buͦss. </seg></p>
+					<p>
+						<seg n="12"><lb/>Ob einer dem andren ansprech ligentz guͦt, es wer holtz
+							oder veldt und dz nit <lb/>behalten möcht mit recht, der ist verfallen
+							einem herren von <placeName ref="LOC_47.2592_8.849">Ru̍ti</placeName>
+							<num value="6">sechs</num> pfund <lb/>haller, und dem cleger <num
+								value="3">drü</num> pfund haller.</seg></p>
+					<p>
+						<seg n="13"><lb/>Item wer dem andren schaden thet und bi nacht und bi nebel,
+							sin zün und türli <lb/>uff brech oder uff deͣt und im das sin
+							underschlüg und us atzti, der ist verfallen <lb/>einem herren von
+								<placeName ref="LOC_47.2592_8.849">Ru̍ti</placeName>
+							<num value="3">dru̍</num> march silber, ist <num value="15">xv</num> 
+							haller. </seg></p>
+				    <pb n="93r" facs="F_II_a_185__fol__92_v-93_r_.tif"/>
+					<p>
+						<seg n="14"><lb/>Item wer den andren überlouftt in sinem hus frevenlich
+							under sinen ruͦssigen <lb/>rafen, oder inen harus luͤdi freventlich für
+							die tach trouf, der ist vervallen <lb/>einem herren von <placeName
+								ref="LOC_47.2592_8.849">Ru̍ti</placeName>
+							<num value="18">xviij</num>  haller.</seg></p>
+					<p>
+						<seg n="15"><lb/>Item es ist ein weibel von <placeName
+								ref="LOC_47.28333_8.75">Gruͤningen</placeName> an einer offnung
+							gsin, und ist ein span <lb/>erwachsen von des stucks wegen, wer sölch
+							buͦß soͤlt nemmen, und ist noch nit <lb/>uß tragen. </seg></p>
+					<p>
+						<seg n="16"><lb/>Item si sprechent die hoff juͤnger soͤllind <num value="3"
+								>dry</num> dorffmeyer haben, und soͤllind die <lb/>erwellen mit
+							merer hand, die soͤnd griffen an des gerichtz stab, und verheissen
+							<lb/>des dorffs nuͤtz und er zefuͤrdren und schaden zewenden als ver si
+							sich des verstand <lb/>und das dar dabi beliben.</seg></p>
+					<p>
+						<seg n="17"><lb/>Item die dorff meyer sellent bieten ze herpst und ze us
+							tagen mit dem weibel, <lb/>das die vaden in <num value="8">acht</num>
+							tagen gemacht werdent bi <num value="3">dry</num> schillingen buͦß, und
+							nach den <lb/><num value="8">acht</num> tagen soͤllent die dorff meyer
+							die faden besechen, ob das bott gehalten sy, und ist <lb/>es nit
+							gehalten, so sol der weibel die selben pfenden jetlichen umb <num
+								value="3">iij</num>  und inen <lb/>aber gebieten in den selben <num
+								value="3">dry</num> tagen die vaden zemachen bi <num value="3"
+								>dry</num> schilling buͤß <lb/>und aber sollentz die dorff meyer
+							besehenn und wer es aber nit beschehen, so sol der <lb/>weibel si
+							pfenden umb die buͦß, und inen aber gebieten uff den selben tag die
+							faden <lb/>zemachen, und ob es des tags nit beschech, so sind einem
+							herren von <placeName ref="LOC_47.2592_8.849">Ru̍ti</placeName>
+							vervallen <lb/><num value="3">iij</num>  haller, und sol dan der weibel
+							die buͦßvellingen umb die pfender, und die <lb/>ungehorsamen einem
+							herren von <placeName ref="LOC_47.2592_8.849">Ru̍ti</placeName>
+							angen.</seg></p>
+					<p>
+						<seg n="18"><lb/>Item die dorf meyer soͤllent besehen, steͣg und weͣg in
+							eren zehalten im dorff, <lb/>jederman vor den sinen, das niemant kein
+							schad beschech weder von schwinen <lb/>noch von gensen, aber usserthalb
+							des dorfs sollent si alle einandren gemeinlich <lb/>die weg, die man
+							bruchen sol in eren zehan heissen. Wo oͧch wasser rünß werind, <lb/>die
+							nit in den rechten furten giengint, sol ein weibel inen bieten, denen,
+							die si <lb/>schuldig sind, dz si das wasser in die rechten furt richtind
+							bi den <num value="3">dryen</num> gebotten <lb/>als vor stat.</seg></p>
+				    <pb n="93v" facs="F_II_a_185__fol__93_v-94_r_.tif"/>
+					<p>
+						<seg n="19"><lb/>Item es sol oͧch niemant kein fremd how in das dorff fuͤren
+							noch kouffen, dz nit <lb/>zuͦ dem dorf gehört, es wurd den im von
+							gemeinen nachburen erloͧpt.</seg></p>
+					<p>
+						<seg n="20"><lb/>Es sol oͧch keiner me vichs haben, den er mög gewintern uff
+							sinen guͤtern <lb/>die zuͦ dem dorf gehoͤrent.</seg></p>
+					<p>
+						<seg n="21"><lb/>Item ob unns jemant u̍berschlug mit vech, der nit weidgenos
+							zuͦ uns wer, <lb/>semlich vech moͤgent die hoff jünger nemen und einem
+							herren gen <placeName ref="LOC_47.2592_8.849">Ruͤti</placeName>
+							<lb/>bringen, und mögent ettlich höpt vertrincken umb <num value="3"
+								>iij</num>  haller und ob <lb/>jeman keͣme das zeloͤsen, sol ein
+							her von <placeName ref="LOC_47.2592_8.849">Ru̍ti</placeName> das
+							zeloͤsen geben, wen er <lb/>ableit allen costen und schaden, ladt aber
+							einer soͤlichs vich uͤber <num value="8">acht</num> tag stan <lb/>so ist
+							es vervallen einem herren von <placeName ref="LOC_47.2592_8.849"
+								>Ru̍ti</placeName>, ob er er sin nit enberen wil.</seg></p>
+					<p>
+						<seg n="22"><lb/>Item die hoff jünger sprechent, es sy oͧch irs dorffs recht
+							und also har bracht, <lb/>wenn si gemeinlich ein infang in der brach
+							zelg uß gand, so hand die dorff<lb break="no"/>meyer vollen gewalt
+							zebieten durch den weibel soͤmlichs vad zemachen bi den <lb/>petten, wie
+							vor stadt, als die rechten vaden. Und ob einer einen acker oder mer
+							<lb/>inn dem infang hette und die nit welte buwen mit inen, und och nitt
+							wellte <lb/>helfen zünen, so mëgent die nachburen das gras uff den
+							selben ackern us etzen <lb/>und der nütt, deß der acker ist, doch wil er
+							den acker buwen, das man er thuͦn, aber <lb/>mit dheinenn ubertrang des
+							vichs halb.</seg></p>
+					<p>
+						<seg n="23"><lb/>Es soͤllent öch alle wald höltzer alweg verbotten sin, und
+							im ban je ein stock <lb/>umb <num value="1">j</num>  <num value="5"
+								>v</num>  haller, gevalt einem ehren von <placeName
+								ref="LOC_47.2592_8.849">Ruͤti</placeName>.</seg></p>
+					<p>
+						<seg n="24"><lb/>Item, wen ein gemein dorf ein infang gemachet und darumb
+							eins werdent <lb/>und ob einer ein acher het, darüber ein rechter weg
+							gieng oder gan soͤlte, <lb/>mogent die hoff jünger bruchen, ob si wend,
+							er mög dan si fu̍rer erbitten, das <lb/>si im harin zewillen werdent
+							bitz ze mitten meyen.</seg></p>
+					<p>
+						<seg n="25"><lb/>Item, wen och ein froͧmder zuͦ im in zuͤcht, der da nit
+							leͣhen hat von einem <lb/>gotzhus und herren <placeName
+								ref="LOC_47.2592_8.849">Ru̍ti</placeName> noch eigen guͤter und
+							welle oͧch vech bi inen haben, <lb/>sige oͧch nitt irs dorffs recht
+								<abbr>etc</abbr>.</seg></p>
+				</body>
+				<back>
+					<div><p>Offnungen (hier <q>Hofstattrodel</q>) sind Rechtsquellen aus dem ländlichen
+						Raum aus der Zeit des Spätmittelalters und der Frühen Neuzeit. Sie dienten
+						der Festsetzung von Rechtsnormen zur Lösung von Konflikten zwischen der
+						Bevölkerung einer Ortschaft und deren Herrschaft. Die Bestimmungen kamen an
+						der in der Regel zweimal jährlich stattfindenden, als Ding oder Täding
+						bezeichneten Gerichtsversammlung zur Anwendung und wurden dort gleichzeitig
+						periodisch erneuert. In den verschiedenen Artikeln des vorliegenden
+						Hofstattrodels von <placeName
+							ref="LOC_47.27942_8.86162">Oberdürnten</placeName> werden nebst den Zuständigkeiten für die
+						verschiedenen Gerichtsbarkeiten insbesondere die Wartung von Zäunen und
+						Wegen, die Viehhaltung, das Weidewesen und die Waldnutzung geregelt. Der zu
+						Beginn des Hofstattrodels erinnerte Verkauf des Hofs zu <placeName
+							ref="LOC_47.27942_8.86162">Oberdürnten</placeName> durch
+						<persName>Elisabeth von Homberg</persName> (Elisabeth von Rapperswil) an das <placeName ref="LOC_47.2592_8.849">Kloster Rüti</placeName> im Jahr
+						1286 ist durch eine Urkunde belegt (<bibl><ref
+								target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=4586641"
+								>C II 12, Nr. 35</ref></bibl>).</p>
+					<p>Die vorliegende Version des Hofstattrodels stammt aus dem 1519 von Landvogt <persName
+							ref="GND_1089406568">Jörg Berger</persName> angelegten Bergerbuch
+								(<bibl><ref
+								target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=289244"
+								>StAZH F II a 185</ref></bibl>). Berger trug in diesem
+						Verwaltungsbuch bis über das Ende seiner Amtszeit hinaus verschiedene
+						Rechtstexte der Herrschaft <placeName ref="LOC_47.28333_8.75"
+							>Grüningen</placeName> in eigener Initiative zusammen. Nebst dem
+						Hofstattrodel von <placeName ref="LOC_47.27942_8.86162"
+							>Oberdürnten</placeName> enthält es auch Abschriften der Dingstattrödel
+						von <placeName ref="LOC_47.28333_8.75">Grüningen</placeName>/<placeName
+							ref="LOC_47.27632_8.75851">Binzikon</placeName> und der Hofstattrödel von
+							<placeName ref="LOC_47.31279_8.72325">Mönchaltorf</placeName>,
+							<placeName ref="LOC_47.28706_8.92092">Wald</placeName>, <placeName
+							ref="LOC_47.33663_8.94127">Fischenthal</placeName>, <placeName
+							ref="LOC_47.3264_8.79779">Wetzikon</placeName> und des <placeName
+							ref="LOC_47.346284_8.864490">Hauses Greifenberg</placeName> (<placeName
+							ref="LOC_47.33709_8.85645">Bäretswil</placeName>). Im Gegensatz zu einigen
+						anderen im Bergerbuch festgehaltenen Offnungen (<placeName
+							ref="LOC_47.28333_8.75">Grüningen</placeName>/<placeName
+							ref="LOC_47.27632_8.75851">Binzikon</placeName>, <placeName
+							ref="LOC_47.28706_8.92092">Wald</placeName>, <placeName
+							ref="LOC_47.31279_8.72325">Mönchaltorf</placeName>) sind ältere
+						Versionen des Hofstattrodels von <placeName ref="LOC_47.27942_8.86162"
+							>Oberdürnten</placeName> nicht überliefert. Eine Abschrift, wohl
+						ebenfalls der Version im Bergerbuch, aus dem 17. Jahrhundert befindet sich
+						im Urbar der Herrschaft <placeName ref="LOC_47.28333_8.75"
+							>Grüningen</placeName> in der ZB Zürich (<bibl>Ms L 442</bibl>). Robert Hoppeler datiert den eigentlichen Text auf
+						circa 1485 (<bibl><ref
+								target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html"
+								>SSRQ ZH AF I/2
+							</ref>, <ref
+								target="https://www.ssrq-sds-fds.ch/online/ZH_AF_I_2/index.html#p_503"
+								>S. 503</ref></bibl>). Diese Datierung ergibt sich aus den
+						Amtszeiten des genannten <persName>Abts Markus von <placeName
+								ref="LOC_47.2592_8.849">Rüti</placeName></persName> einerseits und
+						des Landvogts <persName>Hans Widmer</persName> von <placeName
+							ref="LOC_47.28333_8.75">Grüningen</placeName> andererseits.</p>
+					<p>Den ausführlichen Bestimmungen über Nutzungs- und Grundstückrechte im Hofstattrodel von
+							<placeName ref="LOC_47.27942_8.86162">Oberdürnten</placeName> lagen
+						offenbar Streitigkeiten zwischen den Bewohnerinnen und Bewohnern der
+						Ortschaft zugrunde. Dafür spricht auch ein aus dem Jahr 1478 überlieferter,
+						von <persName>Abt Markus</persName> besiegelter Schiedsspruch in einem
+						solchen Streit (<bibl><ref
+								target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=4763470"
+								>StAZH C II 12, Nr. 518</ref></bibl>). Eine darin festgehaltene
+						Bestimmung zum Heuen scheint im Hofstattrodel sinngemäss übernommen worden
+						zu sein. Einerseits kann die Missachtung von Nutzungsrechten und deren
+						Ahndung, wie etwa beim Mähen über <q>march und zil</q> (10), als Ausdruck der
+						landwirtschaftlichen Zwangslage des 15. Jahrhunderts verstanden werden,
+						andererseits bezeugt der Einsatz von Meiern als Beamte zur Durchsetzung
+						dieser Regelungen und zur Koordination von Gemeinschaftsarbeiten wie der
+						Wartung von Zäunen (15-16) die eigenständigen dörflichen Strukturen
+							<placeName ref="LOC_47.27942_8.86162">Oberdürntens</placeName> zu dieser
+						Zeit (<bibl><ref
+							target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html"
+							>Stromer 1995</ref></bibl>, S. 76).</p>
+					<p>Zur Offnung von <placeName ref="LOC_47.27942_8.86162">Oberdürnten</placeName>
+						<bibl><ref
+								target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html"
+								>SSRQ ZH AF I/2 </ref></bibl>; zu den Offnungen der Landvogtei
+							<placeName ref="LOC_47.28333_8.75">Grüningen</placeName> vgl. <bibl><ref
+								target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html"
+								>Hanselmann 1997</ref></bibl>; zu Offnungen im Allgemeinen vgl.
+								<bibl><ref
+								target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html"
+								>HLS</ref></bibl>, <bibl><ref
+								target="https://hls-dhs-dss.ch/de/articles/008946/2011-11-02/"
+								>Offnungen</ref></bibl>; <bibl><ref
+								target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html"
+								>Teuscher 2001</ref></bibl>; zur Ortsgeschichte von <placeName
+							ref="LOC_47.27856_8.84156">Dürnten</placeName> und <placeName
+							ref="LOC_47.27942_8.86162">Oberdürnten</placeName> im Spätmittelalter
+						vgl. <bibl><ref
+								target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html"
+								>Stromer
+							1995</ref></bibl>; zu <persName ref="GND_1089406568">Jörg
+							Berger</persName> und dem Bergerbuch vgl. <bibl><ref
+								target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html"
+								>HLS</ref></bibl>, <bibl><ref
+								target="https://hls-dhs-dss.ch/de/articles/018117/2002-06-18/">Jörg
+								Berger</ref></bibl>; <bibl><ref
+								target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html"
+								>IWQZH</ref>, Nr. 205</bibl>; zur Editionssituation der Zürcher
+						Offnungen im Allgemeinen vgl. <bibl><ref
+								target="https://suche.staatsarchiv.djiktzh.ch/Dateien/304/D1523837.pdf"
+								>StAZH A 97</ref></bibl></p></div>
+				</back>
+			</text>
+		</group>
+	</text>
+</TEI>

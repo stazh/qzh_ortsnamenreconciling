@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='../../Ressourcen/Stylesheet.xsl'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quellen zur Zürcher Geschichte</title>
+            <respStmt>
+               <persName>Silvia Barzaghi; David Schlittler; Lea Wettler</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Patrick Rüegg; Michael Schaffner</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Staatsarchiv des Kantons Zürich</publisher>
+            <date type="electronic" when="2021-05-01"/>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Territorienbildung der Städte im Spätmittelalter</title>
+            <respStmt>
+               <persName>Laura Bitterli und Simon Teuscher</persName>
+               <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>QZH_051</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=5125022"
+                     >StAZH A 124.1, Nr. 22</idno>
+               </msIdentifier>
+               <head>Zeugenaussagen (Kundschaften) betreffend die Zugehörigkeit des Hofs Im Geheisch zur Herrschaft Grüningen
+               </head>
+               <msContents>
+                  <summary>Vier Männer bezeugen die Gerichtszugehörigkeit des Hofs Im Geheisch zur Herrschaft Grüningen gemäss einem alten Verzeichnis (<q>rodel</q>).</summary>
+                  <msItem>
+                     <textLang>Deutsch</textLang>
+                     <filiation type="current">Aufzeichnungen (Einzelblatt)</filiation>
+                     <filiation type="original"><origDate from="1436-01-01" to="1439-12-31"></origDate></filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support><material>Papier</material></support>
+                        <extent/>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin><origDate from="1436-01-01" to="1439-12-31"></origDate></origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc> </profileDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000305">Grenze</term>
+               <term ref="key003261">Kundschaft</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <pb n="1" facs="A_124_1__Nr__22.tif"/>
+            <p><lb/><persName>Stoffel Muggly</persName> <choice><abbr>d</abbr><expan>dicit</expan></choice>, daz im wol wissent sye, daz der hof <placeName ref="LOC_47.29362_8.94768">Im Geheisch</placeName>,
+               <lb/>dar uff <persName>Cuoni Oberhoeltzer</persName> gevangen ist, <add place="above">mer dann</add> <del>lxj</del> einer <subst><del>halben</del><add place="above">viertden teil einer</add></subst> mil weg<subst><del>g</del><add place="inline">s</add></subst> inwendig
+               <lb/>den kreiß ligge, als der rodel innhalt.</p>
+            <p><lb/><persName>Hans Heintz</persName> von <placeName ref="LOC_47.2367_8.7573">Uerikon</placeName> <choice><abbr>d</abbr><expan>dicit</expan></choice>, daz im wol wissent ist, daz der hof im
+               <lb/><placeName ref="LOC_47.29362_8.94768">Geheisch</placeName> gar umb ein guoten weg lit, innwendig den kreiß, als
+               <lb/>der rodel innhalt.</p>
+            <p><lb/>Item <unclear>Zimer</unclear>, <choice><abbr>d</abbr><expan>dicit</expan></choice> als <persName>Stoffel Muggly</persName>.</p>
+            <p><lb/><persName>Hans Leman</persName>, undervogt, <choice><abbr>d</abbr><expan>dicit</expan></choice> als <persName>Stoffel Muggly</persName>.</p>
+         </div>
+      </body>
+      <back>
+         <div><p>
+            Zu den Grüninger Kundschaften vgl. den Kommentar zu <bibl><ref target="https://qzh.sources-online.org/quellenstuecke/QZH_044">QZH, Nr. 44</ref></bibl>.
+         </p></div>
+      </back>
+   </text>
+</TEI>

@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Quellen zur Zürcher Geschichte</title>
+                <respStmt>
+                    <persName>Walter Letsch</persName>
+                    <resp key="transcript"/>
+                </respStmt>
+                <respStmt>
+                    <persName>Denia Stettler</persName>
+                    <resp key="tagging"/>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Staatsarchiv des Kantons Zürich</publisher>
+                <date type="electronic" when="2024-10-10"/>
+                <date type="print" when="2024-10-10"/>
+            </publicationStmt>
+            <seriesStmt xml:id="ssrq-sds-fds">
+                <title>Quellen zur Zürcher Geschichte</title>
+                <respStmt>
+                    <persName>Staatsarchiv des Kantons Zürich</persName>
+                    <resp>Herausgeberschaft</resp>
+                </respStmt>
+                <idno>QZH_064</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=276587"
+                            >StAZH C III 25, Nr. 1</idno>
+                    </msIdentifier>
+                    <head>Verpfändung der Burg Steinegg und weiterer Güter durch Ritter Albrecht von
+                        Steinegg für Heimsteuer und Morgengabe seiner Frau Elisabeth von
+                        Rosenau</head>
+                    <msContents>
+                        <summary>Heinrich Lind, Stadtammann von Konstanz, beurkundet, dass Ritter
+                            Albrecht von Steinegg seiner Frau Elisabeth von Rosenau um 120 Mark
+                            Silber für ihre Heimsteurer und Morgengabe folgende Leute und Güter
+                            versetzt habe: Die Burg Steinegg samt allem Zubehör, die Vogtei in
+                            Seeben und über den See, den Spätenhof und das Gut, das Hildebrant
+                            bebaut, das Gut, das Wälti Keller jenseits des Seebachs bebaut, die
+                            Wiese des Schmids von Mäningen, die Dorfleute als freies Eigen, die
+                            Hardleute, die Fehr von Gütighausen und alle Eigenleute, Männer und
+                            Frauen. Heinrich Lind und Albrecht von Steinegg siegeln.</summary>
+                        <msItem>
+                            <textLang>Deutsch</textLang>
+                            <filiation type="current">Orginal</filiation>
+                            <filiation type="original"><origDate when="1357-04-22"/></filiation>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><material>Pergament</material></support>
+                                <extent><dimensions type="leaves">
+                                        <height unit="cm" quantity="15.5"/>
+                                        <width unit="cm" quantity="32"/>
+                                    </dimensions><dimensions type="plica">
+                                        <width unit="cm" quantity="1.5"/>
+                                    </dimensions></extent>
+                            </supportDesc>
+                        </objectDesc>
+                        <sealDesc>
+                            <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1"
+                                nontei:material="wax" nontei:shape="round"
+                                nontei:attachment="sealed on a parchment tag"
+                                nontei:condition="well-preserved">
+                                <persName role="sigillant">Heinrich von Lind</persName>
+                            </seal>
+                            <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="2"
+                                nontei:material="wax" nontei:shape="round"
+                                nontei:attachment="sealed on a parchment tag"
+                                nontei:condition="$$$well-preserved$$$">
+                                <persName role="sigillant">Albrecht von Steinegg</persName>
+                            </seal>
+                        </sealDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origDate when="1357-04-22"
+                            /><origPlace>Konstanz</origPlace></origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>
+                    <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+                </p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc> </profileDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+                    <term ref="key003398">Aussteuer</term>
+                    <term ref="key005098">Eherecht</term>
+                    <term ref="key000112">Morgengabe</term>
+                    <term ref="key000441">Pfand</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <pb facs="C_III_25__Nr__1__r_.tif"/>
+                <p>Ich, <persName>Hainrich der Lind</persName>, stattamman ze <placeName
+                        ref="LOC_Lat_Long">Costentz</placeName>, tuͦn kunt allen, die disen
+                    brief ansehent oder hoͤrent lesen, das her <persName>Albreht von
+                        <lb/>Stainegge</persName>, ritter, fu̍r mich kam fu̍r geriht und offnet mit
+                    fu̍rsprechen, er welt fro <persName>Elisabethen von Rosenow</persName>, siner
+                    elicher fro<lb break="no"/>wen, versetzen die burg <placeName
+                        ref="LOC_Lat_Long">Stainegge</placeName> mit den gu̍tern, die dar
+                    zuͦ hoͤrent, aker und wisen, holtz und veld, mit wasen und mit
+                        <unclear>zwi</unclear> und <lb/>die vogttay ze <placeName
+                        ref="LOC_Lat_Long">Sewe</placeName> und den sew mit aller zuͦ
+                    gehoͤrd und <placeName>Spaͤten hof</placeName> und das guͦt, das
+                        <persName>Hiltprant</persName> buwet, und das guͦt, das <persName>Waͤlti der
+                        Keller</persName>
+                    <lb/>buwet ennent dem <placeName ref="LOC_Lat_Long">Sebach</placeName>,
+                    und des <placeName>Schmides wis</placeName> ze
+                            <placeName><unclear>Maͤningen</unclear></placeName> wegen, und die
+                    dorflu̍t und ir geschlaͤht, so sin fryes aigen waͤrint, <lb/>und die Hard lu̍t
+                    und ir geschlaͤht, und die <persName>Verren</persName> von <placeName
+                        ref="47.588109_8.734242"><unclear>Gu̍tsikusen</unclear></placeName> und ir
+                    geschlaͤht und alle die lu̍t, die er het, es waͤrint frowan ald <lb/>man. Disvor
+                    benempten lu̍t und guͤter welt er der egenanten siner elichen frowen versetzen
+                    mit allen rehten und mit aller zuͦ gehoͤrd, als och <lb/>ers untz her gehebt und
+                    genossen het und als su̍ an in braht waͤrint ze ainem rehten gewerten pfant umb
+                    zwaintzig und <lb/>hundert march loͤtiges silbers Costentzer gewaͤges fu̍r ir
+                    hainstu̍r und fu̍r ihr morgengab, mit solchem verding, waͤr, das in die
+                    <lb/>vorgenant fro <persName>Elsbeth</persName> u̍berleben welt, si danne ir
+                    ding aͤnderren, es waͤr ze der ê ald ze kloster, so soͤlt die burg <placeName
+                        ref="LOC_Lat_Long">Stainegge</placeName> iren <lb/>bu̍rden, die si
+                    bi im het, ledig und los sin fu̍r vierzig march silbers, und soͤltint dannoht
+                    die andern lu̍t und guͤter ir reht pfant sin <lb/>fu̍r ahtzig march silbers, da
+                    mit si tuͦn und schaffen soͤlt, was sy welt. Die obgenant fro
+                        <persName>Elisabeth</persName> soͤlt och die vorgenanten lu̍t <lb/>und
+                    guͤter nieman ze loͤsent geben, wan ains mit dem andern und nit ains aͤn das
+                    ander. Und hat im der vorgenant her <persName>Albreht <lb/>von
+                        Stainegg</persName> ervaren an ainer urtail, wie er den satz vollefu̍ren
+                    soͤlt, daz es kraft het. Do ward ertailt mit gesamnoter <lb/>urtail, das er die
+                    vorgenanten burg <placeName ref="LOC_Lat_Long">Stainegge</placeName> und
+                    lu̍t und guͤter mit aller zuͦgehoͤrd und mit allen rehten und ehafte der
+                    <lb/>vorgenanten fro <persName>Elisabethen</persName>, siner elichen frowen, da
+                    offenlichen vor geriht versassti ze ainem gewerten pfant umb zwainzig und
+                    <lb/>hundert march loͤtiges silbers Costentzer gewaͤges fu̍r ir hainstu̍r und ir
+                    morgengab, mit dem geding, als vor geschriben stat, <lb/>und das es denn wol
+                    kraft het. Das vollefu̍rt och der vorgenant her <persName>Albreht von
+                        Stainegg</persName> da offenlichen vor geriht, als im <lb/>ertailt wart. Und
+                    ze urkund der warhait aller diser dinge gebent wir, die vorgenanten
+                        <persName>Hainrich der Lind</persName>, stathamman <lb/>ze <placeName
+                        ref="LOC_Lat_Long"><choice>
+                            <abbr>Cost</abbr>
+                            <expan>Costenz</expan>
+                        </choice></placeName>, und her <persName>Albreht von Stainegge</persName>,
+                    unsru̍ insigel an disen brief, der ist ze <origPlace ref="LOC_Lat_Long"
+                        >Costentz</origPlace> geben, do man von <origDate when="1357-04-22">Cristes
+                        geburt <lb/>zalte dru̍zehenhundert jar, dar nach in dem siben und
+                        fu̍nffzigosten jar an sant <persName ref="GND_118538527">Geryen</persName>
+                        abent</origDate>.</p>
+                <pb facs="C_III_25__Nr__1__v_.tif"/>
+                <ab type="dorsal" hand="hand18c"><origDate when="1357-04-22">F. <persName
+                            ref="GND_118538527">Georgii</persName> abend <lb/>1357</origDate></ab>
+                <ab type="dorsal" hand="hand18c"><placeName ref="LOC_Lat_Long"
+                        >Steinnegg</placeName></ab>
+            </div>
+        </body>
+        <back>
+            <div>
+                <p>Im Rahmen von Eheschliessungen wurden im Mittelalter verschiedene
+                    Gütertransaktionen getätigt, die insbesondere der langfristigen finanziellen
+                    Absicherung von Frauen dienten. Zu den unterschiedlichen Funktionsweisen solcher
+                    Heimsteuern, Morgengaben und Widerlegungen vgl. den Kommentar zu <ref
+                        target="https://qzh.sources-online.org/exist/apps/qzh/quellenstuecke/QZH_063"
+                        >QZH, Nr. 63</ref>, für weitere Fälle auch <ref
+                        target="https://qzh.sources-online.org/exist/apps/qzh/quellenstuecke/QZH_065"
+                        > QZH, Nr. 65</ref> (1360), <ref
+                        target="https://qzh.sources-online.org/exist/apps/qzh/quellenstuecke/QZH_066"
+                        > QZH, Nr. 66</ref> (1430) und <ref
+                        target="https://qzh.sources-online.org/exist/apps/qzh/quellenstuecke/QZH_067"
+                        > QZH, Nr. 67</ref> (1444).</p>
+            </div>
+        </back>
+    </text>
+</TEI>

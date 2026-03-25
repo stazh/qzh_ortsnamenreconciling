@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css“?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0"
+ xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <respStmt>
+     <persName>Tessa Gerber. Mit einem Kommentar von Michael Schaffner</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Michael Schaffner</persName>
+     <resp key="tagging"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <date type="electronic" when="2021-05-01"/>
+    <date type="print" when="2018-12-31"/>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Quellen zur Zürcher Geschichte</title>
+    <respStmt>
+     <persName>Staatsarchiv des Kantons Zürich</persName>
+     <resp>Herausgeberschaft</resp>
+    </respStmt>
+    <idno>QZH_026</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier>
+      <idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=4703943">StAZH A 27.11.6, Nr. 3</idno>
+     </msIdentifier>
+     <head>Untersuchung gegen Elsbetha Mund wegen Verdachts auf Hexerei</head>
+     <msContents>
+      <summary>Elsbetha Mund wird durch die Nachgänger wegen medizinischen Behandlungen mit
+       Armwickeln und Tränken befragt, die sie verschiedenen Kindern und Erwachsenen habe
+       zuteilwerden lassen, worauf einige von diesen krank geworden seien. Die Angeklagte besteht
+       auch nach fortgesetzter Befragung unter Einsatz der Folter darauf, dass sie niemandem Schaden
+       zugefügt habe. Sollten tatsächlich Personen krank geworden sein, sei dies einzig auf den
+       Willen Gottes zurückzuführen. Die Vorwürfe gegen sie seien folglich unzutreffend und
+       möglicherweise im Neid und Hass ihrer Mitmenschen begründet. Elsbetha Mund wird auf
+       Urfehde freigelassen, muss jedoch die Kosten ihres Gefängnisaufenthaltes in Zusammenhang mit
+       einem aus dem Spital entwendeten Objekt entrichten.</summary>
+      <msItem>
+       <textLang>Deutsch</textLang>
+       <filiation type="current">Aufzeichnungen (Doppelblatt)</filiation>
+       <filiation type="original"><origDate when="1561-05-07"/></filiation>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support><material>Papier</material></support>
+        <extent/>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin><origDate when="1561-05-07"/></origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p>
+     <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+    </p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc> </profileDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term ref="key003369">Folter</term>
+     <term ref="key000945">Hexerei</term>
+     <term ref="key004196">Kinder/Jugendliche</term>
+     <term ref="key005411">Medizinische Versorgung</term>
+     <term ref="key000882">Nahrungsmittel</term>
+     <term ref="key003559">Spital</term>
+     <term ref="key000480">Urfehde</term>
+    </keywords>
+   </textClass>
+   <particDesc default="false"/>
+   <settingDesc default="false"/>
+  </profileDesc>
+ </teiHeader>
+ <text>
+  <group>
+   <text>
+    <body corresp="Sigle1">
+     <div>
+      <pb n="1" facs="A_27_11_6__Nr__3__S__1_.tif"/>
+      <p>
+       <seg><lb/>Als min herren die verordneten widerumb zu <persName>Elßbetha
+         <lb/>Mundin</persName> inn gefencknus keert unnd sy aller irer sachen halb <lb/>befragt,
+        hat sy daruf volgenden bescheid geben:</seg> Wiewol sy <lb/>inn voriger irer anntwurt
+       verneinet, das sy <subst>
+        <del>der</del>
+        <add place="above">der</add>
+       </subst>
+       <persName>Ochßnerin</persName>
+       <lb/><del>dheine kin</del> nit <subst>
+        <del>geheißen</del>
+        <add place="above">befolchen</add>
+       </subst>, den kinden <del>der</del> die arm binden <lb/>und hoüe blumen über<add
+        place="above">ze</add>legen, hete sy sich doch sydhar bsint, <lb/>das sy uff ein zyt die
+        <persName>Ochßnerin</persName> gheißen, den kinden die <lb/>arm mit thüchlinen binden, damit
+       sy nit also mit den <lb/>armen <del>h</del> fächten und sy darnach ouch gefraget, wie inen
+       <lb/>das gethon. <del>u</del> Hete sy iren anzeigt, das inen die hend deß<lb break="no"/>halb
+       geschwullen und sy inen das wider abgethon. Demnach <lb/>sy ouch gheißen inen hoübluͦmen
+       überlegen unnd das allein <lb/>uß guͦthen <del>thruw</del> thrüwen und im besten gethon, dann
+       ouch <lb/>die heüw bluͦmen fil zu artznygen gebrucht werden.</p>
+      <p>
+       <lb/>Das aber sy <del>weder</del> des <persName>Stegers</persName> bübli noch
+        <persName>Mergeli Ren<lb break="no"/>wartin</persName> und ouch der Ochßnern kinden <add
+        place="left margin" type="sign">ald andern lüthen</add> je ützit weder <lb/>zeeßen <del>ald
+        zetring</del> zetringken ald sonst <del>leider u</del> geben, <lb/>dardurch inen etwas
+       schadens zuͦston mögen, werde <lb/>sich, ob got wil, nit erfinden, dann sy bi der
+       <lb/>warheit mit söllichen künsten <del>gar ire</del> ir leben lang <lb/>nie umbgangen. Unnd
+       kenne gar nüt damit, sonder <lb/>so glych etwar kranck worden, sige das one zwyfel <lb/>uß
+       fürsechung gottes unnd nit irer schuld halb <lb/>beschechen. Unnd bitet uff dz aller
+       demütigest <lb/>unnd lutherlich umb gotz willen umb gnad und <lb/>das ir, unser gnedig
+       herren, iren das best thügen.</p>
+      <p>
+       <lb/>Wiewol aber malen mit grossem ernst gëgen <persName>Elssbetha Mun<lb break="no"
+        />din</persName> gehanndlet, ist sy doch genntzlich inn dheinen weg <lb/>bekanntlich noch
+        <del>ared</del> anred, das sy weder der Ochßnern <lb/>noch <del>unnd</del>
+       <persName>Stegers</persName> kinden, ald der <persName>Rennwartin</persName> noch je ander
+        <pb n="2" facs="A_27_11_6__Nr__3__S__2_.tif"/>
+       <lb/>annderm ir leben lang je ützit zeeßen ald trinnken oder <lb/>sonst geben, dardurch ine
+       schad ald gepresten zu ston mögen <lb/>oder söllen, sonnder sige ir leptag deß willens gsyn,
+        menck<lb break="no"/>lichem zedienen unnd guͦten willen zuͦ bewysen. Sy könne <lb/>ouch inn
+       der warheit gar <del>umm</del> inn <del>dheine</del> dheynen weg <lb/>nuͤt mit söllichen ald
+       andern künsten. <del>Sonder hete <add place="above">sy</add> sich <lb/>alzyt des kilchgangs,
+        des willen gottes unnd ston zeflyssen <lb/>und syn wort zehalten mit</del> Sonnder werde
+        <del>ime das</del>
+       <lb/>iro das villicht uß nyd unnd hass nëbent der warheit <lb/>zuglegt, dann <del>sy</del>
+       man teglich seche unnd befinde, <lb/>wie gott syne straff wunderbarlich richte unnd noch
+       <lb/>synem willen handle, davon dann weder sy noch ander<lb break="no"/>lüth schuldig sye.
+       Unnd sölle man iro gwüss scheüwen, <lb/><add place="left margin"><unclear>sover</unclear> sy
+        schuldig</add> das sy sölliche pyn unnd marter nit gliten, sonder gott, <lb/>denn
+       allmechtigen, zuͦ hilff genommen und recht die war<lb break="no"/>heit gsagt haben welte,
+       diewyl iro aber hieran unrecht bescheche. <lb/>So bithe sy üch, unnser gnedig herren, <add
+        place="left margin" type="sign">als ire gnedigen väter</add> uffs aller demüti<lb break="no"
+       />gest und lutherlich umb gotz willen umb gnad <del>dann <lb/>sy wol erken alß dann</del>
+       unnd erledigung der schweren <lb/>gefencknus.</p>
+     </div>
+     <div>
+      <p><pb n="3" facs="A_27_11_6__Nr__3__S__3_.tif"/></p>
+     </div>
+     <div>
+      <pb n="4" facs="A_27_11_6__Nr__3__S__4_.tif"/>
+      <head type="subtitle"><persName>Elßbeth Mundin</persName> antreffend</head>
+     </div>
+     <div>
+      <p>
+       <lb/>Die <persName>Elsbetha Mundin</persName> ward uff ein <lb/>gwonlich urfecht, nachdem sy
+       ir un<lb break="no"/>schuld an der marter erhalten, der <lb/>gfengknus erlassen, doch das sy
+       den <del>so inn</del>
+       <lb/>costen <add place="left margin">so inn gfengknus <lb/>uff sy gangen</add>, von wegen,
+       das sy etwas uß dem <lb/>spital entreit, abtragen söll. Actum <del>Mentags</del>
+       <lb/><origDate when="1561-05-07">mitwuch, den 7<hi rend="sup">ten</hi> may, anno
+         <abbr>etc</abbr> lxj</origDate>, <lb/><abbr>pnt</abbr>
+       <abbr>h</abbr>
+       <persName ref="GND_143657992">Müller</persName>, burgermeister und beid reth.</p>
+     </div>
+     <div>
+      <ab place="verso middle" type="dorsal" hand="hand18c"><lb/>Verdacht auf <persName>Elsbetha
+        Mundin</persName>, bösen künsten halber. <origDate when="1561">1561</origDate>.</ab>
+     </div>
+    </body>
+    <back>
+     <div>
+      <p>Zum Fall der <persName>Elsbetha Mund</persName> sind weitere, chronologisch frühere Akten überliefert (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4703934">StAZH A 27.11.5, Nr. 29</ref></bibl>; 
+       <bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=4708985">StAZH A 27.11.10, Nr. 6</ref></bibl>). 
+       Im Zentrum stehen dabei Vorwürfe der Hexerei und spezifisch des Schadenszaubers im
+       Rahmen durchgeführter medizinischer Behandlungen. Aus den Akten geht hervor, dass
+       die Angeklagte aus <placeName ref="LOC_47.02076_8.65414">Schwyz</placeName> stammte. Ihrer eigenen Aussage zufolge war sie nach
+       einer Pestwelle rund 40 Jahre vor dem Hexereiprozess umgezogen, wobei wahrscheinlich die das
+       gesamte eidgenössische Gebiet umfassende Pest von 1519 gemeint ist (<bibl>HLS, <ref target="https://hls-dhs-dss.ch/de/articles/007980/2010-09-27/">Pest</ref></bibl>).</p> <p>Zu den
+       Hexereiprozessen im vormodernen <placeName ref="LOC_47.36667_8.55">Zürich</placeName> vgl. <bibl><ref target="https://www.zh.ch/de/politik-staat/recherche-im-staatsarchiv/zuercher-geschichte.html#-661009743">Hugener/Sieber, Quellenstudie</ref></bibl>; 
+       <bibl><ref target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html">Christ-von Wedel 2021</ref></bibl>; 
+       <bibl><ref target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html">Sigg, Hexenprozesse</ref></bibl>;
+       <bibl><ref target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html">Sigg, Hexenmorde</ref></bibl>;
+      <bibl><ref target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html">Schweizer 1902</ref></bibl>.</p>
+
+     </div>
+    </back>
+
+   </text>
+  </group>
+ </text>
+</TEI>

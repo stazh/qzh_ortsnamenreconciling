@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Quellen zur Zürcher Geschichte</title>
+                <respStmt>
+                    <persName>Walter Letsch</persName>
+                    <resp key="transcript"/>
+                </respStmt>
+                <respStmt>
+                    <persName>Denia Stettler</persName>
+                    <resp key="tagging"/>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Staatsarchiv des Kantons Zürich</publisher>
+                <date type="electronic" when="2024-10-10"/>
+                <date type="print" when="2024-10-10"/>
+            </publicationStmt>
+            <seriesStmt xml:id="ssrq-sds-fds">
+                <title>Quellen zur Zürcher Geschichte</title>
+                <respStmt>
+                    <persName>Staatsarchiv des Kantons Zürich</persName>
+                    <resp>Herausgeberschaft</resp>
+                </respStmt>
+                <idno>QZH_066</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=394000"
+                            >StAZH C II 13, Nr. 456</idno>
+                    </msIdentifier>
+                    <head>Einwilligung in die Verpfändung des Kehlhofs in Oberdinhard als
+                        Widerlegung für Margrecht Ottenmann</head>
+                    <msContents>
+                        <summary>Freiherr Hans von Hewen beurkundet, dass Hans von Gachnang zu
+                            Goldenberg seiner Frau Margrecht Ottenmann für ihre Widerlegung den
+                            Kehlhof in Oberdinhard als Pfand im Wert von 400 Gulden versetzt, der
+                            jährlich 10 Mütt Kernen, 3 Malter Hafer, 2 Pfund Haller, Hühner und Eier
+                            gilt und ein Lehen des Freiherrn ist. Auf Bitte des von Gachnang und
+                            angesichts dessen Dienste gibt der Freiherr seine Einwilligung.
+                            Margrecht und ihre Erben dürfen den Kehlhof nur unter Wahrung der Rechte
+                            des Freiherrn verkaufen. Nach dem Tod des Hans von Gachnang soll die
+                            Frau in Jahresfrist einen neuen Trager bestimmen. Der Aussteller
+                            siegelt.</summary>
+                        <msItem>
+                            <textLang>Deutsch</textLang>
+                            <filiation type="current">Orginal</filiation>
+                            <filiation type="original"><origDate when="1430-09-04"/></filiation>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><material>Pergament</material></support>
+                                <extent><dimensions type="leaves">
+                                        <height unit="cm" quantity="16"/>
+                                        <width unit="cm" quantity="33"/>
+                                    </dimensions></extent>
+                            </supportDesc>
+                        </objectDesc>
+                        <sealDesc>
+                            <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1"
+                                nontei:material="wax" nontei:shape="round"
+                                nontei:attachment="sealed on a parchment tag"
+                                nontei:condition="well-preserved">
+                                <persName role="sigillant">Hans von Hewen</persName>
+                            </seal>
+                        </sealDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origDate when="1430-09-04"/></origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>
+                    <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+                </p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc> </profileDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+                    <term ref="key005098">Eherecht</term>
+                    <term ref="key000597">Erbrecht</term>
+                    <term ref="key003752">Kelnhof</term>
+                    <term ref="key000022">Lehen</term>
+                    <term ref="key000441">Pfand</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <pb facs="C_II_13__Nr__456__r_.tif"/>
+                <p>Ich, <persName>Hans von Hewen</persName>, frye, vergich offenlich mit disem
+                    brieff, das fu̍r mich komen ist der vest <persName>Hans von Gachnang</persName>
+                    von <placeName ref="LOC_47.555697_8.985069">Gol<lb break="no"
+                        />denberg</placeName>. Offnett da vor mir, wie dz er <persName>Margrechten
+                        Othenmaͤnninen</persName>, sin elich wib, an ir widerlegung versorgen und ir
+                    <lb/>und iren erben zuͦ einem niessenden gewertten pfand und in pfandes wis aͧn
+                    abniessen und aͧn abschlag der nu̍tz insetzen und <lb/>versetzen woͤlte den
+                    kelnhoff ze <placeName ref="LOC_47.55516_8.76671">Ober Thinhartt</placeName>,
+                    der jaͤrlich giltet zechen mutt kernen, dru̍ malter habern, zwei pfund
+                    <lb/>haller, huͦnr und eyer, mit aller zuͦgehoͤrt. Derselb hoff lechen von mir
+                    sye und batt mich da ernstlich, im des also zegunnen <lb/>minen gunst und guͦten
+                    willen gnaͤdeklich da zuͦ zegeben in semlicher maͤß, dz sin wib und ir erben
+                    daran habent und be<lb break="no"/>sorgt waͤrint. Also von desselben
+                        <persName>Hansen von Gachnang</persName> und siner vordern dienst wegen, so
+                    hab ich sin bett dar inne gnaͤde<lb break="no"/>klich und guͤtlich verhoͤrt,
+                    minen gunst und willen dazuͦ gegeben. Daruff oͤch do zestett derselb
+                        <persName>Hans von Gachnang</persName>
+                    <lb/>vor mir fu̍r sich und sin erben derselben frow
+                        <persName>Margrechten</persName>, sinem elich wib, und iren erben den <choice>
+                        <abbr>vorgen</abbr>
+                        <expan>vorgenannten</expan>
+                    </choice> hoff mit alln <lb/><choice>
+                        <abbr>vorgen</abbr>
+                        <expan>vorgenannten</expan>
+                    </choice> zinsen, rechten und zuͦgehoͤrden zuͦ einem niessenden pfand und in
+                    pfandes wis, aͧn abschlag und aͧn abniessen, <lb/>mit minen verhengnu̍st und
+                    guͦten willen insatzt und oͤch versetzt hat, mit aller gewonheit, wortten und
+                    werchon, <lb/>namlich umb und fu̍r vier hundertt Rinscher guͦter gulden, so er
+                    ir vor mir also zuͦ einem pfandschilling daruffgeschlagn <lb/>haͤt. Also dz
+                    dieselb frow <persName>Margrecht Othenmaͤnnin</persName> und ir erben den <choice>
+                        <abbr>vorgen</abbr>
+                        <expan>vorgenannten</expan>
+                    </choice> hoff mit allen rechten, nu̍tzen, zinsen und zuͦ gehoͤrden nuhin fu̍r
+                    in pfandes wis inne haben, nutzen, niessen, verlichen, besetzen und entsetzen
+                    soͤllon, alle die wil der <lb/>von inen nit erloͤst ist, umb vierhundertt
+                    Rinscher guͦter guldin, aͧn abschlag ingenomner zinsen. Sy moͤchten oͤch also
+                    iro <lb/>recht daran versetzen ald verkoͤffen. Doch namlich, so sol dis alles
+                    mir, minen bruͦdern und unsern erben allweg unschaͤdlich <lb/>sin an unser
+                    lechenschaft, aͧn alle gervaͤrd. Waͤr oͤch, dz <persName>Hans von
+                        Gachnang</persName>, der jetzo ir trager darumb ist, vor derselben siner
+                    <lb/>elichen frowen von todes wegen abgienge, das si mir denn einen andern man,
+                    einen trager, der mir von des lechens wegen tru̍w und <lb/>warheit loby und ir
+                    dz lechen tragy, inwendig jaͤres frist geben soͤlli, naͤch lechens und landes
+                    recht, alles aͧn alle gevaͤrd, <lb/>als dik es jemer zeschulden kaͤme. Des alles
+                    ze warem offem urkund, so haben ich, <choice>
+                        <abbr>obgen</abbr>
+                        <expan>obgenannter</expan>
+                    </choice>
+                    <persName>Hans, fryherr von Hewen</persName>, min <lb/>insigel offenlich gehenkt
+                    an disen brief, der geben ist uff <origDate when="1430-09-04">mentag naͧch sant
+                            <persName ref="GND_118768042">Verenen</persName> tag naͧch Cristz gepurt
+                            vier<lb break="no"/>zechenhundert jaͧr, dar naͧch in dem drissigosten
+                        jaͧr</origDate>.</p>
+                <pb facs="C_II_13__Nr__456__v_.tif"/>
+                <ab type="dorsal" hand="laterHand">Lëchen umb den këlnhoff <lb/><placeName
+                        ref="LOC_47.55516_8.76671">Tynhart</placeName></ab>
+                <ab type="dorsal" hand="laterHand"><gap reason="illegible" unit="cm" quantity="2"/>
+                    Kelnhoff zuͦ <placeName ref="LOC_47.55516_8.76671">Obertinhart</placeName></ab>
+                <ab type="dorsal" hand="laterHand"><placeName ref="LOC_47.33515_9.13365"
+                        >Töhs</placeName></ab>
+            </div>
+        </body>
+        <back>
+            <div>
+                <p>Im Rahmen von Eheschliessungen wurden im Mittelalter verschiedene
+                    Gütertransaktionen getätigt, die insbesondere der langfristigen finanziellen
+                    Absicherung von Frauen dienten. Zu den unterschiedlichen Funktionsweisen solcher
+                    Heimsteuern, Morgengaben und Widerlegungen vgl. den Kommentar zu <ref
+                        target="https://qzh.sources-online.org/exist/apps/qzh/quellenstuecke/QZH_063"
+                        >QZH, Nr. 63</ref>, für weitere Fälle auch <ref
+                        target="https://qzh.sources-online.org/exist/apps/qzh/quellenstuecke/QZH_064"
+                        >QZH, Nr. 64</ref> (1357), <ref
+                        target="https://qzh.sources-online.org/exist/apps/qzh/quellenstuecke/QZH_065"
+                        > QZH, Nr. 65</ref> (1360) und <ref
+                        target="https://qzh.sources-online.org/exist/apps/qzh/quellenstuecke/QZH_067"
+                        > QZH, Nr. 67</ref> (1444).</p>
+            </div>
+        </back>
+    </text>
+</TEI>

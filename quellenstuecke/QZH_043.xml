@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='../../Ressourcen/Stylesheet.xsl'?>
+<?xml-model href="http://www.tei-c.org/ns/1.0" type="application/xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Quellen zur Zürcher Geschichte</title>
+                <respStmt>
+                    <persName>Laura Schmid. Mit einem Kommentar von Rainer Hugener</persName>
+                    <resp key="transcript"/>
+                </respStmt>
+                <respStmt>
+                    <persName>Rainer Hugener und Laura Schmid</persName>
+                    <resp key="tagging"/>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Staatsarchiv des Kantons Zürich</publisher>
+                <date type="electronic" when="2024-07-22"/>
+                <date type="print" when="2024-07-22"/>
+            </publicationStmt>
+            <seriesStmt xml:id="ssrq-sds-fds">
+                <title>Quellen zur Zürcher Geschichte</title>
+                <respStmt>
+                    <persName>Staatsarchiv des Kantons Zürich</persName>
+                    <resp>Herausgeberschaft</resp>
+                </respStmt>
+                <idno>QZH_043</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=279728">StAZH C IV 1.5.3 a, Nr. 1</idno>
+                    </msIdentifier>
+                    <head>Befreiung von Steuern, Fallabgaben und Ehegenossame sowie Beschränkung der Wehrpflicht
+                        für die Bürger von Kyburg</head>
+                    
+                    <msContents>
+                        <summary>Herzog Albrecht von Österreich bewilligt den Bürgern von Kyburg,
+                            dass sie von nun an keine Steuern bezahlen und nur noch Kriegsdienst
+                            leisten müssen, wenn sie am gleichen Tag heimkehren können, dass sie den
+                            Vögten von Kyburg keine Fallabgaben mehr schulden und dass sie Frauen
+                            nehmen können, von wo sie wollen. Er bestätigt zudem die von seinen
+                            Vorfahren erteilten Rechte. Der Aussteller siegelt.</summary>
+                        <msItem>
+                            <textLang>Deutsch</textLang>
+                            <filiation type="current">Orginal</filiation>
+                            <filiation type="original"><origDate when="1337-06-27"/></filiation>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><material>Pergament</material></support>
+                                <extent><dimensions type="leaves">
+                                        <height unit="cm" quantity="25.0"/>
+                                        <width unit="cm" quantity="17.0"/>
+                                    </dimensions><dimensions type="plica">
+                                        <width unit="cm" quantity="2.7"/>
+                                    </dimensions></extent>
+                            </supportDesc>
+                        </objectDesc>
+                        <sealDesc>
+                            <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1"
+                                nontei:attachment="slit" nontei:condition="absent"/>
+                        </sealDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origDate when="1337-06-27"/><origPlace>Brugg</origPlace></origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>
+                    <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+                </p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc> </profileDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+                    <term ref="key000061">Ehegenossame</term>
+                    <term ref="key000183">Fall</term>
+                    <term ref="key003290">Freizügigkeit</term>
+                    <term ref="key003737">Herrschaftsrechte</term>
+                    <term ref="key005331">Reisen</term>
+                    <term ref="key000157">Steuern</term>
+                    <term ref="key001101">Wehrdienst</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <group>
+            <text>
+                <body corresp="Sigle1">
+                    <div>
+                        <pb n="r" facs="C_IV_1_5_a__Nr__1.tif"/>
+                        <p><lb/>Wir, <persName role="issuer" ref="GND_118848399"><abbr>Albr</abbr>
+                                <expan>Albrecht</expan></persName>, von gots gnaden hertzog ze
+                                <placeName ref="LOC_Lat_Long">Österreich</placeName>, ze
+                                <placeName ref="LOC_Lat_Long">Steyr</placeName> und ze
+                                <placeName ref="LOC_Lat_Long">Kernden</placeName>, tuͦn chunt
+                            offenlich <lb/>mit disem prief, daz wir unsern getrewen purgern ze
+                                <placeName ref="LOC_Lat_Long">Kyburch</placeName> die gnad
+                            von besundern gnaden getan haben <lb/>und tuͦn auch mit diesem prief,
+                            daz <sic>seu</sic> fuͤrbaz chayn steur nicht geben suͤllen und auch
+                            chayne <lb/>raysen varen denn als verre, daz <sic>seu</sic> bey
+                            derselben tagzeit wider haym chomen muͤgent, und suͤllen <lb/>auch
+                            sunderlich hinnanhin aller velle unsern voͤgten ze <placeName
+                                ref="LOC_Lat_Long">Kyburch</placeName>, wer die je zuͦ der
+                            zeit sint, gar <lb/>und gentzlich vrey und ledig sein ze geben.
+                                <sic>Seu</sic> muͤgent ouch neuen weib, von swannen seu wel<lb
+                                break="no"/>lent hin in, als ez in fuͤglich und chomleich ist. Wir
+                            wellen ouch, daz <sic>seu</sic> fuͤrbaz beleiben bey <lb/>den gnaden und
+                            bey allen den rechtten und guͦten gewonhaiten, so <sic>seu</sic> untz
+                            her bey uns und <lb/>unsern voͤrdern gehebt habent, an irrung und an
+                                allemenglich<del>es</del> widerrede, und gebieten dar<lb break="no"
+                            />uͤber unsern voͤgten ze <placeName ref="LOC_Lat_Long"
+                                >Kyburch</placeName>, daz <sic>seu</sic> unser vorgenanten purger
+                            daselbs umb dhayn stewr, <lb/>raysen oder velle wider die vorgeschriben
+                            gnad nicht noͤtten noch engen in chaynem weg noch <sic>seu</sic> an irn
+                            rechtten icht bechrenchen, dez wellen wir durch nicht enbern und geben
+                            in <lb/>dez ze urchunde disen prief, besigeltn mit unserm insigel, der
+                            geben ist ze <placeName ref="LOC_Lat_Long">Prukk</placeName>
+                            <lb/>an <origDate when="1337-06-27">vreytag nach sand <persName
+                                    ref="GND_770091512">Johans</persName> tag ze sunnwenten, do man
+                                zalt von christes gebuͤrte <lb/>dreuzehen hundert jar, dar nach in
+                                dem siben und dreizzigesten jare.</origDate>. </p>
+                       
+                    <pb n="v"/> 
+                    <div>
+                        
+                        <ab type="dorsal" hand="hand16c"><lb/>
+                            <unclear>Werdend</unclear> die burger zu <placeName ref="LOC_Lat_Long">Kyburg</placeName>
+                            <lb/>von <unclear>hertzog</unclear> <persName ref="GND_118848399">Albrächten</persName> aller
+                            <lb/>steüren und reisens befreyet, <date when="1337">1337</date>.</ab>
+                        
+                        
+                        <ab type="dorsal" hand="hand16c">
+                            <lb/>Befreyung der burgeren zu <placeName ref="LOC_Lat_Long">Kyburg</placeName> durch <persName ref="GND_118848399">Hertzog
+                                <lb/>Albrächt</persName> von <placeName ref="LOC_Lat_Long">Österreich</placeName> aller steühren und reißens.
+                            <lb/><date when="1337">1337</date>.
+                        </ab>
+                        
+                      
+                        
+                    </div>
+                    </div>    
+                        
+                </body>
+                
+                <back>
+                    <div>
+                        <p>Als Herrschaftssitz und Zentrum der zunächst kyburgischen und dann
+                            habsburgischen Verwaltung kam der Ortschaft
+                            <placeName ref="LOC_Lat_Long">Kyburg</placeName> im Mittelalter trotz
+                            ihrer bescheidenen Grösse eine besondere Funktion zu. So wurden die
+                            Siedlung als Stadt und ihre Bewohner als Bürger angesprochen, die
+                            bestimmte Vorrechte genossen. Mit der vorliegenden Urkunde wurde
+                            ihnen durch Herzog <persName ref="GND_118848399">Albrecht II.</persName>
+                            die Befreiung von Steuern, Fallabgaben und Ehegenossame sowie eine
+                            Beschränkung der Wehrpflicht gewährt. 1370 erhielten sie auch noch das Recht,
+                            zweimal jährlich einen Jahrmarkt und
+                            jeweils dienstags einen Wochenmarkt durchzuführen
+                            (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=346298">StAZH C IV 1.5.3 a, Nr. 3</ref></bibl>). Diese Rechte blieben
+                            bestehen, nachdem die Grafschaft
+                            <placeName ref="LOC_Lat_Long">Kyburg</placeName> 1424 vorübergehend und ab 1452
+                            definitiv an die Stadt <placeName ref="LOC_47.37721_8.52731">Zürich</placeName>
+                            übergegangen war (<bibl>HLS, <ref
+                                target=" https://hls-dhs-dss.ch/de/articles/000120">Kyburg
+                                [Dorf]</ref></bibl>).</p>
+                    </div>
+                </back>
+                
+            </text>
+                        
+            
+        </group>
+    </text>
+</TEI>

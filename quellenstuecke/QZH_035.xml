@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='../../Ressourcen/Stylesheet.xsl'?>
+<?xml-model href="http://www.tei-c.org/ns/1.0" type="application/xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Quellen zur Zürcher Geschichte</title>
+                <respStmt>
+                    <persName>Laura Schmid. Mit einem Kommentar von Rainer Hugener</persName>
+                    <resp key="transcript"/>
+                </respStmt>
+                <respStmt>
+                    <persName>Rainer Hugener und Laura Schmid</persName>
+                    <resp key="tagging"/>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Staatsarchiv des Kantons Zürich</publisher>
+                <date type="electronic" when="2024-04-18"/>
+                <date type="print" when="2024-04-18"/>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Quellen zur Zürcher Geschichte</title>
+                <respStmt>
+                    <persName>Staatsarchiv des Kantons Zürich</persName>
+                    <resp>Herausgeberschaft</resp>
+                </respStmt>
+                <idno>QZH_035</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=393333"
+                            >StAZH C I, Nr. 1850</idno>
+                    </msIdentifier>
+                    <head>Verpfändung von Schloss und Herschaft Kyburg an die Stadt Zürich</head>
+                    <msContents>
+                        <summary>Der römische König Sigismund verleiht dem Bürgermeister, Rat und den
+                            Bürgern der Stadt Zürich angesichts ihrer Verdienste das Privileg, von
+                            der Gräfin Kunigunda von Montfort das Schloss Kyburg mit Leuten, Zinsen,
+                            Gülten, Gütern und Rechten zu lösen. Kyburg war ein Pfand der Herrschaft
+                            von Österreich, jetzt des heiligen Reichs. Die Herrschaft soll ewig bei
+                            Zürich bleiben und kann nur vom Reich ausgelöst werden. Der Aussteller
+                            siegelt mit dem Majestätssiegel.</summary>
+                        <msItem>
+                            <textLang>Deutsch</textLang>
+                            <filiation type="current">Orginal</filiation>
+                            <filiation type="original"><origDate when="1424-02-09"/></filiation>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><material>Pergament</material></support>
+                                <extent><dimensions type="leaves">
+                                        <height unit="cm" quantity="28.0"/>
+                                        <width unit="cm" quantity="37.0"/>
+                                    </dimensions><dimensions type="plica">
+                                        <width unit="cm" quantity="7.0"/>
+                                    </dimensions></extent>
+                            </supportDesc>
+                        </objectDesc>
+                        <sealDesc>
+                            <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1"
+                                nontei:material="wax" nontei:shape="round"
+                                nontei:attachment="sealed on a cord"
+                                nontei:condition="well-preserved">
+                                <persName role="sigillant">König Sigmund</persName>
+                            </seal>
+                        </sealDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origDate when="1424-02-09"
+                            /><origPlace>Budapest</origPlace></origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>
+                    <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+                </p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc> </profileDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+                    <term ref="key003737">Herrschaftsrechte</term>
+                    <term ref="key000441">Pfand</term>
+                    <term ref="key000649">Territorium</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <group>
+            <text>
+                <body corresp="Sigle1">
+                    <div>
+                        <pb n="r" facs="C_I__Nr__1850__r__Bild_2.tif"/>
+                        <p><lb/><seg>Wir, <persName role="issuer" ref="GND_118614185"
+                                    >Sigmund</persName>, von gotes gnaden <placeName
+                                    ref="LOC_41.8925_12.48499">Romischer</placeName> kunig, zu
+                                allenczeiten merer des reichs und
+                                zu <placeName ref="LOC_47_20">Ungern</placeName>, <lb/>zu <placeName
+                                    ref="LOC_50_14.5">Behem</placeName>, <placeName
+                                    ref="LOC_43.53974_16.48352">Dalmacien</placeName>, <placeName
+                                    ref="LOC_45.16667_15.5">Croacien</placeName>
+                                <abbr>etc</abbr> kunig, bekennen und tun kunt offenbar mit disem
+                                brief allen den, die in se<lb break="no"/>hen oder horen lesen, wie
+                                wol das sey, das wir von angeborner miltikeit allewege willig sein,
+                                unsere und <lb/>des heiligen reichs undersessen mit unsern gnaden
+                                gutlichen und gnediclichen zu versehen.</seg>
+                            <seg>Ydoch so traget <lb/>uns unser gemüte liblichen dozu, das wir
+                                sunderlich bewegniß und begirde haben zu den, an den wir zu<lb
+                                    break="no"/>voran fur andern luten stete trewe und unverdrossne
+                                dinst von alders her genczlich erkant und erfunden <lb/>haben, und
+                                dorumb haben wir angesehen sulche dinste und trew, als uns und dem
+                                heiligen riche der <lb/>burgermeister, rate und burger gemeinlich
+                                der stat zu <placeName ref="LOC_47.36667_8.55">Zurich</placeName>
+                                unser und des heiligen reichs <lb/>lieben getrüen offt und dicke
+                                getan haben, teglichen tun und furbaß tun sollen und mogen in
+                                kunftigen <lb/>czeiten, und haben ir und iren nachkomen mit
+                                wolbedachtem mute, gutem rate und rechter wis<lb break="no"/>sen
+                                dise nachgeschriben gnaden getan und tun in die crafft diß briefs
+                                von romischer kuniglicher mech<lb break="no"/>te, das sie, wenn in
+                                das eben sein oder gute dunken wirdet, von der edel
+                                    <persName>Kunigunda, grefin zu Mont<lb break="no"
+                                    />fort,</persName> oder iren erben das schloß <placeName
+                                        ref="LOC_47.45249_8.7485">Kyburg</placeName> mit allen und
+                                yglichen luten, zinsen, gulten, welden, wisen, ec<lb break="no"
+                                />kern, wassern, fischereyen, gerichten, twingen, bannen und allen
+                                andern iren zugehorungen, nichts uß<lb break="no"/>genomen, als sy
+                                und ire vorfarn das von der herschafft von <placeName
+                                    ref="LOC_47.33333_13.33333">Osterrich</placeName> in pfandisweis
+                                ynnhat gehabt <lb/>und noch hat, in unserm und des heiligen reichs
+                                namen und von unsern wegen lozen sollen und mogen noch irem tode
+                                oder bey irem <choice>
+                                    <sic>lebedigen</sic>
+                                    <corr>lebendigen</corr>
+                                </choice> leyben, als in das am allerbesten gefallen wirdet, noch
+                                laute der <lb/>brieff, die dieselb <persName>Kunigunda</persName>
+                                und ir vorfarn von <placeName ref="47.1975_-0.21111"
+                                    >Montfort</placeName> doruber ynnhaben, also, das die herlich<lb
+                                    break="no"/>keit, hochgericht, eigenschafft und pfandung der <choice>
+                                    <abbr>egen</abbr>
+                                    <expan>egenannten</expan>
+                                    </choice> guter, <placeName ref="LOC_47.45249_8.7485"
+                                    >Kyburg</placeName> mit dem ban und allen iren rech<lb
+                                    break="no"/>ten und zugehorungen, bey denselben burgern und stat
+                                zu <placeName ref="LOC_47.36667_8.55">Zurich</placeName> ewiclichen
+                                bleyben solle, von al<lb break="no"/>lermeniclichen ungehindert. Und
+                                das sol noch mag nymand lozen, dann allein wir und unser nach<lb
+                                    break="no"/>komen an dem reiche, romische keyser oder kunig, bey
+                                uns und dem heiligen reich zu behalden und nymandem <lb/>fürbaß zu
+                                vergeben, zu verkaufen oder zu versezen in dheinweis.</seg>
+                            <seg>Mit urkund diß briefs, versigelt mit <lb/>unser kuniglichen
+                                maiestat insigel, geben zu <origPlace ref="LOC_47.49835_19.04045"
+                                    >Ofen</origPlace>
+                                <origDate when="1424-02-09">nach Christs geburt vierzehen hundert
+                                    jar und <lb/>dornach in dem vier und czwenzigisten jare an dem
+                                    nechsten mitwochen nach <date when="--02-06">sant <persName
+                                            ref="GND_120125897">Dorotheen</persName> tag</date>,
+                                    <lb/>unserr riche des <placeName ref="LOC_47_20"
+                                        >Ungrischen</placeName>
+                                    <abbr>etc</abbr> in dem siben und dreissigisten, des <placeName
+                                        ref="LOC_41.8925_12.48499">Romischen</placeName> in dem
+                                    vierzehenden und <lb/>des <placeName ref="LOC_50_14.5"
+                                        >Behemischen</placeName> in dem vierden
+                                jaren.</origDate>.</seg>
+                        </p>
+                    </div>
+                    <div>
+                        <ab type="chancery_notation"><lb/>Ad mandatum domini regis
+                                <lb/><persName>Johannes</persName>
+                            <placeName ref="LOC_45.81444_15.97798">Zagrabensis</placeName>
+                            <abbr>eps</abbr> cancellarius.</ab>
+                    </div>
+                    <pb n="v" facs="C_1__Nr__1850__v_.tif"/>
+
+                    <div>
+                        <ab type="dorsal" hand="hand15c"><lb/><persName>Henricus
+                            Ffye</persName></ab>
+                    </div>
+                    <div>
+                        <ab type="dorsal" hand="hand15c"><lb/>1424</ab>
+                    </div>
+                    <div>
+                        <ab type="dorsal" hand="hand16c"><lb/><unclear>Als uns</unclear> die vesti
+                            <placeName ref="LOC_47.45249_8.7485">Kiburg</placeName>
+                            <lb/><unclear><choice>
+                                    <abbr>ynnw</abbr>
+                                    <expan>ynnworden</expan>
+                                </choice></unclear> ist zeloͤsend von <lb/>kunig <persName
+                                ref="GND_118614185">Sigmund</persName>.</ab>
+                    </div>
+                    <div>
+                        <ab type="dorsal" hand="hand18c"><lb/>Ingrossiert</ab>
+                    </div>
+                </body>
+
+                <back>
+                    <div>
+                        <p>Ab der Mitte des 14. Jahrhunderts ging der Rat der Stadt
+                            <placeName ref="LOC_47.36667_8.55">Zürich</placeName> dazu
+                            über, Herrschaftsrechte auf der Landschaft durch Kauf oder Pfandschaft
+                            zu erwerben und dadurch ein einigermassen geschlossenes Territorium
+                            aufzubauen, das sich zunächst rund um die Stadt und dem See entlang
+                            erstreckte, im frühen 15. Jahrhundert aber auch ins
+                            <placeName ref="LOC_47.33634_8.83327">Oberland</placeName> und
+                            <placeName ref="LOC_47.22446_8.46262">Knonaueramt</placeName> ausdehnte.
+                            Mit der Herrschaft  <placeName ref="LOC_47.36583_8.67896">Greifensee</placeName>
+                            erwarb <placeName ref="LOC_47.36667_8.55">Zürich</placeName> 1402
+                            ein grösseres Gebiet, das erstmals nicht mehr von der Stadt aus, sondern
+                            durch einen vor Ort residierenden Vogt verwaltet wurde. Als weitere
+                            äussere Vogteien folgten 1408 <placeName ref="LOC_47.28333_8.75">Grüningen</placeName>
+                            und 1409 <placeName ref="LOC_47.48295_8.43791">Regensberg</placeName>
+                            (<bibl><ref target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html">Weibel 1996</ref></bibl>, S. 37-43;
+                            <bibl><ref target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html">Eugster 1995b</ref></bibl>, S. 306-313;
+                            <bibl><ref target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html">Largiadèr 1922</ref></bibl>, S. 29-91).
+                            Mit dem pfandweisen Erwerb der Grafschaft <placeName ref="LOC_47.45249_8.7485">Kyburg</placeName> im Jahr 1424
+                            vergrösserte sich das zürcherische Herrschaftsgebiet schlagartig um ein
+                            Vielfaches und wuchs ungefähr zur heutigen Grösse des Kantons
+                            <placeName ref="LOC_47.36667_8.55">Zürich</placeName>
+                            heran (<bibl>HLS, <ref target="https://hls-dhs-dss.ch/de/articles/007381">Zürich [Kanton]</ref></bibl>).</p>
+                        <p>Mit dem Aussterben der Grafen von Kyburg waren deren Besitztümer 1264
+                            durch Erbschaft an die Grafen von Habsburg gelangt. Diese gingen im
+                            Verlauf des 14. Jahrhunderts dazu über, ihre Herrschaftsrechte an andere
+                            Adlige oder Städte zu verpfänden, um rasch zu grösseren Einnahmen zu
+                            kommen. Die Grafschaft <placeName ref="LOC_47.45249_8.7485">Kyburg</placeName> verpfändeten sie 1384 an die
+                            Grafen von Toggenburg beziehungsweise 1402 an die toggenburgische
+                            Erbin <persName>Kunigunde von Montfort-Bregenz</persName>. Als König <persName ref="GND_118614185">Sigismund</persName> in seinem
+                            Konflikt mit Herzog <persName ref="GND_119244829">Friedrich IV.</persName> 1417 die habsburgischen Pfänder zu
+                            Reichspfändern erklärte, war für die Stadt <placeName ref="LOC_47.36667_8.55">Zürich</placeName> der Moment gekommen,
+                            sich die Grafschaft <placeName ref="LOC_47.45249_8.7485">Kyburg</placeName> einzuverleiben. Bereits im Frühling 1418 nahm
+                            eine Delegation des Rats Verhandlungen mit dem König auf
+                            (<bibl><ref target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html">Zürcher
+                            Stadtbücher</ref></bibl>, Bd. 2, S. 99-100, Nr. 127 und 128). Trotzdem dauerte es
+                            danach noch rund sechs Jahre, bis die Zürcher das Pfand mit der
+                            vorliegenden Urkunde gegen die Bezahlung von 8750 Gulden in Empfang
+                            nehmen konnten (<bibl><ref target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html">Schuler 1985</ref></bibl>).</p>
+                        <p>Nachdem mit <persName ref="GND_118501615">Albrecht II.</persName> ab 1438 wieder ein Habsburger auf dem Thron
+                            sass, musste die Stadt <placeName ref="LOC_47.36667_8.55">Zürich</placeName>
+                            die Grafschaft <placeName ref="LOC_47.45249_8.7485">Kyburg</placeName> 1442 wieder an die
+                            Herzöge von <placeName ref="LOC_47.33333_13.33333">Österreich</placeName> abtreten. Aber bereits 1452 ging die Grafschaft
+                            <placeName ref="LOC_47.45249_8.7485">Kyburg</placeName> als Pfand im Wert von 17&#160;000 Gulden
+                            wieder an <placeName ref="LOC_47.36667_8.55">Zürich</placeName> über und
+                            wurde in der Folge nie mehr ausgelöst. Den Titel <q>Graf von Kyburg</q> trug
+                            der österreichische Kaiser freilich noch bis 1918
+                            (<bibl>HLS, <ref target="https://hls-dhs-dss.ch/de/articles/007829">Kyburg [Grafschaft, Burg]</ref></bibl>). </p>
+                    </div>
+                </back>
+
+            </text>
+        </group>
+    </text>
+</TEI>

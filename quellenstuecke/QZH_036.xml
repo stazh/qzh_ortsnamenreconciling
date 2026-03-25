@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='../../Ressourcen/Stylesheet.xsl'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Quellen zur Zürcher Geschichte</title>
+				<respStmt>
+					<persName>Patrick Rüegg. Mit einem Kommentar von Patrick Rüegg und Michael Schaffner</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Patrick Rüegg</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Staatsarchiv des Kantons Zürich</publisher>
+				<date type="electronic" when="2021-05-01"/>
+			</publicationStmt>
+			<seriesStmt>
+				<title>Quellen zur Zürcher Geschichte</title>
+				<respStmt>
+					<persName>Staatsarchiv des Kantons Zürich</persName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>QZH_036</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=608438">StAZH A 97.3, Nr. 3</idno>
+					</msIdentifier>
+					<head>Offnung von Ellikon an der Thur</head> 
+					<msContents>
+						<summary>Die Offnung von Ellikon an der Thur setzt Normen 
+							für die wirtschaftlichen und gesellschaftlichen Akteure im Dorf fest und regelt insbesondere die Flurnutzung. 
+							Sie schreibt vor, in welchen Wäldern Holzschlag erlaubt ist, wie die Bäche im Dorfgebiet 
+							genutzt werden dürfen und welche Fuhrwerke die zur Obrigkeit gehörenden Wirtschaftsbetriebe (insbesondere Mühle und Kehlhof) 
+							besitzen sollen. Umfangreich beschrieben ist vor allem die Befriedung von landwirtschaftlich genutzten Grundstücken 
+							durch Zäune. Die Grenzverläufe werden beschrieben und beinhalten 
+							zusätzlich auch Bestimmungen über die Instandhaltung der Zäune und Gatter. Ergänzt werden sie durch Normen zu 
+							Weg- und Fahrrechten sowie einen niedergerichtlichen Bussenkatalog. 
+						</summary>
+						<msItem>
+							<textLang>Deutsch</textLang>
+							<filiation type="current">Original</filiation>
+							<filiation type="original">
+								<origDate from="1430-01-01" to="1450-12-31"></origDate>
+							</filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support><material>Pergament</material></support>
+								<extent/>
+							</supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origDate from="1430-01-01" to="1450-12-31"></origDate>
+					</history>
+					<additional>
+						<listBibl>
+							<head>Edition</head>
+							<bibl><ref target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html">Stauber 1894</ref>, S. 21-26. </bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<editorialDecl>
+				<p>
+					<ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+				</p>
+			</editorialDecl>
+		</encodingDesc>
+		<profileDesc> </profileDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term ref="key001092">Brauchtum</term>
+					<term ref="key000012">Offnung</term>	
+					<term ref="key000057">Gericht</term>	
+					<term ref="key004966">Gemeinde</term>
+					<term ref="key003292">Nutzungskonflikt</term>
+					<term ref="key000305">Grenze</term>
+					<term ref="key000606">Wegrecht</term>
+					<term ref="key000461">Gemeiner Nutzen</term>
+					<term ref="key000184">Bussen</term>					
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+        <group>
+            <text>
+        <body>
+        	<div>
+			<pb n='1' facs="A_97_3__Nr__3__S__1_.tif"/>
+			<p>
+				<lb/>Unsers dorfs <placeName ref="LOC_47.56307_8.82418">Älliken</placeName> und alt harkomen kum gerechtikeitten sind wie 
+				<lb/>hienäch geschriben stätt.
+				<lb/>Item dez ersten hätt ein vögt herschaft ze pietten an dry schiling haller,
+				<lb/>das ander pott an vj <abbr></abbr>, das dritt an viiij <abbr></abbr>. Wä einer das übersicht
+				<lb/>und nytt gehorsam waͤr, denn mag man inn umb die dru̍ pott pfe<lb break="no" />nden
+				und imm dann pietten an j <abbr>lbr</abbr> haller und darnäch an ij <abbr>lbr</abbr>
+				<lb/>und dann an iij <abbr>lbr</abbr> und dann an vj <abbr>lbr</abbr> und denn an viij <abbr>lbr</abbr>. Und
+				<lb/>ob einer die pott alle übersaͤch, darnäch mag ein herschaft darzuͦ tuͦn
+				<lb/>und inn gehorsam machen.</p>
+				<p><lb/>Item welicher fraͤvenlich gegen dem andern messer, stang oder anders zukt,
+				<lb/>vervalt der herrschaft vj <abbr>lbr</abbr> und dem kläger iij <abbr>lbr</abbr>, und die wil das
+				<lb/>messer nitt gar uß der scheid kumpt, ist kein buͦs da vervallen.</p>
+				<p><lb/>Item welicher den andern herttfellig macht, vervallt der herrschaft
+					<lb/>xviij <abbr>lbr</abbr> haller.<note>Zur Ahndung von tätlichen Auseinandersetzungen in der Stadt vgl. <bibl><ref target="https://rechtsquellen.sources-online.org/ZH_NF_I_1_3/SSRQ_ZH_NF_I_1_3_038_1">SSRQ ZH NF I/1/3, Nr. 38</ref></bibl></note></p>
+				<p><lb/>Item welicher ein stein erzukt und gegen dem andren wirft fraͤvenlich,
+				<lb/>vervalt nach dem, als er bewentt, u̍berhept er aber den stein, so vervalt
+				<lb/>er xviij <abbr>lbr</abbr> <abbr>hlr</abbr> buͦs.</p>
+				<p><lb/>Item welicher in dem <placeName>Oberholtz</placeName> oder in dem <placeName>Birchinlo</placeName> brennholtz höwtt,
+				<lb/>vervalt einer herschaft von jedem stumpen in sunder iij <abbr></abbr> <abbr>hlr</abbr>. Houwtt
+				<lb/>er aber schedlich holtz, aichen oder tannen, denn mag im ein herschaft
+				<lb/>sträffen nach iren gnäden.</p>
+				<p><lb/>Item welicher in der <placeName>Ow</placeName> holtz höwt ob dem alten weg, verfalt oͧch von
+				<lb/>jedem stumpen insunder iij <abbr></abbr> und und<damage agent="fold"><supplied resp="msr">er</supplied></damage> dem alten weg von jedem
+				<lb/>stumpen in sunder v <abbr></abbr> ze buͦs.</p>
+				<p><lb/>Item wer wessert den <placeName>Bruggwis Bach</placeName> <damage agent="fold"><supplied resp="msr">uß</supplied></damage>hin und witter schwelt dem
+					<lb/>dry schüch von dem rechten zunsteken, vervalt iij <abbr> </abbr>bus.</p>
+				<p><lb/>Item den <placeName>Gensbach</placeName> in <placeName>Niderwisen</placeName> <damage agent="fold"><supplied resp="msr">sol och gemeind gräben</supplied></damage> untz an des <placeName>Hü<lb break="no" />bers
+						Wis</placeName> an oͤnd und sol der selb grab offen stön,  das einer müg mitt
+				<lb/>einem geriseten pfluͦg da uff- und nider farn. Und hatt das recht, das
+				<lb/>man mag das vech da uff und nider jagen und welich bedunkt,
+				<lb/>das inn da schad beschech, mag ein zun uff das port machen und
+				<lb/>nitt das port brechen on erlobtt.</p>
+				<p><lb/>Item der hof ze <placeName ref="LOC_47.28706_8.92092">Wald</placeName> sol ein halben wagen haben und ij rinder an
+					<lb/>der tiechsel und die andren fu̍r setzen, das der wagen gän mu̍g.</p>
+				<p><lb/>Item der kelnhof sol oͧch ein halben wagen haben, zwey rinder an tiech<lb break="no" />sel
+				und die andren fürsetzen, das der wag gon mug. Und sol ein
+				<lb/>keller den hof wol zu̍nen und vermachen, wenn man schadhaft
+				<lb/>vech darin tuͤ, das es nitt daruß gang. Er sol oͧch niemant erloben,
+				<lb/>das vech ze nemen, dem geschad gettan sy denn genuͦg beschechen.
+				<lb/>Item die ober mu̍li sol oͧch ein halben wagen haben, zwey rind an
+				<lb/>der tiechsel und die andren fu̍rsetzen, das der wagen gon mu̍g.</p>
+				<p><lb/>Item wer <placeName ref="LOC_47.4789_8.70215">Toͤsser</placeName> preitten innhätt, der söl helfen die sul setzen und sol
+				<lb/><persName>Uͤlli Steffa</persName> zu̍nen untz an die sul, und welich <placeName ref="LOC_47.4789_8.70215">Tösser</placeName> hof innhond,
+				<lb/>soͤllent enandren helfen, das fallentor henken, der huber und wer
+				<lb/>sin guͦtt inn haͧtt.</p>
+				<p><lb/>Item der frid vacht an an dem vorgemelten fallentor und gätt an
+				<lb/>den hanfbu̍ntten abhin. So ferr als dez ammans gart gätt, glich
+				<lb/>dargegen u̍berhin und gätt der frid an allen hanf bu̍ntten abhin
+				<lb/>untz an der <placeName>Heilgen Bu̍ntt</placeName> und söllent die büntten den frid machen
+				<lb/>untz an der <placeName>Helgen Bu̍ntt</placeName>. Und wer denn dez schniders wingartten
+				<lb/>inn hätt, der selb sol oͧch den frid machen, als ferr der selb wingartt gätt.
+			</p>
+			<pb n='2' facs="A_97_3__Nr__3__S__2_.tif"/>
+			<p>
+				<lb/>Item wer den bifang inn hätt, sol oͧch den frid machen als verr der
+				<lb/>bifang gantt, und wer dez schniders guͦtt inn hätt, der selb sol oͧch
+				<lb/>den frid machen zwischen der bu̍ntt und der zelg abhin untz uff den
+				<lb/>bach abhin. Und sol der frid an allen wisen abhin gön untz an bach
+				<lb/>in <placeName>Undergrisch</placeName> und soͤllentt all wisen den frid machen. Und fächt
+				<lb/>der frid aber an by <persName>Uͤlli Steffans</persName> hus und gatt an der preitten abhin
+				<lb/>untz uff den bach. Und gaͧtt der frid uff hin untz an <placeName>Furtbach</placeName> an das
+				<lb/>fallentor. Wer <placeName ref="LOC_47.4789_8.70215">Tösser</placeName> guͦtt inne hätt und der <placeName>Ziegelhof</placeName>, soͤllentt das
+				<lb/>fallentor machen.</p>
+				<p><lb/>Item an der stafflen, wer die aͤker beider sit inne hätt nächst by dem
+				<lb/>fallentor, die soͤllent das fallentor machen und henken. Und facht
+				<lb/>der frid an dem selben fallentor an und gatt ab hin untz an der heilgen
+				<lb/>koͤlgarten und gätt an der heilgen koͤlgertli umhin untz an dez amm<lb break="no" />ans 
+				gartten und da selb abhin untz an den bach. Und soͤllent die garten
+				<lb/>den frid machen untz an bach, denn gätt der frid abhin untz an <placeName ref="LOC_47.4789_8.70215">Toͤsser</placeName>
+				<lb/>abhin, umbhin untz ans ertbru̍stli und sol der acker den frid daselb
+				<lb/>machen. Und gätt der frid aber ußhin untz ans kefi und denn von
+				<lb/>dem kefi abhin untz an das <placeName>Sinwelwisli</placeName> und fürer untz an die <placeName>Riett<lb break="no" />wis</placeName>
+				und dann zwischen der <placeName>Ruͤttwis</placeName> und dem <placeName>Sinwelwislin</placeName> abhin
+				<lb/>untz an der widum guͦtt, und da selb abhin zwischen brasters wisli
+				<lb/>und dem witten giessen, Und sol abhin gön zwischen <placeName ref="LOC_47.47943_8.90722">Tenniker</placeName> und <placeName ref="LOC_47.4789_8.70215">Tösser</placeName>
+				<lb/>guͦtt untz an <placeName ref="LOC_47.4789_8.70215">Toͤsser</placeName> wis und abhin an dez schniders wis und denn
+				<lb/>glich schlecht überhin untz an richli furtt und denn zwischen
+				<lb/>richli furt und der burg abhin untz an das <placeName>Owbachwisli</placeName>. Und
+				<lb/>soͤllent alle wisen den frid machen, und gätt abhin zwischen wisen
+				<lb/>wid ackren und dez <persName>Cleinheinis</persName> wis abhin. Und sol die wis den
+				<lb/>frid machen und gätt denn abhin untz an die erbeler wis und
+				<lb/>an der erbeller wis und an der erbeller wis ufhin untz am er<lb break="no" />beller 
+				und sol oͧch die wis den frid da machen. Und gätt ufhin
+				<lb/>am erbeller untz an die sträus und an der sträs ufhin untz an die
+				<lb/>büntt, die zuͦ der tagmess gehoͤrtt.</p>
+				<p><lb/>Item gaͧtt der frid zuͦ der andren siten, fächt am fallentor an und
+				<lb/>gätt die <placeName>Kilchgassen</placeName> uff untz an die bu̍ntt uff dem berg zwischen
+				<lb/>beiden zelgen, uffhin untz an die straus und an das fallentor. Und
+				<lb/>soͤllent beidersit enandren das fallentor helfen machen und haͤnken
+				<lb/>und gätt an der sträs ufhin untz an <placeName>Bu̍rkilo</placeName>. Und vor dem <placeName>Bu̍rkilo</placeName>
+				<lb/>abhin untz an die wis, die gen <placeName ref="LOC_47.28706_8.92092">Wald</placeName> hoͤrt und zuͦ ring umb die
+				<lb/>selben wis untz an das klein <placeName>Bürkilo</placeName> heltzli und vor dem holtz
+				<lb/>hin abhin untz an das fallentor. Und soͤllent die, so an das fallen<lb break="no" />tor
+				stossent, beidersit enandren helfen, das fallentor machen und
+				<lb/>henken. Und gaͧtt der frid aber ushin von dem selben fallentor untz
+				<lb/>an das guͦtt, das gen <placeName ref="LOC_47.28706_8.92092">Wald</placeName> hoͤrt.
+				<lb/>Item die sträs, so von <placeName ref="LOC_47.54888_8.83073">Kefiken</placeName> herin gaͧtt, facht an by struben eich
+				<lb/>und gätt durch dez <subst><del><persName>Zinggen</persName></del><add place="below" type="sign">spitals ackerli, genannt der <placeName>Blatten Guͦt</placeName></add></subst> ackerli und gätt an <persName>Münchwilers</persName>
+				<lb/>acker ufhin und an des <persName>Beklis</persName> acker und glich über dez <persName>Huͦbers</persName>
+				<lb/>acker ußhin und schlecht durch den grunt durhin untz ann <placeName>Asp<lb break="no" />acker</placeName> 
+				und durch den <placeName>Aspacker</placeName> untz an <placeName ref="LOC_47.4789_8.70215">Toͤsser</placeName> acker. Und an dem
+				<lb/>selben das fu̍rhöptt abhin under dez <persName>Schniders</persName> ackerli durchin
+				<lb/>untz zwischen <placeName ref="LOC_47.4789_8.70215">Toͤsser</placeName> guͦtt und der obren mu̍li und durch das guͦtt
+				<lb/>nider untz uff den bach und gaͧtt ufhin untz uff <placeName>Lewerren</placeName> an der
+				<lb/>kelnhof preitten ufhin. Und von <placeName>Leweren</placeName> us untz uff den <placeName>Hunger<lb break="no"/>bichel</placeName>
+				glich durch die forchen ußhin untz ans bechli und denn
+				<lb/>ze <placeName>Egghartz</placeName> durch nider untz an dez egghartz hag wisli abhin		
+			<pb n='3' facs="A_97_3__Nr__3__S__3_.tif"/>
+				<lb/>untz under dem aspi abhin. Fu̍r das holder hoͤffli abhin und vom
+				<lb/>holder hoͤflin für feldi abhin untz an die <placeName ref="LOC_47.59384_8.59112">Tur</placeName> gegen <placeName ref="LOC_47.59729_8.78482">Nider Niforen</placeName>.</p>
+				<p><lb/>Item die straus, so die <placeName>Losgassen</placeName> ushin gatt, welich daselb by dem fallentor guͤtter
+				<lb/>hönd, soͤllent beider sit das fallentor machen und henken. Und gätt die sträs
+				<lb/>ushin zwischen dem gern und der los an <persName>Cleinheinis</persName> acker und dem
+				<lb/>zwischen <persName>Kleinheinis</persName> acker und <persName>Mu̍nchwilers</persName> acker, durch das fuͦssloch
+				<lb/>wisli untz an die strauß.</p>
+        			<p><lb/>Item die straus gätt für <persName>Uͤlli Steffans</persName> hus ushin untz zum huͦbacker,
+				<lb/>ußhin uff <placeName>Leweren</placeName> untz an die straus und underm huͦbacker uß an
+				<lb/>dem brunnacker ußhin und gätt ze end ußhin untz an die rechten
+				<lb/>straus, und ist genantt ein <placeName>Eselweg</placeName>, sol sin, das ein ros ein zweymu̍ttigen
+				<lb/>sak da tragen mu̍g.</p>
+				<p><lb/>Item es sol oͧch vom dorf hinuß ein offner buwweg gön als ferr der bifang
+				<lb/>gätt, denn hätt die felwenwiß weg inher zwischen <persName>Mu̍nchwilers</persName> und
+				<lb/>dez alten schniders giettren und sol das ros in der furen und jetweds
+				<lb/>rad uff eim teil gon. Und an dem bifang ußhin untz an den graben
+				<lb/>hönd die selben guͤtter weg untz in das gessli, das ros in der furen
+				<lb/>und uff jetwedrem teil ein rad gön sol.</p>
+				<p><lb/>Item es sol oͧch ein offener buweg sin uß dem dorf untz an dez schnid<lb break="no" />ers
+				wingarten und hätt dez schniders wingart ein weg untz in
+				<lb/>das gessli. Und hatt <placeName>Spittaler Acker</placeName> obnan an dez schniders win<lb break="no" />gartten 
+				inher oͧch weg untz in das gessli.</p>
+        			<p><lb/>Item die gass, die durch die widum bu̍ntt sol goͧn zwischen der widum
+				<lb/>unnd <persName>Mu̍nchwilers</persName> guͤttren am bach ushin untz zuͦ der obren mu̍li,
+				<lb/>und wenn ein mu̍li da waͤr, so muͤst man den weg uftuͦn und zuͦ der
+				<lb/>mu̍li laussen faren.</p>
+				<p><lb/>Item <persName>Cleinheinis</persName> acker hatt weg durch <placeName ref="LOC_47.4789_8.70215">Toͤsser</placeName> hof untz an die straus
+				<lb/>und alle die, so an die straͧs stossent, hönd weg über sich selbs an die
+				<lb/>strauß.</p>
+				<p><lb/>Item welher mitt hus zuͦ <placeName ref="LOC_47.28706_8.92092">Wald</placeName> sitzt, der ist mitt uns und wir mitt imm
+				<lb/>weid genös und hatt recht in dem clein bürkenlelin zeholtzen
+				<lb/>und sol uns des großen gömen.</p>
+				<p><lb/>Item die taͤfer gehoͤrt in den hof gen <placeName ref="LOC_47.28706_8.92092">Wald</placeName> und sol der selb win und
+				<lb/>brött da han oder ein botten uff der straus. Und wenn er das nitt
+				<lb/>hätt, ist er umb iij <abbr></abbr> verfallen.</p>
+				<p><lb/>Item welich usser inher buwet, der sol mitt sinem zieenden fich
+				<lb/>und geriselten pflug in das dorf farn. Wenn er umb geert, so sol er
+				<lb/>risen und wider enweg farn und uns hie ungeiert laussen.</p>
+				<p><lb/>Item das undergris hatt weg durch das niderholtz ußhin und
+				<lb/>durch den greberweg ufhin.</p>
+				<p><lb/>Item die niderwisen, wele an die ow stoͤssent, hönd all weg durch die
+				<lb/>ow an brugen wasen.</p>
+				<p><lb/>Item die bergwis hätt weg durch das <placeName>Genswisli</placeName> uff und suss keine me.</p>
+				<p><lb/>Item das gessli an dem erttbristli hätt man weg weidrecht usshin
+				<lb/>ze varn in das riett im witten giessen.</p>
+				<p><lb/>Item und an herin uff dem bruggen wasen, herin under dez <persName>Schniders</persName>
+				<lb/>wis herin, da haͧtt man weidrecht ze farn inn witten giessen.</p>
+				<p><lb/>Item der berg hätt das recht, ushin ze karren die stafflen uffhin untz
+				<lb/>ußhin hindan durch dez seilers hanfbu̍ntt und durch die selben aͤker
+					<lb/>ußhin, untz an das gemu̍r und denn zeend inhin untz zuͦ dem huß
+				<lb/>uff dem berg.
+			</p>
+			<pb n='4' facs="A_97_3__Nr__3__S__4_.tif"/>
+			<p>
+				<lb/>Item <placeName ref="LOC_47.4789_8.70215">Toͤsser</placeName> preitt hätt das recht, das er sy zu̍nnen sol, als lieb sy im ist.
+				<lb/>Beschaͤch imm schad inhin, so gitt man im nu̍tz darum, es sy dann ein
+				<lb/>rechter zun brichel. Tuͦtt er aber schaden usher, sol er bezaln. Und glicher
+				<lb/>wis hätt die kelnhof preit soͤlich recht wie <placeName ref="LOC_47.4789_8.70215">Toͤsser</placeName> preitt.</p>
+				<p><lb/>Item die oͧwen hönd ein buweg durch ober widen ußhin.</p>
+				<p><lb/>Item wenn man ein how gitt, so sol ein weibel oͧch holtz höwen, so vil
+				<lb/>als billich ist. Und ist das <placeName>Krigenriett</placeName> oͧch eins weibels, also das
+				<lb/>nieman daͧrinn maͤgen sol, ein weibel erlob imm dann, doch hatt jetlicher
+				<lb/>da weidrecht.</p>
+				<p><lb/>Item wenn aichlen werdentt, so sol niemantt kein schitten noch lesen,
+				<lb/>e das ein gemeind eins wirtt, wie man die ding bruchen welt und
+				<lb/>welich aigen holtz hönd, mu̍gent darinn schitten und lesen. Und mag
+				<lb/>unser vech und schwin därin gön und weidgnös sin und wä einer
+				<lb/>schitt, da mag er den schwin dannen werren, untz er geliset under der
+				<lb/>selben eich. Und keiner sol kein rechtt haben, fremde schwin herin ze
+				<lb/>nemen, er hab eigen holtz oder nitt.
+			</p>
+        	</div>
+		</body>
+            	
+                <back>
+                <div>
+                	<p>Die älteste überlieferte Offnung von <placeName ref="LOC_47.56307_8.82418">Ellikon an der Thur</placeName> lässt sich anhand des Schriftbilds auf die Mitte des 15. Jahrhunderts datieren.
+                		Die Habsburger hatten in <placeName ref="LOC_47.56307_8.82418">Ellikon</placeName> seit dem 14. Jahrhundert einen Kehlhof, eine Mühle sowie die niedere und hohe Gerichtsbarkeit inne. Letztere
+                      war zwischen der Grafschaft <placeName ref="LOC_47.45249_8.7485">Kyburg</placeName> und der Landgrafschaft <placeName ref="LOC_47.5562_9.07686">Thurgau</placeName> geteilt. 
+                		Mit der Verpfändung Kyburgs an Zürich 1424 sowie des Landgerichts <placeName ref="LOC_47.5562_9.07686">Thurgau</placeName> an <placeName ref="LOC_47.66033_9.17582">Konstanz</placeName> im Jahr 1417
+                		(sowie erneut mit der Eroberung des <placeName ref="LOC_47.5562_9.07686">Thurgaus</placeName> durch die Eidgenossen 1460) teilten sich zwei Herrschaften die hohe Gerichtsbarkeit im Dorf. Die Entstehung der vorliegenden Offnung dürfte mit diesen 
+                	Besitzwechseln und der daraus resultierenden komplexen Situation zusammenfallen, welche die Fixierung und Abgrenzung von Rechten notwendig machte.</p>
+                	<p>Charakterisch für die Quellengattung der Offnungen (auch Weistümer genannt) steht auch im vorliegenden Text das Ziel im Vordergrund, Konflikte in den wirtschaftlichen Angelegenheiten des Dorfes zu vermeiden, 
+                	vor allem in Bezug auf Flurnutzung und 
+                    	Grenzziehung. Durch präzise niedergeschriebene Flurangaben, Weg- und Nutzungsrechte wurde versucht, Streitigkeiten unter den 
+                    	Nutzungsberechtigten zu umgehen. Dabei kombinierten die Verfasser wohl lokales Brauchtum und Gewohnheitsrecht mit Verträgen, Urteilen, 
+                    	Privilegien und Satzungsrechten. Meist existieren mehrere Offnungen für die einzelnen Gemeinden, das verschriftlichte Recht erfuhr 
+                    	nach mehreren Jahrzehnten gewisse Überarbeitungen. So ist auch für <placeName ref="LOC_47.56307_8.82418">Ellikon an der Thur</placeName> 
+                		eine weitere Fassung überliefert, die auf das Jahr 1572 datiert wird (<ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=608711">StAZH A 97.3, Nr. 4</ref>). Diese greift jedoch kaum den Inhalt der Offnung der 15. Jahrhunderts 
+                    	auf, sondern beschäftigt sich hauptsächlich mit Zins- und Steuerfragen. Auch die Entstehung dieser späteren Fassung
+                    	ist vermutlich im Zusammenhang mit einem Herrschaftswechsel zu sehen, da 1569 nach der hohen auch die niedere Gerichtsbarkeit und die Vogtei von den Herren von Goldenberg an <placeName ref="LOC_47.36667_8.55" >Zürich</placeName> überging.</p>
+                	
+                	<p>Zu Offnungen im Allgemeinen vgl. <bibl><ref target="https://hls-dhs-dss.ch/de/articles/008946/2011-11-02">HLS, Offnungen</ref></bibl>; <bibl><ref target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html">Teuscher 2001</ref></bibl><!-- Teuscher, Simon:  Kompilation und Mündlichkeit: Herrschaftskultur und Gebrauch von Weistümern im Raum Zürich (14.-15. Jahrhundert) -->;
+                		zur Ortsgeschichte von <placeName ref="LOC_47.56307_8.82418">Ellikon</placeName> vgl. <bibl><ref target="https://hls-dhs-dss.ch/de/articles/000145/2015-11-19/">HLS, Ellikon an der Thur</ref></bibl>; <bibl><ref target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html">Schneider 1989</ref></bibl>; 
+                		<bibl><ref target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html">Stauber 1894</ref></bibl><!-- Stauber, Emli: Geschichte der Gemeinde Ellikon an der Thur -->; zur Editionssituation 
+                		der Zürcher Offnungen im Allgemeinen vgl. <bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/Dateien/304/D1523837.pdf">StAZH A 97</ref></bibl>.</p>
+                	
+                	</div>
+                </back>
+            </text>
+            </group>
+    </text>
+</TEI>

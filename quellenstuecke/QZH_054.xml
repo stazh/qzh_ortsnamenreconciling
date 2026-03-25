@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='../../Ressourcen/Stylesheet.xsl'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Quellen zur Zürcher Geschichte</title>
+				<respStmt>
+					<persName>Lorenz Dändliker; Fiona Kneubühler; Tabea Moschettini</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Patrick Rüegg; Michael Schaffner</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Staatsarchiv des Kantons Zürich</publisher>
+				<date type="electronic" when="2021-05-01"/>
+			</publicationStmt>
+			<seriesStmt>
+				<title>Territorienbildung der Städte im Spätmittelalter</title>
+				<respStmt>
+					<persName>Laura Bitterli und Simon Teuscher</persName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>QZH_054</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=5125029"
+							>StAZH A 124.1, Nr. 25</idno>
+					</msIdentifier>
+					<head>Durch Hans Hagnauer, Vogt von Grüningen, eingenommene Kundschaften (Zeugenaussagen) zum Umgang mit Hinterlassenschaften von hingerichteten Personen in der Herrschaft Grüningen
+					</head>
+					<msContents>
+						<summary>Mehrere Personen aus der Herrschaft Grüningen werden durch Vogt Hans Hagnauer dazu befragt, wie gemäss Rechtsbrauch mit der Hinterlassenschaft von Hingerichteten umgegangen werden soll. Die Aussagen der Befragen stimmen dahingehend überein, dass der Leib des Toten an die Verwandten (<q>fründe</q>) gehe und das fahrende Gut an die Herren. Das  liegende Gut hingegen sollen die Herren nicht einziehen. </summary>
+						<msItem>
+							<textLang>Deutsch</textLang>
+							<filiation type="current">Aufzeichnungen (Heft)</filiation>
+							<filiation type="original"><origDate from="1436-01-01" to="1439-12-31">ca.</origDate></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support><material>Papier</material></support>
+								<extent/>
+							</supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin><origDate from="1436-01-01" to="1439-12-31">ca.</origDate></origin>
+					</history>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<editorialDecl>
+				<p>
+					<ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+				</p>
+			</editorialDecl>
+		</encodingDesc>
+		<profileDesc> </profileDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term ref="key000597">Erbrecht</term>
+					<term ref="key003994">Hochgerichtsbarkeit</term>
+					<term ref="key003261">Kundschaft</term>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div>
+				<pb n='1' facs="A_124_1__Nr__25__S__1_.tif"/>
+			<p>
+				<lb/>Ich, <persName>Hans Hagnower</persName>, vogt, han dis 
+				nachgeschr<damage agent="hole"><supplied resp="LB">ieben</supplied></damage> <damage agent="hole"><supplied resp="LB">kunt</supplied></damage>schafft
+				<lb/>alle verhöert bi geschwornen eiden und jekli<damage agent="hole"><supplied resp="msr">chen</supplied></damage>
+				<lb/>gefraget, ob jeman ze wüssen sig, wenn <damage agent="hole"><gap unit="cm" quantity="3.5"/></damage>
+				<lb/>tod verschult hat, er sig ein diep, ein ketzer, ein m<damage agent="hole"><supplied resp="LB">örder</supplied></damage> oder
+				<lb/>er hab ein mentschen liblos getan, da der lib den frunden
+				<lb/>sig erteilt und den herren das varend guot usgesundert
+				<lb/>sig, als jetz uff den lettsten landtag beschechen ist.
+				<lb/>Als ob man vormals schlecht hab den frúnden den lib
+				<lb/>erteilt und den herren das guot.</p>
+				<p><lb/>103</p>
+				<p><hi rend="font change"><lb/>Kuntschafft,
+				<lb/>ubeltäter
+				<lb/>guots.</hi>
+			</p>
+			</div>
+			<pb n='2' facs="A_124_1__Nr__25__S__2_.tif"/>
+			<div>
+				<pb n='3' facs="A_124_1__Nr__25__S__3_.tif"/>
+				<head type="subtitle"><placeName ref="LOC_47.49066_8.49987">Niderglatt</placeName></head>
+			<p>
+				<lb/>Item es seit der alt <persName>Baumgarter</persName>, er hab nie gehort den herren varend
+				<lb/>oder ligend guot us lütren, denn kein herr hab nie griffen zuo
+				<lb/>keinem ligenden guot.</p>
+				<p><lb/>Item <persName>Heini Mittler</persName> seit, das er nit wùss, das sölich guot je eigenlich
+				<lb/>usgelútret sig, denn er wol gehort hab, das ein ampt daz
+				<lb/>ligend guot versprochen hab, so man dar nach wolt fragen und
+				<lb/>kein her das ligend guot nie genam.</p>
+				<p><lb/>Es seit <persName>Heini Pfister</persName>, das er ouch nie gehört hab ligent oder varend
+				<lb/>uss súndern, denn daz kein herr nie kein ligend guot genaem.</p>
+				<p><lb/>Item es seit der <persName>Urs Torman</persName> gelich als der <persName>Mittler</persName>.</p>
+				<p><lb/>Item <persName>Ruedi Pfanner</persName> seit gelich als <persName>Heini Pfister</persName>.</p>
+				<p><lb/>Item <persName>Ueli Kùbler</persName> seit, das er <unclear>nie</unclear> hab gehóert den herren daz varend
+				<lb/>guot erteillen und nit daz ligend, denn er weiss nit an welem
+				<lb/>landtag das beschach.</p>
+				<p><lb/>Item <persName>Cueni Graff</persName> seit, das er ligend und varend guot nie gehört
+				<lb/>der herren uss sùndern, noch niemand mit dar in reden.</p>
+				<p><lb/>Item <persName>Hans Schùch</persName> seit, das vor fùnzig jaren einer den andren
+				<lb/>erstach von kriesin wegen, do ward den herren dz varend
+				<lb/>guot usgesùndert und namen ouch kein ligend guot.</p>
+				<p><lb/>Item <persName>Urs Bueler</persName> seit, das im dar umb nit sig ze wússen,
+				<lb/>denn er nie gehórt hab, das kein herr je kein ligenden
+				<lb/>guot nach griffen hab.</p>
+				<p><lb/>Es seit <persName>Hans Spiss</persName> gelich als <persName>Heini Pfister</persName> hie ob geseit hat.</p>
+				<p><lb/>Es seit der mùller von <placeName>Velbach</placeName>, das er es nie gehört sùndern.</p>
+				<p><lb/>Item es seit <persName>Hans Tanner</persName>, das im sig ein fründ erschlagen bi <persName>Gesslers</persName>
+				<lb/>ziten, das ted der <persName>Sirnacher</persName>, do ward erteilt den frùnden der
+				<lb/>lib und den herren daz guot, do namen die herren nun das varend
+				<lb/>guot und gab der <persName>Sirnacher</persName> den weisen des ligend guotz dar nach,
+				<lb/>do es verricht warti, und beschach das bi des alten <persName>Gesslers</persName> ziten
+				<lb/>und meint, das es sig bi sibenzig jaren.
+			</p>
+			</div>
+			<div>
+				<pb n='4' facs="A_124_1__Nr__25__S__4_.tif"/>
+				<head type="subtitle">Der hoff ze <placeName ref="LOC_47.31279_8.72325">Altorffen</placeName></head>
+			<p>
+				<lb/>Item es spricht <persName>Heintz Giger</persName> von <placeName>Rietlikon</placeName>, das er nie gehört hab
+				<lb/>ligend oder varend guot us súndern, aber die herren genemint nie
+				<lb/>kein ligend guot.</p>
+				<p><lb/>Item <persName>Hans Eberhart</persName> seit, das er es nie gehört hab das guot us súndren
+				<lb/>ligentz oder varentz, aber es genem nie kein herr das ligend guot
+				<lb/>daz im ze wussen sig.</p>
+				<p><lb/>Item <persName>Hans im Hoff</persName> seit gelich als <persName>Hans Eberhart</persName> geseit hat.</p>
+				<p><lb/>Item es seit der <persName>Fry</persName> von <placeName ref="LOC_47.32814_8.74608">Sultzbach</placeName>, daz er nie anders gehört hab
+				<lb/>erteillen, denn den frúnden den lib und den herren daz guot.</p>
+				<p><lb/>Item der <persName>Griss</persName> von <placeName ref="LOC_47.32814_8.74608">Sultzbach</placeName> seit, das er me denn 10 oder 12 malen
+				<lb/>da bi sig gesin und hab nie gehört daz guot súndern denn
+				<lb/>allwegen erteillen den frúnden den lib und den herren daz guot,
+				<lb/>aber kein herr greiff nie zim ligenden guot.</p>
+				<p><lb/>Item <persName>Jegli Giger</persName> seit, er hab allweg gehört den frúnden den lib
+				<lb/>erteillen und den herren das guot, aber er gehört nie, das
+				<lb/>kein herr dem ampt je griff in das ligend guot.</p>
+				<p><lb/>Item <persName>Heintz Keller</persName> seit als <persName>Hans Eberhart</persName> hie ob geseit hat.</p>
+				<p><lb/>Es seit gross <persName>Ueli Adelbrecht</persName>, das er gehört hab den alten <persName>Leman</persName>
+				<lb/>erteillen den frúnden den lib und den herren das guot und da
+				<lb/>ander lut zuo im sprachen daz varend guot, do sprech er, man
+				<lb/>bedarff sin amt, min herren fragent dem ligenden nit nach.</p>
+				<p><lb/>Item <persName>Heini Bantwart</persName> seit gelich als <persName>Jegli Giger</persName> geseit hat.</p>
+				<p><lb/>Item <persName>Hensli Zimberman</persName> seit gelich als gross <persName>Ueli Adelbrecht</persName>.</p>
+				<p><lb/>Item <persName>Sifrid Zimberman</persName> seit gelich als <persName>Jegli Giger</persName> geseit hat.</p>
+				<p><lb/>Item der alt <persName>Múller</persName> von <placeName ref="LOC_47.3002_8.70408">Túffental</placeName> seit, das er all sin tag nie
+				<lb/>anders gehörti erteillen denn den frúnden den lib und den herren
+				<lb/>das guot, aber kein herr genem nie kein ligend guot als
+				<lb/>verr im ze wissen sig.</p>
+				<p><lb/>Item der <persName>Troll</persName> von <placeName ref="LOC_47.34124_8.77131">Segreben</placeName> seit als ouch <persName>Jegli Giger</persName> geseit hat.
+			</p>
+			</div>
+			<div>
+				<pb n='5' facs="A_124_1__Nr__25__S__5_.tif"/>
+				<head type="subtitle">Die von <placeName ref="LOC_47.3051_8.75831">Gossow</placeName></head>
+			<p>
+				<lb/>Item es seit <persName>Welti Pfruonder</persName>, das er nie anders gehort hab, denn das
+				<lb/>man umb lút, die den tod verschult hand, schlecht den fúnden den
+				<lb/>lib erteilt und den herren das guot. Er hab aber nie gesechen
+				<lb/>noch gehoert, daz ein herr die frúnd je bekùmbret umm das ligend
+				<lb/>guot.</p>
+				<p><lb/>Item es seit <persName>Hans Mettler</persName>, das er nie me gehört hab dem herren
+				<lb/>us sùndren das varend guot, denn jetz uff den hindersten landtag.</p>
+				<p><lb/>Item es seit <persName>Heini Mettler</persName> gelich in aller der wise und masß
+				<lb/>als <persName>Welti Pfruonder</persName> hie obgeschriben geseit hat.</p>
+				<p><lb/>Item es seit <persName>Hans Pfruonder</persName> als ouch <persName>Welti Pfruonder</persName>.</p>
+			</div>
+			<div>
+				<head type="subtitle"><placeName ref="LOC_47.27632_8.75851">Binzikon</placeName></head>
+				<p>
+				<del><lb/>Item <persName>Ruotschman Pfenninger</persName> seit, das er allweg hab gehört schlecht
+				<lb/>erteillen den frúnden den lib und den herren das guot. Er hab
+				<lb/>es wol ettwen vormals gehort, da es aber nit daz mer ward.
+				<lb/>Aber er hab nie gesechen, das ein her je zuo dem ligenden guot
+				<lb/>langgitind.</del></p>
+				<p><lb/>Item <persName>Ruotschman Pfenninger</persName> seit, er hab ettwenn den alten <persName>Leman</persName>
+				<lb/>gehört erteillen schlecht den frùnden den lib und den herren daz guot,
+				<lb/>da wider hab er ouch gehört den herren erteillen daz varend
+				<lb/>guot, daz aber nit daz mer ward. Er hab aber nie gesechen, das
+				<lb/>kein her je zuo dem ligenden guot langoti, es sig von ûbeltetigen
+				<lb/>lúten wegen oder von todschlegen.</p>
+				<p><lb/>Item es seit <persName>Heini Gubler</persName> der alt, daz er das varend guot nie me hab
+				<lb/>gehört also ussúndren als nu uff den lettsten landtag, denn
+				<lb/>vor ziten, da er nit anders weiss denn es beschech bi des alten
+				<lb/><persName>Gesslers</persName> ziten, do solt der alt <persName>Lema</persName>, selig, erteillen, do näm er
+				<lb/>gemeins ampt an sin rat, do könd inn ein gemein ampt nit
+				<lb/>ûberkomen, das er das varend guot wölt dem herren us súndren.
+				<lb/>Denn er erteilt schlecht den frúnden den lib und den herren daz guot
+				<lb/>und redt dar uff, daz man so guot herren je und je hett gehan,
+				<lb/>daz kein herr nie hett zuo dem ligenden guot griffen.
+			</p>
+			</div>
+			<div>
+				<pb n='6' facs="A_124_1__Nr__25__S__6_.tif"/>
+				<head type="subtitle"><placeName ref="LOC_47.27632_8.75851">Bintzikon</placeName></head>
+			<p>
+				<lb/>Es seit <persName>Lûti Zender</persName>, das er meine, er sig me denn zweintzig mälen
+				<lb/>by sölichen sachen gesin und hab nie anders gehört denn schlecht
+				<lb/>erteillen den frùnden den lib und den herren das guot denn
+				<lb/>jetz uff den hindersten landtag.</p>
+				<p><lb/>Es seit <persName>Ruedi Scherer</persName>, das er vormals allweg gar schlecht hab
+				<lb/>gehört erteillen den frúnden den lib und den herren das guot,
+				<lb/>aber er gehört nie kein herren das ligend guot nemen.</p>
+			</div>
+				<div>
+					<head type="subtitle"><placeName ref="LOC_47.29976_8.69032">Egg</placeName></head>
+				<p>	
+					<lb/>Item <persName><choice><abbr>U</abbr><expan>Ulrich</expan></choice> Weber</persName> von <placeName ref="LOC_47.29976_8.69032">Egg</placeName> seit, das bi des grossen <persName>Heinrich Hagnowers</persName> ziten
+				<lb/>ouch einer verurteilt ward, da wurd ouch daz varend guot den
+				<lb/>herren usgesúndert, und das nie kein man gesechen, daz je kein her
+				<lb/>das ligend guot genem.</p>
+				<p><lb/>Item <persName>Heini Wissman</persName> seit, daz er wol me hab gehort den herren
+				<lb/>daz varend guot erteillen, aber er hab nie gehört, daz kein herr
+				<lb/>je kein ligend guot genem.</p>
+				<p><lb/>Item es seit <persName>Heini Boller</persName>, das er wol wùsß <del>das lut segend</del>,
+				<lb/>das <persName>Heinrich Hagnower</persName> vogt ze <placeName ref="LOC_47.28333_8.75">Gruenigen</placeName> wer, do wolt man
+				<lb/>an einem landtag, daz der <persName>Leman</persName> das guot hett gesúndert, do sprech
+				<lb/>der <persName>Leman</persName>, ich wil kein nùwes da machen noch sùndern, man
+				<lb/>bedarff sin nit, die herren nemet doch kein ligend guot
+				<lb/>und seit fùrbas, daz ein grill ze <placeName ref="LOC_47.3264_8.79779">Wetzikon</placeName> sin wib hett ermùrt,
+				<lb/>do nem der herr das varend guot und kein ligend, daz ist
+				<lb/>wol bi sechszig jaren.
+			</p>
+				</div>
+				<div>
+					<pb n='7' facs="A_124_1__Nr__25__S__7_.tif"/>
+					<head><placeName ref="LOC_47.28482_8.79991">Herbstmettlen</placeName><!-- msr: Herschmettlen -->, <placeName ref="LOC_47.2946_8.78194">Optikon</placeName></head>
+			<p>
+				
+				<lb/>Es seit klein <persName>Hans Loew</persName>, das er nie hab gehort den herren
+				<lb/>das ligend guot erteillen oder daz si daz je genomen habind.</p>
+				<p><lb/>Es seit <persName>Heini Mùrri</persName>, das er nie anders hab gehört von <persName>Leman</persName>
+				<lb/>denn den frúnden den lib erteillen und den herren daz varend guot
+				<lb/>umb todschleg und sus umb ùbeltetig lút sig im nit
+				<lb/>ze wússen und kend ouch nit wussen, an welen todschlag
+				<lb/>er das gehöret hab erteillen, do man inn darumb fragt.</p>
+				</div>
+			<div>
+				<head type="subtitle"><placeName ref="LOC_47.32023_8.75775">Bertschikon</placeName></head>
+				<p>
+				<lb/>Item es seit <persName>Peter Hertenstein</persName>, das er wol wúsß, das man vormals
+				<lb/>ouch hab den herren das varend guot mit usgenomen worten
+				<lb/>erteilt, do man den <persName>Fryman</persName> entouptet, do junkher <persName>Hans Schwend</persName>
+				<lb/>der alt des ersten vogt ward.</p>
+				<p><lb/>Item es seit <persName>Cueni Riff</persName>, das er nie hab gehort den herren daz varend
+				<lb/>guot us súndern, denn er hab allweg gehort, das den frúnden
+				<lb/>der lib erteilt sig und den herren das guo. Er gesech aber nie,
+				<lb/>daz kein herr zum ligenden guot griff.</p>
+				<p><lb/>Item es seyt der wirt von <placeName ref="LOC_47.32023_8.75775">Bertschikon</placeName>, das er me denn ze drissig
+				<lb/>mälen da bi sig gesin und gehort den herren daz varend guot
+				<lb/>nie ussúndren, denn er allweg hab gehört erteillen vom <persName>Leman</persName>
+				<lb/>und von andern den herren daz guot, doch so genem kein herr
+				<lb/>nie kein ligend guot.</p>
+				<p><lb/>Item <persName>Ziner</persName> von <placeName ref="LOC_47.32023_8.75775">Bertschikon</placeName> spricht, das er allweg hab gehört
+				<lb/>den herren das guot erteillen, aber kein herr hab nie zum
+				<lb/>ligenden guot griffen, won es wölt das ampt den herren nie
+				<lb/>gestatten.
+			</p>
+			</div>
+			<div>
+				<pb n='8' facs="A_124_1__Nr__25__S__8_.tif"/>
+				<head type="subtitle"><placeName ref="LOC_47.23925_8.72314">Oetikon</placeName></head>
+			<p>
+				<lb/>Item <persName>Welti Rebman</persName> seit, das er vor ziten wol hab me spenn und
+				<lb/>stöss dar umb an offen gericht gehört, doch so gehort er nie
+				<lb/>das kein herr je kein ligend guot genem, daz beschach bi <persName>Heinrich
+				<lb/>Hagnowers</persName> ziten.</p>
+				<p><lb/>Item <persName><choice><abbr>R</abbr><expan>Rudolf</expan></choice> Nùrsel</persName> seit, das er nie anders gehört hab, denn das die
+				<lb/>herren das varend guot nemind und nit das ligend.</p>
+				<p><lb/>Item <persName>Heini Suter</persName> seit, daz der alt <persName>Gessler</persName> und die andren herren bi
+				<lb/>45 jaren allwegen namen nim das varend guot und nit daz
+				<lb/>ligend, einer wer ein diep, ein morder oder ketzer ald einer wer manschlechter.</p>
+				<p><lb/>Item <persName>Hans Lûti</persName> seit, das er den <persName>Leman</persName> hab gehort erteillen
+				<lb/>und öch nie anders gehort hab, denn den herren daz varend guot
+				<lb/>und nit das ligend.</p>
+				<p><lb/>Item es seit <del>Uel</del> <persName>Heini Múller</persName> von <placeName ref="LOC_47.242222_8.7225">Oberhusen</placeName>, das wol bi 24 jaren
+				<lb/>sig do <persName><abbr>R</abbr><expan>Rudolf</expan> Ebi</persName> <persName>Hansen</persName> von <placeName ref="LOC_47.23443_8.77716">Schirmense</placeName> erstach, do <persName>Heini Hagnower</persName>
+				<lb/>vogt was, do erteilt der <persName>Leman</persName> den herren das varend guot
+				<lb/>und den frúnden den lib und sprech ouch, wie ein man den tod
+				<lb/>verschult hetti, so wer dem gericht der lib <del>ur</del> erteilt und verfallen
+				<lb/>und den herren daz varend guot. Er hab ouch wol gehört
+				<lb/>schlecht erteillen den frùnden den lib und den herren daz guot,
+				<lb/>aber kein herr genem nie kein ligend guot.</p>
+				<p><lb/>Item <persName>Jegli Singer</persName> seit, das er dik hab gehört den <persName>Leman</persName>
+				<lb/>erteillen denn frùnden den lib und den herren daz varend guot,
+				<lb/>aber er kond nit gesagen, uff welem landtag er daz hat gehört.</p>
+				<p><lb/>Item es seit <persName>Heini Wirtz</persName> von <placeName ref="LOC_47.2367_8.7573">Uerikon</placeName>, daz er nie anders hab gehört
+				<lb/>all sin tag bi des alten <persName>Gesslers</persName> ziten, das kein herr je kein
+				<lb/>ligend guot genem, einer wer ein dieb ald ein ketzer ald wie
+				<lb/>er den lib verschult hett, so nemind doch die herren nim
+				<lb/>das varend guot.
+			</p>
+				<pb n='9' facs="A_124_1__Nr__25__S__9_.tif"/>
+			<p>
+				<lb/>Item es seit <persName>Ruedi Kindenman</persName> von <placeName ref="LOC_47.29449_8.75548">Tegernow</placeName>, daz er nie anders hab
+				<lb/>gehört erteillen, denn den frúnden den lib und den herren
+				<lb/>das guot. Denn er nie gesechn hab, daz kein her je zum ligenden
+				<lb/>guot nicht griffen habind.</p>
+				<p><lb/>Item es seit <persName>Hans Tentlikon</persName> uss dem <placeName ref="LOC_47.29359_8.74442">Jungholtz</placeName>, das er ni anders
+				<lb/>hab gehört erteillen, denn den frúnden den lib und den heren
+				<lb/>das varend guot, und do man in fragt uff welem landtag
+				<lb/>er daz gehort hab, daz kond er nit wússen, won daz ze <placeName ref="LOC_47.28333_8.75">Gruenigen</placeName>
+				<lb/>beschechen were.
+				</p>
+			</div>
+			<div>
+				<head type="subtitle"><placeName ref="LOC_47.27856_8.84156">Dùrnten</placeName></head>
+				<p>
+				<lb/>Item es seit <persName>Hans Tottnower</persName> seit, das er nie hab nie gehört,
+				<lb/>das guot us súndery, als jetz uff den lettsten landtag,
+				<lb/>denn schlecht erteillen den herren das guot.
+					<lb/>Item <persName>Cueni Egg</persName> seit, das er me denn vierzyg jar gen <placeName ref="LOC_47.28333_8.75">Gruenigen</placeName>
+				<lb/>sig ze gericht gangen und hab wol gehort erteillen den frúnden
+				<lb/>den lib und den herren das guot. Aber doch kein herr bekúmbert
+				<lb/>kein arm man nie umb kein ligend guot.</p>
+				<p><lb/>Item <persName>Heini Rumbelhart</persName> seit als <persName>Cueni Egg</persName> geseit hat.</p>
+				<p><lb/>Item <persName>Peter Boner</persName> hett geseit, das er nie anders hab gehort erteillen,
+				<lb/>denn nach der graffschafft recht den frúnden den lib und
+				<lb/>den herren das guot.</p>
+				<p><lb/>Item <persName>Heini Schnider</persName> seit als ouch der <persName>Tottnower</persName> geseit hat.</p>
+				<p><lb/>Item <persName><choice><abbr>U</abbr><expan>Ulrich</expan></choice> Egg</persName> seit, das er es hab gehort schlecht erteillen
+				<lb/>den herren daz guot und den frúnden der lib und hab es öch
+				<lb/>gehort súndern bi des <persName>Gesslers</persName> ziten und bi<persName> Heini Hagnowers</persName>
+				<lb/>ziten, do ein pfaff ze <placeName ref="LOC_47.34713_8.72091">Uster</placeName> erstochen ward, da ouch ettwer fúrkam.</p>
+				<p><lb/>Item <persName>Bertschi Gubelman</persName> seit, er hab wol gehort den frùnden den
+				<lb/>lib erteillen und den herren das varend guot, aber er weiss
+				<lb/>nit an welem landtag das beschach.</p>
+				<p><lb/>Item <persName>Welti Gubelman</persName> seit als <persName>Hans Tottnower</persName> geseit hat.</p>
+					<p><lb/>Item <persName><choice><abbr>U</abbr><expan>Ulrich</expan></choice> Schmid</persName> ab dem <placeName>Wechsel</placeName> seit, daz <subst><del>man</del><add place="above">er</add></subst> allweg hab schlecht
+				<lb/>gehört den herren das guot erteillen und den frúnden den lib,
+				<lb/>doch genem kein herr nie kein ligend guot.
+			</p>
+			</div>
+			<div>
+				<pb n='10' facs="A_124_1__Nr__25__S__10_.tif"/>
+				<head type="subtitle"><placeName ref="LOC_47.28333_8.75">Grueningen</placeName></head>
+			<p>
+				<lb/>Item es seit <persName>Cuonrat Pfister</persName>, do der <persName>Grossman Hagnower</persName> vogt zuo <placeName ref="LOC_47.28333_8.75">Grüningen</placeName>, und
+				<lb/>do sprech der selb vogt in einem landtag, do es an erteillen gieng,
+				<lb/>ir herren nu erteillent darnach won ich wil han, waz ir mir
+				<lb/>erteillent. Do sprech der alt <persName>Leman</persName>, ich wil erteillen, als ich
+				<lb/>ouch die alten vor mir han gehört erteillen und ich vormals
+				<lb/>me erteilt han und mich recht dunkt, und erteilt öch den
+				<lb/>frúnden den lib und den herren das guot, und sprach dar uff
+				<lb/>man weiss doch wol, daz kein herr kein ligend guot nimpt,
+				<lb/>wem daz ampt hett gern gesechen, das er daz guot gesundert
+				<lb/>hetti und hatt dar uff rät, do wolt es der <persName>Leman</persName> nit súndern
+				<lb/>und erteilt als ob stat.</p>
+				<p><lb/>Item es seit <persName>Hans Murer</persName> am Espann gelich in aller wiss und
+				<lb/>mass als <persName>Cuonrat Pfister</persName> geseit hat.
+			</p>
+			</div>
+			<div>
+				<pb n='11' facs="A_124_1__Nr__25__S__11_.tif"/>
+				<head type="subtitle">Die von <placeName ref="LOC_47.28706_8.92092">Wald</placeName></head>
+			<p>
+				<lb/>Item<persName>Ruegga Cuontz</persName> seit, das er sich nit wol kúnne bedenken, wie man
+				<lb/>das erteille, denn das er nie anders hab gehort, das die herren nút me
+				<lb/>namen den die varende hab.</p>
+				<p><lb/>Item <persName>Heini Schufelberg</persName> seit, das er allweg hab schlecht gehört
+				<lb/>den frúnden den lib erteillen und den herren das guot, aber
+				<lb/>er gehort nie daz kein her je kein ligend guot genemind.</p>
+				<p><lb/>Item <persName>Herman Brendli</persName> seit gelich als <persName>Heini Schufelberg</persName>.</p>
+				<p><lb/>Item der <persName>Langenrúter</persName> seit, do im sin bruoder erschlagen wurd, da sig
+				<lb/>im wol ze wussen, das den frúnden der lib erteilt wurd und
+				<lb/>den herren die varend hab.</p>
+				<p><lb/>Item <persName>Brendli</persName> seit, das er nie anders gehört hab erteillen denn den
+				<lb/>frúnden den lib und den herren das varend guot, doch er weiss
+				<lb/>nit an welem landtag.</p>
+				<p><lb/>Item <persName>Heini Graf </persName>im <placeName>Riet</placeName> seit als der <persName>Schufelberg</persName>.</p>
+				<p><lb/>Item <persName>Welti Gartner</persName> seit, als einer sig verbrent worden, do horte
+				<lb/>er ein erteillen den herren lib und guot, do rette einer da wider
+				<lb/>und sprech nun das varend guot.</p>
+				<p><lb/>Item <persName>Cuoni Rotenfluo</persName> seit als <persName>Welti Gartner</persName>.</p>
+				<p><lb/>Item als man fragt den <persName>Brunner</persName> von <placeName ref="LOC_47.265_8.92851">Laupen</placeName>, do antwurt er und
+				<lb/>sprach, mir ist nit darumb ze wissen, dann als ich darumb
+				<lb/>stoess ze <placeName ref="LOC_47.28333_8.75">Gruenigen</placeName> hort uff sölich won der alt <persName>Dietzinger</persName> gar
+				<lb/>ein alt man sig, hab er inn ahn all geverd darumb gefraget.
+				<lb/>Der antwurti im und sprech, er wer wol bi hundert und
+				<lb/>zwentzig jar alt und gehorti nie anders erteillen denn
+				<lb/>schlecht den frúnden den lib und den herren daz guot,
+				<lb/>doch genem nie kein herr kein ligend guot.</p>
+				<p><lb/>Item <persName>Peter</persName> ab <placeName ref="LOC_47.261_8.91057">Gúntersperg</placeName><!-- msr: Güntisberg, Gemeinde Wald --> seit als <persName>Heini Schufelberg</persName> geseit hat.</p>
+				<p><lb/>Item es spricht <persName>Heini Wartis</persName>, das ers nie hab gehört, das guot
+				<lb/>als eigenlich us súndren als jetz uff den lettsten landtag.</p>
+				<p><lb/>Item <persName>Cuoni Grob</persName> seit als <persName>Ruedi Brendli</persName> geseit hat.</p>
+				<p><lb/>Item <persName>Heini Wernli</persName> seit als der <persName>Schufelberg</persName>.
+			</p>
+				<pb n='12' facs="A_124_1__Nr__25__S__12_.tif"/>
+				<pb n='13' facs="A_124_1__Nr__25__S__13_.tif"/>
+				<pb n='14' facs="A_124_1__Nr__25__S__14_.tif"/>
+			</div>
+		</body>
+		<back>
+			<div><p>
+				Zu den Grüninger Kundschaften vgl. den Kommentar zu <bibl><ref target="https://qzh.sources-online.org/quellenstuecke/QZH_044">QZH, Nr. 44</ref></bibl>.
+			</p></div>
+		</back>
+	</text>
+</TEI>

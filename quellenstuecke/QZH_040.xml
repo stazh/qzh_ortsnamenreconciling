@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='../../Ressourcen/Stylesheet.xsl'?>
+<?xml-model href="http://www.tei-c.org/ns/1.0" type="application/xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Quellen zur Zürcher Geschichte</title>
+				<respStmt>
+					<persName>Sarah Murer. Mit einem Kommentar von Sarah Murer und Michael Schaffner</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Sarah Murer und Michael Schaffner</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Staatsarchiv des Kantons Zürich</publisher>
+				<date type="electronic" when="2021-05-01"/>
+			</publicationStmt>
+			<seriesStmt>
+				<title>Quellen zur Zürcher Geschichte</title>
+				<respStmt>
+					<persName>Staatsarchiv des Kantons Zürich</persName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>QZH_040</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=5083540"
+							>StAZH B V 168, S. 40</idno>
+					</msIdentifier>
+					<head>Instruktion für die nach Stäfa abgeordnete Untersuchungskommission des
+						Zürcher Rates</head>
+					<msContents>
+						<summary>Der Rat instruiert die in Folge des Stäfner Memorials abgeordnete
+							Standeskommission am 3. Juli 1795 über ihre Aufgaben. Erstens soll sie
+							den Richter Johannes Büeler, den Leutnant und Gemeindesäckelmeister
+							Johann Jakob Bodmer, den Landrichter Dändliker, Säckelmeister
+							Pfenninger, Heinrich Wädensweiler und den Kanzleiverwalter Kaspar
+							Billeter festnehmen und ihre Schriften sicherstellen. Zweitens sollen
+							die genannten und weitere Personen verhört und wenn nötig verhaftet
+							werden. Drittens sollen vor Ort Verhöre durchgeführt werden, bei denen
+							nicht nur die schon bekannten Schuldigen befragt werden sollen, sondern
+							auch andere involvierte Personen, welche der Obrigkeit treu geblieben
+							sind. Viertens soll sie nach ihrer Ankunft in Stäfa festlegen, wann
+							entweder die Ausserkraftsetzung der Beschlüsse der Gemeindeversammlung
+							oder die Bekräftigung der Sicherheitsmassnahmen verkündet werden
+							soll.</summary>
+						<msItem>
+							<textLang>Deutsch</textLang>
+							<filiation type="current">Eintrag</filiation>
+							<filiation type="original"><origDate when="1795-07-03"/></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support><material>Papier</material></support>
+								<extent/>
+							</supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin><origDate when="1795-07-03"/></origin>
+					</history>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<editorialDecl>
+				<p>
+					<ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+				</p>
+			</editorialDecl>
+		</encodingDesc>
+		<profileDesc> </profileDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term ref="key000598">Ausweisung</term>>
+					<term ref="key000590">Delinquenz</term>
+					<term ref="key004966">Gemeinde</term>
+					<term ref="key000334">Gefängnis</term>
+					<term ref="key003389">Inhaftierung</term>
+					<term ref="key005471">Revolution</term>
+					<term ref="key001001">Ungehorsam</term>
+					<term ref="key000668">Unruhen</term>
+					<term ref="key003025">Urkunde</term>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+
+		<group>
+			<text>
+				<body>
+					<pb n="40" facs="B_V_168__S__40_.tif"/>
+					<div>
+							<head>Instruction <lb/>für die nach <placeName ref="LOC_47.24254_8.72342"
+								>Stäfa</placeName> abgeordnete standes commission.</head>
+						<p>
+								<lb/><choice><abbr>Mngnhh:</abbr><expan>Meine gnädigen, hohen Herren</expan></choice> haben der nach <placeName
+								ref="LOC_47.24254_8.72342">Stäfa</placeName> verordneten standes
+							commission zu ihren be<lb break="no"/>vorstehenden verrichtungen
+							nachfolgende instruction ertheilt:</p>
+							<p><lb/><abbr>1°:</abbr> Durch die
+							ansehnliche kriegs commißion dem <abbr>hh:</abbr> obrist commandant
+								<persName>von Steiner</persName> die 
+								<lb/>ordre zustellen zu laßen,
+							daß sich bäldest nach besiznehmung des orts folgender per<lb break="no"
+							/>sohnen, nemlich 
+								<lb/>1. richter <persName>Johannes Büeler</persName><note>Landrichter <persName>Johannes Büeler</persName> war sowohl am Memorial
+									als auch am Stäfnerhandel beteiligt; er wurde später
+									Bezirksgerichtspräsident. Der Rat verurteilte ihn dazu, drei Jahre nicht
+									mehr als Landrichter agieren zu dürfen und zu einer Geldstrafe von 8000
+									Gulden <q>aus seinem grossen Vermögen</q> (<bibl><ref
+										target="https://ratsmanuale-zuerich.transkribus.eu/document/260873/pages/75?t=B%C3%BCler"
+										>StAZH B II 1050, S. 147</ref></bibl>).</note>
+							zu <placeName ref="LOC_47.2367_8.7573">Üriken</placeName>, <lb/>2.
+							lieutenant und gmeinds sekelmeister <persName>Hans
+								Jacob Bodmer</persName>,<note>Leutnant und Säckelmeister <persName>Johann Jakob Bodmer</persName> war
+									erst ab Frühling 1795 in den Stäfnerhandel involviert. Er war Leiter der
+									Stäfner Deputation, welche in <placeName ref="LOC_47.31971_8.61219"
+										>Küsnacht</placeName> nach alten Urkunden suchte, beendete aber
+									diese Tätigkeit, als die Obrigkeit ein Verbot aussprach. In Abwesenheit
+									wurde er im Mai in den Ausschuss gewählt, der <placeName
+										ref="LOC_47.24254_8.72342">Stäfas</placeName> alte Rechte in
+									<placeName ref="LOC_47.36667_8.55">Zürich</placeName> einfordern
+									sollte. <persName>Bodmer</persName> wurde in Folge dieser Instruktion im
+									Wellenberg inhaftiert, als <q>Hauptbeschuldigter</q> am Stäfnerhandel am 3.
+									September symbolisch hingerichtet und sollte danach lebenslang im
+									Oetenbach verwahrt werden (<bibl><ref
+										target="https://ratsmanuale-zuerich.transkribus.eu/document/260873/pages/63?t=Bodmer"
+										>StAZH B II 1050, S. 122f.</ref></bibl>). Nach seiner Befreiung
+									im Februar 1798 wurde <persName>Bodmer</persName> als politischer
+									<q>Märtyrer</q>, beziehungsweise <q>Patriot</q> der Alten Eidgenossenschaft
+									beliebt und zu einem der vier Senatoren <placeName
+										ref="LOC_47.36667_8.55">Zürichs</placeName> in <placeName
+											ref="LOC_47.39254_8.04422">Aarau</placeName>, der damaligen
+									Hauptstadt der Helvetischen Republik, gewählt.</note> <lb/>3. landrichter
+								<persName>Dändliker</persName><note>Landrichter <persName>Johannes Dändliker</persName> wurde am Nachmittag
+									des 5. Julis mit <persName>Johann Jakob Bodmer</persName> zusammen <q>ohne
+									Aufsehen</q> in Stäfa festgenommen (<bibl><ref
+										target="https://ratsmanuale-zuerich.transkribus.eu/document/260873/pages/18?t=D%C3%A4ndliker"
+										>StAZH B II 1050, S. 33f.</ref></bibl>). Die Ratsherren
+									verurteilten ihn zu lebenslänglichem Hausarrest und zu einer Geldstrafe
+									von 4000 Gulden. Zudem musste er sein Amt als Landrichter
+									aufgeben (<bibl><ref
+										target="https://ratsmanuale-zuerich.transkribus.eu/document/260873/pages/75?t=D%C3%A4ndliker"
+										>StAZH B II 1050, S. 147</ref></bibl>).</note> in der
+							<placeName>Hohlgaß</placeName>, <lb/>4. sekelmeister
+								<persName>Pfenninger</persName>,<note>Mit <q>Säckelmeister Pfenninger</q> ist höchstwahrscheinlich <persName>Rudolf
+									Pfenninger</persName>, Säckelmeister von Stäfa und Bruder von
+									<persName ref="GND_
+										104090413">Johann Kaspar Pfenninger</persName>, gemeint. Er
+									war sowohl in das Memorial – durch <q>Beistimmung</q> – als auch in den
+									darauffolgenden Stäfnerhandel involviert. Bereits am 14. Januar 1795
+									wurde er, als sogenannter Fehlbarer zweiter Klasse, zu einer Geldstrafe
+									von 15 Mark Silber verurteilt (<bibl><ref
+										target="https://ratsmanuale-zuerich.transkribus.eu/document/293686/pages/16?t=Pfenninger%20Pfen%CC%84inger"
+										>StAZH B II 1048, S. 30</ref></bibl>) und versuchte einer
+									erneuten Gefangennahme durch Flucht zu entkommen, stellte sich aber bald
+									der Justiz und wurde am 2. September, als einer von sechs
+									Hauptschuldigen, erneut verurteilt; er sollte für 20 Jahre im Zuchthaus
+									verwahrt werden und sein Hab und Gut wurde konfisziert (<bibl><ref
+										target="https://ratsmanuale-zuerich.transkribus.eu/document/260873/pages/65?t=Pfenninger%20Pfen%CC%84inger"
+										>StAZH B II 1050, S. 123-128</ref></bibl>).
+									<persName>Pfenninger</persName> wurde jedoch am 29. Januar 1798
+									infolge der Amnestie entlassen.</note> <lb/>5. <persName>Heinrich
+										Wädischweiler</persName><note><persName ref="GND_1033021792">Kaspar Billeter</persName> und
+											<persName>Heinrich Wädensweiler</persName> flohen an diesem Tag nach
+											<placeName ref="LOC_46.6587_9.62296">Graubünden</placeName>. Vgl. dazu den
+											Kommentar zu <ref target="https://qzh.sources-online.org/quellenstuecke/QZH_041">QZH, Nr. 41</ref>.</note> im <placeName>Mieß</placeName>, <lb/>6.
+							canzleyverwalter <persName>Billeter</persName>, <lb/>versicheret,
+							dieselben bis zur ankonft der repræsentantschaft und bis auf deren
+							<lb/>weitere ordre bewachet, auch in ihren haüßeren die vorfindliche
+							scripturen weggenoh<lb break="no"/>men und einsweil sorgfältig verwahret
+							werden.</p>
+						<p><lb/><abbr>2°:</abbr> Die repræsentantschaft wird jene 6.
+							männer, und alle jene, welche bereits citirt gewe<lb break="no"/>sen 
+							und ausgeblieben sind, über die haupt momente dieses strafbaren handels in ver<lb break="no"/>hör 
+							ziehen, <abbr>u:</abbr> diejenig aus ihnen, die ihro nöthig bedunkt, gewahrsamlich mit hilfe des 
+							<lb/>militairs nach <placeName ref="LOC_47.36667_8.55">Zürich</placeName> zum verhaft einliefern, wo sie nach zurükkonft der
+								Repræsentant<lb break="no"/>schaft masgeblich der weitern local
+							visitation umständlicher zu inquirieren <lb/>seyn werden.</p>
+								<p><lb/><abbr>3°:</abbr> Bey dieser local visitation werden nicht nur
+							die bekannten mitschuldigen, so zu dem <lb/>konventikel geordnet worden,
+							sondern alle und jede, welchen schon bekanntermaßen &amp; nach
+							<lb/>mitgab der weiteren untersuchung fehltritte &amp; theilnahmen an den
+							mißschritten zu <lb/>schulden kommen, zum verhör gezogen; nicht weniger
+							aber den hofgenoßen, welche ihrer <lb/>obrigkeit treü geblieben seyn
+							mögen und jedoch dieses thätlich zu beweisen durch <lb/>forcht und zwang
+							der anstifteren &amp; complices behindert worden, verhör gestattet <lb/>werden.</p>
+								<p><seg><lb/><abbr>4°.</abbr> Ob nun gerade anfangs oder im lauf der local
+							untersuchung ein öffentlicher feyer<lb break="no"/>licher actus, es sey
+							zu entbindung der gemeind von dem lezthin neu bestäthigten band des
+							<lb/>gemeindschlußes vom 16. mey oder zu bestärkung der nöthigen
+							sicherheits maasreg<lb break="no"/>len, vorzunehmen seye? wird von den
+							bey ankonft in <placeName ref="LOC_47.24254_8.72342">Stäfa</placeName>
+							ab seite des commando er<lb break="no"/>haltenden anzeigen über die 
+							getroffenen anstalten <abbr>etc.</abbr>, <abbr>etc.</abbr> und von den ersten unter<lb break="no"
+							/>suchungs schritten abhangen, mithin dißfalls nach umständen zu handlen
+							der re<lb break="no"/>præsentantschaft überlaßen, welche indeßen sich
+							bestreben wird, ihre ver<lb break="no"/>richtungen möglicht zu
+							beförderen.</seg> <seg>Geben den <origDate when="1795-07-03">3ten julii
+								1795</origDate>.</seg></p>
+									<p><lb/><choice><abbr>L: s:</abbr><expan>Locus sigilli</expan></choice>,
+							<lb/>canzley der stadt <placeName ref="LOC_47.36667_8.55">Zürich</placeName>.</p>
+					</div>
+				</body>
+				<back>
+					<div>
+						<p>Die Ratsurkunden (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=236019">StAZH B V</ref></bibl>), denen die vorliegende Instruktion entnommen ist,
+							bilden eine zentrale vormoderne Serie des Staatsarchivs, 
+							die den Zeitraum von der Wende zum 15. Jahrhundert bis 1798 umfasst, wobei der chronologische Schwerpunkt auf der Zeit nach 1500 liegt.</p>
+						<p>Sie dokumentieren den normativen Ausfluss der Sitzungen des Kleinen Rats, gerade auch mit Blick auf sein  Wirken als Gerichtsinstanz. Im Einzelnen handelt es sich um
+							 eine breite Palette verschiedener Rechtstexte, darunter Abschriften und Entwürfe von Urteilsbriefen, Verträgen, Mannrechten, aber auch (wie im vorliegenden Fall) von obrigkeitlichen Verlautbarungen und Instruktionen. 
+							 Die Ratsurkunden stehen damit in enger inhaltlicher Beziehung zu den Ratsmanualen (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=243964">StAZH B II 6 – B II 1060</ref></bibl>), welche die Sitzungen des Zürcher Rates protokollieren, 
+							und den Missivenbüchern (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=236018">StAZH B IV</ref></bibl>), in denen Abschriften der ausgehenden Korrespondenz der Obrigkeit gesammelt wurden. 
+							Eine Verbindung besteht auch zu den gedruckten Mandaten (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=595424">StAZH III AAb 1</ref></bibl>), da bestimmte normative Texte, 
+							die in den Ratsurkunden verschriftlicht wurden, im Anschluss (in teilweise abgewandelter Form) auch gedruckt herausgegeben
+							wurden und umgekehrt sich zuweilen gedruckte Mandate in die Bände der Ratsurkunden eingebunden finden.</p>
+						<p>Der Stäfnerhandel, der den ereignisgeschichtlichen Kontext für die Entstehung der 
+							vorliegenden Instruktion bildet, war eine unblutige Auseinandersetzung ausgehend vom
+							sogenannten Stäfner Memorial. Dieses war als Bittschrift mit
+							dem  Titel <q>Ein Wort zur Beherzigung an unsre theuersten
+							Landesväter</q> gerichtet an die Zürcher Obrigkeit und war verfasst von
+							<persName ref="GND_1089110189">Heinrich
+							Nehracher</persName>, <persName ref="GND_
+								104090413">Johann Kaspar Pfenninger</persName>,
+								<persName>Heinrich Ryffel</persName> und <persName>Andreas
+								Staub</persName>.</p>
+						<p>Das Memorial wurde an Pfingsten 1794 fertiggestellt und kursierte in der Folge in den
+							umliegenden Seegemeinden, in welchen sich im Laufe des 18. Jahrhunderts
+							durch die Baumwollindustrie eine Oberschicht gebildet hatte. Diese
+							formierte ab 1790 Lesegesellschaften, in denen die Französische
+							Revolution im Kontext ihrer eigenen politischen und wirtschaftlichen
+							Benachteiligung rezipiert wurde. Deren Mitglieder suchten in der Folge
+							nach urkundlich dokumentierten Rechten der Landschaft, welche sie von
+							der Stadt einzufordern gedachten, was schlussendlich im Stäfner Memorial
+							resultierte. Das Dokument stellte die Vorrechte der Stadt in Frage und
+							suchte die alte Ordnung mit friedlichen Mitteln an neue Bedürfnisse
+							anzupassen, was die Obrigkeit als revolutionären Akt interpretiert.</p> 
+						<p><persName ref="GND_
+								104090413">Pfenninger</persName> und <persName>Ryffel</persName>
+							wurden verhört und inhaftiert, wodurch die im Stäfner Memorial
+							geäusserten Forderungen eine breitere Öffentlichkeit fanden. Die
+							Landbevölkerung konzentrierte sich anschliessend – aufgrund des Rats von
+							Obervogt <persName>Jacob Irminger</persName> – auf die Suche nach den
+							 Urkunden, in denen ihre Rechte verbrieft waren; verstärkt wurde
+							diese Suche nach der Verbannung von <persName ref="GND_1089110189"
+								>Nehracher</persName>, <persName ref="GND_
+									104090413">Pfenninger</persName> und
+								<persName>Staub</persName> und der Verbrennung des Memorials im
+							Januar 1795. Die Zürcher Obrigkeit verbot die Konsultation dieser <q>in
+							Zeiten von Aufruhr errichteten Urkunden</q>, denn sie seinen <q>ein Werk der
+							unordentlichen Gewalt […], deren Andenken zu erneuern jeder redliche
+							Angehörige sich seither stets gehütet hat und aus dankbarem Gefühl des
+							dermal unter Gottes Segen und einer so väterlichen Regierung genießenden
+							Glückes immer hüten wird.</q> (<bibl><ref
+									target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=245408"
+									>StAZH B II 1076</ref></bibl>, S. 43-44). Im März wurden in
+								<placeName ref="LOC_47.52197_8.54049">Bülach</placeName> und in
+								<placeName ref="LOC_47.25983_8.59778">Horgen</placeName> Abschriften
+							der Waldmannschen Spruchbriefe (<bibl><ref
+									target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=250100"
+									>C I, Nr. 3278</ref></bibl>) respektive des Kappeler Briefes
+									(<bibl><ref
+									target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=250611"
+									>StAZH C I, Nr. 3268</ref></bibl>; Edition: <bibl><ref
+									target="https://rechtsquellen.sources-online.org/ZH_NF_I_1_3/SSRQ_ZH_NF_I_1_3_151"
+									>SSRQ ZH NF I/1/3, Nr. 151</ref></bibl>) gefunden, welche im Mai
+							trotz Verbots in <placeName ref="LOC_47.24254_8.72342"
+								>Stäfa</placeName> verlesen wurden. Ende Juni, Anfang Juli wurde
+								<placeName ref="LOC_47.24254_8.72342">Stäfa</placeName> als Reaktion darauf unter Bann
+							gestellt und Truppen aufgeboten, welche die Gemeinde besetzten. In diesem 
+							Moment entstand auch die vorliegend edierte Instruktion. Einhergehend mit Vermögens- und Freiheitsstrafen und dem Verbot
+							kultureller Betätigungen wie der Lesegesellschaft wurde die Opposition
+							der Landschaft gegen die Stadt beendet.</p>
+						<p>Zu den einzelnen der beteiligten Personen vgl. <bibl><ref
+									target="https://www.digibern.ch/katalog/historisch-biographisches-lexikon-der-schweiz"
+									>HBLS</ref></bibl> und <bibl><ref target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html">Mörgeli 1995</ref>, S. 153-172</bibl>;
+							zum Stäfnerhandel generell vgl. <bibl><ref target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html">Graber 2003</ref></bibl>; <bibl><ref target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html">Böning 1998</ref></bibl> und
+								<bibl><ref target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html">Mörgeli 1995</ref></bibl>.</p>
+					</div>
+				</back>
+			</text>
+		</group>
+	</text>
+</TEI>

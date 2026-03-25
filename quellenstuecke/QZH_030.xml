@@ -1,0 +1,611 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css“?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0"
+	xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<respStmt>
+					<persName>Tessa Gerber. Mit einem Kommentar von Michael Schaffner</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Michael Schaffner</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<date type="electronic" when="2021-05-01"/>
+				<date type="print" when="2018-12-31"/>
+			</publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Quellen zur Zürcher Geschichte</title>
+				<respStmt>
+					<persName>Staatsarchiv des Kantons Zürich</persName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>QZH_030</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4980821">StAZH A 27.93, Nr. 77</idno>
+					</msIdentifier>
+					<head>Untersuchung gegen Anna Oberholz wegen Verdachts auf Kindstötung</head>
+					<msContents>
+						<summary>Hans Konrad Bleuler, Landvogt von Grüningen, berichtet dem Rat der
+							Stadt Zürich über das Verfahren gegen die der Kindstötung beschuldigte
+							Anna Oberholzer von Wald. Seinem Bericht zufolge habe Pfarrer Johannes
+							Schinz dem Vogt gemeldet, dass eine uneheliche Schwangerschaft vorliege.
+							Dies habe Anna Oberholzer jedoch zunächst bestritten und sei vor das
+							Zürcher Ehegericht gelangt. Dieses habe bestätigt, dass keine
+							Schwangerschaft, sondern eine Krankheit vorliege. Eine erneute
+							Verhaftung und Befragung Anna Oberholzers, ihres Vaters Hans Oberholzer
+							sowie des mutmasslichen Kindsvaters Caspar Honegger habe jedoch ergeben,
+							dass tatsächlich eine Schwangerschaft vorgelegen hatte, das Kind jedoch
+							tot sei. Die Beschuldigte besteht auch nach fortgesetztem Verhör unter
+							Einsatz der Folter darauf, dass sie keinen Einfluss auf den Tod des
+							Kinds gehabt habe. Sie habe dieses alleine zur Welt gebracht und es
+							bereits tot vorgefunden. Ihre Aussagen vor dem Ehegericht begründet sie
+							damit, dass ihr die Schwangerschaft zunächst selbst unbewusst gewesen
+							sei. Der mutmassliche Kindsvater Caspar Honegger habe sie gegen ihren
+							Willen zum Geschlechtsverkehr gezwungen. Anna Oberholzer wird vor dem
+							Grüninger Landtag zu zwei Jahren Hausarrest verurteilt und zum
+							regelmässigen Kirchgang ermahnt. Zudem wird ihr Gut zuhanden des Zürcher
+							Rates konfisziert. Das weitere Verfahren gegen Caspar Honegger wird dem
+							Ehegericht übergeben.</summary>
+						<msItem>
+							<textLang>Deutsch</textLang>
+							<filiation type="current">Aufzeichnungen (5 Doppelblätter; 1
+								Einzelblatt)</filiation>
+							<filiation type="original"><origDate from="1655-02-16" to="1655-03-06"
+							/></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support><material>Papier</material></support>
+								<extent/>
+							</supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin><origDate when="1655-02-16"/></origin>
+					</history>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<editorialDecl>
+				<p>
+					<ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+				</p>
+			</editorialDecl>
+		</encodingDesc>
+		<profileDesc> </profileDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term ref="key005343">Ausserehelicher Geschlechtsverkehr</term>
+					<term ref="key004344">Ehegericht</term>
+					<term ref="key000816">Familie</term>
+					<term ref="key003369">Folter</term>
+					<term ref="key111114">Kindstötung</term>
+					<term ref="key000337">Landgericht</term>
+					<term ref="key005333">Schwangerschaft</term>
+					<term ref="key111115">Totgeburt</term>
+					<term ref="key000036">Vogtei</term>
+				</keywords>
+			</textClass>
+			<particDesc default="false"/>
+			<settingDesc default="false"/>
+		</profileDesc>
+	</teiHeader>
+
+	<text>
+		<group>
+			<text>
+				<body corresp="Sigle1">
+					<div>
+						<pb n="1" facs="A_27_50_4__Nr__4_1__S__1_.tif"/>
+						<p>
+							<lb/>Hochgeachte, wol edle, gestrënge, fromme, veste, für<lb break="no"
+							/>sichtige, wyße, insonders hochgeehrte gnedig herren, <lb/><choice>
+								<abbr>ew gnd</abbr>
+								<expan>ewer gnaden</expan>
+							</choice> seigen myn gehorsam willige dienst <lb/>unnd gruß an vor.</p>
+						<p>
+							<lb/>Nach dem verschinen montags herr pfarer <persName
+								ref="GND_1089378815">Schintz</persName>
+							<lb/>zuͦ <placeName ref="LOC_Lat_Long">Wald</placeName>, mich
+							bedurlich berichtet, das <persName>Anna Ober<lb break="no"
+								/>holtzer</persName>, <persName>Hanns Oberholtzers</persName> im
+								<placeName>Ehrli</placeName>, syn pfar ange<lb break="no"/>hörige
+							tochter, von etwas zyth har in verdacht ge<lb break="no"/>weßen, sam sy
+							schwangers lybs, unnd es das ansëchen <lb/>auch mit gëben, da habe er
+							syns theils nit ermanglet, <lb/>sy unnd ihren vatter für sich unnd die
+							eltisten zebe<lb break="no"/>scheiden, nach nohturfft mit inen zereden,
+							das sy ihr be<lb break="no"/>schaffenheith offnen unnd bekhënnen wölle,
+							damit nit <lb/>ergers darus ervolge. Sy aber sëlbiges nit nur by
+							<lb/>imme unnd eltisten verlaugnet, sonder sich by einem <lb/>ehrsammen
+							ehgricht der bezichtigung beklagt und so vil <lb/>durch ihr fürgëben
+							auch aldorten erhalten, das sy nit <lb/>schwanger, sonder krankhs lybs.
+							Unnd ob siderhar <lb/>schon der argwohn größer unnd der vatter bschikht
+							<lb/>worden, uff syn tochter guͦte uffsicht zuͦhaben, damit <lb/>nit uß
+							einer sünd nach ein größeri ervolge, so habe ers <lb/>doch jederwylen
+							verlaugnet, und versprochen, wan <lb/>syn tochter schwanger, man sich
+							zuͦ imme versëchen <lb/>sölle, das das kindt nit werde verderbt werden
+							<lb/>muͤßen. Nun aber habe er mit höchstem beduren <lb/>sidthar
+							verstanden, das sy der lybs buͤrdi entlediget <lb/>unnd sich krankh
+							schrybe, der vatter auch ihro sonder<lb break="no"/>bar pflëge unnd
+							deßwëgen eben bößen verdachts. <lb/>Also das er nit umbgahn könen mich
+							deßen zeverstëndigen, <lb/>dan er das ellende mentsch laßen bsichtigen,
+							befunden, <lb/>das sy gebohren haben muͤße. Worüber ich nit
+							<lb/>underlaßen söllen, zuͦ ihro unnd dem vater zegryffen <lb/>und in
+								<abbr>ewr</abbr> myner <abbr>gnd hr</abbr> schloß gfangen fuͤhr<lb
+								break="no"/>en unnd absonderlich verwahren und sy durch etliche
+							<lb/>wyber besichtigen zelaßen, die dan an ihrem lyb un<lb break="no"
+								/><pb n="2" facs="A_27_50_4__Nr__4_1__S__2_.tif"/>fehlbare zeichen einer kindt beteren gefunden. Also,
+							<lb/>das sy bekandtlich worden, sy seige am mitwuchen obents, <lb/>den
+								<date when="1655-01-31">31ten jëner</date> verschinen des kindts
+							genëßen, ohne <lb/>bywohnung einicheße mëntschen, doch seige das kindt
+							<lb/>ihres wüßens läbendig an die wält nit kommen, dan <lb/>nach dem das
+							kind von ihro uff die erden gefallen, habe <lb/>sy als bald ein liecht
+							geholt und das kindt dot ligen <lb/>funden. Sy habe es auch 8 tag in
+							ihrem lyb nit mehr <lb/>gespürth, auch zuͦvor als ein einfaltiges junges
+							mëntsch, <lb/>die das zwëntzigiste jahr nach nit erreicht, nit glauben
+							<lb/>wöllen, das sy schwanger seige. Das kind hab sy in <lb/>ihrem
+							kasten etliche tag verwarth, hernach begraben <lb/>hinder ihrem huß,
+							allwo mans auch gefuͦnden und <lb/>zwaaren ein vollkommen kind, demme
+							das ächseli uß <lb/>ein anderen unnd ein blauw angsicht gehabt.
+							<lb/>Wytter bekhëndt sy, das <persName>Caspar Honegger</persName>, des
+									<persName>Jo<lb break="no"/>hanißn</persName> sohn, zuͦ
+								<placeName>Mathen</placeName> ferndrigs jahrs von osteren <lb/>bis
+							pfingst montag sich underschidenlich mit ihro ver<lb break="no"/>gangen
+							unnd verfehlt. Auch sidthar, als er sy zuͦ <placeName
+								ref="LOC_Lat_Long">Wald</placeName>
+							<lb/>antroffen, in bywëßen etlicher persohnen zuͦ ihro <lb/>schimpflich
+							gredt: <q>Duo, ich hab ghördt, man muͤße <subst>
+									<del rend="overwritten">h</del>
+									<add place="inline">d</add>
+								</subst>ir <lb/>bald gnepfwyn kauffen</q>, sy imme geantwortet:
+								<q>So <lb/>mustu in mir kauffen.</q>
+							<persName>Honegger</persName> gsagt: <q>Ney Gott</q>, er <lb/>wolle in
+							nit kauffen und syns wëgs gangen. Darby <lb/>sy es auch, als ein einfalt
+							jung mëntsch, blyben laßen. <lb/>Ihren vatter entschuldiget sy alles
+							begriffnen bößen <lb/>verdachts unnd das er sy habe alles ernsts ver<lb
+								break="no"/>manet, kein untröüw unnd gfahr zuͦ gebruchen, mit
+							<lb/>versprëchen, er sy nach ihr kindt nit laßen wölle, <lb/>habe aber
+							leider nit volgen könen. </p>
+						<p>
+							<lb/>Den vatter betrëffend, der auch nach in verwahrung <lb/>unnd
+							bekhëndt, das er nit zuͦ entschuldigen, uff so vil<lb break="no"
+							/>faltiges unnd ernstliches vermanen des herren <lb/>pfarers unnd
+							altisten, das er der tochter mehr <lb/>als inen geglaubt unnd hiemit dis
+							große übel in <pb n="3" facs="A_27_50_4__Nr__4_1__S__3_.tif"/>
+							<lb/>synem huß für gahn laßen, bëtte hiemit gott <lb/>unnd die
+							obrigkeith umb gnaad, deren willen <lb/>er sich gëntzlich ergëbe. </p>
+						<p>
+							<lb/>Den <persName>Honegger</persName> hab ich auch citiert, syne
+							begangne <lb/>unzucht unnd lycht fertigkeith, daruß dis große übel
+							<lb/>entsprungen, mit allem ernst fürghalten. Der <lb/>bekhënt zwaaren,
+							das er den fehler begangen, aber <lb/>doch an dem mord des kindts kein
+							schuld trage, dan <lb/>sy imme, das sy schwanger, nie eroffnet. Also das
+							<lb/>ich gegen im für diß mahlen wytters nit fürnëmmen <lb/>könen unnd
+							ine deßwëgen für ein ehrsamm <lb/>ehgricht gewißen, wellcher dan
+							verhoffentlich uff <lb/>nechsten tag dahin citiert werden wirt.</p>
+						<p>
+							<lb/>Ewr <abbr>gnd</abbr>, harby sol ich nit verhalten, das angeregter
+								<lb/><persName>Honegger</persName> die zythar sich zimlich
+							ußschweiff und vermäßen <lb/>verhalten, das er mir mithin in die buͦß
+							kommen <lb/>und hat das ansëchen, als wan syn vater ein groß
+							<lb/>wolgefallen an synem thun habe. Also, das ich <lb/>ein hoche
+							nohturfft finden, söllchem gsellen umb dißen <lb/>synen groben fehler,
+							als der ein zundel dises übels, <lb/>mit ernst examplarisch
+							abzustraaffen. Wellches <lb/>ewr <abbr>gnd</abbr> ich hiemit heimbsetzen
+							und dero wyteren <lb/>befelchs erwarten. Wan nun herr burger<lb
+								break="no"/>meister unnd <abbr>gnd</abbr>, ihr myn herren, dis eben
+							ein <lb/>schwere sach, hab ewr <abbr>gn</abbr> ich hiemit in
+								underthenig<lb break="no"/>keith, sömliches eroffnen söllen, mit
+							undertheniger <lb/>pitt, mir anleitung zegëben, wie gegen dißem
+							<lb/>armmen mëntschen, die sich sterbens versicht, auch über <lb/>ihre
+							schwere sünd einen wahren röüwen erzeigt, ich <lb/>mich zuͦ verhalten
+							habe. Ich möchte wünschen, das ewr <lb/><abbr>gnd</abbr> des costens
+							halber verschonth, unnd sy zur abstraff<lb break="no"/>ung in ewr, myner
+								<abbr>gnd</abbr> herren statt geschikht <lb/>werden könte. Ich
+							verspüren aber, das in <lb/>ewr <abbr>gnd</abbr> herrschafft etwas
+							unwillens verursachet <pb n="4" facs="A_27_50_4__Nr__4_1__S__4_.tif"/>
+							<lb/>wurde, crafft ihrer alten, hargebrachten freyheithn, <lb/>setzen es
+							hiemit auch ewer <abbr>gnd</abbr> heimb, und erwarten <lb/>dero befelch.
+							Unnd so es ew <abbr>gnd</abbr> belieben thete, <lb/>ein landtgricht
+							ergahn zelaßen, könte sëlbiger costen <lb/>so wol bim theter, als bim
+							vatter (deßen hab ich in<lb break="no"/>ventieren laßen), die dan beide
+							mynes bedunkhens <lb/>hochsträfflich, wol zuͦ finden. Wil hiemit ewr
+								<lb/><abbr>gnd</abbr> befelch und wolwyßen guͦth achten in
+								underthenig<lb break="no"/>keith erwarten. Thuͦn derowëgen <abbr>ew
+								gnd</abbr>
+							<lb/>zuͦ erwünschter glükhsëlliger regierung in gottes <lb/>gnedigen
+							schirm, mich aber zuͦ dero fehrneren <lb/>gnaaden thröüwlich befehlen.
+								<placeName ref="LOC_Lat_Long">Gruͤningen</placeName>, <lb/>den
+								<origDate when="1655-02-16">16ten <abbr>febr</abbr> 1655</origDate>. </p>
+						<p>
+							<lb/><abbr>Ewr gnd</abbr>
+							<lb/>underthenigist gehorsammer <lb/>diener und vogt zuͦ <lb/><placeName
+								ref="LOC_Lat_Long">Grüeningen</placeName>
+							<lb/><persName>Hanß Connrat Blëüwler</persName>.</p>
+						<p><pb n="5" facs="A_27_50_4__Nr__4_1__S__5_.tif"/></p>
+						<pb n="6" facs="A_27_50_4__Nr__4_1__S__6_.tif"/>
+						<p>
+							<add place="left top">Vogt
+									<persName>Blauler</persName> zuͦ <placeName
+									ref="LOC_Lat_Long">Grüeningen</placeName>.</add>
+							<add place="right top"><lb/><date when="1655-02-16"
+									>16. <abbr>febr</abbr> 1655</date>.</add>
+							<lb/>Den hochgeachten, wol edlen, gestrëngen, <lb/>frommen, vesten,
+							fürsichtigen, wyßen herren, <lb/>herren burgermeister und raht
+								<abbr>hochlob</abbr>
+							<lb/>statt <placeName ref="LOC_47.37721_8.52731">Zürich</placeName>, mynen
+							gnedigen herren.</p>
+						<p>
+							<add place="below">Bericht<del>tet</del> wegen
+									<persName>Anna Oberholzin</persName> großen <lb/>verdachtes
+								halber, in denne sy erstlich <lb/>schwangern lybes unnd dannach
+								verderbten <lb/>kindes halber gerathen, <del>und begehrt</del>
+								<date when="1655">1655</date>. <lb/><del>rath wie sich gegen ihre
+									fehrners zuver<lb break="no"/>halten, zumahln auch, daß man zu
+										<placeName ref="LOC_Lat_Long">Grüningen</placeName>
+									<lb/>über ihr verbrächn <unclear>richten</unclear>
+								möchte.</del></add>
+						</p>
+					</div>
+					<pb n="7" facs="A_27_50_4__Nr__4_2__S__1_.tif"/>
+					<div>
+						<p>
+							<lb/>Hochgeachte, wol edle, gestrënge, fromme, veste, <lb/>fürsichtige,
+							wyße, insonders hochgeehrte, gnedig <lb/>herren, <abbr>ewr gnd</abbr>
+							seigen myn underthenig <lb/>schuldwilligste dienst unnd gruͦß an vor. </p>
+						<p>
+							<lb/>Uff <abbr>ewr gnd</abbr> jüngst uberschikhter antworth <lb/>unnd
+							gnedig ertheiltem gutachten, hab ich nëbent <lb/>ettlich der eltisten
+							von inem ehrsammen herrschafft <lb/>gricht, die gefangne
+								<persName>Oberholtzerin</persName> ihrer ver<lb break="no"/>brëchen
+							halber hüt dato abermahlen alles ernsts <lb/>unnd auch pynlich
+							examinieren laßen, die by erster <lb/>ihrer ussag und das ihren
+							unwüßend, ob das kind <lb/>läbendig uff die wëlt kommen seige oder nit,
+							dan <lb/>ihro geschwunden und da sy mit dem liecht kommen, <lb/>seige
+							das kind todt uff der erden gelëgen unnd <lb/>das sy das erstemahl vom
+								<persName>Hanns Caspar Honegger</persName>
+							<lb/>zur unzucht übergweltiget unnd geschwecht <lb/>worden seige. </p>
+						<p>
+							<lb/>Nun findend die verordneten amtsrichter nebent <lb/>mir ins gemein,
+							das sy, <persName>Oberholtzerin</persName>, ihrer ver<lb break="no"
+							/>brëchen halber für das landtgricht gestelt werden <lb/>sölle, maaßen
+							der nechst könfftige montag (so es <lb/><abbr>ewr gnd</abbr> gefallen
+							wurde) darzuͦ ernamset. <lb/>Allein falt inen der abstraaffung halber
+							etwas <lb/>bedënkhlichs für unnd pidtend <abbr>ewr gnd</abbr> dermuͤtig,
+							<lb/>inen mit ihrem wolwyßen raht in gnaaden an<lb break="no"/>zuͦdüten,
+							ob ihro am läben verschonet werden möchte, <lb/>wyl sy die handt an das
+							kindt gelegt zuͦ haben nit <lb/>bekandtlich und sy sich der glychen fähl
+							zuͦ erinneren <lb/>nit wüßind. </p>
+						<p>
+							<lb/>Den <persName>Honegger</persName> hab ich auch etlich tag in
+							banden, ob syn <lb/>sach auch völlig alhier usgemacht werden sölle,
+							piten <lb/><abbr>ewr gnd</abbr> auch underthenig umb raht. </p>
+						<p>
+							<lb/>So <abbr>ewr gnd</abbr> gefallen wuͦrde der sach den<pb n="8" facs="A_27_50_4__Nr__4_2__S__2_.tif"/>
+							<lb/>fortgang zuͦlaßen, pittend wir auch underthenig <lb/>umb den
+							scharpfrichter, der sonsten gwohnlichem <lb/>altem gebruch nach an den
+							landtagen zeerschynen <lb/>nohtürfftig. Hiemit <abbr>ewr gnd</abbr> zuͦ
+							<lb/>glückhsëlliger erwünschter regierung, mich <lb/>aber zuͦ dero
+							fehrneren <abbr>gnd</abbr> tröüwlich ent<lb break="no"/>pfehlende.
+								<placeName ref="LOC_Lat_Long">Gruͤningen</placeName>, den
+								<origDate when="1655-02-23">23ten Hornung <lb/><abbr>A<hi rend="sup"
+										>o</hi></abbr> 1655</origDate>. </p>
+						<p>
+							<lb/><abbr>Ewr gnd</abbr>
+							<lb/>underthenigst gehorsammer <lb/>diener und vogt dosëlbsten,
+									<lb/><persName><abbr>H</abbr> Connrat Blëüwler</persName>. </p>
+					</div>
+					<pb n="9" facs="A_27_50_4__Nr__4_2__S__3_.tif"/>
+					<!-- leere Seite -->
+					<pb n="10" facs="A_27_50_4__Nr__4_2__S__4_.tif"/>
+					<div>
+						<p>
+							<lb/>Den hochgeachten, wol edlen, gestrëngen, <lb/>frommen, vesten,
+							fürsichtigen, wyßen <lb/>herren, herren burgermeister und <lb/>raht hoch
+								<abbr>lob</abbr> statt <placeName ref="LOC_Lat_Long"
+								>Zürich</placeName>, mynen gnedig<lb break="no"/>en herren. </p>
+						<pb n="11" facs="A_27_50_4__Nr__4_3__S__1_.tif"/>
+						<p>
+							<lb/>Hochgeachte, woledle, gestrënge, fromme, veste <lb/>fürsichtige,
+							wyße, insonders hochgeehrte, gnedig <lb/>herren. <abbr>Ewr gnd</abbr>
+							seigen myn under<lb break="no"/>thenig, schuldwilligste dienst unnd
+							gruͦß an vor.</p>
+						<p>
+							<lb/>Nach dem ewr <abbr>gnd</abbr> uff myn unnd myner amtsricht<lb
+								break="no"/>eren begehrten raths, wie man sich gëgen der ver<lb
+								break="no"/>hafften <persName>Anna Oberholtzerin</persName> by der
+							guth befundnen <lb/>fürstellung für ein ehrsam landtgricht zuͦ verhalten
+							<lb/>habe, gnedigist gelieben unnd gefallen wöllen, mir in <lb/>gnaaden
+							anzuͦbefehlen, das ich wëgen der annach <lb/>unluteren bekhandtnus ihrer
+							verbrëchen den genam<lb break="no"/>seten landtag nach nit fürgahn
+							laßen, sonder diesëlbige <lb/>nach fehrners grundtlich etlichen puncten
+							halber wytter <lb/>examinieren unnd ihre ussag ewr gnaaden comunicieren
+							sölle. <lb/>Söllichem befelch hab ich underthenigist nach zuͦ kommen nit
+							<lb/>underlaßen söllen, ewr <abbr>gnd</abbr> aber zum forderisten
+							<lb/>zeberichten, das besagte <persName>Oberholtzerin</persName> eben
+							dißer <lb/>puncten halber for dißerem so genauw, als immer müglich,
+							<lb/>so wol güth- als pynlich, jedoch ohne gewicht, ist examiniert
+							<lb/>worden. Unnd ob glych wol sy zuͦ vollkommner be<lb break="no"
+							/>kandtnus, das sy gwalt an das kindt gelegt habe, nit <lb/>gebraacht
+							worden, so ist doch uß allen umbstënden, auch <lb/>ingenomnem pricht und
+							kondtschafft, wie hernach volget <lb/>so vil erfunden worden, das sy
+							gëgen ihrer lybs<lb break="no"/>frucht (leider) nit trüwlich verfahren
+							und dersëlben <lb/>absonderlich allein abzukommen glëgenheith gesucht,
+								deß<lb break="no"/>wegen uff guth achten und gefallen ewer, myner
+							gnedig <lb/>herren, die fürstellung für ein ehrsamm landtgricht, be<lb
+								break="no"/>rahtschlaget worden. Uber den wyttlöüffigen pricht,
+							<lb/>so herr pfarer zuͦ <placeName ref="LOC_Lat_Long"
+								>Wald</placeName> mir eroffnet, wie vil mahlen <lb/>er ihren vatter
+							unnd ihre verwanthe jederzyth trüwlich <lb/>vermanet, guth sorg
+							zuͦhaben, das keini untröüw gebrucht <pb n="12" facs="A_27_50_4__Nr__4_3__S__2_.tif"/>
+							<lb/>werde, wellches aber sy durch ihr verlaugnen alles
+							<lb/>hinderhalten. Berichtet ihren bruͦder <persName>Jagli
+								<lb/>Oberholtzer</persName> unnd syn hußfrauw, <persName>Anna
+								Eglin</persName>, das <lb/>an dem tag, da ihr vatter nacher
+								<placeName ref="LOC_Lat_Long">Grüningen</placeName> gangen,
+							<lb/>seigind sy by ein anderen in der stuben gwëßen und <lb/>als sy
+							etwas ënderungen gespürth, habe der <persName>Jagli</persName> gsagt:
+								<lb/><q>Wie ist mir so schwëhr, ich sorgen, es begegne unns ein
+									groß<lb break="no"/>es übel</q>, worüber sy,
+								<persName>Anna</persName>, gesagt, <q>Worumb?</q> Sagte sye,
+								<lb/><persName>Jaglis</persName> frauw: <q>Eben von dynetwëgen sol
+								uns schwehr syn, <lb/>dan zuͦ besorgen, du mit dynem laugnen uns in
+								groß crütz <lb/>bringen werdest, dan ich siehen wol, es wil sich mit
+								dir <lb/>ënderen.</q> Habe sy geantwortet, es seige ihre
+							ungesundheith, <lb/>es were ihro guͦth, sy were auch so gsund als sy,
+							worüber <lb/>sy gesagt, es werde sich, was es ist, wol enteken. Und
+								dar<lb break="no"/>über gëgen obent, von inen us der stuben in die
+							kammer <lb/>gangen, nach einer stund ungfahr widerkommen, und sich
+							<lb/>übel gehebt, wie sy so krankh seige, sonderlich gegen dem
+							<lb/>vatter, als er eben damahls heimb kommen, müße also <lb/>in dißer
+							stund des kindts abkommen syn. Der vatter <lb/>habe sy ins beth
+							geordert, was wytters fürgangen <lb/>seige ihro nit in wüßen, dan sy
+							unnd ihr man seige<damage agent="hole"><supplied resp="msr"
+								>n</supplied></damage>
+							<lb/>zun nachbarn zliecht gangen, sy aber habe man nit <lb/>in die
+							kammer glaßen. Was der vatter darum gwüst, <lb/>könne sy nit sagen, dan
+							er am morgen widerum weg<lb break="no"/>gangen. Unnd als er am obent
+							heimb kommen, habe er <lb/>der tochter wyn mit bracht, wyl sy im
+							fürgëben, <lb/>(wie er sagte) ihr zyth bekommen habe. Am anderen
+							<lb/>tag nach der geburth, da habe sy zuͦ <placeName
+								ref="LOC_Lat_Long">Wald</placeName> ghörth, das ihr
+							<lb/>gschwey ein kindbeterin syn sölle, deßwëgen heimbgangen <lb/>und
+							zuͦ ihro gsagt, was sy ihrenthalben ghörth, und zur <lb/>bekhandtnus
+							vermanet, habe sy nit nur glaugnet, <lb/>sonder auch nach uff sy
+							gschlagen. Als sy sich gwehrt und es <pb n="13" facs="A_27_50_4__Nr__4_3__S__3_.tif"/>
+							<lb/>der vatter gsëchen, habe er ihro auch zwoo täschen gëben,
+							<lb/>sonsten habe es dißer ellenden sach halber jeder zyth <lb/>vil
+							stryts im huß gëben, wyl sy, die tochter, nit hat wöllen <lb/>syn,
+							darfür sy ist angsëchen worden.</p>
+						<p>
+							<lb/>Hauptman <persName>Zacharyas Schmidt</persName>, dem ich das kind
+							zuͦ besichtig<lb break="no"/>en befohlen, brichtet, das es ein
+							vollkommen kind gsyn <lb/>unnd ohnzwyffelich das läben ghabt habe, dan
+							es am <lb/>vierzëchenden tag nach der geburth, by guter farw, <lb/>ein
+							hübsch roht mühli unnd <del>das</del> nach nit gstabet gsyn seige.
+							<lb/>Jedoch habe es die schnur der nachgeburth zwey mahl <lb/>umb das
+							hälsli ghabt unnd das ëchseli abgebrochen. <lb/>Mehreren bricht ist
+							zwahren auch verhanden, stimbt aber <lb/>mit obstendem allem über ein. </p>
+						<p>
+							<lb/>Nun hab ich zuͦ befürderung der sach besagte
+								<persName>Oberholtzerin</persName>
+							<lb/>hüt dato widerumb alles ernsts, so wol güth- als pynlich <lb/>(doch
+							ohne gewicht) examiniert. Erstlich, uß was <lb/>gründen unnd ursachen sy
+							den herren pfarer zu <placeName ref="LOC_Lat_Long"
+								>Wald</placeName>
+							<lb/>unnd syn liebe ehwürtin wëgen der bezichtigung, als <lb/>wan sy
+							schwangers lybs, vor einem ehrsammen ehgricht <lb/>verklagt unnd
+							reparation ihrer ehren begëhrt habe <lb/>unnd aber in ihrem hertzen
+							uberzüget gwëßen, das <lb/>dem also gsyn seige, das dan gar ein große
+							unnd <lb/>fräffne vermëßenheith an ihro gwëßen. Hat sy kein <lb/>andere
+							verantwortung, als das sy nit gmeint, das <lb/>sy schwanger seige, unnd
+							auch eben deßwëgen an<lb break="no"/>erbothen, sich bschauwen zelaßen,
+							dan obglych die frauw <lb/>pfarerin ihro den buch griffen, hab sy doch
+							nit für <lb/>gwüß sagen könen, das sy schwanger seige, hat auch umb
+							<lb/>etwas doch nit fast widersprochen, das frauw pfarerin <lb/>gsagt,
+							so sy kein kindt gebehre, das sy daßëlb verderben <lb/>möchte.</p>
+						<p>
+							<lb/>Über den anderen puncten wëgen ihres vatters grosen <lb/>verdachts,
+							sam er nit allein von ihrer schwëngerung <pb n="14" facs="A_27_50_4__Nr__4_3__S__4_.tif"/>
+							<lb/>wol gwüßt, sonder auch in der kindtbethi <sic>gepfogen</sic>
+							<lb/>haben solte, gibt sy zur antworth glych dem ersten <lb/>unnd wil
+							alles verlaugnen, mit der unwüßenheith, <lb/>das sy schwanger gsyn,
+							entschuldigen. Entschuldiget doch <lb/>ihren vater in all wys unnd wëg,
+							das ob er sy glych <lb/>in guͤte unnd in ernst vermanet, imme die
+							warheith <lb/>zuͦbekënnen, hab sy im doch allwëgen mit laugnen <lb/>die
+							augen verblënden könen, das er mehr uff ihre <lb/>worth geachtet weder
+							uff alle tröüwhertzigen ver<lb break="no"/>manungen des herren pfarers,
+							der nachburen, <lb/>verwanthen und aller ehrlichen lüthen und das er
+							<lb/>auch by der geburth nit gsyn, sonder erst uff der nacht <lb/>heimb
+							kommen seige, da sy das kind albereith erbohren <lb/>unnd in kasten
+							verstekht habe. Zwaaren habe sy im <lb/>klagt das ihro schmertzlich wer,
+							also das er sy zuͦ beth <lb/>gemanet unnd sëlbst zuͦdekht, imme zwaren
+							andütet, <lb/>das sy ihre zyth bekommen, aber ihrer leidigen geburth
+							<lb/>nit gedacht, die also (wie sy gesagt) hargangen seige:
+							<lb/>Nammlich, das sy umb bëth zyth seige us der stuben, darinen
+							<lb/>ihr bruͦder unnd gschwey auch gewëßen, in die kuchi <lb/>unnd daruß
+							uffhin in ihr kammer die stägen uff gangen, <lb/>nit vermeinth, das es
+							zyth seige zuͦ gebehren, ob sy glych <lb/>wol sich nit wol befunden, da
+							seige sy uber fallen <lb/>worden, sich uff ihr kasten gesetzt und wider
+							uffstahn <lb/>wellen, seige ihro das kind uff die erden gefallen,
+							<lb/>auch ihro geschwunden. Und als sy sich widerum erhollet, <lb/>ein
+							liecht in der kuchi anzünt, aber als sy wider <lb/>kommen, habe sy das
+							kind (so ein meiteli gewëßen), <lb/>doth uff der erden ligen funden. Als
+							sy der <lb/>nach geburth halber auch befraaget worden, hat sy
+							<lb/>anzeiget, seige nach etwas am kind gsyn, wüße nit <lb/>was. Uß
+							hauptman <persName>Zacharias Schmiden</persName> by gefuͤgtem
+							<lb/>bericht aber werdend ewr <abbr>gnad</abbr> des kindts
+							beschaffenheith, <pb n="15" facs="A_27_50_4__Nr__4_3__S__5_.tif"/>
+							<lb/>unnd wie man dasëlbig funden, grundtlich hiervon <lb/>vernommen
+							haben. Das sy mehreren gwalt an <lb/>das kindt gelegt, will sy nit
+							bestahn, auch kein wüsens <lb/>tragen, das imme das einte ächseli
+							abgebrochen gsyn <lb/>seige. Was sich vehrners vor und nach <lb/>der
+							geburth verloffen, ist uß by gefuͤgtem ihres <lb/>bruͦders ingenomnem
+							pricht auch zuͦ ersëchen. <lb/>Uber wytters befraagen, aller ihrer
+							beschaffenheith <lb/>und was sich in zyth wehrender ihrer schwëngerung
+							<lb/>zuͦ getragen, verantwortet sy alles, sy habe nit <lb/>gmeinth, das
+							es seige, insonderheith habe sy zuͦ nach <lb/>mehrerem verlaugnen
+							verursachet, als sy sëchs <lb/>wuchen vor der geburth bim brunnen
+							nidergfallen, <lb/>darvon sy ihr zyth bekommen, und darby die hoffnung
+							<lb/>gefaßet, sy werde alles verdachts abkommen. <lb/>Uff befraagen,
+							worum es die geburth so gar starkh bis <lb/>in die gfangenschafft unnd
+							das man in ihren brüsten <lb/>die milch funden, verlaugnet, gibt sy zur
+							antworth, <lb/>sy habe geachtet, wyl das kind doth, ihrre es nützit
+							<lb/>und wan sy es geoffnet, hete man mogen sagen, sy hete <lb/>das kind
+							ermördt. In summa uff alles befraagen <lb/>und ernstliches anmanen, die
+							wahrheith zuͦ bekënnen, <lb/>hat sy alles mit der unwüßenheith und das
+							sy das <lb/>kind zu verderben oder umbzebringen nie im sinn <lb/>gehabt,
+							verantwortet und auch an der marter <lb/>ohne stein erhalten. Wie es
+							beschaffen weißts der <lb/>allwüßende gott, deme nützit verborgen, doch
+							ist <lb/>die sach in all wëg höchst verdechtig und wol zuͦ<lb break="no"
+							/>verspüren, das keins wëgs wyters us ihro nit ze<lb break="no"
+							/>bringen. </p>
+						<p>
+							<lb/>Deß <persName>Honeggers</persName> halber beharret sy nach mahlen,
+							das er <lb/>sy zur unzucht mit gar unfletigen worten unnd <lb/>geberden,
+							die vor ewr <abbr>gnd</abbr> nit wol zuͦ mëlden, <pb n="16" facs="A_27_50_4__Nr__4_3__S__6_.tif"/>
+							<lb/>übergwaltiget unnd sëlbige nacht synen willen <lb/>zweymahl mit
+							ihro vollbracht, nachgëntz wider ein <lb/>mahl unnd am pfingstmontag
+							nachts zuͦ ihro in <lb/>die kammer gstigen, sy aber imme dasëlbst nit
+							warten <lb/>wöllen, sonder zuͦ im abhin in schopf gangen. Da habe
+							<lb/>er abermahlen synen muͦtwillen zwey mahl mit <lb/>ihro triben und
+							sy mit auch gar unfletigen worten <lb/>darzuͦbraacht, das wyl ers
+							angefangen, ers auch uß<lb break="no"/>machen wölle. Wellches alles, als
+							es imme, <persName>Honegger</persName>, <lb/>fürghalten worden, er nit
+							fast widersprochen, jedoch <lb/>vermeine er, so ihro ernst gsyn were, sy
+							sich wol synen <lb/>hete erwehren mögen. </p>
+						<p>
+							<lb/>So vil hab ich dißer leidigen sach halben mit grundt er<lb
+								break="no"/>fahren könen und söllches ewr <abbr>gnd</abbr> in
+								underhenig<lb break="no"/>keith eroffnen wöllen. Setzen es ewr
+								<abbr>gnd</abbr>
+							<lb/>zuͦ fehrnerer deliberation underthenigst heimb <lb/>und derosëlben
+							wytteren befelch und wolwysen raths <lb/>darüber erwartende, wellchem
+							allem ich <add place="above">geflißen</add> nachzekommen <lb/>nichts
+							underlaße. </p>
+						<p>
+							<lb/>Und obglychwol dißere ellende sach ohne sonder an costen <lb/>wegen
+							allerley fürfallenheithen nit verhandlet <lb/>werden kan, trachten ich
+							doch alles in guͦter ordnung <lb/>zuͦhalten, achten auch, das dersëlbe
+							by den verfelten <lb/>parteyen, als der verhafften, die etwas ererbten
+							<lb/>muͤterlichen guͦts, wie auch by ihrem vater und dem
+								<lb/><persName>Honegger</persName>, die beide hochsträfflich, wol
+							widerum zuͦ finden <lb/>syn werde. Hiemit <abbr>ewr gnd</abbr> zuͦ
+								glükh<lb break="no"/>sëlliger erwünschter regierung, mich aber zuͦ
+							dero <lb/>fehrneren gnaaden trüwlich entpfehlende. <lb/><placeName
+								ref="LOC_Lat_Long">Grüningen</placeName>, den <origDate
+								when="1655-02-26"><abbr>26ten febr a<hi rend="sup">o</hi> etc
+									55</abbr></origDate>. </p>
+						<p>
+							<lb/><abbr>Ewr gnd</abbr>
+							<lb/>underthenigst gehorsammer <lb/>diener unnd vogt dosëlbsten,
+								<lb/><persName>Connrat Bläwler</persName>. </p>
+					</div>
+					<pb n="17" facs="A_27_50_4__Nr__4_3__S__7_.tif"/>
+					<!-- leere Seite -->
+					<pb n="18" facs="A_27_50_4__Nr__4_3__S__8_.tif"/>
+					<div>
+						<p>
+							<lb/>Den hochgeachten, wol edlen, gestrëngen, <lb/>frommen, vesten,
+							fürsichtigen, wyßen herren, <lb/>herren burgermeister unnd rath hoch
+								<abbr>lobl</abbr> statt <lb/><placeName ref="LOC_Lat_Long"
+								>Zürich</placeName>, mynen gnedigen herren. </p>
+						<pb n="19" facs="A_27_50_4__Nr__4_4.tif"/>
+						<p>
+							<lb/>Hochgeachte, wol edle, gestrënge, fromme, veste, <lb/>fürsichtige,
+							fürnëmme unnd wyße, insonders hochge<lb break="no"/>ehrte
+								<abbr>gnd</abbr> herren. <abbr>Ewr gnd</abbr> seigen myne
+							<lb/>underthenig, schuldwilligiste dienst unnd gruͦß an vor. </p>
+						<p>
+							<lb/><abbr>Ewr gnd</abbr>, wëgen der verhafft geweßnen <persName>Anna
+								<lb/>Oberholtzerin</persName> hab ich nit underlaßen könen
+							zeberichten, <lb/>was ihro umb den begangnen fehler von einem
+							<lb/>ehrsammen landtgricht für ein buͦß ufferlegt worden <lb/>seige.
+							Nammlich, nach dem man klag und antworth <lb/>von beiden fërsprëchen
+							nach landtgrichts bruch und recht <lb/>wyttlöüffig gëgen ein anderen
+							verhörth, zuͦvor aber die <lb/>guͤth- und pynliche vergicht vorgeleßen,
+							worden, <lb/>hat ëntlichen, nach dem ich jedem richter, by synem
+							<lb/>eydt, nach gött- und keißerlichem rëchten zerichten
+							<lb/>anbefohlen, das mehr gegëben, das gesagter <lb/><persName>Anna
+								Oberholtzerin</persName> ihr lëben solle geschënkht syn, <lb/>doch
+							dem nachrichter übergëben unnd von demsëlbigen <lb/>mit der ruͦthen
+							usgehauwen werden sölle, darnach <lb/>sich also bald nacher huß begëben
+							unnd zwey jahr lang <lb/>darin verblyben, doch jeder zyth flyßig zuͦ
+							kirchen gehen <lb/>sölle. Was aber des armmen mëntschen guͤtli belanget,
+							<lb/>ist daßëlbig eüch, myn <abbr>gnd hr</abbr> zuͦ kënth. <lb/>Unnd
+							solle hiemit umb synen begangnen fehler vor <lb/>den mëntschen gebuͤßt
+							haben. </p>
+						<p>
+							<lb/>Hiemit ewr <abbr>gnd</abbr> zuͦ glükhsëlliger erwünschter
+							<lb/>regierung, mich aber zuͦ derofehrneren <abbr>gnd</abbr>
+							<lb/>trüwlich emtpfehlende. <placeName ref="LOC_Lat_Long"
+								>Grüningen</placeName>, den <lb/><origDate when="1655-03-06">6ten
+								tag mertzen 1655</origDate>. </p>
+						<p>
+							<lb/><abbr>Ewr gnd</abbr>
+							<lb/>underthenigst gehorsammer <lb/>diener und vogt dosëlbsten,
+								<lb/><persName>Hans Connrat Blëüwler</persName>. </p>
+
+					</div>
+				</body>
+
+				<back>
+					<div>
+						<p> Der Fall der <persName>Anna Oberholzer</persName> steht exemplarisch für die im Zeitraum vom
+							16. bis zum 18. Jahrhundert durchgeführten Verfahren
+							wegen des Vorwurfs der Kindstötung. In diesen Verdacht kamen vorrangig
+							ledige Frauen, deren Säuglinge vor, während oder kurz nach der Geburt
+							verstorben waren und denen der Versuch nachgesagt worden war, ihre
+							Schwangerschaft zu verheimlichen.</p> <p>In der Archivabteilung Criminalia
+								findet sich unter der Signatur <bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3543055">StAZH A 16</ref></bibl> 
+								eine unvollständige, im späten 19.
+							Jahrhundert erstellte Zusammenstellung von 30 derartigen Verfahren aus
+							dem Zürcher Herrschaftsgebiet. Weitere ähnliche Dossiers
+							finden sich aber insbesondere im Bestand <bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=13169">StAZH A 27</ref></bibl> (Kundschaften und
+							Nachgänge) sowie in den die Vogteien betreffenden Aktenbeständen. Relevant für die Thematik sind auch die Akten und Manuale der Wundgschau,
+							da sie medizinische Gutachten zur Todesursache in Fällen vermuteter Kindstötung enthalten (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=319559">StAZH H I 321-H I 334</ref></bibl>; 
+								<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=323028">H I 335-H I 401</ref></bibl>;
+								<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=322312">H II 23</ref></bibl>).</p> 
+						<p>Wurde eine Kindstötung durch die Mutter als erwiesen angesehen, verhängte das
+							Zürcher Blutgericht in der Regel die Todesstrafe durch Enthauptung. Im
+							vorliegenden Fall lag die richterliche Kompetenz jedoch nicht beim
+							Rat, da das mutmassliche Vergehen in der Landvogtei <placeName ref="LOC_Lat_Long">Grüningen</placeName>
+							stattgefunden hatte, sondern beim dortigen Landtag, welchem der
+							Landvogt vorstand. Der Grund dafür lag darin, dass die Landvogtei
+							<placeName ref="LOC_Lat_Long">Grüningen</placeName> auch nach Integration in das Zürcher Herrschaftsgefüge über
+							eine eigene Hochgerichtsbarkeit verfügte (<bibl><ref target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html">Brühlmeier 2018</ref>, S. 64-67</bibl>; <bibl><ref target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html">Weibel
+							1987</ref>, S. 35</bibl>). Aus diesem Grund setzt Landvogt <persName>Hans Konrad Bleuler</persName> im
+							vorliegenden Fall den Rat auch abschliessend über das in <placeName ref="LOC_Lat_Long">Grüningen</placeName>
+							getroffene Urteil in Kenntnis.</p> <p>Bereits im 18. Jahrhundert entwickelte
+							sich unter den Vorzeichen der Aufklärung eine Debatte um die den Kindstötungen zugrundeliegenden Ursachen. Autoren wie
+								<persName ref="GND_118592912">Johann Heinrich Pestalozzi</persName> betonten die ökonomisch und sozial prekäre
+							Situation unverheirateter Mütter und forderten die Einrichtung von
+							Findel- und Gebärhäusern als unterstützende Massnahmen. Neuere
+							Forschungen haben Bezüge hergestellt zu weiteren Delikten wie Hexerei
+							und Prostitution, mit denen ebenfalls seit dem 16. Jahrhundert verstärkt
+							Frauen und ihre Körper gerichtlich verhandelt und Abweichungen von der
+							ehelichen Geschlechter- und Gesellschaftsordnung obrigkeitlich verfolgt
+							wurden.</p> <p>Zum Delikt der Kindstötung vgl. <bibl>HLS, <ref target="https://hls-dhs-dss.ch/de/articles/016117/2007-08-10/">Kindesmord</ref></bibl>;
+								<bibl>HLS, <ref target="https://hls-dhs-dss.ch/de/articles/027814/2022-12-22/">Geschlechtergeschichte</ref></bibl>;
+								<bibl><ref target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html">Suter 2017</ref></bibl>. Ein weiterer exemplarischer Zürcher Fall liegt online ediert vor (<bibl><ref target="https://qzh.sources-online.org/exist/apps/qzh/quellenstuecke/QZH_031">QZH, Nr. 31</ref></bibl>).</p>
+					</div>
+				</back>
+
+			</text>
+		</group>
+	</text>
+</TEI>
