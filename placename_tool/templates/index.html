@@ -152,8 +152,21 @@
                 </div>
 
                 <!-- API Search Results -->
-                <h3 class="text-sm font-semibold text-slate-400 uppercase tracking-wider mb-4 border-b border-slate-700 pb-2">API Match Candidates</h3>
-                
+                <div class="border-b border-slate-700 pb-3 mb-4">
+                    <h3 class="text-sm font-semibold text-slate-400 uppercase tracking-wider mb-3">API Match Candidates</h3>
+                    <div class="flex gap-2 items-center">
+                        <input type="text" id="alt-search-term"
+                            class="flex-1 bg-slate-800 border border-slate-600 rounded px-3 py-1.5 text-white text-sm focus:outline-none focus:border-blue-500 transition-colors"
+                            placeholder="Alternativer Suchbegriff…"
+                            onkeydown="if(event.key==='Enter') triggerAltSearch()">
+                        <button onclick="triggerAltSearch()"
+                            class="px-3 py-1.5 bg-slate-700 hover:bg-slate-600 text-white rounded text-sm transition-colors whitespace-nowrap">
+                            Suchen
+                        </button>
+                    </div>
+                    <p class="text-xs text-slate-500 mt-1.5" id="active-search-label"></p>
+                </div>
+
                 <div id="search-loading" class="py-8 flex flex-col items-center justify-center text-slate-400 hidden">
                     <svg class="animate-spin h-8 w-8 text-blue-500 mb-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle><path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path></svg>
                     <span>Searching Wikidata, ortsnamen.ch, GeoAdmin, GeoNames...</span>
@@ -212,6 +225,7 @@
         function searchPlace(name) {
             document.getElementById('search-loading').classList.remove('hidden');
             document.getElementById('search-results-container').innerHTML = '';
+            document.getElementById('active-search-label').textContent = `Suche nach: «${name}»`;
             
             fetch(`/api/search?name=${encodeURIComponent(name)}`)
                 .then(res => res.json())
@@ -224,6 +238,11 @@
                     document.getElementById('search-loading').classList.add('hidden');
                     document.getElementById('search-results-container').innerHTML = `<div class="p-4 text-red-400 bg-red-900/20 rounded">Search failed.</div>`;
                 });
+        }
+
+        function triggerAltSearch() {
+            const term = document.getElementById('alt-search-term').value.trim();
+            if (term) searchPlace(term);
         }
 
         function resolve(name, lat, lng, source) {
@@ -392,6 +411,10 @@
             document.getElementById('custom-lng').value = '';
             
             updateDetailView();
+            
+            // Pre-fill alternative search term input
+            document.getElementById('alt-search-term').value = place.name;
+            document.getElementById('active-search-label').textContent = '';
             
             // Initiate search
             searchPlace(place.name);

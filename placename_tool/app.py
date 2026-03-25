@@ -73,6 +73,9 @@ def parse_ewkt_coords(ewkt_str):
         # Try MULTIPOINT or other geometry types - take first point
         match = re.search(r'SRID=(\d+);(?:MULTI)?POINT\s*\(\s*\(?\s*([\d.]+)\s+([\d.]+)', ewkt_str)
     if not match:
+        # Try POLYGON / MULTIPOLYGON - extract first coordinate pair
+        match = re.search(r'SRID=(\d+);(?:MULTI)?POLYGON\s*[ZM ]*\(+\s*([\d.]+)\s+([\d.]+)', ewkt_str)
+    if not match:
         return None
     srid = int(match.group(1))
     x = float(match.group(2))
@@ -139,9 +142,9 @@ def search_wikidata(name):
     """Search Wikidata using the W3C Entity Reconciliation API format."""
     results = []
     try:
-        # Search via Reconciliation API
-        resp = requests.get('https://wikidata.reconci.link/en/api', params={
-            'queries': json.dumps({'q': {'query': name, 'limit': 10}})
+        # Search via Reconciliation API with fuzzy match ~ (German endpoint)
+        resp = requests.get('https://wikidata.reconci.link/de/api', params={
+            'queries': json.dumps({'q': {'query': f"{name}~", 'limit': 10}})
         }, timeout=15)
         
         if resp.status_code == 200:
@@ -191,32 +194,26 @@ def search_ortsnamen(name):
     """Search ortsnamen.ch for a place name."""
     results = []
     try:
+        # Append ~ for Lucene fuzzy search
         resp = requests.get(
             'https://search.ortsnamen.ch/de/api/search',
-            params={'q': name, 'limit': 10},
+            params={'q': f"{name}~", 'limit': 10},
             headers={'User-Agent': 'PlaceNameReconciler/1.0'},
             timeout=15
         )
         if resp.status_code == 200:
             data = resp.json()
             for item in data.get('results', []):
-                # Get detail for coordinates
                 toponym_id = item.get('id')
-                detail_url = item.get('url', '')
-                if not detail_url and toponym_id:
-                    detail_url = f'https://search.ortsnamen.ch/de/api/toponyms/{toponym_id}'
-
-                localisation_text = item.get('localisation', '')
                 municipalities = ', '.join(item.get('municipalities', []))
                 cantons = ', '.join(item.get('cantons', []))
                 description_parts = item.get('description', [])
-                desc = ', '.join(description_parts) if description_parts else ''
+                desc = ', '.join(description_parts) if isinstance(description_parts, list) else str(description_parts)
                 if municipalities:
-                    desc = f"{municipalities}" + (f" ({cantons})" if cantons else '')
+                    desc = municipalities + (f" ({cantons})" if cantons else '')
                 elif cantons:
                     desc = cantons
 
-                # Try to get coordinates from detail endpoint
                 coords = None
                 if toponym_id:
                     try:
@@ -292,40 +289,49 @@ def search_geoadmin(name):
 
 
 def search_geonames(name):
-    """Search GeoNames for a place name."""
+    """Search GeoNames using the FornPunkt Reconciliation API."""
     results = []
     try:
-        resp = requests.get(
-            'http://api.geonames.org/searchJSON',
-            params={
-                'q': name,
-                'maxRows': 5,
-                'username': 'demo',
-                'style': 'FULL',
-                'lang': 'de'
-            },
+        resp = requests.post(
+            'https://fornpunkt.se/apis/reconciliation/geonames',
+            data={'queries': json.dumps({'q': {'query': name, 'limit': 3}})},
             timeout=10
         )
         if resp.status_code == 200:
-            data = resp.json()
-            for item in data.get('geonames', []):
-                lat = item.get('lat')
-                lng = item.get('lng')
-                if lat and lng:
-                    country = item.get('countryName', '')
-                    admin1 = item.get('adminName1', '')
-                    desc_parts = [p for p in [admin1, country] if p]
-                    results.append({
-                        'source': 'GeoNames',
-                        'name': item.get('toponymName', name),
-                        'description': ', '.join(desc_parts),
-                        'lat': round(float(lat), 5),
-                        'lng': round(float(lng), 5),
-                        'url': f'https://www.geonames.org/{item.get("geonameId", "")}',
-                        'id': str(item.get('geonameId', ''))
-                    })
+            try:
+                resp_data = resp.json()
+                # The reconciliation API mirrors the query key (e.g. 'q' or 'q0')
+                data = next(iter(resp_data.values()), {}).get('result', [])
+            except (json.JSONDecodeError, AttributeError):
+                data = []
+
+            for item in data:
+                gid = item.get('id')
+                if not gid:
+                    continue
+                # Fetch Coordinates from GeoNames RDF snippet
+                rdf_url = f"https://sws.geonames.org/{gid}/about.rdf"
+                try:
+                    rdf_resp = requests.get(rdf_url, timeout=5)
+                    if rdf_resp.status_code == 200:
+                        # Use lxml or simple regex to extract coordinates
+                        # The RDF uses <wgs84_pos:lat> and <wgs84_pos:long>
+                        lat_m = re.search(r'<wgs84_pos:lat>([-\d.]+)</', rdf_resp.text)
+                        lng_m = re.search(r'<wgs84_pos:long>([-\d.]+)</', rdf_resp.text)
+                        if lat_m and lng_m:
+                            results.append({
+                                'source': 'GeoNames (Recon)',
+                                'name': item.get('name', name),
+                                'description': item.get('description', ''),
+                                'lat': round(float(lat_m.group(1)), 5),
+                                'lng': round(float(lng_m.group(1)), 5),
+                                'url': f'https://www.geonames.org/{gid}',
+                                'id': str(gid)
+                            })
+                except Exception as e:
+                    print(f"Error fetching GeoNames RDF for {gid}: {e}")
     except Exception as e:
-        print(f"GeoNames search error for '{name}': {e}")
+        print(f"GeoNames Recon search error for '{name}': {e}")
     return results
 
 
