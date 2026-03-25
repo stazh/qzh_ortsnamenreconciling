@@ -107,6 +107,16 @@
             </div>
 
             <div class="flex-1 overflow-y-auto p-6">
+                <!-- Context / Snippets -->
+                <div class="bg-slate-900 rounded-lg p-4 mb-6 border border-slate-700 shadow-sm">
+                    <h3 class="text-sm font-semibold text-slate-400 uppercase tracking-wider mb-3">
+                        XML Context Examples
+                    </h3>
+                    <div id="detail-contexts" class="space-y-3 text-sm text-slate-300 font-serif leading-relaxed max-h-60 overflow-y-auto pr-2">
+                        <!-- Populated by JS -->
+                    </div>
+                </div>
+
                 <!-- Manual Override Map & Form -->
                 <div class="bg-slate-900 rounded-lg p-4 mb-6 border border-slate-700 shadow-sm">
                     <h3 class="text-sm font-semibold text-slate-400 uppercase tracking-wider mb-4 flex items-center justify-between">
@@ -351,6 +361,29 @@
             // Format occurrences text
             const uniqueFiles = new Set(place.occurrences.map(o => o.file)).size;
             document.getElementById('detail-occurrences').textContent = `Found ${place.count} times across ${uniqueFiles} files`;
+            
+            // Render contexts
+            const contextsContainer = document.getElementById('detail-contexts');
+            contextsContainer.innerHTML = '';
+            const contextsToShow = place.occurrences.slice(0, 50);
+            contextsToShow.forEach(occ => {
+                 const div = document.createElement('div');
+                 div.className = "border-l-2 border-slate-600 pl-3 py-1 bg-slate-800/50 rounded-r";
+                 div.innerHTML = `
+                    <div class="flex items-center justify-between text-xs text-slate-500 font-sans font-medium mb-1">
+                        <span>${occ.file}:${occ.line}</span>
+                        <span class="bg-slate-800 px-1 py-0.5 rounded border border-slate-700">Exact: "${occ.exact_name}"</span>
+                    </div>
+                    <div class="break-words">${occ.context || 'Context not available'}</div>
+                 `;
+                 contextsContainer.appendChild(div);
+            });
+            if (place.occurrences.length > 50) {
+                 const div = document.createElement('div');
+                 div.className = "text-xs text-slate-500 italic mt-2 font-sans";
+                 div.textContent = `...and ${place.occurrences.length - 50} more occurrences.`;
+                 contextsContainer.appendChild(div);
+            }
             
             // Clear custom inputs
             document.getElementById('custom-lat').value = '';

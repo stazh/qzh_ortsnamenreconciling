@@ -100,17 +100,32 @@ def scan_xml_files():
         try:
             with open(filepath, 'r', encoding='utf-8') as f:
                 for line_num, line in enumerate(f, 1):
+                    # Clean line whitespace for better display
+                    clean_line = line.strip()
                     # Find all placeName tags with LOC_Lat_Long in this line
+                    # We use a non-greedy match to handle multiple tags on one line
                     for m in re.finditer(
-                        r'<placeName\s+ref="LOC_Lat_Long">([^<]+)</placeName>',
-                        line
+                        r'<placeName\s+ref="(?:LOC_Lat_Long|LOC_[-\d._]+)">([^<]+)</placeName>',
+                        clean_line
                     ):
-                        name = m.group(1)
+                        name = m.group(1).strip()
                         if name not in place_names:
                             place_names[name] = []
+                            
+                        # Wrap the specific tag in a marked span so the frontend can highlight it
+                        start, end = m.span()
+                        # Extract a window of context (e.g., up to 100 chars before and after)
+                        context_start = max(0, start - 150)
+                        context_end = min(len(clean_line), end + 150)
+                        
+                        context_prefix = ("..." if context_start > 0 else "") + clean_line[context_start:start]
+                        context_suffix = clean_line[end:context_end] + ("..." if context_end < len(clean_line) else "")
+                        
                         place_names[name].append({
                             'file': os.path.basename(filepath),
-                            'line': line_num
+                            'line': line_num,
+                            'context': f"{context_prefix}<mark class='bg-yellow-500/30 text-yellow-200 px-1 rounded'>{m.group(0)}</mark>{context_suffix}",
+                            'exact_name': name
                         })
         except Exception as e:
             print(f"Error reading {filepath}: {e}")
@@ -121,98 +136,54 @@ def scan_xml_files():
 # ─── API search functions ────────────────────────────────────────────────────
 
 def search_wikidata(name):
-    """Search Wikidata for a place name and return candidates with coordinates."""
+    """Search Wikidata using the W3C Entity Reconciliation API format."""
     results = []
     try:
-        # Use Wikidata SPARQL endpoint
-        sparql = f"""
-        SELECT ?item ?itemLabel ?itemDescription ?coord WHERE {{
-          ?item rdfs:label "{name}"@de .
-          ?item wdt:P625 ?coord .
-          SERVICE wikibase:label {{ bd:serviceParam wikibase:language "de,en". }}
-        }}
-        LIMIT 10
-        """
-        resp = requests.get(
-            'https://query.wikidata.org/sparql',
-            params={'query': sparql, 'format': 'json'},
-            headers={'User-Agent': 'PlaceNameReconciler/1.0'},
-            timeout=15
-        )
+        # Search via Reconciliation API
+        resp = requests.get('https://wikidata.reconci.link/en/api', params={
+            'queries': json.dumps({'q': {'query': name, 'limit': 10}})
+        }, timeout=15)
+        
         if resp.status_code == 200:
-            data = resp.json()
-            for binding in data.get('results', {}).get('bindings', []):
-                coord_str = binding.get('coord', {}).get('value', '')
-                # Parse Point(lng lat)
-                coord_match = re.search(r'Point\(([-\d.]+)\s+([-\d.]+)\)', coord_str)
-                if coord_match:
-                    lng = float(coord_match.group(1))
-                    lat = float(coord_match.group(2))
-                    qid = binding.get('item', {}).get('value', '').split('/')[-1]
-                    results.append({
-                        'source': 'Wikidata',
-                        'name': binding.get('itemLabel', {}).get('value', name),
-                        'description': binding.get('itemDescription', {}).get('value', ''),
-                        'lat': round(lat, 5),
-                        'lng': round(lng, 5),
-                        'url': f'https://www.wikidata.org/wiki/{qid}',
-                        'id': qid
-                    })
-
-        # Also try with broader search using wbsearchentities
-        if not results:
-            resp2 = requests.get(
-                'https://www.wikidata.org/w/api.php',
-                params={
-                    'action': 'wbsearchentities',
-                    'search': name,
-                    'language': 'de',
-                    'type': 'item',
-                    'limit': 10,
+            data = resp.json().get('q', {}).get('result', [])
+            qids = [item['id'] for item in data if item['id'].startswith('Q')]
+            
+            if qids:
+                # Then fetch coords for these IDs using the standard Wikidata API
+                qids_str = '|'.join(qids)
+                ents_resp = requests.get('https://www.wikidata.org/w/api.php', params={
+                    'action': 'wbgetentities',
+                    'ids': qids_str,
+                    'props': 'claims',
                     'format': 'json'
-                },
-                headers={'User-Agent': 'PlaceNameReconciler/1.0'},
-                timeout=10
-            )
-            if resp2.status_code == 200:
-                entities = resp2.json().get('search', [])
-                qids = [e['id'] for e in entities[:5]]
-                if qids:
-                    # Get coordinates for these entities
-                    qid_values = ' '.join(f'wd:{q}' for q in qids)
-                    sparql2 = f"""
-                    SELECT ?item ?itemLabel ?itemDescription ?coord WHERE {{
-                      VALUES ?item {{ {qid_values} }}
-                      ?item wdt:P625 ?coord .
-                      SERVICE wikibase:label {{ bd:serviceParam wikibase:language "de,en". }}
-                    }}
-                    """
-                    resp3 = requests.get(
-                        'https://query.wikidata.org/sparql',
-                        params={'query': sparql2, 'format': 'json'},
-                        headers={'User-Agent': 'PlaceNameReconciler/1.0'},
-                        timeout=15
-                    )
-                    if resp3.status_code == 200:
-                        data3 = resp3.json()
-                        for binding in data3.get('results', {}).get('bindings', []):
-                            coord_str = binding.get('coord', {}).get('value', '')
-                            coord_match = re.search(r'Point\(([-\d.]+)\s+([-\d.]+)\)', coord_str)
-                            if coord_match:
-                                lng = float(coord_match.group(1))
-                                lat = float(coord_match.group(2))
-                                qid = binding.get('item', {}).get('value', '').split('/')[-1]
-                                results.append({
-                                    'source': 'Wikidata',
-                                    'name': binding.get('itemLabel', {}).get('value', name),
-                                    'description': binding.get('itemDescription', {}).get('value', ''),
-                                    'lat': round(lat, 5),
-                                    'lng': round(lng, 5),
-                                    'url': f'https://www.wikidata.org/wiki/{qid}',
-                                    'id': qid
-                                })
+                }, headers={'User-Agent': 'PlaceNameReconciler/1.0'}, timeout=15)
+                
+                if ents_resp.status_code == 200:
+                    entities = ents_resp.json().get('entities', {})
+                    for r in data:
+                        qid = r['id']
+                        if qid in entities:
+                            ent = entities[qid]
+                            claims = ent.get('claims', {})
+                            if 'P625' in claims: # Coordinate location
+                                try:
+                                    coord = claims['P625'][0]['mainsnak']['datavalue']['value']
+                                    lat = coord.get('latitude')
+                                    lng = coord.get('longitude')
+                                    
+                                    results.append({
+                                        'source': 'Wikidata',
+                                        'name': r.get('name', name),
+                                        'description': r.get('description', ''),
+                                        'lat': round(lat, 5),
+                                        'lng': round(lng, 5),
+                                        'url': f'https://www.wikidata.org/wiki/{qid}',
+                                        'id': qid
+                                    })
+                                except (KeyError, IndexError, TypeError) as e:
+                                    print(f"Error parsing P625 for {qid}: {e}")
     except Exception as e:
-        print(f"Wikidata search error for '{name}': {e}")
+        print(f"Wikidata Recon error for '{name}': {e}")
     return results
 
 
