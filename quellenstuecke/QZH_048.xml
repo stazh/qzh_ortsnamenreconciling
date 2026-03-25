@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='../../Ressourcen/Stylesheet.xsl'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quellen zur Zürcher Geschichte</title>
+            <respStmt>
+               <persName>Kristina Gasser; Jakob Metzler; Emma Negretti</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Sarah Murer; Michael Schaffner</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Staatsarchiv des Kantons Zürich</publisher>
+            <date type="electronic" when="2021-05-01"/>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Territorienbildung der Städte im Spätmittelalter</title>
+            <respStmt>
+               <persName>Laura Bitterli und Simon Teuscher</persName>
+               <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>QZH_048</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=5125006"
+                     >StAZH A 124.1, Nr. 19</idno>
+               </msIdentifier>
+               <head>Zeugenaussagen (Kundschaften) betreffend Gerichtsgrenzen in der Herrschaft Grüningen
+               </head>
+               <msContents>
+                  <summary>23 Männer aus der Herrschaft Grüningen bezeugen unter Eid die Gerichtsgrenzen, wie sie in einem alten Verzeichnis (<q>alt rodel</q>) festgehalten seien. Sie bezeugen ausserdem, dass ihnen niemand bekannt sei, der je diese Gerichtskreise unter der Familie Gessler, als ihren früheren Herren, oder unter den aktuellen Zürcher Herren <q>gesumpt ald geirt</q> hätte. </summary>
+                  <msItem>
+                     <textLang>Deutsch</textLang>
+                     <filiation type="current">Aufzeichnungen (Doppelblatt)</filiation>
+                     <filiation type="original"><origDate from="1436-01-01" to="1439-12-31"></origDate></filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support><material>Papier</material></support>
+                        <extent/>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin><origDate from="1436-01-01" to="1439-12-31"></origDate></origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc> </profileDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000057">Gericht</term>
+               <term ref="key000305">Grenze</term>
+               <term ref="key003994">Hochgerichtsbarkeit</term>
+               <term ref="key003261">Kundschaft</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <p><pb n="1" facs="A_124_1__Nr__19__S__1_.tif"/></p>
+            <pb n="2" facs="A_124_1__Nr__19__S__2_.tif"/>
+            <p>
+               <lb/><persName>Heini Weber</persName> von <placeName ref="LOC_47.2875_8.85719">Hadlikon</placeName> ist by 80 jar alt,
+               <lb/><persName>Heini Boengarter</persName> vom <placeName ref="LOC_47.25839_8.77829">Lûtzelse</placeName> ist by 80 jar alt,
+               <lb/><persName>Heini Graf</persName> usserm <placeName>Slatt</placeName> ist by 70 jar alt,
+               <lb/><persName>Hans Tanner</persName> von <placeName ref="LOC_47.26542_8.79663">Bûrg</placeName> ist by 70 jar alt,
+               <lb/><persName>Heini Büler</persName> von <placeName ref="LOC_47.23443_8.77716">Schirmense</placeName> ist by 70 jar alt,
+               <lb/><persName>Heini Suter</persName> von <placeName ref="LOC_47.2703_8.68171">Uetikon</placeName> ist ob 65 jar alt,
+               <lb/><persName>Cueny Egg</persName> von <placeName ref="LOC_47.27856_8.84156">Tûnnroten</placeName> ist by 80 jar alt,
+               <lb/><persName>Hans <del>von</del> <placeName ref="LOC_47.30764_8.81222">Buosslikon</placeName></persName> <add place="above">von <placeName ref="LOC_47.2946_8.78194">Opptikon</placeName></add> ist by 70 jar alt,
+               <lb/><persName>Ruedy Gubelman</persName> von <placeName ref="LOC_47.26898_8.85024">Tann</placeName> ist by 70 jar alt,
+               <lb/><persName>Heini Mûrry</persName> von <placeName ref="LOC_47.2946_8.78194">Opptikon</placeName> ist by 70 jar alt,
+               <lb/><persName>Ruedy Schûch</persName> von <placeName ref="LOC_47.25839_8.77829">Lûtzelse</placeName> ist by 70 jar alt,
+               <lb/><persName>Ruedy <add place="above">Pfanner</add></persName> <del>Pfaffner</del> von <placeName>Erneswil</placeName> ist by 70 jar alt,
+               <lb/><persName>Heini <unclear>Rimerhart</unclear></persName> von <placeName ref="LOC_47.27856_8.84156">Tûnnroten</placeName> ist by 60 jar alt,
+               <lb/><persName>Hans Schûch</persName> von <placeName ref="LOC_47.25839_8.77829">Lûtzelse</placeName> ist by 60 jar alt,
+               <lb/><persName>Lûty Zender</persName> von <placeName ref="LOC_47.27632_8.75851">Bintzikon</placeName> ist by 65 jar alt,
+               <lb/><persName>Peter Boner</persName> von <placeName ref="LOC_47.27856_8.84156">Tûnnroten</placeName> ist by 60 jar alt,
+               <lb/><persName>Ruedy Egg</persName> von <placeName ref="LOC_47.27856_8.84156">Tûnnroten</placeName> ist by 55 jar alt,
+               <lb/><persName>Heini Mittler</persName> von <placeName ref="LOC_47.25093_8.79766">Berlikon</placeName> ist by 50 jar alt,
+               <lb/><persName>Heini Schnider</persName> von <placeName ref="LOC_47.27856_8.84156">Tûnnroten</placeName> ist by 60 jar alt,
+               <lb/><persName>Ruedy <unclear>Tanner</unclear></persName> von <placeName>Ernetswil</placeName> ist by 60 jar alt,
+               <lb/><persName>Staffel Muggly</persName> von <placeName ref="LOC_47.27632_8.75851">Bintzikon</placeName> ist by 50 jar alt,
+               <lb/><persName>Hans Gebelman</persName> von <placeName ref="LOC_47.26898_8.85024">Tann</placeName> ist by 45 jar alt,
+               <lb/><persName>Uely Gerwer</persName> von <placeName ref="LOC_47.27942_8.86162">Ober Tûnnroten</placeName> ist by 40 jar alt.
+            </p>
+            <p>
+               <lb/>Sagent all by iren eiden, die sy dar nach swerren wellent, der sin
+               <lb/>nit erbern wil, dz sy von iren <subst><del>s</del><add place="inline">v</add></subst>aettern und vordern je welten gehoert
+               <lb/>haben, dz der herschaft ze <placeName ref="LOC_47.28333_8.75">Grueningen</placeName> gericht gangen und gan sûllen
+               <lb/>untz an die kriess<note>Im Text steht deutlich <q>kriess</q>. Dies ist aber wohl ein Verschreiber für <q>kreiss</q> (siehe übernächste Zeile).</note>, die dann der alt rodel <del>den</del> <choice><abbr>eigenl</abbr><expan>eigenlich</expan></choice> begrift. Sy hand
+               <lb/>ouch nie vernomen, dz jemand min herren <persName>Gessler</persName>, seligen, noch min herren von
+               <lb/><placeName ref="LOC_47.36667_8.55">Zùrich</placeName> in den kreiß an iren gericht je gesumpt ald geirt hab.
+            </p>
+            <p>
+               <lb/><persName>Cüni Senn</persName> von <add place="above">ober</add> <placeName ref="LOC_47.3549873871874_8.886545496913172">Wolffspurg</placeName>
+            </p>
+            <pb n="3"/>
+            <p>
+               <lb/><placeName ref="LOC_47.28333_8.75">Grueniger</placeName> kunntschaft, wie wit
+               <lb/>ir herschafft begriffen.
+            </p>
+         </div>
+      </body>
+      <back>
+         <div><p>
+            Zu den Grüninger Kundschaften vgl. den Kommentar zu <bibl><ref target="https://qzh.sources-online.org/quellenstuecke/QZH_044">QZH, Nr. 44</ref></bibl>.
+         </p></div>
+      </back>
+   </text>
+</TEI>

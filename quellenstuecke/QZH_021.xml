@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css“?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0"
+ xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <respStmt>
+     <persName>Andrea Schmid-Kunz</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Michael Schaffner</persName>
+     <resp key="tagging"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <date type="electronic" when="2021-05-01"/>
+    <date type="print" when="2018-12-31"/>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Gelebte Reformation. Zürich 1500-1800</title>
+    <respStmt>
+     <persName>Francisca Loetz. Unter Mitarbeit von Wolfram Schneider-Lastin</persName>
+     <resp>Herausgeberschaft</resp>
+    </respStmt>
+    <idno>QZH_021</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier>
+      <idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4902206">StAZH E II 422, fol. 45r-45av</idno>
+     </msIdentifier>
+     <head>Rundschreiben des Kirchenvorstehers Anton Klingler an die Dekane bezüglich eines Gerüchts
+      über einen Poltergeist im Lindauer Pfarrhaus</head>
+     <msContents>
+      <msItem>
+       <textLang>Deutsch</textLang>
+       <filiation type="current">Eintrag</filiation>
+       <filiation type="original"/>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support><material>Papier</material></support>
+        <extent/>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin><origDate when="1697-01-28"/></origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p>
+     <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+    </p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc> </profileDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term ref="key000301">Pfarrer</term>
+     <term ref="key004865">Zauberei</term>
+    </keywords>
+   </textClass>
+   <particDesc default="false"/>
+   <settingDesc default="false"/>
+  </profileDesc>
+ </teiHeader>
+ <text>
+  <group>
+   <text>
+    <body>
+     <pb n="45r" facs="StAZH_E_II_422__fol__45_r_.tif"/>
+<div><p><lb/>Ehrwürdiger, hoch- und wolgelehrter, 
+     <lb/>insonders hochgeehrter herr decane!</p>
+     <p><seg><lb/>Dieweil von etwas zeit her, so wol zu stadt als 
+     <lb/>land, ein schandtliches und höchstärgerliches
+     gerücht,
+     <lb/>zu viler herzen betrübnus erschallen, als wann zu 
+      <placeName ref="LOC_Lat_Long">Lin<lb break="no"/>dau</placeName> in dem pfarrhauß ein gespängst, zu großer
+     <lb/>beunrühigung der einwohnern von underschidenlichen
+     <lb/>persohnen gesehen und gehört werde, darüber vil
+     unbe<lb break="no"/>gründte, 
+      ganz ungleiche discursen hin und wider 
+     <lb/>geführt worden. Als haben die <abbr>hhrn</abbr> examinatores
+     <lb/>beyder ständen, umb wahrhaffte eigentliche infor<lb break="no"/>mation 
+      davon zuhaben <abbr>hren</abbr> <abbr>pfr.</abbr> <persName ref="GND_1089544812">Denzler</persName> von <placeName ref="LOC_Lat_Long">Lin<lb break="no"/>dau</placeName> 
+      persöhnlich für sich bescheiden und von ihme
+     <lb/>folgenden bericht vernommen:</seg>     <seg>Daß er mit den 
+     <lb/>lieben seinigen von erster seiner ankonfft an viler<lb break="no"/>ley 
+      gepölder nit ohne großen schrecken zu under<lb break="no"/>schidenlichen 
+      mahlen in der studier- und wonnstuben, auch
+     <lb/>andern gemächern des pfarrhaußes zu nacht
+     <lb/>und tagszeit gehöret, welches von seinem
+     <lb/>schneider, der ihme auß der arbeit geflohen, 
+     <lb/>und andern, die in das pfarrhauß gewandlet, di<lb break="no"/>vulgirt, 
+      dabey aber weder von ihme, noch von
+     <lb/>jemand in seiner gemeind, vilweniger von ihme
+     <lb/>selbst oder seinen haußgenoßen außgegeben worden,
+     <lb/>als wann dißes oder jennes in specie, oder diese
+     <lb/>und jenne persohn in individuo erscheine, sonder
+     <lb/>daß nur ein unruhiger poldergeist auß
+     <lb/>verhängnus gottes sich hören laße.</seg> <seg>Wie dann
+     <lb/><abbr>hren</abbr> pfarrer <persName>Haußlins</persName> <abbr>sel:</abbr> hinderlaßene selbst
+     <lb/>bekent und ausgesagt, auch vor uns nach
+     <lb/>bekennen und aussagen, daß schon under ihres lieben
+      <pb n="45v" facs="StAZH_E_II_422__fol__45_v_.tif"/>
+     <lb/>vatter <abbr>sel.</abbr>, als seinem <abbr>hren</abbr> vorfahren, ja schon vor
+     <lb/>langer zeit, under <abbr>hren</abbr> pfarrer <persName>Fehr</persName> <abbr>sel:</abbr> mehr<lb break="no"/>mahlen etwas ungeheürs observirt und gewahret
+     <lb/>worden, deßen die ursach seyn solle, daß vormahlen
+     <lb/>eine magd einen kindermord daselbst begangen, wie dann
+     <lb/>an dem orth, da die mordthat geschehen, das meiste
+     <lb/>unwesen und gepölder geführet wird.</seg> <seg>Und
+      <lb/>weilen von <abbr>hren</abbr> <abbr>pfr.</abbr> <persName ref="GND_1089544812">Denzler</persName> zimlich ehrrühriges
+     <lb/>spargirt worden, als wann er zu abtreibung dißes
+     <lb/>poldergeists untheologisch verfahren, hat er sich
+     deßent<lb break="no"/>wegen also verantwortet, daß aus seinem verfahren
+     <lb/>sich erhellet, er habe mit den lieben seinigen in allem
+     seine hofnung und 
+     <lb/>trost allein auf gott, der stärker und gewaltiger 
+     <lb/>als ihr widersächer, steif gesezt, und in dißer
+     <lb/>über ihn verhängten unruhe durch unabläßliches
+     <lb/>gebet und seüfzen gnädiger hülf mit kindtlicher
+     <lb/>gedult und gelaßenheit von ihme erwartet,
+     <lb/>weßwegen mann ihne mit trost fehrners aufge<lb break="no"/>richtet, 
+      und wie er sich weiters under der hand des 
+     <lb/>herren in das könftige zuverhalten habe, underrichtet, 
+     <lb/>dabey aber die nothwendige insinuation an ihme ge-
+     <lb/>than, seine stillständer und gemeindsgnoßen dahin
+     <lb/>ernsthaft zuvermannen, daß sie dißes wesen nit
+     weiters
+     <lb/>divulgiren, mit angehenkter treüwung, daß auf ds
+     <lb/>erste spargament eine scharfe inquisition auf
+     <lb/>den urheber gehalten und er nach verdienen ab-
+      <lb/>gestrafft werden solle.</seg>     <seg>Dißes wird so wol auf
+     <lb/>befehl <abbr>uns:</abbr> <abbr>gnen.</abbr> <abbr>hhren.</abbr> als der <abbr>hhren</abbr> examinator <abbr>u</abbr>
+     <lb/><abbr>mhhren</abbr> decano und seinen <abbr>hhren</abbr> capitulsbrüderen
+     kundt<lb break="no"/>gethan, damit wo dißes ungute und nachtheilige 
+     <lb/>gerücht 
+       <pb n="45a" facs="StAZH_E_II_422__fol__45_a_r_.tif"/>     
+      <lb/>in ihren gemeinden erschalle, zu nothwendiger 
+     <lb/>rettung und reparirung <abbr>hren</abbr> <abbr>pfr.</abbr> <persName>Häußlins</persName> <abbr>sel</abbr>
+     <lb/>ehr, mit vorsichtigkeit, durch erinnerung und 
+     <lb/>vermannung, ab der canzel oder von nöthen, oder stillständ, ir nach
+     <lb/>beschaffenheit das gerücht, groß oder klein, kopirt
+     <lb/>und getüscht werde, mit anfügen, daß dergleichen
+     spar<lb break="no"/>gament herrühre theils aus mangel der liebe, theils
+     <lb/>aus mangel des glaubens, theils aus unwüßen<lb break="no"/>heit 
+      der erkantnus gottes und seines worts.
+     <lb/>Dann was ist doch liebloser, als nach dem
+     <lb/>tod eines sonst ehrlichen manns auf etwas ge<lb break="no"/>hörtes 
+      gepölder arguiren und spagiren, dißer
+     <lb/>mann ist nach seinem tod unrühwig, er lauft 
+     <lb/>umbher, muß in seinem leben nit vil gutes ge<lb break="no"/>wesen 
+      seyn, und darüber bald dißes, bald jennes
+     <lb/>suspiciren und argwohnen, deßen mann weder grund
+     noch
+     <lb/>fundament hat? Und gesezt, daß man etwas grund
+     <lb/>hete, ach wie vil müßten nach ihrem tod herumb<lb break="no"/>laufen, die sich etwann mit heimlichen und
+     verborgenen
+     <lb/>lastern befleckt haben! Wiewolen mann dergleichen
+     nichts
+     <lb/>weißt noch aufbringen kan, wan dem <abbr>sel:</abbr> <abbr>hren</abbr>
+     <lb/><persName>Haüßlein</persName>, der ein ganz vernünftiges, mit gebet
+     <lb/>und seüfzen zu gott, biß auf den letzten athemzug
+     <lb/>höchstrühmliches end von dißer welt genommen hat.
+     <lb/>Und wann auch dem teüfel selbst durch gottes
+     <lb/>verhängnus der zaum so weit gelaßen wurde,
+     <lb/>daß er in gestalt <abbr>hren</abbr> <persName>Haüslins</persName> <abbr>sel</abbr> erscheinen
+     könte,
+     <lb/>solte darum das grund genug seyn, <abbr>hr</abbr> <persName>Haüßlein</persName>
+     <lb/>müße kein kind der seligkeit seyn? Ach liebloser 
+      <lb/>grund! War darum der fromme prophet <persName ref="GND_118605313">Sa<lb break="no"/>muel</persName> kein seliges kind gottes, daß jenne hex
+     <lb/>zu <placeName>Endor</placeName> auß zulaßung Gottes einen teüfel
+       <pb n="45av" facs="StAZH_E_II_422__fol__45_a_v_.tif"/>
+     <lb/>herfür gezauberet, der in der gestalt dißes theüren
+     pro<lb break="no"/>pheten erschinnen und sich in worten und geberden als
+     der
+      <lb/>wahrhafte <persName ref="GND_118605313">Samuel</persName> erzeiget? Der mangel des glau<lb break="no"/>bens aber laßt sich herfür darinn, daß mann bey
+     solchen
+     <lb/>anläßen darfür haltet, verstorbene leüth seyen nach 
+     <lb/>ihrem tod unrühwig, und laufen herumb, da doch
+     <lb/>der leib ruhet in der erden, die seel aber hingehet
+     zu
+     <lb/>ihrem schöpfer, eintweders zur ewigen ruhe, oder
+     <lb/>aber in den orth der qual, ohne ein einichen fehrnern
+       <lb/>außgang.</seg> <seg>In allen aber ist große, grobe unwüßen<lb break="no"/>heit gottes und seines worts, deswegen <abbr>mhhren</abbr>
+      <lb/>decanus samt seinen <abbr>hhren</abbr> <choice><abbr>mitcapitulsbrüdrn</abbr><expan>mitcapitulsbrüdren</expan></choice>
+     <lb/>mit allem fleiß erinnert werden, ihr volk auf
+     <lb/>dem wort gottes eines beßeren zubereden, und auf
+     <lb/>alle ersinnliche weise dißem höchstägerlichen,
+     unserem
+     <lb/>allerheiligsten glauben auch bey der widerpart nach<lb break="no"/>theiligen falschen gerücht zusteüren, und in
+     gänzliches
+        <lb/>vergeß zubringen.</seg> <seg>Womit nechst empfehlung
+     <lb/>göttlichem obschirm verbleibe nechst schönstem
+     <lb/>gruß</seg></p>
+ <p><seg><lb/><origPlace ref="LOC_Lat_Long">Zürich</origPlace> den <origDate when="1697-01-28">28. jenner. 
+     <lb/>1697</origDate>.
+     <lb/>Meines hochgeehrten <abbr>hren</abbr> 
+     <lb/>decani
+     <lb/>dienstberichtwilligster
+  <lb/><supplied><persName ref="GND_12120071X">Anton Klingler</persName></supplied></seg></p>
+</div>
+    </body>
+    <back>
+     <div>
+      <p>Angesichts des Gerüchts, im Pfarrhaus von <placeName ref="LOC_Lat_Long">Lindau</placeName> gehe seit mehreren Generationen
+       wegen eines von einer Magd dort begangenen Kindsmords ein Poltergeist um, der ein Wiedergänger
+       des verstorbenen Pfarrers <persName>Häuslin</persName> sei, ermahnt <persName ref="GND_12120071X">Anton Klingler</persName> die Geistlichen, diesem Gerücht
+       entgegenzutreten. Auch das ehrenrührige Gerücht, der jetzige Pfarrer <persName ref="GND_1089544812">Denzler</persName> habe mit
+       unorthodoxen Mitteln den Poltergeist zu vertreiben versucht, sei zu unterbinden. Der
+       Geisterglaube verletze die Ehre des verstorbenen Pfarrers und zeuge von mangelndem Glauben.
+       Das Schreiben belegt, dass Poltergeister theologisch zwar als Machenschaft des Teufels
+       denkbar waren, aber die Kirche die vorreformatorischen und weiterhin lebendigen Vorstellungen
+       von Geistern als Widergänger von Toten zu bekämpfen suchte.</p>
+     </div>
+    </back>
+   </text>
+  </group>
+ </text>
+</TEI>

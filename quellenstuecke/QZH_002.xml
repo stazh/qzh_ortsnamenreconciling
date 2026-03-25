@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css“?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <respStmt>
+                    <persName>Andrea Schmid-Kunz</persName>
+                    <resp key="transcript"/>
+                </respStmt>
+                <respStmt>
+                    <persName>Michael Schaffner</persName>
+                    <resp key="tagging"/>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <date type="electronic" when="2021-05-01"/>
+                <date type="print" when="2018-12-31"/>
+            </publicationStmt>
+            <seriesStmt xml:id="ssrq-sds-fds">
+                <title>Gelebte Reformation. Zürich 1500-1800</title>
+                <respStmt>
+                    <persName>Francisca Loetz. Unter Mitarbeit von Wolfram Schneider-Lastin</persName>
+                    <resp>Herausgeberschaft</resp>
+                </respStmt>
+                <idno>QZH_002</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4890508">StAZH B II 695, S. 35</idno>
+                    </msIdentifier>
+                    <head>Beschluss betreffend Inhaftierung von Mustapha Caffa von Algier im Wellenberg und Befragung durch die Nachgänger</head>
+                    <msContents>
+                        <msItem>
+                            <textLang>Deutsch</textLang>
+                            <filiation type="current">Eintrag</filiation>
+                            <filiation type="original"><origDate when="1706-07-21"/></filiation>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><material>Papier</material></support>
+                                <extent/>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origDate when="1706-07-21"/></origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>
+                    <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+                </p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc> </profileDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+                    <term ref="key000325">Fremde</term>
+                    <term ref="key000334">Gefängnis</term>
+                    <term ref="key000670">Konfession</term>
+                    <term ref="key005339">Konversion</term>
+                    <term ref="key005473">Nachgang</term>
+                    <term ref="key003408">Taufe</term>
+                </keywords>
+            </textClass>
+            <particDesc default="false"/>
+            <settingDesc default="false"/>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <group>
+            <text>
+        <body>
+        <div>
+            <pb n="35" facs="StAZH_B_II_695__S__35_.tif"/>
+            <p>
+                <lb/>Der im <placeName ref="LOC_Lat_Long">Ötenbach</placeName> verwahrte betrieger, welcher
+                <lb/>sich von namen <persName>Mustapha Caffa</persName> und von <placeName ref="LOC_Lat_Long">Algiers</placeName>
+            <lb/>gebürtig dargibt, auch allhier das christenthum an<lb break="no"/>nemmen wollen, und getaufft zuwerden verlangt,
+                <lb/>soll in den <placeName ref="LOC_Lat_Long">Wellenberg</placeName> gelegt, durch die herren
+            <lb/>nachgänger alles ernsts wohar er komme? by was
+            <lb/>gsellschafft er sich die zeitharo aufgehalten?
+                <lb/>was für reisen er gemacht? ob und wann er zu <placeName ref="LOC_Lat_Long">Bern</placeName> ge<lb break="no"/>taufft worden, auch obe er zu <placeName ref="LOC_Lat_Long">Einsidlen</placeName> nicht um
+            <lb/>ein gleiches angehalten, und was ihme dorten
+            <lb/>widerfahren, befraget, und seine verantwortung
+            <lb/>widerum an <abbr>mghh.</abbr> gebracht werden.</p></div>
+        </body>
+                <back>
+                <div>
+                    <p>In diesem einzigartigen Fall lässt sich verfolgen, wie konsequent der <orgName>Rat</orgName> die
+                        Geschichte des Türken <persName>Caffa</persName> alias <persName>Cara</persName> zu überprüfen suchte, der sich als versklavter
+                        osmanischer Muslim und geflüchteter Galeerenflüchtling ausgab, welcher zum Reformiertentum
+                        konvertiert sei. Offenbar hielt der <orgName>Rat</orgName> die Darlegungen des schliesslich als Betrüger
+                        aufgedeckten Mannes für glaubwürdig genug, um vielfältige Erkundigungen einzuziehen.
+                        Ausserdem weisen die Akten darauf hin, dass <persName>Caffa</persName> seine vermeintliche Konversion als
+                        symbolisches Kapital einzusetzen vermochte, um sich von den jeweiligen Orten unterstützen zu
+                        lassen, an denen er seine Geschichte verkaufte.</p>
+                </div>
+                </back>
+            </text>
+            </group>
+    </text>
+</TEI>

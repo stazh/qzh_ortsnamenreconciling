@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quellen zur Zürcher Geschichte</title>
+            <respStmt>
+               <persName>Denia Stettler</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Denia Stettler</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Staatsarchiv des Kantons Zürich</publisher>
+            <date type="electronic" when="2024-10-10"/>
+            <date type="print" when="2024-10-10"/>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Quellen zur Zürcher Geschichte</title>
+            <respStmt>
+               <persName>Staatsarchiv des Kantons Zürich</persName>
+               <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>QZH_061</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4746675">StAZH
+                     C II 3, Nr. 193 a</idno>
+               </msIdentifier>
+               <head>Erläuterung zu Artikel 29 des Hausbriefs von Bubikon betreffend
+                  Ungenossame</head>
+               <msContents>
+                  <summary>Bürgermeister und Rat der Stadt Zürich schlichten einen Streit zwischen
+                     Graf Rudolf von Werdenberg, Meister des Johanniterordens in Deutschen Landen
+                     und Komtur des Hauses Bubikon, sowie den zu diesem Haus gehörenden Eigenleuten
+                     über die Interpretation von Artikel 29 des Hausbriefs. Es wird entschieden,
+                     wenn ein Leibeigener von Bubikon, der eine ungenossame Ehe geschlossen habe,
+                     sterbe, sollen aus seinem Nachlass zuerst seine Schulden bezahlt und nur das,
+                     was anschliessend übrig bleibe, dem Herrn des Hauses Bubikon oder seinem
+                     Amtmann für den Lass überlassen werden.</summary>
+                  <msItem>
+                     <textLang>Deutsch</textLang>
+                     <filiation type="current">Orginal</filiation>
+                     <filiation type="original"><origDate when="1485-10-03"/></filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support><material>Pergament</material></support>
+                        <extent><dimensions type="leaves">
+                              <height unit="cm" quantity="22"/>
+                              <width unit="cm" quantity="28.5"/>
+                           </dimensions><dimensions type="plica">
+                              <width unit="cm" quantity="4.5"/>
+                           </dimensions></extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <sealDesc>
+                     <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1"
+                        nontei:material="wax" nontei:shape="round"
+                        nontei:attachment="sealed on a ribbon" nontei:condition="well-preserved">
+                        <persName role="sigillant">Stadt Zürich</persName>
+                     </seal>
+                  </sealDesc>
+               </physDesc>
+               <history>
+                  <origin><origDate when="1485-10-03"/><origPlace>Zürich</origPlace></origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc> </profileDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000061">Ehegenossame</term>
+               <term ref="key000597">Erbrecht</term>
+               <term ref="key000183">Fall</term>
+               <term ref="key000084">Leibeigenschaft</term>
+               <term ref="key000058">Schulden</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <pb facs="C_II_3__Nr__193_a__r_.tif"/>
+            <p>
+               <lb/>Wir, der Bu̍rgermeister und raͧt der statt <placeName ref="LOC_Lat_Long"
+                  >Zu̍rich</placeName>, tuͦnd ku̍ndt offennlich mit disem brieff, als vor ettlichen
+               tagen <lb/>der hochwu̍rdig wolgeporn herr, her <persName ref="GND_1025206975"
+                  >Ruͦdolf, Graͧff von Werdemberg</persName>, meister sant Johanns ordens in
+               Tu̍tschen <lb/>lannden und comendu̍r des huses <placeName ref="LOC_Lat_Long"
+                  >Buͦbikon</placeName>, von desselben huses wegen an einem und die eigenlu̍t, so an
+               <lb/>dasselb hus <placeName ref="LOC_Lat_Long">Buͦbikon</placeName> gehoͤren
+               und dienen, am andern teil umb ir spenn und zweytrecht du̍rch ettlich unnsrer
+               <lb/>raͤt daͧrtzuͦ geordnet guͤttlich und in der fruͤntschafft nach besag des
+               versigellten ubertrags, daͧran diß unnsrer <lb/>lu̍tru̍ng gehefft ist, bericht und
+               vereynt worden, und aber yetz in irrung und ungliche verstenntnuͦß eins
+               <lb/>artickels halb daͧrinn begriffen kommen sind. Der selb artickel von wort zuͦ
+               wort also wyset zuͦ dem nu̍n und <lb/>zwenntzigosten, das ouch des genanten huses
+               eigen lu̍te sich nit enntungnossen noch ungenossam machen soͤllen. Und ob sich einer
+               oder mer mit wiben zuͦ neͣmen enntungnossameten, als dick und von wem das
+               <lb/>beschicht, das der herr vorgenant oder sin comendu̍r und amptman des huses
+                  <placeName ref="LOC_Lat_Long">Buͦbikon</placeName> die daͧrumb naͧch
+               <lb/>gnaden straͧffen mogen. Und wenn die selben, die sich also enntungnossamend und
+               daͧrumb gestraͧfft sind <lb/>von tods wegen abgaͧnd, das dann ein herr comendu̍r ald
+               amptman des vorgenanten huses von den selben <lb/>alles ir varend guͦt, so sy naͧch
+               tod laͧssen, erben und sy daͧrtzuͦ vallen mogen. Und ob die selben eeliche kind
+               hinder <lb/>inen liessen, das denen ir verlaͧssen ligend guͦt werden sol. Söͤlichen
+               yetz gemellten artickel die vorberuͤrten <lb/>eignen lu̍te meinten zuͦ verstaͧn, das
+               der zuͦ lettst an sinem ennd des laͧsses halb die meynung haben soͤllte, <lb/>wenn
+               ein herr des huses <placeName ref="LOC_Lat_Long">Buͦbikon</placeName> oder
+               sin amptman von einem eignen, der sich, als ob staͧt, mit der ungenossame
+               <lb/>verhanndelt hette, den laͧss der varenden hab naͧch einem abganng nemen wellte.
+               Ob dann der selb yemans <lb/>ichtzit schuldig weͣre, das dann soͤlichs voruß von
+               soͤlichem varenden gùͦt ußgericht und bezallt werden. <lb/>Und ob daͧru̍ber ichtzit
+               me vorhannden blibe, das soͤllte für den laͧss genomen werden. Daͧwider der obgenant
+               <lb/>herr, der meister, vermeint, das im und sinen naͧchkomen, innhabern des huses
+                  <placeName ref="LOC_Lat_Long">Bùͦbikon</placeName>, oder <app>
+                  <lem>irrnn</lem>
+                  <rdg
+                     wit="StAZH C II 3, Nr. 839 / https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4746677"
+                     >irn</rdg>
+               </app>" amptlu̍ten <lb/>in soͤlichem fùͦg das varend gùͦt ganntz u̍beral vor allen
+               schuldnern und ein abganng, minndrung oder <lb/>bezalu̍ng einicher schulden werden
+               und bliben solle. Und als wir beydteil hierumb gnùͦg samtlich verhoͤrt <lb/>und sy
+               soͤlichs beydersydt zùͦ unnser lu̍trung gesetzt und wir daͧruff den u̍bertrag, ouch
+               unnser raͤt vor<lb break="no"/>maͧls daͧby gewesen, vernommen, so haben wir
+               erlu̍ttert und gesprochen, das der obbestympt artickel <lb/>also verstannden und von
+               dißhin gehallten werden sol: Das uß dem varenden gùͦt des, so sich mit der un<lb
+                  break="no"/>genossame verhanndellt haͧt. naͧch sinem abganng voruß all schulden,
+               die sich, wie recht ist, erfinden, <lb/>ußgericht und bezallt werden und das u̍brig,
+               ob ichtz me varends gùͦt vorhannden ist, einem herren des <lb/>huses <placeName
+                  ref="LOC_Lat_Long">Bùͦbikon</placeName> oder sinem amptman fu̍r den laͧs,
+               als vorstaͧt, gelanngen und werden soͤlle und soͤlich <lb/>unnser lu̍trung dem
+               u̍bertrag in annder weg unscheͣdlich sin. Des zùͦ urkund haben wir diß
+               unnser<lb/>lu̍trung an den gemellten u̍bertrag hefften und mit unnser statt
+               angehenncktem secret in<lb break="no"/>sigel bevestnen laͧssen. Geben und beschechen
+               uff <origDate when="1485-10-03">mentag naͧch sant <persName ref="GND_118733591"
+                     >Michels</persName> tag von der gepurt <lb/>Cristi unnsers lieben herren
+                  gezellt viertzechenhundert achtzig und fu̍nff jaͧre</origDate>. </p>
+         </div>
+      </body>
+      <back>
+         <div>
+            <p>Zu der hier dokumentierten Auseinandersetzung zwischen dem Komtur und den Eigenleuten
+               des Johanniterhauses Bubikon kam es, nachdem deren Rechte und Pflichten drei Jahre
+               zuvor im sogenannten Hausbrief festgehalten worden waren (vgl. <bibl><ref target="https://qzh.sources-online.org/quellenstuecke/QZH_060">QZH, Nr. 60</ref></bibl>). Der Zürcher
+               Rat entschied in diesem Fall zu Gunsten der Eigenleute. Wie beim Hausbrief erhielten
+               auch von der Erläuterung der Komtur und die Eigenleute je ein Exemplar. Im Exemplar
+               des Komturs ist die Erläuterung immer noch angeheftet (<bibl><ref
+                     target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4746675">StAZH C
+                     II 3, Nr. 193 a</ref></bibl>), im Exemplar der Eigenleute wurde sie (<bibl><ref
+                     target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4746677">StAZH C
+                     II 3, Nr. 839</ref></bibl>) zu einem späteren Zeitpunkt herausgelöst. Vgl. den
+               Kommentar zu <ref
+                  target="https://qzh.sources-online.org/exist/apps/qzh/quellenstuecke/QZH_060">QZH,
+                  Nr. 60</ref>. </p>
+         </div>
+      </back>
+   </text>
+</TEI>

@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='../../Ressourcen/Stylesheet.xsl'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quellen zur Zürcher Geschichte</title>
+            <respStmt>
+               <persName>Kristina Gasser; Jakob Metzler; Emma Negretti. Mit einem Kommentar von
+                  Laura Bitterli und Simon Teuscher</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Sarah Murer; Michael Schaffner</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Staatsarchiv des Kantons Zürich</publisher>
+            <date type="electronic" when="2021-05-01"/>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Territorienbildung der Städte im Spätmittelalter</title>
+            <respStmt>
+               <persName>Laura Bitterli und Simon Teuscher</persName>
+               <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>QZH_044</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+                  <msIdentifier>
+                     <idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=5124356"
+                        >StAZH A 124.1, Nr. 15</idno>
+                  </msIdentifier>
+               <head>Zeugenaussagen (Kundschaften) betreffend die Blutsgerichtsbarkeit in der
+                  Herrschaft Grüningen</head>
+               <msContents>
+                  <summary>89 Männer aus verschiedenen Dörfern, Weilern und Höfen hören und bezeugen
+                     unter Eid die Gebietsgrenzen der Blutgerichtsbarkeit in der Herrschaft
+                     Grüningen.</summary>
+                  <msItem>
+                     <textLang>Deutsch</textLang>
+                     <filiation type="current">Aufzeichnungen (2 zusammengebundene
+                        Rödel)</filiation>
+                     <filiation type="original"><origDate from="1436-01-01" to="1439-12-31"></origDate></filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support><material>Papier</material></support>
+                        <extent/>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin><origDate from="1436-01-01" to="1439-12-31"></origDate></origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc> </profileDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000057">Gericht</term>
+               <term ref="key000305">Grenze</term>
+               <term ref="key003994">Hochgerichtsbarkeit</term>
+               <term ref="key003261">Kundschaft</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <pb n="1" facs="A_124_1__Nr__15__r_.tif"/>
+            <head type="subtitle">Es ist ze wissend von der grossen gericht wegen, so über daz bluet gericht, <lb/>die da hoerend zuo der
+               herschafft hand, an die vesti gen <placeName ref="LOC_Lat_Long"
+                  >Grueningen</placeName>.</head>
+            <p><lb/>Des ersten gannd die selben gericht untz gen <placeName
+                  ref="LOC_Lat_Long">Kempten</placeName> in den bach, <lb/>den
+                  bach uff
+               untz an <placeName>Risenrüty</placeName>. Item von <placeName>Risenrüti</placeName>
+               hinuͥber <lb/>untz an den <placeName>Vischbach</placeName>, den selben bach uff untz
+               an den <placeName>Toͤstobel</placeName>
+               <lb/>und daz gebiet hin untz an <placeName>Utinger tobel</placeName>, als der schne
+               harin <lb/>schmiltzet. Item von <placeName>Utinger tobel</placeName> herab bis gen
+                  <placeName ref="LOC_Lat_Long">Rapreswil</placeName>, in den
+                  <lb/><placeName>Rotenweg</placeName>, von dem <placeName>Rotenweg</placeName>, den
+                  se nider untz an daz
+               <placeName>Alt <lb/>Oetenbach</placeName>. Item von dem <placeName>Alten
+                  Oetenbach</placeName> bis gen <placeName ref="LOC_Lat_Long"
+                  >Egmatingen</placeName> an der <lb/><placeName
+                  ref="LOC_Lat_Long">Tûrlin</placeName> von dannen hinûber bis
+               gen <unclear>mine</unclear> an die <placeName ref="LOC_Lat_Long"
+                  >Tössin</placeName>.
+               <lb/>Item von dannen herùber untz an
+                  <placeName>Braitenbrunnen</placeName>, von <placeName>Braiten<lb break="no"
+                  />brunnen</placeName> bis gen <placeName ref="LOC_Lat_Long"
+                  >Uster</placeName> in den bach. Item von <placeName
+                  ref="LOC_Lat_Long">Uster</placeName> bis wider in <lb/><placeName
+                  ref="LOC_Lat_Long">Kempten</placeName> in den bach.</p>
+            <p><lb/>Und herumb, so hand dis nachgeschriben erbern lùt ein warheit <lb/>geseit und
+               darumb offenlich zuo gott und den heiligen gesworn, des ersten:</p>
+            <p><lb/><persName>Heinrich</persName> der alt murer, <lb/><persName>Johanns
+                  Träyer</persName>, <lb/><persName>Johanns Schnider</persName>,
+                  <lb/><persName>Ruodolff Kùtzo</persName>, <lb/><persName>Heinrich
+                  Zimberman</persName>, <lb/>und <persName>Ruodolff Eichholtzer</persName>,
+               <lb/>alle von <placeName ref="LOC_Lat_Long">Grüningen</placeName>.</p>
+            <p><lb/>Item <persName>Johanns Zehender</persName>, <lb/><persName>Lútolt
+                  Gubler</persName>, <lb/><persName>Cuonrat Pfister</persName>, <lb/>und
+                  <persName>Heinrich Scherer</persName>, <lb/>von <placeName
+                  ref="LOC_Lat_Long">Bintzikon</placeName>.</p>
+            <p><lb/>Item <persName>Ruodolff ab dem Wasen</persName>, <lb/><persName>Ruodolff
+                  Bûrger</persName>, der alt, <lb/><persName>Heinrich
+                  <unclear>Biemunt</unclear></persName>, der alt, <lb/><persName>Fritschy
+                  Hûndler</persName>, <lb/>alle von <placeName ref="LOC_Lat_Long"
+                  >Itzikon</placeName>.</p>
+            <p><lb/><persName>Ruodolff, der alt, Kindenman</persName> von <placeName
+                  ref="47.29269, 8.77025">Kindenmans Mûle</placeName>.</p>
+            <p>
+               <lb/>Item <persName>Ruodolff Usserman</persName>, <lb/><persName>Johanns
+                  Hartman</persName>, <lb/><persName>Ruedger Wisso</persName>, <lb/>von <placeName
+                  ref="LOC_Lat_Long">Optinkon</placeName>.</p>
+            <p><lb/>Item der alt <persName>Meyer</persName>, <lb/><persName>Heinrich
+                  Marty</persName>, <lb/>von <placeName ref="LOC_Lat_Long"
+                  >Hùmvel</placeName>.</p>
+            <p><lb/>Item <persName>Uolrich</persName> und <persName>Berchtold Fryo</persName>,
+               gevettern, <lb/><persName>Ruodolff Hottinger</persName>, <lb/><persName>Albrecht
+                  Senno</persName>, <lb/><persName>Uolrich Otto</persName>, <lb/>und
+                  <persName>Wernli Walther</persName>, <lb/>alle von <placeName
+                  ref="LOC_Lat_Long">Wernoltzhusen</placeName>.</p>
+            <p><lb/>Item <persName>Hans Herr</persName>, <lb/><persName>Üli Weber</persName>,
+               <lb/>von <placeName ref="LOC_Lat_Long">Hadlinkon</placeName>.</p>
+            <p><lb/>Item <persName>Johanns</persName> und <persName>Rüdy</persName> ab <placeName
+                  ref="LOC_Lat_Long">Edikon</placeName>.</p>
+            <p><lb/>Item <persName>Ruodolff Gerwer</persName>, <lb/><persName>Cuonrat</persName> und
+                  <persName>Welti Gubelman</persName>, <lb/><persName>Johanns, der alt,
+                  Bachman</persName>, <lb/>der weber, <lb/><persName>Ruodolff Wernher</persName>,
+               <lb/>der rätloss, <lb/><persName>Johanns</persName> und <persName>Erni
+                  Biderman</persName>, <lb/><persName>Ruodolff</persName>, der alt, von
+                  <placeName ref="LOC_Lat_Long">Tann</placeName>
+               <lb/>der alt <persName>Wachter</persName> von <placeName ref="LOC_Lat_Long">Tann</placeName>, <lb/>alle
+               von <placeName ref="LOC_Lat_Long"
+                  >Tùnnrothen</placeName>.</p>
+            <p>
+               <lb/>Item <persName>Heinrich</persName> ab <placeName ref="LOC_Lat_Long"
+                  >Gùntersperg</placeName>, <lb/><persName>Uolrich Haldli</persName>,
+                  <lb/><persName>Ruodolff Brendli</persName>, <lb/>von <placeName
+                  ref="LOC_Lat_Long">Wald</placeName>.</p>
+            <p><lb/>Item <persName>Johanns</persName>, der alt, von <placeName
+                  ref="LOC_Lat_Long">Tafelthen</placeName>.</p>
+            <p><lb/>Item <persName>Berchtold Geissberg</persName>, <lb/><persName>Üli</persName> und
+                  <persName>Cuonrat</persName> von <placeName>Landoltzaker</placeName>.</p>
+            <p><lb/>Item <persName>Heinrich Rüdy</persName> und <persName>Hans Tanner</persName>,
+               gebruoder, von <placeName ref="LOC_Lat_Long">Bùrg</placeName>.</p>
+            <p><lb/>Item <persName>Ruodolff Bertschy</persName>, <lb/><persName>Cuonrat
+                  Wisman</persName>, <lb/><persName>Cuonrat Hofer</persName> und
+                  <persName>Cuonrat</persName>, sin vetter, <lb/>von <placeName
+                  ref="LOC_Lat_Long">Wolhusen</placeName>.</p>
+            <p><lb/>Item <persName>Johanns Rot</persName> von <placeName
+                  ref="LOC_Lat_Long">Rùgshusen</placeName>, <lb/>item <persName>Heinrich
+                  Zehender</persName> von <placeName ref="LOC_Lat_Long"
+               >Berlikon</placeName>.</p>
+            <p><lb/>Item <persName>Johanns Peter</persName>, <lb/><persName>Heinrich Rot</persName>,
+                  <lb/><persName>Heinrich Geisshorn</persName>, <lb/>von
+                  <placeName>Erliswil</placeName>.</p>
+            <p><lb/>Item <persName>Ruodolff Büler</persName>, der alt, <lb/><persName>Heinrich
+                     <unclear>Kùmi</unclear></persName> von <placeName>Langriet</placeName>.</p>
+            <p><lb/>Item <persName>Ruodolf Niderdorffer</persName>, <lb/><persName>Johanns
+                  Neisideler</persName>, <lb/><persName>Cuonrat Hessing</persName>
+               <lb/>von <placeName ref="LOC_Lat_Long">Humbrechtikon</placeName>.</p>
+            <p><lb/>Item <persName>Ruodolff am Boll</persName> von <placeName
+                  ref="LOC_Lat_Long">Esslingen</placeName>.</p>
+            <p><lb/>Item <persName>Berchtold Staeli</persName>, <lb/><persName>Johanns, der alt,
+                  Huober</persName>, <lb/><persName>Cuonrat Kuchiman</persName>, <lb/>der
+                  <persName>Sünlin</persName>, <lb/><persName>Johanns Eman</persName>, <lb/>und
+                  <persName>Cuonrat Sorger</persName>, <lb/>alle von <placeName
+                  ref="LOC_Lat_Long">Vollikon</placeName>.</p>
+            <p>
+               <lb/>Item <persName>Herman Bluntschli</persName>, <lb/><persName>Ruedy
+                  Widmer</persName>, <lb/><persName>Berchtolt Wilrikon</persName>
+               <lb/>von <placeName>Hof</placeName>.</p>
+            <p><lb/>Item <persName>Berchtold</persName> und <persName>Ruodolff Nidrost</persName>,
+                  <lb/><persName>Wernher Köffman</persName>, <lb/><persName>Johanns
+                  Wisman</persName>, <lb/>der <persName>Ütinger</persName>, <lb/>der
+                  <persName>Hinderman</persName>, <lb/>und <persName>Cuonrat</persName> von
+                  <placeName ref="LOC_Lat_Long">Rûty</placeName>, <lb/>alle von <placeName
+                  ref="LOC_Lat_Long">Egg</placeName>.</p>
+            <p><lb/><persName>Johanns</persName> und <persName>Jekli</persName> von <placeName
+                  ref="LOC_Lat_Long">Tûffental</placeName>, <lb/>item <persName>Uolrich
+                  Schemperli</persName> von <placeName ref="LOC_Lat_Long"
+               >Ùsikon</placeName></p>
+            <p><lb/>Item <persName>Herman</persName> und <persName>Berchtold Keller</persName>,
+               <lb/>der alt <persName>Haegni</persName>, beid von <placeName
+                  ref="LOC_Lat_Long">Altorff</placeName>.</p>
+            <p><lb/><persName>Johanns Suter</persName>, <lb/><persName>Johanns
+                  Sultzbacher</persName>, <lb/>von <placeName ref="LOC_Lat_Long"
+                  >Goessöw</placeName>.</p>
+            <p><lb/>Item <persName>Cuonrat Stroewli</persName>, <lb/><persName>Peter
+                  Wegman</persName>, <lb/>und <persName>Johanns Amman</persName>, <lb/>von
+                  <placeName ref="LOC_Lat_Long">Bertschikon</placeName>.</p>
+            <p><lb/>Item der alt <persName>Heinrich im Hoff</persName>, <lb/><persName>Jekli im
+                  Hoff</persName>, <lb/>der alt <persName>Bischoff</persName>, <lb/>von <placeName
+                  ref="LOC_Lat_Long">Sultzbach</placeName>. </p>
+         </div>
+            <pb n="2" facs="A_124_1__Nr__15__v_.tif"/>
+         <div>
+            <ab type="dorsal">
+               <lb/>Kuntschafft, wie wit die hochen <lb/>gricht zu <placeName
+                  ref="LOC_Lat_Long">Grüningen</placeName> gand.</ab>
+         </div>
+      </body>
+      <back>
+         <div>
+            <p>Die vorliegende Aufzeichnung ist Teil eines Dossiers mit insgesamt elf undatierten
+               Kundschaften zu Herrschaftsrechten und Grenzverläufen der hohen Gerichte
+               (Blutgericht) und einzelnen Bemerkungen zum Militärdienst in der Herrschaft
+                  <placeName ref="LOC_Lat_Long">Grüningen</placeName>. Die Kundschaften wurden
+               aufgenommen von Vertretern der Zürcher Herrschaft, ca. in den 1430er Jahren, also 20
+               bis 30 Jahre nach der Herrschaftsverpfändung von den Brüdern
+                  <persName>Hermann</persName> und <persName>Wilhelm Gessler</persName> an
+               Bürgermeister, Räte und Bürger der Stadt <placeName ref="LOC_Lat_Long"
+                  >Zürich</placeName> (vgl. <bibl><ref
+                     target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=365725">StAZH C I,
+                     Nr. 2361</ref></bibl>).</p>
+            <p>Obwohl <placeName ref="LOC_Lat_Long">Grüningen</placeName> offiziell nach der
+               Verpfändung weiterhin zum habsburgischen Herrschaftsbereich gehörte, baute <placeName
+                  ref="LOC_47.37721_8.52731">Zürich</placeName> die Herrschaftsrechte über das Gebiet
+               aus, z. B. verlieh König <persName ref="GND_118614185">Sigismund</persName> 1431 <placeName
+                  ref="LOC_47.37721_8.52731">Zürich</placeName> das Blutgericht über <placeName
+                  ref="LOC_Lat_Long">Grüningen</placeName> (<bibl><ref
+                     target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=433876">StAZH C I,
+                     Nr. 2368</ref></bibl>). Erst 1474 in der Ewigen Richtung (<bibl><ref
+                     target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=249892">StAZH C I,
+                        Nr. 446</ref></bibl>) verzichtete <persName ref="GND_118544233">Habsburg-Österreich</persName>
+               offiziell auf ihre verpfändeten Rechte, wodurch <placeName ref="LOC_Lat_Long"
+                  >Grüningen</placeName> definitiv an <placeName ref="LOC_Lat_Long"
+                  >Zürich</placeName> fiel.</p>
+            <p>Die Grüninger Kundschaften sind undatiert, passen aber gut in den Kontext der
+               Blutgerichtsverleihung an <placeName ref="LOC_47.37721_8.52731">Zürich</placeName>,
+               weshalb der Entstehungszeitraum in den 1430er Jahren vermutet wird (laut
+               Archivvermerk grösstenteils datiert auf 1436-1439, wohl 1438). Die
+               Grenzbeschreibungen des Hochgerichts fokussieren stark auf die östliche Grenze der
+               Grüninger Herrschaft, vermutlich weil die westliche (bisherige) Grenze der Zürcher
+               Herrschaft der Zürcher Obrigkeit bereits bestens bekannt war. Die Grenzbeschreibungen
+               sollen nicht darüber hinwegtäuschen, dass (spät)mittelalterliche Grenzen eher vage
+               und durchlässig waren – es gibt keinerlei Hinweise auf Markierungen der Grenzen im
+               Feld. Die Kundschaften mit ihren Grenzbeschreibungen geben wertvolle Einblicke in den
+               zeitgenössischen politischen Kontext und die Herausbildung und Konsolidierung der
+               Zürcher Territorialherrschaft.</p>
+            <p>Kundschaften sind niedergeschriebene Zeugenbefragungen, mit dem Ziel, eine
+               umstrittene Rechtsangelegenheit zu klären. Sie wurden oft bei Herrschaftswechseln
+               eingeholt, um lokale Rechtstradition festzustellen, autorisierte Auskunft einzuholen
+               und sich die Herrschaftsansprüche formal anerkennen zu lassen. In diesem Dossier ist
+               der seltene Fall gegeben, dass ein Entwurf und eine Reinschrift der gleichen
+               Kundschaft überliefert sind (<bibl><ref
+                     target="https://qzh.sources-online.org/quellenstuecke/QZH_046">QZH, Nr.
+                     46</ref></bibl> und <bibl><ref
+                     target="https://qzh.sources-online.org/quellenstuecke/QZH_047">QZH, Nr.
+                     47</ref></bibl>). Somit lassen sich auch obrigkeitliche Abläufe des <q>making</q>,
+               <q>using</q> und <q>keeping</q> von herrschaftssichernden Dokumenten genauer analysieren.</p> 
+            <p>Zu den Grüninger Kundschaften siehe: <bibl><ref target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html">Dändliker 2022</ref></bibl>; <bibl><ref target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html">Gasser 2022</ref></bibl>; zu <persName ref="LOC_Lat_Long">Grüningen</persName> im Spätmittelalter vgl. <bibl><ref target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html">Brühlmeier 2008</ref></bibl>; 
+               <bibl><ref target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html">Eugster 1995b</ref></bibl>;
+               zu Kundschaften im Allgemeinen siehe: <bibl><ref target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html">Dilcher 2021</ref></bibl>; <bibl><ref target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html">Teuscher 2007</ref></bibl>; <bibl><ref target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html">Algazi 1996</ref></bibl>; 
+           zu Raumvorstellungen und Grenzen im
+           Spätmittelalter siehe: <bibl><ref target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html">Rutz 2018</ref></bibl>; <bibl><ref target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html">Vavra 2005</ref></bibl>; 
+               <bibl><ref target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html">Moraw 2002</ref></bibl>; <bibl><ref target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html">Marchal 1996</ref></bibl>.</p></div>
+      </back>
+   </text>
+</TEI>

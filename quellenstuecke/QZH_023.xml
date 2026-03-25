@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css“?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0"
+ xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <respStmt>
+     <persName>Andrea Schmid-Kunz</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Michael Schaffner</persName>
+     <resp key="tagging"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <date type="electronic" when="2021-05-01"/>
+    <date type="print" when="2018-12-31"/>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Gelebte Reformation. Zürich 1500-1800</title>
+    <respStmt>
+     <persName>Francisca Loetz. Unter Mitarbeit von Wolfram Schneider-Lastin</persName>
+     <resp>Herausgeberschaft</resp>
+    </respStmt>
+    <idno>QZH_023</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier>
+      <idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4902247">StAZH B III 172, S. 379-380</idno>
+     </msIdentifier>
+     <head>Widerruf von Heinrich Widmer von Glattfelden wegen Gotteslästerung</head>
+     <msContents>
+      <msItem>
+       <textLang>Deutsch</textLang>
+       <filiation type="current">Eintrag</filiation>
+       <filiation type="original"/>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support><material>Papier</material></support>
+        <extent/>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin><origDate when="1694-11-18"/></origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p>
+     <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+    </p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc> </profileDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+        <term ref="key000482">Blasphemie</term>
+        <term ref="key004380">Fluchen/Schwören</term>
+    </keywords>
+   </textClass>
+   <particDesc default="false"/>
+   <settingDesc default="false"/>
+  </profileDesc>
+ </teiHeader>
+ <text>
+  <group>
+   <text>
+       <body>
+        <pb n="379" facs="StAZH_B_III_172__S__379_.tif"/>
+        <div> 
+            <head><lb/>Widerrueff
+             <lb/><persName>Heinrich Widmers</persName> von <placeName ref="LOC_Lat_Long">Glattfelden</placeName> in der herschafft <placeName ref="LOC_Lat_Long">Eglisou</placeName>,
+           <lb/>welchen er in der kirchen doselbst ab offner cantzel
+           <lb/>thun müeßen, sontags, den <date when="1694-11-18">18. novemb. <abbr>a<hi rend="sup">o</hi></abbr> 1694</date></head>
+         <p><seg><lb/>Demmnach ich, <persName>Heinrich Widmer</persName> von <placeName ref="LOC_Lat_Long">Glattfelden</placeName> in der herschafft <placeName ref="LOC_Lat_Long">Eglisou</placeName>, so
+           <lb/>allhier gegenwürthig stohe, in der leidigen trunkhenheit, worinen ein heil<lb break="no"/>loses 
+            leben ist, in die verdammliche sünd gerathen, daß ich leider! wider
+          <lb/>die hochgelobte jungfrouw <persName ref="GND_118640909">Marya</persName>, die eine und heilige
+           <lb/>muter gottes, in eine abschüwliche und gottsvergeßne losterung ouß<lb break="no"/>gebrochen 
+            und darmit mich an der hohen mayestath gotes und der
+          <lb/>von englen und menschen sellig geprißnen muter deß heren <persName ref="GND_118557513">Jesu</persName>,
+           <lb/>wie auch der gantzen ehrbahren christenheit so groblich versündiget, daß
+           <lb/>ich billich dorüber an leib und leben hete abgestrafft werden sollen.
+           <lb/>Weilen mir aber die hohe gnad widerfahren, daß ich meine schantliche
+           <lb/>zunge annoch regen kan, will ich selbige hinkünfftig zu lobpreißung
+           <lb/>deß <abbr>h.</abbr> nammens gottes und zu deemüthiger abbith dißer begangnen
+           <lb/>mißethat, wie auch ubriger meiner sünden, auß eingrund meines hertzens
+           <lb/>anwenden.</seg> <seg>Euch, eine gantze christliche gmeind, pitthe ich, ihr wollet
+           <lb/>mir helffen, gott umb verzeichung meiner so schweren sünden anrüffen
+           <lb/>und daß er mir die gnad sines <abbr>h.</abbr> geistes verlichen wolle, in
+           <lb/>meinem leben mich hinfüro dergestalten ein zu stellen, als wie es mir
+           <lb/>zu meiner seelen selligkeit ersprießlich sein mög, auf daß ich in der
+           <lb/>huld und gnaad gotes seiner zeith von hinen scheiden könne.
+           <lb/>Und wann ich gleich die ubrige zeith meines lebens, wie ich es dann
+           <lb/>wohl verdinet hab, ehr- und wehrloß sein, auch aller gesellschafft
+           <lb/>müßigen gehen und nach dißmahl den herd küßen muß, so
+           <lb/>ist es doch nichts zu rechnen gegen der ewigen pein, die ich mit
+           <lb/>meinen lesterlichen reden verdienet hab, vor welcher mich der liebe,
+            <pb n="380" facs="StAZH_B_III_172__S__380_.tif"/>
+           <lb/>gnädige und erbarmende gott umb seines sohns, unsres er<lb break="no"/>lösers 
+          <persName ref="GND_118557513">Jesu Christi</persName> willen, gnadig bewahren wolle!</seg></p>
+        </div>
+       </body>
+    <back>
+     <div>
+      <p>Im reformierten <placeName ref="LOC_47.37721_8.52731">Zürich</placeName> des 17. Jahrhunderts wurde <persName ref="GND_118640909">Maria</persName> als Gottesmutter verehrt und waren lästerliche Äusserungen über sie strafwürdig, wie das Beispiel <persName>Heinrich Widmers</persName> zeigt. 
+             Immer wieder wurden Männer, die eine solch schwere Gotteslästerung begangen hatten – Beispiele von Frauen sind nicht bekannt –, dazu verurteilt, in einem Gottesdienst ihre Worte vor der Gemeinde zu widerrufen und sich dabei als reuige Sünder zu präsentieren. 
+             Als zusätzliche ehrenrührige Strafe galt der <q>Herdkuß</q>, das Küssen des Bodens als Zeichen der Unterwerfung. Die formelhaften Widerrufe verwiesen zumeist darauf, dass den Verurteilten die gesetzlich und 
+             theologisch angedrohte Todesstrafe aus Gnaden erlassen worden sei, womit der Rat sich als christlich-gnädige Obrigkeit darstellte und dogmatisch auf die Gnade Gottes verwies.</p> 
+     </div>
+    </back>
+   </text>
+  </group>
+ </text>
+</TEI>

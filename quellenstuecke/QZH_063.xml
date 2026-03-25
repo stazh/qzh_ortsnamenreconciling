@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Quellen zur Zürcher Geschichte</title>
+                <respStmt>
+                    <persName>Walter Letsch. Mit einem Kommentar von Rainer Hugener</persName>
+                    <resp key="transcript"/>
+                </respStmt>
+                <respStmt>
+                    <persName>Denia Stettler</persName>
+                    <resp key="tagging"/>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Staatsarchiv des Kantons Zürich</publisher>
+                <date type="electronic" when="2024-10-10"/>
+                <date type="print" when="2024-10-10"/>
+            </publicationStmt>
+            <seriesStmt xml:id="ssrq-sds-fds">
+                <title>Quellen zur Zürcher Geschichte</title>
+                <respStmt>
+                    <persName>Staatsarchiv des Kantons Zürich</persName>
+                    <resp>Herausgeberschaft</resp>
+                </respStmt>
+                <idno>QZH_063</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=272468"
+                            >StAZH C I, Nr. 3290.7</idno>
+                    </msIdentifier>
+                    <head>Zusicherung an die Stadt Zürich von Hermann von Landenberg und Rudolf von
+                        Rosenberg betreffend Bezahlung der geschuldeten Morgengabe ihrer Tochter
+                        beziehungsweise Gattin Elsbeth</head>
+                    <msContents>
+                        <summary>Hermann von Landenberg der ältere, genannt von der
+                            Breitenlandenberg, und Rudolf von Rosenberg versichern gegenüber
+                            Bürgermeister, Rat und Bürgern von Zürich, falls diese der Frau Elsbeth,
+                            Hermanns Tochter und Rudolfs Gattin, die 200 Gulden, die ihr früherer
+                            Gatte, der verstorbene Rudolf Biber, ihr für ihre Morgengabe schuldete,
+                            bezahlen, dass damit alle Ansprüche von Elsbeth für Morgengabe,
+                            Heimsteuer, Widerlegung und alle anderen Sachen getilgt seien. Die
+                            beiden Aussteller siegeln.</summary>
+                        <msItem>
+                            <textLang>Deutsch</textLang>
+                            <filiation type="current">Orginal</filiation>
+                            <filiation type="original"><origDate when="1356-12-30"/></filiation>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><material>Pergament</material></support>
+                                <extent><dimensions type="leaves">
+                                        <height unit="cm" quantity="14.5"/>
+                                        <width unit="cm" quantity="28.5"/>
+                                    </dimensions><dimensions type="plica">
+                                        <width unit="cm" quantity="1.7"/>
+                                    </dimensions></extent>
+                            </supportDesc>
+                        </objectDesc>
+                        <sealDesc>
+                            <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1"
+                                nontei:material="wax" nontei:shape="round"
+                                nontei:attachment="sealed on a parchment tag"
+                                nontei:condition="well-preserved">
+                                <persName role="sigillant">Hermann von Landenberg</persName>
+                            </seal>
+                            <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="2"
+                                nontei:material="wax" nontei:shape="round"
+                                nontei:attachment="sealed on a parchment tag"
+                                nontei:condition="well-preserved">
+                                <persName role="sigillant">Rudolf von Rosenberg</persName>
+                            </seal>
+                        </sealDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origDate when="1356-12-30"/></origin>
+                    </history>
+                    <additional>
+                        <listBibl>
+                            <head>Edition</head>
+                            <bibl>ChSG, Bd. 7, Nr. 4458</bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Regest</head>
+                            <bibl>URStAZH, Bd. 1, Nr. 1141</bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>
+                    <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+                </p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc> </profileDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+                    <term ref="key003398">Aussteuer</term>
+                    <term ref="key005098">Eherecht</term>
+                    <term ref="key000112">Morgengabe</term>
+                    <term ref="key000058">Schulden</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <pb facs="C_I__Nr__3290_7__r_.tif"/>
+                <p>Ich, <persName>Herman von Landenberg</persName>, ritter, der elter genant von der
+                    Breiten Landenberg, und ich, <persName><choice>
+                            <abbr>Ruͦd</abbr>
+                            <expan>Ruͦdolf</expan>
+                        </choice> von Rosenberg</persName>, verjechen beid <lb/>offenlich umb die
+                    zwey hundert guldin, so die erbern wisen, der burgermeister, die raͤtt und die
+                    burger gemainlich der <lb/>statt <placeName ref="LOC_47.36667_8.55"
+                        >Zu̍rich</placeName>, schuldig sint und oͧch ze gelten glopt hant fron
+                        <persName>Elsbethen</persName>, mins, des <choice>
+                        <abbr>obgen</abbr>
+                        <expan>obgenannten</expan>
+                    </choice>
+                    <persName>von Langenberg</persName>, elichu̍ tochter <lb/>und mins, des <choice>
+                        <abbr>vorgen</abbr>
+                        <expan>vorgenannten</expan>
+                    </choice>
+                    <persName>von Rosenberg</persName>, elichu̍ wirtin, von der morgengab wegen, so
+                    ir her <persName><choice>
+                            <abbr>Ruͦd</abbr>
+                            <expan>Ruͦdolf</expan>
+                        </choice> Byber</persName> selig, ir errer <lb/>wirt, schuldig wz. Sol man
+                    wissen, das oͧch wir beid fu̍r uns und unser erben getroͤst haben und troͤsten
+                    <lb/>mit disem brief, wenn der <choice>
+                        <abbr>obgen</abbr>
+                        <expan>obgenannten</expan>
+                    </choice> fron <persName>Elsbethen</persName> oder ir erben die vorgeschriben
+                    zwey hundert guldin usgericht werdent <lb/>in dem zil, als si ir glopt sint und
+                    der brief hat, das oͧch si da mitt gar und gentzlich gerwert sin sol, alles
+                    rechten <lb/>vordrung und ansprach, so si von morgengab, von heinstu̍r, von
+                    widerlegung, von erecht oder von keiner hant sache <lb/>wegen u̍tzit ze
+                    sprechenn hatt gen dien <choice>
+                        <abbr>obgen</abbr>
+                        <expan>obgenannten</expan>
+                    </choice> von <placeName ref="LOC_47.36667_8.55">Zu̍rich</placeName> oder gen
+                    jeman andre von derselben sach wegen, an all geverd. <lb/>Wer aber, dz die <choice>
+                        <abbr>vorgen</abbr>
+                        <expan>vorgenannten</expan>
+                    </choice> von <placeName ref="LOC_47.36667_8.55">Zu̍rich</placeName> oder jeman
+                    ze ir wegen nu oder hienach beku̍mberti oder angesprochen wurden <lb/>von der <choice>
+                        <abbr>obgen</abbr>
+                        <expan>obgenannten</expan>
+                    </choice> fron <persName>Elsbethen</persName>, von iren erben oder von jeman
+                    andre ze ir wegen fu̍rbasser, dann umb die zwey <lb/>hundert guldin als ir brief
+                    hat, was die selben von <placeName ref="LOC_47.36667_8.55">Zu̍rich</placeName>
+                    da von bresten oder schaden nemin, den haben wir, <lb/>die <choice>
+                        <abbr>obgen</abbr>
+                        <expan>obgenannten</expan>
+                    </choice>
+                    <persName>Herman von Landenberg</persName> und <persName><choice>
+                            <abbr>Ruͦd</abbr>
+                            <expan>Ruͦdolf</expan>
+                        </choice>von Rosenberg</persName>, inen glopt, fu̍r uns und unser erben ab
+                    ze legen gar und gentzlich, an all geverd. Her u̍ber ze einem offenn urkund, das
+                    dis vorgeschriben alles war sy und stet belib, <lb/>so hat unser jetweder sin
+                    insigel offenlich geheinket an disen brief, der geben ist an dem nechsten
+                        <origDate when="1356-12-30">fritag <lb/>nach sant <choice>
+                            <abbr>Johs</abbr>
+                            <expan>Johannes</expan>
+                        </choice> tag des ewangelisten, do man zalt von gottes gebu̍rt dru̍zehen
+                        hundert und fu̍nfzig <lb/>jar, dar nach in dem sibenden jar</origDate>.</p>
+                <pb facs="C_I__Nr__3290_7__v_.tif"/>
+            </div>
+        </body>
+        <back>
+            <div>
+                <p>Im Rahmen von Eheschliessungen wurden im Mittelalter verschiedene
+                    Gütertransaktionen getätigt, die insbesondere der langfristigen finanziellen
+                    Absicherung von Frauen dienten. Weil die Frau mit der Heirat die Familie
+                    wechselte, wurde sie durch ihren Vater mit der sogenannten Heimsteuer als einer
+                    Art Erbabfindung ausgesteuert. Parallel dazu war es – jedenfalls bei den
+                    einigermassen wohlhabenden Familien – üblich, dass eine Frau von ihrem Ehemann
+                    eine Morgengabe erhielt. Wie der Name sagt, handelte es sich dabei um eine
+                    Zuwendung nach der Hochzeitsnacht, die gewissermassen als Altersvorsorge für die
+                    Frau fungierte. Damit verbunden war ausserdem die sogenannte Widerlegung. Diese
+                    stellte wohl eine Gegenleistung des Mannes für die Nutzung der Heimsteuer dar,
+                    wobei unklar bleibt, ob diese durch die Widerlegung lediglich abgesichert oder
+                    aber verdoppelt wurde. Ergänzend zu diesen Massnahmen kam es häufig vor, dass
+                    Eheleute einander weitere Güter zu Leibdingen verschrieben, also zur Nutzung auf
+                    Lebzeiten.</p>
+                <p>Die entsprechenden Vermögenswerte fielen in die Verfügungsgewalt des Mannes, der
+                    sie verwaltete und nutzte, aber für die Frau erhalten musste. Bei seinem Ableben
+                    dienten sie der Frau bis zu ihrem eigenen Tod als Leibding und fielen dann an
+                    die gemeinsamen Kinder als rechtmässige Erben. Ab dem Spätmittelalter handelte
+                    es sich bei diesen Gaben normalerweise um Geldbeträge. Da der Ehemann diese wie
+                    erwähnt nutzen durfte, musste er sie mit einem Gegenwert absichern, damit sie
+                    der Frau erhalten blieben. Zu diesem Zweck wurden Morgengabe und Heimsteuer
+                    bisweilen einzeln, meist aber zusammen als Pfand auf Erb und Eigen des Mannes
+                    gesetzt oder gestellt, wie es in den Quellen heisst. Dieser Vorgang wird auch
+                    als Versicherung oder Sicherstellung bezeichnet, denn es ging darum, die
+                    Vermögenswerte der Frau vor Veruntreuung durch ihren Mann zu schützen.</p>
+                <p>Rechtlich abgesichert wurden solche Transaktionen häufig in Form einer Urkunde,
+                    in der Stadt Zürich mitunter parallel oder komplementär dazu auch in den
+                    sogenannten Gemächtbüchern, in denen der Rat Testamente beziehungsweise
+                    Verfügungen von Todes wegen amtlich beglaubigte (<bibl><ref
+                            target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID= 263256"
+                            >StAZH B VI 304-331</ref></bibl>). Diese Aufzeichnungen dienten
+                    einerseits dazu, die Nutzung der betreffenden Güter durch die Eheleute zu
+                    regeln. Andererseits sollten sie sicherstellen, dass eine Frau beim Tod oder
+                    Konkurs ihres Ehemanns abgesichert war und die dafür bestimmten Güter für sie
+                    und ihre gemeinsamen Nachkommen erhalten blieben.</p>
+                <p>Die Zahl solcher schriftlich festgehaltenen Abmachungen nimmt im Verlauf des 14.
+                    Jahrhunderts allmählich zu. Dies belegen einerseits die ab 1371 geführten
+                    Gemächtbücher, andererseits eine wachsende Zahl von Urkunden, von denen hier
+                    einige exemplarische Fälle ediert werden, vgl. neben dem vorliegenden Stück von
+                    1356 auch <ref
+                        target="https://qzh.sources-online.org/exist/apps/qzh/quellenstuecke/QZH_064"
+                        >QZH, Nr. 64</ref> (1357), <ref
+                        target="https://qzh.sources-online.org/exist/apps/qzh/quellenstuecke/QZH_065"
+                        > QZH, Nr. 65</ref> (1360), <ref
+                        target="https://qzh.sources-online.org/exist/apps/qzh/quellenstuecke/QZH_066"
+                        > QZH, Nr. 66</ref> (1430) und <ref
+                        target="https://qzh.sources-online.org/exist/apps/qzh/quellenstuecke/QZH_067"
+                        > QZH, Nr. 67</ref> (1444). Regeln für solche ehe- und erbrechtlichen
+                    Besitztransaktionen hielt der Zürcher Rat erst 1419 und 1442 in den Stadtbüchern
+                    fest (<bibl><ref
+                            target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html"
+                            >Zürcher Stadtbücher</ref>, Bd. 2, S. 116 und Bd. 3, S. 184-185</bibl>). Die hier
+                    ebenfalls edierte Urkunde von 1444 verweist sogar ausdrücklich auf <orig>unser
+                        statt nu̍wen gesetzt</orig> (<ref
+                        target="https://qzh.sources-online.org/exist/apps/qzh/quellenstuecke/QZH_064"
+                        >QZH, Nr. 67</ref>).</p>
+                <p>Zu den ehe- und erbrechtlichen Regelungen im spätmittelalterlichen <placeName
+                        ref="LOC_47.36667_8.55">Zürich</placeName> vgl. <bibl><ref
+                            target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html"
+                            >Herzog 1942</ref></bibl>; <bibl><ref
+                            target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html"
+                            >Weibel 1988, S. 47-57</ref></bibl>; allgemein zu den mittelalterlichen
+                    Rechtsverhältnissen zwischen Eheleuten auch <bibl><ref
+                        target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html"
+                        >Rippmann 2014, S. 385-399</ref></bibl>; <bibl>HLS, <ref
+                            target="https://hls-dhs-dss.ch/de/articles/ 007975">Ehe</ref></bibl>;
+                        <bibl>HLS, <ref target="https://hls-dhs-dss.ch/de/articles/009608"
+                            >Eherecht</ref></bibl>; <bibl>HLS, <ref
+                            target="https://hls-dhs-dss.ch/de/articles/009609"
+                    >Erbrecht</ref></bibl>.</p>
+
+            </div>
+        </back>
+    </text>
+</TEI>

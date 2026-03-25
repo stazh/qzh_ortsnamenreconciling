@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css“?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0"
+ xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <respStmt>
+     <persName>Katja Rehmann. Mit einem Kommentar von Michael Schaffner</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Michael Schaffner</persName>
+     <resp key="tagging"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <date type="electronic" when="2021-05-01"/>
+    <date type="print" when="2018-12-31"/>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Quellen zur Zürcher Geschichte</title>
+    <respStmt>
+     <persName>Staatsarchiv des Kantons Zürich</persName>
+     <resp>Herausgeberschaft</resp>
+    </respStmt>
+    <idno>QZH_028</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier>
+      <idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4650985">StAZH A 27.17.5, Nr. 12</idno>
+     </msIdentifier>
+     <head>Untersuchung gegen Barbara Mettler wegen Verdachts auf Diebstahl und geäusserten Drohungen</head>
+     <msContents>
+      <summary>Barbara Mettler wird im Spital verwahrt und wegen Verdachts auf Diebstahl befragt.
+       Sie gibt an, längere Zeit umhergezogen zu sein. Unter anderem sei sie im Land Uri in einem
+       Erzbergwerk beschäftigt gewesen. Den dortigen katholischen Glauben habe sie stets abgelehnt
+       und sogar offen verhöhnt, wofür sie von den Urnern mehrere Male inhaftiert worden sei;
+       ansonsten habe sie jedoch keine Verbrechen begangen. Auch die ihr vorgeworfenen Diebstähle
+       streitet sie ab. Jedoch gibt sie zu, einer Frau mit Brandstiftung gedroht zu haben. Sie
+       bittet um Freilassung, damit sie wie bisher ausserhalb ihres Vaterlands ihr Einkommen suchen
+       könne. Anlässlich einer zweiten Befragung wird sie als psychisch krank beschrieben; als
+       Begründung dafür wird unter anderem ihre Aussage angeführt, sie habe von Gott die
+       Gabe erhalten, aus Blei, Zinn und Kupfer reines Gold herzustellen. Als möglicherweise
+       unglaubwürdig wird zudem ihre Aussage bezeichnet, sie verfüge über Besitztümer in Muri, Hasli
+       und Bremgarten. Es wird geurteilt, dass Barbara Mettler wegen ihrer Krankheit
+       zwar mit einer Urfehde aus dem Gefängnis entlassen, jedoch im Spital angekettet für einen
+       Monat verwahrt werden soll. Danach werde erneut über ihre Situation entschieden.</summary>
+      <msItem>
+       <textLang>Deutsch</textLang>
+       <filiation type="current">Aufzeichnungen (Doppelblatt)</filiation>
+       <filiation type="original"><origDate when="1574-05-07"/></filiation>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support><material>Papier</material></support>
+        <extent/>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin><origDate when="1574-05-07"/></origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p>
+     <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+    </p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc> </profileDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term ref="key000505">Bodenschätze</term>
+     <term ref="key004279">Brandstiftung</term>
+     <term ref="key111116">Drohung</term>
+     <term ref="key000849">Handwerk</term>
+     <term ref="key003496">Krankheiten</term>
+     <term ref="key003261">Kundschaft</term>
+     <term ref="key005473">Nachgang</term>
+     <term ref="key111117">Psychische Krankheit</term>
+     <term ref="key003559">Spital</term>
+     <term ref="key000078">Verhör</term>
+    </keywords>
+   </textClass>
+   <particDesc default="false"/>
+   <settingDesc default="false"/>
+  </profileDesc>
+ </teiHeader>
+
+ <text>
+  <group>
+   <text>
+    <body corresp="Sigle1">
+    <div>
+      <pb n="1" facs="A_27_17_5__Nr__12__S__1_.tif"/>
+      <p>
+       <lb/>Als seckelmeister <persName>Schwertzenbach</persName> unnd herr obman
+       <persName>Köchlin</persName> uff das <lb/>schryben, so der lanndvogt inn <placeName ref="LOC_Lat_Long">Frigen
+        Ämptern</placeName> üch, mynen gnedigen <lb/>herren, von wegen <persName>Barbara
+         Mettlerin</persName> von <placeName ref="LOC_Lat_Long">Bencken</placeName> gethon, zu <lb/>iro, der
+        <persName>Mettlerin</persName>, inn spittal, alda sy inn einem
+       toubhüßli ligt, <lb/>kert, iro dasselbig fürgehalten unnd ires bescheidts darüber begert,
+       <lb/>hat sy geantwurtet, das sy jetz ein gute zyt gen <placeName ref="LOC_Lat_Long">Uri</placeName> und inn den
+       <lb/>lendern hin und wider gewandlet, ouch sunderlich zu <placeName ref="LOC_Lat_Long">Uri</placeName> inn einer
+       <lb/>ertz, so alda sige, ertz genommen, dasselbig gelernet scheiden und lütern <lb/>und sich
+       damit enthalten. <del>Ouch ettwan gleser gemachet, die hin und wider <lb/>getragen.</del>
+       Wann dann sy inn söllichem irem wandlen deß gloubens <lb/>halben antzogen worden, hette sy
+       darumb, was sy gloube, guͦten bscheid <lb/>geben. Dargegen die mäß unnd ire ceremonien
+       verachtet, verlachet <lb/>unnd inen darüber schimpfliche antwurten und spitzwörtli
+        <del>g</del> gegeben. <lb/>Damit dann sy iren by inen ein bösen willen gemachet, also das
+       sy <lb/>sy zefachen ursach gesuͦcht, wo sy können, undt derhalben sy ettliche <lb/>maal, wie
+       dann das schryben vermöge, gefangen. Sy hette aber <lb/>sonst nüt uneerlichs verhandlet,
+       sonder das korn, so sy zu <placeName ref="LOC_Lat_Long">Hermantschwyl</placeName>
+       <lb/>inn die müli gethon, erkoufft unnd bezalt. Item, als sy ver<lb break="no"/>schiner zyt
+       zuͦ <del>Wolff</del>
+       <placeName ref="LOC_Lat_Long">Sanct Wolffgang</placeName><!-- msr: heute Gmde Hünenberg --> gsyn und ein hafen mit ettlichem <lb/>wasser, so sy
+       zum ertz bruchen wellen, gebrent, und die wirtin iren <lb/>denselbigen ußgeschütt, sige sy
+       bekanntlich, das sy iro das huß uff <lb/>dem boden zuͦ verbrennen gethröwt. Es sige aber inn
+       einem zorn <lb/>und <del>d</del> nit der meinung, das sy das thun wellen, beschechen. So vyl
+       <lb/>sige iro nüt zewüssen, das sy ungepürlichs gethon. Mit pitt ir, <lb/>myn herren, wellint
+       sy der gefangenschafft widerumb erlaßen, <lb/>so welle sy sich fürer wie bißher, on jemans
+       beschwerd, usserthalb <lb/>irem vatterland enthalten, dann sy <sic>sy</sic> nit daheimen syn
+       möge. </p>
+      <pb n="2" facs="A_27_17_5__Nr__12__S__2_.tif"/>
+      <p>
+       <lb/>Nachdem myne herrenn, die verordneten, widerumb <lb/>zu <persName>Barbara
+        Metlerinn</persName> vonn <placeName ref="LOC_Lat_Long">Benncken</placeName> inn gefangenschafft <lb/>gefarenn
+       unnd sy fernner ireß thuͦnß unnd laßenns <lb/>erkhundigenn wellenn, haben si bi <lb/>iro
+       nutzit anderß dann allerlei selzammer, ungewister <lb/>unnd dermaßenn bescheid unnd
+       anntworten befunden, <lb/>dass si niemer für, dann für ein arm, sinnloß unnd <lb/>im houpt
+       verwirrt mensch zuo khonnen. Zeigt wol <lb/>unnder annderem ann, sy sige vonn gott, dem
+       herren, <lb/>ain einer besonderbarenn kunst, so er iren, alß si <lb/>kurtz verschiner zyt inn
+       deß betelvogtß huß alhie <del>alß</del>
+       <lb/>ann ysenn gelegenn geoffnett, begabet, daß si uß <lb/>blyg, zinn unnd altenn küpferinen
+       keßinenn luther <lb/>gold konne machenn. Deßglychenn, daß si zu <placeName ref="LOC_Lat_Long">Muri</placeName>
+       <lb/>inn <persName>Heini Schnyderß</persName> huß inn güterenn unnd sonst <lb/>züg zu diser
+       kunnst, item inn <persName>Hanß Gegiß</persName> huß <del>da</del> zu
+       <lb/><placeName ref="LOC_Lat_Long">Hasli</placeName> hembder, tuchli unnd halßmentël, by <persName>Hansen
+        <lb/>Steckli</persName> zuͦ <placeName ref="LOC_Lat_Long">Muri</placeName>
+       xxx elen tuch, unnd bi einer kremerin <lb/>zu
+       <placeName ref="LOC_Lat_Long">Bremgarten</placeName> ein unnderrock habe. Ob aber <lb/>dem also gsin, irem
+       unnglychen reden unnd fürgeben <lb/>nach zweyfelhafftig.</p>
+     <p><pb n="3" facs="A_27_17_5__Nr__12__S__3_.tif"/></p></div>
+     <div>
+     <p><pb n="4" facs="A_27_17_5__Nr__12__S__4_.tif"/></p>
+        <head type="subtitle"><persName>Barbara Mettlerin</persName> von <placeName ref="LOC_Lat_Long">Bencken</placeName>
+       <lb/><add place="inline" hand="hand18c">verdächtiges</add> <subst><del hand="later hand">antwurt</del><add place="inline" hand="hand18c">verhalten <date
+        when="1574">1574</date>.</add></subst></head>
+     </div>
+     <div>
+      <p>
+       <lb/>Sidtmalen sy nit by rechten sinnen unnd <lb/>vernunfft, sonnders gar verwirrt unnd
+       <lb/>sinnloß ist, so habennt sy jetzmalen <lb/>uff ein urphecht myn herren der gefänngk<lb
+        break="no"/>nus erlaßen. Doch mit dem anhanng, das <lb/>sy inn
+      spittal an yßen gelegt oder <lb/>sonst verwarrt unnd ein monat alßo
+       <lb/>erhalten werden. Unnd demnach umb sy <lb/>widerumb ein frag beschechen, wie man <lb/>sy
+       wyter versorgen welle. Actum den <origDate when="1574-08-07"> 7den <lb/>augusti anno
+        <abbr>etc.</abbr> 74</origDate>, <choice><abbr>prt</abbr><expan>Præsentibus</expan></choice>
+       herr <persName ref="GND_143680544">Kambli</persName>
+       <lb/>unnd <orgName>beid reth</orgName>.</p></div>
+    </body>
+
+    <back>
+     <div><!-- Kommentartext --></div>
+    </back>
+
+   </text>
+  </group>
+ </text>
+</TEI>

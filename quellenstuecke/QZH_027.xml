@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css“?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0"
+  xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <respStmt>
+          <persName>Katja Rehmann. Mit einem Kommentar von Michael Schaffner</persName>
+          <resp key="transcript"/>
+        </respStmt>
+        <respStmt>
+          <persName>Michael Schaffner und Katja Rehmann</persName>
+          <resp key="tagging"/>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <date type="electronic" when="2021-05-01"/>
+        <date type="print" when="2018-12-31"/>
+      </publicationStmt>
+      <seriesStmt xml:id="ssrq-sds-fds">
+        <title>Quellen zur Zürcher Geschichte</title>
+        <respStmt>
+          <persName>Staatsarchiv des Kantons Zürich</persName>
+          <resp>Herausgeberschaft</resp>
+        </respStmt>
+        <idno>QZH_027</idno>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4709042">StAZH A 27.11.11, Nr. 5</idno>
+          </msIdentifier>
+          <head>Nachgang zu Peter Hotz und seiner Ehefrau wegen Schulden, Bettel und weiterer Vergehen</head>
+          <msContents>
+            <summary>Peter Hotz sagt aus, er könne wegen seiner gelähmten Arme nicht arbeiten,
+              weswegen er das städtische Almosen benötigt habe. Er bestätigt zudem, auch in
+              Affoltern und Mettmenstetten kleine Geldspenden von kirchlichen Amtleuten erhalten zu
+              haben. Des Weiteren beschreibt er, wie er und seine Ehefrau während der Kirchweihe in
+              Affoltern in einem Bauernhaus beherbergt worden seien. Dort hätten sie gemeinsam mit
+              dem Bauern und seinem Hausstand mehrere Mass Wein getrunken. Er gibt an, dass er die
+              dabei entstandenen Schulden mit erbettelter Butter begleichen könne, sobald er
+              freigelassen werde. In einem weiteren Absatz des Verhörs geht es um ausgestossene
+              Flüche, wobei Hotz diesen Vorwurf von sich weist. Es folgt eine Liste von Aussagen des
+              Beschuldigten bezüglich verschiedener Vergehen: Diese betreffen unter anderem
+              häusliche Gewalt und diverse Geldschulden. Er erwähnt dabei auch, dass er eine
+              angeborene Krankheit habe. Die Obrigkeit entlässt ihn und seine Ehefrau mit einer
+              Urfehde aus dem Gefängnis. Sie werden jedoch aus dem Herrschaftsgebiet verwiesen.</summary>
+            <msItem>
+              <textLang>Deutsch</textLang>
+              <filiation type="current">Aufzeichnungen (Doppelblatt)</filiation>
+              <filiation type="original"><origDate from="1562-08-01" to="1563-01-01"></origDate></filiation>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <support><material>Papier</material></support>
+                <extent/>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+          <history>
+            <origin><origDate when="1562-08-01"></origDate></origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>
+          <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc> </profileDesc>
+    <profileDesc>
+      <textClass default="false">
+        <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+          <term ref="key003396">Alkohol</term>
+          <term ref="key005358">Armenversorgung</term>
+          <term ref="key000598">Ausweisung</term>
+          <term ref="key000581">Bettel</term>
+          <term ref="key004380">Fluchen/Schwören</term>
+          <term ref="key111113">Frauengut</term>
+          <term ref="key004489">Geld</term>
+          <term ref="key111111">Häusliche Gewalt</term>
+          <term ref="key000789">Kirchweih</term>
+          <term ref="key003261">Kundschaft</term>
+          <term ref="key005473">Nachgang</term>
+          <term ref="key000882">Nahrungsmittel</term>
+          <term ref="key111112">Körperliche Behinderung</term>
+          <term ref="key003496">Krankheiten</term>
+          <term ref="key000480">Urfehde</term>
+          <term ref="key000058">Schulden</term>
+          <term ref="key000480">Urfehde</term>
+          <term ref="key000078">Verhör</term>
+          <term ref="key000758">Wirtshaus</term>
+        </keywords>
+      </textClass>
+      <particDesc default="false"/>
+      <settingDesc default="false"/>
+    </profileDesc>
+  </teiHeader>
+
+  <text>
+    <group>
+      <text>
+        <body corresp="Sigle1">
+        <div>
+            <pb n="1" facs="A_27_11_11__Nr__5__S__1_.tif"/>
+            <p>
+              <lb/>Es gipt <persName>Petter Hotz</persName> von <placeName ref="LOC_Lat_Long">Fyderis</placeName>, so
+              by houptman <persName>Hotzen</persName> dassëlbs 
+              <lb/>nach dem müßer krieg<note>Die <placeName ref="LOC_Lat_Long">Drei Bünde</placeName> kämpften in den sogenannten Müsserkriegen (1525-1526 und 1531-1532) gegen das Herzogtum <placeName ref="LOC_Lat_Long">Mailand</placeName> um die Vorherrschaft im <placeName ref="LOC_Lat_Long">Veltlin</placeName>. Vgl. <bibl>HLS, <ref target="https://hls-dhs-dss.ch/de/articles/008904/2009-02-04/">Müsserkriege</ref></bibl>.</note> ein zit gwonet, dise antwort: Er habe 
+              <lb/>das almuͦßen uss keiner anndern ursach genommen, dann <del>das</del>, 
+              <lb/>das er <del>eine</del> ein armer, werschaffter mentsch, und inn beiden 
+              <lb/>armen, wie man sëche, lam, also das er nit werchen konne 
+              <lb/>unnd des, so man inn durch gotes willen <subst><add place="above">gebe</add><del>globen</del></subst>, muͤße globen. 
+              <lb/><del>und noturfftig.</del> Ouch <del>ime alda</del> zu <placeName ref="LOC_Lat_Long">Affholtern</placeName> <del>mn</del> nüt 
+              <lb/>anders, dann von dem predicanten ein <abbr>ß</abbr> empfangen. Ouch 
+              <lb/>der kilchmeyger zuͦ <placeName ref="LOC_Lat_Long">Metmenstetten</placeName> ime ein batzen geben.</p>
+            <p>
+              <lb/>Item, er syge zu <placeName ref="LOC_Lat_Long">Affholtern</placeName> an der kilwy, so jetz nechst verschyners 
+              <lb/>sontags gsyn, inn ein buren huss mit sampt syner eefrouwen 
+              <lb/>zu herberg gwesen, daselbs der bur, sambt synem volck, und 
+              <lb/>er mit synen wyb, truncken, unnd der bur sëlbs iij mass 
+              <lb/>wyn im wyrtzhus <del>greicht</del> uff beidt greicht. Morndes 
+              <lb/>der bur ime uss synem seckel j dicken geben und ime ge<lb break="no" />heißen,
+              die dryg mass wyn zalen, unnd noch ein mass, da<lb break="no" />mit
+              der dick gar verzert, gheißen nemen. Weliches er thon 
+              <lb/>und also den einen am <subst><del>mentag</del><add place="above">sontag</add></subst> verzert. Darnach sy 
+              <lb/>witer rethig worden, unnd <persName>Hotz</persName> mer wynns uss buren 
+              <lb/>gheiss greicht, unnd also den anndern dicken ouch verzert. 
+              <lb/>An weliches trincken der <persName>Hotz</persName> ime x oder xij <abbr>℔</abbr> ancken, 
+              <lb/>so er inn <placeName ref="LOC_Lat_Long">Sybental</placeName><!-- msr: wahrscheinlich Simmental --> und zuͦ <placeName ref="LOC_Lat_Long">Underwalden</placeName> mit bätlen 
+              <lb/>gsamlet, verheissen, das er ime, so bald er uss uwer, syner 
+              <lb/>gnedigen herren gfengknuss köme, dem buren halten 
+              <lb/>welle.</p>
+            <p>
+              <lb/>Ouch des unzimlichen schwerens, so er gezigen, wüsse er gar <lb/>nüt zuͦ sagen. </p>
+            <pb n="2" facs="A_27_11_11__Nr__5__S__2_.tif"/>
+            <p>
+              <lb/>Item, das er syn eefrouwe geschlagen haben, <lb/>werde weder sy selbs und ander
+              lüt können <lb/>sagen.</p>
+            <p>
+              <lb/>Item der iiij <abbr>ß</abbr> halb, so er dem wirt zuͦ <placeName ref="LOC_Lat_Long">Affholtern</placeName>
+       <lb/>schuldig, als umb ɉ mass wyn unnd
+              umb j <abbr>ß</abbr>
+       <lb/>fleisch, syge es waar. Ouch des
+              göllers halb, <lb/>so er sölte haben, werde man by syner frouwen bscheid <lb/>
+              finden.</p>
+            <p>
+              <lb/>Item, er zeigt an, das syn frouw ein erb guͤtli gehept, <lb/>von irem vatter
+              sëligen, weliches ires vatters sëligen <lb/>bruͦder by hannden, unnd wann iren diss
+              guͤtli <lb/>wurde, welte sy es einem lychen, sonst habe er <lb/>niener von nüdt
+              geredt.</p>
+            <p>
+              <lb/>Witer der gsellschafft halb, so zuͦ <placeName ref="LOC_Lat_Long">Affholtern</placeName> gwësen,
+              möge <lb/>er nit wüssen, wär oder warinenhar sy sygind. Habe <lb/>ouch nie kein
+              gmeinderschafft mit inen ghept.</p>
+            <p>
+              <lb/>Witer gipt er bscheid, das das wyb, so mit im zogen, <lb/>syn recht eelich wyb
+              sin.</p>
+            <p>
+              <lb/>Ouch der kranckeyt halb, so er an im, habe er von kindts<lb break="no" />wesen
+              uf gehept. Welte ouch, wo er je umbher zogen, <lb/>desshalb gnugsame kündtschafft
+              finden.</p>
+            <pb n="3" facs="A_27_11_11__Nr__5__S__3_.tif"/>
+            <p>
+              <lb/>Item des blatenschiessens halb, ouch des talers, so er <lb/>solte gehept haben,
+              syge er leme halb nit so krefftig, <lb/>das er könne blaten schiessen.</p>
+            <p>
+              <lb/>Item, des anckens halb, so er zu <placeName ref="LOC_Lat_Long">Norticken</placeName><!-- msr: Notikon,
+              ZG heute Gmde Baar ZG --> solt ver<lb break="no" />koufft haben, wüsse er gar nit.</p>
+            <p>
+              <lb/>Bit der halben üch, als syne gnedigen herren, ir wellind <lb/>syn ellende
+              kranckeyt, <del>ouch d</del> denn grossen costen, <lb/>so uff inn des arms halb gange <del>a</del> 
+              unnd das er sych <lb/>je und allwëg frombklich unnd erberlich gehalten, <lb/><del>das
+              er</del> <del>unnd</del> <add place="above">ouch</add> inn üwer, syner gnedigen herren,
+              statt unnd <lb/>landtschafft lange zit umbher zogen unnd nit eins <lb/>hallers wert
+              veruckt, ansëchen unnd üwer gnedige <lb/>hand gegen ime ufthuͦn. So welle er
+              gwüsslich sich <lb/>frombklich und still halten, das ir gespüren mögind, <lb/>üwer
+              gnad an ime etwas ferfangen haben.</p></div>
+          <pb n="4" facs="A_27_11_11__Nr__5__S__4_.tif"/>
+          <div><head type="subtitle"><persName>Petter Hatzen</persName> von <placeName ref="LOC_Lat_Long">Fyderis</placeName>
+              <lb/>anntwort</head></div>
+            <div><p>
+              <lb/>Als myne herren diser beider eementschen <lb/>verhandlung und darnëbent ir <lb/>erbietung
+              der besserung verstanden, <lb/>sind sy beide uff ein gwonlich urfecht <lb/>der
+              gfengknuß erlassen, unnd mit <lb/>dem eyd uß myner herren gricht und <lb/>gebiet biß
+              uff ir gnad <add place="below">angëntz</add> verwissen </p>
+            <p>
+              <lb/>Actum <origDate when="1562-08-01">sambstags, den 1. augusti anno <abbr>etc</abbr>
+                <lb/>lxij</origDate>, <abbr>pnt</abbr> <abbr>h</abbr> <persName ref="GND_143680382">von Chaam</persName> und beid
+                  <lb/>reth.
+            </p>
+          </div>
+          <div>
+            <ab place="verso middle" type="dorsal" hand="hand18c"><persName>Peter Hotzen</persName>
+              von <placeName ref="LOC_Lat_Long">Fideris</placeName> mißhandlungen. <date when="1562">1562</date>.</ab>
+          </div>
+        </body>
+
+      </text>
+    </group>
+  </text>
+</TEI>  

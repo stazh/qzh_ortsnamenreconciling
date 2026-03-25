@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='../../Ressourcen/Stylesheet.xsl'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Quellen zur Zürcher Geschichte</title>
+				<respStmt>
+					<persName>Kilian Graf; Michael Koller; Hans-Peter Ulrich</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Patrick Rüegg; Michael Schaffner</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Staatsarchiv des Kantons Zürich</publisher>
+				<date type="electronic" when="2021-05-01"/>
+			</publicationStmt>
+			<seriesStmt>
+				<title>Territorienbildung der Städte im Spätmittelalter</title>
+				<respStmt>
+					<persName>Laura Bitterli und Simon Teuscher</persName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>QZH_052</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=5125025"
+							>StAZH A 124.1, Nr. 23</idno>
+					</msIdentifier>
+					<head>Zeugenaussagen (Kundschaften) betreffend die Zugehörigkeit des Hofs Im Geheisch zur Herrschaft Grüningen
+					</head>
+					<msContents>
+						<summary>Acht Männer bezeugen die Gerichtszugehörigkeit des Hofs Im Geheisch zur Herrschaft Grüningen. Ein Zeuge berichtet von der vergangenen Bergung eines ermordeten Pilgers durch den Vogt von Wald.</summary>
+						<msItem>
+							<textLang>Deutsch</textLang>
+							<filiation type="current">Aufzeichnungen (Einzelblatt)</filiation>
+							<filiation type="original"><origDate from="1436-01-01" to="1439-12-31"></origDate></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support><material>Papier</material></support>
+								<extent/>
+							</supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin><origDate from="1436-01-01" to="1439-12-31"></origDate></origin>
+					</history>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<editorialDecl>
+				<p>
+					<ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+				</p>
+			</editorialDecl>
+		</encodingDesc>
+		<profileDesc> </profileDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term ref="key000057">Gericht</term>
+						<term ref="key000305">Grenze</term>
+						<term ref="key003261">Kundschaft</term>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<pb n='1' facs="A_124_1__Nr__23.tif"/>
+			<p>
+				<lb/><persName>Uely Mûller von Kemmos</persName>, ist uf des hus ze <placeName ref="LOC_Lat_Long">Buobiken</placeName> eigen, seit als <persName>Ruedger
+					<lb/>Cuontz</persName> und daz der hof <placeName ref="LOC_Lat_Long">Im Geheisch</placeName> mer dann ein vierdenteil einer guoten
+				<lb/>mil wegs uff dem nechsten in der inwenndig den kreiss der gerichten gelegen syn.
+				<lb/>Er seit ouch, daz er nie anders gehoert noch vernomen hab, denn daz der hof <placeName ref="LOC_Lat_Long">Im
+					<lb/>Geheisch</placeName> allweg mit allen gerichten in den hof gen <placeName ref="LOC_Lat_Long">Wald</placeName> gedienet und gehoert hab.
+				<lb/>Ouch seit er, daz in dem appenzellerkrieg die, so <placeName ref="LOC_Lat_Long">Im
+				<lb/>Geheisch</placeName> sassen, und die im ampt <placeName ref="LOC_47.27938_8.76205">Grueningen</placeName>, sy all mit
+				<lb/>ein ander <subst><del>kriegaten</del><add place="inline">reiseten</add></subst> und brûch gaben und daz sy
+				<lb/>sich da wider nit satzten.</p>
+				<p><lb/><persName>Ruedger Cuontz</persName>,
+				<lb/><persName>Hans Streller</persName>,
+				<lb/><persName>Heini Brunner</persName>,
+				<lb/><persName>Hans Bumann</persName>,
+				<lb/><persName>Hermann Weber</persName>,
+				<lb/><persName>Ruedy Brendly</persName>, 
+				<lb/><persName>Hans Finen</persName>
+				<lb/>sagent, daz sich vor etwaz zites fuogt, do
+					<lb/>jungherr <persName>Hans Swend</persName><!-- msr: nicht Bürgermeister Hans Schwend, sondern sein Vater --> vogt ze <placeName ref="LOC_47.27938_8.76205">Grueningen</placeName>
+				<lb/>waz, das da ein bilgry ermûrt wart,
+					<lb/>in der wildy by dem <placeName ref="LOC_Lat_Long">Toessstok</placeName>. Den selben
+				<lb/>toten man fand einer, hies <persName>Heini Val</persName>, hort
+				<lb/>minem herren von <persName ref="GND_120633957">Toggenburg</persName> zuo, der selb gieng
+					<lb/>zuo amman <persName>Wingarten</persName> gen <placeName ref="LOC_Lat_Long">Smaerikon</placeName>, seit im, daz finder, wo der
+				<lb/>bilgry lag und ermûrt waz. Also <del>rett der aman</del> enbot der amman
+					<lb/><add place="margin"><persName>Wingarten</persName> <del>von <placeName ref="LOC_Lat_Long">Smaerikon</placeName></del></add> <persName>Uelin Brendlin</persName>, der dazemal vogt ze <placeName ref="LOC_Lat_Long">Wald</placeName> waz, daz er den man
+					<lb/>hiesse suochen, won er wen in der von <placeName ref="LOC_47.37721_8.52731">Zürich</placeName> gerichten ermûret. Also
+				<lb/>hies der vogt, daz man den man suochte. Also giengen iro 16
+				<lb/>man mit einander, suochten den bilgrin, fanden inn by dem
+					<lb/><placeName ref="LOC_Lat_Long">Toessstok</placeName> ligend. Do nament sy inn, taten inn in ein sak,
+					<lb/>truogen den gen <placeName ref="LOC_Lat_Long">Wald</placeName>, vergruoben inn da.
+			</p>
+		</body>
+		<back>
+			<div><p>
+				Zu den Grüninger Kundschaften vgl. den Kommentar zu <bibl><ref target="https://qzh.sources-online.org/quellenstuecke/QZH_044">QZH, Nr. 44</ref></bibl>.
+			</p></div>
+		</back>
+	</text>
+</TEI>

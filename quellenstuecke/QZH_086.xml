@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='../../Ressourcen/Stylesheet.xsl'?>
+<?xml-model href="http://www.tei-c.org/ns/1.0" type="application/xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quellen zur Zürcher Geschichte</title>
+            <respStmt>
+               <persName>Sarah Murer</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Sarah Murer</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Staatsarchiv des Kantons Zürich</publisher>
+            <date type="electronic" when="2021-05-01"/>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Quellen zur Zürcher Geschichte</title>
+            <respStmt>
+               <persName>Staatsarchiv des Kantons Zürich</persName>
+               <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>QZH_086</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=735430">StAZH A
+                     123, Nr. 37</idno>
+               </msIdentifier>
+               <head>Kundschaft in einem Streit vor dem Gericht in Uster um eine Ehrverletzung bezüglich gleichgeschlechtlichem Verkehr zweier Frauen</head>
+               <msContents>
+                  <summary>	Der Bürgermeister [der Stadt Zürich] erlaubt Hans Wyss, vor dem Gericht in Uster Kundschaft einzuholen. Felix Bantli sagt, er habe mit Hans Heinrich Gibel bei Hans Brunner über eine neue Ehe gesprochen. Da habe Brunners Frau gesagt, es gebe eine neue Ehe, sie sollen raten. Es sei die Tochter des Schreibers [Ruland?]. Da habe das Bünterli gesagt, sie würden es nicht recht verstehen; Hans Schmid habe gesagt, Annli Keller und Vrenli Scherrer wollen in den Ofen hinunter reiten, weswegen er ihnen Urlaub erteilt habe. Brunners Frau, Elsi Bebi, sagt, sie habe von Hans Heinrich Gibel gehört, dass sich Annli Keller und Vrenli Scherrer geküsst hätten. Der Müller Diethelm Guyer sagt, dass Heini Schunnenberger vor zwei Jahren gesagt habe, dass Annli Keller und Vrenli Scherrer einander nachlaufen und sich so hold seien, dass sie sich küssen und sich gegenseitig ihre Zungen in den Mund stossen; er glaube, wenn eine der beiden einen Spitz [Penis] hätte, würden sie es miteinander treiben. Dies sei eine "gmeynde gassen red". Rudolf Fischer sagt, dass Heini Schunnenberger vor zwei Jahren gesagt habe, es sei eine Schande, wie die beiden Frauen einander nachlaufen und sich küssen; wenn eine der beiden einen Spitz [Penis] hätte, würden sie es miteinander treiben wie andere Leute. Batt Ruland sagt, dass Herr Gebhard [Studer] vor ungefähr 14 Tagen nach dem Nachtessen in sein Haus gekommen sei und gesagt habe, er wolle vom Schreiber und seinem Vater, "das ir der krütz hurren fassel unnd mich mit inen us dem pfrund huss thetend, dan ir das gwalt", denn der Teufel habe ihn mit den Huren beschissen. Der Knecht des Schreibers sagt, Herr Gebhard habe gesagt, "das er denn hurren fassäl unnd mich mit innen us dem pfrund huss tet".
+                  </summary>
+                  <msItem>
+                     <textLang>Deutsch</textLang>
+                     <filiation type="current">Aufzeichnung (Doppelblatt)</filiation>
+                     <filiation type="original"><origDate when="1572-01-02"/></filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support><material>Papier</material></support>
+                        <extent/>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin><origDate when="1572-01-02"/></origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc> </profileDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000334">Gefängnis</term>
+               <term ref="key003389">Inhaftierung</term>
+               <term ref="key005473">Nachgang</term>
+               <term ref="key000590">Delinquenz</term>
+               <term ref="key000611">Ehebruch</term>
+               <term ref="key000946">Ehre</term>
+               <term ref="key000285">Ehrverletzung</term>
+               <term ref="key000057">Gericht</term>
+               <term ref="key003037">Gerichtsverfahren</term>
+               <term ref="key003994">Hochgerichtsbarkeit</term>
+               <term ref="key003397">Homosexualität</term>
+               <term ref="key000151">Niedergerichtsbarkeit</term>
+               <term ref="key000955">Sodomie</term>
+               <term ref="key000292">Verleumdung</term>
+               <term ref="key000911">Unzucht</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <div>
+                  <pb n="1" facs="A_123_3__Nr__37__S__1_.tif"/>
+                  <p>
+                     <!--Anfang der Kundschaft-->
+                     <lb/>Item harnochvolgenndt khundtschafft,  <lb/>so herr burgermeyster dem
+                        <persName>Hannß <lb/>Wyssenn</persName> erloupt vor dem gricht zu
+                        <lb/><placeName ref="LOC_Lat_Long">Uster</placeName> uff
+                     harnochvolgennde pärsonnen <lb/>in zuͦ nammen.</p> <p><lb/>Unnd sagtennt harrumb by irn
+                     <lb/>geschwornen eydenn, wie innen mit urtel <lb/>unnd rächt erkhännt.</p> 
+                     <!--Aussage Felix Bantli-->
+                     <p><lb/>So
+                     sagt <persName>Feelix Banntli</persName>, das im wol <lb/>zwüssenn, wie es sich
+                     begäben vor ettwas <lb/>zyts, das er zum <persName>Hannß Heynnrich
+                     <lb/>Gibel</persName> in syn huß khomen unnd mit <lb/>im znacht
+                     gsässenn. Unnd do sy mit <lb/>ein annderenn in des <persName>Hannß
+                        Broners</persName>
+                     <lb/>huß ganngen unnd sy innen ein maß <lb/>wyn gäbenn, do sy vonn eyner nüwen
+                     ee <lb/>grett. Do des <persName>Bronners</persName> frouw grett, es <lb/>sig ein
+                     nüwe ee verhannden. Sy söllenndt <lb/>raaten unnd do sy graatten. Es sig des
+                        <lb/>schrybers tochter. Do das
+                        <persName>Büntterli</persName> grett, <lb/>sy verstanndenz nüt rächt, der
+                        <persName>Hannß
+                     <lb/>Schmid</persName> hab grett, das <persName>Anndli
+                        Käller</persName> unnd <lb/>das <persName>Freendli Schärrer</persName>
+                     wellenndt im den <lb/>offen niderryttenn, darrumb er innen <lb/>urlob gäbenn.</p>
+                     <!--Aussage Elsi Bebi-->
+                     <p><lb/>So sagt <persName>Elsy Beby</persName>, <persName>Hannß Bronners</persName> frouw,
+                     <lb/>das irenn wol zwüssenn, das <persName>Hannß
+                     <lb/>Heynnrich Gibel</persName> in irem huß grett, er <lb/>hab das
+                        <persName>Anndli Käller</persName> unnd <persName>Freendli
+                        Schärrer</persName>
+                     <lb/>wol gseen ein annderenn küssenn.</p>
+                  <pb n="2" facs="A_123_3__Nr__37__S__2_.tif"/>
+                  <p>
+                     <!--Aussage Diethelm Guyer-->
+                     <lb/>So sagt <persName>Diethalm Guyer</persName>, der müller , das im <lb/>wol
+                     zwüssenn, das es sich vor zwey <lb/>jarrenn begäbenn, das <persName>Heynni
+                        Schunnen<lb break="no"/>bärger</persName> gret, das <persName>Anndli Käller</persName>
+                     unnd <lb/><persName>Freendli Schärer</persName>, sy louffenndt einanderen
+                     <lb/>noch unnd sigenndt ein annderen so hold <lb/>unnd küssenndt einannderen
+                     unnd <lb/>grett: <q>Ich gloub, wän eydt wäders ein spitz <lb/>hett, sy tetenntz
+                     einannderen. Ich mein, <lb/>sy stossenndt die zungen einannderen <lb/>inns mul
+                     unnd ein gmeynde gassen <lb/>red.</q></p>
+                     <!--Aussage Rudolf Fischer-->
+                     <p><lb/>So sagt <persName>Ruͦdolff
+                        Fischer</persName>, das im wol zwüssen, <lb/>das es sich begäbenn vor zwey
+                     jarren, das <lb/>der <persName>Heynni Schunnenberger</persName> grett, wie das
+                        <lb/><persName>Anndli Käller</persName> unnd <persName>Freendli
+                        Schärrer</persName>
+                     <lb/>ein wässenn fuͤrrendt unnd einand<lb break="no"/>eren noch louffenndt, das nun ein
+                     schannd <lb/>unnd ein annderen küssenndt unnd halssent. <lb/>Wän eydt wäders ein
+                     spiz het, so meint er, <lb/>sy thetzennz einanndern wie annder lütt.</p>
+                     <!--Aussage Batt Ruland-->
+                      <p><lb/>So sagt
+                       <persName>Batt Rullannd</persName><note>Zum Schreiber <persName>Batt Ruland</persName> vgl. die Kundschaft und Weisung 
+                          in einem Streit vor dem Gericht in Uster wegen Verleumdung mit dem Vorwurf der Hexerei (<bibl><ref target="https://rechtsquellen.sources-online.org/ZH_NF_II_3/SSRQ_ZH_NF_II_3_085">SSRQ ZH NF II/3, Nr. 85</ref>, Anmerkung 1</bibl>).</note>, das im wol <lb/>zwüssen, das herr
+                        <persName>Gäbhart</persName> ungfarlich <lb/>vor fierzächenn tagen in irens huß
+                     <lb/>khommen noch dem nachtässen unnd <lb/>gfragt, wo ist der vatter, do ich
+                     grett, er ist <lb/>nüt da heymmen, do herr <persName>Gäbhart</persName> grett:
+                     <lb/><q>Ich wolt in unnd dich bäten, das ir der <lb/>krütz huͦrren fassel unnd mich
+                     mit inen <lb/>us dem pfrundhuß thetend, dan ir des <lb/>gwalt.</q> Unnd darbin gret:
+                     <q>Hat mich dann <lb/>der tüffel mit den huͦren bschissenn.</q></p>
+                  <pb n="3" facs="A_123_3__Nr__37__S__3_.tif"/>
+                  <p>
+                     <!--Aussage Knecht des Schreibers-->
+                     <lb/>So sagt schrybers knächt, das im wol <lb/>zwüssenn, das herr
+                        <persName>Gäbhart</persName> in des schrybers <lb/>huß khomen unnd gfragt, wo der
+                     schryber <lb/>sig, do sy gseyt, er sig nit daheimen, do herr
+                     <lb/><persName>Gäbhart</persName> gsagt: <q>Ich hann zuͦ im umb raath <lb/>wellenn,
+                     das er denn huͦrren fassäl unnd <lb/>mich mit innen us dem pfrund huß tet.</q></p>
+                  <pb n="4" facs="A_123_3__Nr__37__S__4_.tif"/>
+               </div>
+            </body>
+            <back>
+               <div>
+                  <!--Kommentar-->
+               </div>
+            </back>
+         </text>
+      </group>
+   </text>
+</TEI>

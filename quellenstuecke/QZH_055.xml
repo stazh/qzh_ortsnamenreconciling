@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='../../Ressourcen/Stylesheet.xsl'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Quellen zur Zürcher Geschichte</title>
+				<respStmt>
+					<persName>Laura Bitterli</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Michael Schaffner</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Staatsarchiv des Kantons Zürich</publisher>
+				<date type="electronic" when="2021-05-01"/>
+			</publicationStmt>
+			<seriesStmt>
+				<title>Territorienbildung der Städte im Spätmittelalter</title>
+				<respStmt>
+					<persName>Laura Bitterli und Simon Teuscher</persName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>QZH_055</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=5125178"
+							>StAZH A 124.1, Nr. 26</idno>
+					</msIdentifier>
+					<head>Gegen Zürich gerichtete Klageschriften von Bewohnern der Herrschaft
+						Grüningen </head>
+					<msContents>
+						<summary>Bauern und Bürger des Amtes Grüningen bringen Beschwerden gegen die
+							Obrigkeit in Zürich vor, betreffend ihnen auferlegte Dienste, Bussen und
+							Pflichten sowie hinsichtlich der durch Zürich beschnittenen,
+							althergebrachten Rechte ("alt herkomen"). </summary>
+						<msItem>
+							<textLang>Deutsch</textLang>
+							<filiation type="current">Aufzeichnungen (Heft)</filiation>
+							<filiation type="original"><origDate when="1441-02"/></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support><material>Papier</material></support>
+								<extent/>
+							</supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin><origDate when="1441-02">ca.</origDate></origin>
+					</history>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<editorialDecl>
+				<p>
+					<ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+				</p>
+			</editorialDecl>
+		</encodingDesc>
+		<profileDesc> </profileDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term ref="key000273">Abgaben</term>
+					<term ref="key000184">Bussen</term>
+					<term ref="key005098">Eherecht</term>
+					<term ref="key000597">Erbrecht</term>
+					<term ref="key000506">Friedbruch</term>
+					<term ref="key003994">Hochgerichtsbarkeit</term>
+					<term ref="key000793">Markt</term>
+					<term ref="key000047">Mühlen</term>
+					<term ref="key000058">Schulden</term>
+					<term ref="key000249">Wald</term>
+					<term ref="key001101">Wehrdienst</term>
+					<term ref="key000758">Wirtshaus</term>
+					<term ref="key000154">Zinsen</term>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p><pb n="1" facs="A_124_1__Nr__26__S__1_.tif"/></p>
+			<p><pb n="2" facs="A_124_1__Nr__26__S__2_.tif"/></p>
+			<pb n="3" facs="A_124_1__Nr__26__S__3_.tif"/>
+			<p>
+				<lb/>Item es sprechend die von <placeName ref="LOC_47.28333_8.75"
+					>Grüningen</placeName> und ouch daz ampt gemeinlich zuͦ <placeName
+					ref="LOC_47.28333_8.75">Gruͤningen</placeName> und klagend sich vast, <lb/>in
+				mangem stuk und nûwen uffsëtzen, so inen beschehen und uffgesetzt syend, von den von
+					<placeName ref="LOC_47.36667_8.55">Zûrich</placeName>, <lb/>die inen doch gar
+				zuͦ māl ze hertt und ûberlegen syen und ouch ir alt herkomen, noch landz, noch
+				<lb/>hoffz, noch dingstatt recht nie gewesen syen.</p>
+			<p><lb/>Des ersten so sprechend sy, daz ir alt herkommen und recht sye, wie oder in
+				welicher wise oder weg, ein <lb/>man den töd verschulte, er habe gemûrt, ketzerye
+				getriben, gestolen, liblos getān, oder in ander wis <lb/>sin leben verschuldet,
+				etc, da sige allweg den frûnden oder dem gericht, der lib erteilt und verfallen
+				<lb/>und den herren das varend guͦt, darin hand nu die von <placeName
+					ref="LOC_47.36667_8.55">Zûrich</placeName> gezogen dem gericht und frûnden
+				<lb/>der lib und den herren ligendz und varentz guͦt, das doch vormālen by der
+				herrschafft ziten nie mer <lb/>gehoͤrt, gesehen noch vernomen ward.</p>
+			<p><lb/>Aber sprechend sy, daz ir alt herkomen und recht sye, were das under inen jeman,
+				sich verschulte, <lb/>es syen frōwen oder man, umb erlich sachen, und buͦssfellig
+				wirdet, da sölle man nieman tûrnen, <lb/>wer trostung haben muge, daz habe man inen
+				nit gehalten, wie vil man trostung hatt, daz mocht <lb/>alles dik und vil nit
+				gehelffen, ee müst getûrnet werden.</p>
+			<p><lb/>Sy sprechend ouch fûrer, wie inen die von <placeName ref="LOC_47.36667_8.55"
+					>Zûrich</placeName> verbietind und verbotten habind an die obresten buͦss,
+				<lb/>in ir eignen guͤter nit reben inzelegend, noch die also damit zuͦ bewerbend,
+				nach ir notdurfft <lb/>und inen ouch fûrer ir maͤrkt verbotten und geswechert
+				habind, by lib und guͦt, daz sy das <lb/>iro nit getoͤrftind zuͦ markt füren, noch
+				iren fromen lieben nachpuren ze kōffend geben, als <lb/>dann ir alt herkomen sig,
+				des alles sy alle zuͦ betlichem kosten und verderben komen syend.</p>
+			<p><lb/>Sy sprechend ouch von des jerlichen zinses wegen, der dem gen <placeName
+					ref="LOC_47.28333_8.75">Gruͤningen</placeName> zuͦ der vesti gehoͤrt, <lb/>das
+				ein vogt zuͦ <placeName ref="LOC_47.28333_8.75">Gruͤningen</placeName> alle müller
+				in dem ampt dar zuͦ hielt und in eid nam, das sy <lb/>den kernen, das hinder und das
+				vorder, liessen ligen, als dem daz von der kellen valt und <lb/>den herren den
+				mittel grotzen zuͦ zinß schiktend, das doch besunder ein ungehorte sach syen,
+				<lb/>noch in dem ampt vormālen nie mer vernomen wurd.</p>
+			<p><lb/>Und sprechend ouch daz ir alt herkomen und recht sye, daz ein jeglich man sin
+				zins gen <placeName ref="LOC_47.28333_8.75">Gruͤnigen</placeName>
+				<lb/>uff die vesti vertigen soͤlle und damit gezinset habe, da habind sy arm lût
+				zuͦgehalten, wenn <lb/>man die zins gen <placeName ref="LOC_47.28333_8.75"
+					>Gruͤningen</placeName> uff die vesti gefertiget, so muͦst man darnach denen
+				erst <lb/>die zins wider ab der vesti an den <placeName ref="LOC_47.23129_8.70336"
+					>Zûrichse</placeName> vertigen, das sy vormāls ouch nie mer gehoͤrt <lb/>noch
+				getan habind.</p>
+			<p><lb/>Fûrer sprechend sy, wie sy inen ouch habind uffgesetzt und sy darzuͦ gehalten,
+				daz sy alle ir voͤgt, <lb/>wenn sy voͤgt satztind und entsatztind, das sy denn
+				allwegend muͦstend den nûwen voͤgt <lb/>gen <placeName ref="LOC_47.28333_8.75"
+					>Gruͤningen</placeName> vertgen und den alten heim, als dik daz ze schulden kam,
+				das inen ouch <lb/>zuͦ māss ein ûberlegen sach sye gewesen.</p>
+			<p><lb/>Sy sprechend ouch, wie die voͤgt habind inen iro hoͤltzer usser māssen verwuͤst
+				und darinne holtz <lb/>hōwen lassen, nie denen vil zuͦ hûsern vnd vassen und denn
+				darzuͦ arm lût gehalten, daz man <lb/>inen solich holtz, hûer und vass vertigen
+				muͦst, an solich end da sy, denen hin woltend das ouch <lb/>vormelên nie beschach by
+				der herschafft ziten.</p>
+			<pb n="4" facs="A_124_1__Nr__26__S__4_.tif"/>
+			<p>
+				<lb/>Mit sunderheit sprechend sy, wie sich habe gefuͤgt, daz der
+					<persName>Gesser</persName>, selig, do der sine kind wolt berāten <lb/>und
+				hoffen, do ruͦfft er das ampt an umb holtz und daz durch frûntschafft und kerns
+				rechten <lb/>willen, des man inn do zemāl eret, denn doch der
+					<persName>Gesser</persName> vor und nach māls allweg selb ein karren <lb/>vart
+				hatt, damit er sich beholzet, ettwen brācht im ettwer durch liebi willen ouch ein
+				faͤrtli <lb/>holtz. Also habind nun die von <placeName ref="LOC_47.36667_8.55"
+					>Zûrich</placeName> sy darzuͦ gehalten, und uffgesetzt, das sy die vesti durch
+				<lb/>das yar beholtzen muͤssind, denen sy doch vormalen das by der herrschafft ziten
+				nie getān, und <lb/>vindet man noch erber lút im ampt, denen wol ze wissend ist und
+				fûrdenkend, das vor ziten <lb/>nieman an die vesti holtzet, denn das sich die
+				herrschafft selber beholtzet.</p>
+			<p><lb/>Sy sprechent ouch in den ziten, als die von <placeName ref="LOC_47.36667_8.55"
+					>Zûrich</placeName> das ampt von dem <persName>Gessler</persName> verpfantent,
+				do verhiessend <lb/>inen die von <placeName ref="LOC_47.36667_8.55"
+					>Zûrich</placeName>, sy woͤltind sy getrûwlich lassen beliben by allen iren
+				rechtungen und alten <lb/>herkomnen, darûber satztend sy inen ein schatzung uff, als
+				sy <placeName ref="LOC_47.45249_8.7485">Kiburg</placeName> verpfantend, daran
+				muͦstend <lb/>sy inen geben achthundert pfund haller <placeName
+					ref="LOC_47.36667_8.55">Zûricher</placeName> werschafft, darûber, das doch sy
+				mit den zinsen <lb/>und stûren, so uff den guͤtern stāt gnuͦg ze schaffend hatten,
+				und ouch darûber, das sy doch vormals <lb/>kein herr nie mer geschaͤtzet habe.</p>
+			<p><lb/>Fûrer sprechend ouch sy, daz ir alt herkomen und recht sye, wo ein ledig kind
+				oder zwey zuͦ der <lb/>e griffend und e kind machend, die selben e kind, sond ouch
+				ir vatter und muͦter, erben und <lb/>alle die rechtung zuͦ vatter und muͦter erb und
+				guͦt als wol haben, als ander e kind in dem <lb/>ampt, und sol sy daran ein herr zu
+					<placeName ref="LOC_47.28333_8.75">Gruͤningen</placeName> nit sumen noch ierren
+				etc. Es were denn sach, <lb/>das ein ledig kind ān elich liberben abgieng, und das
+				daz sin nit nach der grāfschafft recht <lb/>verschaffet hette, das sol das hus ze
+					<placeName ref="LOC_47.28333_8.75">Gruͤningen</placeName> erben. Dawider hand
+				die von <placeName ref="LOC_47.36667_8.55">Zûrich</placeName> ussgesetzt, <lb/>wo ein
+				ledig kind oder me zuͦ der e griffend und e kind by einander machend, die selben
+				<lb/>ekind soͤllind vatter und muͦter nit erben und soͤlle sy ein hus ze <placeName
+					ref="LOC_47.28333_8.75">Gruͤningen</placeName> erben, das doch <lb/>vormalen nie
+				mer geschen noch beschehen noch ûnser alter herkomen nie gewesen ist.</p>
+			<p><lb/>Sy sprechend ouch, das inen wol zuͦ wissend sig und syend von alter herdan also
+				herkomen von <lb/>der vogtgarben wegen, also daz man, wer denen mit einem zug buwet,
+				wenn ein vogt oder <lb/>jeman von sinen wegen, uff den aberkam und batt dem umb ein
+				garben, und der weibel umb <lb/>ein garben die selben zwo garben gab, man inen durch
+				bett und durch liebi willen und durch <lb/>keins rechten willen, und wer nit uff den
+				aker kam, dem gab man darnach nûtz etc. So ist <lb/>es nun darzuͦ komen, daz sy nit
+				me uff die aker komend, und gānd in die hûser, und nemend <lb/>da mit gewalt dry
+				garben und suͦchend under einem gantzen stok die groͤsten uss, darzuͦ nemend <lb/>sy
+				eim armen knecht, der mit dem pfenning ein juchart oder zwo buwet, gelich als wol
+				dry <lb/>garben als einen der mit pfluͦg <num value="30">30</num> oder <num
+					value="40">40</num> juchart buwt, das ûns ouch zuͦ ûberlegen ist.</p>
+			<p><lb/>Fûrer, so sprechent die erbern lût in der dingstatt zuͦ <placeName
+					ref="LOC_47.28333_8.75">Gruͤningen</placeName>, daz die dingstatt als fry sig,
+				<lb/>wer der sig, der gern schenken welle, der muge wol schenken, und soͤlle darumb
+				weder <lb/>herren noch voͤgt, weder pfenning noch des wert, noch nûtz geben, da sige
+				ein vogt zuͦgangen <lb/>und habe lûten davon gelt gevordert, der antwûrt, er woͤlte
+				davon nût geben, es sige <lb/>denn recht. Do spreche der vogt, er welle gelt hān,
+				es sige joch recht ald letz und do er <lb/>sich des fûrer mit worten werren woͤlt,
+				do fienge inn der vogt und fuͦrt inn gevangen <lb/>gen <placeName
+					ref="LOC_47.28333_8.75">Gruͤningen</placeName> etc. </p>
+			<pb n="5" facs="A_124_1__Nr__26__S__5_.tif"/>
+			<p>
+				<lb/>Ouch sprechent die burger zuͦ <placeName ref="LOC_47.28333_8.75"
+					>Gruͤningen</placeName> gemeinlich in burger vnd ussburger von ir buͦssen wegen
+				<lb/>das messer zuken, da nieman nûtz beschehe von alter herdan kein buͦss sig, wirt
+				aber ein burger <lb/>buͦssfellig, das er ein wundet, erlich bis an den tod wirt das
+				geklagt. So ist die buͦss den herren <lb/>30  haller, wirt es aber nit geklagt, so
+				hāt inn ein herr nicht nachzefrāgend etc. Darwider <lb/>hand die von <placeName
+					ref="LOC_47.36667_8.55">Zûrich</placeName> gesetzt, umb bloss messer zuken, <num
+					value="5">5</num>
+				<choice>
+					<expan>Pfund</expan>
+					<abbr>lib</abbr>
+				</choice> haller ze buͦss und umb verwunden <lb/>ouch also, als sy denn wellend, daz
+				uns ouch zuͦ ûberlegen ist, won es doch nit also von altere her<lb break="no"
+				/>kommen ist, desselben gelich ist es ouch, umb ûber erren, ûber schinden, ûber
+				zûnnen und ûbermaͤyen.</p>
+			<p><lb/>Es ist ouch ze wissend, das die ussburger alle die rechtung in allen fryheiten
+				und sachen hand, als <lb/>ouch die inburger, daby man sy ouch nit liesse
+				beliben.</p>
+			<p><lb/>Fûrer sprechend sy, das ir alt herkomen und recht sige, wo ald an welichen enden
+				in dem ampt <lb/>ein weibel abgang oder abgesetzt werde, es sig in der dingstatt
+				oder in welichen hoͤfen in dem <lb/>ampt das beschehe, so soͤllend und mugend die
+				selben in der dingstatt oder in dem hoff, da soͤlichs <lb/>beschehen were, selber
+				mit eins vogtz hûlff und rāt, under inen einen andern weibel an des <lb/>abgangnen
+				statt, mit der meren hand wellen und setzen, denn darzuͦ nûtz und guͦt und
+				<lb/>eines vogtz und ouch iro fuͦg ist, und sol inen das ouch nieman vorsin noch
+				werren etc. <lb/>Dasselb stuk und rechtung habend inen die von <placeName
+					ref="LOC_47.36667_8.55">Zûrich</placeName> ouch abgebrochen, daz sy inen weibel
+				<lb/>uffsetzend, weliche sy wellend, es kûme inen ûbel oder wol, und gefrāgend sy
+				darumb niemer <lb/>fûrer sige vormālen gewesen by der herrschafft ziten, das ein
+				weibel <del>by der herrschaft ziten</del>
+				<lb/>von einem pfand und fûrgebott <num value="4">4</num> haller nam und nemen solt,
+				die habend nun mit der <lb/>voͤgten hilff uffgesetzt, daz sy nemend von einem pfand
+				und fûrgebott <num value="2">2</num>  und <num value="3">3</num>  und <lb/>ettwie
+				dik <num value="4">4</num>  oder noch me, das alles doch inen gar ein hertte,
+				swaͤre sach sye.</p>
+			<p><lb/>Fûrer sprichet und klaget sich mit namen das ampt gemeinlich vast in disem stuk,
+				also wo ein <lb/>man, wer der guͤter habe, ze eigen oder ze lehen, die er hertt und
+				vil stûren und zinsen muͦss, <lb/>da baͤch durch fliessend und rûnnend, die
+				verbannend sy inen ze hertt, das kein man in sinem <lb/>eigen oder in sinem lehen
+				nit getar vischen noch das ir also nutzen und niessen, nach iro <lb/>notdurfft.
+				Darûber das sy doch ir guͤert und die baͤch darin darinne und daruff fertigen,
+				<lb/>leiten und buwen muͦssend, nach siner notdurfft und gānd sy die voͤgt und
+				vischend armen <lb/>lûten in ir eignen guͤtern und in ir lehen, wo sy wellend, und
+				geturre inen das nieman <lb/>werren, soͤlichs inen ouch ze māl swaͤr und ûberlegen
+				sig und vormālen by der herrschafft <lb/>ziten, doch soͤlichs nie me erdācht noch
+				gehoͤrt noch gesehen wurd.</p>
+			<p><lb/>Item sy sprechend ouch, das es gemeins amptz herkomen und recht sye, wenn ein
+				herr zuͦ <placeName ref="LOC_47.28333_8.75">Gruͤningen</placeName>
+				<lb/>jendert reisen woͤlte, da sol man mit dem herren reisen in ir kosten, als verr,
+				das man allwegen <lb/>ze nacht wider da heim an der herberg sye, woͤlte aber ein
+				herr fûrer und verrer reisen, <lb/>so muge er doch nieman fûrer mit recht zwingen ze
+				reisen, man welle es den selb durch <lb/>frûntschafft gern tuͦn, und der selb kost
+				sol dannenchin uff den herrn gan, und nit uff das ampt, <lb/>das ûns ouch die von
+				<placeName ref="LOC_47.36667_8.55">Zûrich</placeName> nit gehalten, besunder ûns gezwungen und by ûnsern eiden <lb/>gebotten hand,
+				gen <placeName ref="LOC_45.66667_9.5">Lamparten</placeName> ze reisen und anderswahin,
+				in unserm kosten, das uns ouch vor<lb break="no"/>mālen nie me beschehen sig.</p>
+			<p><lb/>Sy sprechend ouch und klagend sich vast, wie inen die von <placeName
+					ref="LOC_47.36667_8.55">Zûrich</placeName> und ir voͤgt verbotten habind,
+				<lb/>fûchs, hasen, eichorn und alles geflûgel zuͦ fähend mit dem armbrost oder suss,
+				und das <lb/>by den eiden gebotten ze leident, das ouch von nie beschehen ist, doch
+				ussgelāssen umb rotgewild <lb/>klaget sich nieman nicht. </p>
+			<pb n="6" facs="A_124_1__Nr__26__S__6_.tif"/>
+			<p>
+				<lb/>Es sprechend aber die burger von <placeName ref="LOC_47.28333_8.75"
+					>Gruͤningen</placeName> in māssen, als vorstāt, von ussburgern und inburgern,
+				<lb/>das die in allen stuken und fryheiten gelich recht habind, des klagend sich die
+				inburger und <lb/>sprechend, wie das die von <placeName ref="LOC_47.36667_8.55"
+					>Zûrich</placeName> iren ussburgern zuͦ <placeName ref="LOC_47.2946_8.78194">Optikon</placeName> in
+				kurtzen tagen soͤlich stuk <lb/>uffgeleit und gesetzt habind, die sy vormālen nie
+				me geben habind, und das vormālen <lb/>ob fûnfftzig jaren nieman gedenkt, das sy
+				die selben stûr je geben habind, das inen ouch ze <lb/>mal ein swaͤre ûberlegne sach
+				sig.</p>
+			<p><lb/>Mit sundheit gnaͤdigen, lieben herren, ammann und rāt und gemein lantlût zuo
+					<placeName ref="LOC_47.02076_8.65414">Switz</placeName>, so bitten <lb/>wir
+				obgenempten von <placeName ref="LOC_47.28333_8.75">Gruͤningen</placeName> in dem
+				ampt, als ûwer willig undertenigen lantlût, ûwer <lb/>fûrsichtigen wisheit mit fliss
+				ernstlich, in allen disen vor und nachgeschribnen artikeln und uffsaͤtzen <lb/>und
+				ouch besunder mit namen in disem jetzigen artickel und uffsatz, ûns ûwer willigen
+				ûch <lb/>getrûwlichen lāssen bevolhen sin, als wir des ein besunder gantz vest
+				getrûwen, zuͦ ûwer <lb/>wissheit habend. Also lāssend wir ûwer fûrsichtikeit
+				wissen, daz zwen hoͤff in ûnserm ampt <lb/>gelegen sind, namlich der hoff ze
+					<placeName ref="LOC_47.28706_8.92092">Wald</placeName> und der hoff zuͦ
+					<placeName ref="LOC_47.24254_8.72342">Staͤffen</placeName>, die hand ein soͤlich
+				recht einander <lb/>zuͦ erben, das sy ein ander erbend und erben mugend, jemer me
+				hinuss, als verr man das gerechnen <lb/>mag und dennacht fûrer, nach dem als denn
+				iro hoffz recht und alt herkommen wiset und seit etc. <lb/>Daz ir da so wol tuͦn und
+				ûns obgenempten von <placeName ref="LOC_47.28333_8.75">Gruͤningen</placeName> in der
+				dingstatt, im hof zuͦ <placeName ref="LOC_47.27856_8.84156"
+						><unclear>Du̍nroten</unclear></placeName> 
+				<lb/>zuͦ <placeName ref="LOC_47.31279_8.72325">Altdorff</placeName> und anderswo im
+				ampt darzuͦ berāten sin, und gehelffen wellend, denen doch solich <lb/>rechtung,
+				zuͦ erben als obstāt, vor ettwas zitz abgebrochen, und ander uffsaͤtz beschehen
+				sind, <lb/>das wir ouch widerumb die selben rechtung, ein ander zuͦ erbend,
+				gewinnend und erfolgen <lb/>mugind, als denn die vorgenennten von <placeName
+					ref="LOC_47.24254_8.72342">Stefen</placeName>
+				<del>erfolgen mugend</del> und von <placeName ref="LOC_47.28706_8.92092"
+					>Wald</placeName> und von alter <lb/>her gewesen ist, kunnend und mugend wir das
+				umb ûwer wisheit, jetz als hernach, in deheinen <lb/>sachen jemer beschulden und
+				gedienen, des wellend wir zuͦ allen ziten geflissen und willig <lb/>sin, won das
+				doch ûnser aller groͤste notdurfft ist.</p>
+			<p><lb/>Es sprechend ouch die von <placeName ref="LOC_47.24254_8.72342"
+					>Stefen</placeName> in dem hoff, wie das sy allwegend einen vogt in ir hoff
+				habind, <lb/>der inen richte, der ein eigen insigel habe, mit dem er besigle, ûber
+				alle guͤter, die vogtber sind, <lb/>und ûber was sich vor gericht vergāt, dasselb
+				insigel habe inen der leste vogt ze <placeName ref="LOC_47.28333_8.75"
+					>Gruͤningen</placeName>
+				<lb/>abgebrochen, darûber das doch das je und je ir alt herkommen und recht sig.</p>
+			<p><lb/>Fûrer klagend sy sich so sy vest mugend und sprechend, wie daz inen die von
+					<placeName ref="LOC_47.36667_8.55">Zûrich</placeName> dik verbietend <lb/>und
+				verbotten habind, daz sy ze herbst ir eigen reben und ir win darab nit geturren
+				gewinnen <lb/>und gelesen, bis sy das erlobend, untz ettwen der win an den reben
+				erfulet und verdirbt, <lb/>dar durch sy zuͦ grossen schaden und verderben komend,
+				das sy das ira also nit nûch iro notdurfft <lb/>nutzen und niessen und bewerben
+				geturrend, das vormāls inen nie mer beschehen sig.</p>
+			<p><lb/>Fûrer sprechend die von <placeName ref="LOC_47.24254_8.72342"
+				>Stefen</placeName>, sy sigend gotzhuslût gen <placeName ref="LOC_47.12693_8.75345"
+					>Einsidellen</placeName>, und wo ein ledig <lb/>kind in ir hoff abgang, ān
+				elich lib erben, da lāssind sy die herren an einandern, wer dasselb <lb/>kind erben
+				soͤlle. </p>
+			<pb n="7" facs="A_124_1__Nr__26__S__7_.tif"/>
+			<p>
+				<lb/>Fûrer sprechend die von <placeName ref="LOC_47.28333_8.75"
+					>Gruͤningen</placeName> in dem ampt, wo zerwurffnûst in dem ampt beschehe, da
+				ein <lb/>vogt selber oder sin weibel under ougen sind, wirt da dem vogt oder sinem
+				weiblen nût geklagt, <lb/>so hāt man nût fûrer darnach ze frāgend, und sig das ir
+				alt herkomen und recht. Darûber <lb/>halte der vogt sin weibel darzuͦ, daz sy
+				muͦssen swerren zuͦ den heilgen, fûrzebringend, was <lb/>inen fûrkumpt, das buͦss,
+				wie dig ist, so es joch nit geklagt ist, und wenn das dem vogt fûrkunnt, <lb/>so
+				besent er zwen, die im fuͤgend, und verhoͣrt die und gelōpt ir sag und buͦsset
+				daruf ein, und <lb/>lāt das niemer me zuͦ keinem widerreden noch rechten komen,
+				einer habe denn recht als unrecht, <lb/>und hette er zehen zûgen, so hulffe es doch
+				nit. Er muͦss unrecht hān, man verhoͤr inn nieman <lb/>me, das doch vormālen nie
+				me gehoͤrt noch geschehen und inen ein swaͤre, grosse sach sig etc.</p>
+			<p><lb/>Sy klagend sich aber besunder ab den voͤgten und sprechend, wie das gar vil und
+				dik geschehe, <lb/>das die voͤgt aker enpfähend umb zinse und denn arm lût im ampt
+				darzuͦ zwingend und <lb/>haltend, das sy ir eigen aker und guͤter muͤssind ligen
+				lāssen und den voͤgten ir aker erren und <lb/>bereiten muͦssend, so das inen wol
+				kumpt. Es kome joch armen lûten ûbel oder wol darzuͦ, <lb/>so zwingend und haltend
+				sy fûrer arm lût darzuͦ, das sy inen ir hanff muͦssend faͤren <lb/>ab dem land in
+				den se oder in die <placeName ref="LOC_47.5519_8.55398">Toß</placeName> und wider
+				daruss uff daz feld und ab dem feld <lb/>in die schûr, und kunt dik und vil darzuͦ,
+				daz ein arm man ab einem tagwan faren muͦss <lb/>oder sin garben und korn, hoͤw und
+				anders uff dem feld muͦss lāssen und den voͤgten ir hanff <lb/>und anders fertigen
+				und fuͤren, wie sy wellend und gebietend inen ouch soͤlichs by den eiden <lb/>ze
+				tuͦnd, das û̍ns ouch ze māl hertt und swaͤr ist. Sy sprechend ouch, das vil und dik
+				die <lb/>voͤgt gantz hoͤff, so zuͦ dem hus gehoͤrend, selb innhaͤbind und die durch
+				arm lût buwtint.</p>
+			<p><lb/>Sy klagend sich ouch fûrer und sprechend, wie die von <placeName
+					ref="LOC_47.36667_8.55">Zûrich</placeName> under inen allenthalben in dem
+				<lb/>ampt in allen höfen und in der dingstatt habind fûrsprechen geordnet und
+				gesetzt, das man <lb/>in allen hoͤfen also under inen soͤlle und muͤsse fûrsprechen
+				setzen und die denn jerlichen <lb/>enden und anders setzen, wenn es denn darzuͦ
+				kumpt, das ein sach fûr gericht kumpt, an <lb/>welichen enden im ampt denn das
+				beschicht, so denn darumb ein fûrsprech erteilt, nach dem <lb/>und inn denn je nach
+				eins hoffz oder dingstatt recht, recht beduͦcht, nach unser alten herkommen <lb/>und
+				rechten, das ouch ander lût ouch recht beduͦcht, und ein also gevolget ward etc.
+				Gefiel <lb/>das ein vogt nit, nach dem als sich soͤlich recht nach unser dingstatt
+				und hoͤfen recht vol<lb break="no"/>gangen hatt, so zoch er soͤlich sachen gen
+					<placeName ref="LOC_47.36667_8.55">Zûrich</placeName> und schluͦg ûns ûnser
+				gericht und alten <lb/>herkommen und dingstatt und hoͤfen recht ab und richtend denn
+				soͤlich sachen <placeName ref="LOC_47.36667_8.55">Zûrich</placeName>, als <lb/>sy
+				woltend und inen eben kam, das doch vormāls nie me beschach, ûnser alt herkomen und
+				<lb/>recht nit einst, besunder ûns ouch ein hertt ûberlegen swaͤre sach sig. </p>
+			<pb n="8" facs="A_124_1__Nr__26__S__8_.tif"/>
+			<pb n="9" facs="A_124_1__Nr__26__S__9_.tif"/>
+			<p>
+				<lb/>Item es sprechend die von <placeName ref="LOC_47.28706_8.92092"
+					>Wald</placeName> und klagend sich in ettwe mengen stuk und <gap
+					reason="illegible" quantity="1" unit="cm"/>
+				<lb/>uffsetzen, so inen beschechen syen und uffgesetzet von den von <placeName
+					ref="LOC_47.36667_8.55">Zûrich</placeName>, die inen <lb/>gar zuͦ māl ûberlegen
+				und ōch ir alt harkomen noch hoffrecht nie gewesen <lb/>sind.</p>
+			<p><lb/>Des ersten sprechend sy wie sich gefuͤgt hab vor ettwas zittes, daz sy da
+				<lb/>zuͦ <placeName ref="LOC_47.28706_8.92092">Wald</placeName> gesellen win
+				geschenkt haben etc, da siwe der <persName>Streller</persName> von <lb/><placeName
+					ref="LOC_47.28706_8.92092">Wald</placeName> gen <placeName
+					ref="LOC_47.28333_8.75">Gruͤningen</placeName> und nam daselbs den vogt zuͦ
+				hilff und fuͦren <lb/>miteinander gen <placeName ref="LOC_47.36667_8.55"
+					>Zûrich</placeName> und erwarb da der <persName>Streller</persName>
+				<placeName ref="LOC_47.36667_8.55">Zûrich</placeName> daz man im <lb/>sin hus ze
+					<placeName ref="LOC_47.28706_8.92092">Wald</placeName> fryen zuͦ einer fryen
+				tawern und daz er allein da <lb/>schenken solt und anders nieman nie, und gaben im
+				dar umb brieff <lb/>und insigel.</p>
+			<p><lb/>Do daz ein hoff zuͦ <placeName ref="LOC_47.28706_8.92092">Wald</placeName>
+				vernam, da besamloten sich der eltesten in dem <lb/>hoff, by acht mannen, mit sampt
+				allen andern jungen und alten und <lb/>namen dar ûber ein gesworn kuntschafft, wie
+				dz ir alt harkomen und <lb/>recht were, welicher der were, in dem hoff zuͦ
+					<placeName ref="LOC_47.28706_8.92092">Wald</placeName>, der gern schenken
+				<lb/>woͤlte, der soͤlte einem herren zuͦ <placeName ref="LOC_47.28333_8.75"
+					>Gruͤningen</placeName> zuͦ jars <num value="5">5</num> , <num value="4"
+					>4</num> denar geben <lb/>und moͤcht dar nāch schenken, wer gern woͤlte, und
+				beachten ein soͤlich <lb/>kuntschafft gen <placeName ref="LOC_47.36667_8.55"
+					>Zûrich</placeName>, dz mocht nit gehelffen, denn brachen <lb/>men die selben
+				rechtung ab und frytend dem <persName>Streller</persName> sin hus, allem <lb/>zuͦ
+				einer fryen tavern, als obgemeldet stāt.</p>
+			<p><lb/>Dar uff beduͦcht die hofflût zuͦ <placeName ref="LOC_47.28706_8.92092"
+					>Wald</placeName>, dz inen soͤlicher uffsatz und ir <lb/>fryheit, als vor stāt,
+				absatz zuͦ ûberlegen wer, und beganden darumb <lb/>den <persName>Streler</persName>
+				und sin hus ettwas schûchen, da daz den <persName>Streller</persName> beduͦcht, daz
+				<lb/>man im dar umb ettwaz gehass were, darnach fuͦr er aber gen <lb/><placeName
+					ref="LOC_47.28333_8.75">Gruͤningen</placeName> zuͦ eim vogt, und wo es inn guͦt
+				duͦcht, daz im moͤcht <lb/>gehulffen werden, und fuͦr aber gen <del><placeName
+						ref="LOC_47.28333_8.75">Gruͤningen</placeName></del>
+				<placeName ref="LOC_47.36667_8.55">Zûrich</placeName> und warb <lb/>da umb daz weibel
+				ampt, und ward ōch also zuͦ weibel gesetzt, daz <lb/>ûns ōch zuͦ māl ûberlegen
+				waz.</p>
+			<p><lb/>Dar uff warb aber ein hoff zuͦ <placeName ref="LOC_47.28706_8.92092"
+					>Wald</placeName> mit den eltsten und andern <lb/>als vormals gen <placeName
+					ref="LOC_47.36667_8.55">Zûrich</placeName> und wurden da eroffnen, wie daz ir alt
+				<lb/>harkomen und recht sig, wenn ald wo oder an welhen enden im <lb/>ampt
+					<placeName ref="LOC_47.28333_8.75">Gruͤningen</placeName> ein weibel abgāt, daz
+				da ein hoff und hofflûtt <lb/>in dem ampt und zuͦ <placeName
+					ref="LOC_47.28706_8.92092">Wald</placeName> selb soͤllen und mugen einen andern
+				<lb/>weibel wellen, der eim vogt zuͦ <placeName ref="LOC_47.28333_8.75"
+					>Gruͤningen</placeName> gehorsam und gewertig <lb/>sig, die selben alten
+				harkomen und rechtung brachen sy ûns <lb/>ōch ab und muͦst
+					<persName>Streller</persName> weibel sin, der ûns doch gar zuͦ m̄al
+				<lb/>ûberlegen waz, won der selb <persName>Streller</persName> verbien und verkannet
+				alle <lb/>bech zuͦ <placeName ref="LOC_47.28706_8.92092">Wald</placeName>, daz
+				nieman in sinen eignen guͤtern, da bech inn </p>
+			<pb n="10" facs="A_124_1__Nr__26__S__10_.tif"/>
+			<p>
+				<lb/>entsprungen und runnen, geterst vischen. Und vischet der
+					<persName>Streller</persName> einem <lb/>andern in sinen guͤtern, wo ald wenn er
+				wolt, und zertratt im sin sāmen, <lb/>hoͤw, gras und anders und schutt im stein
+				darin und geterst dazz nieman <lb/>merren, daz alles doch vormalen nie me gehoͤrt
+				noch gesehen ward <lb/>im hoff zuͦ <placeName ref="LOC_47.28706_8.92092"
+					>Wald</placeName>. Fûrer sprechend sy, wie dz die voͤgt zuͦ <placeName
+					ref="LOC_47.28333_8.75">Gruͤningen</placeName>, <lb/>wer je beim vogt waz, mager
+				ōchsen kōfft und schikt die gen <placeName ref="LOC_47.28706_8.92092"
+					>Wald</placeName>, dz <lb/>man im die feiss machete, des alles vast vil
+				beschechen ist, besunder <lb/>der vogt
+					<persName>Schwartzmurer</persName><note>Junker <persName>Jakob
+						Schwarzmurer</persName> war Vogt von <placeName ref="LOC_47.28333_8.75"
+						>Grüningen</placeName>.</note> hab inen jetz des letsten jars fûnff
+				<lb/>mager ōchsen gesant, feiss zuͦ machen, gen <placeName
+					ref="LOC_47.28706_8.92092">Wald</placeName>, daz inen doch ein <lb/>herte,
+				schwere sach sye, und muͦss jederman besorgen und fûrchten, <lb/>wer daz mit taͤtte,
+				daz er des schwerlich engelten muͤsste, denn daz der
+					<lb/><persName>Streller</persName> dik gesprochen hab, wer es nit welle tuͦn,
+				der muͤsstin <lb/>bësers loben. </p>
+			<pb n="11" facs="A_124_1__Nr__26__S__11_.tif"/>
+			<pb n="12" facs="A_124_1__Nr__26__S__12_.tif"/>
+		</body>
+		<back>
+			<div>
+				<p>Es handelt sich bei der vorliegenden Aufzeichnung um eine 1441 entstandene
+					Klageschrift von Bewohnern der Herrschaft <placeName
+						ref="LOC_47.28333_8.75">Grüningen</placeName>, die von Verstössen gegen
+					das alte Herkommen durch <placeName
+						ref="LOC_47.36667_8.55">Zürich</placeName> berichten. Schultheiss und Rat von <placeName ref="LOC_46.94809_7.44744">Bern</placeName> entschieden über die einzelnen vorgebrachten Punkte
+						 im Rahmen eines Minnespruchs (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=435225">StAZH C I, Nr. 2370</ref></bibl>).</p> 
+						<p>Nur wenige Jahre nach einer Reihe von
+					Grüninger Kundschaften verschriftlicht (vgl. <bibl><ref target="https://qzh.sources-online.org/quellenstuecke/QZH_044">QZH, Nr. 44</ref></bibl>), ordnen sich die
+					Klagen in den Kontext weiterer Aufzeichnungen ein, die seit der Verpfändung von
+					<placeName ref="LOC_47.28333_8.75">Gruͤningen</placeName> an <placeName ref="LOC_47.36667_8.55">Zürich</placeName> im Jahr 1408 das Verhältnis zwischen der früheren und der
+					gegenwärtigen Herrschaft, Gerichtsgrenzen sowie Rechte und Pflichten der Landleute und der Herrschaft in diesem Gebiet thematisierten (vgl. <bibl><ref target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html">Hottinger,
+						Beschwerdeschriften</ref></bibl> sowie <bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=610614">StAZH A 97.7, Nr. 6</ref></bibl>). </p>
+				<p>Zur vorliegenden Quelle vgl. <bibl><ref target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html">Teuscher 2007</ref>, S. 128-130</bibl>; zu <placeName ref="LOC_47.28333_8.75">Grüningen</placeName> im
+					Spätmittelalter siehe: <bibl><ref target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html">Brühlmeier 2008</ref></bibl>; <bibl><ref target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html">Eugster 1995b</ref></bibl>.</p>
+
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='../../Ressourcen/Stylesheet.xsl'?>
+<?xml-model href="http://www.tei-c.org/ns/1.0" type="application/xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Quellen zur Zürcher Geschichte</title>
+                <respStmt>
+                    <persName>Patrick Rüegg. Mit einem Kommentar von Patrick Rüegg</persName>
+                    <resp key="transcript"/>
+                </respStmt>
+                <respStmt>
+                    <persName>Patrick Rüegg</persName>
+                    <resp key="tagging"/>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Staatsarchiv des Kantons Zürich</publisher>
+                <date type="electronic" when="2021-05-01"/>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Quellen zur Zürcher Geschichte</title>
+                <respStmt>
+                    <persName>Staatsarchiv des Kantons Zürich</persName>
+                    <resp>Herausgeberschaft</resp>
+                </respStmt>
+                <idno>QZH_038</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=5088955"
+                            >StAZH A 16, Nr. 25.3</idno>
+                    </msIdentifier>
+                    <head>Bericht von Hans Jakob Escher, Leutpriester-Diakon am Grossmünster, an das Ratsgericht über Besuche 
+                        im Wellenberg bei der wegen Kindstötung angeklagten Anna Keller</head>
+                    <msContents>
+                        <summary>
+                            Leutpriester-Diakon Hans Jakob Escher nimmt in seinem Bericht an das Ratsgericht Bezug auf einen obrigkeitlichen Befehl, 
+                            die wegen Kindstötung angeklagte Anna Keller im Wellenberg zu besuchen. Diesem Befehl sei er fleissig nachgekommen und
+                            er habe sich bemüht, bei der Gefangenen Reue und Schuldgefühle über ihre begangene Tat hervorzurufen. Gleichzeitig habe er Keller aber auch die Mittel und Wege aufgezeigt, wie sie sich auf ihren bevorstehenden Tod durch Hinrichtung
+                            vorbereiten müsse, um vor Gott Gnade zu finden. So habe Escher ihr in regelmässigen Besuchen die wesentlichen Elemente des christlichen
+                            Glaubens beigebracht, worauf sie grossen Willen zur Busse und zum Gebet gezeigt habe. Die Gefangene bereue nun die Sünden ihrer Vergangenheit
+                            umso mehr und sehe die Richtigkeit der Aussprache der Todesstrafe  auch selbst ein. Keller zeige sich deshalb dankbar, dass sie durch
+                            die Anleitung des Leutpriesters doch noch eine Möglichkeit auf himmlisches Heil habe.
+                        </summary>
+                        <msItem>
+                            <textLang>Deutsch</textLang>
+                            <filiation type="current">Aufzeichnung (Doppelblatt)</filiation>
+                            <filiation type="original">
+                                <origDate when="1770-03-24"/>
+                            </filiation>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material>Papier</material>
+                                </support>
+                                <extent/>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origDate when="1770-03-24"/></origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>
+                    <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+                </p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc> </profileDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+                    <term ref="key005343">Ausserehelicher Geschlechtsverkehr</term>
+                    <term ref="key0005333">Schwangerschaft</term>
+                    <term ref="key005447">Uneheliche Geburt</term>
+                    <term ref="key111114">Kindstötung</term>
+                    <term ref="key000334">Gefängnis</term>
+                    <term ref="key005473">Nachgang</term>
+                    <term ref="key003994">Hochgerichtsbarkeit</term>
+                    <term ref="key000604">Todesstrafe</term>
+                    <term ref="key003648">Geistlichkeit</term>
+                    <term ref="key111119">Seelsorge</term>
+                    <term ref="key003009">Gebet</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <group>
+            <text>
+                <body corresp="Sigle1">
+                    <pb n="1" facs="A_16__Nr__25_3__S__1_.tif"/> 
+                    <p><lb/>Gnädiger herr burgermeister,
+                    <lb/>hochgechte, wohledelgebohrne, gestrenge, fromme, veste, für<lb break="no"/>sichtige
+                    und weise <abbr>etc.</abbr>, <abbr>etc</abbr>., 
+                    <lb/>insonders hochgeehrteste, großgönstige herren.</p> 
+                        <p><seg><lb/>Dero hohem befehl zu folge haben wir die im <placeName ref="LOC_Lat_Long">Wellenberg</placeName> in
+                    <lb/>gefänglichem verhafft sich befindende <persName>Anna Keller</persName> von <placeName ref="LOC_Lat_Long">Reütlingen</placeName>
+                    <lb/>fleißig besucht und uns bemühet, dieselbe aus gottes wort
+                    <lb/>zu einem rechten reüen und herzlichen leidwesen über ihre
+                    <lb/>schwere mißethat zu verleiten. Wir haben ihr auch vorgestellt,
+                    <lb/>wie sie sich in ihren betrübten umständen zum sterben anschi<lb break="no"/>ken 
+                            müße und welches die mittel seyen, derer sie sich bediennen
+                    <lb/>müße, sich zu einem selligen end vorzubereiten, damit sie mit
+                    <lb/>freüden vor gott erscheinen möge.</seg> <seg>Wir fanden eine sehr ver<lb break="no"/>nünfftige,
+                    naive person vor uns, die auf alles, was man sie
+                    <lb/>fragte, richtige und ungekünstelte antworten ertheilte, die, da
+                    <lb/>sie, wie sie selbst sagt, sehr unwißend gewesen, in der kurzen
+                    <lb/>zeit ihrer gefangenschafft zu einer schönen erkentniß in den an<lb break="no"/>fängen
+                    der heils wißenschafften gelanget ist. Sie ist überaus
+                    <lb/>betrübt über ihren sündigen wandel und voll schmerzlichen leids 
+                    <lb/>über das verbrechen, insbesondere waßwegen sie gefangen
+                    <lb/>sizt. Sie läßt alle kennzeichen einen wahren und ungeheüchelten
+                    <lb/>buß von sich bliken. Unter vielen tausend thränen erkennet sie,
+                    <lb/>daß sie wenig in ihrem leben an gott und den unendlichen
+                    <lb/>werth seiner gnade gedacht habe. Sie habe niemahlen in ihrem 
+                    <lb/>gemüth eine rechtschaffne und ernste begirde gefühlt, gott zu
+                    <lb/>gefallen. Sie habe wenig gebättet, und eben dadurch sey sie
+                    <lb/>in ein sehr lüderliches und heilloses leben verfallen und <del>sich</del> habe
+                    <lb/>sich in die grösten und schändlichsten sünden und laster gestürzt.
+                    <lb/>Sie seye ohne anders eine todeswürdige mißethäterin und
+                    <lb/>erwarte auch von einer gerechten obrigkeit nichts anders
+                    <lb/>als ein urtheil deß todes. Ihre sünden seyen ihr aber nun<lb break="no"/>mehro
+                    herzlich leid, vornemlich deßwegen, weil sie gott, ihren
+                    <lb/>schöpfer und wohlthäter, auff das höchste beleidiget habe. Sie
+                    <lb/>danke gott herzlich, daß es ihm gefallen, sie auf die wege deß
+                    <lb/>heils zurükzuführen. Sie höre nicht auf mit gebätt <abbr>u.</abbr> flehen
+                    <lb/>zu gott, daß er ihro die gnädige vergebung aller ihrer sünden
+                    <lb/>in dem blut <persName ref="GND_118557513">Jesu Christi</persName> schenken wolle. Und sie hoffe auch zu
+                    <lb/>seiner unendlichen erbarmung, ihre bitte werde ihr gewähret
+                    werden.</seg> <seg>Sie hat auch in unsrer gegenwart daß bekandte ge<lb break="no"/>bät
+                    herr <persName>Weyßers</persName> <add place="left margin">um vergebung der
+                    sünden</add> so gebättet, das wir aus dem thon und dem
+                    <lb/>nachtruk, mit welchem sie es hersagte, deütlich erkandten, daß
+                    <lb/>sie alles, was sie sagte, recht lebhafft empfande und sich zu
+                        <pb n="2"/>
+                        <pb n="3" facs="A_16__Nr__25_3__S__3_.tif"/>
+                        eignete.</seg></p>
+                    <p><seg>Bim weggehen dankte sie uns recht beweglich vor
+                    <lb/>die mühe, die wir uns ihret halben gäben und bate uns mit
+                    <lb/>dem besten anstand, der ihre gelaßenheit und unterwerffung
+                    <lb/>anzeigte, sie unseren gnädigen herren zu einem gnädigen 
+                    <lb/>urtheil zu empfehlen. Wir müßen sie bedauren, daß sie
+                    <lb/>eine so schlechte auf erziehung genoßen, und auf eine so ge<lb break="no"/>wißen
+                    lose und boßhaffte weise verführt worden ist. Dießes
+                    <lb/>ist es, was wir pflichtmäßig und mit gebührendem tiefsten
+                    <lb/>respect haben berichten sollen.</seg></p>
+                    <p><lb/>Eüer unser gnädigst gebietenden herren
+                    <lb/>unterthänig gehorsame 
+                        <lb/>diener an der kirche zum <placeName ref="LOC_Lat_Long">Großen Münster</placeName>
+                    <lb/>und in dero namen,
+                    <lb/><persName ref="GND_1089336586">Hs Jakob Escher</persName>, Leütpriester,
+                    den <origDate when="1770-03-24">24. merzen anno 1770</origDate>.</p>
+                <pb n="4" facs="A_16__Nr__25_3__S__4_.tif"/>
+                <p><lb/>Bericht
+                    <lb/>der kirchendiener zum <placeName ref="LOC_Lat_Long">Großen
+                    <lb/>Münster</placeName> wegen der <persName>Anna
+                        <lb/>Keller</persName> von <placeName ref="LOC_Lat_Long">Reütlingen</placeName>, die im
+                    <lb/><placeName ref="LOC_Lat_Long">Wellenberg</placeName> gefangen ligt.
+                </p>
+                </body>
+                <back>
+                    <div>
+                        <p>Die Diakone in der Leutpriesterei am <placeName ref="LOC_Lat_Long">Grossmünster</placeName> waren in besonderer Weise für die Seelsorge bei Gefangenen, 
+                            denen die Hinrichtung bevorstand, zuständig (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4192245">StAZH E I 5.8, Nr. 42</ref>, S. 1</bibl>). In dieser Funktion wurde auch 
+                            <persName ref="GND_1089336586">Hans Jakob Escher</persName> in den <placeName ref="LOC_Lat_Long">Wellenberg</placeName> geschickt. Im Gegensatz zum Besuch der Geistlichen der <placeName ref="LOC_Lat_Long">Predigerkirche</placeName> bei 
+                            <persName>Keller</persName> (vgl. <bibl><ref target="https://qzh.sources-online.org/quellenstuecke/QZH_037">QZH, Nr. 37</ref></bibl>) standen bei seinem Besuch jedoch keine ermittlungstechnischen Ziele mehr im Vordergrund, 
+                            sondern seelsorgerische: Im Zentrum des Berichts stand <persName>Anna Kellers</persName> bevorstehender Tod und ihre nahende Begegnung mit
+                            dem richtenden und vergebenden Gott. Auf diese Begegnung sollte sie <persName ref="GND_1089336586">Escher</persName> vorbereiten. Gemäss seiner Eigendarstellung 
+                            gegenüber dem Rat führte er diesen Auftrag pflichtmässig und getreu durch. Leutpriester <persName ref="GND_1089336586">Escher</persName> stellte sich als der verantwortliche
+                            <q>Mann Gottes</q> dar, der für die Verurteilte trotz ihrer begangenen Sünden eine Voraussetzung schaffen konnte, in der Gott sich ihr
+                            gegenüber gnädig zeigen würde. Er stellt so seine geleistete Seelsorgearbeit als erfolgreich und idealtypisch dar und unterstreicht
+                            in seiner Doppelrolle in Kirche und Staat gleichzeitig die Legitimität der weltlichen Justiz.</p>
+                        <p>Für weitere Briefe der Geistlichen zu <persName>Anna Keller</persName> vgl. <bibl><ref target="https://qzh.sources-online.org/quellenstuecke/QZH_037">QZH, Nr. 37</ref></bibl> und <bibl><ref target="https://qzh.sources-online.org/quellenstuecke/QZH_039">QZH Nr. 39</ref></bibl>.
+                        </p>
+                    </div>
+                </back>
+            </text>
+        </group>
+    </text>
+</TEI>

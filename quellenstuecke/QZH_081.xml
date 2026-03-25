@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='../../Ressourcen/Stylesheet.xsl'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Quellen zur Zürcher Geschichte</title>
+                <respStmt>
+                    <persName>Andrea Schmid-Kunz</persName>
+                    <resp key="transcript"/>
+                </respStmt>
+                <respStmt>
+                    <persName>Michael Schaffner</persName>
+                    <resp key="tagging"/>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Staatsarchiv des Kantons Zürich</publisher>
+                <date type="electronic" when="2021-05-01"/>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Gelebte Reformation. Zürich 1500-1800</title>
+                <respStmt>
+                    <persName>Francisca Loetz. Unter Mitarbeit von Wolfram Schneider-Lastin</persName>
+                    <resp>Herausgeberschaft</resp>
+                </respStmt>
+                <idno>QZH_081</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=5242926">TAI 2.36; ZBZ 3.215</idno>
+                    </msIdentifier>
+                    <head>Kirchengesang der gemeinen und gebrüchlichen Psalmen, Festgesangen und Geistlichen Liederen, nach der Teütschen Melodey für die Kirchen Zürych zuosamen getruckt.</head>
+                    <msContents>
+                        <msItem>
+                            <textLang>Deutsch</textLang>
+                            <filiation type="current">Druckschrift</filiation>
+                            <filiation type="original"><origDate from="1598-01-01" to="1598-12-31"/></filiation>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><material>Papier</material></support>
+                                <extent/>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origDate from="1598-01-01" to="1598-12-31"/></origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>
+                    <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+                </p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc> </profileDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+                    <term ref="key000149">Gottesdienst</term>
+                    <term ref="key000658">Reformation</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+ <text>
+  <group>
+   <text>
+    <body corresp="Sigle1">
+     <div><p><ref target="https://suche.staatsarchiv.djiktzh.ch/Dateien/320/D1603058.mp3">Eine Vertonung des Kirchengesangs kann hier abgerufen werden</ref>.</p>
+    <p>Für die vierstimmige Bearbeitung des Gesangs vgl. <ref target="https://qzh.sources-online.org/quellenstuecke/QZH_082">QZH, Nr. 82</ref>.</p>
+    </div>
+    </body>
+    
+    
+    
+   </text>
+  </group>
+ </text>
+</TEI>  

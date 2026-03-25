@@ -1,0 +1,257 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='../../Ressourcen/Stylesheet.xsl'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Quellen zur Zürcher Geschichte</title>
+                <respStmt>
+                    <persName>Anina Steinmann. Mit einem Kommentar von Michael Schaffner</persName>
+                    <resp key="transcript"/>
+                </respStmt>
+                <respStmt>
+                    <persName>Anina Steinmann und Michael
+                        Schaffner</persName>
+                    <resp key="tagging"/>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Staatsarchiv des Kantons Zürich</publisher>
+                <date type="electronic" when="2021-05-01"/>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Quellen zur Zürcher Geschichte</title>
+                <respStmt>
+                    <persName>Staatsarchiv des Kantons Zürich</persName>
+                    <resp>Herausgeberschaft</resp>
+                </respStmt>
+                <idno>QZH_071</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4769467"
+                            >STAZH A 142.4, Nr. 36</idno>
+                    </msIdentifier>
+                    <head>Ordnung der Stadt Zürich betreffend Reformation des Klosters Rüti</head>
+                    <msContents>
+                        <summary>Bürgermeister, Kleiner und Grosser Rat der Stadt Zürich erklären, sie seien belehrt worden, dass die Orden und Klöster in der Heiligen Schrift keine Grundlage hätten und deren finanzielle Mittel als Almosen zur 
+                            Unterstützung der Armen verwendet werden sollten. Aus diesem Grund ordnen sie an, die Klöster im Herrschaftsgebiet der Stadt Zürich zu ändern, zu erneuern und zu reformieren. 
+                            Da das Kloster Rüti in ihrer Herrschaft liegt und Zürich mit Schutz, Schirm und Burgrecht verbunden ist, ordnen sie für dieses, in Absprache mit den dortigen Konventherren, die im Folgenden beschriebene Reformation an. 
+                            In diesen Beschluss seien auch die Untertanen der Herrschaft Grüningen sowie die Freunde und Gönner des Klosters Rüti einbezogen worden.
+                            Die Stadt Zürich ordnet an, dass die Konventherren ihre Behausung im Kloster behalten können, mit der Auflage, dass der von Zürich eingesetzte 
+                            Amtmann freien Zutritt hat. Ebenso soll ihnen das Siechenhaus bleiben (1). Den Konventherren wird Unterhalt und Verpflegung im Kloster zugesichert (2). 
+                            Sämtlichen Konventherren sollen künftig jährlich 30 Gulden Zürcher Währschaft ausbezahlt werden, jeweils in vier Raten zu den Fronfasten. Denjenigen Konventherren, die ausserhalb des 
+                            Klosters Pfründen versehen, werden diese von dem oben genannten Betrag abgezogen (3). Die Konventherren sind dem von Zürich eingesetzten Amtmann zu Gehorsam verpflichtet (4). Den Bestimmungen der Stadt Zürich, sei es hinsichtlich Singen, Lesen der Messe oder Kleidungen, haben sie Folge zu leisten. Bei Todesfall geht das aus Pfründen erworbene Gut eines Konventherren an die Stadt Zürich, was er selbst geerbt und anderweitig erhalten hat, wird jedoch an seine nächsten Erben fallen oder gemäss seiner letztwilligen Verfügung vererbt. Die Stadt Zürich befiehlt ihrem Amtmann, bei seinem Eid, die Einhaltung dieser mit dem Konvent gütlich vereinbarten Artikel und weist ihn an, die Mittel dafür aus den Zehnten, Zinsen, Gülten und liegendem und fahrendem Gut des Klosters zu versehen.</summary>
+                        <msItem>
+                            <textLang>Deutsch</textLang>
+                            <filiation type="current">Aufzeichnungen (Doppelblatt)</filiation>
+                            <filiation type="original"><origDate when="1525-06-17"
+                            />17.06.1525</filiation>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><material>Papier</material></support>
+                                <extent/>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origDate when="1525-06-17"/></origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>
+                    <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+                </p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc> </profileDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+                    <term ref="key000207">Amt</term>
+                    <term ref="key000010">Kloster</term>
+                    <term ref="key000658">Reformation</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+ <text>
+  <group>
+   <text>
+    <body corresp="Sigle1">
+     <div>
+         <pb n="1" facs="A_142_4__Nr__36__S__1_.tif"/>
+      <p><!-- kollationiert msr, Mai 2025 -->
+                            <lb/><seg>Wir, der bu̍rgermeister, ratt unnd der groß rät, so man nempt
+                                die <lb/>zwyhundert der statt <placeName ref="LOC_Lat_Long"
+                                    >Zürich</placeName>, bekennend offenlich unnd thuͦnd kund
+                                allermenklichen <lb/>mit disem brieff, nach dem wir dan uss dem
+                                wortt gottes unnd der heiligen <lb/>götlichen geschrifft, deß alten
+                                unnd nüwen testamenz, luter, heitter unnd clar gelert <lb/>unnd
+                                undericht sind, das an denn ordenn, so bishar mit sondern clöstern,
+                                bekleidungen, <lb/>gotsdiensten, als mans hatt genempt, sind
+                                gehaltten worden, nu̍zit sig, sonder <lb/>sigennt sölicher cloͤster
+                                unnd ordenn guͦter almuͦsen unnd <choice>
+                                    <sic>söllit</sic>
+                                    <corr>söllint</corr>
+                                </choice> zuͦ uffenthalt der <lb/>armmen unnd nit wie byshar zuͦ
+                                einem usserlichen geist unnd gots dienst, an dem doch <lb/>nüt syg
+                                unnd in der waren götlichen geschrifft dheinenn grund hab, bewennt
+                                werdenn.</seg>
+                            <lb/><seg>So habent wir uss grund des und <choice>
+                                    <sic>dannit</sic>
+                                    <corr>damit</corr>
+                                </choice> der war gotsdienst unnd die rächtenn ordens <lb/>lüt, das
+                                sind die armen, notu̍rfftigen cristen, versehenn werdint, mit
+                                wolbedachtem <lb/>muͦt, <choice>
+                                    <sic>guͦtenn</sic>
+                                    <corr>guͦtem</corr>
+                                </choice> rat unnd rächtem wüssen angesehen unnd fürgenomen, ein <choice>
+                                    <sic>verbsserung</sic>
+                                    <corr>verbesserung</corr>
+                                </choice>, <lb/>enderung, vernüwerung unnd reformation aller unser
+                                clöstern in unnser statt <lb/><placeName ref="LOC_Lat_Long"
+                                    >Zürich</placeName> unnd auch unnseren graffschafften,
+                                herschafften, landen unnd gebieten, all<lb break="no"/>enthalb, wo
+                                die gelägen sind.</seg>
+                            <seg>Unnd wann nu das closter unnd gozhus <placeName
+                                    ref="LOC_Lat_Long">Rüty</placeName>, in <lb/>unser
+                                herschafft <placeName ref="LOC_Lat_Long"
+                                    >Gru̍eningen</placeName> gelägen, unns mit schuz, schirm unnd
+                                verschribnem <lb/>burgckrächten verwant unnd zuͦgehoͤrig ist unnd
+                                unns von oberkeit halb gepürt, <lb/>daselbs auch ein enderung,
+                                verbesserung unnd reformation zethuͦnd. Uff das, <lb/>so sind wir
+                                mit den wirdigen, geistlichen, unnseren lieben unnd andechtigenn,
+                                denn <lb/>gmeinen conventtheren daselbs überkommen, wie hernach
+                                stadt.</seg>
+                            <seg>Unnd ist sölliche <lb/>überkomnus beschähen mit zuͦthuͦn unnd in
+                                bysin unserer liebenn unnd getrüwen, <lb/>gemeinner unser herschafft
+                                    <placeName ref="LOC_Lat_Long">Grüeningen</placeName>
+                                underthonnen unnd verordnaten anwälten <lb/>unnd gemelter
+                                conventheren fründen unnd günneren, so sy da zuͦ beruefft gehept
+                                <lb/>habend.</seg>
+                            <seg n="1">Des erstenn, so soll denn conventheren blyben die behusung in
+                                dem <lb/>closter ze <placeName ref="LOC_Lat_Long"
+                                    >Rüty</placeName>, wie sy die bishar vor diser verenderung unnd
+                                reformation von alter har <lb/>gebrucht unnd ingehept habennt, doch
+                                mit vorbehaltung, das unser amptman, den <lb/>wir jez dahin gesezt
+                                unnd geordnet habend oder hinfür in künfftigem dahin <lb/>sezen unnd
+                                ordnen werdennt, daryn unnd darus sinen frygenn gang sölle
+                                haben.</seg>
+                            <lb/><seg>Witer, so soll denn conventheren blyben für das siechennhuß,
+                                das dan sy vorum gehept <lb/>habennt, des
+                                    <persName>Ranspergers</persName> behusung oder gmach, das dan
+                                auch also ir siechenhuß soll <lb/>sinn.<note>Zum Siechenhaus vgl.
+                                            <bibl><ref
+                                            target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html"
+                                            >KdS ZH II</ref>, S. 239-240</bibl> und <bibl><ref
+                                            target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html"
+                                            >HS IV</ref>, S. 515</bibl></note></seg>
+                            <seg n="2">Zum annderen soͤllend vilgedacht conventheren versehen unnd
+                                    geha<lb break="no"/>ltten werden mit essen unnd trincken wie von
+                                alter har.</seg>
+                            <seg n="3">Zum dritenn <lb/>sol gemelten conventheren, allen unnd yedenn
+                                besonnder, hinfür sin läben lang <lb/>alle jar gegäben unnd bezalt
+                                werden, <num value="30">dryssig</num> guldinn unser statt <placeName
+                                    ref="LOC_47.37721_8.52731">Zürich</placeName> wärschafft,
+                                <lb/>geteilt glich zuͦ den <num value="4">vier</num> fronnfasten im
+                                jar. Unnd welche conventheren usserthalb <lb/>dem closter
+                                pfruͦnndenn oder seelsorgenn versehent, dennen sol das, so inenn
+                                <lb/>jerlichs von soͤllichen seelsorgen pfruͦnden wirt, abzogen
+                                werdenn an obbestimptem <lb/>irem pfruͦnd gelt.</seg>
+                            <seg n="4">Zuͦ dem vyerttenn söllent gemelt conventheren, all unnd
+                                <lb/>yder besunder, einem yedenn unserem amptman, wer dan der ye zuͦ
+                                zyten ist, gehorsam <lb/>sin in allen zimlichen unnd billichen
+                                dingen, so er sy heißdt.</seg>
+                            <seg n="5">Zum fünfftenn</seg>
+                        </p>
+         <pb n="2" facs="A_142_4__Nr__36__S__2_.tif"/>
+      <p>
+       <lb/><seg>söllent gedacht conventheren allem dem statt thuͦn, so inen von unns wirt
+       <lb/>gordnet, es syg mit singen, läsen oder kleidungen, unnd auch dem selben nachkomen.</seg>
+       <lb/><seg n="6">Unnd zuͦ dem sechstenn unnd letstdten soll es mit dem erbenn also gehalten
+       <lb/>werden:</seg>Wen gedachter conventher einer mit tod abgatt, söllind wir in erbenn,
+       <lb/>von deß gotshus waͤgenn, wie von alter har in dem guͦtt, so er von bedingter pfruͦnd, 
+       <lb/>wie obstadt, hatt fürgschlagen. <seg>Aber was einer von denn synenn hatt ererbt oder
+       <lb/>in anderen lüten ist ankomen, das selb soll werden synen rächten <del rend="rubbing"><gap unit="cm" quantity="1"/></del> unnd nechsten
+       <lb/>erben oder an die end unnd ortt fallen, dahin ers mit unserem willenn unnd
+        <lb/>bestäten vermacht, alles on intrag unnser vor, deß gozhuß waͤgen, bestimpten
+       <lb/>conventheren unnd mengklic<del rend="overwritten">s</del><add place="inline">h</add>s.</seg> <seg>Unnd wan wir mit obbestimptenn conventheren
+       <lb/>unnd sy mit unns, alles wie obstadt, miteinanderen früntlich unnd güetlich sind
+       <lb/>überkommen unnd eins worden, so wellendt wir, das es genzlich darby blib, on
+       <lb/>intrag unnd widerred, unnd beffelchend auch daruff unnserem yezigen amptman
+       <lb/>unnd einem yeden, der in künfftig zytt von unns dahin zuͦ unnserem amptman
+       <lb/>gesezt wirt, by synem eyd, das er von unser unnd dess gozhuß waͤgenn zuͦ
+           <lb/><placeName ref="LOC_Lat_Long">Rüty</placeName> abgeschribnem artikall all unnd yedem besunder erstatte, handthabe und voll<lb break="no"/>strecke, uß des gozhuß zehendenn, zinssenn, 
+           gülten unnd allem anderen, ligenden
+        <lb/>unnd farendem guͦt, so es yez hat oder in künfftigem haben wirt, darumb
+       <lb/>nüzit ußgenommen, alles on intrag, fürwort, widerred unnd geferd unnd
+       <lb/>on verhindert aller mengklichs.</seg> <seg>Unnd diser dingen zuͦ einem waren, stätten unnd
+           <lb/>vesten urkund, so habend wir unnser statt <placeName ref="LOC_47.37721_8.52731">Zürich</placeName> gmein insigel offenlichen
+           <lb/>laßen hencken an disen brieff, doch unnser statt <placeName ref="LOC_47.37721_8.52731">Zürich</placeName> unnd gemeiner unnser
+           <lb/>grofschafft <placeName ref="LOC_Lat_Long">Gru̍eningen</placeName> genzlich unnd gar on schaden, der gebenn ist 
+           <lb/><origDate when="1525-06-17">sambstags nach sant <persName ref="GND_118627279">Vidt</persName> unnd <persName ref="GND_1197541012">Modests</persName> tag nach der geburt Christy gezallt
+        <lb/>fünffzächen hundert zwentzig unnd fünff jar</origDate> <abbr>etc</abbr>.</seg>
+      </p></div>
+        <pb n="3" facs="A_142_4__Nr__36__S__3_.tif"/>
+        <pb n="4" facs="A_142_4__Nr__36__S__4_.tif"/>
+    <div>
+        <ab place="verso" type="dorsal"><lb/>Copy des vertrags der convent<lb break="no"/>herren zuͦ <placeName ref="LOC_Lat_Long">Rüti</placeName> <date when="1525">ano 25</date>.
+       </ab>
+     </div>
+    </body>
+    <back>
+     <div>
+         <p>Die vorliegende Ordnung überführte die Prämonstratenserabtei von <placeName
+                                ref="LOC_Lat_Long">Rüti</placeName> in ein von einem
+                            städtischen Amtmann geführtes Klosteramt, das bis 1834 Bestand hatte.
+                            Das Kloster <placeName ref="LOC_Lat_Long">Rüti</placeName> mit
+                            seinen zahlreichen Herrschaftstiteln und Einkünften kann als wichtigster
+                            geistlicher Herrschaftsträger auf der spätmittelalterlichen Zürcher
+                            Landschaft angesehen werden. Insofern besassen die Bestimmungen zu
+                            seiner Reformation auch exemplarischen Charakter für weitere Klöster im
+                            Herrschaftsbereich Zürichs (<bibl><ref
+                                    target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html"
+                                    >Niederhäuser 2020</ref>, S. 60</bibl>). Von der Ordnung ist ein
+                            früherer Entwurf mit Überarbeitungsspuren überliefert (<bibl><ref
+                                    target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1880520"
+                                    >StAZH E I 1.1, Nr. 28</ref></bibl>).</p>
+         <p>Kurze Zeit vor Verabschiedung der vorliegenden Ordnung war der letzte Abt,
+                                <persName>Felix Klauser</persName>, ins nahe <placeName
+                                ref="LOC_Lat_Long">Rapperswil</placeName> geflohen, wohin er
+                            auch einen Teil des Klosterschatzes und des Archivs verbrachte. Gemäss
+                            den Bestimmungen durften die verbleibenden Konventualen im Kloster
+                            bleiben, unter der Bedingung des Gehorsams gegenüber <placeName
+                                ref="LOC_47.37721_8.52731">Zürich</placeName> und seinem Amtmann.
+                            Obwohl diese Übereinkunft, zumindest nach Aussage <placeName
+                                ref="LOC_Lat_Long">Zürichs</placeName>, einvernehmlich
+                            getroffen worden war, gab sie in den folgenden Jahren immer wieder
+                            Anlass zu Konflikten. Dies auch deshalb, weil zahlreiche der Einkünfte,
+                            die nun an den Amtmann zu entrichten waren, aus katholischen Gebieten
+                            stammten. Der letzte Konventuale, <persName ref="GND_1089463588"
+                                >Sebastian Hegner</persName>, vermochte Zürich mit Unterstützung der
+                            altgläubigen Orte der Eidgenossenschaft 1557 erfolgreich in einen
+                            Rechtsstreit zu verwickeln, der die Stadt zu Zugeständnissen zwang (für
+                            den Streit und den diesbezüglichen Schiedsspruch vgl. <bibl><ref
+                                    target="https://qzh.sources-online.org/exist/apps/qzh/quellenstuecke/QZH_072"
+                                    >QZH, Nr. 72</ref></bibl>).</p>
+         <p>Zur Reformation des Klosters <placeName ref="LOC_Lat_Long">Rüti</placeName> und der
+                            Schaffung des Klosteramts vgl. <bibl><ref
+                                    target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html"
+                                    >Niederhäuser 2020</ref></bibl>; <bibl><ref
+                                    target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html"
+                                    >HS IV</ref>, S. 516-517</bibl>.</p>
+         
+     </div>
+    </back>
+   </text>
+  </group>
+ </text>
+</TEI>  

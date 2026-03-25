@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='../../Ressourcen/Stylesheet.xsl'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quellen zur Zürcher Geschichte</title>
+            <respStmt>
+               <persName>Janine Baumgartner; Mario Bonato; Dunja Giger; Nicolas Käser</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Sarah Murer; Michael Schaffner</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Staatsarchiv des Kantons Zürich</publisher>
+            <date type="electronic" when="2021-05-01"/>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Territorienbildung der Städte im Spätmittelalter</title>
+            <respStmt>
+               <persName>Laura Bitterli und Simon Teuscher</persName>
+               <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>QZH_046</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=5124957"
+                     >StAZH A 124.1, Nr. 17</idno>
+               </msIdentifier>
+               <head>Zeugenaussagen (Kundschaften) betreffend die Blutsgerichtsbarkeit in der Herrschaft Grüningen
+               </head>
+               <msContents>
+                  <summary>Männer aus verschiedenen Dörfern, Weilern und Höfen beschreiben, welche Grenzbeschreibungen der Blutgerichtsbarkeit in der Herrschaft Grüningen sie von ihren Vorfahren gehört und gelernt haben.</summary>
+                  <msItem>
+                     <textLang>Deutsch</textLang>
+                     <filiation type="current">Aufzeichnungen (Rodel aus 3 zusammengebundenen Einzelblättern)</filiation>
+                     <filiation type="original"><origDate from="1436-01-01" to="1439-12-31"></origDate></filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support><material>Papier</material></support>
+                        <extent/>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin><origDate from="1436-01-01" to="1439-12-31"></origDate></origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc> </profileDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000291">Diebstahl</term>
+               <term ref="key000057">Gericht</term>
+               <term ref="key000305">Grenze</term>
+               <term ref="key003994">Hochgerichtsbarkeit</term>
+               <term ref="key003261">Kundschaft</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <pb n="1" facs="A_124_1__Nr__17__S__1_.tif"/>
+            <head>Dis ist kuntschaft von der hohen gerichten wegen, sind
+               <lb/>verhoert dis nachgeschribnen</head>
+              <p>
+              <lb/><persName>Heini Brunner</persName> von <placeName ref="LOC_Lat_Long">Loupen</placeName>, ist ab 60 jaren alt, der seitt,
+               <lb/>daz er von sim vatter und öch siner muoter gehoert hab,
+               <lb/>daz einer gesessen sye ze <placeName>Altertingen</placeName> an der <placeName ref="LOC_Lat_Long">Langenegg</placeName>,
+               <lb/>der weibel sye gesin in den <unclear>holz</unclear> ze <placeName ref="LOC_Lat_Long">Wald</placeName>. Fürbas seitt
+               <lb/>er, daz im wol ze wûssen sye, daz die <persName>Wisin</persName> von <placeName ref="LOC_Lat_Long">Eglingen</placeName>
+               <lb/>gefuert wurde in vanknûsse gen <placeName ref="LOC_47.27938_8.76205">Grueningen</placeName> von unerlicher
+               <lb/>sach wegen, wurde öch darumb gesträft, und ward
+               <lb/>dem hus <placeName ref="LOC_47.27938_8.76205">Grueningen</placeName> von nieman darin geredt. Aber
+               <lb/>seit er, daz die <persName>Froelichin</persName> öch da selbs har wurd gefangen
+               <lb/>und gen <placeName ref="LOC_47.27938_8.76205">Grueningen</placeName> gefuert von uneren wegen. Des
+               <lb/>wurde ein frow, hiess die <persName>Junkherin</persName> von <placeName ref="LOC_Lat_Long">Dienbergin</placeName>, öch umb uner
+               <lb/>gefangen gen <placeName ref="LOC_47.27938_8.76205">Grueningen</placeName>. Er seit ouch, daz <persName>Rudi Junkher</persName>
+               <lb/>von <placeName ref="LOC_Lat_Long">Dienberg</placeName> von diepstal wegen landflûchtig wurde
+               <lb/>und griffe ein vogt von <placeName ref="LOC_47.27938_8.76205">Grueningen</placeName> zuo der varenden
+               <lb/>hab und fuerte die ouch dannen. Er seit öch, wie <persName>Heini
+                  <lb/>Wal</persName>, der were des von <persName ref="GND_120633957">Toggenburg</persName> eigen. Der seitt
+               <lb/>dem <persName>Amman</persName> von <placeName ref="LOC_Lat_Long">Schmerikon</placeName>, wie er bim <placeName ref="LOC_Lat_Long">Toesstok</placeName> ein
+               <lb/>totten man bi der hindern <placeName ref="LOC_Lat_Long">Toess</placeName> funden hette, <del><gap reason="illegible" unit="line" quantity="1.5"/></del>
+               <lb/>der enbutti gen <placeName ref="LOC_Lat_Long">Wald</placeName> eim weibel,
+                 <lb/>daz er den totten man besorgoti <del><gap reason="illegible" unit="line" quantity="0.5"/></del>.
+               <lb/>Aber seit er, daz <persName>Hans</persName> im <placeName ref="LOC_Lat_Long">Oberholtz</placeName> und des sûn eim ein
+               <lb/>fûli ansprechin, was doch nût iro, darumb wurde er
+               <lb/>und ettlich siner sûnen gefangen und gen <placeName ref="LOC_47.27938_8.76205">Grueningen</placeName>
+               <lb/>gefürt. Aber seit er, daz der <persName>Wisman</persName> in<unclear>nen</unclear> hinderm
+               <lb/><placeName ref="LOC_Lat_Long">Geheischt</placeName> gefangen wurde, öch gen <placeName ref="LOC_47.27938_8.76205">Grueningen</placeName>. Öch
+               <lb/>seit er, daz der <persName>Kundig Cueni</persName> gefangen wurde im <placeName ref="LOC_Lat_Long">Geheischt</placeName>,
+               <lb/>gen <placeName ref="LOC_47.27938_8.76205">Grueningen</placeName> und da dannen gen <placeName ref="LOC_47.37721_8.52731">Zürich</placeName>.</p>
+               <p><lb/>Fûrbas seit der <persName>Brunner</persName>, daz die <persName>Oberhoeltzer</persName> syen gesin
+                  <lb/>harkomen lùt und eigen der herschafft <persName ref="GND_120633957">Toggenburg</persName>
+               <lb/>und vor denen syen nie stoess gesin umb die gericht,
+               <lb/>won sie demmal, daz si da hin komen syen.</p>
+               <p><lb/><persName>Ruegger Cuontz</persName> von <placeName ref="LOC_Lat_Long">Wald</placeName>, ist och ob 60 jaren, der seit
+               <lb/>ouch gantz als der <persName>Brunner</persName> von <placeName ref="LOC_Lat_Long">Loupen</placeName> geseit hàtt
+               <lb/>und so vil me, daz im wol wûssend sye, do die <persName>Wisin</persName>
+               <lb/>gen <placeName ref="LOC_47.27938_8.76205">Grueningen</placeName> gefuert wurde, als ob stahtt, do griffen
+               <lb/>die von <placeName ref="LOC_Lat_Long">Utznach</placeName> zuo der frouwen widersecher ve
+               <lb/>und triben daz gen <placeName ref="LOC_Lat_Long">Utznach</placeName>. Do wurde er von eins
+               <lb/>vogtz heissens wegen von <placeName ref="LOC_47.27938_8.76205">Grueningen</placeName> gefuert gen <placeName ref="LOC_Lat_Long">Utznach</placeName>
+               <lb/>umb daz ve. Da keme er öch hin und rette so vil mit
+               <lb/>den von <placeName ref="LOC_Lat_Long">Utznach</placeName>, daz im daz ve wider wurde ahn alle
+               <lb/>engeltnûsse.</p>
+               <p><lb/><persName>Hans Buman</persName>, ist ob fûnftzig jaren alt, seit, daz er von
+               <lb/>jetz <persName>Claewi Straelers</persName> aeni gehoert hab, daz ein weibel ze
+                <lb/><placeName>Altertingen</placeName> sas an der <placeName ref="LOC_Lat_Long">Langenegg</placeName> und weibel were
+               <lb/>gen <placeName ref="LOC_Lat_Long">Wald</placeName>. Er seit och, daz im <persName>Cuoni Iten</persName> geseit hab, daz einr
+               <lb/>den andern im <placeName ref="LOC_Lat_Long">Oberholtz</placeName> liblos hab getan. Darab wurde
+                  <lb/>ze <placeName ref="LOC_47.27938_8.76205">Grueningen</placeName> gerichtet. Aber seit er, daz im wol ze
+               <lb/>wûssen sye, daz <persName>Hans</persName> im <placeName ref="LOC_Lat_Long">Oberholtz</placeName> und sin sûn von eins
+               <lb/>fûlis wegen gen <placeName ref="LOC_47.27938_8.76205">Grueningen</placeName> gefangen wurdin.
+               <lb/>Er seit ouch von des fundnen toten mans wegen, als
+               <lb/><persName>Heini Brunner</persName> und der <persName>Cuontz</persName> geseit hand und ouch
+               <lb/>von des junkherren diepstals wegen seit er ouch also.
+               <lb/>Er seit ouch von der gefanknûssen wegen, so der <persName>Wisman</persName>
+               <lb/>in <placeName>Bonen</placeName> hinderm <placeName ref="LOC_Lat_Long">Geheischt</placeName> gefangen ward, als der
+               <lb/><persName>Brunner</persName> geseit hahtt, des glich von <persName>Oberhoeltzern</persName>.</p>
+               <p><lb/><persName>Hans Reinman</persName>, ist 60 jaren, seit wie er von <persName>Cuenin
+               <lb/>Straeler</persName>, selig, gehoert hab, daz einer ze <placeName>Altertingen</placeName>
+               <lb/>an der <placeName ref="LOC_Lat_Long">Langen Egg</placeName> gesessen sye, der sye weibel
+               <lb/>gesin gen <placeName ref="LOC_Lat_Long">Wald</placeName>, von der <persName>Oberhoeltzern</persName> gevanknûssen,
+               <lb/>als ob stahtt. Sye im wol ze wûssen des glich von
+               <lb/><persName>Junkherren</persName> von <placeName ref="LOC_Lat_Long">Dienbergin</placeName> diepstal, ist im ouch also
+               <lb/>ze wûssen. Im ist öch von des fundnen toten mans
+               <lb/>wegen, als ob stahtt, wol ze wússen, och umb des
+               <lb/><persName>Wismans</persName> gefenkúss in <placeName>Bonen</placeName> hinderm <placeName ref="LOC_Lat_Long">Geheischt</placeName>,
+               <lb/>ist im wol ze wussen, als ob statt.</p>
+               <p><lb/><persName>Ruegga Gartner</persName>, ist ob 50 jaren, der seit vom fundnen
+               <lb/>toten man, als <persName>Heini Brunner</persName> geseit hahtt.
+               <lb/>Er seit ouch als <persName>Hans</persName> im <placeName ref="LOC_Lat_Long">Oberholtz</placeName> und sin sun gefangen
+               <lb/>wurden, von des fûlis wegen, als ob statt.
+               <lb/>Er seit ouch von <persName>Junkherren</persName> von <placeName ref="LOC_Lat_Long">Dienbergin</placeName> diepstals
+               <lb/>wegen, gantz als ob stahtt.
+               <lb/>Er seit och von des <persName>Wismans</persName> gefanknûsse in <placeName>Bonen</placeName>,
+               <lb/>als ob stahtt, daz im daz als wol ze wûssen sye.</p>
+               <p><lb/><persName>Ruedi Buman</persName>, ist ob 50 jaren, seit gantz als der <persName>Gartner</persName>
+               <lb/>geseit hahtt, umb alle stuk.</p>
+               <p><lb/><persName>Graf</persName> im <placeName>Riett</placeName>, ist ob 50 jaren, seit von wort ze wort
+               <lb/>als der <persName>Gartner</persName> und <persName>Ruedi Buman</persName> geseit hand.</p>
+               <p><lb/><persName>Hans Furer</persName>, ist ob 50 jaren, seit luter, daz im das so
+               <lb/>die drye man erst geseit hand also ze wûssen sye.</p>
+            <pb n="2" facs="A_124_1__Nr__17__S__2_.tif"/>
+         </div>
+      </body>
+      <back>
+         <div><p>
+            Zu den Grüninger Kundschaften vgl. den Kommentar zu <bibl><ref target="https://qzh.sources-online.org/quellenstuecke/QZH_044">QZH, Nr. 44</ref></bibl>.
+         </p></div>
+      </back>
+   </text>
+</TEI>

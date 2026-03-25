@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css“?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0"
+ xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <respStmt>
+     <persName>Katja Rehmann</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Michael Schaffner</persName>
+     <resp key="tagging"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <date type="electronic" when="2021-05-01"/>
+    <date type="print" when="2018-12-31"/>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Quellen zur Zürcher Geschichte</title>
+    <respStmt>
+     <persName>Staatsarchiv des Kantons Zürich</persName>
+     <resp>Herausgeberschaft</resp>
+    </respStmt>
+    <idno>QZH_025</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier>
+      <idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4708823">StAZH A 27.11.8, Nr. 4</idno>
+     </msIdentifier>
+     <head>Untersuchung gegen Heinrich Frymann wegen des Verdachts auf Diebstahl</head>
+     <msContents>
+      <summary>Heinrich Frymann von Adliswil wird verdächtigt, in zwei Diebstähle verwickelt gewesen
+       zu sein. Er sagt zum ersten Vorfall aus, lediglich einem Knaben mit einem kranken Fuss
+       geholfen zu haben. Er habe nichts weiter über die Umstände gewusst. Den zweiten Diebstahl
+       gibt er zu: Er sei dazu überredet worden, gemeinsam mit einem Gesellen Stoffe und ein
+       Jagdmesser aus einem Haus zu stehlen. Er wird gefoltert und erneut befragt, woraufhin er aber
+       auf seinen vorigen Aussagen beharrt. Er bittet um Gnade und gibt an, sich nun eine Arbeit zu
+       suchen und nicht mehr bettelnd herumzuziehen. Die Obrigkeit beschliesst im Urteil, Frymann
+       mit einer Urfehde frei zu lassen. Er muss jedoch das Zürcher Gebiet verlassen und nach Bern
+       ziehen, wo auch seine Mutter lebt.</summary>
+      <msItem>
+       <textLang>Deutsch</textLang>
+       <filiation type="current">Aufzeichnungen (Doppelblatt)</filiation>
+       <filiation type="original"><origDate when="1561-03-08"/></filiation>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support><material>Papier</material></support>
+        <extent/>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin><origDate when="1561-03-08"/></origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p>
+     <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+    </p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc> </profileDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term ref="key000598">Ausweisung</term>
+     <term ref="key000581">Bettel</term>
+     <term ref="key000291">Diebstahl</term>
+     <term ref="key003369">Folter</term>
+     <term ref="key003496">Krankheiten</term>
+     <term ref="key003261">Kundschaft</term>
+     <term ref="key005473">Nachgang</term>
+     <term ref="key003022">Textilien</term>
+     <term ref="key000480">Urfehde</term>
+     <term ref="key000902">Waffen</term>
+    </keywords>
+   </textClass>
+   <particDesc default="false"/>
+   <settingDesc default="false"/>
+  </profileDesc>
+ </teiHeader>
+
+ <text>
+  <group>
+   <text>
+    <body corresp="Sigle1">
+     <pb n="1" facs="A_27_11_8__Nr__4__S__1_.tif"/>
+     <div>
+      <p><lb/>Es git <persName>Heini Frygman</persName> von <placeName ref="LOC_Lat_Long">Adlischwyl</placeName>, ein
+       junger knab, <lb/>so inn gefënncknus lyt, uff gethonnen fürhalt <lb/>disen bescheid: Als er
+       zu <placeName ref="LOC_Lat_Long">Hedingen</placeName> gewäsen, wëre <lb/>ein knab von
+       <placeName ref="LOC_Lat_Long">Dübendorff</placeName>, genant <persName>Jörg</persName>, zu im kommen, <lb/>ein
+       nëpper unnd ein zwylchinen schoppen inn <lb/>einem sack gehëpt, unnd gepätten, das er im das
+       <lb/>alhar tragen, dann er an einem fuͦß so kranck, <lb/>das er es nit tragen möchte.
+       Welliches er ime <lb/>uff syn pitt hin zu gefallen gethon. Im syge aber sonst <lb/>gar nit
+       wüßent, wannen oder wohar er mit kommen.</p>
+      <p>
+       <lb/>Sodenne habe inn syner gesellen einer, den er aber <lb/>nit nënnen könnthe, überreth,
+       das er im gehulffen, <lb/>einem ennet dem <placeName ref="LOC_Lat_Long">Albiß</placeName> ein weidmer unnd ein
+       <lb/>par schuch uß synem huß nëmmen. Sonst habe <lb/>er syn läben lang niemant nützig entreit,
+       welle <lb/>ouch das nit mer thun. Unnd bittent deßhalb <lb/>üch, myn herren, umb gnad unnd
+       vertzychung, <lb/>mit erpiettung, sich hinfüro dermaßen zehaltten, <lb/>das ab im dhein
+       wytter clag kommen sölle. </p>
+      <p>
+       <lb/>Als myn herren <subst><del>zum anndern mal</del><add place="above"
+        >widerumb</add></subst> zu <persName>Heini <lb/>Frygman</persName> von
+       <placeName ref="LOC_Lat_Long">Adlischwyl</placeName>
+       <add place="left margin">inn gefëngknus</add> kert und inne syner <lb/>mißhanndlungen wëgen
+        <del>wytter befragt, be<lb break="no"/>haret er an</del> mit der martter wytter befragt
+       <lb/>unnd erkundiget, ist er gënntzlich uff syner <lb/>forgegëbnen antwurt bestannden unnd
+       pliben <lb/>unnd nützit wytters bekennt. Bitt deßhalb üch, <lb/>myn herren, abermaln
+       gnëdigklich, ine der gefënck<lb break="no"/>nus zuͦ erledigen. Welle er nun hiefür nit
+       <lb/>mer also im bättel umb züchen, sonder angëntz <lb/>umb ein meister <del>lougen</del>
+       luͦgen, und <del>de</del> wërcken. </p>
+     </div>
+     <div>
+      <p><pb n="2"/></p>
+      <p><pb n="3"/></p>
+     </div>
+     <div>
+        <pb n="4" facs="A_27_11_8__Nr__4__S__4_.tif"/>
+      <head type="subtitle"><persName>Heini Frygman</persName> von <lb/><placeName ref="LOC_Lat_Long">Adlischwyls</placeName> antwurt</head>
+     </div>
+     <div>
+      <p>
+       <seg><lb/>Er ward uff syn trungenliche und ernst<lb break="no"/>liche pitt uff hoffnung der
+       besserung der <lb/>gfenknus uff ein urfecht ledig glaßen, <lb/>und besonders diewyl er ein
+        mutter inn <lb/><placeName ref="LOC_Lat_Long">Bern piet</placeName> hatt, solle er daßelbs hin ziechen <lb/>und
+       myner herren piet myden oder dar<lb break="no"/>umb gepurender straff erwartend syn.</seg>
+       <seg><lb/>Actum <date when="1561-03-08">sambstags den <abbr>viij<hi rend="sup">ten</hi></abbr>
+        marty anno <abbr>etc</abbr> lxj</date>, <lb/><abbr>pnt</abbr> her
+       <persName>Müller</persName> und beid reth.</seg></p>
+     </div>
+     <div>
+      <ab place="verso middle" type="dorsal" hand="hand18c"><persName>Heinrich
+       Frymanns</persName> von <placeName ref="LOC_Lat_Long">Adlischweil</placeName> begangene diebstähl. <origDate when="1561">1561</origDate>.</ab>
+     </div>
+    </body>
+   </text>
+  </group>
+ </text>
+</TEI>

@@ -1,0 +1,600 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='../../Ressourcen/Stylesheet.xsl'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Quellen zur Zürcher Geschichte</title>
+				<respStmt>
+					<persName>Helena Dobiess. Mit einem Kommentar von Helena Dobiess und Michael
+						Schaffner</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Helena Dobiess</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Staatsarchiv des Kantons Zürich</publisher>
+				<date type="electronic" when="2021-05-01"/>
+			</publicationStmt>
+			<seriesStmt>
+				<title>Quellen zur Zürcher Geschichte</title>
+				<respStmt>
+					<persName>Staatsarchiv des Kantons Zürich</persName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>QZH_083</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=610620"
+							>StAZH A 97.7, Nr. 7</idno>
+					</msIdentifier>
+					<head>Hofrecht von Wald</head>
+					<msContents>
+						<summary>Das Hofrecht von Wald setzt Rechtsnormen für die wirtschaftlichen
+							und gesellschaftlichen Akteure im Dorf fest. Es hält die Zugehörigkeit
+							zu Zwing und Bann der Herrschaft Grüningen und die Rechte des Klosters
+							Schänis fest (1-2) sowie die althergebrachte Zugehörigkeit Walds zum
+							Schirmbereich der Herrschaft Österreich (3-7). Die eigentlichen
+							rechtlichen Bestimmungen betreffen das Eherecht einschliesslich Nennung
+							der Ehegenossame mit den Klöstern St. Gallen, Schänis, Einsiedeln und
+							Fraumünster in Zürich (8-11) sowie das Erbrecht und Güterrecht (12-19;
+							29-33; 38) und das Weide- und Nutzungsrecht (20-26) sowie das Strafrecht
+							einschliesslich eines Bussenregisters (28; 39-40). Das Hofrecht regelt
+							zudem die Verpflichtung zur Anwesenheit an den Gerichten im Mai und im
+							Herbst (34), sowie die zu entrichtenden Abgaben bei Ehen innerhalb und
+							ausserhalb der Genossame (35-37).</summary>
+						<msItem>
+							<textLang>Deutsch</textLang>
+							<filiation type="current">Aufzeichnung, Heft (9 Blätter)</filiation>
+							<filiation type="original"><origDate when="1435-06-01"/></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support><material>Papier</material></support>
+								<extent/>
+							</supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin><origDate when="1435-06-01"/></origin>
+					</history>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<editorialDecl>
+				<p>
+					<ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+				</p>
+			</editorialDecl>
+		</encodingDesc>
+		<profileDesc> </profileDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term ref="key000012">Offnung</term>
+					<term ref="key000335">Nutzungsrecht</term>
+					<term ref="key000497">Mündlichkeit</term>
+					<term ref="key000471">Schriftlichkeit</term>
+					<term ref="key000112">Morgengabe</term>
+					<term ref="key000010">Kloster</term>
+					<term ref="key000057">Gericht</term>
+					<term ref="key000597">Erbrecht</term>
+					<term ref="key000468">Rechtsgewohnheit</term>
+					<term ref="key000863">Ehe</term>
+					<term ref="key000273">Abgabe</term>
+					<term ref="key000183">Fall</term>
+
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="1" facs="A_97_7__Nr__7__S__01_.tif"/>
+						<!-- kollationiert msr, 20.01.2025 -->
+						<head><lb/>Das hoff recht zu <placeName ref="LOC_47.28706_8.92092"
+								>Wald</placeName></head>
+						<p>
+							<lb/>Wie der hoff und die hofflu̍t zuͦ <placeName
+								ref="LOC_47.28706_8.92092">Wald</placeName> harkomen sind mit
+							<lb/>fryheit, mit hoffrecht, mit schyrm und mit andern sachen. </p>
+						<p>
+							<seg n="1"><lb/>Item des ersten, so gehoͤrend zwing und bann und ally
+								<lb/>gricht gen <placeName ref="LOC_47.28333_8.75"
+									>Gruͤningen</placeName>.</seg></p>
+						<p>
+							<seg n="2"><lb/>Item des ersten sol man wu̍ssen, das der hoff ze
+									<placeName ref="LOC_47.28706_8.92092">Wald</placeName> und
+								<lb/>alle hofflu̍t so darinn sitzend und darin gehoͤrend <lb/>und
+								von alter har gehoͤrt und recht fryg gotzhuslu̍t <lb/>sind gen
+									<placeName ref="LOC_47.15973_9.04546">Schaͤnnis</placeName> und
+								sol ein aͤptissin von <placeName ref="LOC_47.15973_9.04546"
+									>Schenis</placeName> ein <lb/>schlechten hoͧptfal da naͤmen,
+								wenn der gefalt und sol <lb/>och fu̍rbas da nichtz zegebietten noch
+								zeschaffen han. <lb/>Sunderlich sol sy dz best lebentig hoͧpt zefal
+								naͤmen <lb/>und nicht me. Welicher aber kein lebentthopt hett, da
+								<lb/>soͤlt sy och nichtz nemen und sol ouch anders nieman
+								<lb/>dehein hofman da fallen, dann die vorgenant <lb/>aͤptissin. Man
+								sol och ein jegklichen fal in dem selben <lb/>hoff laͧssen beliben
+								die nechsten achttag und ist denn <lb/>da dehein erb, der den fal
+								wil laͧssen, dem sol man in <lb/><num value="5">fu̍nff</num>
+								schilling <placeName ref="LOC_47.36667_8.55">Zu̍rich</placeName>
+								mu̍ntz nacher geben dann <lb/>jemandt anders.</seg></p>
+						<p>
+							<seg n="3"><lb/>Item wie der hoff und die hoff lu̍t ze <placeName
+									ref="LOC_47.28706_8.92092">Wald</placeName> in unser
+								<lb/>gnaͤdigen herschafft von <placeName ref="LOC_47.33333_13.33333"
+									>Österrich</placeName> schyrm des ersten <lb/>kament und
+								harkomen sind.</seg></p>
+						<p>
+							<seg n="4"><lb/>Als vor zytten unser herschafft von <placeName
+									ref="LOC_47.33333_13.33333">Österrich</placeName> und ir
+								<lb/>voͤgt zu <placeName ref="LOC_47.45249_8.7485"
+									>Kiburg</placeName> gar guͦtten frid und schyrm schuͤffen
+								<lb/>in der graͧfschafft ze <placeName ref="LOC_47.45249_8.7485"
+									>Kiburg</placeName>, do wurbent dahin umb <lb/>schirm die hoflüt
+								ze <placeName ref="LOC_47.28706_8.92092">Wald</placeName> und
+								taͧttent dz mit raͧt, willen 
+								<pb n="2" facs="A_97_7__Nr__7__S__02_.tif"/>
+								<lb/>und gunst einer aͤptissin ze den zytten ze <placeName
+									ref="LOC_47.15973_9.04546">Scheinis</placeName> und <lb/>kament
+								do in den schirm unser herrschafft von <placeName
+									ref="LOC_47.33333_13.33333">Österrich</placeName>
+								<lb/>und ir voͤgt ze <placeName ref="LOC_47.45249_8.7485"
+									>Kiburg</placeName>. Waͤr die graͧfschafft ze unser herschafft
+								<lb/>handen innehett, der soͤlt sy schyrmen und inen zwürend <lb/>in
+								dem jar ze meyen und ze herbst ein gericht haben <lb/>in dem hoff ze
+									<placeName ref="LOC_47.28706_8.92092">Wald</placeName>, aͧne der
+								hoflüt schaden. Und darumb <lb/>soͤltend die hoflüt jerlich geben
+								gen <placeName ref="LOC_47.45249_8.7485">Kiburg</placeName>
+								<num n="4">vier</num>
+								<lb/>nüwy rossysen. Dz bestuͤnd ouch lang zytt, das sy dz
+								<lb/>taͧttendt und also geschirmett wurdent fryg und
+								<lb/>unbekuͦmbert von allen stu̍ren, reisen und ander <lb/>diensten,
+								denn ob jemant dehein buͦß verschult, <lb/>dz stuͤnd an sines herren
+								gnaͧd <abbr>etc</abbr>.</seg></p>
+						<p>
+							<seg n="5"><lb/>Item darnach, als die vesti und dz ampt zuͦ <placeName
+									ref="LOC_47.28333_8.75">Gruͤningen</placeName>
+								<lb/>och in unser herschafft von <placeName
+									ref="LOC_47.33333_13.33333">Österrich</placeName> gewalt und
+								<lb/>zuͤ ir handen stuͤnd und besetzet was in grossen eren <lb/>und
+								wann aber der hoff ze <placeName ref="LOC_47.28706_8.92092"
+									>Wald</placeName> naͤcher unnd <lb/>baß gelegen was gen
+									<placeName ref="LOC_47.28333_8.75">Gruͤningen</placeName> dann
+								gen <placeName ref="LOC_47.45249_8.7485">Kyburg</placeName>,
+								<lb/>also kamendt die hofflu̍t ze <placeName
+									ref="LOC_47.28706_8.92092">Wald</placeName> mit taͤdingen
+								<lb/>und mit willen und gunst einer aͤptissin ze <lb/><placeName
+									ref="LOC_47.15973_9.04546">Schenniß</placeName> und och mit
+								urloͧb, raͧt und willen <lb/>des herren, der do zemaͧl unser
+								herschafft statt <lb/>hielt ze <placeName ref="LOC_47.45249_8.7485"
+									>Kiburg</placeName> in derselben unser herschafft schyrm
+								<lb/>gen <placeName ref="LOC_47.28333_8.75">Gruͤningen</placeName>.
+								Also waͤr <placeName ref="LOC_47.28333_8.75">Gruͤningen</placeName>
+								innehett <lb/>zuͦ der vorgenanten unser herrschafft hannden,
+								<lb/>das der die selben hoflu̍t schyrmen und halten <lb/>soͤlt
+								tru̍wlich zuͦ dem rechten, mit dem geding, <lb/>dz im die hofflu̍tt
+								jerlich geben soͤltindt <num value="12">zwoͤlff</num>
+								<pb n="3" facs="A_97_7__Nr__7__S__03_.tif"/>
+								<lb/>pfund pfening Zu̍richer mu̍ntz umb den schyrm und <lb/>umb kein
+								ander sach noch von keines andern <lb/>rechten waͤgen
+								ungevarlich.</seg></p>
+						<p>
+							<seg n="6"><lb/>Item, es sol och der hoff und die hofflu̍t ze <placeName
+									ref="LOC_47.28706_8.92092">Wald</placeName> der<lb break="no"
+								/>selben unser herschafft von <placeName ref="LOC_47.33333_13.33333"
+									>Österrich</placeName> noch dem, waͤr <lb/>der ist, der die
+								vesti und das ampt <placeName ref="LOC_47.28333_8.75"
+									>Gruͤningen</placeName> von <lb/>ir wegen inne haͧtt und ze ir
+								handen fu̍rbas kein <lb/>dienst tuͦn, waͤder mit reisen noch mit
+								stu̍ren noch <lb/>mit keinen diensten noch sachen, es waͤre dann,
+								das <lb/>unser herrschafft von <placeName
+									ref="LOC_47.33333_13.33333">Österrich</placeName> offen landt
+								krieg hette. <lb/>So soͤltindt die hofflu̍t also dienen und nit
+								ferer dann, <lb/>das sy eins tage fruͤ bi <del>st</del> sunnen
+								usszugind und <lb/>des selben tages aber by sunnen <del>schin</del>
+								wider heim<lb break="no"/>zugind und ziechen moͤchtindt und
+								soͤltindt, och fu̍rbas <lb/>nicht gebunden sin noch getrenngt
+								waͤrden. Waͤr aber, <lb/>das sy unbetwungenlich, willenklich und
+								gern, <lb/>von frygem willen deheinest fürbas in unser
+								<lb/>herschafft dienst reisen woͤltindt, dz moͤchten sy <lb/>tuͦn
+								von frygem willen und nit von keines rechten <lb/>waͤgen,
+								ungevarlich.</seg></p>
+						<p>
+							<seg n="7"><lb/>Item und also und nit anderes haͧt sich der hoff und
+								<lb/>die hofflu̍t ze <placeName ref="LOC_47.28706_8.92092"
+									>Wald</placeName> lang zytt gehalten zuͦ unser <lb/>herrschafft
+								von <placeName ref="LOC_47.33333_13.33333">Österrich</placeName> und
+								zu ir statt halten <lb/>ze <placeName ref="LOC_47.28333_8.75"
+									>Gruͤningen</placeName>, die <placeName ref="LOC_47.28333_8.75"
+									>Gruͤningen</placeName> ze unser herschafft <lb/>handen inne
+								hettendt in schyrmes wyse und hand 
+								<pb n="4" facs="A_97_7__Nr__7__S__04_.tif"/>
+								<lb/>also dahin gedienet mit zuͦ gehoͤrung grosser und <lb/>kleiner
+								gerichten und mit den nachgeschribnen <lb/>fryheitten und
+								gewonheitten.</seg></p>
+						<p>
+							<seg n="8"><lb/>Item die hoftlu̍t ze <placeName
+									ref="LOC_47.28706_8.92092">Wald</placeName> hand gnossami ire
+								kind ze ge<lb break="no"/>maͤchellen und zeberaͧtten sunderlich zuͦ
+								den lu̍ten <lb/>der nachbenempten <num value="7">siben</num>
+								gotzhu̍sser: <placeName ref="LOC_47.42328_9.37741">Sant
+									Gallen</placeName>, <lb/><placeName ref="LOC_47.15973_9.04546"
+									>Schennis</placeName>, <placeName ref="LOC_47.12693, 8.75345"
+									>Einsidellen</placeName>, <placeName ref="LOC_47.36966_8.54145"
+									>Frowen Mu̍nster Zu̍rich <lb/>sant Felix und sant
+									Reglen</placeName>, in der <placeName ref="LOC_47.69336_9.0675"
+									>Richenoͧw</placeName>, <lb/><placeName ref="LOC_47.5539_7.9343"
+									>Seckingen</placeName> und <placeName ref="LOC_46.99019_9.50201"
+									>Pfaͤfers</placeName>
+								<abbr>etc</abbr>.</seg></p>
+						<p>
+							<seg n="9"><lb/>Item es ist des hoffs recht ze <placeName
+									ref="LOC_47.28706_8.92092">Wald</placeName> wa mit ein man
+								<lb/>oder ein wib ire kind usstu̍rend und beraͧtent <lb/>mit worten
+								oder mit werchen, daran sol das kind <lb/>benuͤgen, und sol vatter
+								und muͦtter fu̍rbas nitt <lb/>beku̍mbern, waͤder an ligendem noch an
+								varendtenm <lb/>guͦtt untz an ein rechten an fal
+								<abbr>etc</abbr>.</seg></p>
+						<p>
+							<seg n="10"><lb/>Item ein jegklich hoffman ze <placeName
+									ref="LOC_47.28706_8.92092">Wald</placeName> mag einem sinem
+								<lb/>kind <add place="above">geben</add> und dem andern nichtz, und
+								ob er wil, so mag <lb/>er das sin einem hund an den schwantz
+								binden.</seg></p>
+						<p>
+							<seg n="11"><lb/>Item, es ist och des vorgenanten hoffs recht mit was
+									ge<lb break="no"/>dingen ein man und ein wib elich zesamen
+								<lb/>komend, als bald sy dann darnach eliche kind <lb/>bi einander
+								gewu̍nnent, so sind die vordern <lb/>taͤding und geding alle samend
+								gentzlich tod 
+								<pb n="5" facs="A_97_7__Nr__7__S__05_.tif"/>
+								<lb/>und ab und ist, dz darnach der man stirbet, so sol die
+								<lb/>muͦtter ein kindes teil nemen und sich des laͧssen
+								<lb/>benuͤgen, sy habend vil kind oder lützel. Darzuͦ sol <lb/>sy ir
+								morgen gaͧb vorusnemen, ob sy von den <lb/>kinden wil
+									<abbr>etc</abbr>.</seg></p>
+						<p>
+							<seg n="12"><lb/>Item ob ein hoffman aͧn elichi kind stirbet, so staͧt
+								der <lb/>frowen erecht also ein froͧw, die ir erecht besitzet
+								<lb/>vor und nach, die sol neͣmen <num value="2">zwen</num> teil des
+								varenden <lb/>guͦtz, das sol ir eigen sin, und sol och <num
+									value="2">zwen</num> teil der <lb/>schuld gelten und des
+								gelegnen guͦtz, sol ir werden. <lb/>Ein dritteil dz sol ir libting
+								sin und mag sy das nit <lb/>verendern noch verkouffen, es taͤtt ir
+								denn libs<lb break="no"/>nott an liplicher narung, so moͤcht sy nach
+								<lb/>ein ander ir umb <num value="5">v</num>  zu̍richer mu̍ntz
+								darvon <lb/>verkoffen und ze kouffen geben den rechten geteiliden,
+								<lb/>die wile ir soͤliche libes nott anlaͤge und des <lb/>guͦtz u̍t
+								waͤre <abbr>etc</abbr>.</seg></p>
+						<p>
+							<seg n="13"><lb/>Item, wenn ein hoffman ein erecht besitzet nach des
+								<lb/>hoffs recht, der erbet sines wibes varend guͦt. Alles, <lb/>was
+								sy im an varender hab zuͦ braͧcht haͧt, das <lb/>sol sin eigen sin.
+								Was sy <del>aber</del> im aber ligentz <lb/>guͦtz zuͦ braͧcht hat
+								(des sol im ein dritteil werden), <lb/>das sol er haben ze libding
+								und sol es och weder <lb/>verpfaͤnden noch verkouffen, es taͤtt im
+								denn libes nott <lb/>von liplicher narung wegen und dz kuntlich
+								waͤre oder <lb/>wurde <abbr>etc</abbr>.</seg></p>
+						<pb n="6" facs="A_97_7__Nr__7__S__06_.tif"/>
+						<p>
+							<seg n="14"><lb/>Item wann ein frow bi ir eman nach elichem rechten
+									ge<lb break="no"/>waͤsen ist ein gantz jar, <num value="6"
+									>sechs</num> wuchen und <num value="3">dry</num> tag und
+								<lb/>darnach wenn ir man abgaͧt, nach ir mannes tod aͧn <lb/>man ist
+								ein gantz jar, <num value="6">sechs</num> wuchen und <num value="3"
+									>drye</num> tag, die <lb/>frow haͧt denn ir erecht besessen und
+								ir dz gelangen <lb/>nach des hoffs recht. Ist aber, das darinn
+								gebristet <lb/>vor oder nach, also ob der man e stirbet, e das si
+								<lb/>ein jar, <num value="6">sechs</num> wuchen und <num value="3"
+									>drye</num> tag by im gewesen ist <lb/>oder ob sy sich nach
+								sinem tod e endert und ein andern <lb/>man nimpt, e das sich ein
+								jar, <num value="6">sechs</num> wuchen <lb/>und <num value="3"
+									>drye</num> tag erloffend, so haͧt sy ir erecht nit
+								<lb/>besessen und sol ir och nit gelangen <num>etc</num>.</seg></p>
+						<p>
+							<seg n="15"><lb/>Item wenn ein hoffman <add place="above">by</add> sinem
+								ewib nach elichem <lb/>recht gewaͤsen ist ein gantz jar, <num
+									value="6">sechs</num> wuchen und <num value="3">dryg</num>
+								<lb/>tag, so haͧt er sin erecht besessen und ist im gefallen
+								<lb/>und schadet im daran nu̍tz, wie bald er nach <lb/>sines wibes
+								tod ein ander wib nimpt.</seg></p>
+						<p>
+							<seg n="16"><lb/>Item stirbet ein wib, e das ir man sin erecht besessen
+								<lb/>haͧt, so erbet der man von ir das bedergewand, das <lb/>sy zuͦ
+								im braͧcht haͧt, und ir husgeraͤt und ein dritteil <lb/>ir varenden
+								guͦzt, es sye ir verheissen oder sy hab es <lb/>von ir selber, und
+								sol der man des wibes fru̍nden <lb/>die morgengaͧb hinussgeben
+									<abbr>etc</abbr>.</seg></p>
+						<p>
+							<seg n="17"><lb/>Item stirbet ein man, e dz sin wib ir erecht besessen
+								<lb/>hab oder ob sy sich nach sinem tod als bald endert 
+								<pb n="7" facs="A_97_7__Nr__7__S__07_.tif"/>
+								<lb/>mit einem andern man, e das sy ir erecht besitze, so sol
+								<lb/>sy neͣmen ir morgengaͧb und ir verschrotten gewand <lb/>und ir
+								guͦt, das sy darbraͧcht haͧt und soͤllendt darmit <lb/>des mannes
+								erben fu̍rbas von ir unbekumbert sin.</seg></p>
+						<p>
+							<seg n="18"><lb/>Item es ist des hoffs recht ze <placeName
+									ref="LOC_47.28706_8.92092">Wald</placeName> und haͧt die fryheit
+								das <lb/>nieman, waͤder her noch gotzhus, dehein hoffman <lb/>noch
+								hoffwib sol erben, dann der nechst vattermag, <lb/>wenn aber
+								muͦttermaͧg eines lides necher wärind <lb/>dann vattermaͧg, so
+								erbendt sy glich mit einander. <lb/>Wo aber waͤder vatter- noch
+								muͦtermaͧg waͤrindt, <lb/>da erbtindt die, so der guͤtter teilnig
+								hettindt. </seg></p>
+						<p>
+							<seg n="19"><lb/>Item waͤr guͤtter haͧt in dem hoff ze <placeName
+									ref="LOC_47.28706_8.92092">Wald</placeName>, die ander guͤtter
+								<lb/>geteilit sind, wenn der von den guͤttern gaͧn woͤlt <lb/>mit
+								verkouffen oder verlichen, so sol er den oder die, <lb/>so der
+								guͤtter geteilitt hand des ersten darzuͦ oder <lb/>darvon laͧssen
+								komen. Und woͤltindt die nit empfachen <lb/>oder kouffen, so mag er
+								dann die guͤter anderschwo <lb/>verkouffen oder verlichen.</seg></p>
+						<p>
+							<seg n="20"><lb/>Item die hoff lüt von <placeName
+									ref="LOC_47.28706_8.92092">Wald</placeName> hand och recht under
+								einander, <lb/>das sy weyd gnossen sind untz gen <placeName
+									ref="LOC_47.278106_8.895555">Rickenbach</placeName> an <lb/>den
+									<placeName ref="LOC_47.277054_8.898819">Blattenbach</placeName>,
+								wenn stoffel weid u̍bergaͧt.</seg></p>
+						<p>
+							<seg n="21"><lb/>Item sy sind och weid gnossen untz von <placeName
+									ref="LOC_47.268570_8.889255">Goldspach</placeName> an die
+									<lb/><placeName>Tu̍ffenlachen</placeName>
+								<abbr>etc</abbr>.</seg></p>
+						<pb n="8" facs="A_97_7__Nr__7__S__08_.tif"/>
+						<p>
+							<seg n="22"><lb/>Item es sol nieman in dem hoff ze <placeName
+									ref="LOC_47.28706_8.92092">Wald</placeName> uff braͤchen
+								<lb/>zu̍nen, dann schmalsett und soͤlichen hoͤw wachs <lb/>da von
+								alterhar hoͤwachs gewaͤsen ist <abbr>etc</abbr>.</seg></p>
+						<p>
+							<seg n="23"><lb/>Item es sol nieman in dem vorgenannten hoff me vichs
+								<lb/>sumern, dann er gewintteren mag.</seg></p>
+						<p>
+							<seg n="24"><lb/>Item es sol ein jegelich schwin ein stal han oder
+								<lb/>ein hirtten.</seg></p>
+						<p>
+							<seg n="25"><lb/>Item die hofflu̍t behebent inen selber och alle ander
+								ir <lb/>hoffrecht, es sye umb weid gnossy, umb zimi, umb
+								<lb/>etzinen, umb verruͤfft, schaͤdlich vich, umb gens <lb/>und umb
+								ander ir gewonheit, das nit nottu̍rfftig <lb/>ist, alles zu
+								schriben.</seg></p>
+						<p>
+							<seg n="26"><lb/>Item es ist och des vorgenanten hoffs recht zu
+									<placeName ref="LOC_47.28706_8.92092">Wald</placeName>, das
+								<lb/>die hoff lu̍t irs hoffs recht sond und mugendt <lb/>beheben mit
+								ir hand und sol inen das nieman <lb/>anders ab wysen noch
+								abziechen.</seg></p>
+						<p>
+							<seg n="27"><lb/>Item des ersten sind sy darinn also harkomen,
+								<lb/>welicherley fraͤfly da beschicht aͧn das, das die <lb/>kilchen
+								anruͤrett ist, das das verricht und <lb/>uͤber tragen wirt, das es
+								nit zuͦ klag kumpt für 
+								<pb n="9" facs="A_97_7__Nr__7__S__09_.tif"/>
+								<lb/>ein herren oder sin amptlu̍t, so soll im kein her <lb/>noch
+								gericht fu̍rbas nit nach fraͧgen nach suͦchen.</seg></p>
+						<p>
+							<seg n="28"><lb/>Item in den fraͤflinen ist das erst gebott <num
+									value="3">iij</num>  <abbr>dn</abbr>, <lb/>das ander ist <num
+									value="6">vj</num>  <abbr>dn</abbr>, das dritt ist <num
+									value="9">viiij</num>
+								<abbr>dn</abbr>. <lb/>Item die groͤst buͦs aͧn den todschlag ist
+									<num value="9">viiij</num>  <abbr>dn</abbr>
+								<lb/>und waͤri sach, da gott vor sye, das dehein todschlag <lb/>in
+								dem hoff bescheche, waͤr das taͤtte, der waͤre <lb/>verfallen lib
+								und guͦt einer herschafft von <lb/><placeName
+									ref="LOC_47.33333_13.33333">Österrich</placeName> oder ir
+								statthhalter ze <placeName ref="LOC_47.28333_8.75"
+									>Gruͤningen</placeName>, der dem <lb/><placeName
+									ref="LOC_47.28333_8.75">Gruͤningen</placeName> zuͦ unser
+								herschafft handen und von <lb/>ir befelchens wegen innhaͧt, an ir
+								gnaͧd <abbr>etc</abbr>.</seg></p>
+						<p>
+							<seg n="29"><lb/>Item waͤri och, das ein hoffman abgienge in dem
+								<lb/>hoff, der kind hinder im liesse und och wib und <lb/>da die
+								frow eines kindes teil von ir man erbt <lb/>und ouch ir morgengaͧb
+								nimpt und damit <lb/>usgericht ist, als vorstatt, si hab vil oder
+								lu̍tzel <lb/>zuͦ ir man braͧcht.</seg></p>
+						<p>
+							<seg n="30"><lb/>Nimpt die selb frow darnach ein andern man <lb/>in dem
+								hoff, der ein hoffman ist, und gewinnnt <lb/>bi dem och kind, die
+								selben kind sond ouch die 
+								<pb n="10" facs="A_97_7__Nr__7__S__10_.tif"/>
+								<lb/>frowen nach ir tod erben und nit die vordern <lb/>kind by dem
+								ersten man, wann sy die muͦtter <lb/>vorhin geerbt hand, an dem
+								teilen <abbr>etc</abbr>.</seg></p>
+						<p>
+							<seg n="31"><lb/>Item es sol ouch ein jegklich vatter sine kind erben,
+								<lb/>die nit eliche kind hinder inen laͧssen
+							<abbr>etc</abbr>.</seg></p>
+						<p>
+							<seg n="32"><lb/>Item es ist ouch des hoffs recht ze <placeName
+									ref="LOC_47.28706_8.92092">Wald</placeName>, waͤre das <lb/>ein
+								froͤmd man, wär der <del>wärer</del> waͤr, in den hoff <lb/>kaͤme
+								und im hoff jar und tage by sinem eignen <lb/>muͦß und brott
+								hushablich saͤsse von jederman <lb/>unansprechig, was elicher kinden
+								dann von im <lb/>kemint und in dem hoff geborn werdent, <lb/>die
+								sond alle gotzhus lu̍t gen <placeName ref="LOC_47.15973_9.04546"
+									>Schennis</placeName> sin <lb/>und ouch hofflu̍t ze <placeName
+									ref="LOC_47.28706_8.92092">Wald</placeName> und sol man sy
+								<lb/>och darfür halten, es sye froͧw oder man.</seg></p>
+						<p>
+							<seg n="33"><lb/>Item so ist diss des hoffs gewerr ze <placeName
+									ref="LOC_47.28706_8.92092">Wald</placeName>, waͤr <lb/>ein
+								gelegen guͦtt<!-- msr? --> innhaͧt, er hab es ererbt, <lb/>erkoufft
+								oder wie im das guͦt ankomen ist, <lb/>haͧt er das unansprechig inn
+									<num value="3">dri</num> jar, <num value="6">sechs</num>
+								<lb/>wuchen und <num value="3">drye</num> tag von eim, der im land
+								ist, <lb/>das es im mit recht nit zuͦ erfordert noch
+								<lb/>angesprochen wirt, und von einem ussert landes 
+								<pb n="11" facs="A_97_7__Nr__7__S__11_.tif"/>
+								<lb/><num value="9">nu̍n</num> jar, <num value="6">sechs</num>
+								wuchen und ouch <num value="3">drye</num> tag, <lb/>das es im och
+								nu̍t mit recht angesprochen <lb/>wirt, denn sol dannahin ein gewer
+								einen <lb/>da bi schyrmen und handthaben <abbr>etc</abbr>.</seg></p>
+						<p>
+							<seg n="34"><lb/>Item es ist oͧch des hoffs recht, waͤr <num value="7"
+									>syben</num> schuͦch <lb/>gelegens guͦt in den gerichten hat
+								fu̍r sich oder <lb/>hinder sich ze messen, witt und breitt, der
+								<lb/>sol ouch zwinghorig zuͦ den <num value="2">zwey</num> gerichten
+								<lb/>sin im jaͧre ze meyen und ze herbst.</seg></p>
+						<p>
+							<seg n="35"><lb/>Item es ist ouch des hoffs recht zu <placeName
+									ref="LOC_47.28706_8.92092">Wald</placeName>, welichi <lb/>frow
+								in dem hoff belibt und nit hinus kumpt, <lb/>die ein gotzhuß wib ist
+								und ist, das die ein <lb/>man nimpt, es sye gnossam oder
+								<lb/>ungenossam und was kinden von inen <lb/>kumpt, die im hoff
+								erboren werdent, die <lb/>sond der muͦtter nach gehoͤren
+									<abbr>etc</abbr>.</seg></p>
+						<pb n="12" facs="A_97_7__Nr__7__S__12_.tif"/>
+						<p>
+							<seg n="36"><lb/>Item es ist ouch des hoffs recht, ob ein gotzhusfrow,
+								<lb/>die ein hoffwib ze <placeName ref="LOC_47.28706_8.92092"
+									>Wald</placeName> ist, hinus kaͤme, nimpt <lb/>die ein man
+								usserthalb, der ungnossam, ist, <lb/>er sye fryg, eigen oder waͤr er
+								sye, was kinden <lb/>von inen kumpt, sond hofflu̍tt sin und haͧt
+								<lb/>der hoff ze <placeName ref="LOC_47.28706_8.92092"
+									>Wald</placeName> ira und ir kinden umb sin <lb/>jerlichen stu̍r
+								nach ze fraͧgen und sol inen <lb/>das nieman vor sin, waͤder herren,
+								stett <lb/>noch lender <abbr>etc</abbr>.</seg></p>
+						<p>
+							<seg n="37"><lb/>Item woͤle frow och also hinus kaͤme und die ein
+								<lb/>man usserthalb nem, der gnossam waͤre und <lb/>waͤre, das die
+								selb frow vatter und muͦtter gelegen <lb/>guͦt herwider in dem hoff
+								erbte und an sy <lb/>fieli, die selb frow sol och dannothin
+								pflichtig <lb/>sin und gewaͤrtig sin dem hoff mit stu̍ren,
+								<lb/>diensten und andren sachen, als ander hoflu̍t.</seg></p>
+						<p>
+							<seg n="38"><lb/>Item waͤri ouch, dz ein hoffman abgienge und kind
+								<lb/>hinder im ließ und teillend die selben kind mit <lb/>einander
+								ir vatter guͦtt, nement dem <num value="2">zwey</num>, <lb/><num
+									value="3">dru̍</num> oder <num value="4">vier</num> kind ald
+								noch me ir teil zesamen <lb/>inn gemeinschafft mit einander ze
+								werben, die selben <lb/>kind sond ouch ein ander us und us erben.
+								Und <pb n="13" facs="A_97_7__Nr__7__S__13_.tif"/>
+								<lb/>waͤre, das eines oder mer urteil sunderlich nemindt und
+								<lb/>ouch den sunderbar bewurbindt, die sund ouch <lb/>damit
+								usgericht sin, und die andern unge<lb break="no"/>sumpt laͧssen bis
+								an einen rechten anfal.</seg></p>
+						<p>
+							<seg n="39"><lb/>Item waͤr ouch dem andern sin gelegen guͦt an<lb
+									break="no"/>spricht mit dem rechten, und die aber mit recht
+								<lb/>nit beheben mag, der ist ze pen und ze buͦss <lb/>dem herren
+								verfallen <num value="6">vj</num>  haller und dem <lb/>cleger <num
+									value="3">iij</num>  haller.</seg></p>
+						<p>
+							<seg n="40"><lb/>Item waͤr den andern u̍ber eret, u̍ber zu̍ndt,
+								<lb/>u̍ber mät oder u̍ber schnidet fraͤfenlich und <lb/>nit davon
+								wil laͧssen aͧn recht, der ist och <lb/>dem herren zuͦ buͦss
+								verfallen <num value="6">vj</num>  haller <lb/>und dem cleger <num
+									value="3">iij</num>  haller.</seg></p>
+					</div>
+					<pb n="14" facs="A_97_7__Nr__7__S__14_.tif"/>
+					<pb n="15" facs="A_97_7__Nr__7__S__15_.tif"/>
+					<pb n="16" facs="A_97_7__Nr__7__S__16_.tif"/>
+					<pb n="17" facs="A_97_7__Nr__7__S__17_.tif"/>
+					<pb n="18" facs="A_97_7__Nr__7__S__18_.tif"/>
+					<div>
+						<ab type="dorsal">
+							<lb/>Hoffrecht zuͦ <placeName ref="LOC_47.28706_8.92092"
+								>Wald</placeName>. <lb/>Ward also verschriben, als die herrschafft
+								<placeName ref="LOC_47.28333_8.75">Gruͤningen</placeName> noch der
+								fürst<lb break="no"/>en von <placeName ref="LOC_47.33333_13.33333"
+								>Österych</placeName> war, wie under anderem uß dem articul der
+							<lb/>confiscation halber der todschlaͤgeren guts abzuͦnemmen. <lb/>Nun
+							ist der erst kouff von könig <persName ref="GND_11860371X"
+								>Rudolffen</persName> beschechen in anno <date when="1284"
+								>1284</date>, <lb/>die völlige erledigung aber von den grafen von
+								<placeName ref="GND_118635514">Wirten<lb break="no"
+								/>berg</placeName> in anno <date when="1316">1316</date> und <date
+								when="1326">1326</date>. </ab>
+					</div>
+				</body>
+				<back>
+					<div><p>Offnungen (hier: <q>Hofrecht</q>) sind Rechtsquellen aus dem ländlichen Raum
+						aus der Zeit des Spätmittelalters und der Frühen Neuzeit. Sie dienten der
+						Festsetzung von Rechtsnormen zur Regelung von Konflikten zwischen den
+						Bevölkerung einer Ortschaft und deren Herrschaft. Die Bestimmungen kamen an der
+						in der Regel zweimal jährlich stattfindenden, als Ding oder Täding
+						bezeichneten Gerichtsversammlung zur Anwendung und wurden dort gleichzeitig
+						periodisch erneuert. Insbesondere werden im vorliegenden Hofrecht von <placeName ref="LOC_47.28706_8.92092"
+							>Wald</placeName>
+						das Erbrecht und das Eherecht behandelt, ausserdem finden sich darin
+						Bestimmungen zur Todfallabgabe und ein Bussenregister.</p>
+					<p>Das Hofrecht von <placeName ref="LOC_47.28706_8.92092"
+						>Wald</placeName> ist nicht datiert, wahrscheinlich ist allerdings ein Entstehungsdatum
+						nach 1466: Ein Beschluss über die Todfallabgabe zu Beginn des Textes wurde
+						wohl aus einer Urkunde von 1466 übernommen (<bibl><ref
+							target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html"
+							>Teuscher 2007</ref></bibl>, S. 128; <bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=610614">StAZH A
+						97.7 Nr. 6</ref></bibl>). Demgegenüber setzt der aus dem 17. Jahrhundert stammende
+						Dorsualvermerk die Entstehungszeit vor dem Kauf der Pfandschaft über die
+						Herrschaft <placeName ref="LOC_47.28333_8.75"
+							>Grüningen</placeName> durch <placeName ref="LOC_47.36667_8.55">Zürich</placeName> im Jahr 1408 an. Der Grund dafür dürfte in
+						der zentralen Stellung liegen, die Habsburg im Text einnimmt (siehe unten). </p>
+					<p>Nebst der vorliegenden Version sind Teile des Hofrechts von <placeName ref="LOC_47.28706_8.92092"
+						>Wald</placeName> auch in
+						einer Abschrift von 1612 überliefert (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=610448">StAZH A 97.7, Nr. 5</ref></bibl>). Um eine
+						eigentliche, umfassende Offnung handelt es sich dabei aber nicht: Nach dem
+						Grossbrand des Klosters von <placeName ref="LOC_47.15973_9.04546">Schänis</placeName> im Jahr 1610, bei dem sämtliche
+						Schirmbriefe, Statuten und Privilegien des Stifts zerstört worden waren,
+						mussten die noch immer gültigen Bestimmungen zur Todfallabgabe der Bewohner
+						von <placeName ref="LOC_47.28706_8.92092"
+							>Wald</placeName> erneut festgeschrieben werden. Nebst einer Einführung, die den
+						Anlass der Abschrift erläutert, sind im Dokument von 1612 lediglich diese
+						Bestimmungen aus dem ursprünglichen Hofrecht übernommen, ergänzt durch eine
+						Auflistung jener Geschlechter von <placeName ref="LOC_47.28706_8.92092"
+							>Wald</placeName>, die zur Abgabe verpflichtet sind. </p>
+					<p>Auffallend am vorliegenden Hofrecht von <placeName ref="LOC_47.28706_8.92092"
+						>Wald</placeName> ist der ausführliche, in der Einführung
+						enthaltene historische Rückblick auf die Herrschaftsverhältnisse des Dorfs,
+						wobei insbesondere die österreichische Schirmherrschaft betont wird. Zudem
+						heisst es in einem späteren Artikel, dass die Bewohner <placeName ref="LOC_47.28706_8.92092"
+							>Walds</placeName> zu keinen
+						Reisen oder Diensten gezwungen werden sollen. Seit der Übergabe <placeName ref="LOC_47.28333_8.75"
+							>Grüningens</placeName>
+							an <placeName ref="LOC_47.36667_8.55">Zürich</placeName> gestaltete sich das Verhältnis zur neuen Herrschaft immer wieder
+						spannungsreich (siehe auch <bibl><ref target="https://qzh.sources-online.org/exist/apps/qzh/quellenstuecke/QZH_055">QZH, Nr. 55</ref></bibl>, mit den gegen <placeName ref="LOC_47.36667_8.55">Zürich</placeName> gerichteten
+						Klageschriften des Jahres 1441). Bereits 1411 hatten sich die Bewohner <placeName ref="LOC_47.28706_8.92092"
+							>Walds</placeName>
+							an <persName>Herzog Friedrich von Österreich</persName> gewandt und sich über die von <placeName ref="LOC_47.36667_8.55">Zürich</placeName>
+						aufgebürdeten Kriegsdienste beschwert, mit der Bitte, die österreichische
+						Schirmherrschaft über <placeName ref="LOC_47.28706_8.92092">Wald</placeName> zu erneuern.</p>
+					<p>Zum Hofrecht von <placeName ref="LOC_47.28706_8.92092"
+						>Wald</placeName> vgl. <bibl><ref
+							target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html"
+							>Teuscher 2007</ref></bibl>, S. 127-128; zu Offnungen im
+						Allgemeinen vgl. <bibl><ref
+							target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html"
+							>HLS</ref></bibl>, <bibl><ref
+								target="https://hls-dhs-dss.ch/de/articles/008946/2011-11-02/"
+								>Offnungen</ref></bibl>; zur Ortsgeschichte von <placeName ref="LOC_47.28706_8.92092"
+									>Wald</placeName> vgl. <bibl><ref
+										target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html"
+										>HLS</ref></bibl>, <bibl><ref target="https://hls-dhs-dss.ch/de/articles/000092/2021-01-15/">
+								Wald</ref></bibl>;
+						<bibl><ref target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html">Krebser 1951</ref></bibl>; zum Konflikt zwischen <placeName ref="LOC_47.28333_8.75"
+							>Grüningen</placeName> und <placeName ref="LOC_47.36667_8.55">Zürich</placeName> vgl. <bibl><ref target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html">Eugster 1995b</ref></bibl>,
+						S. 313; zur Editionssituation der Zürcher Offnungen im Allgemeinen vgl.
+						<bibl><ref
+							target="https://suche.staatsarchiv.djiktzh.ch/Dateien/304/D1523837.pdf"
+							>StAZH A 97</ref></bibl>.</p></div>
+				</back>
+			</text>
+		</group>
+	</text>
+</TEI>

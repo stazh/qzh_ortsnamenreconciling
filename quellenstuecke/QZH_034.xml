@@ -1,0 +1,459 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='../../Ressourcen/Stylesheet.xsl'?>
+<?xml-model href="http://www.tei-c.org/ns/1.0" type="application/xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Quellen zur Zürcher Geschichte</title>
+                <respStmt>
+                    <persName>Tessa Krusche. Mit einem Kommentar von Patrick Rüegg und Michael Schaffner</persName>
+                    <resp key="transcript"/>
+                </respStmt>
+                <respStmt>
+                    <persName>Patrick Rüegg</persName>
+                    <resp key="tagging"/>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Staatsarchiv des Kantons Zürich</publisher>
+                <date type="electronic" when="2021-05-01"/>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Quellen zur Zürcher Geschichte</title>
+                <respStmt>
+                    <persName>Staatsarchiv des Kantons Zürich</persName>
+                    <resp>Herausgeberschaft</resp>
+                </respStmt>
+                <idno>QZH_034</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=346307">StAZH C II 7, Nr. 1045, fol. 23r-25r</idno>
+                    </msIdentifier>
+                    <head>Offnung der Gotteshausleute des Stiftes Embrach</head>
+                    <msContents>
+                        <summary>
+                            <p>In den 39 Artikeln werden im Wesentlichen die Verhältnisse zwischen den verschiedenen Rechtsbereichen Propst, Vogt, 
+                            Chorherren und Gotteshausleute [= Eigenleute des Chorherrenstifts] geordnet. Nach der Regelung 
+                            der im Frühling und Herbst stattfindenden Gerichtssitzungen (<q>Tädinge</q>) werden Rechte des Propstes genannt, wie 
+                            etwa die Steuererhebung oder die Einberufung der Eigenleute zum Frondienst. Der Vogt 
+                            (auch Amtmann genannt) hat ebenfalls gewisse Besteuerungsrechte, darf den Propst bei der Rechtsprechung beraten oder 
+                            ihn bei den Gerichtssitzungen vertreten. 
+                            Die nächsten Abschnitte regeln die Rechte der Chorherren des Stifts und der Gotteshausleute. Im Todesfall steht dem Stift eine 
+                            Erbschaftssteuer in Form von Naturalien zu. Sterben Gotteshausleute ohne 
+                            Erben oder Testament, fliesst die ganze Erbschaft ins Stiftsvermögen. Besondere Nachteile in Kauf 
+                            nehmen müssen Eigenleute, die mit Eigenleuten einer anderen Herrschaft verheiratet waren 
+                            (auch Ungenossehe genannt).</p>
+                        </summary>
+                        <msItem>
+                            <textLang>Deutsch</textLang>
+                            <filiation type="current">Original</filiation>
+                            <filiation type="original"><origDate when="1370-05-01"/></filiation>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><material>Papier</material></support>
+                                    <extent/>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origDate when="1370-05-01"/></origin>
+                    </history>
+                    <additional>
+                        <listBibl>
+                            <head>Edition</head>
+                            <bibl>Baer 1994, S. 36-40; Dändliker 1908, Bd. 1, S. 240-244 (nach anderer Überlieferung).</bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>
+                    <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+                </p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc> </profileDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+                    <term ref="key000273">Abgaben</term>
+                    <term ref="key001092">Brauchtum</term>
+                    <term ref="key000479">Dienstpflicht</term>
+                    <term ref="key000597">Erbrecht</term>
+                    <term ref="key004966">Gemeinde</term>
+                    <term ref="key000057">Gericht</term>
+                    <term ref="key003346">Stift</term>
+                    <term ref="key000084">Leibeigenschaft</term>
+                    <term ref="key000012">Offnung</term>
+                    <term ref="key000157">Steuern</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+ <text>
+  <group>
+   <text>
+    <body corresp="Sigle1">
+        <pb n="23r" facs="C_II_7__Nr__1045__fol__23_r_.tif"/>
+     <div>
+      <head><date when="1370-05-01">Anno lxx<hi rend="sup">o</hi> Philippi et Jacobi</date></head>
+       <head type="title">Dis ist die offenung der gotzhuslu̍ten
+           <lb/>ze <placeName ref="LOC_Lat_Long">Emrach</placeName> ze <date when="--05">maͤijen</date> und ze <date period="fall">herbst</date>.</head>
+      <p>
+       <lb/>Des ersten, so sol mines herren probst vogt
+       <lb/>den lu̍ten, die in dz geriht hoͤrent ahtag 
+       <lb/>vorhin die maͤijen thaͤding oder die <date period="fall">herbst</date>
+       <lb/>taͤding verku̍nden.
+       <lb/>Item <del rend="blackened">sol</del> <subst><del rend="overwritten">n</del><add place="inline">m</add></subst> <add place="above">sol</add> fragen, ob dz geschehen sig oder niht,
+       <lb/>item ob die lu̍t alle hie sigent oder niht.
+       <lb/>Item der <persName>Hegnower</persName> <del rend="blackened">sol</del> oder ein andra, der den
+       <lb/>lu̍ten gebotten het, der sol jechlichem
+       <lb/>su̍nderbar ruͤffen, ob er da sig oder niht
+       <lb/>und weler niht dar kuntt, die wil die
+        <lb/>offenung werat, der git mim herren probst iij .
+        <lb/>Item, ob es tag zit sig ze rihten. <add place="right"><hi rend="framed">Da fraget.</hi></add>
+      </p>
+      <p>
+          <lb/>Item ein vogt von <placeName ref="LOC_Lat_Long">Kyburg</placeName>, der sol kun selb dridt
+       <lb/>und sol im min herr der probst ze bissen gen
+          <lb/>und sol ims wol bieten. Der vogt von <placeName ref="LOC_Lat_Long">Kyburg</placeName>,
+       <lb/>der sol och haben <num value="2">zwein</num> wind und einen
+       <lb/>vogel hund und einen habch und sol man gen
+       <lb/>je dem hund ein brot und den habch ein huͦn.
+       <lb/>Er sol och finden uf den kelnhoͤffen
+        <lb/>fuͦter und hoͤ. <add place="right"><hi rend="framed">Da fraget umb.</hi>    </add> 
+      </p>
+      <p>
+       <lb/>Man sol hu̍t des ersten offenan
+       <lb/>mins herren, des probst, frigheit und <add place="above">och</add> <damage agent="crack">rechten</damage>
+       <lb/>und darnach eim vogt sin rechtung
+       <lb/>und dar nach miner heren, der chorheren, <add place="above">iri</add> rechtung
+       <lb/>und dar nach der gotzhuslu̍ten iro rechtung
+       <lb/>und dar nach umb eygen und um erb
+       <lb/>und dar nach den burger
+       <lb/>und dar nach den gesten.
+      </p>
+      <p>
+       <lb/>Des ersten sol min herr der probst hu̍t
+       <lb/>ze geriht sitzzen und sol der vogt bi im sitz<damage agent="clipping"><supplied resp="msr">en</supplied></damage>
+       <lb/>und min herren, die korherren, und ir keller
+       <lb/>und sond da verhoͤren die offenung und waͤr,
+       <lb/>dz man u̍t <add place="above">da</add> offeneth, dz von alter her dan niht
+       <lb/>geschehen waͤr, dz mag min herr, <add place="above">der probst</add>, oder der
+       <lb/>vogt ald min heren chorherren under wider reden. <hi rend="framed">Fra<damage agent="clipping"><supplied resp="msr">g</supplied></damage>.</hi>
+       <!-- tke: "Fra" = "Frag" Wahrscheinlich eine Hinzufügung, siehe unten. -->
+       <lb/>Es sol och hu̍t menglich der in dem geriht
+        <lb/><del rend="blackened">sess</del> sitzzet oder zuͦ dem geriht hoͤret, die
+        <lb/>sond hu̍t alle zuͦ der offenung sin un zuͦ dem
+        <lb/>geriht und het min herr, der probst, hu̍t
+        <lb/>zerihten u̍ber all sachen <app><lem/><rdg wit="StAZH C II 7, Nr. 1045, fol. 1v">die im zuͦ gehoͤrend</rdg></app>. <app><lem>Waͤri, dz <del rend="blackened">da</del> ein
+        <lb/>fraͤfli hu̍t fieli, die eim vogt zuͦ horti,
+        <lb/>so sol doch hu̍t min herr dar u̍ber rihten, min
+        <lb/>herr sol aber thaͤllen die fraͤfli mit dem vogt.</lem><rdg wit="StAZH C II 7, Nr. 1045, fol. 1v"/></app>
+      </p>
+     </div>
+      <pb n="23v" facs="C_II_7__Nr__1045__fol__23_v_.tif"/> 
+        <div>
+         <head type="subtitle">Des ersten mines herren, des probst, rechtung</head>
+       <p>
+           <add place="margin">Frag</add>
+       <lb/>Wir geben hu̍t mim heren dem probst
+       <lb/>all thwing und och benne und aͤllu̍ geriht
+        <lb/>und fraͤflinan, won allein umb <app><lem>du̍p</lem><rdg wit="StAZH C II 7, Nr. 1045, fol. 1v">diepstal</rdg></app> / und och
+        <lb/>umb dz bluͦt, dz hoͤret eim vogt zuͦ. <add place="right"><hi rend="framed">Frag.</hi></add>
+       </p>
+       <p>
+           <add place="margin">Frag</add>
+           <lb/>Won allein an allen gebannen firtagen
+        <lb/>von einer vesp zuͦ der ander, da sol min
+        <lb/>herr, der probst, u̍ber rihten und <app><lem/><rdg wit="StAZH C II 7, Nr. 1045, fol. 1v">och alle frefnen in dem kilchhof und</rdg></app> uf dem kilchweg 
+        <lb/><app><lem>dz hoͤrret och min herren zuͦ, dem probst.</lem><rdg wit="StAZH C II 7, Nr. 1045, fol. 1v"/></app> <add place="right"><hi rend="framed">Frag.</hi></add>
+       </p>
+       <p>
+           <add place="margin">Frag</add>
+       <lb/>Und och all fraͤflinan in dem kilchhof
+        <lb/>und alli gebot / hoͤrent <subst><del rend="overwritten">dem</del><add place="inline">mim</add></subst> <add place="above">herren</add> probst zuͦ.
+        <lb/>Man sol och wissen, dz der kilchhof also
+        <lb/>gefrigt ist, schwer dar in flu̍tig wirt,
+        <lb/>dz dem niman sol nach illen noch fahen
+        <lb/>noch verbieten noch beku̍meren und wz dar in ge<damage agent="clipping"><supplied resp="msr">floͤ</supplied></damage><lb break="no"/>chet is<damage agent="clipping"><supplied>t</supplied></damage>.
+       <app><lem/><rdg wit="StAZH C II 7, Nr. 1045, fol. 1v">uß genomen ein morder.</rdg></app></p>
+       <p>
+       <lb/>Wir geben och mim herren, dem probst, die
+        <lb/>rechtung, wella gotzhus man sin ungenossen
+        <lb/>niemit, den sol min herr, der probst, straffen
+        <lb/>und waͤri, dz er niht u̍ber hant moͤhti han,
+        <lb/>so sol min herr, der probst, ein vogt anruͤffen. <add place="right">Frag.</add>
+       <lb/>Es sol och ein jeklicher gotzhusman,
+        <lb/>der u̍sers gotzhus ist, er sig ferg oder
+        <lb/>nach, der sol minem herrn, dem probst,
+        <lb/>jaͤrklich ein fasnaht huͦn gen. <add place="right">Frag.</add>
+      </p>
+      <p><handShift/>
+       <lb/>Ez sond oͧch gotzhus lu̍t eim probst
+       <lb/>dienstbaͤr sin und dienan, ob er ier
+       <lb/>bedarf, <del rend="strikethrough">uf</del> zuͦ einem tag, ze lastend
+       <lb/>under iro kost, untz uf die naht.
+      </p>
+      <p>
+       <lb/>Graͧf <persName>Huno von Kiburg</persName><note>Gemeint ist <persName>Hunfried von Wülflingen</persName>, vgl. <bibl><ref target="/startseite/literaturverzeichnis">Baer 1994</ref>, S. 37</bibl>. In der jüngeren Fassung der Offnung steht <orig>Kuno</orig>.
+        Für die testamentarische Verschreibung <persName>Hunfrieds</persName> im Jahr 1044 vgl. <bibl><ref target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html">UBZH</ref>, Bd. 1, Nr. 233, S. 125-128</bibl></note>, der herr
+          <lb/>ze <placeName ref="LOC_Lat_Long">Kiburg</placeName> und diser graͧfschaft ze <placeName ref="LOC_Lat_Long">Ky<lb break="no"/>burg</placeName>,
+       waz und dar nach archydiakon
+          <lb/>ze <placeName ref="LOC_Lat_Long">Strassburg</placeName> ward  und stifter <damage><supplied resp="msr">di</supplied>ss</damage>
+          <lb/>gotzhus ze <placeName ref="LOC_Lat_Long">Emrach</placeName> waz, gab die fri<lb break="no"/>heit 
+       her disem gotzhus und eim jeg<lb break="no"/>lichem
+       probst und den chorherren und
+       <lb/>den gotzhuslu̍ten und erwarb des
+       <lb/>bestaͤtnust von eim babst und von
+       <lb/>eim ku̍nig mit besigelten briefen, die
+       <lb/>in dem gotzhus behalten sind, die hie
+       <lb/>vor und hie naͧch geschriben staͤnd.
+       <lb/>Oͧch staͧt in der briefen dezz babstes
+       <lb/>und dezz ku̍nges, wer die friheit, so
+       <lb/>hievor und hie naͧch verschriben staͧnd
+       <lb/>und oͧch in den selben bestaͤtbriefen
+       <lb/>verschriben waͧrend, braͤche und da
+       <lb/>wider daͤtte, daz der in dezz babsts
+       <lb/>banne waͤre und eim jeglich ku̍ng
+       <lb/>vervallen waͤre zehen mark goldes.
+       <lb/>Und dar naͧch ward daz oͧch bestaͤt
+       <lb/>und gefestnat von eim <app><lem>herzogen</lem><rdg wit="StAZH C II 7, Nr. 1045, fol. 1v">herschafft</rdg></app> von
+          <lb/><placeName ref="LOC_Lat_Long">Oͤsterrich</placeName>.
+      </p>
+        </div>
+      <pb n="24r" facs="C_II_7__Nr__1045__fol__24_r_.tif"/>
+        <div>
+      <head type="subtitle">Des vogt rechtung</head>
+            <p><handShift/>
+       <lb/>Wir geben hu̍t eim vogt dz reht,
+        <lb/>dz aͤllu̍ gebot von im sond gan,
+       <lb/><app><lem>won allein in dem kilchhof / dz ist
+       <lb/>mins heren, des probst.</lem><rdg wit="StAZH C II 7, fol. 2r"/></app><note>Dieser Teilsatz wurde im Nachinein gestrichen, weshalb er in der Abschrift fehlt.</note>
+       <lb/>Er sol och alwegent sitzzen nebent
+       <lb/>min herren, dem probst, ze geriht
+       <lb/>und waͤri, dz min herr dem geriht niht
+       <lb/>moͤhti grichen, so sol er den vogt anruͤffen.
+      </p>
+      <p>
+       <lb/>Wir geben dem vogt och dz reht,
+       <lb/>schwer in dem gerihte sitzzet, dz <add place="above">der</add> sol
+       <lb/>im gen ein fasnaht huͦn.
+      </p>
+            <p>
+                <add place="margin">Frag</add>
+       <lb/>Schwer och hie mit hus sitzzet <add place="above" type="sign">oder der in dem geriht sitzzet</add>, der sol
+        <lb/>zwein tagwan in des <placeName>Ku̍nges Wingarten</placeName><!-- Baer identifiziert den Ort: ONCH 7016973 -->
+       <lb/>thuͦn und vor jedem hus ein karren
+       <lb/>mit mist und vor den kelnhoͤfen <num value="2">zwein</num>.
+       <lb/>Man sol och uf den kelnhof haben waͤgen,
+           <lb/>die den win gen <placeName ref="LOC_Lat_Long">Kyburg</placeName> fu̍rint.</p>
+            <p>
+                <add place="margin">Frag</add>
+      <lb/>Die keller hand och dz reht, dz man sol
+       <lb/>zwiro erren im jar ze <date when="--03-17" type="holiday">sant Gerdrut tag</date>
+       <lb/>und <date when="--06-15">ze mitten brachat</date> un dar umb sol
+       <lb/>man inan gen in dem <placeName>Hard</placeName> schwas su̍
+       <lb/>bedurffent zuͦ dem phlaͦg geschwere.</p>
+            <p>
+                <add place="margin">Frag</add>
+       <lb/>Die keller hand och dz reht, dz je dz hus in sol
+        <lb/>senden ein schnitter<!-- Baer liest: schnitter --> zuͦ den vessen und och zuͦ dem
+        <lb/>haber und sond die keller jeklichem geben ein
+        <lb/>naht brot dero <num value="13">dru̍zeni</num> kument usserm <add place="right margin">eim fiertel korn</add>.</p>
+            <p>
+                <add place="margin">Frag</add>
+       <lb/>Wir habin och dz reht, schwer hie husen
+        <lb/>wil, dem sol der vogt ein uf rihti gen in
+       <lb/>dem <placeName>Hard</placeName>, ob ers find.
+      </p>
+      <p>
+          <add place="margin">Frag</add>
+       <lb/>Schwer brot hie verkof, der sol ein vogt
+        <lb/>gen zuͦ dem jar xviij ₰.
+      </p>
+      <p>
+       <lb/>Schwer och win verkoffet hie, der sol gen von
+       <lb/>je dem soͧm fier phenig dennan von <orgName>Hedeg</orgName><!-- msr: Heidegg, ev. note -->.
+       <lb/>Wir habin och dz reht, schwer niht phennig
+       <lb/>het umb win ald umb brot, der sol ein phant
+        <lb/>legen uf dz fasse oder zuͦ dem brot, dz zwiro
+       <lb/>als guͦt sig, als er werd nem und sol denne
+       <lb/>nemen win oder brot und het niht gefraͤfelt.
+        <lb/>Und schwenne dz fas us kunt oder die bechi
+       <lb/>verkoft wirt / so sol der wirt oder der bech verkofen
+       <lb/>aͤlli sini phender und het och niht gefraͤfelt,
+        <lb/>aber er sols im vor ku̍nden.<note>Die Seite wurde unten beschnitten.</note>
+      </p>
+        </div>
+      <pb n="24v" facs="C_II_7__Nr__1045__fol__24_v_.tif"/>
+        <div>
+      <head type="subtitle"><hi rend="framed">Der chorherren rechtung</hi></head>
+      <p>
+          <add place="margin">Frag</add>
+       <lb/>Wir geben minen herren, den chorheren, das
+       <lb/>reht, schwer ein erb het oder ein thel
+        <lb/>eines erbes, dz jo nu siben schuͦ breit ist,
+       <lb/>so git je dz eltst einen hopt fal, dz best
+       <lb/>hopt, so er laͧt, es sig an rinder oder an rossen
+       <lb/>oder an kuͤien, ald schwas min herren ze hoptfal nement,
+       <lb/>es sig von frowen oder von mannen.
+       <lb/>Miner herren koch, der sol den hoptval antwrten miner
+        <lb/>herren keller ze hus und och ze hof und sol im geben der keller iiij .
+      </p>
+      <p>
+          <add place="margin">Frag</add>
+       <lb/>Wir geben minen heren och dz reht, schweller
+        <lb/>gotzhusman abgat <add place="above">von tot</add> ani lib erben, der dz sin
+       <lb/>niht verfuͤgt het sim genos in dem meierhof
+       <lb/>ald vor mins heren probst geriht, als reht ist,
+       <lb/>alles, dz der lat, ligentz oder farent guͦt, dz
+       <lb/>nement min heren.</p>
+            <p>
+                <add place="margin">Frag</add>
+       <lb/>Wir geben och miner herren keller dz reht <del rend="blackened">sch</del>
+       <lb/>und miner heren koch, schwen min heren erbent
+       <lb/>von todes wegen, dz da der keller sol nen dz
+        <lb/>gesmid, es sig howen, axen, biiel, <subst><del rend="overwritten">s</del><add place="inline">n</add></subst>egber
+       <lb/>und ander gesmit, so der gotzhus man lat oder frow,
+       <lb/>und der koch dz gewant, als su̍ ze kilchen gant
+       <lb/>an den gebannen firtagen.
+      </p>
+      <p>
+          <add place="margin">Frag</add>
+       <lb/>Wir geben minen herren dz reht, schweller gotzhusman
+       <lb/>abgat von todes, der sin ungenos het und och sim
+       <lb/>genos niht gefuͤget het als reht ist, da nimet
+       <lb/>die frow den trittheil und min heren die zwein tei<damage agent="fold"><supplied resp="msr">l</supplied></damage>
+        <lb/>und och der keller und der koch iru̍ rehtung.</p>
+            <p><handShift/>
+            <lb/>Oͧch sprechend ettlich, daz du̍ vrow
+       <lb/>den drieten teil nimet, allein in
+       <lb/>farendem guͦt und nit in ligendem
+       <lb/>guͦt.</p>
+       <p><lb/>Wir geben oͧch die friheit den chorheren,
+       <lb/>waz in ieren hu̍sern lit, ez si farendes
+        <lb/>oder anders oder dar in getragen oder ge<lb break="no"/>floͤhet
+       wirt oder in anderu̍ pfaffenhu̍ser,
+       <lb/>ez si lu̍priester oder capplan, daz ist frige,
+       <lb/>und mag kein vogt nit verbieten noch
+       <lb/>vordnen ze antwu̍rten. Doch sol man
+        <lb/>eim vogt rehtes dar u̍ber gestatnan,
+        <lb/>da und vor eim geischlichem ald vor
+       <lb/>iran rihter, da si ez billich tuͦn sond,
+       <lb/>mit urlob eins probstes.<note>Die Seite wurde unten beschnitten.</note>
+      </p>
+        </div>
+      <pb n="25r" facs="C_II_7__Nr__1045__fol__25_r_.tif"/>
+        <div>
+      <head type="subtitle"><hi rend="framed">Der gotzhus lu̍t reht</hi></head>
+            <p><handShift/>
+       <lb/>Wir habin dz reht, dz ein jeklicher
+       <lb/>gotzhusman oder frow sim genos geben mag
+       <lb/>und gefuͤgen alles, dz er het, farenstz oder
+        <lb/>ligenstz, aber an den stetten als u̍nser reht staͧt,
+       <lb/>das erb in dem meierhof.
+        <lb/>Und schwas anders guͦt ist ani ein erb, es sig
+       <lb/>ligentz oder farentz, dz sol beschehen vor
+       <lb/>mins heren probst stab und dz sol uns nieman <add place="above">weren</add>
+       <lb/>und sol u̍ns min her sin besygelten brief dar u̍ber
+        <lb/>geben, aber mit unserm schaden<note>Diese Formulierung wurde in der jüngeren Fassung der Offnung nachträglich von <orig>schaden</orig> zu <orig>kosten</orig> geändert.</note>.
+      </p>
+      <p>
+          <add place="margin">Frag</add>
+       <lb/>Wir soͤllen och faren mit u̍nserm lib
+       <lb/>und mit u̍nserm guͦt und mit u̍nsren
+       <lb/>kinden von eim hof in den andern, also
+       <lb/>dz wir uf dem land beliben und dz sol och
+       <lb/>u̍ns nieman werren.
+      </p>
+      <p>
+          <add place="margin">Frag</add>
+       <lb/>Wir habin och dz reht, schwen ein gotzhus
+       <lb/>frow eim gotzhus man gemaͤhelt wirt, als
+       <lb/>bald si sich vor dem bet unguͤrt, so ist si erb
+       <lb/>und genos alles des der gotzhusman lat, es ligentz
+       <lb/>oder farentz guͦt.<note>Dieser Absatz findet sich in der jüngeren Fassung am Ende der Offnung.</note>
+      </p>
+      <p>
+          <add place="margin">Frag</add>
+       <lb/>Wir habin och dz reht, dz wir einen
+       <lb/>forster erkiessen soͤllen, der u̍nser holtz
+       <lb/>und feld behuͤten sol und sols im ein <app><lem>vogt</lem><rdg wit="StAZH C II 7, fol. 3r">prost</rdg></app> aber
+       <lb/>lihen, won er sin gebot fuͤret.
+      </p>
+            <p><add place="margin">Frag</add>
+       <app><lem><del>Wir habin och dz reht, dz wir einen sigristen
+       <lb/>soͤllen erkiessen, der dem gotzhus und och u̍ns und
+       <lb/>minen herren nu̍tz und och frum ist. Aber min herr,
+       <lb/>der probst, der sol ims lihen.</del></lem><rdg wit="StAZH C II 7, fol. 3r"/></app>
+      </p>
+      <p>
+          <add place="margin">Frag</add>
+       <lb/>Wir habin och dz reht, dz wir an <date when="--11-29">sant
+       <lb/>Andres abent</date> wir huͦber ze prim sond
+       <lb/>kumen in miner herren keller hof mit u̍nseren
+       <lb/>schwin von je einer gantzzen huͦb ein schwin,
+        <lb/>dz sol gelten xviij  und von einer halben ix .       
+        <lb/>Aber wir huͦber habin dz reht, dz wir die schwin
+        <lb/>schaͤttzen sond uf u̍nsern eid und sol aber je<lb break="no"/>der
+        phennig salb ander kuͦmen. Waͤr och, dz
+       <lb/>der schwin keins niht schoͤn waͤr, het er denne
+        <lb/>der selben burdi, so sol er ein anders <sic>brigen</sic>.
+      </p>
+          <p><handShift/>
+          <add place="margin">Frag</add>
+       <lb/>Gotzhuslu̍t sond reht nemen umb erb und
+       <lb/>eigen vor dem probst und nit anderswa
+       <lb/>und sol dar umb nieman reht sprechen denne
+       <lb/>gotzhuslu̍t.</p>
+            <p>
+       <lb/>Waͤr och, dz misgewaͤst <choice><sic>wrdi</sic><corr>wurdi</corr></choice>, so habin wir
+       <lb/>dz reht, dz min herren sond beiten uf dz ander jar
+       <lb/>als uf dz drit jar. Gaͤbin wir denne u̍nnen
+       <lb/>niht ir zins von unsren erben oder von miner herren
+       <lb/>guͦten, so sond die erb oder die guͤter ledig sin
+       <lb/>minen herren.<note>Es folgt ein verblichener, schwer leserlicher Nachtrag aus dem Jahr 1371.</note>
+            </p>
+     </div>
+    </body>
+    
+    <back>
+     <div> <p>Offnungen beziehen sich auf spezifische Rechte und Pflichten, 
+         auf die sich Grundherren und Eigenleute verpflichtet hatten und die vor ihrer Verschriftlichung 
+         in der Offnung meist als mündliches Gewohnheitsrecht galten. Nebst Gewohnheitsrecht flossen aber 
+         auch lokales Brauchtum, Verträge, Urteile, Privilegien oder Satzungsrechte mit ein. Offnungen aus dem 14. und 15. Jahrhundert sind generell im Kontext der 
+         zunehmenden Territorialisierung der Herrschaftsorganisation zu verstehen. Verschriftlichung, Kompilation und Überarbeitung
+         dieser Texte konnten somit als Mittel zur Legitimation der Ansprüche konkurrierender Herrer dienen.</p>
+         <p>In <placeName ref="LOC_Lat_Long">Embrach</placeName> wurde die Offnung anlässlich der zwei Mal jährlich stattfindenden Gerichtssitzungen (auch Tädinge 
+         genannt) öffentlich verkündet. Die Tädinge fanden zumeist im Mai und November statt und wurden 
+         vom Propst des Stifts oder seinem Vogt/Amtmann als Stellvertreter geleitet. Zweck der Offnungen 
+         war in erster Linie die Vermeidung von Konflikten. Da dieser Zweck meist eine regelmässige Überarbeitung 
+         der Offnung zur Folge hatte, existieren mehrere Offnungen für die Gotteshausleute des Stiftes. 
+         Die Version aus dem Jahr 1370 gilt aber als eines der ältesten Schriftstücke dieser Art. In dieser Zeit hatte das Stift unter Propst <persName>Friedrich 
+          von Tengen</persName> (1366-1374) mit grossen wirtschaftlichen Schwierigkeiten zu kämpfen. Die Offnung zeichnet sich durch ihre Ausführlichkeit aus, die gleich vier Rechtsbereiche miteinschliesst und 
+         so praktisch alle Verwaltungstätigkeiten in den klösterlichen Grundbesitzungen 
+         <placeName ref="LOC_Lat_Long">Embrach</placeName>, <placeName ref="LOC_Lat_Long">Berg am Irchel</placeName>, <placeName ref="LOC_Lat_Long">Hegi</placeName> und <placeName ref="LOC_Lat_Long">Breite</placeName> regelte.</p>
+         <p>In der vorliegenden ersten Fassung der Embracher Offnung sind verschiedene Hände zu erkennen, deren zeitliches Verhältnis zueinander nicht immer klar
+             zu bestimmen ist. Ein Teil einer Seite wurde durch nachträgliche Beschneidung entfernt. Zudem existiert eine spätere, um 1400 entstandene Abschrift, deren Varianten für die Edition berücksichtigt wurden (zur Datierung vgl. <bibl><ref target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html">Dändliker 1908-1912</ref>, Bd. 1, S. 383, Anm. 31</bibl>). Im 16. Jahrhundert wurde der
+             Text der Offnung mehrfach überarbeitet und erweitert (vgl. zum Beispiel <bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=608765">StAZH A 97, Nr. 5</ref></bibl>).</p>
+         <p>Zu Offnungen im Allgemeinen vgl. <bibl>HLS, <ref target="https://hls-dhs-dss.ch/de/articles/008946/2011-11-02">Offnungen</ref></bibl>; <bibl><ref target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html">Teuscher 2001</ref></bibl>; 
+             zur Editionssituation der Zürcher Offnungen vgl. <bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/Dateien/304/D1523837.pdf">StAZH A 97</ref></bibl>; zur Geschichte Embrachs und des Stifts St. Peter vgl. <bibl>HLS, <ref target="https://hls-dhs-dss.ch/de/articles/000044/2005-11-14/">Embrach</ref></bibl>;
+             <bibl><ref target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html">Baer 1994</ref></bibl>;
+             <bibl><ref target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html">HS II/2</ref>, S. 246-258</bibl>.</p>
+        
+     </div>
+    </back>
+    
+   </text>
+  </group>
+ </text>
+</TEI>  

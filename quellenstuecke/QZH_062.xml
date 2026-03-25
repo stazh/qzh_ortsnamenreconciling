@@ -1,0 +1,683 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quellen zur Zürcher Geschichte</title>
+            <respStmt>
+               <persName>Denia Stettler</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Denia Stettler</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Staatsarchiv des Kantons Zürich</publisher>
+            <date type="electronic" when="2024-10-10"/>
+            <date type="print" when="2024-10-10"/>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Quellen zur Zürcher Geschichte</title>
+            <respStmt>
+               <persName>Staatsarchiv des Kantons Zürich</persName>
+               <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>QZH_062</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=5159470">StAZH
+                     B VII 21.94 (fol. 65 r - 77 r)</idno>
+               </msIdentifier>
+               <head>Einung der Fischer vom Pfäffikersee</head>
+               <msContents>
+                  <summary>In Anwesenheit von Hans Heinrich Müller, Landvogt von Kyburg, bestätigen
+                     und erneuern die Fischer von Pfäffikon und Seegräben die in ihrer Einung
+                     festgelegten Rechte und Pflichten bezüglich der Nutzung des Pfäffikersees.
+                     Geregelt werden unter anderem die Huldigung (fol. 66r, 74v), Bussen (fol. 68r,
+                     69r, 70v, 71r, 71v), die erlaubten Mengen und Masse verschiedener Netze, Beren,
+                     Fächer und Angeln (66v, 68r, 68v, 69v, 70r, 73v, 74r, 74v), das Beschriften und
+                     Ausleihen der Ausrüstung sowie Vorkaufsrechte (72r). Es wird festgelegt wo
+                     (66v, 67v, 68r, 70r, 70v, 71r) und wann gefischt werden darf und welche Schon-
+                     und Laichzeiten zu beachten sind (67r, 67v, 72r, 73r, 73v, 74r). Es gelten
+                     jeweils unterschiedliche Regeln für Weidleute, die mit Netzten fischen
+                        (<q>Garnlüthen</q>) und solchen, die Reusen benutzen (<q>Berenlüthen</q>)
+                     (fol. 66v, 67r, 67v, 69r, 69v, 70r, 70v, 71r, 71v). Verschiedene Nachträge
+                     zwischen 1631 und 1676 erwähnen die Verkündigung, Bestätigung und Erneuerung
+                     der Einung und nennen die jeweils neu gewählten Seevögte von Pfäffikon und
+                     Seegräben (75v-77r).</summary>
+                  <msItem>
+                     <textLang>Deutsch</textLang>
+                     <filiation type="current">Aufzeichnung</filiation>
+                     <filiation type="original"><origDate from="1625-06-01" to="1676-04-02"
+                        /></filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support><material>Papier</material></support>
+                        <extent><dimensions type="leaves">
+                              <height unit="cm" quantity="31.5"/>
+                              <width unit="cm" quantity="21.5"/>
+                           </dimensions></extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin><origDate from="1625-06-01" to="1676-04-02"
+                        /><origPlace>Pfäffikon</origPlace></origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc> </profileDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000184">Bussen</term>
+               <term ref="key000536">Fischerei</term>
+               <term ref="key000715">Gewässer</term>
+               <term ref="key004706">Konzession</term>
+               <term ref="key000335">Nutzungsrecht</term>
+               <term ref="key004022">Satzung</term>
+               <term ref="key005446">Umweltschutz</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <pb n="65r" facs="B_VII_21_94__fol__65_r_.tif"/>
+            <head>
+               <lb/>Vischer einung <lb/>der weidlüthen zu <placeName ref="LOC_47.36453_8.79202"
+                  >Pfeffickhen</placeName> unnd <lb/><placeName ref="LOC_47.34124_8.77131"
+                  >Seegreben</placeName>
+            </head>
+            <p>
+               <lb/><add type="dorsal" hand="laterHand"><placeName ref="LOC_47.45249_8.7485"
+                     >Kyburg</placeName></add>. </p>
+            <p>
+               <lb/><add type="dorsal" hand="laterHand">In die Trucken lit. 5. i.</add></p>
+            <pb n="66r" facs="B_VII_21_94__fol__66_r_.tif"/>
+            <p>
+               <lb/>Diß ist der einung, so gmeine weidlüth von <lb/><placeName
+                  ref="LOC_47.36453_8.79202">Pfëffickhen</placeName> unnd <placeName
+                  ref="LOC_47.34124_8.77131">Seegreben</placeName> uff dem See <placeName
+                  ref="LOC_47.36453_8.79202">Pfëffickh<lb break="no"/>en</placeName> inn bysyn deß
+               frommen, vesten, fürsichtig<lb break="no"/>en unnd wyßen herrn <persName
+                  ref="GND_1074540360">Hannß Heinrichen Müll<lb break="no"/>ers,</persName> burgers
+                  <placeName ref="LOC_47.36667_8.55">Zürich</placeName> unnd dißer zyth vogt der
+               <lb/>grafschafft <placeName ref="LOC_47.45249_8.7485">Kyburg</placeName>, mit
+               einannderen ge<lb break="no"/>machet, geordnet unnd gesetzt, auch er<lb break="no"
+               />nüweret unnd bestettiget habend, wie <lb/>hernach von einem articel an den
+               <lb/>annderen geschriben stat, <lb/>anno 1625. </p>
+            <p>
+               <lb/>Item zumm ersten soll man wüssen, das was der<lb break="no"/>selbig see zuͦ
+                  <placeName ref="LOC_47.36453_8.79202">Pfëffickhen</placeName> begriffen hat, da
+               hörend hohe <lb/>unnd kleine gricht an das huß <placeName ref="LOC_47.45249_8.7485"
+                  >Kyburg</placeName>. Unnd so <lb/>dickh die weidlüth vorgemellt den einung von
+               wëgen <lb/>ires sees machen wellend, sol allwëgen ein herr zuͦ <lb/><placeName
+                  ref="LOC_47.45249_8.7485">Kyburg</placeName> darby syn und den helffen machen.
+               Unnd sol <lb/>jeder vischer unnd weidmann imme als dann an syn hand <lb/>verloben, by
+               guten thrüwen zuhallten und dem nachzegahn <lb/>inn allen nachgeschribnen puncten
+               unnd articlen by <lb/>der buͦß einer marckh silbers, auch einer den anderen
+               <lb/>leiden by derselben glübt und buͦß. Unnd so dickh einer <lb/>den einung
+               übersicht ald darwider handlet, der sölle <lb/>umb die buͦß, wie obstat, gestraff
+               werden, doch so <lb/>sol es keinem an synen ehren nützit schaden. </p>
+            <pb n="66v" facs="B_VII_21_94__fol__66_v_.tif"/>
+
+            <p>
+               <lb/>Item der vischeren garn sol die haspel wand zwëntzig <lb/>und acht klaffter
+               lanng syn unnd die sturtz wannd so <lb/>lanng man will. </p>
+            <p>
+               <lb/>Item es soll ein jeder weidman den anderen vergen <lb/>mit garnen und mit
+               knëchten und keinen den anderen <lb/>sumen by vorgenannter buͦß unnd glübt. Dann
+               welicher <lb/>den annderen sumbte, so mögend als dann die annderen <lb/>einen knecht
+               uff deß sümigen schaden dingen, und will <lb/>derselbig knecht uff deß sümigen den
+               theil nit halb nemmen, <lb/>so soll man imm denselben theil, so sümig ist, gar und
+                  aller<lb break="no"/>dingen gëben. </p>
+            <p>
+               <lb/>Item es soll ein vierling fünff angel uff einem strich <lb/>einanderen
+               nachführen unnd nit nebent einannderen, <lb/>welliches innen die berenlüth
+               nachgelaßen habend. </p>
+            <p>
+               <lb/>Item unnd es söllend die garnlüth zuͦ jeder wochen <lb/>das gantz jar umb eben
+               dryg tag mit den garnen <pb n="67r" facs="B_VII_21_94__fol__67_r_.tif"/>
+               <lb/>zuͦ see faren unnd nit wyter gwalt haben, es <lb/>syge dann sach, das man
+               desselbigen uff ehrliche hochzyten <lb/>oder sonst ehehaffter ursachen wëgen
+               nothwendig sygen <lb/>und sy von einem heren zuͦ <placeName ref="LOC_47.45249_8.7485"
+                  >Kyburg</placeName> ald synen nachgesezten <lb/>ammbtlüthen erlouptnuß habind.
+               Deßglychen, wann <lb/>trübinen khemmind, mögind sy dann ouch wol faren, <lb/>doch
+               harinn zuͦgelassen zuͦ den brachßman, die söllen <lb/>keinen bann haben, sonnder sy
+               mögend die fachen, wann <lb/>sy die ankhommend, es syge glych amm sontag oder
+               <lb/>annderen tagen, aber das die vischer das brachßman<lb break="no"/>garn nit mehr
+               dann zuͦ den brachßman bruchen unnd <lb/>sonst uff kein annder visch ziehen, dann was
+               amm zug <lb/>ungefahrlich daryn khommen möchte mit dem an<lb break="no"/>hang, das
+               obstende verwilligete tag allwegen an den <lb/>bestimmpten dryg tagen abgahn unnd
+               dargegen sy inn <lb/>jeder wochen ein tag vomm morgen biß uff mittag zu <lb/>fischen
+               befügt syn, aber sonnsten ohne oberkeitliches <lb/>bewilligen ußert den dryg tagen
+               niemand zefischen <lb/>gewallt haben söllent. </p>
+            <p>
+               <lb/>Item es hannd dargëgen die vischer mit den garnen <lb/>den berenlüthen
+               nachgelassen, wann die karpfen <lb/>unnd die brachßman uff das lannd khommend, das
+               <lb/>sy dann uff sollche zyt unnd tag ouch daruff schalten <lb/>unnd die uff dem land
+               stëchen mögint. Doch söllend <lb/>sy die garn vischer imm ring an irem zug imm bogen
+                  unge<lb break="no"/>summpt lassen, es were dann sach, das einer <choice>
+                  <sic>vom</sic>
+                  <corr>von</corr>
+               </choice> den <pb n="67v" facs="B_VII_21_94__fol__67_v_.tif"/>
+               <lb/>garn vischeren da were, auch ob einer inn irem <lb/>zug beren inn synem fach
+               hette, so möchte er dann wol <lb/>inn den zug faren und luͦgen, ob etwas darinn were,
+               <lb/>aber als dann den vischeren wider uß dem bogen faren. </p>
+            <p>
+               <lb/>Item unnd so soll keiner keinen beren nebent die fach <lb/>nach inn die bintz
+               nit setzen, sonder ein jeder syne beren <lb/>inn syne fach setzen und inn syne fünff
+               grëben, die einer <lb/>zuͦ synen beren ernammßet unnd sonst inn kein anderen
+               <lb/>graben. </p>
+            <p>
+               <lb/>Deßglychen, wann einer inn syne fach zween beren <lb/>uff ein anderen satzte, so
+               soll er die aberich oder inschlöüff <lb/>glychling uff ein syten unnd nit wider
+               einanderen richten <lb/>unnd stellen. </p>
+            <p>
+               <lb/>Item es soll ouch ein jeder syne beren an reiffen <lb/>zeichnen und ein jeder
+               syn zeichen den seevögten <pb n="68r" facs="B_VII_21_94__fol__68_r_.tif"/>
+               <lb/>gëben, damit, so etwann ein beren funden wurde, <lb/>das man inn bekhennen
+               khönne, weß er syge unnd <lb/>kein gfar oder trug darmit bruchen, ouch die fel<lb
+                  break="no"/>baren desto besser erkhenndt und nach irem verwürcken <lb/>gestraft
+               werdint. </p>
+            <p>
+               <lb/>Item es soll keiner kein nüw fach nit machen by der buͦß <lb/>an zëchen pfund
+               haller. Ob aber einer ein alt fach <lb/>lengerete und beßerte, synem nachpuren ohne
+               schaden, <lb/>der soll darumb nit buͦßwürdig syn. </p>
+            <p>
+               <lb/>Item es söllend die alten unnd nüwen fach, wie <lb/>sy dißmaln gemachet,
+               verblyben. Allein, wann der <lb/>see umb etwas abschwynt, die landtfach ledig werd<lb
+                  break="no"/>ent unnd sy, die berenvischer, selbige besser inn see <lb/>ußhin
+               machend, damit sy ire bestimpten beren gesetzen <lb/>mögint, so söllend als dann
+               fürhin dieselbigen nüwen <lb/>fach bestan und die alten, einmal abgangnen oder ver<lb
+                  break="no"/>wachsnen fach, unangsechen, obglychwoll das wasser <lb/>widerummb sich
+               größern wurde, nit mehr gebrucht und zu <lb/>verhüetung gfar oder vorteils allwegen
+               die nüwen fach <lb/>inn eines seevogts und nachparen byweßen ordenlich <lb/>ußgezilet
+               werden. </p>
+            <pb n="68v" facs="B_VII_21_94__fol__68_v_.tif"/>
+            <p>
+               <lb/>Es soll ouch keiner mehr beren setzen, dann er <lb/>redlich erkoufft oder
+               erehrbt hat. </p>
+            <p>
+               <lb/>Item unnd es sond je zwëntzig beren ein geeren führen <lb/>und in fünffzëchen
+               beren ouch ein geeren führen. Wellich <lb/>aber minder hat, der soll keinen führen. </p>
+            <p>
+               <lb/>Doch ist nachgelassen, wo zwëntzig beren getheilt sind, die <lb/>dann ein geeren
+               führen und jeder zëchen beren hete, <lb/>so söllent sy dann den geeren ein wochen umb
+               die ander <lb/>führen unnd bruchen. </p>
+            <p>
+               <lb/>So mögent je zwëntzig beren fünff egli beren haben <lb/>unnd die fasten uß unnd
+               vierzechen tag lanng nach osteren <lb/>setzen, aber dennhin lënger nit. Darzuͦ soll
+               ein jeder <lb/>zenechst by synen fachen fünff grëben unnd mehr nit <lb/>haben nach
+               bruchen.</p>
+            <pb n="69r" facs="B_VII_21_94__fol__69_r_.tif"/>
+            <p>
+               <lb/>Item es soll ouch keiner dem annderen keinen garn <lb/>nit lychen. </p>
+            <p>
+               <lb/>Item es soll ouch niemandt schalten nach furggen, <lb/>dann die, so den einung
+               zehalten gelobt hand. Dann <lb/>wellicher das thuͦt, der soll den einung verfallen
+               syn <lb/>unnd darummb billicher müßen gebüßt werden. </p>
+            <p>
+               <lb/>Item unnd es söllent auch die bererlüth nit ehe uff <lb/>den see faren, dann
+               wann sy vom tag gesechen <lb/>mögent. </p>
+            <p>
+               <lb/>Item es soll ouch keiner syne fach lenger nit verlychen, <lb/>dann ein ganz jar.
+               Mag er einem syne fach mit allem züg, <lb/>so darzuͦ gehört, verlychen, derselbig mag
+               dann schalten und <lb/>anglen, wie der einung zuͦgibt. Unnd, so einer etwann
+               <lb/>syne fach gar ald halb oder etwann vil fach ein zyt lang <pb n="69v"
+                  facs="B_VII_21_94__fol__69_v_.tif"/>
+               <lb/>lychen wurde, so soll derselbig kein gwallt <lb/>haben, weder zeschalten nach
+               zeanglen inn keiner <lb/>zyt by obgemellter buͦß. </p>
+            <p>
+               <lb/>Item es soll ouch kein weidman synen angel imm see <lb/>nit verlychen, er lyche
+               imm dann den vierling garn darzuͦ. </p>
+            <p>
+               <lb/>Item es soll ouch niemandts kein sonder angel, weder <lb/>größer nach kleiner,
+               setzen dann wie von alter har. </p>
+            <p>
+               <lb/>Item zuͦ schalten ist den berenlüthen nachgelaßen all<lb break="no"/>wegen amm
+               mentag, wo sy uff dem see wellent und <lb/>nit mehr. Ob aber amm mentag ein fyrtag
+               were, <lb/>dann söllend sy inn derselben wochen kein tag schalten <lb/>anderst dann
+               ein jeder inn syner weid. Darinn mag <lb/>er schalten, so dickh er will, es were dann
+               sach, das <lb/>ein nachpur dem annderen inn syner weid fehrner <lb/>vergunen welte.
+               Aber dem seevogt soll zuͦ gelaßen <lb/>syn zeschalten, so offt unnd dickh er will. </p>
+            <pb n="70r" facs="B_VII_21_94__fol__70_r_.tif"/>
+            <p>
+               <lb/>Item es soll ouch kein weidman weder schalten nach <lb/>anglen dann der, so die
+               beren setzt und bërt. Der mag <lb/>wol schalten und anglen uff dem tag, so er setzt
+               unnd <lb/>bërt, unnd sonnst keiner uß synem huß weder schalten <lb/>nach anglen, es
+               syge dann sach, das der, so sezt und bërt, <lb/>vorhin ab dem see heimb khombt, denn
+               so mag syn knecht <lb/>oder sohn ald wer mit imm huß hatt uff den see faren <lb/>unnd
+               anglen ald schalten uff die tag, daran man schalten soll. </p>
+            <p>
+               <lb/>Item so an einem mentag ein fyrtag were, so <lb/>sölle dann niemandts uf den see
+               fahren, es syge <lb/>dann imm brachßman- oder karpfenleich, deßglychen <lb/>amm
+               sontag nit belchen jagen, ouch nit steffzgen <lb/>legen nach darzuͦ luͦgen unnd ouch
+               die beren vischer <lb/>amm morgen vor bëttzyt nit schalten, sonnder erst <lb/>darnach
+               fharen. </p>
+            <p>
+               <lb/>Item es soll auch keiner kein schwaalberen nit setzen, <lb/>anderst dann imm
+               leich vierzechen tag unnd nit lenger. <lb/>Unnd welicher zwëntzig beren hat, der mag
+               dryg <lb/>schwalberen setzen. Item so einer fünffzëchen beren hat, <lb/>soll zween
+               schwalberen, und welicher minder hat, <lb/>der soll nur ein schwalberen setzen und
+               wyters nit. </p>
+            <pb n="70v" facs="B_VII_21_94__fol__70_v_.tif"/>
+            <p>
+               <lb/>Item dem hecht unnd schlygen meß sol nachgangen unnd <lb/>gehalten werden, wie
+               von alterhar, unnd jeder dasselbig <lb/>mëß uff synem granßen füehren imm sommer unnd
+               zuͦ <lb/>wyters zit an syner furggen unnd mit nammen das hecht <lb break="no"/>meß
+               zwölff zol unnd das schlygenmëß sëchs zol lanng <lb/>zebruchen vergünstiget syn. </p>
+            <p>
+               <lb/>Item es soll ouch keiner keinen storrberen nach feimer <lb/>haben zuͦ den
+               glyßen. Unnd wellicher derglychen hat, <lb/>der soll dieselbigen hinwëg thuͦn. </p>
+            <p>
+               <lb/>Item es söllent ouch sonsten weder die vischer mit dem <lb/>garn nach die
+               berenlüth kein glyßen nit fachen weder <lb/>inn den garnen nach inn beren ohne des
+               seevogts wüßen <lb/>unnd erlouben. Anderst, so man einem vogt zuͦ <placeName
+                  ref="LOC_47.45249_8.7485">Kyburg</placeName>, item <lb/>einer schwangeren frouwen
+               oder anderen persohnen <lb/>zuͦ ehren die fachen wölte, so soll man doch dieselb<lb
+                  break="no"/>en annderst nit dann inn bysyn dryg ald vier <lb/>vischeren zefachen
+               gwallt haben. </p>
+            <p>
+               <lb/>Item es sol ouch nienmandts keinenn frömbden züg <pb n="71r"
+                  facs="B_VII_21_94__fol__71_r_.tif"/>
+               <lb/>nach kein ruͦder imm see nit bruchen nach führen. <lb/>Item ouch kein nezi
+               tropfen oder gnepfgarn daryn <lb/>sezen by der buͦß an fünff pfund haller. </p>
+            <p>
+               <lb/>Item das anglen mag man woll thun wie vor alterhar <lb/>sovehr einer ohne senkel
+               mit der ruͦten stochen mag <lb/>doch jeder inn syner weid unnd keiner dem annderen
+               inn <lb/>syner weid nit anglen dann das einer by synem ersten <lb/>fach anfachen und
+               anglen biß er zuͦ synem verristen unnd <lb/>letsten kommbt unnd nit wyter unnd soll
+               keiner <lb/>dem annderen an syn staglenhefften unnd nammlich ein <lb/>jeder vor synen
+               beren anglen unnd dem annderen vor <lb/>synen beren nit anglen. </p>
+            <p>
+               <lb/>Item zwüschent dem bach unnd der alten staglen mag <lb/>jederman anglen so wyt
+               er mit der ruͦten stokhen mag. </p>
+            <p>
+               <lb/>Item wellicher amm see kein theil unnd gerechtigkeit <pb n="71v"
+                  facs="B_VII_21_94__fol__71_v_.tif"/>
+               <lb/>hat derselbig sölle kein gwalt haben imm schiff ußhin <lb/>zefaren gehn anglen
+               anderst dann allein so wyt er gwatt<lb break="no"/>en mag deßglychen weiteres zyt
+               wann der see <lb/>gefroren ist soll er ouch nit wyter ußhin gahn gehn <lb/>anglen
+               denn als veer man vermeint er gwatten und <lb/>grund haben möchte. </p>
+            <p>
+               <lb/>Es sölle ouch niemandts weder die weidlüth nach jemandts <lb/>annderer so amm
+               see nützit habent, an keinem sontag nach <lb/>fyrtag, weder inn schiffen oder granßen
+               uff den <lb/>see nach vmb den see uff dem land nit anglen beren <lb/>lupfen oder
+               setzen sonnder dasselbig an sollchen tagen <lb/>wie billich underlassen werden by der
+               buͦß fünff <lb/>pfund haller. </p>
+            <p>
+               <lb/>Item beidersyts garne vischer söllend wyter wie <lb/>bißhar gmein fharen unnd
+               was sy fachend oder er<lb break="no"/>vischend, zuͦ glych mit einanderen theilen doch
+                  all<lb break="no"/>wegen umb zechen uhren vor mittag ab dem see zuͦ <lb/>fharen
+               schuldig und dargegen befüegt syn ein zug an <lb/>dem anderen oder an den orten
+               zethun da es sy <lb/>amm besten bedunckt wie sollches von alter unnd <lb/>bißhar
+               gebrucht worden. </p>
+            <pb n="72r" facs="B_VII_21_94__fol__72_r_.tif"/>
+            <p>
+               <lb/>Item es söllend die vischer gemeinlich jederzyt <lb/>einem herrn zuͦ <placeName
+                  ref="LOC_47.45249_8.7485">Kyburg</placeName> burgern grafschafft unnd
+               <lb/>landtlüthen uff ir begeren vorab unnd dann erst <lb/>annderen persohnen ussert
+               myner gnedigen herrn <lb/>gricht unnd gebieth umb das gelt visch zegeben
+               <lb/>verbunden syn unnd wann die vischtrager zuͦ <lb/>innen den garnn vischern fharen
+               wellend söllend sy den <lb/>berenlüthen nit durch die rohr oder bintzen fharen
+               <lb/>sonnder ußerthalb syn unnd verblyben ouch sy die <lb/>vischtrager dhein eigen
+               schiff haben <add place="above" hand="otherHand"><unclear>allweg</unclear></add> by
+               vorangezogner <lb/>buͦß unnd straff. </p>
+            <p>
+               <lb/>Item wie bißhar imm egli leich die beren an die flügel <lb/>ußhin geszt worden
+               so söllend dieselbigen im <lb/>ansechung dessen das die alten fach besten theils
+               <lb/>verwachßen fürhin wyter allso sgezt werden <lb/>ald einer dieselbigen hinden inn
+               schlund setzen möge <lb/>nach synem gfallen. </p>
+            <p>
+               <lb/>Item was das graßen unnd ströüwen uf der <pb n="72v"
+                  facs="B_VII_21_94__fol__72_v_.tif"/>
+               <lb/><placeName ref="LOC_47.338997_8.778879">Ißlen</placeName> unnd dem böschen
+               belanngt da soll <lb/>die <placeName ref="LOC_47.338997_8.778879">Ißlen</placeName>
+               inn zween glyche theil mit wyden unnder<lb break="no"/>scheiden werden der ein halbe
+               theil der garn- <lb/>unnd bervischeren von <placeName ref="LOC_47.36453_8.79202"
+                  >pfëffickhen</placeName> zuͦ dienen unnd <lb/>der annder halbe theil glychfhals
+               denen von See<lb break="no"/>greben ghören unnd dann der böschen beidersyts <lb/>garn
+               vischer allein nutzen unnd bruchen. </p>
+            <p>
+               <lb/>Sovil dann die ströüwi unnd anders zwüschent <lb/>den beren antrifft so soll
+               khein theil dem annderen <lb/>inn synem bezirckh der fachen weder graßen nach
+               <lb/>ströüwen sonnders je einer den annderen deß<lb break="no"/>halben rüewig und
+               inne darmit ungesumpt <lb/>verfaren laßen. Item ouch jenige so nützit amm <lb/>see
+               habend einem oder dem annderen beren vischer <lb/>inn oder zuͦ synen fachen nit
+               fharen ald winters <lb/>zyt uffem yß zuͦ den beren zegahn dheins wegs <lb/>gwallt
+               haben. </p>
+         </div>
+         <pb n="73r" facs="B_VII_21_94__fol__73_r_.tif"/>
+         <div>
+            <head type="subtitle">
+               <lb/>Von den schiffstellinen deß glychen den hecht<lb break="no"/>beren unnd
+               brachßman beren auch den <lb/>brittlinen unnd hecht angel sammbt <lb/>der seevögten
+               gwalt und pflicht. </head>
+            <p>
+               <lb/>Item unnd es söllent die weidlüth garnn unnd <lb/>berenlüth nit mehr dann zwo
+               stellinen mit iren <lb/>schiffen haben nammlich die ein zuͦ <placeName
+                  ref="LOC_47.34124_8.77131">Seegreben</placeName> unnder <lb/>dem garn hüßli unnd
+               die annder zuͦ <placeName ref="LOC_47.36453_8.79202">Pfëffickhen</placeName>
+               <lb/>an der staglen genannt auch vor dem garnhüßli. <lb/>Es hette dann einer an den
+               zwey orten inndert ëters <lb/>uff dem synen ein eigne rechtsammi oder stelli, doch
+               <lb/>soll ein jeder syn schiff an einer kettenen sammpt einem <lb/>schloß verwart
+               unnd anbeschlossen haben unnd es <lb/>soll ouch keiner dem anderen syn schiff
+               unerloubt <lb/>von der stelli und dem land nit nemmen. </p>
+            <p>
+               <lb/>Item die hechtberen sond nit größer syn dann sechs <lb/>unnd sechzige mëschen
+               unnd über das brittli wie <lb/>es jetzunder geordnet ist darby soll es belyben
+               <lb/>unnd die hechtberen an mëschen nit ënger syn <lb/>ouch kein beren mit zweyen
+               schlünden gemacht <pb n="73v" facs="B_VII_21_94__fol__73_v_.tif"/>
+               <lb/>nach zwüschent zwenn stëckhen ußert gwonnlichen <lb/>fachen wie an etlichen
+               orten funden worden. <lb/>Genzlich nit mehr gesetzt werden by angedüter <lb/>buͦß
+               unnd straff. </p>
+            <p>
+               <lb/>Item die brachßman beren sond nit wyter syn dann <lb/>sëchzig mëschen wyt unnd
+               über die brittli gemacht <lb/>werden wie sy darzuͦ geordnet sind nammlich söllen
+               <lb/>vier yßeni britli gemachet werden zwey zuͦ den <lb/>hecht beren unnd zwey zuͦ
+               den brachßman beren und <lb/>söllen die seevögt die britli haben und sölle keiner
+               <lb/>mehr brachßman beren sezen dann sovil er egli <lb/>beren zesezen befüegt ist. </p>
+            <p>
+               <lb/>Item es soll auch keiner kein beren über kein <lb/>annder britli brütten dann
+               wie von alterhar <lb/>gebrucht unnd man es mit einannderen eins <lb/>wirt, wie groß
+               es syn sölle, unnd mit nammen <lb/>ein britli zuͦ <placeName
+                  ref="LOC_47.34124_8.77131">Segreben</placeName> unnd eins zuͦ <placeName
+                  ref="LOC_47.36453_8.79202">Pfeffickhen</placeName>
+               <lb/>haben, damit es ein glychheit syge unnd sölle ouch <lb/>sonnsten niemandts keine
+               nüwen beren nach züg imm <lb/>see machen nach setzen, anderst wie bishar brüchig
+               gsyy. </p>
+            <pb n="74r" facs="B_VII_21_94__fol__74_r_.tif"/>
+            <p>
+               <lb/>Item die schwalberen söllend nit enger syn dann <lb/>über das drit britli, einer
+               möcht aber die woll <lb/>wyter machen. </p>
+            <p>
+               <lb/>Item es soll ouch keiner kein kleineren nach größern <lb/>angel zuͦ den hechten
+               sezen nach bruchen dann uff diße <lb/>form, gattung und gstalt, wie hierunder
+               verzeichnet stat. </p>
+            <figure/>
+            <p>
+               <lb/>Item die seevögt söllend gwalt haben, uff dem see umb <lb break="no"/>hin
+               zefharen, uff die übertrettenden zeluͦgen und acht <lb/>zehaben so dickh unnd vill sy
+               wellend. Und wellchen <pb n="74v" facs="B_VII_21_94__fol__74_v_.tif"/>
+               <lb/>sy schuldig oder felbar erfindent, denselbigen <lb/>angëben, doch allwëgen kein
+               monat verschynen <lb/>lassen, derselb soll als dann jedem seevogt für und <lb/>an syn
+               müey und arbeit zuͦ sammbt einer buͦß fünff <lb/>schilling zur belonung geben,
+               ußrichten und bezalen. </p>
+            <p>
+               <lb/>Unnd dann, <add place="above">so</add> ein seevogt ein vischer uff dem see er<lb
+                  break="no"/>gryfft, soll derselb schuldig syn, inne ohne widerred <lb/>sechen
+               zelassen, ob er mëßig oder unmëßig visch ge<lb break="no"/>fanngen. </p>
+            <p>
+               <lb/>Item es soll ouch ein jeder weidman den anderen <lb/>leiden by den glübt unnd
+               buͦß, so er uff dißen <lb/>einung geschworen und gethan hat unnd so einer <lb/>den
+               annderen nit angëben und das kundtlich wurde, <lb/>das ers gwüßt und nit gleidet
+               hete, derselb soll <lb/>glychergstalt wie der, so den einung übertrëten <lb/>unnd nit
+               gehalten, umb die buͦß gestrafft werden <lb/>ohne gnad. </p>
+            <pb n="75r" facs="B_VII_21_94__fol__75_r_.tif"/>
+            <p>
+               <lb/>Unnd also soll dißer einung inn crefften bestan und ver<lb break="no"/>blyben
+               unnd der von jedem abgeschribnen wyss und mâß <lb/>gehalten werden, so lang der von
+               gmeinen weidlüthen <lb/>unnd vischern mit sammbt einem heren zuͦ <placeName
+                  ref="LOC_47.45249_8.7485">Kyburg</placeName> nit <lb/>annderwert geenderet wirt.
+               Unnd was dann under <lb/>innen das mehr wirt, dem soll der minder theil volgen.
+               <lb/>Jedoch, wenn ein unzimmlicher articel gemehret wurde, <lb/>soll und mag
+               derselbig durch die oberkeit woll ge<lb break="no"/>bürender mâßen ufghept unnd
+               crafftloß erkhendt werden. </p>
+            <p>
+               <lb/>Sölliches alles ouch gmein weidlüth, beren- und garnlüth, <lb/>an vorbemellts
+               herrn <persName ref="GND_1074540360">Hannß Heinrich Müllers</persName>, vogts
+               <lb/>zuͦ <placeName ref="LOC_47.45249_8.7485">Kyburg</placeName>, hand in nammen
+               unßer allersits gnedigen <lb/>herrn unnd oberen von <placeName
+                  ref="LOC_47.36667_8.55">Zürich</placeName> wahr unnd steht zehalten <lb/>gelobt
+               und versprochen habend, wie anfanget geschriben stat. </p>
+            <p>
+               <lb/>Unnd sind zuͦ seevögten genommen unnd gesetzt worden: </p>
+            <p>
+               <lb/>Junckher <persName ref="GND_118853635">Heinrich Escher</persName>, burger
+                  <placeName ref="LOC_47.36667_8.55">Zürich</placeName>, seßhaff zuͦ <placeName
+                  ref="LOC_47.36453_8.79202">Pfeffickhen</placeName>
+            </p>
+            <p>
+               <lb/><persName>Ulrich Tobler</persName> von <placeName ref="LOC_47.34124_8.77131"
+                  >Seegreben</placeName>
+            </p>
+            <p>
+               <lb/>Beschëchen mittwochs den <origDate when="1625-06-01">1ten junii imm j<hi
+                     rend="sup">m</hi> vj<hi rend="sup">c</hi> xxv <lb/>jar</origDate>. </p>
+         </div>
+         <pb n="75v" facs="B_VII_21_94__fol__75_v_.tif"/>
+         <div>
+            <p>
+               <lb/>Uff den <origDate when="1631-05-18">18ten may anno 1631</origDate> ist zuͦ
+                  <placeName ref="LOC_47.36453_8.79202">Pfefficken</placeName>
+               <lb/>dißer vischer einung widerumb abgeleßen, <lb/>bestehtiget und gehalten gelopt
+               worden <lb/>inn bysyn hern landtvogt <persName>Rahnen</persName> zuͦ <placeName
+                  ref="LOC_47.45249_8.7485">Kyburg</placeName>
+               <lb/>und synen ambtlüten.</p>
+            <p>
+               <lb/>Und warend damâln zuͦ <lb/>seevögten erwellt <lb/>an der alten verstorbnen
+               <lb/>seligen statt: </p>
+            <p>
+               <lb/><persName>Jacob Schellenberg</persName> (zuͦgenant <unclear>Schererer</unclear>)
+               von <lb/><placeName ref="LOC_47.36453_8.79202">Pfefficken</placeName>
+               <lb/><persName>Mathys Tobler</persName> von <placeName ref="LOC_47.338997_8.778879"
+                  >Otenhußen</placeName>
+            </p>
+         </div>
+         <div>
+            <p>
+               <lb/>Uff den <origDate when="1636-04-23">23sten aprelen anno 1636</origDate> ward zuͦ
+                  <lb/><placeName ref="LOC_47.36453_8.79202">Pfefficken</placeName> der vischer
+               einung abermaln abge<lb break="no"/>leßen, bestethiget und zehalten <add
+                  place="above">an</add>gelobt <lb/>vor Jungkherr <persName ref="GND_125937341X"
+                  >Gerold Grebeln</persName> dißerzyth <lb/>landtvogt zuͦ <placeName
+                  ref="LOC_47.45249_8.7485">Kyburg</placeName> und synen ambtlüthen. </p>
+            <p>
+               <lb/>Zuͦ seevögten sind damâln erwelt: </p>
+            <p>
+               <lb/><persName>Hannß Heinrich Schellenberg</persName> von <placeName
+                  ref="LOC_47.36453_8.79202">Pfefficken</placeName>
+               <lb/>und <persName>Andreas Tobler</persName> der jung zuͦ <placeName
+                  ref="LOC_47.338997_8.778879">Ottenhußen</placeName>
+            </p>
+         </div>
+         <div>
+            <p>
+               <lb/>Uff den <origDate when="1642-05-21">21sten marty anno 1642</origDate> ward dißer
+                  vischer-<lb break="no"/>einung zuͦ <placeName ref="LOC_47.36453_8.79202"
+                  >Pfefficken</placeName> widerumb abgeleßen, be<lb break="no"/>stethiget und
+               zehalten angelobt vor herren <persName>Johann <lb/>Rudolff Wolffen</persName> deß
+               raths und alt buwherr <lb/>der statt <placeName ref="LOC_47.36667_8.55"
+                  >Zürich</placeName> dißerzyth landtvogt der <lb/>grafschafft <placeName
+                  ref="LOC_47.45249_8.7485">Kyburg</placeName> und synen ambtlüthen. </p>
+            <p>
+               <lb/>Zuͦ seevögten sind damâln erwelt: </p>
+            <p>
+               <lb/><persName>Hannß Rudolff Mock</persName> zuͦ <placeName
+                  ref="LOC_47.36453_8.79202">Pfefficken</placeName>
+               <lb/>und <persName>Heinrich Tobler</persName>, der Wagner zuͦ <placeName
+                  ref="LOC_47.34124_8.77131">Seegreben</placeName>
+            </p>
+            <p>
+               <lb/>Landtschryber <persName>Löüw</persName>
+               <placeName ref="LOC_47.36453_8.79202">Pfefficken</placeName>. </p>
+         </div>
+         <pb n="76r" facs="B_VII_21_94__fol__76_r_.tif"/>
+         <div>
+            <p>
+               <lb/>Uff den <origDate when="1646-04-05">5ten aprilis anno 1646</origDate> ist zuͦ
+                  <placeName ref="LOC_47.36453_8.79202">Pfefficken</placeName>
+               <lb/>dißer vischer-einung abermâls abgeleßen, bestethi<lb break="no"/>get und
+               zehalten angelobt worden herrn <persName>Hannß <lb/>Heinrich Wasern</persName>, der
+               zyth herren zuͦ <placeName ref="LOC_47.45249_8.7485">Kyburg</placeName>, inn bysyn
+               <lb/>syner der enden nachgesezten ambtlüthen. </p>
+            <p>
+               <lb/>Zuͦ seevögten warend damâls erwellt <lb/>und bestethiget: </p>
+            <p>
+               <lb/><persName>Heinrich Schellenberg</persName> uffem <placeName
+                  ref="LOC_47.37344_8.823848">Bül</placeName> zuͦ <placeName
+                  ref="LOC_47.36453_8.79202">Pfefficken</placeName>
+               <lb/><persName>Andreas Tobler</persName> zuͦ <placeName ref="LOC_47.34124_8.77131"
+                  >Seegreben</placeName>
+            </p>
+         </div>
+         <div>
+            <p>
+               <lb/>Uff den <origDate when="1652-06-13">13 juny anno 1652</origDate> ward zuͦ
+                  Pfeffikh<lb break="no"/>en diser vischer einung abermaln abgeläßen,
+               <lb/>bestettgiet und zehalten mir angelopt <lb/>worden in bysyn der beambten der
+               ënden. </p>
+            <p>
+               <lb/>Und sind zuͦ seevögten <lb/>erwelt: </p>
+            <p>
+               <lb/><persName>Hans Jacob Clauß</persName> von <placeName ref="LOC_47.36453_8.79202"
+                  >Pfëffikhen</placeName>
+               <lb/><persName>Ruͦdli Hürliman</persName> von <placeName ref="LOC_47.338997_8.778879"
+                  >Otenhusen</placeName>
+            </p>
+            <p>
+               <lb/><persName>Johann Wilhelm Wolff</persName>, <lb/>landvogt zuͦ <placeName
+                  ref="LOC_47.45249_8.7485">Kyburg</placeName>
+               <unclear>scrt</unclear>. </p>
+         </div>
+         <div>
+            <p>
+               <lb/>Uff <origDate when="1658-06-06">sontag, den 6ten juny anno 1658</origDate>, ist
+               zuͦ <placeName ref="LOC_47.36453_8.79202">Pfefficken</placeName>
+               <lb/>der vischeren einung abermahln abgeleßen, bestethi<lb break="no"/>get und
+               zuͦhalten angelobt worden vor herrn <persName ref="GND_115599266">Johanny
+                  <lb/>Heinrichn Rahn</persName>, deß regiments und alt zügherr der <lb/>statt
+                  <placeName ref="LOC_47.36667_8.55">Zürich</placeName>, und dißerzyt landtvogt der
+                  graf<lb break="no"/>schafft <placeName ref="LOC_47.45249_8.7485"
+                  >Kyburg</placeName>, und synen nachgesezten beambteten.</p>
+            <p>
+               <lb/>Zuͦ seevögten sind damahls erwellt worden: </p>
+            <p>
+               <lb/><persName>Hanß Schellenberg</persName>, richter, uffm <placeName
+                  ref="LOC_47.37344_8.823848">Bühl</placeName> zuͦ <placeName
+                  ref="LOC_47.36453_8.79202">Pfefficken</placeName>
+               <lb/>und <lb/><persName>Hans Hürzel</persName> zuͦ <placeName
+                  ref="LOC_47.34124_8.77131">Seegräben</placeName>
+            </p>
+         </div>
+         <pb n="76v" facs="B_VII_21_94__fol__76_v_.tif"/>
+         <div>
+            <p>
+               <lb/>Uff <origDate when="1664-05-08">sontag, den 8ten mayen anno 1664</origDate>, ist
+               zuͦ <placeName ref="LOC_47.36453_8.79202">Pfefficken</placeName>
+               <lb/>der fischer einung abermahln abgeleßen, bestethiget <lb/>und zuͦ halten angelobt
+               worden vor Jungkher <persName>Andreas <lb/>Schmidn</persName>, alt stattschryber und
+               deß regimentt <lb/>der statt <placeName ref="LOC_47.36667_8.55">Zürich</placeName>,
+               dißer zyt Landvogt der graf<lb break="no"/>schafft <placeName
+                  ref="LOC_47.45249_8.7485">Kyburg</placeName>, und synen nachgesezten beambteten
+               <lb/>in byweßen auch Jungkher <persName>Achior Meißn</persName>, grichts<lb
+                  break="no"/>herrn zuͦ <placeName ref="LOC_47.3264_8.79779">Wetzicken</placeName>,
+               und jungkher haubtman <lb/><persName>Hanß Erhard Schmidn</persName>, grichtsherrn zuͦ
+                  <placeName ref="LOC_47.4472_8.70443">Kembten</placeName>. </p>
+            <p>
+               <lb/>Zuͦ seevögten warend damahls erwellt: </p>
+            <p>
+               <lb/>Leütenant <persName>Hanß Jacob Gubler</persName>, richter zuͦ <placeName
+                  ref="LOC_47.36453_8.79202">Pfefficken</placeName>, <lb/>und <lb/><persName>Hanß
+                  Tobler</persName>, wagners <choice>
+                  <abbr>sel</abbr>
+                  <expan>seligen</expan>
+               </choice> sohn, zuͦ <placeName ref="LOC_47.34124_8.77131">Seegräben</placeName>
+            </p>
+         </div>
+         <div>
+            <p>
+               <lb/>Uff <origDate when="1670-03-20">sontag, den 20sten martyen anno 1670</origDate>
+               ist zuͦ Pfëffic<lb break="no"/>ken der fischeren einung abermahln abgeleßen, be<lb
+                  break="no"/>stethiget und zuͦ halten angelobt worden vor herrn
+                  <lb/><persName>Heinrich Eschern</persName>, des raths und alt stadt haubtman
+               <lb/>der stadt <placeName ref="LOC_47.36667_8.55">Zürich</placeName>, dißer zyth
+               landvogt der graaf<lb break="no"/>schafft <placeName ref="LOC_47.45249_8.7485"
+                  >Kyburg</placeName>, und synen nachgesezten beambten <lb/>in byweßen jungkhert
+               quartier-haubtman <persName>Hanß <lb/>Ehrhardt Schmidn</persName>, grichtsherrn zuͦ
+                  <placeName ref="LOC_47.4472_8.70443">Kembten</placeName>. </p>
+            <p>
+               <lb/>Zuͦ seevögten warend damahln erwellt: </p>
+            <p>
+               <lb/>Seckelmeister <persName>Heinrich Stutz</persName>, richter zuͦ <placeName
+                  ref="LOC_47.36453_8.79202">Pfëfficken</placeName>, <lb/>und <lb/><persName>Andreas
+                  Buͦwman</persName> zuͦ <placeName ref="LOC_47.34124_8.77131">Seegreben</placeName>
+            </p>
+            <p>
+               <lb/>Landschryber <persName>Wirtz</persName>
+            </p>
+         </div>
+         <pb n="77r" facs="B_VII_21_94__fol__77_r_.tif"/>
+         <div>
+            <p>
+               <lb/>Uff <origDate when="1676-04-02">sonntag, den 2ten aprelln anno 1676</origDate>
+               ist zuͦ <lb/><placeName ref="LOC_47.36453_8.79202">Pfëfficken</placeName> der
+               fischeren-einung abermahln <lb/>abgeleßen, bestethigett und zuͦ halten angelobt
+               <lb/>worden vor herrn <persName>Johann Rudolff Ulrichn</persName>, alt
+               <lb/>stadtschryber und des regiments der stadt <lb/><placeName
+                  ref="LOC_47.36667_8.55">Zürich</placeName>, dißer zyth landvogt der graafsthafft
+                  <lb/><placeName ref="LOC_47.45249_8.7485">Kyburg</placeName>, und synen
+               nachgesezten beambten.</p>
+            <p>
+               <lb/>Zuͦ seevögten warend erwellt: </p>
+            <p>
+               <lb/><persName>Jacob Schlumpff der jung <unclear>Scheerer</unclear></persName> zuͦ
+                  <placeName ref="LOC_47.36453_8.79202">Pfefficken</placeName>
+               <lb/><persName>Hanß Gujer</persName> zuͦ <placeName ref="LOC_47.338997_8.778879"
+                  >Ottenhußen</placeName>
+            </p>
+            <p>
+               <lb/>Landschryber <persName>Wirtz</persName>
+            </p>
+         </div>
+      </body>
+      <back>
+         <div>
+            <p>Die Fischenz im <placeName ref="LOC_47.35208_8.78102">Pfäffikersee</placeName> war
+               ursprünglich ein Lehen der <persName ref="GND_118544233">Habsburger</persName> und
+               gelangte 1424 mit der Grafschaft <placeName ref="LOC_47.45249_8.7485"
+                  >Kyburg</placeName> an die Stadt <placeName ref="LOC_47.36667_8.55"
+                  >Zürich</placeName>. Zu verkaufen waren die Fische auf dem Markt der Stadt
+                  <placeName ref="LOC_47.50564_8.72413s">Winterthur</placeName>. Dabei traten die
+               Fischer aus <placeName ref="LOC_47.36453_8.79202">Pfäffikon</placeName> und
+                  <placeName ref="LOC_47.34124_8.77131">Seegräben</placeName> bereits im ausgehenden
+               Mittelalter als genossenschaftlich organisierte Gemeinschaft auf, vgl. Heimatbuch
+               Pfäffikon 1962, S. 70-71, S. 104-105.</p>
+            <p>Ob die Fischereinung von <placeName ref="LOC_47.36453_8.79202">Pfäffikon</placeName>
+               schon vor 1625 schriftlich festgehalten wurde, ist ungewiss. Die vorliegende Fassung
+               scheint die älteste erhaltene zu sein. Dass der Text regelmässig verkündet wurde,
+               bezeugen die Nachträge bis 1676. Fand die Verkündigung anfänglich noch mitten in der
+               Amtszeit des jeweiligen Landvogts von <placeName ref="LOC_47.45249_8.7485"
+                  >Kyburg</placeName> statt, so erfolgte sie ab dem Tod von <persName>Hans Rudolf
+                  Wolf</persName> 1645 jeweils zum Amtsantritt eines neuen Landvogts alle sechs
+               Jahre. Anlässlich der Verkündigung wurden jedes Mal zwei neue Seevögte gewählt. Von
+               den beiden Seevögten stammte jeweils einer aus der Gemeinde <placeName
+                  ref="LOC_47.36453_8.79202">Pfäffikon</placeName> und einer aus der Gemeinde
+                  <placeName ref="LOC_47.34124_8.77131">Seegräben</placeName> oder <placeName
+                  ref="LOC_47.338997_8.778879">Ottenhausen</placeName>. Allgemein zu den
+               Fischereinungen im <placeName ref="LOC_47.36667_8.55">Zürcher
+                  Herrschaftsgebiet</placeName> vgl. <bibl><ref
+                     target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html"
+                     >Hugener/Schaffner 2023</ref></bibl>.</p>
+         </div>
+      </back>
+   </text>
+</TEI>

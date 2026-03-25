@@ -1,0 +1,431 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='../../Ressourcen/Stylesheet.xsl'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quellen zur Zürcher Geschichte</title>
+        <respStmt>
+          <persName>Anina Steinmann. Mit einem Kommentar von Michael
+            Schaffner</persName>
+          <resp key="transcript"/>
+        </respStmt>
+        <respStmt>
+          <persName>Anina Steinmann und Michael Schaffner</persName>
+          <resp key="tagging"/>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Staatsarchiv des Kantons Zürich</publisher>
+        <date type="electronic" when="2021-05-01"/>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Quellen zur Zürcher Geschichte</title>
+        <respStmt>
+          <persName>Staatsarchiv des Kantons Zürich</persName>
+          <resp>Herausgeberschaft</resp>
+        </respStmt>
+        <idno>QZH_070</idno>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4763435">StAZH C II
+              12, Nr. 482</idno>
+          </msIdentifier>
+          <head>Verkauf des Laienzehnten sowie Schenkung von Kirchensatz und Kirche in Fehraltorf von Herdegen von Hinwil und seiner Ehefrau Margareta von Schienen an das Kloster Rüti</head>
+          <msContents>
+            <summary>Herdegen von Hinwil verkauft Abt und Konvent des Klosters Rüti den Laienzehnten von Fehraltorf, genannt der Schlatter, mit allen dazugehörenden Rechten und Nutzungen mit der einzigen Bedingung, dass davon auch weiterhin jährlich für Seelgerät 7 Mütt Kernen und 7 Zehnthühner an die Pfarrkirche von Rapperswil abzugeben sind, zur Verwendung gemäss dem dortigen Jahrzeitbuch. Weiter schenkt Herdegen von Hinwil dem Kloster Rüti den Kirchensatz und die Kirche von Fehraltorf einschliesslich dem dortigen Grossen Kirchenzehnten und allen Pfründen, Besitzungen und weiteren Rechten. Den zum Zeitpunkt der Schenkung eine Pfründe innehabenden Priestern soll diese belassen werden. Der Verkauf des Laienzehnten erfolgt für den Betrag von 1200 Rheinischen Gulden, die Herdegen von Abt und Konvent des Klosters Rüti erhalten hat. Herdegen von Hinwil quittiert den Kauf für sich und alle seine Erben und verzichtet jetzt und für alle künftige Zeit auf die genannten Einkünfte und Rechte, einschliesslich des Rechts auf Anfechtung der genannten Güterübertragungen. Margareta von Hinwil, geborene von Schienen, Ehefrau des Herdegen von Hinwil, verzichtet auf die Sicherheit, die ihr auf den Laienzehnten von Fehraltorf, den Kirchensatz und den dortigen Grossen Kirchenzehnten für ihre Ehesteuer von 900 Gulden anlässlich ihrer Heirat ausgestellt worden ist, mit Einverständnis ihres Vogts.
+            Es siegeln Herdegen von Hinwil, Caspar Blarer, Bürger von Rapperswil, Bilgeri Steiner, Schultheiss von Rapperswil, sowie auf Bitten der Margareta, geborener von Schienen, Hartmann von Hünenberg als ihr Vogt.</summary>
+            <msItem>
+              <textLang>Deutsch</textLang>
+              <filiation type="current">Original</filiation>
+              <filiation type="original">
+                <origDate when="1469-02-09" />
+              </filiation>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <support>
+                  <material>Pergament</material>
+                </support>
+                <extent>
+                  <dimensions type="leaves">
+                    <height unit="cm" quantity="67.0" />
+                    <width unit="cm" quantity="39.5" />
+                  </dimensions>
+                  <dimensions type="plica">
+                    <width unit="cm" quantity="5.0" />
+                  </dimensions>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+            <sealDesc>
+              <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1"
+                nontei:material="wax" nontei:shape="round"
+                nontei:attachment="sealed on a parchment tag"
+                nontei:condition="well-preserved">
+                <persName role="sigillant"
+                  >Herdegen von Hinwil</persName>
+              </seal>
+              <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="2"
+                nontei:material="wax" nontei:shape="round"
+                nontei:attachment="sealed on a parchment tag"
+                nontei:condition="well-preserved">
+                <persName role="sigillant">Caspar Blarer</persName>
+              </seal>
+              <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="3"
+                nontei:material="wax" nontei:shape="round"
+                nontei:attachment="sealed on a parchment tag"
+                nontei:condition="well-preserved">
+                <persName role="sigillant">Bilgeri Steiner</persName>
+              </seal>
+              <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="3"
+                nontei:material="wax" nontei:shape="round"
+                nontei:attachment="sealed on a parchment tag"
+                nontei:condition="well-preserved">
+                <persName role="sigillant">Hartmann von Hünenberg</persName>
+              </seal>
+            </sealDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate when="1469-02-09" />
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>
+          <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien" />
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+    </profileDesc>
+    <profileDesc>
+      <textClass default="false">
+        <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+          <term ref="key000150">Jahrzeit</term>
+          <term ref="key004009">Kirchengut</term>
+          <term ref="key003322">Kirchenrecht</term>
+          <term ref="key000010">Kloster</term>
+          <term ref="key000023">Schenkung</term>
+          <term ref="key000049">Zehnten</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <group>
+      <text>
+        <body corresp="Sigle1">
+          <div>
+            <pb n="r" facs="C_II_12__Nr__482__r___Bild_2_.tif"/>
+            <p><!-- kollationiert msr, Mai 2025 -->
+              <lb/>
+              <seg>Ich, <persName>Herdegen von Hynnwil</persName>, bekenn und vergich offenlich mitt
+                disem brieff und tuͦn kund allen denen, die inn yemer sehent oder hörent lëßen, das
+                ich, gesund lips, vernünfftiger synnen, mitt wolbedachtem mut und mitt <lb/>guͦter
+                zitiger vorbetrachtung, nach guͦtem rechte, minen schaden abzetuͦn und min beßern
+                nutz und frommen darmitt ze schaffen, eins steten und ewigen koufs, mitt mund und
+                hand recht und redlich, verkoufft <lb/>und in all wiß und weg, wie denn ein
+                yegklich rechter, stëter und ewiger kouff von billich und durch recht allenthalben
+                und an allen enden und stetten, zuͦ allen tagen und tëdungen, ouch vor allen lu̍ten,
+                richtern und <lb/>gerichten, geistlichen und weltlichen, jetz und hienach, jemer
+                und ewenklich, wol und allerbest crafft, macht und handveste haͧt, haben sol und mag
+                fu̍r mich, all min erben und nachkomen mitt rechtem wißen und <lb/>in crafft diß
+                briefs und fu̍r aller mengklichs widersprechen und abreden ze kouffen gegeben hab
+                den erwirdigen, geistlichen herrn, <persName>Uͦlrichen</persName>, apt, und dem
+                convent gemeinlich des gotzhuß ze <placeName ref="LOC_Lat_Long">Ru̍ty</placeName>, des ordens von 
+                pre<lb break="no" />monstrat, an Costentzer bystuͦm
+                gelegen, zuͦ irs gotzhuß handen den leyenzechenden ze <placeName ref="LOC_Lat_Long">Ruͤggiß Altdorff</placeName>,
+                genannt der <q>Schlatter</q>, mitt allen sinen nutzungen, ehafften, rechten und zuͦgehörden
+                fu̍r fryg, ledig eigen biß, <lb/>an <num value="7">syben</num> mu̍tt kernen und syben zenden hüner
+                jerlicher, ewiger ußgander gu̍lt, die sy ye jerlich darvon sollent geben und wären
+                gon <placeName ref="LOC_Lat_Long">Raperßwil</placeName> zuͦ selgeret an die end, als der pfarkirchen
+                daselbs ze <placeName ref="LOC_Lat_Long">Raperßwil</placeName> jarzit<lb break="no" />buͦch dz ußwist,
+                suß ist derselb zechenn gantz fryg, ledig und weder mitt quart noch suß mitt
+                deheinen andern sachen beladen noch hafft, dheins wegs ffu̍ro.</seg>
+              <seg>So han denn ich, derselb <persName>Herdegen von Hynnwil</persName> aber, gesund <lb/>lips,
+                vernunfft und synnen, mins guͦten, frygen willen fu̍r mich, all min erben und
+                nachkomen, in er gottes allmechtigen zuͦ trost und heile miner und aller miner
+                vordern und nachkomen selen, den vorgenempten herren, <lb/><persName>Uͦlrichen</persName>,
+                apt, und dem convent ze <placeName ref="LOC_Lat_Long">Ru̍ty</placeName> und allen iren nachkomen zuͦ
+                des gotzhuß handen einer frygen und ledigen gotzgaͧbe gegeben und gib inen jetz
+                wißentlich in urkund diß briefs durch gotzwillen den kilchensatz <lb/>und die
+                kilchen daselbs ze <placeName ref="LOC_Lat_Long">Ruͤggißaltdorfft</placeName> mitt lehenschafft aller
+                pfruͤnden, mitt wydinen und mitt dem großen kilchenzechenden daselbs, wie die von
+                alterhar daran und darzuͦ gehört und gedient habent, und suß mitt allen <lb/>andern
+                eren, wirden, rechten, nutzungen, ehafften, gewonheiten, harkomenheiten und
+                zuͦgehörungen, hierinn nu̍tzit ußgenomen noch vorbehept, wie das alles von minen vordern an mich
+                kömen ist und ich das ouch bißher <lb/>beherrschett, inngehept, besetzt, entsetzt
+                und als min vetterlich erbe harbraͧcht hab, alles fu̍r fryg, ledig und unnku̍mberet.</seg>
+              <seg>Doch also, das sy soͤllent die priester, denen ich die pfru̍nden derselben 
+                kerchen jetz hab gelyhen, darby <lb/>also laussen beliben mitt denen nu̍tzen und in den
+                rechten, als ich inen die hab gelyhen und gelaussen, alles ungevarlichen.</seg>
+              <seg>Und ist der <choice>
+                  <abbr>egent</abbr>
+                  <expan>egenannt</expan>
+                </choice> kouff umb den leyenzechenden
+                beschechen und geben umb <num value="1200">zwoͤlffhundert</num> gulden <lb/>Rinischer, guͦter und genaͤmer, an
+                geld und waͤg, dero ich von denselben, apt und convent ze <placeName ref="LOC_Lat_Long">Ru̍ty</placeName>,
+                mitt voller zal gar und gëntzlich also bar gewert, bezalt und ußgericht bin.</seg>
+              <seg>Und ich han die in minen und miner erben guͦten, <lb/>schynbaren nutz bewendt
+                und angelegt, als ich vergich mitt disem brieff, und ich bekenn hierinn fu̍r mich
+                und all min erben, das wir niemer fu̍rziechen soͤllent noch wellent, das wir hierinne
+                mitt deheinen geverden betrogen <lb/>ald das uns die summen geltz und goldes nitt
+                syen worden, wann ich sy und ir gotzhuß ze <placeName ref="LOC_Lat_Long">Ru̍ty</placeName> und all ir
+                nachkomen des geltz und goldes quittieren mitt dem brieff, fu̍r mich und all min
+                erben.</seg>
+              <seg>Und ich han also den <lb/>egenempten apt und convent und irem gotzhuß ze <placeName ref="LOC_Lat_Long">Ru̍ty</placeName>
+                und allen iren nachkomen den vorgemeldten leyenzechenden eins
+                rechten, redlichen, frygen koufs und den kilchensatz und die kilchen ze <placeName ref="LOC_Lat_Long">
+                Altdorff</placeName> mitt dem großen <lb/>zechenden, einer frygen, ledigen gotzgaͧbe
+                mitt allen und yegklichen iren herlichkeiten, rechten und zuͦgehörungen, in der wiß
+                und maͧß, als vor- und hernach an disem brieff beschriben ist, ledklich mitt mund <lb/>und
+                hand uff und in gegeben, mich und all min erben daruß und die vilgenempten herren ze <placeName ref="LOC_Lat_Long">Ru̍ti</placeName>
+                 und ir gotzhuß darin gesetzt, als denn das des lands gewonheit und
+                recht ist, also dz sy und all ir nach<lb break="no" />komen dieselben vorgenempten
+                kouff und ouch die gotzgaͧb mitt allen und yegklichen iren rechten, nutzungen,
+                ehafften, herlichkeiten, wirden, eren und zugehörungen, als denn mine vordern und
+                ich, die bißher inn<lb break="no" />gehept, beseßen, genoßen, besetzt und entsetzt,
+                ouch herbraͧcht hand, als vor staͧt, tuͦn, und hinfu̍r allezit, jemer und ewenklich
+                und ruͤwenklich innhaben, nutzen, nießen, besetzen, entsetzen und sich denn gepru̍ch<lb
+                  break="no" />en soͤllent und mugent, ouch darmitt schaffen, tuͦn und laussen, was und wie sy wellent, nach irem
+                nutz und notdurfft, als mitt anderm irem eigen guͦͤt, aͧn min, aller miner erben und
+                nachkomen und allermengklichs <lb/>von unsern wegen sumen und irren.</seg>
+              <seg>Und daruff, so han ich, der <choice>
+                  <abbr>dickgent</abbr>
+                  <expan>dickgenannte</expan>
+                </choice> <persName>Herdegen von Hynnwil</persName>,
+                mich des obgemeldten verkoufften leyenzechenden und ouch darzuͦ der frygen gotzgaͧbe
+                des kilchensatzes der <lb/>kilchen und des großen zechenden, gemeinlich und
+                sunderlich, mitt allen und yegklichen iren rechten, nutzungen, gerechtikeiten,
+                gewonheiten, herlichkeiten und zuͦgehörungen in der maͧß, als vor ist beschriben,
+                gegen den <lb/><choice>
+                  <abbr>egenten</abbr>
+                  <expan>egenannten</expan>
+                </choice> apt <persName>Uͦlrichen</persName>,
+                sinem convent und dem gemeinen gotzhuß ze <placeName ref="LOC_Lat_Long">Ru̍ti</placeName> begeben und
+                verzygen.</seg>
+              <seg>Und ich verzich, entzich und begib mich ouch jetz wißentlich mitt dem brieffe
+                fu̍r mich, all min erben und nach<lb break="no" />komen luter, gar und gentzlich
+                aller der rechtung, eigenschafft und vordrung, gerechtikeit und anspraͧch, die ich,
+                min erben und nachkomen oder jemannt von unsern wegen, darzuͦ und daran biß uff
+                disen hu̍ttigen <lb/>tag dann des briefs ye gehept habent oder ku̍nfftenklich yemer
+                gewynnen könden ald moͤchten, es wëre mitt brieffen, rödeln, kuntschafften, erbschafften, mitt gerichten,
+                geistlichen oder weltlichen, noch suß mitt deheinen andern <lb/>sachen, in dhein
+                wise noch weg und mittnamen, so verzich ich mich fu̍r mich und all min erben des
+                rechten, das da spricht, gemeine verzichung verfahe nicht, es sie denn ein sunder
+                vorgangen und nam<lb break="no" />lich alles des, darmitt ich und min erben
+                oder jemannt von unsern wegen wider den kouff und dise frygen gotzgaͧbe und wider all
+                vor- und nachgeschriben stuck und artickel an disem brieff begriffen, ichtzit
+       <lb/>gereden oder getuͦn ald darmitt wir uns wider disen brieff
+                setzen oder behelffen moͤchten,
+              denn soͤlichs alles vor allermengklichem, geistlichen und weltlichen lu̍ten,
+                richtern, gerichten und rechten tod, fu̍r nicht <lb/>und ab heißen und sin sol.</seg>
+              <seg>Ich, der egenempt <persName>Herdegen von Hynnwil</persName>, all min erben und
+                nachkomen, soͤllent und wellent ouch den vilgenempten apt und convent und irem gotzhuß
+                ze <placeName ref="LOC_Lat_Long">Ru̍ty</placeName> der vorgemeldten <lb/>koufs und ouch der frygen
+                gotzgaͧbe mitt allen und yegklichen iren vorgeschribnen rechten und zuͦgehoͤrden recht
+                gewëren sin und inen die also vertigen, verstaͧn und versprechen, ouch uffrichten in
+                allen enden und stetten, <lb/>tagen und tedingen, vor allen lu̍ten, richtern und
+                gerichten, geistlichen und weltlichen, wie, wo, wenn und gegen wem, ouch als dick
+                inen des not ist oder sin wirret, uff unsern costen und schaden, als fu̍r recht,
+                fryg, ledig, <lb/>eigen guͦt in obgeschribner meynung, aͧne iren schaden, ungevarlich.
+                Were ouch sach, das ettlich brieffe ald roͤdel dahinden belyben, die vorgemeldten
+                kouff ald gotzgaͧb anruͤrent, die inen nitt all hinuß gegeben <lb/>wërent und die
+                u̍ber kurtz oder lang zit erzoͤygt ald funden wurden,
+             von wem dz bescheche, die soͤllent ouch denn alle gegen den <choice>
+                  <abbr>dickgenten</abbr>
+                  <expan>dickgenannten</expan>
+             </choice> heren und irem gotzhuß ze <placeName ref="LOC_Lat_Long">Ru̍ty</placeName> und gegen allen iren nachkomen tod <lb/>und ab, unkrefftig und
+                machtloß heißen und sin, alle geverd und arglist hierinn gantz
+                hindan gesetzt und ußgelaußen.</seg>
+              <seg>Und also geloben und verspre<damage agent="spot">
+                  <supplied>chen</supplied>
+                </damage> ich, derselb <persName>Herdegen
+                von Hynnwil</persName>, fu̍r mich, all min erben und <lb/>nachkomen by und mitt
+                minen vesten truwen und eren, an eins geswornen eids statt, den kouff und dise
+                frygen gotzgaͧb ze vertigen und all vorgeschri<damage agent="spot">
+                  <supplied>ben</supplied>
+                </damage> sachen getruwlich waͧr, vest, staͤt
+                und unverbrochen ze <lb/>halten und ze volfüren nach diß briefs lut und sag und
+                darunder niemer mer ze reden, ze sin, zetuͦn, zesuͦchen noch schaffen getaͧn werden,
+                heimlich noch offenlich, u̍beral in dhein wise noch weg und ungefarlich.</seg>
+              <seg>Und <lb/>des alles heru̍ber ze waͧrem, offem, stëtem und ewigem urkund, so han
+                ich, <choice>
+                  <abbr>dickgenter</abbr>
+                  <expan>dickgenannter</expan>
+                </choice> <persName>Herdegen von
+                Hynnwil</persName>, min eigen insigel fu̍r mich, all min erben und nachkomen
+                offenlich an disen brieff gehenckt.</seg>
+              <seg>Und zuͦ <lb/>merer gezuͦgknuße aller vorgeschribnen dingen, so hab ich erbetten
+                die vesten, fromen und wisen <persName>Casper Plarer</persName>, burger, und <persName>Bilgrin
+                Steiner</persName>, <choice>
+                  <abbr>schulths</abbr>
+                  <expan>schultheiss</expan>
+                </choice> ze <placeName ref="LOC_Lat_Long">Raperßwil</placeName>,
+                dz die ir insigel, yetwedrer das sin zuͦ minem <lb/>insigel, doch mein und iren
+                erben aͧne schaden, oͧch an disen brieff gehenckt habent.</seg>
+              <seg>Und ich, <persName>Margreta von Hynnwil, geborn von Schynen</persName>, bekenn
+                und vergich hierinne, als denn min lieber, elicher gemachel, <persName>Herdegen von
+                Hynnwil</persName>, vor<lb break="no" />genannt, mich miner eestu̍r, mitt namen
+                <num value="900">nu̍nhunderet</num> Rinscher guldin, versorgt und verwist hatt uff die <choice>
+                  <abbr>vorgenten</abbr>
+                  <expan>vorgenannten</expan>
+                </choice> zechenden, <choice>
+                  <abbr>gent</abbr>
+                  <expan>genannt</expan>
+                </choice> <q>Schlatter</q>, uff den kilchensatz und
+                den großen zechenden ze <placeName ref="LOC_Lat_Long">Altdorff</placeName> mitt allen <lb/>iren
+                vorgeschribnen rechten, nutzungen und zuͦgehoͤrungen, <unclear>dis</unclear> nach dem rechten und aller
+                notdurfft.</seg>
+              <seg>Da verzich und entzich ich mich mitt demselben minem elichen vogt fu̍r mich und
+                all min erben mitt dem brieffe der<lb break="no" />selben miner besorgknu̍sse und
+                aller vordrung, rechtung und anspraͧch, die ich, der <num value="900">nu̍nhundert</num> guldin miner eestu̍r
+                halb, an und zuͦ den vorgemeldeten beiden zechenden und dem kilchensatz untzher
+                gehept hab oder <lb/>die ich ald min erben oder jemannt von unsern wegen darzuͦ ald
+                daran jemer, der oder andrer sachen halb, gehaben oder gewynnen moͤchten, dheins wegs.</seg>
+              <seg>Und wie derselb min lieber gemachel, <persName>Herdegen von Hynnwil</persName>,
+                den ob<lb break="no" />geschribnen herren und dem gotzhuß ze <placeName ref="LOC_Lat_Long">Ru̍ty</placeName>
+                den kouff und dise gotzgaͧb geben und zuͦgefügt haͧt nach lut und sag diß briefs, dz
+                ist alles mitt minem guͦten gunst, wißen und willen beschechen und ich noch dhein <lb/>min
+                erben noch niemannt von unser wegen soͤllent noch wellent denselben herren und dem
+                gotzhuß ze <placeName ref="LOC_Lat_Long">Ru̍ty</placeName> an sölichem und der gotzgab noch an dheinen
+                stucken darinn begriffen, weder ansprach, vordrung noch intraͧg
+       <lb/>hinfu̍r
+                niemer tuͦn noch schaffen getaͧn werden, in dhein wise.</seg>
+              <seg>Und des alles ze guͦter sicherheit und wären urkund, so han ich, dieselb <persName>Margreta
+                von Hynnwil, geborn von Schynen</persName>, mitt dem <choice>
+                  <abbr>vorgenten</abbr>
+                  <expan>vorgenannten</expan>
+                </choice> minem elichen vogt <lb/>gebetten
+                und erbeten den vesten <persName>Hartmann von Hu̍nenberg</persName>, dz der sin
+                eigen insigel fu̍r mich und all min erben offenlich an disen brieff gehenckt haͧt,
+                doch im und sinen erben aͧne schaden,
+              der geben ist am <origDate when="1969-02-09">nechsten <lb/>donstag nach sanct <persName ref="GND_120997967">
+                Agten</persName>, der heiligen junckfrowen tag des jars, do man zalt von gepurt <persName>
+                Cristi</persName>, unsers herren, tusentvierhundertsechtzigundnu̍n jare</origDate>.</seg>
+            </p>
+            <pb n="v" facs="C_II_12__Nr__482__v_.tif"/>
+            <div>
+              <ab type="dorsal" place="verso">
+                <lb/><persName>Herdegen von Hinnweil</persName>
+         <lb/>verkauft an das <choice>
+                  <abbr>cl.</abbr>
+                  <expan>closter</expan>
+         </choice> <placeName ref="LOC_Lat_Long">Rüti</placeName> den
+                leyen zehnden zuͦ <lb/><placeName ref="LOC_Lat_Long">Ruͤgis Altdorf</placeName>, der <q>Schlatter</q> <choice>
+                  <abbr>gen<hi rend="sup">t</hi>.</abbr>
+                  <expan>genannt</expan>
+                </choice>, <choice>
+                  <abbr>p</abbr>
+                  <expan>pro</expan>
+                </choice> 1200 <choice>
+                  <abbr>Rgl.</abbr>
+                  <expan>Rheinische gulden</expan>
+                </choice>
+        <lb/>demnach vergaabet
+                er <choice>
+                  <abbr>ged.</abbr>
+                  <expan>gedachtem</expan>
+                </choice> closter den kilchen-saz <lb/>
+                und die kilchen zuͦ <choice>
+                  <abbr>bem.</abbr>
+                  <expan>bemelt</expan>
+                </choice> <placeName ref="LOC_Lat_Long">Ruͤgis Altdorf</placeName>
+                mit lehenschaft <lb/>aller pfruͤnden, mit widinen und dem großen kilchen<lb
+                  break="no" />zehnden daselbsten. <lb/>datum <origDate when="1969-02-09">donstag
+                nach <choice>
+                    <abbr>s<hi rend="sup">t</hi>.</abbr>
+                    <expan>sankt</expan>
+                  </choice> <persName>Agathen</persName> tag
+                1469</origDate>. <lb/>34. <lb/><choice>
+                  <abbr>n<hi rend="sup">o</hi>.</abbr>
+                  <expan>numero</expan>
+                </choice> 482. <lb/>A. <placeName ref="LOC_Lat_Long">Rüti</placeName>.
+        <lb/><del hand="other hand">32.</del>
+              </ab>
+            </div>
+            <div>
+              <ab type="sigillant" place="plica verso">
+                <lb/>
+                <persName>Herdegen von Hinwil</persName>
+              </ab>
+            </div>
+            <div>
+              <ab type="sigillant" place="plica verso">
+                <lb/>
+                <persName>Caspar Plarer</persName>
+              </ab>
+            </div>
+            <div>
+              <ab type="sigillant" place="plica verso">
+                <lb/><persName>Bilgrin Steiner</persName>, schultheß </ab>
+            </div>
+            <div>
+              <ab type="sigillant" place="plica verso">
+                <lb/>
+                <persName>Hartman von Hünenberg</persName>
+              </ab>
+            </div>
+          </div>
+        </body>
+
+        <back>
+          <div>
+            <p>Die Prämonstratenserabtei <placeName ref="LOC_Lat_Long">Rüti</placeName> geht
+              auf eine Stiftung der <persName ref="GND_133563375">Herren von Regensberg</persName>
+              zu Beginn des 13. Jahrhunderts zurück (<bibl>HLS, <ref
+                  target="https://hls-dhs-dss.ch/de/articles/012135/2010-11-26/">Rüti</ref></bibl>).
+              Im Verlauf des Spätmittelalters erwarb sie durch Schenkung, Kauf und Tausch
+              umfangreiche Besitztümer und Herrschaftsrechte. Der Besitz des Klosters konzentrierte
+              sich im Gebiet um <placeName ref="LOC_Lat_Long">Rüti</placeName>, <placeName
+                ref="LOC_Lat_Long">Greifensee</placeName>, <placeName
+                ref="LOC_Lat_Long">Pfäffikersee</placeName> sowie <placeName
+                ref="LOC_Lat_Long">Zürichsee</placeName>, der umfangreiche Streubesitz
+              reichte vom schwyzerischen <placeName ref="LOC_Lat_Long">Wägital</placeName>
+              bis an den <placeName ref="LOC_Lat_Long">Rhein</placeName>. Die Erlangung des
+              Patronatsrechts sowie der Zehnten von <placeName ref="LOC_Lat_Long"
+                >Fehraltorf</placeName> zeigt exemplarisch die klösterliche Expansion in diesem
+              Zeitraum. <placeName ref="LOC_Lat_Long">Rüti</placeName> erlangte bis zur
+              Reformation für nicht weniger als 14 Kirchen das Patronatsrecht (<bibl>HLS, <ref
+                  target="https://hls-dhs-dss.ch/de/articles/012135/2010-11-26/"
+              >Rüti</ref></bibl>).</p>
+              <p>Der Kirchensatz von <placeName ref="LOC_Lat_Long">Fehraltorf</placeName> war seit dem frühen 14. Jahrhundert bei den <persName ref="GND_1035707357">Herren von Hinwil</persName>.
+              Die vorliegende Übertragung an <placeName ref="LOC_Lat_Long">Rüti</placeName> wurde vom Bischof von Konstanz im Jahr 1472 bestätigt (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4763445">StAZH C II 12, Nr. 492</ref></bibl>). Als der bisherige Leutpriester 1486 starb, entstand trotzdem ein Streit um die Neubesetzung. 
+              Während <placeName ref="LOC_Lat_Long">Rüti</placeName> einen eigenen Konventualen portierte, setzte sich schliesslich der vom Papst unterstützte <persName>Rudolf von Tobel</persName> durch. Das mit <placeName ref="LOC_Lat_Long">Rüti</placeName> verburgrechtete <placeName ref="LOC_47.37721_8.52731">Zürich</placeName> trat in diesem Kontext mit zwei Urkunden
+              als Schiedsrichter auf (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=4763496">StAZH C II 12, Nr. 545</ref></bibl>; <bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=4763497">C II 12, Nr. 546</ref></bibl>; vgl. <bibl><ref target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html">Greminger 1950</ref>, S. 109</bibl>). 
+              Eine päpstliche Bestätigung des Vergleichs des Klosters mit dem neuen Leutpriester wurde im Jahr 1498 ausgestellt. In ihr wird auch der Verkauf der Zehnten an <placeName ref="LOC_Lat_Long">Rüti</placeName> anerkannt <bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=4763512">(StAZH C II 12, Nr. 560</ref></bibl>).</p>
+              <p>Den ebenfalls in der vorliegenden Urkunde erwähnten Laienzehnten (genannt
+                <q>Schlatterzehnt</q>), hatte <persName>Herdegen von Hinwil</persName> seinerseits
+              im Jahr 1460 von der Stadt <placeName ref="LOC_Lat_Long"
+                >Rapperswil</placeName> gekauft (<bibl><ref
+                  target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=481126">StAZH C II
+                  12, Nr. 459</ref></bibl>). Im Jahr 1474 bestätigte <persName>Herdegen</persName>,
+              von <placeName ref="LOC_Lat_Long">Rüti</placeName> den in vorliegender Urkunde
+              festgelegten Kaufpreis von <num value="900">900</num> Gulden erhalten zu haben. Zudem
+              löste das Kloster auch die in der vorliegenden Urkunde erwähnte Ehesteuer ab, für die
+              es bisher einen Zins von <num value="45">45</num> Gulden entrichtet hatte. An dieser
+              Stelle werden auch Auseinandersetzungen zwischen dem Abt von <placeName
+                ref="LOC_Lat_Long">Rüti</placeName> und <persName>Herdegen von
+                Hinwil</persName> in Zusammenhang mit den Zehntrechten in <placeName
+                ref="LOC_Lat_Long">Fehraltorf</placeName> erwähnt, für die das Kloster mit
+              einer halben Juchart Reben in <placeName ref="LOC_Lat_Long">Meilen</placeName>
+              entschädigt wird (<ref
+                target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=4763452">StAZH C II 12,
+                Nr. 499</ref>).</p>  
+            <p>Zur Gütergeschichte des Klosters <placeName ref="LOC_Lat_Long">Rüti</placeName> vgl. <bibl><ref target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html">Greminger 1950</ref></bibl>; zu seinen Besitzungen im 14. und 15. Jahrhundert vgl. <bibl><ref target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html">Zangger 1991</ref></bibl>; zum Rittergeschlecht der von Hinwil vgl. <bibl>HLS, <ref target="https://hls-dhs-dss.ch/de/articles/019634/2017-07-21/">von Hinwil</ref></bibl>; 
+              allgemein zum Kloster <placeName ref="LOC_Lat_Long">Rüti</placeName> vgl. <bibl><ref target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html">HS IV</ref>, S. 501-531</bibl>.</p>
+          </div>
+        </back>
+      </text>
+    </group>
+  </text>
+</TEI>  

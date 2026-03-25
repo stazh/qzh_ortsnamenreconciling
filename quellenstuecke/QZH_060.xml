@@ -1,0 +1,647 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='../../Ressourcen/Stylesheet.xsl'?>
+<?xml-model href="http://www.tei-c.org/ns/1.0" type="application/xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quellen zur Zürcher Geschichte</title>
+            <respStmt>
+               <persName>Denia Stettler</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Denia Stettler</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Staatsarchiv des Kantons Zürich</publisher>
+            <date type="electronic" when="2024-10-10"/>
+            <date type="print" when="2024-10-10"/>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Quellen zur Zürcher Geschichte</title>
+            <respStmt>
+               <persName>Staatsarchiv des Kantons Zürich</persName>
+               <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>QZH_060</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4746674">StAZH
+                     C II 3, Nr. 193</idno>
+               </msIdentifier>
+               <head>Hausbrief von Bubikon</head>
+               <msContents>
+                  <summary>Im Auftrag von Bürgermeister und Rat der Stadt Zürich beurkunden
+                     Altbürgermeister Heinrich Röist, Ratsherr Heinrich Escher und Stadtschreiber
+                     Konrad von Cham die Beilegung des Streits zwischen Graf Rudolf von Werdenberg,
+                     Komtur des Johanniterhauses von Bubikon, und den Eigenleuten desselben Hauses.
+                     Geregelt werden unter anderem die Huldigung (1-3, 28), der Ablauf des
+                     Gerichtsverfahrens (4-5, 8-12, 25), das Erbrecht (6, 15-16, 18-20, 30-32), die
+                     Vormundschaft über Witwen und Waisen (7), Ehegenossame und weitere
+                     eherechtlichen Fragen (14, 17, 21-23, 27, 29), Pfand- und Schuldrecht (26, 36),
+                     Vorkaufsrechte (33-35) und die Beteiligung an Inhaftierungsprozessen (37). Als
+                     Vertreter der Eigenleute versprechen Rudolf Guller, Hans Guhl, Fridli Weber,
+                     Bertschi Kyburger und Klaus Maag diese Abmachung einzuhalten. Für beide
+                     Parteien wird je eine Urkunde ausgestellt. Es siegeln die drei Beauftragten des
+                     Zürcher Rats und Graf Rudolf von Werdenberg, Komtur des Johanniterhauses von
+                     Bubikon. Für die Vertreter der Eigenleute wird das Sekretsiegel der Stadt
+                     Zürich verwendet.</summary>
+                  <msItem>
+                     <textLang>Deutsch</textLang>
+                     <filiation type="current">Orginal</filiation>
+                     <filiation type="original"><origDate when="1483-09-12"/></filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support><material>Pergament</material></support>
+                        <extent><dimensions type="leaves">
+                              <height unit="cm" quantity="27.5"/>
+                              <width unit="cm" quantity="24"/>
+                           </dimensions><dimensions type="plica">
+                              <width unit="cm" quantity="4.5"/>
+                           </dimensions></extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <sealDesc>
+                     <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1"
+                        nontei:material="wax" nontei:shape="round"
+                        nontei:attachment="sealed on a ribbon" nontei:condition="fragmentary">
+                        <persName role="sigillant">Heinrich Röist</persName>
+                     </seal>
+                     <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="2"
+                        nontei:attachment="sealed on a ribbon" nontei:condition="absent">
+                        <persName role="sigillant">Heinrich Escher</persName>
+                     </seal>
+                     <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="3"
+                        nontei:material="wax" nontei:shape="round"
+                        nontei:attachment="sealed on a ribbon" nontei:condition="well-preserved">
+                        <persName role="sigillant">Konrad von Cham</persName>
+                     </seal>
+                     <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="4"
+                        nontei:material="wax" nontei:shape="round"
+                        nontei:attachment="sealed on a ribbon" nontei:condition="well-preserved">
+                        <persName role="sigillant">Rudolf von Werdenberg</persName>
+                     </seal>
+                     <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="4"
+                        nontei:attachment="slit" nontei:condition="absent">
+                        <persName role="sigillant">Stadt Zürich</persName>
+                     </seal>
+                  </sealDesc>
+               </physDesc>
+               <history>
+                  <origin><origDate when="1483-09-12"/><origPlace>Zürich</origPlace></origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc> </profileDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000061">Ehegenossame</term>
+               <term ref="key005098">Eherecht</term>
+               <term ref="key000179">Eid</term>
+               <term ref="key000597">Erbrecht</term>
+               <term ref="key000183">Fall</term>
+               <term ref="key000057">Gericht</term>
+               <term ref="key000369">Kauf</term>
+               <term ref="key000084">Leibeigenschaft</term>
+               <term ref="key000441">Pfand</term>
+               <term ref="key000012">Offnung</term>
+               <term ref="key000058">Schulden</term>
+               <term ref="key000565">Schutz</term>
+               <term ref="key004423">Verkündung</term>
+               <term ref="key000997">Vormundschaft</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <pb n="2r" facs="C_II_3__Nr__193__fol__2_r_.tif"/>
+            <p>
+               <lb/>Wir naͧchbenempten <persName ref="GND_138054185">Heinrich Roͤist</persName>, der
+               zit altburgermei<lb break="no"/>ster, <persName>Heinrich Escher</persName>, riter,
+               des raͧtes, und <persName>Cuͦnraͧt von <lb/>Cham</persName>, statschriber <placeName
+                  ref="LOC_47.36667_8.55">Zu̍rich</placeName>, thuͦnd kund aller meng<lb break="no"
+               />lichem mit disem brieff, das wir von befelhens wegen <lb/>der strengen,
+               fu̍rsichtigen, frommen und wisen des burger<lb break="no"/>meisters und der raͤten
+               der stat <placeName ref="LOC_47.36667_8.55">Zu̍rich</placeName>, unser lieben,
+               <lb/>und gnedigen herren, den hochwirdigen und wolpor<lb break="no"/>nen herren, hern
+                  <persName ref="GND_1025206975">Ruͦdolffen, graven von Werdenberg</persName>
+               <lb/>und meister sant Johanns ordens und comendu̍r <lb/>des huses zuͦ <placeName
+                  ref="LOC_47.26652_8.82808">Buͦbikon</placeName>, von desselben huses wegen eigen
+               <lb/>unsern gnedigen herren an einem und die <lb/>lu̍t, so von eigenschafft wegen ir
+               liben dartzuͦ <lb/>gehoͤrend an dem andern teil mit wissen und <lb/>willen umb ir
+               zweyungen und irrungen, darinn <lb/>sy mit einandern gewessen sind, guͤtlich
+               betragen, <lb/>gericht und geent hand, daby in die ewikeit zuͦ <lb/>beliben, wie das
+               hienaͧch von einem an das ander <lb/>geschriben staͧt.</p>
+            <p>
+               <lb/>Des ersten: Wenn ein knab, der des vorgenannten huses <lb/>eigen ist, vierzechen
+               jaͧr alt wirt, das er denn dem <lb/>vorgenanten unserm herren, dem meister und
+               <lb/>sinen naͧchkomen, welich jemer commentu̍r des <lb/>huses <placeName
+                  ref="LOC_47.26652_8.82808">Buͦbikon</placeName> werdent, dem hus und orden
+               <lb/>schweren sol. Und ist dis der eid: Herren, dem <pb n="2v" facs="C_II_3__Nr__193__fol__2_v_.tif"/>
+               <lb/>meister vorgenant, und welicher je comendu̍r des <lb/>huses <placeName
+                  ref="LOC_47.26652_8.82808">Buͦbikon</placeName> ist, tru̍w und warheit iren,
+               desselben <lb/>huses und des ordens ere und nutz zefuͤrdern und <lb/>irn schaden
+               zewenden und gehorsam zesind, als <lb/>ein recht eigen man sinem herren schuldig
+                  ze<lb break="no"/>tuͦnde ist und sin lib und guͦt dem herren, vorge<lb break="no"
+               />nant huß und dem orden nit zeentfroͤmden, denn <lb/>mit sines egenanten herren
+               wissen und willen, <lb/>noch niendert burger noch landtman zewerden <lb/>noch
+               endheinen schirm wider den vorgenanten <lb/>herren, das huse noch den orden zesuͦchen
+               noch <lb/>anzenemmen und also by den vorgenanten herren, <lb/>dem huse und dem orden
+               zebeliben und by den <lb/>selben und irn ammptlu̍ten in sinen geschaͤfften <lb/>hilff
+               und schirm zesuͦchen ungevarlich und by <lb/>dem selben sinem eide iren alle die
+               zemelden, <lb/>die er wu̍sde, so nit geschworen heten, das sy <lb/>och schweren und
+               gehorsame tuͤgen.</p>
+            <p>
+               <lb/>Zuͦ dem andern: Das unser vorgenanter herr, der <lb/>meister, und welicher je
+               comendu̍r, stathalter <lb/>oder schaffner des huses <placeName
+                  ref="LOC_47.26652_8.82808">Buͦbikon</placeName> ist, desselben <lb/>huses
+               eigenlu̍t hanthaben und schirmen sol <lb/>vor andern herren und lendern, vor stu̍ren,
+                  dien<lb break="no"/>sten und ungewonlichen sachen, wie sy in dem <pb n="3r"
+                     facs="C_II_3__Nr__193__fol__3_r_.tif"/>
+               <lb/>harkomen sind, so verr er das vermag ungevarlich. </p>
+            <p>
+               <lb/>Zuͦ dem driten: Wenn und als dick ein nu̍wer herre <lb/>und comendu̍r zuͦ dem
+               huß <placeName ref="LOC_47.26652_8.82808">Buͦbikon</placeName> kompt, das <lb/>dem
+               denn des huses eigen lu̍t schweren soͤllent, wie <lb/>davor geschriben staͧt. Und ob
+               ein herr <choice>
+                  <sic>dessebben</sic>
+                  <corr>desselben</corr>
+               </choice> huses <lb/>u̍ber zechen jaͧre in leben belibe, das sy denn dem selben
+               <lb/>heren darnaͧch aber schweren soͤllent, ob der des <lb/>begert und das an sy
+               vordert, wie der eid davor geschri<lb break="no"/>ben staͧt. </p>
+            <p>
+               <lb/>Zuͦ dem vierden: Das unser vorgenanter herr, der meister, <lb/>und welicher je
+               comendu̍r und herr des huses Buͦbi<lb break="no"/>kon ist, desselben huses eignen
+               lu̍ten jerlich zemeyen <lb/>ein jaͧrgericht haben und das allen des huses lu̍ten,
+               <lb/>was von mans nammen und ob viertzechen jaͧren alt <lb/>ist, uff das selb gericht
+               zuͦ komen verku̍nden sol ob <lb/>viertzechen tagen und under dry wochen
+               ungevarlich.</p>
+            <p>
+               <lb/>Zuͦ dem fu̍nfften: Und das uff dem selben meyen gericht <lb/>jerlich diser
+               u̍bertrag, wie der davor und hienaͧch <lb/>geschriben staͧt, verlesen und, wenn denn
+               das beschicht, <lb/>das dem naͧch denn gericht werden sol.</p>
+            <p>
+               <lb/>Zuͦ dem sechsden: Des ersten, umb eigen und erb, ob des <lb/>jemannd begeͣrt,
+               und das oͧch niemannd darumb recht <lb/>sprechen noch urteilen sol denn des
+               vorgenanten <lb/>huses eigen lu̍t.</p>
+            <pb n="3v" facs="C_II_3__Nr__193__fol__3_v_.tif"/>
+            <p>
+               <lb/>Zuͦ dem sibenden: Das darnaͧch gericht und besetzt, <lb/>ob jenen witwan oder
+               weisen unbefogtet weͣren, das <lb/>die zuͦ dem ersten befogtet werden soͤllen und
+               also <lb/>mit dem neͣchsten vatter maͧgen, ob er nu̍tz und guͦt <lb/>dartzuͦ ist. Und
+               ob er nit nu̍tz und guͦt dartzuͦ weͣre, <lb/>mit einem andern gebornen fru̍nd oder
+               dem dartzuͦ <lb/>er kosen wirt, der nu̍tz und guͦt dartzuͦ sye, und denn <lb/>dem ein
+               richter gebieten, das zetuͦn, sinem guͦt <lb/>unschaͤdlich.</p>
+            <p>
+               <lb/>Zuͦ dem achtenden: Das dann darnaͧch dem vorgenannten <lb/>unserm herren, dem
+               meister, und welicher je comendu̍r <lb/>und herre des huses <placeName
+                  ref="LOC_47.26652_8.82808">Buͦbikon</placeName> ist, ob er ichtzit zuͦ klagen
+               <lb/>haͧt von des huses und ordens wegen, vor mengklichen <lb/>gericht werden
+               sol.</p>
+            <p>
+               <lb/>Zuͦ dem nu̍nden: Und dem naͧch einem gast, ob er des <lb/>begert, gericht
+               werden.</p>
+            <p>
+               <lb/>Zuͦ dem zechenden: Das einem jeglichen husmann, der des <lb/>eigen ist, naͧch
+               sinem fu̍rlegen, und dartzuͦ er recht haͧt, <lb/>gericht werden sol.</p>
+            <p>
+               <lb/>Zuͦ dem einlifften: Das unser egenanter herre meister <lb/>und welicher je
+               comendu̍r des huses vorgenannt ist, <lb/>witwen und weisen und sunder, da weisly
+               sind, beholfen <lb/>und beraͧten sin sol, by recht, glichen und billichen <lb/>dingen
+               bliben zuͦ moͤgen.</p>
+            <pb n="4r" facs="C_II_3__Nr__193__fol__4_r_.tif"/>
+            <p>
+               <lb/>Zuͦ dem zwoͤlften: Das ein jeglicher des huses eigenmann <lb/>oder eigen frow
+               wol zuͦ einandern stossen moͤgen alles <lb/>ir guͦt, und als dick sy wend, an
+               gewonlichen gerichtz <lb/>stetten vor dem stab mit siben mannen, da der merteil
+               <lb/>des huses eigen sin sol, und da geben einem herren <lb/>oder amptmann des
+               vorgenannten huses fu̍nff schilling <lb/>und vier Zu̍richer pfening, und ob sy hu̍t
+               zesammen <lb/>gestossen heten, das sy morndes mit einandern <lb/>teilen moͤgen. Und
+               aber dem naͧch, wenn sy wellent <lb/>zesamen stossen, wie vor staͧt und ob
+               notturfftig weͣre, <lb/>inen ein herr oder amptmann des vorgenanten huses <lb/>by dem
+               schoͧb richten sol, und doch soͤlich zemmen stossen <lb/>disem u̍bertrag naͧch sinen
+               begriffen und inhalt <lb/>in allweg unschaͤdlich sin und nit witer gebrucht
+               <lb/>werden.</p>
+            <p>
+               <lb/>Zuͦ dem dryzechenden: Ob einer des genannten huses <lb/>eigen man oder eigen
+               frow ir hantwerch naͧch oder <lb/>suß on geveͣrd wandlen wurden und also usser dem
+               <lb/>land kemen, hetten der oder die ligend oder varends <lb/>guͦt, das im oder ir
+               der neͣchst fru̍nde besorgen soͤlte, <lb/>bis der oder die wider zuͦ land kemen oder
+               er wu̍sde, <lb/>wie es umb inn oder sy stuͤnde.</p>
+            <p>
+               <lb/>Zuͦ dem vierzechenden: Wenn einem man ein frow <lb/>zuͦ der heiligen ee gegeben
+               wirt und im also zuͦ huß <pb n="4v" facs="C_II_3__Nr__193__fol__4_v_.tif"/>
+               <lb/>kompt, so sol dem man, ee sich die selb frow vor im <lb/>entguͤrt, lib und guͦt,
+               es sye ligend oder varend, ver<lb break="no"/>fallen sin und also, das der man das
+               varend guͦt <lb/>mag nutzen und damit tuͦn, als sinem eignen <lb/>guͦt, und das
+               ligend guͦt er bis zuͦ end siner wile <lb/>und leptagen, was nutzes davon fallet,
+               nutzen <lb/>mag und das ligend guͦt naͧch sinem abgang <lb/>fallen sol, wie hienaͧch
+               gelu̍tert wirt und geschriben <lb/>staͧt.</p>
+            <p>
+               <lb/>Zuͦ dem fu̍nffzechenden: Wenn ein man vor siner <lb/>elichen frowen von todes
+               wegen abgaͧt, das denn die <lb/>frow alles das guͦt, das sy zuͦ im braͧcht haͧt, und
+               ir <lb/>morgengaͧb und in sinem varenden guͦt den driten <lb/>teil, ob sy den triteil
+               siner schulde bezalen und <lb/>also darzuͦ ston wil, nemen mag, ob die soͤlich ir
+               <lb/>guͦt also da findet, und das die frow nicht schuldig <lb/>sin sol, ir mans
+               schulden zebezalen, sy habe es <lb/>dann jemand mit hand und mund verheisen ze<lb
+                  break="no"/>tuͤnde.</p>
+            <p>
+               <lb/>Zuͦ dem saͤchszechenden: Das ein morgengaͧb, die ein <lb/>man sinem wib git, des
+               manns, die wile er lept, <lb/>sin und die naͧch sinem tod an ir neͣchsten fru̍nd
+               <lb/>und erben fallen sol.</p>
+            <p>
+               <lb/>Zuͦ dem sibenzechenden: Welicher eigen des husmann <pb n="5r" facs="C_II_3__Nr__193__fol__5_r_.tif"/>
+               <lb/>ein elich wib nimpt on alle geding und naͧch des <lb/>huses eigner lu̍ten recht,
+               das dero guͦt, des syg vil oder <lb/>lu̍tzel, an eigen und erb ligen und geleit
+               werden <lb/>und das weder schwinen noch wachsen sol, es weͣre <lb/>dann da libs
+               notturfft.</p>
+            <p>
+               <lb/>Zuͦ dem achtzechenden: Was ein frow guͦt zuͦ irem <lb/>man bringt und der vor ir
+               abgaͧt von todswegen <lb/>und sy sich dem naͧch von ir beider kinden, ob die da
+               <lb/>weͣren, und ob die da nit sind, von iren erbteilen, <lb/>scheiden und das ir
+               haben wil, das sy mit kuntschaft, <lb/>lu̍ten oder brieffen, fu̍rbringen sol, was
+               oder wie <lb/>vil des guͦtz sige, und ir naͧch irem fu̍rbringen denn <lb/>das ir, so
+               sy also von ir kinden oder erbteilen welt <lb/>oder muͤsde, ungevarlich geben und
+               usgericht werden.</p>
+            <p>
+               <lb/>Zuͦ dem nu̍nzechenden: Wo ein kind wider vatter <lb/>und muͦter taͤte, das sy
+               das mit fu̍nff schilling <lb/>Zu̍richer pfeningen usrichten und einem kind <lb/>me ir
+               guͦtz dann dem andern geben moͤgen, doch <lb/>naͧch des obgenanten herren meisters
+               und eins <lb/>comendu̍rs und des huses egenant eigner lu̍ten, <lb/>die dartzuͦ geben
+               werden, erkandtniß.</p>
+            <p>
+               <lb/>Zuͦ dem zweintzigosten: Wenn ein frow elich in ein huß <lb/>kompt und von irem
+               man und dem hus gesind <lb/>empfangen wirt an <app>
+                  <lem>einenteil</lem>
+                  <rdg
+                     wit="StAZH C II 3, Nr. 838 / https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4746676"
+                     >einem teil</rdg>
+               </app> oder gemeind, sovil <pb n="5v" facs="C_II_3__Nr__193__fol__5_v_.tif"/>
+               <lb/>denn zuͦmaͧl der personen in dem selben hus sind <lb/>und eines naͧch dem andern
+               von todswegen abgaͧt, <lb/>das denn eines das ander und der selben personen <lb/>kind
+               desselben einigen teil erben soͤllen. Ob aber <lb/>ein frow an eines kinds teil oder
+               ein knab des <lb/>glichen empfangen wirt, das sy dann als glich <lb/>durch den banck,
+               als vil der personen ist oder <lb/>wirt, ein jegliche glich vil, die wil sy ungeteilt
+               <lb/>sind, erben soͤllen.</p>
+            <p>
+               <lb/>Zuͦ dem ein und zweinitzigosten: Wenn ein eigenman <lb/>des vorgenannten huses
+               ein rechty fryin oder <lb/><app>
+                  <lem>regulerin</lem>
+                  <rdg
+                     wit="StAZH C II 3, Nr. 838 / https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4746676"
+                     >regalerin</rdg>
+               </app>, die als fryenen gehalten werdent, zuͦ <lb/>der heiligen ee nimpt und das
+               kuntlich machot, <lb/>das es also sige mit lu̍ten, brieffen oder guͦter
+               <lb/>kundschafft, das den ein herr und comendu̍r des <lb/>huses <placeName
+                  ref="LOC_47.26652_8.82808">Buͦbikon</placeName> umb die ungnossamy nit straͧffen
+               <lb/>sol. Und das ist darumb, das dero kind dem vater <lb/>mit der eigenschafft an
+               das huß vorgenant naͧch <lb/>hoͤren werden.</p>
+            <p>
+               <lb/>Zuͦ dem zwey und zweintzigosten: Wenn des huses <lb/><placeName
+                  ref="LOC_47.26652_8.82808">Buͦbikon</placeName> eigenlu̍t, ein man oder wib, wibet
+               oder <lb/>manot zuͦ des ordens lu̍ten, zuͦ <app>
+                  <lem>welichen</lem>
+                  <rdg
+                     wit="StAZH C II 3, Nr. 838 / https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4746676"
+                     >welichem</rdg>
+               </app> huß sy <lb/>dann gehoͤrend, sol der vorgenant herre und welicher <lb/>je
+               comendu̍r zuͦ <placeName ref="LOC_47.26652_8.82808">Buͦbikon</placeName> ist, darumb
+               nicht straͧfen. <pb n="6r" facs="C_II_3__Nr__193__fol__6_r_.tif"/></p>
+            <p>
+               <lb/>Zuͦ dem dry und zweintzigosten: Wenn och ein frow, die <lb/>des egenanten huses
+               eigen ist, in der ee ein kind <lb/>gepirt, schickt die zuͦ einem herren oder
+               comendu̍r, <lb/>da so sol dero er geben laͧsen ein kopf win und <lb/>vier brot.</p>
+            <p>
+               <lb/>Zuͦ dem vier und zweintzigosten: Wo oͧch des genanten <lb/>huses eigen lu̍te
+               sind gesessen hushablich, was da <lb/>nuͦt und nagel begriffen haͧt, das sol ligend
+               guͦt <lb/>sin.</p>
+            <p>
+               <lb/>Zuͦ dem fu̍nff und zwenitzigosten: Das och dehein <lb/>des vorgenanten huses
+               eigen lu̍te den andern <lb/>mit froͤmden gerichten, geistlichen oder weltlichen,
+               <lb/>bekumbern noch furnemmen und sy von einandern <lb/>recht nemmen soͤllen vor
+               einem herren comendu̍r <lb/>oder sinem amptmann, es sige umb geltschuld, zuͦ<lb
+                  break="no"/>spru̍ch oder ander sachen, und was da zuͦ recht ge<lb break="no"
+               />sprochen wirt, daby beliben und das halten.</p>
+            <p>
+               <lb/>Zuͦ dem saͤchß und zweintzigosten: Und ob des genanten <lb/>huses eigen lu̍te
+               deheiner dem andern gelten sol <lb/>und im des gichtig ist und im umb die schuld
+               <lb/>pfand gibt, das die selben pfand er verrechten sol <lb/>naͧch des egenannten
+               huses gewonheit. Das ist also, <lb/>das er die pfand ligen laͧsen achttag in dem
+               gericht <lb/>und darnaͧch an dem neͣchsten sonnentag sy verrechten <pb n="6v" facs="C_II_3__Nr__193__fol__6_v_.tif"/>
+               <lb/>ze <placeName ref="LOC_47.26652_8.82808">Buͦbikon</placeName> vor der kilchen
+               oder ze <placeName ref="LOC_47.30149_8.85275">Hu̍nwil</placeName> und an <lb/>dem
+               andern sonnentag die selben pfand verruͤffen. <lb/>Und ist sach, das jemand mer uff
+               die pfand bu̍t denn <lb/>der selb schuldner geton haͧt, so soͤllent im die volgen.
+               <lb/>Und das einer die verkofften pfand morndes vor <lb/>verlaͧsner prim gloggen wol
+               loͤsen mag, und ob <lb/>die also nit <app>
+                  <lem>geloͤisd</lem>
+                  <rdg
+                     wit="StAZH C II 3, Nr. 838 / https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4746676"
+                     >geloͤsd</rdg>
+               </app> werdent, das <app>
+                  <lem>dannethin</lem>
+                  <rdg
+                     wit="StAZH C II 3, Nr. 838 / https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4746676"
+                     >dannenthin</rdg>
+               </app> die pfand <lb/>vergangen syen. Und ist aber sach, das einer einem
+               <lb/>verrechtote pfand gibt, das er die ze achttagen umb <lb/>verkoffen mag, als ob
+               sy werend verrechtot am <lb/>rechten, und ob einer mit den pfanden nit bezalt
+               <lb/>werden moͤcht, das er umb hin gon und so dick pfand <lb/>nemmen und die selben
+               zestund verkoffen moͤcht, <lb/>als ob sy verrechtot werend, untz im gnuͦg beschicht
+               <lb/>umb costen und schaden, es weͣre weibel lon und <lb/>ander sachen. Und ob einer
+               farende pfand nit hett, <lb/>sol er ligende geben, ob er die haͧt, und die selben
+               <lb/>ligenden pfand laͧsen ligen sechs wochen und dry <lb/>tag, und das er darnaͧch
+               die pfand verkoffen mag <lb/>als die varenden, wie obstaͧt. Und gaͧt ein weibel
+               <lb/>uswendig den dörffern umb pfand, das denn sin lon <lb/>zepfenden ein schilling
+               sige und in doͤrffern vier <lb/>pfening zeverrechtend ein schilling von dem pfand
+               <lb/>zuͦ verkoffen ein schilling, und das soͤlichs alles uff <pb n="7r" facs="C_II_3__Nr__193__fol__7_r_.tif"/>
+               <lb/>die pfand geschlagen werden sol.</p>
+            <p>
+               <lb/>Zuͦ dem siben und zweintzigosten: Ob och man, frowen, <lb/>knaben oder tochtern
+               einandern umb die ee ansprechen <lb/>und fu̍rnemmen gen <placeName
+                  ref="LOC_47.66033_9.17582">Costentz</placeName> oder anderschwahin, da <lb/>hin
+               dann soͤlichs zuͦ berechtigen gehoͤrt, und die ansprech<lb break="no"/>end person, da
+               die e nit behuͤbe, das da die selb an<lb break="no"/>sprechend person einem herren
+               vorgenannt oder einem <lb/>comendu̍r da zechen pfund Zu̍richer pfening on <lb/>gnaͧd
+               zu buͦß geben und dartzuͦ dem widerteil den <lb/>costen und schaden, den er soͤlichs
+               fu̍rnemens wegen <lb/>genommen und empfangen haͧt, abtragen und geben <lb/>sol.</p>
+            <p>
+               <lb/>Zuͦ dem acht und zweintzigosten: Das des huses vorge<lb break="no"/>nant eigen
+               und vogtlu̍te dem herren und comendu̍r <lb/>da die dienste, wie die von <choice>
+                  <abbr>althar</abbr>
+                  <expan>alterhar</expan>
+               </choice> beschehen und <lb/>geton sind, das sy die tuͦn und inen damit gewertig
+               <lb/>sin soͤllen.</p>
+            <p>
+               <lb/>Zuͦ dem nu̍n und zweintzigosten: Das och des genanten <lb/>huses eigenlu̍te sich
+               nit <app>
+                  <lem>entungnossen</lem>
+                  <rdg
+                     wit="StAZH C II 3, Nr. 838 / https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4746676"
+                     >entungnossam</rdg>
+               </app> noch unge<lb break="no"/>nosam machen soͤllen. Und ob sich einer oder mer mit
+               <lb/>wiben zenemen entungnossamotind, und als dick <lb/>und von wem das beschicht,
+               das der herr vorgenannt <lb/>oder ein comendu̍r und amptman des huses Buͦbi<lb
+                  break="no"/>kon die darumb naͧch gnaden straͧffen moͤgen. Und <pb n="7v" facs="C_II_3__Nr__193__fol__7_v_.tif"/>
+               <lb/>wenn die selben, die sich also entongnossammend und <lb/>darumb gestraͧfft sind,
+               von todes wegen abgond, das <lb/>denn ein herr comendu̍r ald amptman des vorgenanten
+               <lb/>huses von <app>
+                  <lem>der</lem>
+                  <rdg
+                     wit="StAZH C II 3, Nr. 838 / https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4746676"
+                     >den</rdg>
+               </app> selben alles ir varend guͦt, so sy naͧch <lb/>tod laͧsend, erben und sy <app>
+                  <lem>dartzuͦ</lem>
+                  <rdg
+                     wit="StAZH C II 3, Nr. 838 / https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4746676"
+                     >darumb</rdg>
+               </app> fallen moͤgen. Und <lb/>ob die selben eliche kind hinder inen liesind, das
+               denen <lb/>ir verlaͧsen ligend guͦt werden sol.</p>
+            <p>
+               <lb/>Zuͦ dem drissigosten: Wenn och des vorgenanten huses <lb/>eigenlu̍t, man oder
+               frowen, von todeswegen abgond, <lb/>das denn dem vorgenanten hus <placeName
+                  ref="LOC_47.26652_8.82808">Buͦbikon</placeName> von je dem <lb/>eltsten man ein
+               hobtfall und sin kleid, das best, als <lb/>er ze kilchen und ze maͤrkt gaͧt, werden
+               sol, und von <lb/>einer frowen, die och also abgaͧt und so die eltost in <lb/>dem
+               hus, das best bett, das iro und uff dem sy gelegen <lb/>ist, und ir haͤß gewand, das
+               best, als sy an den heilgen <lb/>tagen ze kilchen gaͧt, mit roͤcken, schu̍rlatz,
+               mantel, <lb/>tu̍chlin und stu̍rtzen och gefolgen und werden sol, <lb/>es sye dann
+               sach, das sy hett eine oder mer unberaͧten <lb/>tochtern, denn soͤlt nit mer genomen
+               werden, denn <lb/>der haͤs fall oder libfal und nicht das bett.</p>
+            <p>
+               <lb/>Zuͦ dem ein und drissigosten: Das die kind ir vater und <lb/>muͦter erben
+               soͤllen und dero kinds kind und ein <lb/>bruͦder, ob da nit kind werend, einandern,
+               die alle <lb/>des huses vorgenannt eigen weren, und soͤlich erben <pb n="8r" facs="C_II_3__Nr__193__fol__8_r_.tif"/>
+               <lb/>beston und beliben bis an das vierd glid und denn <lb/>an dem das erben also
+               usgon. Und wenn es also wyter <lb/>u̍ber das vierd glid kompt, das denn dem naͧch das
+               <lb/>huß vorgenant des huses eigenlu̍t, so die absterbend, <lb/>in irem verlaͧsnen
+               guͦt, ligendem und varendem, fallen <lb/>und erben mag und dem der fall und lass
+               zuͦgehoͤren <lb/>sol.</p>
+            <p>
+               <lb/>Zuͦ dem zwey und drissigosten: Das ein eigen man <lb/>des vorgenannten huses
+               sinem kind, das och des huses <lb/>eigen weͣre, geben moͤcht ein fierteil, zwey oder
+               dry <lb/>ald mer kernen in einem guͦt, da er zwey oder dru̍ <lb/>stuck nem.</p>
+            <p>
+               <lb/>Zuͦ dem dry und drissigosten: Als denn hoͤff und stuk <lb/>von dem huß
+                  <placeName ref="LOC_47.26652_8.82808">Buͦbikon</placeName> verkofft und die
+               desselben <lb/>huses eignen lu̍ten worden sind, ob da die egenanten <lb/>eignen lu̍t
+               der selben hoͤffen und stuken eines oder <lb/>mer wider verkoffen woͤlten, das sy
+               denn die oder <lb/>das des ersten einem herren comendu̍r und dem <lb/>egenannten huß
+               feil bieten und vor menglichem <lb/>zuͦ koffen geben soͤllen. Ob aber die das und die
+               nit <lb/>koffen welten, das sy denn dem naͧch under einandern <lb/>die eignen
+               gotzhußlu̍t feil bieten und koffen moͤgen.</p>
+            <p>
+               <lb/>Zuͦ dem vier und drissigosten: Wer under des vorge<lb break="no"/>nanten huses
+               eignen lu̍ten guͦt verkoffen wil oder <pb n="8v" facs="C_II_3__Nr__193__fol__8_v_.tif"/>
+               <lb/>muͦß, das der das des ersten den <app>
+                  <lem>geteilten</lem>
+                  <rdg
+                     wit="StAZH C II 3, Nr. 838 / https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4746676"
+                     >geteilyten</rdg>
+               </app> feil bieten <lb/>sol und dem naͧch den genossen, das ist des huses <lb/>eignen
+               lu̍ten und darnaͧch dem herren oder comen<lb break="no"/>du̍r des egenannten huses.
+               Und wellent die nit kofen, <lb/>das er denn das in die wit reity schlahen und da <choice>
+                  <sic>ver<lb break="no"/>verkoffen</sic>
+                  <corr>verkoffen</corr>
+               </choice> mag.</p>
+            <p>
+               <lb/>Zuͦ dem fu̍nff und drissigosten: Das von den ligenden <lb/>guͦtern so uff den
+               gerichten verkofft und daruß gezogen <lb/>werdent, was das trifft und sich gebu̍rt,
+               dem huß <placeName ref="LOC_47.26652_8.82808">Buͦby<lb break="no"/>kon</placeName>
+               fu̍r den abzug der drit pfening geben werden und <lb/>doch dar inn gnaͧd sin sol.</p>
+            <p>
+               <lb/>Zuͦ dem saͤchß und drisigosten: Wenn och ein herr comen<lb break="no"/>du̍r oder
+               schaffner des huses <placeName ref="LOC_47.26652_8.82808">Buͦbikon</placeName> sinen
+               boten uß <lb/>sendet zepfenden, es sye umb zinß, zechenden, buͦsen <lb/>oder von
+               ander sachen wegen, das er die pfand tragen, <lb/>triben oder fuͤren zuͦ des huses
+               egenant handen laͧsen <lb/>mag on menglichs summen und irren.</p>
+            <p>
+               <lb/>Zuͦ dem siben und drisigosten: Wenn och ein herr comen<lb break="no"/>du̍r oder
+               schaffner des vilgenanten huses ald ampt<lb break="no"/>lu̍t einen fahen laͧsen
+               wellen, er sye des huses eigen <lb/>oder vogtman ald sus in des huses gerichten
+               gesessen, <lb/>das denn ein jeglicher, er sye eigen oder vogtmann ald <lb/>sus einer,
+               so geschworn haͧt, helfen sol, den by fangen <lb/>und gefangen fuͤren an die end im
+               das bescheiden <pb n="9r" facs="C_II_3__Nr__193__fol__9_r_.tif"/>
+               <lb/>und das notturfftig weͣre und er also dartzuͦ tuͦn, es <lb/>sye sin schwaͧger
+               oder sust fru̍nd ungevarlich.</p>
+            <p><lb/>Und zuͦ dem acht und drissigosten: Das beid vorgenannt <lb/>partyen und teile
+               umb obgeruͤrt ir irrungen und <lb/>zweyungen, wie vor von einem an das ander
+                  geschry<lb break="no"/>ben staͧt, also gericht, betragen und geeint sin <lb/>und
+               sy beidersidt und alle ir ewig nachkommen daby <lb/>jetz und ku̍nfftenklich beliben
+               und dem <app>
+                  <lem>gestrak</lem>
+                  <rdg
+                     wit="StAZH C II 3, Nr. 838 / https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4746676"
+                     >gestraks</rdg>
+               </app> und <lb/>on alle intrag, fu̍rwort und widerrede nachgon <lb/>und gnuͦg tuͦn
+               soͤllen und wellen, als das der vorge<lb break="no"/>nant unser gnediger herr, der
+               meister, vor uns zuͦge<lb break="no"/>sagt gloplich haͧt, und von der vorgenannten
+               eignen <lb/>lu̍ten wegen und in iro aller nammen das also zuͦ <lb/>vollfuͤrend und
+               zehaltend vor uns <persName>Ruͦdolff Guller</persName>
+               <lb/>von <placeName ref="47.41182_8.64516">Wangen</placeName>, <persName>Hanns
+                  Gul</persName> von <placeName ref="LOC_47.39227_8.66988">Hegnow</placeName>,
+                  <persName>Frydly Weber</persName>
+               <lb/>von <placeName ref="LOC_47.27942_8.86162">Oberdu̍nraͧten</placeName>,
+                  <persName>Bertschy Kyburger</persName> von <placeName ref="LOC_47.22557_8.82228"
+                  >Rapperschwil</placeName>
+               <lb/>und <persName>Klaͧs Maͧg</persName> von <placeName ref="LOC_47.30149_8.85275"
+                  >Hinwil</placeName> als ir aller anwaͤlt in <lb/>disen geschaͤfften fu̍r sich und
+               sy das by guͦten tru̍wen <lb/>zuͦhalten gelopt und versprochen hand. <lb/>Und wonn
+               alles das, so davor geschriben staͧt, von uns <lb/>obgenannten dryen also abgeredt
+               und beschlossen ist <lb/>mit beider partyen und teilen verhengnu̍se, willen <lb/>und
+               wissen, so haben wir des zuͦ guͦtem ewigem <lb/>urkund und jemerwerenden gezu̍gnu̍ße
+               von ir begerens <pb n="9v" facs="C_II_3__Nr__193__fol__9_v_.tif"/>
+               <lb/>wegen unser jeglicher sin insigel gehenkt an diser brieffen <lb/>zwen glich.
+               <lb/>Wir, obgenanter <app>
+                  <lem>graff</lem>
+                  <rdg
+                     wit="StAZH C II 3, Nr. 838 / https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4746676"
+                     >grave</rdg>
+               </app>
+               <persName ref="GND_1025206975">Ruͦdolff von Werdenberg</persName>, meister <lb/>sant
+               Johanns ordens, und wir, die nechstbenemmpten <lb/>fu̍nff, bekennend und verjehend
+               alles des, so davor ge<lb break="no"/>schriben staͧt, das es also beschehen und
+               vollefuͤrt ist. <lb/>Und des zuͦ vestem urkund und warer gezu̍gnu̍ß, so <lb/>haben
+               wir, jetzgenannter meister, von des huses <placeName ref="LOC_47.26652_8.82808"
+                  >Buͦbikon</placeName>
+               <lb/>wegen, als das dirr zite als einem herren da in unsern <lb/>handen staͧt, unser
+               insigel zuͦ der obgenannten dryer <lb/>insigel offenlich henken laͧsen an diser
+               brieffen zwen <lb/>glich. So habent wir, die vorgenanten fu̍nff, erbeten <lb/>die
+               obgenanten unser gnedig herren von <placeName ref="LOC_47.36667_8.55"
+                  >Zu̍rich</placeName>, das die <lb/>fu̍r uns, des genanten huß <placeName
+                  ref="LOC_47.26652_8.82808">Buͦbikons</placeName> eigenlu̍te, ir staͧt <lb/>secret
+               insigel hand <damage agent="rubbing"><supplied
+                     source="StAZH C II 3, Nr. 838 / https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4746676"
+                     >laͧsen</supplied></damage> henken an diser brieffen zwen <lb/>glich und doch
+               inen und iren nachkomen inallweg <lb/>unschaͤdlich und unvergriffenlich von ir stat
+               und <lb/>herlikeiten wegen. Und ist das beschehen zuͦ <origPlace>Zu̍rich</origPlace>
+               uff <lb/><origDate when="1483-09-12">frytag naͧch sant <persName ref="GND_1212885945"
+                     >Felix</persName>
+                  <damage agent="rubbing"><supplied
+                        source="StAZH C II 3, Nr. 838 / https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4746676"
+                        >und</supplied></damage> sant <persName ref="GND_118743856"
+                     >Regulen</persName>, der hoch<lb break="no"/>wirdigen martren tag, und des
+                  jaͧres, do gezalt ward <lb/>von der gebu̍rt unsers herren Cristy viertzechen
+                  <lb/>hundert achtzig und dry jaͧr</origDate>.</p>
+            <pb n="10v" facs="C_II_3__Nr__193__fol__10_v_.tif"/>
+            <ab type="dorsal" hand="hand17c">
+               <del rend="strikethrough"><lb/>Verzeichnus <lb/>über alle in dem hauß <placeName
+                     ref="LOC_47.26652_8.82808">Bubikheim</placeName>
+                  <lb/>befindende documenta <abbr>etc</abbr>.</del>
+               <lb/>Anno <date when="1483">1483</date>. </ab>
+         </div>
+      </body>
+      <back>
+         <div>
+            <p>Der sogenannte Hausbrief von <placeName ref="LOC_47.26652_8.82808"
+                  >Bubikon</placeName> regelte die Rechte und Pflichten der Eigenleute der dortigen
+               Johanniterkomturei. Auslöser für die Verschriftlichung im Jahr 1483 war ein Streit
+               zwischen den Eigenleuten und <persName ref="GND_1025206975">Rudolf von
+                  Werdenberg</persName>, dem Komtur des Johanniterhauses. Anders als bei sonstigen
+               Offnungen oder Dorfrechten berief man sich hier also nicht auf <q>altes
+               Herkommen</q>, sondern stellte neue Regeln auf, die fortan <q>ewig</q> gelten
+               sollten. Im Dokument selber und in der Erläuterung von 1485 wird der Text als
+                  <orig>Übertrag</orig> – also als vertragliche Übereinkunft – bezeichnet. Erst bei
+               der offiziellen Abschrift, die der geschworene Schreiber <persName>Heinrich
+                  Weber</persName> 1578 für das städtische Archiv erstellte, findet sich die
+               Bezeichnung <orig>Hausbrief</orig> (<orig>Waarhaffte unnd gründtliche abschrifft deß
+                  huses Bubicken hußbriefs, desselben eigne lüth belangennde</orig>, <bibl><ref
+                     target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=354989">StAZH C
+                     III 13, Nr. 36</ref></bibl>).</p>
+            <p>Der Hausbrief wurde in zwei Exemplaren ausgestellt, von denen eines an die Eigenleute
+                     (<bibl><ref
+                     target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4746676">StAZH C
+                     II 3, Nr. 838</ref></bibl>) und das andere an den Komtur (<bibl><ref
+                     target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4746674">StAZH C
+                     II 3, Nr. 193</ref></bibl>) ging. Es handelt sich um zwei Pergamenthefte, an
+               deren Umschlag unten jeweils die fünf angekündigten Siegel alle an der gleichen Schnur
+               angehängt wurden. Am Exemplar der Eigenleute sind die Siegel in deutlich schlechterem
+               Zustand. Bei beiden Exemplaren wurde 1485 als eigene Urkunde eine Erläuterung des
+               Zürcher Rats zu Artikel 29 eingeheftet. An den zusätzlichen, unterschiedlichen
+               Einschnitten und der andersartigen Schnur erkennt man, dass das ursprünglich an
+               beiden Exemplaren vorhandene Zürcher Stadtsiegel bei dieser Gelegenheit entfernt und
+               durch das Siegel für die aktuelle Urkunde ersetzt wurde, wobei die Siegelbefestigung
+               zugleich dazu diente, die Erläuterung an die Plica des Hausbriefs zu fixieren, wie es
+               auch im Text der Erläuterung steht. Im Exemplar des Komturs ist die Erläuterung immer noch angeheftet (<bibl><ref
+                  target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4746675">StAZH C
+                  II 3, Nr. 193 a</ref></bibl>), im Exemplar der Eigenleute wurde sie
+                     (<bibl><ref
+                     target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4746677">StAZH C
+                     II 3, Nr. 839</ref></bibl>) zu einem späteren Zeitpunkt herausgelöst: Das
+               Stadtsiegel wurde abgeschnitten und anschliessend wieder am Hausbrief befestigt,
+               indem man das Band durch den Schlitz zog und an die Schnur der anderen Siegel
+               knüpfte. Vermutlich geschah dies zu dem Zeitpunkt, als der letzte Statthalter
+                  <persName ref="GND_1089573405">Felix Lindinner</persName> die Erläuterung an die
+               Ordenszentrale nach <placeName ref="47.87468_7.65721">Heitersheim</placeName>
+               schickte, wie er es in seinem Archivverzeichnis erwähnt (<bibl><ref
+                     target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=343714">StAZH KAT
+                     259</ref></bibl>, S. 123). Dies könnte auch erklären, warum das betreffende
+               Siegel an einem andersartigen, nämlich gewobenen Stoffstreifen hängt.</p>
+            <p>Wo die Eigenleute ihr Exemplar des Hausbriefs aufbewahrten, ist unklar. Es scheint
+               spätestens im 17. Jahrhundert zusammen mit dem Exemplar des Johanniterhauses in
+               dessen Archiv aufbewahrt worden zu sein, wie die auf beiden vorhandenen Signaturen
+               aus dem 17. und 18. Jahrhundert belegen. In den verschiedenen Archivverzeichnissen
+               von <placeName ref="LOC_47.26652_8.82808">Bubikon</placeName> werden die beiden
+               Exemplare allerdings erst gegen Ende des 18. Jahrhunderts separat aufgeführt. Die
+               heutige Signatur Nr. 838 erhielt das Exemplar der Eigenleute erst nach den Ordnungs-
+               und Verzeichnisarbeiten von <persName ref="GND_1089573405">Felix
+                  Lindinner</persName>. Im Archivverzeichnis <bibl><ref
+                     target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=287620">StAZH F II
+                     a 54 a</ref></bibl> wurde die Nummer als Nachtrag nach 1790 eingetragen.</p>
+            <p>Für die Eigenleute von <placeName ref="LOC_47.26652_8.82808">Bubikon</placeName>
+               diente der Hausbrief bis gegen Ende des 18. Jahrhunderts als Rechtsgrundlage, die
+               allerdings auch immer wieder in einzelnen Punkten angefochten wurde. Bereits drei
+               Jahre nach dem vertraglich festgehaltenen Kompromiss erachtete es der Rat aufgrund
+               einer neuerlichen Konfliktsituation 1485 für angebracht, die oben erwähnte
+               Erläuterung zu Artikel 29 zu erlassen. Zu weiteren Auseinandersetzungen kam es unter
+               anderem 1503/1504 (<bibl>StAZH C II 3, Nr. 237-238</bibl>), 1508 (<bibl>StAZH C II 3,
+                  Nr. 244</bibl>), 1515 (<bibl>StAZH C II 3, Nr. 251</bibl>), 1575 (<bibl>StAZH C II
+                  3, Nr. 368</bibl>) und 1626 (<bibl>StAZH C II 3, Nr. 454</bibl> und <bibl>454
+                  a</bibl>). Bei einem Konflikt zwischen den Leibeigenen, den Hintersässen und den
+               vogtbaren Leuten im Jahr 1568 wurde der Hausbrief verkündet und den Anwesenden der
+               Eid abgenommen (<bibl>StAZH C II 3, Nr. 363</bibl>). Auch bei den
+               Abgrenzungsstreitigkeiten zwischen der Gerichtsherrschaft von <placeName
+                  ref="LOC_47.26652_8.82808">Bubikon</placeName> und den übergeordneten Ansprüchen
+               des Zürcher Landvogts von <placeName ref="LOC_47.28333_8.75">Grüningen</placeName>
+               berief sich der Statthalter des Johanniterhauses verschiedentlich auf den Hausbrief
+                  (<bibl>StAZH C II 3, Nr. 365</bibl> [1569], <bibl>Nr. 370</bibl> [1576] und
+                  <bibl>Nr. 526</bibl> [1654]). 1705 urteilte der Zürcher Rat, dass sich der
+               Hausbrief nur auf die Eigenleute und nicht auf die übrigen Bewohner von <placeName
+                  ref="LOC_47.26652_8.82808">Bubikon</placeName> beziehe (<bibl>StAZH C II 3, Nr.
+                  598, 18</bibl>). <persName ref="GND_1089573405">Felix
+                  Lindinner</persName> hielt um 1780 in einem seiner Archivverzeichnisse fest, dass
+               Artikel 14 immer noch in Kraft sei (<bibl><ref
+                     target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=287620">StAZH F II
+                     a 54 a</ref></bibl>). Vgl. zum Hausbrief <bibl><ref
+                     target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html"
+                     >Schmid 1979</ref></bibl>, S. 11-40; zum Archiv des Johanniterhauses Bubikon
+                     <bibl><ref
+                     target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html"
+                     >Sieber 2013</ref></bibl>, S. 6-18; zu den Leibeigenen <bibl><ref
+                     target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html"
+                     >Fröhlich 1993</ref></bibl>; zum Johanniterhaus allgemein <bibl>HLS, <ref
+                     target="https://hls-dhs-dss.ch/de/articles/011879/">Bubikon (Kommende)</ref>
+               </bibl>.</p>
+         </div>
+      </back>
+   </text>
+</TEI>

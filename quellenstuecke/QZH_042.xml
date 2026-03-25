@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='../../Ressourcen/Stylesheet.xsl'?>
+<?xml-model href="http://www.tei-c.org/ns/1.0" type="application/xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Quellen zur Zürcher Geschichte</title>
+                <respStmt>
+                    <persName>Rainer Hugener. Mit einem Kommentar von Rainer Hugener</persName>
+                    <resp key="transcript"/>
+                </respStmt>
+                <respStmt>
+                    <persName>Rainer Hugener</persName>
+                    <resp key="tagging"/>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Staatsarchiv des Kantons Zürich</publisher>
+                <date type="electronic" when="2024-07-22"/>
+                <date type="print" when="2024-07-22"/>
+            </publicationStmt>
+            <seriesStmt xml:id="ssrq-sds-fds">
+                <title>Quellen zur Zürcher Geschichte</title>
+                <respStmt>
+                    <persName>Staatsarchiv des Kantons Zürich</persName>
+                    <resp>Herausgeberschaft</resp>
+                </respStmt>
+                <idno>QZH_042</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=522509"
+                            >StAZH C I, Nr. 277</idno>
+                    </msIdentifier>
+                    <head>Entledigung einer Bürgschaft des Zürcher Rats durch vier Juden von Zürich</head>
+
+                    <msContents>
+                        <summary>Die Brüder Moses und Gumprecht, ihre Mutter
+                            Minne sowie Susmann, Juden von Zürich, entledigen den Rat und die
+                            Gemeinde Zürichs von ihrer Bürgschaft für ein Darlehen des Grafen
+                            Johannes von Habsburg-Laufenburg. Die Aussteller siegeln.</summary>
+                        <msItem>
+                            <textLang>Deutsch</textLang>
+                            <filiation type="current">Orginal</filiation>
+                            <filiation type="original"><origDate when="1329-01-31"/></filiation>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><material>Pergament</material></support>
+                                <extent><dimensions type="leaves">
+                                        <height unit="cm" quantity="14.0"/>
+                                        <width unit="cm" quantity="22.0"/>
+                                    </dimensions><dimensions type="plica">
+                                        <width unit="cm" quantity="1.5"/>
+                                    </dimensions></extent>
+                            </supportDesc>
+                        </objectDesc>
+                        <sealDesc>
+                            <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1" nontei:material="wax" nontei:shape="round"
+                                nontei:attachment="sealed on a parchment tag" nontei:condition="polished">
+                                <persName>Moses (Mosche ben Menachem)</persName>
+                            </seal>
+                            <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="2" nontei:material="wax" nontei:shape="round"
+                                nontei:attachment="sealed on a parchment tag" nontei:condition="polished">
+                                <persName>Gumprecht (Mordechai ben Menachem)</persName>
+                            </seal>
+                            <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="3" nontei:material="wax" nontei:shape="round"
+                                nontei:attachment="sealed on a parchment tag" nontei:condition="polished">
+                                <persName>Susman (Israel ben Schemuel)</persName>
+                            </seal>
+                        </sealDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origDate when="1337-06-27"/><origPlace>Brugg</origPlace></origin>
+                    </history>
+                    <additional>
+                        <listBibl>
+                            <head>Edition</head>
+                            <bibl><ref target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html">UBZH</ref>, Bd. 11, Nr. 4196</bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Regest</head>
+                            <bibl><ref target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html">QZWG</ref>, Bd. 1, Nr. 115</bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>
+                    <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+                </p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc> </profileDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+                    <term ref="key000499">Bürgschaft</term>
+                    <term ref="key000854">Geldhändler</term>
+                    <term ref="key000755">Juden</term>
+                    <term ref="key000440">Kredit</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <group>
+            <text>
+                <body corresp="Sigle1">
+                    <div>
+                        <pb n="r" facs="C_I__Nr__277__r_.tif"/>
+                        <p><lb/>Allen, die disen brief sehent oder hoͤrent lesen, ku̍nden wir,
+                            <persName role="issuer">Moysse</persName> und <persName role="issuer">Gumprecht</persName>,
+                            juden, gebruͦ<lb break="no"/>dere, fro <persName>Minnen</persName> der
+                            judin su̍ne von <placeName ref="LOC_Lat_Long">Zu̍rich</placeName>, und du̍ selbe fro
+                            <persName role="issuer">Minne</persName>, ir muͦter, mit in, und <persName role="issuer">Suͦs<lb
+                                    break="no"/>man</persName> der jude von
+                            <placeName ref="LOC_Lat_Long">Zu̍rich</placeName>, und verjehen offenlich, daz wir den
+                            rat und die burgere ze <placeName ref="LOC_Lat_Long">Zu̍rich</placeName>
+                            <lb/>gemeinlich gentzlich ledig haben verlassen und sagen si ledig an
+                            disem brieve bedachteclich und <lb/>willeclich fu̍r uns und unser erben,
+                            die wir herzuͦ binden, aller der trostunge und glu̍bde, so si <lb/>uns
+                            getan und globt hatten umb die nu̍ndhalb hundert mark silbers, die uns
+                            der edel herre <lb/>grave <persName ref="GND_137459610">Johans von Habsburg</persName> gelten solte, des selben
+                            silbers uns, <persName>Moyssen</persName> und <persName>Gumprechten</persName>, an<lb break="no"/>gehorte
+                            achtodhalb hundert mark und mich, den vorgenanden <persName>Suͦsman</persName>, hundert mark
+                            angehorte, <lb/>darumbe wir oͧch brieve hatten von dem vorgenanden
+                            graven <persName ref="GND_137459610">Johanse</persName>, die besigelt waren mit sinem <lb/>insigel und mit der
+                            burger insigel ze <placeName ref="LOC_Lat_Long">Zu̍rich</placeName>. Und heru̍ber, daz dis war si und stete
+                            belibe, so haben <lb/>wir, die vorgenanden drije juden, disen brief mit
+                            unsern insigeln besigelt offenlich und binde ich, <lb/>du̍ vorgenande
+                            fro <persName>Minne</persName>, mich under miner su̍nen insigel, wan ich nit eigens insigels
+                            han. Dis geschach <lb/>ze <origPlace ref="LOC_Lat_Long">Zu̍rich</origPlace>, an dem
+                                <origDate when="1329-01-31">cinstage vor der liechtmesse, do von
+                                Cristes gebu̍rte waren dru̍cehen hundert jar <lb/>und darnach in dem
+                                nu̍nden und zwenzigosten jare</origDate>.</p>
+
+                        <pb n="v" facs="C_I__Nr__277__v_.tif"/>
+                        <div>
+                            <ab type="dorsal" hand="hand15c"><lb/>Quitanz etlicher juden</ab>
+                        </div>
+                    </div>
+
+                </body>
+
+                <back>
+                    <div>
+                        <p>Graf <persName ref="GND_137459610">Johannes von Habsburg-Laufenburg</persName> hatte sich im
+                            Juni des Vorjahrs 1328 gegenüber dem Zürcher Rat verpflichtet, für
+                            allfällige Unkosten wegen der Bürgschaft für sein Anleihen von 65 Mark
+                            beim jungen <persName>Brühund</persName> aufzukommen, wobei bereits weitere Bürgschaften bei Juden in Betracht gezogen worden wurden (<bibl><ref
+                                target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html">UBZH</ref>, Bd. 11, Nr.
+                                4149</bibl>; <bibl><ref target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html">QZWG</ref>, Nd. 1, Nr. 115</bibl>).
+                        Mit der vorliegenden Urkunde wurde der Rat nun von der Bürgschaft für eine weitaus grössere Verschuldung des Grafen entbunden.
+                        Zu der hier tätigen jüdischen Familie, ihrer Geschäftstätigkeit und ihrem Wohnsitz an der heutigen <placeName ref="LOC_Lat_Long">Brunngasse 8</placeName> vgl.
+                            <bibl><ref target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html">Epstein-Mil 2024</ref></bibl>.<!-- Im Sammelband "Frau Minne und die Zürcher Juden. Die mittelalterlichen Wandmalereien an der Brunngasse und ihr Kontext, hg. von Brigitta Rotach u. a., Zürich 2024". -->
+                        </p>
+                    </div>
+                </back>
+            </text>
+        </group>
+    </text>
+</TEI>

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='../../Ressourcen/Stylesheet.xsl'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Quellen zur Zürcher Geschichte</title>
+                <respStmt>
+                    <persName>Sarah Murer. Mit einem Kommentar von Sarah Murer und Michael Schaffner</persName>
+                    <resp key="transcript"/>
+                </respStmt>
+                <respStmt>
+                    <persName>Sarah Murer und Michael Schaffner</persName>
+                    <resp key="tagging"/>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Staatsarchiv des Kantons Zürich</publisher>
+                <date type="electronic" when="2021-05-01"/>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Quellen zur Zürcher Geschichte</title>
+                <respStmt>
+                    <persName>Staatsarchiv des Kantons Zürich</persName>
+                    <resp>Herausgeberschaft</resp>
+                </respStmt>
+                <idno>QZH_041</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=5083509"
+                            >StAZH B IV 519, S. 191-192</idno>
+                    </msIdentifier>
+                    <head>Missive Zürichs an das Hochgericht Tamins betreffend Auslieferung von Kaspar Billeter
+                        und Heinrich Wädensweiler
+                    </head>
+                    <msContents>
+                        <summary>Bürgermeister und Rat der Stadt Zürich bedanken sich beim
+                            Hochgericht Tamins für die Verhaftung von Kaspar Billeter und Heinrich
+                            Wädensweiler in Graubünden. Sie bitten um deren Auslieferung gemäss den
+                            eidgenössischen Verträgen.</summary>
+                        <msItem>
+                            <textLang>Deutsch</textLang>
+                            <filiation type="current">Abschrift</filiation>
+                            <filiation type="original"><origDate when="1795-07-12"/></filiation>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><material>Papier</material></support>
+                                <extent/>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origDate when="1795-07-12"/></origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>
+                    <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+                </p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc> </profileDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+                    <term ref="key000590">Delinquenz</term>
+                    <term ref="key000958">Flucht</term>
+                    <term ref="key000334">Gefängnis</term>
+                    <term ref="key000057">Gericht</term>
+                    <term ref="key003389">Inhaftierung</term>
+                    <term ref="key005471">Revolution</term>
+                    <term ref="key001001">Ungehorsam</term>
+                    <term ref="key000668">Unruhen</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <group>
+            <text>
+                <body>
+                    <div>
+                        <pb n="191" facs="B_IV_519__S__191_.tif"/>
+                        <p>
+                            <lb/>Unsern <abbr>etc.</abbr></p>
+                            <p>
+                            <lb/>Zu unserer danks verpflichtung haben wir vernommen,
+                                <lb/>daß auf die vorstellungen eines unserer verburgerten 
+                                <lb/>zwei aus unserm gebiet entflohene, sehr gefährliche un<lb break="no"/>ruhstifter, 
+                                nemlich der substitut <persName ref="GND_1033021792">Heinrich Billeter</persName>
+                                <lb/>und der <persName>Kaspar Wädenschweiler</persName><note>Der Schreiber
+                                    vertauschte an dieser Stelle die Vornamen der beiden Verhafteten.</note> im
+                                <placeName>Mies</placeName>, beide von <placeName
+                                ref="LOC_Lat_Long">Stäfa</placeName>, <lb/>auf eüere
+                            verfügung arretiert worden sind. Wir er<lb break="no"/>kennen hierin
+                            einen beweis eürer bundesgenößischen den<lb break="no"/>kungsart, 
+                                hoffen aber auch zuversichtlich, ihr, <choice><expan>unsere getreuen, lieben eidgenossen und bundesgenossen</expan><abbr>ugle u. b.</abbr></choice>,
+                            <lb/>werdet kein bedenken tragen, diese aufrührer, welche <lb/>auch
+                            anderswo unglück stiften könnten, den hierzu von uns
+                            <lb/>bevollmächtigten Personen <add place="margin" type="sign">gegen erstattung <lb/>der unkosten</add>
+                                <lb/>wirklich auszuliefern. Diese <lb/>den bünden und verträgen<note>Die Zürcher Obrigkeit bezog sich damit auf den Bundes- und Hilfsvertrag zwischen <placeName ref="LOC_47.37721_8.52731">Zürich</placeName> und <placeName ref="LOC_Lat_Long">Graubünden</placeName> 
+                                von 1707. Die Bündner Unterstützer der Stäfner stellten jedoch in Frage, ob dieser Vertrag wirklich eine Auslieferungsverpflichtung enthielt. Vgl. <bibl><ref target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html">Suter 1995</ref>, S. 198</bibl>.</note>
+                                gemäße
+                            dienstgefälligkeit <lb/>werden wir, bei sich ergebenden anläsen mit bundesge<lb break="no"/>nößischen
+                             gegendiensten zu erwiedern, uns vorzüglich ange<lb break="no"
+                            />legen seyn laßen, und empfehlen inzwischen eüch, 
+                                <choice><expan>unsere getreuen, lieben eidgenossen und bundenossen</expan><abbr>ugle u. b.</abbr></choice>
+                        </p>
+                        <pb n="192" facs="B_IV_519__S__192_.tif"/>
+                        <p>
+                            <lb/>bestens der obhut des höchsten. Geben den <origDate
+                                when="1795-07-12">12. july 1795. </origDate></p>
+                            <p><lb/>An das hochgericht zu <lb/><placeName ref="LOC_Lat_Long"
+                                >Tamins im Obern <lb/>Bund</placeName>.</p>
+                                <p><lb/>Bürgermeister und rath
+                            <lb/>der stadt <placeName ref="LOC_47.37721_8.52731">Zürich</placeName>
+                        </p>
+                    </div>
+                </body>
+                <back>
+                    <div><p>Das vorliegende Schreiben ist den Missivenbüchern entnommen. Dabei handelt es sich um eine umfangreiche Serie mit Abschriften der ausgehenden 
+                        Korrespondenz des Zürcher Rates vom 15. Jahrhundert bis zum Ende des Ancien Régime. Die Missivenbücher dokumentieren 
+                        dabei sowohl den diplomatischen Kontakt mit auswärtigen Mächten 
+                        als auch die Kommunikation innerhalb der Zürcher Herrschaft, so zum Beispiel Anweisungen an Vögte und Weibel auf der Landschaft. 
+                        Zu beachten ist ferner, dass <placeName ref="LOC_47.37721_8.52731">Zürich</placeName> in seiner 
+                        Eigenschaft als eidgenössischer (und reformierter) Vorort auch offizielle Schreiben im Namen der gesamten Eidgenossenschaft versandte, 
+                        die über die Zürcher Geschichte hinaus von Bedeutung sind. Da oftmals im Rahmen einer Sitzung des Kleinen Rats die Abfassung einer
+                        Missive beschlossen wurde, besteht eine enge inhaltliche Verbindung zwischen dieser Serie und den Ratsmanualen
+                        (<bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=243964">StAZH B II 6 – B II 1060</ref></bibl>). 
+                    </p>
+                        <p>Die zwei festgenommenen Männer, <persName ref="GND_1033021792">Kaspar Billeter</persName> und
+                                <persName>Heinrich Wädensweiler</persName> waren am 5.
+                            Juli 1795 – dem Tag der Besetzung <placeName ref="LOC_Lat_Long"
+                                >Stäfas</placeName> durch Zürcher Truppen – über <placeName
+                                ref="LOC_Lat_Long">Chur</placeName> und <placeName
+                                ref="LOC_Lat_Long">Felsberg</placeName> nach <placeName
+                                ref="LOC_Lat_Long">Reichenau in Graubünden</placeName>
+                            (Oberer, beziehungsweise Grauer, Bund) geflohen. Entgegen den in dieser
+                            Missive und in den Ratsmanualen (unter anderem <ref
+                                target="https://ratsmanuale-zuerich.transkribus.eu/document/260873/pages/52"
+                                >B II 1050, S. 101</ref>) ausgedrückten Wünschen des Zürcher Rats
+                            konnten <persName ref="GND_1033021792">Billeter</persName> und
+                                <persName>Wädensweiler</persName> aber nicht ausgeliefert werden:
+                                <persName ref="GND_1033021792">Billeter</persName> floh aus dem Gerichtshaus in
+                                <placeName ref="LOC_Lat_Long">Tamins</placeName> über
+                                <placeName ref="LOC_Lat_Long">Glarus</placeName> und
+                                <placeName ref="LOC_Lat_Long">Paris</placeName> nach
+                                <placeName ref="LOC_Lat_Long">Jebsheim im
+                            Elsass</placeName>, <persName>Wädensweiler</persName> nach <placeName
+                                ref="LOC_Lat_Long">Sainte-Marie-aux-Mines (Mariakirch) im
+                                Elsass</placeName>. Beide kehrten nach dem Erlass der Amnestie vom
+                            29. Januar 1798 am 2. Februar 1798 zurück.</p>
+                        <p><persName ref="GND_1033021792">Billeter</persName> und <persName>Wädensweiler</persName> gehörten nicht zu den Autoren des Stäfner
+                            Memorials; diese waren schon Ende des vorherigen Jahres festgenommen
+                            und verhört worden. Billeter wurde zusammen mit seinem Vater, dem Landschreiber
+                                <persName>Heinrich Billeter</persName>, im November 1794 sogar
+                            beauftragt, die Verfasser des Memorials zu finden. Zusammen mit
+                                <persName>Wädenschweiler</persName> wurde er aber an den
+                            Gemeindeversammlungen und Sitzungen, die sich mit spätmittelalterlichen
+                            Urkunden und den darin verbrieften Rechten der Landschaft befassten, im
+                            Mai 1795 zum Wortführer.</p>
+                        <p>Zu <persName ref="GND_1033021792">Kaspar Billeter</persName> und <persName>Heinrich Wädensweiler</persName> vgl. <bibl><ref
+                                    target="https://www.digibern.ch/katalog/historisch-biographisches-lexikon-der-schweiz"
+                            >HBLS</ref></bibl> und <bibl><ref target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html">Mörgeli 1995</ref>, S. 153-172</bibl>; zu ihrer Flucht nach <placeName ref="LOC_Lat_Long">Graubünden</placeName> und den Umgang der dortigen Obrigkeiten mit ihnen
+                            vgl. <bibl><ref target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html">Suter 1995</ref>, S. 197-205</bibl>;
+                            allgemein zum Stäfnerhandel vgl. <ref target="https://qzh.sources-online.org/quellenstuecke/QZH_040">QZH, Nr. 40</ref>.</p>
+                    </div>
+                </back>
+            </text>
+        </group>
+    </text>
+</TEI>

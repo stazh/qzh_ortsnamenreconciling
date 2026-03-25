@@ -1,0 +1,284 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css“?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0"
+ xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <respStmt>
+     <persName>Andrea Schmid-Kunz</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Michael Schaffner</persName>
+     <resp key="tagging"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <date type="electronic" when="2021-05-01"/>
+    <date type="print" when="2018-12-31"/>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Gelebte Reformation. Zürich 1500-1800</title>
+    <respStmt>
+     <persName>Francisca Loetz. Unter Mitarbeit von Wolfram Schneider-Lastin</persName>
+     <resp>Herausgeberschaft</resp>
+    </respStmt>
+    <idno>QZH_022</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier>
+         <idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4711123">StAZH A 27.1.1, Nr. 20</idno>
+     </msIdentifier>
+        <head>Kundschaften über gotteslästerliche Vorfälle</head>
+     <msContents>
+      <msItem>
+       <textLang>Deutsch</textLang>
+       <filiation type="current">Aufzeichnung (3 Doppelblätter)</filiation>
+       <filiation type="original"/>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support><material>Papier</material></support>
+        <extent/>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin><origDate when="1518-09"/></origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p>
+     <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+    </p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc> </profileDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+        <term ref="key000482">Blasphemie</term>
+        <term ref="key004380">Fluchen/Schwören</term>
+    </keywords>
+   </textClass>
+   <particDesc default="false"/>
+   <settingDesc default="false"/>
+  </profileDesc>
+ </teiHeader>
+ <text>
+  <group>
+   <text>
+    <body>
+<div>     
+    <pb n="1" facs="StAZH_A_27_1_1__Nr__20__S__1_.tif"/>
+ <p>
+     <lb/><persName>Hanns Pfister</persName> von <placeName ref="LOC_Lat_Long">Menidorf</placeName>,
+     <abbr>d</abbr>, wie dz an <placeName ref="LOC_Lat_Long">Menidorfer</placeName> kilwi
+      <lb/>sig gesin <persName>Ueli Imers</persName> sun in <persName>Hans Zollingers</persName> hus und
+  <lb/>hat zuͦ zwo frowen gesprochen, er muͦß sy bruten, also hat
+      <lb/>sy in inn die stuben geworfen, in dem hat einer under
+      <lb/>den gsellen, die in der stuben waren, ein becki mitt wasser
+      <lb/>uff sy gschütt, do ist der <persName>Imer</persName> uff gestanden und hatt geschworen:
+      <lb/><q>Gotz macht schend, dz üch gotz liden schent</q>, und der
+      <lb/>schwüren so vil triben, dz der züg nitt kan sagen. Und
+      <lb/>hand inn dick und vil gestübt, er sölle von dem schweren
+      <lb/>lassen, hand inn ouch an den se gefürt in zu
+      <lb/>stübenn, er heig aber ab keine segen nütt gethan, hand
+      <lb/>inn ouch von dem se gefürt an dz bett, do ist er von dem
+      <lb/>bett uff gestanden und aber vil geschworen und übel als vor.
+      <lb/>Der züg seit ouch, der schwören sigent so vil, dz ers nitt dorff
+      <lb/>segen und <unclear>wer</unclear> so <unclear>füg</unclear> er als vol gewessen, das er
+      <lb/>nit wußte, was er thäte.</p>
+    <p><lb/><persName>Hanns Hegni</persName> von <placeName ref="LOC_Lat_Long">Menidorf</placeName> <abbr>d</abbr>, wie er in des <persName>Zollingers</persName>
+      <lb/>huß sig gsin und als ein spilman, do hett er wol gsen,
+      <lb/>dz der <persName>Imer</persName> naß ist gsin und heig
+      <lb/>geschworen: <q>Dz üch gotz fünff liden schend und gotz liden
+      <lb/>solt ich minen wedischwileren nitt bystan</q>, er seit ouch,
+      <lb/>wie dz die gsellen inn stouben, er solte von dem schweren
+      <lb/>lan, do sprach er: <q>Solt ich aber minen Wedischwileren niet
+      <lb/>by stan, dz üch gotz macht schend</q>, aber er mug wol
+      <lb/>globen, er hab nit gewußt, das er das thon hab.</p>
+    <pb n="2" facs="StAZH_A_27_1_1__Nr__20__S__2_.tif"/>
+      <p><lb/><persName>Hanns Pfister</persName>, pfiffer, <abbr>d.</abbr>, wie dz er inn <persName>Hans Zollingers</persName> huß
+      <lb/>sig kom, heig wellen fleisch howen, vannd dz erst wort,
+      <lb/>das er von dem <persName>Imer</persName> gehört heigi, heig er gesprochen: <q>Dz dich
+      <lb/>gotz fünff liden schend, dz ich kein wedischwiler by mir
+  <lb/>han</q>, do fuͦrtentz in an se, do sprach er: <q>Dz dich gotz macht
+      <lb/>schend, wo sind mine wedischwiler, ich wil by inen
+      <lb/>stan.</q></p>
+      <p><lb/><persName>Claus Ötikon</persName> <abbr>d</abbr>, der aller erst anhab sig, dz sy sigent gsin
+      <lb/>in des <persName>Zollingers</persName> huß, da sig der <persName>Imer</persName> villicht
+      <lb/>vol win gsin, es sig ouch ein frow da gsin. Do heig der <persName>Imer</persName>
+  <lb/>zuͦ iren gesprochen, er müß sy bruten, do hett sy
+      gesprochen,
+      <lb/>sy welle nütt mitt einer sölcher gecks nassen gan und sölle
+      <lb/>iren müssig gan, do heig er wider gesprochen: <q>Samer gotz
+      <lb/>macht, wenn ich üch den lon geb, ir müßent gan</q>. Da hat
+  <lb/>sy inn nider in die stuben geworffen und schluͦgent ein
+      <lb/>andren. In dem sig einer under den gsellen gsin, der
+      <lb/>heig ein spül becki mitt wasser genan und hatt uff sy
+      <lb/>beidi geschütt. Do sig er uff gstanden und gegen der schiben gangen
+      <lb/>und gsprochen: <q>Dz dich gotz macht schend, dz dich gotz erdtrich
+      <lb/>schend, ist kein wedischwiler hie, der mir bystand.</q> Darnach
+      <lb/>sprach des <persName>Heini Walders</persName> sun, <persName>Ruedi</persName>: <q>Du hest gesprochen,
+      <lb/>du wellest mir volgen</q> und hatt inn gnan und inn uff in
+          <pb n="3" facs="StAZH_A_27_1_1__Nr__20__S__3_.tif"/>
+      <lb/>die kamer getreit an ein bett und von im gangen. Aber
+      <lb/>er sig von stund nachin gangen, wider inn dz huß abhin
+      <lb/>und schwür aber: <q>Samer gotz macht, wüste ich einer, der
+      <lb/>mich beschütt hette unnd viel inn den degen,
+          <lb/>ich wette im den hals abstechen.</q> Do spreche der züg,
+      <lb/>er sölte nitt also schweren, er wüße wol, horte es der
+      <lb/>vogt, er würde inn leiden und heigind ein eid geschworen,
+      <lb/>all ein sölchen ze leiden. Do kem er mitt im, dem zügen,
+      <lb/>in friden und schwüre: <q>Gotz fünff erdtrich, han ich
+      <lb/>nitt<!-- korrigiert, msr --> ein mul für mich selber, dz ich mag reden, wz ich will.</q>
+  <lb/>Do hand sy inn anweg gefürt an dz gstat zu der <persName>Peter Ruͦtsch<lb break="no"/>mans</persName> 
+  stapfen, do wüß er nümen, wie er hin kan sige.</p>
+   <p><pb n="4"/></p><!-- msr: leere Seite -->
+    <pb n="5" facs="StAZH_A_27_1_1__Nr__20__S__5_.tif"/>
+      <p><lb/><persName>Claus Ötikon</persName> <abbr>d</abbr>, dz er nach dem nacht mal sig gangen mitt andren
+  <lb/>knaben zuͦ dem schlafftrunck, do sig <persName>Kuͦnrad Schleipfer</persName> gesessen
+      <lb/>inn des <persName>Zollingers</persName> huß hinder dem tisch nebend der schiben
+      <lb/>und gespilt unnd von unfals wegen, dz er nitt gewunnen
+      <lb/>köndt, hab er geschworen: <q>Dz dich gotz fünff erdrtich und ein kleins erdtrich
+      <lb/>oben druff schend.</q> Unnd dz were sin gemein sprüchwort, <q>gotzmacht</q>
+      <lb/>unnd <q>gotz liden</q> und der schwören so vil, dz er nitt wüsse der
+      <lb/>zal und es dörffte ouch keiner sy straffen, sy welten
+      <lb/>dann mitt inen inn friden komen und sige dannen gangen.</p>
+        <p><lb/>Er seite ouch, das der stubenknecht von <placeName ref="LOC_Lat_Long">Meilen</placeName> sig ouch da gsessen
+      <lb/>und gspilt inn dem, so hat man für dz wetter gelüt, do heige
+  <lb/>er, der züg, zuͦ inen gesprochen, sy söllent
+      hören spilen, man
+      <lb/>lüti für dz wetter, er wüsse wol, wüste es der vogt, er würdi sy
+      <lb/>straffen. Do heig er gesprochen: <q>Gotzmacht, mir ist gar, als mer
+          <lb/>böß wetter als guͦtz.</q> Und wann sy dann
+  <lb/>uff horten spilen, so man für dz wetter lüt, so namen sy huͦren,
+      <lb/>deren waren zwo und giengin in die wisen ushin und hetten
+      <lb/>so ein unerberlich wesen, dz es ein schand were.</p>
+      <p><lb/>Er seite ouch, dz <persName>Heini Scherer</persName> von <placeName>Holtzhusen</placeName> in <placeName>Steffner Hoff</placeName>
+          <lb/>heigi als wild unnd als übel geschworen, als dise <choice><abbr>obgn</abbr><expan>obgnannten</expan></choice> und namlich
+      <lb/>die schwur <q>gotz macht</q> und <q>gotz ertrich</q>, in gestalt wie
+      <lb/>die andern.</p>
+    <pb n="6" facs="StAZH_A_27_1_1__Nr__20__S__6_.tif"/>
+      <p><lb/><persName>Hanns Pfister</persName>, der pfiffer, <abbr>d</abbr>, er sige gsin in der kuchi,
+  <lb/>do sige <persName>Cuͦnrad Schleipffer</persName> an dem morgen kom, do
+      were es
+  <lb/>das erst wort, dz er von im gehört heigi, do heig er zuͦ <persName>Hans
+      <lb/>Walder</persName> gesprochen, als sy mitt ein andren schimpften: <q>Dz dich gotz fünff
+      <lb/>erdtrich schend, dz dich gotz fünff klinen erdtrich schend.</q>
+      <lb/>Do heig er im botten geschickt, er sölle von dem schweren lan,
+      <lb/>aber über dz selbig heig er es so vil und dick triben, dz im
+      <lb/>darab grusti.</p>
+        <p><lb/>Disser seit ouch, wie dz der stubenknecht von <placeName ref="LOC_Lat_Long">Meilen</placeName> geschworen
+      <lb/>hab, als man für dz wetter lüti, do heig er, der züg, und ander
+      <lb/>gsellen die inn der stuben waren, sy geheissen hören, man
+      <lb/>lüti für dz wetter, do heigi der stubenknecht gesprochen:
+  <lb/><q>Gotz macht, mir ist als mer böß wetter als guͦtz.</q></p>
+      <p><lb/>Er seit ouch von <persName>Heini Scherer</persName>, wie obstat, er heigi als übel
+      <lb/>als der andren keiner gschworen, und namlich die schwur,
+      <lb/>wie er hab von dem ersten geseit.
+      <lb/>Er seit ouch von <persName>Hans Walder</persName>, dz er als übel als die andren
+  <lb/>geschworen heig, namlich die schwuͦr wie der
+      <persName>Schleipfer</persName>.</p>
+  <p><lb/>Hanns Pfister <abbr>d</abbr>, wie obstat, dz <persName>Cuͦnrad
+      Schleipffer</persName>
+      <lb/>vil und dick <q>fünff erdtrich und die kleinen erdtrich
+      <lb/>oben druff</q> geschworen<!-- korrigiert, msr --> heig.</p>
+      <p><lb/><persName>Hanns Hegni</persName> <abbr>d</abbr>, wie beid <persName>Hanns Pfister</persName> geseit hand
+          <lb/>von bösen schwüren, die <persName>Cuͦnrad Schleipffer</persName> gethan hat.</p>
+    <pb n="7" facs="StAZH_A_27_1_1__Nr__20__S__7_.tif"/>
+      <p><lb/><persName>Hans Hegni</persName> <abbr>d</abbr> von <persName>Heini Rebman</persName>, wie dz er gespilt
+      <lb/>heigi, do heigi er vil bößi schwüren than heigi, do heigi
+      <lb/>inn der züg gestübt, do hatt er gesprochen: <q>Dz dich gotz fünff
+  <lb/>liden schend, solt ich min gelt verspilen und nitt das zuͦ
+      <lb/>reden</q> und der schwüren so vil triben, dz er der zal nit wüsse.</p>
+      <p><lb/><persName>Hans Pister</persName> <abbr>d</abbr>, seit von <persName>Heini Rebman</persName> wie <persName>Hanns
+      <lb/>Hegni</persName>.</p>
+      <p><lb/><persName>Rudi Nithart</persName> <abbr>d</abbr>, uff die nacht lüte man fur das
+      <lb/>wetter und thundrits und blizgete so unbillich,
+      <lb/>das es uber die maß wer und were aber er nit
+      <lb/>bi inen, sondern läge er am bet und herte, das si
+      <lb/>ein treffenlich, wild weßen hettind und vast
+  <lb/>unbillich schwuͦrent. Und werent namlich
+      <lb/>die gsellen gewesen, die jetz im thurn lagent
+      <lb/>und herte och wol, das die gesellen sy hiessent
+      <lb/>heren spilen; das thattind si und hettind frowen
+  <lb/>bi inen, die fuͦrtind si inn die schuͦr und
+      <lb/>redtind: <q>Detten wir<!-- msr: Lesung ergänzt --> nit spilen, so wellen
+          <lb/>wir doch bruͦten.</q> Nuͦn
+  <lb/>an morgen fuͦrte er zwen priester
+        <lb/>gen <placeName ref="LOC_Lat_Long">Frigenbach</placeName>, die werent im hus uber
+      <lb/>nacht gsin. Die seiten im namlich her <persName>Pennigig</persName>,
+        <lb/>kilcher zu <placeName ref="LOC_Lat_Long">Frigenbach</placeName>, das
+      <lb/>die lut hettend ein sollich uncristenlich
+      <lb/>wild wesen gehapt, das er het wellen,
+      <lb/>er wer niena im hus gewesen, dann
+      <lb/>er sorgte gengs, das dadurch der thunder
+          <pb n="8" facs="StAZH_A_27_1_1__Nr__20__S__8_.tif"/>
+      <lb/>all pot in das hus schlieg. Nun an der nach
+      <lb/>kilwi zukte <persName>Hans Senn</persName> ein aprochnen tegen
+      <lb/>inn shimpfs wiß, do schwuͦre <persName>Schleipfer</persName>: <q>Das
+      <lb/>dich gotz fünff liden schend, das dich gotz fünff
+      <lb/>ertrich schend und kleins erdtrichli obnen
+      <lb/>daruff, wetest nit <gap reason="illegible" quantity="1"/> geben.</q> Und wer
+      <lb/>donnecht alls nun ein schimpf. Und
+      <lb/>darvor an der rehen kilwi angender nacht
+      <lb/>fuͦrtind sy den <persName>Imer</persName> ußhin, herte er wol, 
+      <lb/>das derselb schwuͦre: <q>Das dich gotz fünff
+      <lb/>liden schend, das dich gotz fünf wunden schend, 
+      <lb/>das und kein anders, da muͦß es stecken.</q></p> 
+      <p><lb/><persName>Steffa Has</persName> <abbr>d</abbr>, er hab mechtig, böß schwuͦr
+      <lb/>gehert, wüß aber kein sunderlich, der das
+      <lb/>thon hab und namlich, so hab er von
+      <lb/><persName>Hansen Weber</persName> gehert, das er redte: <q>Gotz fünf
+      <lb/>liden, es müß also sein und gotz ertrich, 
+      <lb/>solt ich das min verspilen, und nit drin
+      <lb/>reden.</q> So hab er von <persName>Heini Scherern</persName> ouch böß
+      <lb/>schwur gehert, kann dz jetz nit eigenlich 
+      <lb/>sagen, dann er hab essen und trinken ufftragen,
+      <lb/>uß und in gangen, das er nit eigenlich
+      <lb/>wuß, wie es von ein an das ander 
+      <lb/>gangen sig.</p>
+    <pb n="9" facs="StAZH_A_27_1_1__Nr__20__S__9_.tif"/>
+    <p><gap reason="irrelevant"/></p>
+    <pb n="10" facs="StAZH_A_27_1_1__Nr__20__S__10_.tif"/>
+   <p><gap reason="irrelevant"/></p>
+    <pb n="11" facs="StAZH_A_27_1_1__Nr__20__S__11_.tif"/>
+    <p><gap reason="irrelevant"/></p>
+    <pb n="12" facs="StAZH_A_27_1_1__Nr__20__S__12_.tif"/>
+    <p><gap reason="irrelevant"/></p>
+</div>
+    </body>
+    <back>
+     <div>
+      <p>Die insgesamt zwölf Kundschaften, von denen aus Platzgründen hier allein zehn transkribiert sind, vermitteln einen Eindruck von den gotteslästerlichen Redewendungen, 
+       die im geselligen Rahmen eines Wirtshausbesuchs fallen konnten: Von einer Prostituierten zurückgewiesen, liess sich <persName>Ueli Imer</persName> zu vielfachen Schwüren hinreissen. Andere 
+        Wirtshausgäste gerieten über ein Kartenspiel
+        in Streit, in dem kräftig geflucht wurde. Laut Zeugenaussagen wurden die
+        Gotteslästerer von den Anwesenden korrekterweise, aber erfolglos
+        ermahnt. Die Kundschaften belegen, dass blasphemische
+       Redewendungen als bedrohlich wahrgenommen wurden, zumal wenn sie bei einem
+       Gewitter in hoher Anzahl ausgestossen wurden und damit den zeitgenössischen
+       Vorstellungen entsprechend den Zorn Gottes besonders provozierten.
+       Aufschlussreich ist, dass die Kundschafter den genauen Wortlaut und die genaue
+       Anzahl der Lästerungen der jeweiligen Beteiligten festzustellen versuchten, um
+       die schliesslich verhängten Geldstrafen entsprechend anzupassen. Die hier
+       überlieferten vorreformatorischen Flüche wie <q>dass dich Gottes Leiden schände</q>
+       blieben im 16. Jahrhundert verbreitete Redewendungen.</p>
+     </div>
+    </back>
+   </text>
+  </group>
+ </text>
+</TEI>

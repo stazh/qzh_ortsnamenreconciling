@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='../../Ressourcen/Stylesheet.xsl'?>
+<?xml-model href="http://www.tei-c.org/ns/1.0" type="application/xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quellen zur Zürcher Geschichte</title>
+            <respStmt>
+               <persName>Sarah Murer. Mit einem Kommentar von Sarah Murer</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Sarah Murer</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Staatsarchiv des Kantons Zürich</publisher>
+            <date type="electronic" when="2021-05-01"/>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Quellen zur Zürcher Geschichte</title>
+            <respStmt>
+               <persName>Staatsarchiv des Kantons Zürich</persName>
+               <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>QZH_085</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=735429">StAZH A
+                     123.3, Nr. 36</idno>
+               </msIdentifier>
+               <head>Weisung in einem Streit vor dem Gericht in Uster um eine Ehrverletzung bezüglich gleichgeschlechtlichem Verkehr zweier Frauen</head>
+               <msContents>
+                  <summary> Untervogt Ueli Feusi ("Feussy") von Uster beurkundet im Auftrag des Obervogts Hans Jakob Rohrdorf einen Streit vor dem Gericht in Uster zwischen dem Scherrer Kaspar Weber aus Uster als Vogt von Vrenli ("Freendli") Scherrer und Jörg Schmid aus Nänikon als Vogt von Annli ("Anndli") Keller sowie Marti Rouber, Hans Wyss, Herr Gebhard Studer [Helfer in der Kirche Uster], Heini Schunnenberg, Hans Schmid und dem Schmid Hans Heinrich Gibel aus Uster um eine Ehrverletzung. Die Vertreter der beiden Frauen bringen vor, dass die sechs Personen gesagt hätten, sie würden wie Eheleute beieinander liegen, was ihre Ehre tangiere. Marti Rouber sagt, er habe diese "zeitung" bei einem Trunk vom Schreiber [Batt Ruland?] und seinem Schwager Ueli Sallenbach erfahren, dass man in Greifensee sage, der Tüschler und das Vrenli Scherrer würden einander umarmen wie Eheleute. Hans Schmid sagt, er habe gesehen, wie Vrenli Scherrer und Andli Keller immer zueinander gegangen und zusammen in die Kammer verschwunden seien. Als ihr Mann, der Hegger, nach Zürich fuhr, habe Annli Keller Vrenli Scherrer abgeholt, darauf habe er nichts mehr mit hir zu schaffen haben wollen. Hans Wyss sagt, er habe gesehen, wie sich die beiden geküsst und "gehalset" hätten wie Eheleute. Er habe auch von Schunnenberger gehört, dass die beiden ein Wesen miteinander treiben und bei einander liegen wie Eheleute. Auch Hans Heinrich Gibel habe gesagt, die beiden küssen, halsen und "zünglendt" miteinander. Da habe der Pfarrer gesagt, man sollte sie ins Wasser werfen. Auch Herr Gebhard habe gesagt, die beiden treiben ein Wesen miteinander wie Huren und Buben, indem Annli Keller von ihrem Mann aufstehe und zu Vrenli Scherrer gehe. Gebhard Studer sagt, er sei beim Schreiber zuhause gewesen, dessen Sohn Schulmeister sei, um diesem beim Unterricht der Knaben zu helfen. Da habe er gesehen, wie die beiden zueinander gegangen seien. Heini Schunnenberger und Hans Heinrich Gibel bestreiten, die Dinge gesagt zu haben, die Wyss von ihnen behauptet hatte. Die Vögte der Frauen antworten, die beiden hätten wohl miteinander zu schaffen gehabt, denn Vrenli Scherrer sei Annli Kellers "dinngärdee junckfrouw" gewesen und habe an dem Tag für sie gearbeitet, da sie eine Näherin sei. Da das Gericht den "ursprung" und "anfännger" dieser Rede nicht eruieren kann und es sich allenfalls um eine "mallenfitzschis" Angelegenheit handelt, wird der Fall an das Zürcher Ratsgericht verwiesen.
+Nachtrag von anderer Hand: Am 6. Februar 1572 urteilt das Zürcher Ratsgericht, dass die Reden die Ehre der Betroffenen nicht berühren und alle Parteien ihre eigenen Kosten tragen sollen. Rouber und seine fünf Mithaften sollen bis Samstag im Wellenberg [Gefängnisturm] liegen und keinen Wein, sondern nur Wasser zum Trinken erhalten. Den beiden Frauen wird befohlen, sich so zu benehmen, wie es sich für das weibliche Geschlecht ziemt.</summary>
+                  <msItem>
+                     <textLang>Deutsch</textLang>
+                     <filiation type="current">Aufzeichnung (3 Doppelblätter)</filiation>
+                     <filiation type="original"><origDate from="1572-01-02" to="1572-02-06"
+                        /></filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support><material>Papier</material></support>
+                        <extent/>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin><origDate from="1572-01-02" to="1572-02-06"></origDate></origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc> </profileDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000334">Gefängnis</term>
+               <term ref="key003389">Inhaftierung</term>
+               <term ref="key000590">Delinquenz</term>
+               <term ref="key000611">Ehebruch</term>
+               <term ref="key000946">Ehre</term>
+               <term ref="key000285">Ehrverletzung</term>
+               <term ref="key000057">Gericht</term>
+               <term ref="key003037">Gerichtsverfahren</term>
+               <term ref="key003994">Hochgerichtsbarkeit</term>
+               <term ref="key003397">Homosexualität</term>
+               <term ref="key000151">Niedergerichtsbarkeit</term>
+               <term ref="key000955">Sodomie</term>
+               <term ref="key000292">Verleumdung</term>
+               <term ref="key000911">Unzucht</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <div>
+                  <pb n="1" facs="A_123_3__Nr__36__S__01_.tif"/>
+                  <pb n="2" facs="A_123_3__Nr__36__S__02_.tif"/>
+                  <p>
+                     <!--Anfang der Verhandlung inklusive Aussage Kaspar Weber und Jörg Schmid im Namen von Verena Scherrer und Anna Keller-->
+                     <seg><lb/>Ich, <persName>Ully Feussy</persName> unndervogt zuͦ <lb/><placeName
+                           ref="LOC_47.34713_8.72091">Uster</placeName>, bekhänn mich offennlich mit
+                        dissem <lb/>brief, das ich uff hütt syn dattum zuͦ <lb/><placeName
+                           ref="LOC_47.34713_8.72091">Uster</placeName> an gewonnlicher gricht statt
+                           offen<lb break="no"/>lich zuͦ gricht gsässenn bin an statt <lb/>unnd in
+                        namen der edlen, frommenn, <lb/>eerenvesten, fürsichtigen, eersamenn
+                        <lb/>unnd wyssenn, eynnäs burgermeysters <lb/>unnd raath der statt
+                           <placeName ref="LOC_47.36667_8.55">Zürrich</placeName> unnd <lb/>von
+                        sonnders bevelch unnd heyssenns <lb/>des edlenvesten junckherr
+                           <persName>Hannß Jacob
+                        <lb/>Rordorffs</persName>,
+                        burger der ob genampten statt <lb/><placeName ref="LOC_47.36667_8.55"
+                           >Zürrich</placeName>, vogt der herrschafft <placeName
+                           ref="LOC_47.36583_8.6789">Gryffensee</placeName>, <lb/>aller mynner
+                        gnedigen unnd günstigen, <lb/>lieben
+                     herrenn.</seg> Unnd kamendt für <lb/>mich in gricht
+                     mit iren zuͦ rächt er<lb break="no"/>loupten fürsprächenn, dis eerbarn
+                        <lb/><persName>Caspar Wäber</persName>, der schärrer zuͦ <placeName
+                        ref="LOC_47.34713_8.72091">Uster</placeName>, als <lb/>ein vogt unnd
+                     anwalter <persName>Freendli Schärers</persName>
+                     <lb/>unnd <persName>Jörg Schmid</persName> zuͦ <placeName
+                        ref="LOC_47.36975_8.68894">Nänicken</placeName>, als ein <lb/>vogt unnd
+                     bystannd <persName>Anndli Källers</persName> am <lb/>ein, unnd mit innen hie
+                     zuͦ gägen <lb/><persName>Marti Rouber</persName>, <persName>Hanns
+                        Wyß</persName>, herr <persName>Gäbart
+                     <lb/>Studer</persName>,
+                        <persName>Heynni Schunnenberg</persName>, <persName>Hannß
+                        <lb/>Schmid</persName> unnd <persName>Hanns Heynnrich Gibel</persName>,
+                     <lb/>der schmid, al sächs pärsonnen zuͦ <placeName ref="LOC_47.34713_8.72091"
+                        >Uster</placeName>, <lb/>anderem teyl. Und ließ <persName>Caspar
+                        Wäber</persName>
+                     <lb/><persName>Jörg Schmid</persName> in namen irer vogt frouwen <lb/>in rächt
+                     eroffnen und dartuͦn, wie ettwas <lb/>reden usganngen von den sächs pärsonen,
+                     <lb/>das inen ir glimph und eer bruͤr und an <lb/>träff. Namblich, sy sigent by
+                     ein annderen <lb/>gsyn wie eelüth und vorm vogt verklagt, <lb/>der
+                        <persName>Marti Rouber</persName> sölt das gseyt hann.</p>
+                  <!--Aussage Marti Rouber-->
+                  <p><lb/>Unnd harruf <persName>Marti Rouber</persName> sich verannt<lb break="no"
+                     />worttenn lassenn, er kön nüt ab, es hab sich
+                     <pb n="3" facs="A_123_3__Nr__36__S__03_.tif"/>
+                     <lb/>begäbenn vor ettwas tagenn, das der <lb/>schryber unnd syn schwaager,
+                        <persName>Uͤlly Sallenbach</persName>, <lb/>von
+                        <placeName ref="LOC_47.36583_8.6789">Gryffennsee</placeName> khommen unnd
+                     in sym <lb/>huß ein trunck tun, do man ettwas grett
+                     <lb/>von nüwer zyttung, do der schryber unnd <lb/>syn schwaager grett, sy
+                     wüssenndt nüwe <lb/>zyttung. Man hab zuͦ <placeName ref="LOC_47.36583_8.6789"
+                        >Gryffennsee</placeName>
+                     <lb/>gseyt, der tüschler unnd das <persName>Freendli Schärer</persName>
+                     <lb/>halssennt einannderen wie rächt eelüt. <lb/>Uf die sälb red ers ouch
+                     gseyt, hoff unnd <lb/>trüwe, die red söl im nüt schadenn, dan <lb/>er wüß
+                     sonnst nüt annders von ien dan <lb/>liebs unnd guͦts.</p>
+                  <!--Aussage Hans Schmid-->
+                  <p><lb/>Unnd harruf <persName>Hannß Schmid</persName> sich ver
+                     <lb/>anntwortten lassenn, er kön nüt ab, <lb/>er hab ettwas grett, das im wol
+                     zwüßen, <lb/>das das <persName>Freendli Schärer</persName> by im zhuß
+                     <lb/>gsyn. Unnd er wol ghört unnd gseen, <lb/>das sy für unnd für zuͦ ein
+                     annderen <lb/>gwanndlet. Unnd das <persName>Anndli Käller</persName>
+                     <lb/>ettwan vom man ganngen unnd <lb/>zuͦ dem <persName>Freendli
+                        Schärrer</persName> khommen <lb/>unnd by im gsynn an <unclear>leyn</unclear>
+                     nüt nun <lb/>eyn mal bis ettwan umb die zächnne <lb/>oder nüne in der nacht.
+                     Ouch ettwan <lb/>an eim sontag sy mit ein annderen in <lb/>die kamer ganngen,
+                     er wüß aber nüt, <lb/>was sy mit ald by ein annderen tan. <lb/>Zuͦ dem, wann
+                     ouch ettwan der <persName>Hegger</persName>, <lb/><persName>Anndli
+                        Källers</persName> man, am ein fry tag <lb/>am morgen
+                     fruͤ gen <placeName ref="LOC_47.36667_8.55"
+                        >Zürrich</placeName> gangen, <lb/>do das <persName>Freendli
+                        Schäerer</persName> das <persName>Anndli</persName>
+                     <pb n="4" facs="A_123_3__Nr__36__S__04_.tif"/>
+                     <lb/><persName>Käller</persName> greicht unnd es ab dem bett uf gstan<lb
+                        break="no"/>den unnd zuͦ dem <persName>Freendli Schärer</persName> gangen.
+                     <lb/>Und für unnd für by ein annderen <lb/>gsyn, er wüs aber nüt, was sy tan.
+                     Er hab <lb/>ouch nüt nun ein mal zuͦ innen gseyt, <lb/>das <persName>Anndli
+                        Käller</persName> söl da heyman syn unnd <lb/>des mans acht han unnd in in
+                     syn huß <lb/>ruͤwig lassenn. Unnd noch dem er dem <lb/><persName>Freendli
+                        Schärrer</persName> urlob gäbenn unnd ins <lb/>nüt mer zuͦ huß wellen han.
+                     Item <lb/>er ouch vorhin by innen zuͦ huß gsyn <lb/>in des <persName>Hanns
+                        Krömers</persName> huß, do sy mit ein <lb/>annderen ein wässenn
+                     gfuͤrt, das er von <lb/>innen zogenn unnd nüt mer by inen
+                     <lb/>wellen syn unnd vermein, es söl rächt <lb/>syn unnd werdenn, das im die
+                     red gar unnd <lb/>gannz nüt schade. Dann er wüs nüt dann <lb/>liebs unnd guͦtz
+                     von inen unnd vermeyn, <lb/>die red söl innen auch nüt schadenn.</p>
+                  <!--Aussage Hans Wyss-->
+                  <p><lb/>Unnd haruf <persName>Hannß Wyß</persName> sich verantworten <lb/>lassenn,
+                     er kön nüt ab, er hab wol ettwas <lb/>grett, sy habennt ein annderen küst unnd
+                     <lb/>ghalsät wie eelüt, das er gsen unnd ettwas <lb/>wytters darzuͦ in das
+                        <persName>Anndli Käller</persName>
+                     <lb/>gursachet unnd grett, wän man im syne <lb/>rächt an dett, so wer er nüt
+                     tan. Do er im <lb/>das für ghann unnd vermeint es söl <lb/>im umb die wort
+                     wanndel tuͦn. Item
+                     <lb/>zuͦ dem ers vom <persName>Heynni Schunnenberger</persName>
+                     <lb/>ouch ghört unnd er sälbs zuͦ im <lb/>khomen unnd grett, das
+                        <persName>Freenndli <lb/>Schärer</persName> unnd das <persName>Anndli
+                        Käller</persName>, sy trybent <lb/>ein wässenn mit eynannderen unnd <lb/>im
+                     die huͦrig die stotz ladenn ab der wannd <lb/>brönhent unnd dann, wän die
+                     huͦrig <pb n="5" facs="A_123_3__Nr__36__S__05_.tif"/>
+                     <lb/>uß dem huß khomendt, so ligenndt dann <lb/>sy by ein annderenn wie eelüt
+                     unnd <lb/>in umb rat bättenn, wie er im tuͦn <lb/>söl, do er zuͦ im gseyt, er
+                     söl innen urlob <lb/>gäbenn unnd sy nümen han. Unnd <lb/>nochdem er inns
+                        <persName>Bruners</persName> huß gsynn, <lb/>do <persName>Heynni
+                        Schunnenberg</persName> aber darvon <lb/>gseyt, sy bruchenndt so ein unküsch
+                     läben <lb/>unnd wässenn mit ein anderen. Item <lb/>unnd do mal hab
+                        <persName>Hannß Heinrich Gibel</persName>
+                     <lb/>grett: <q>Ja, das <persName>Anndli Käller</persName> unnd
+                           <persName>Freendli <lb/>Schärrrer</persName>, sy halssenndt, küssennt
+                        unnd <lb/>zünglendt einannderen.</q> Unnd nach
+                     <lb/>dem man aber darvon grett vor des <lb/>pharrers huß. wie sy ein wässen mit
+                     <lb/>ein annderen fuͤrrendt, do hab der <lb/>pharrer grett, man sölt sy in ein
+                     wasser <lb/>schiessenn. Item unnd noch dem <lb/>ers vom herr
+                        <persName>Gäbhartenn</persName> ouch ghört <lb/>grad inn deß schrybers huß:
+                        <q>Das <persName>Anndli <lb/>Käller</persName> unnd das <persName>Freenndli
+                           Schärrer</persName>
+                        <lb/>die machent unnd fuͦrent ein wässen <lb/>mit ein annderenn wie huͦren
+                        unnd <lb/>buͦbenn.</q> Das <persName>Anndli Käller</persName> stannd vom
+                     <lb/>man uf unnd ganng zum <persName>Freendli <lb/>Schärrer</persName>, das im
+                     nüt gfal. Unnd <lb/>die wyl er synn an sag wüß, so vermein <lb/>er jetz der
+                     ansprach ledig zuͦ sinn.</p>
+                  <!--Aussage Herr Gebhard Studer-->
+                  <p><lb/>Unnd haruf herr <persName>Gäbhart</persName> sich ver<lb break="no"
+                     />anntwortten
+                     lassenn, er kön nüt <lb/>ab, er hab ettwas grett, das hab er von <lb/>annder
+                     lüttenn ghört. Unnd noch <lb/>dem er inn des schrybers hus gsynn <lb/>von wägen
+                     gfatter unnd nochparschafft, <lb/>als dann des schrybers sun schuͦlmeyster, <pb
+                        n="6" facs="A_123_3__Nr__36__S__06_.tif"/>
+                     <lb/>unnd er im ettwann ghulffenn die <lb/>knabenn bhörenn, wie dann er jetz im
+                     <lb/>pfrund hus ist. Wie wol er ettwann <lb/>gseen das sy zu einannderen
+                     gwanndlett <lb/>unnd vil wässenns mit ein annderen <lb/>tribenn das im nüt
+                     gfallen. Unnd <lb/>vermein die red söl im gar unnd gannz <lb/>nüt schadenn.</p>
+                  <!--Aussage Heini Schunnenberger-->
+                  <p><lb/>Unnd harruf <persName>Heynni Schunenberger</persName>
+                     <lb/>sich veranntwortten lassenn, wie <persName>Hanns <lb/>Wyß</persName> khome
+                     unnd gern den hanndel <lb/>uf in trächen welt, er sölt im vil klagt <lb/>unnd
+                     in umb raath bättenn hann. Daß <lb/>sig gar nüt, sy sigennt wol by im zhuß
+                     <lb/>gsyn unnd sy gar wol eins gsyn. Er hab <lb/>ouch der dinngen halb von
+                     innen gar nüt <lb/>gsen noch gseyt, wie der <persName>Hanns Wys</persName> da
+                     <lb/>grett, dan er wüß nüt dann liebs unnd <lb/>guͦts von innen. Unnd sig ouch
+                     by <lb/>keynner gselschafft noch in kein wirz hus <lb/>nüt gsyn, das er
+                     sömbliche wort sölt <lb/>grett hann.</p>
+                  <!--Aussage Hans Heinrich Gibel-->
+                  <p><lb/>Unnd harruf <persName>Hannß Heynnrich Gibel</persName>
+                     <lb/>sich veranntworttenn lassenn, es näm <lb/>inn gar frömbd unnd unbillich,
+                     das der <lb/><persName>Hannß Wyß</persName> der unnd in ins rächt <lb/>faß, dan
+                     die am kleger in nüt darin gfasset, <lb/>das er sömblich wort sölt grett han
+                     wie <lb/><persName>Hannß Wyß</persName> dem rächten für gen. Dann <lb/>er wüs
+                     gar unnd gannz niener von nüt. <lb/>Sig im ouch nüt zwussen, das er darum
+                     <lb/>gar nüt grett hab. </p>
+                  <pb n="7" facs="A_123_3__Nr__36__S__07_.tif"/>
+                  <p>
+                     <!--Aussage Kaspar Weber und Jörg Schmid im Namen von Verena Scherrer und Anna Keller-->
+                     <lb/>Unnd harruf <persName>Caspar Wäber</persName>, <persName>Jörg
+                        Schmid</persName>, <lb/>in namen ir vogt wyberenn sich ver<lb break="no"
+                     />anntwortenn lassenn glych, wie vor <lb/>unnd so vil wytter: Die red sig über
+                     sy uß<lb break="no"/>ganngen wider alle billichkeyt. Sy <lb/>sigennt wol by ein
+                     annderen gsynn, <lb/>dan das <persName>Freenndli Schärrer</persName> sig des
+                        <persName>Anndli <lb/>Källers</persName> dinngädee junckfrouw <lb/>gsyn unnd
+                     uff dem tagwen gwerchet, <lb/>als dann sy ein neyerin. Unnd dann <lb/>das
+                        <persName>Anndli Käller</persName> alwägen den lon in <lb/>gnon unnd ouch
+                     der <persName>Lasserus Gyr</persName>
+                     <lb/>dem <persName>Anndli Käller</persName> lonn gäbenn von <lb/>wägenn
+                        <persName>Freendli Schärers</persName>, so im <lb/>gwerchet. Item das
+                        <persName>Freendli Schärer</persName>
+                     <lb/>hab ouch ettwan dem <persName>Anndli Käller</persName>
+                     <lb/>ettwan duͦchli unnd annders verkhauft <lb/>unnd dan im brott, habermäl
+                     unnd <lb/>annders darrumb gäbenn. Umb dassälb <lb/>sy zuͦ samen gwanndlet, aber
+                     in keyner <lb/>bössen meinung gar nüt unnd wend <lb/>sich ouch nüt
+                     erfinden.</p>
+                  <!--Aussage Hans Wyss-->
+                  <p><lb/>Daruf <persName>Hannß Wys</persName> sich verantworten <lb/>lassenn glich
+                     wie vor: Der <persName>Heynni Schun<lb break="no"/>nenberger</persName> unnd
+                        <persName>Hanns Heynnrich <lb/>Gibel</persName>, sy habennt sömbliche wort
+                     grett, <lb/>darumb wel er sy bsetzenn mit wyb unnd <lb/>man. Aber die wyl er
+                     syn ansag wüß, <lb/>so vermein er, habs dar bracht. Unnd <lb/>hoff unnd thrüw,
+                     man söl im synen <lb/>worttenn als wol gloubenn als irenn.</p>
+                  <!--Aussage Heini Schunnenberger und Hans Heinrich Gibel-->
+                  <p><lb/>Unnd harruf <persName>Heynni Schunenberger</persName>
+                     <lb/>unnd <persName>Hanns Heynnrich Gibel</persName> sich ver<pb n="8" facs="A_123_3__Nr__36__S__08_.tif" break="no"/>anntworttenn 
+                     lassen glych wie vor, sy <lb/>wüssent nüt, das sy
+                     sömbliche wort <lb/>grett söltenndt hann. Doch es möcht <lb/>eynner us
+                     fyenndtschafft fil uff sy wellen <lb/>trächenn, das sy nüt darvon wustenndt.
+                     <lb/>Ob aber der <persName>Hanns Wyß</persName> der unnd das dar<lb break="no"
+                     />brinng, das dem rächten gnuͦgsamblich, <lb/>so muͦssennt sy des wol
+                     äntgälten, wie <lb/>rächts sig.</p>
+                  <!--Schluss der Verhandlung-->
+                  <p><lb/>Unnd hiemit es vonn allen parthyenn <lb/>hinn dann zuͦ rächt gsezt. Unnd
+                     <lb/>noch sag, klag unnd anntwort, red unnd <lb/>widerred unnd als man wol
+                     verstanden <lb/>vom obervogt, das im für khomen unnd <lb/>klagt, daß sy ein
+                     schanntlich wässenn <lb/>fuͦrendt, sig er der unnd nüt für kan könne, unnd eyn
+                     fort ein sächer unnd ursprung, <lb/>wollichenn der anfännger, unnd die
+                     <lb/>wort grett. Unnd die wyl man noch <lb/>kein anfänger wüß unnd der
+                     <lb/>hanndel der redenn halb zum teyl <lb/>mallenfitzschis syn wel, so wyssenns
+                     <lb/>sis hie mit allem anhanng für unnser <lb/>gnedig herrenn burgermeyster
+                     unnd <lb/>raath der statt <placeName ref="LOC_47.36667_8.55"
+                        >Zürrich</placeName>, derren wyßheyt <lb/>söllich sach erkännen unnd im
+                     besten <lb/>urteyllen kan. Unnd der des zuͦ <lb/>urkhund uf min, des richters
+                     pitte mit <lb/>urttel alls vonn des grichtz wägenn <lb/>mit des vorgenampten
+                     edlenvesten <lb/>junckherr <persName>Hans Jacob Rordorffs</persName>,
+                     <lb/>burger <placeName ref="LOC_47.36667_8.55">Zürrich</placeName>, vogt der
+                     herrschafft </p>
+                  <pb n="9" facs="A_123_3__Nr__36__S__09_.tif"/>
+                  <p>
+                     <lb/><placeName ref="LOC_47.36583_8.6789">Gryffennsee</placeName> uff
+                     getrucktem in sigel <lb/>versiglatt, doch vorernämpten unnsern <lb/>gnedigenn
+                     herrenn von <placeName ref="LOC_47.36667_8.55">Zürrich</placeName> unnd
+                     <lb/>ir herrschafft <placeName ref="LOC_47.36583_8.6789"
+                        >Gryffensee</placeName> an aller <lb/>rächtung, friheyt unnd zuͦgehörung,
+                     <lb/>ouch ime, dem vogt wie dem gericht, <lb/>iren erbenn, anne schadenn.
+                        <seg>Gäbenn <lb/>uff montag, den <date when="1572-01-02">2. jänner anno
+                           <lb/>im 72. jar <abbr>etc</abbr>.</date></seg></p>
+                  <!--Urteil des Rats; chronologisch nach A 123.3, Nr. 37 (Kundschaft)-->
+                  <p><seg><lb/>Nach verhörung der parthygen, klagen und zuͦ allenwylen <lb/>antworten,
+                     ouch der ingenommen kundschafft,<note>Siehe <bibl><ref
+                           target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=735430">A
+                        123.3, Nr. 37</ref>, Edition: <ref target="https://qzh.sources-online.org/quellenstuecke/QZH_086">QZH, Nr. 86</ref></bibl></note><lb/>ward erkhënt,
+                     diewyl <persName>Rouber</persName> und syne <lb/>fünff mitthafften, von der
+                        <persName>Kellerin</persName> und <persName>Schererin</persName>
+                     <lb/>reden ussgëben, die ëben unverschampt, und doch <lb/>nüdt geschëhen syn
+                     zuͦ erachten, so söllind dieselbigen <lb/>schmechlichen reden ufgehept syn, und
+                     dheinem <lb/>wyl an synen eeren nüdt schaden, darzuͦ jederteyl
+                     <lb/>synen costen an im selbs haben. Umb das
+                     <lb/>aber <persName>Rouber</persName> und syne fünff mitthafften diser
+                     <lb/>worten wol <unclear>ghlegen</unclear>, söllent sy all sechs, bis jetz
+                     <lb/>sambstags im <placeName ref="LOC_47.368744_8.542639"
+                        >Wellenberg</placeName> ligen, <add place="above"
+                        >inen</add> dhein wyn, sonders <lb/>allein wasser
+                     zetrincken gëben und sollicher reden <lb/>und sach witers nitt zuͦ gedencken,
+                     mit ernst <lb/>underseit, ouch den beiden wÿbern angezeigt werden, <lb/>der wyß
+                     und gebenden, so sy mit ein andern <lb/>gebrucht abzestaan, und sich wie
+                     wyblichem gschlecht <lb/>gebürt halten.</seg> <seg>Actum mittwuchs, den <date when="1572-02-06">6ten hornungs
+                        <lb/>anno <abbr>etc.</abbr> 72</date>, presentibus herr <persName
+                           ref="GND_142913324"
+                        >Bräm</persName> und
+                        <lb/>beid reth.</seg>
+                  </p>
+                  <pb n="10" facs="A_123_3__Nr__36__S__10_.tif"/>
+                  <pb n="11" facs="A_123_3__Nr__36__S__11_.tif"/>
+                  <pb n="12" facs="A_123_3__Nr__36__S__12_.tif"/>
+                  <p>
+                     <!--Dorsualnotiz-->
+                     <add place="verso">Wyssung für unnser gnedig herren <lb/>burgermeyster
+                        unnd raath der <lb/>statt <placeName ref="LOC_47.36667_8.55"
+                           >Zürrich</placeName></add></p>
+                  <p>
+                     <!--Registraturtitel-->
+                     <add place="verso">Schält-Handlung
+                        zwüschen <persName>Verena Schärerin</persName> und <persName>Anna
+                           Kellerin</persName>, am <lb/>einen; dann <persName>Hans Wys</persName>
+                        und mithaftten von <placeName ref="LOC_47.34713_8.72091">Uster</placeName>,
+                        an dem anderen Theil <lb/><date when="1572">1572</date>.</add></p>
+               </div>
+            </body>
+            <back>
+               <div>
+                  <p>Die Herrschaft <placeName ref="LOC_47.36583_8.67896">Greifensee</placeName>
+                     kam infolge der Verpfändung durch <persName ref="GND_143972324">Friedrich VII.
+                        von Toggenburg</persName> im Jahr 1402 in Zürcher Hände (Verpfändung:
+                           <bibl><ref
+                           target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=365732"
+                           >StAZH C I, Nr. 2466</ref></bibl>, Edition: <bibl><ref
+                           target="https://rechtsquellen.sources-online.org/ZH_NF_II_3/SSRQ_ZH_NF_II_3_007"
+                           >SSRQ ZH NF II/3, Nr. 7</ref></bibl>; Erhöhung der Pfandsumme: <bibl><ref
+                           target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=365734"
+                           >StAZH C I, Nr. 2468</ref></bibl>, Edition: <bibl><ref
+                           target="https://rechtsquellen.sources-online.org/ZH_NF_II_3/SSRQ_ZH_NF_II_3_010"
+                           >SSRQ ZH NF II/3, Nr. 10</ref></bibl>; Abrechnung: <bibl><ref
+                           target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=393030"
+                           >StAZH C I, Nr. 2560</ref></bibl>, Edition: <bibl><ref
+                           target="https://rechtsquellen.sources-online.org/ZH_NF_II_3/SSRQ_ZH_NF_II_3_014"
+                           >SSRQ ZH NF II/3, Nr. 14</ref></bibl>). Dadurch wurde
+                        <placeName ref="LOC_47.36583_8.67896">Greifensee</placeName> zur ersten
+                     sogenannten äusseren Vogtei oder Landvogtei des <placeName
+                        ref="LOC_47.36667_8.55">Zürcher</placeName> Stadtstaats, was bedeutete, dass
+                     ein Mitglied des Grossen Rats zum Vogt ernannt wurde, welcher auf der 1260/1261
+                     erstmals urkundlich belegten <placeName ref="LOC_47.365051_8.675597">Burg
+                        Greifensee</placeName> Residenzpflicht hatte (vgl. Besoldung des Vogts:
+                           <bibl><ref
+                           target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1399583"
+                           >StAZH B II 2, fol. 111r</ref></bibl>, Edition: <bibl><ref
+                           target="https://rechtsquellen.sources-online.org/ZH_NF_II_3/SSRQ_ZH_NF_II_3_008"
+                           >SSRQ ZH NF II/3, Nr. 8</ref></bibl>). </p>
+                  <!-- Gerichtswesen Zürich/Greifensee -->
+                  <p>Die hochgerichtliche Zugehörigkeit der Vogtei <placeName
+                        ref="LOC_47.36583_8.67896">Greifensee</placeName> blieb umstritten, bis sie
+                     1498 dem Zürcher Rat unterstellt
+                     wurde (<bibl><ref
+                           target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=887372"
+                           >StAZH B II 29, S. 40</ref></bibl>, Edition: <bibl><ref
+                              target="https://rechtsquellen.sources-online.org/ZH_NF_II_3/SSRQ_ZH_NF_II_3_043">SSRQ ZH NF
+                           II/3, Nr. 43</ref></bibl>). Die Gerichtsherrschaft über Teile von
+                        <placeName ref="LOC_47.34713_8.72091">Uster</placeName>, namentlich
+                        <placeName ref="LOC_47.3456_8.7123">Kirchuster</placeName> und <placeName
+                        ref="LOC_47.34088_8.72555">Nossikon</placeName>, wurden zusammen mit der
+                     Burg Uster 1350 an die Herren von Bonstetten verpfändet und kam erst 1544 in
+                     den Besitz der Stadt <placeName ref="LOC_47.36667_8.55">Zürich</placeName>.
+                     Einzelne weitere, freie Gerichte existierten in <placeName
+                        ref="LOC_47.34088_8.72555">Nossikon</placeName> (Offnung: <bibl><ref
+                           target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=433968"
+                           >StAZH C I, Nr. 2561</ref></bibl>, Edition: <bibl><ref
+                              target="https://rechtsquellen.sources-online.org/ZH_NF_II_3/SSRQ_ZH_NF_II_3_023">SSRQ ZH NF
+                           II/3, Nr. 23</ref></bibl>; Erneuerung: <bibl><ref
+                           target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=661048"
+                           >StAZH F II a 180, fol. 624r-627r</ref></bibl>, Edition: <bibl><ref
+                              target="https://rechtsquellen.sources-online.org/ZH_NF_II_3/SSRQ_ZH_NF_II_3_079">SSRQ ZH NF
+                           II/3, Nr. 79</ref></bibl>) und <placeName ref="LOC_47.39227_8.66988"
+                        >Hegnau</placeName> (zum dortigen Gericht vgl. <bibl><ref
+                           target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=250885"
+                           >StAZH C I, Nr. 2491</ref></bibl>, Edition: <bibl><ref
+                              target="https://rechtsquellen.sources-online.org/ZH_NF_II_3/SSRQ_ZH_NF_II_3_073">SSRQ ZH NF
+                           II/3, Nr. 73</ref></bibl>). Die niedere und mittlere Gerichtsbarkeit lag
+                     bei der Vogtei <placeName ref="LOC_47.36583_8.67896">Greifensee</placeName>
+                           (<bibl><ref
+                           target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=670505"
+                           >StAZH F II a 209, S: 7-24</ref></bibl>, Edition: <bibl><ref
+                              target="https://rechtsquellen.sources-online.org/ZH_NF_II_3/SSRQ_ZH_NF_II_3_011">SSRQ ZH NF
+                           II/3, Nr. 11</ref></bibl>); sie wurde vom Vogt im Namen der Stadt <placeName
+                        ref="LOC_47.36667_8.55">Zürich</placeName> verwaltet. Das Zürcher Ratsgericht fungierte als
+                     nächsthöhere und zugleich oberste Instanz, an die sich sowohl die Richter bei
+                     Uneinigkeit und Unsicherheit – wie in dieser Quelle zu sehen ist – als auch die
+                     Parteien vor Gericht bei Unzufriedenheit wenden konnten. Appellationen kosteten
+                     die begehrende Partei zehn Schilling, vor dem regulären Gericht zu erscheinen
+                     nur drei. Zur Herrschaft <placeName ref="LOC_47.36583_8.67896"
+                        >Greifensee</placeName> gehörten auch mehrere Aussenwachten im restlichen
+                        <placeName ref="LOC_47.33634_8.83327">Zürcher Oberland</placeName>, was zu
+                     Streitigkeiten über die Gerichtszugehörigkeit dieser Exklaven mit der
+                     Grafschaft <placeName ref="LOC_47.45249_8.7485">Kyburg</placeName> und der
+                     Herrschaft <placeName ref="LOC_47.28333_8.75">Grüningen</placeName> führte. Der
+                     Vogt war Stellvertreter der Stadt <placeName ref="LOC_47.36667_8.55"
+                        >Zürich</placeName> und nahm somit unter anderem auch das Amt des Richters
+                     ein (<bibl><ref
+                           target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=254357"
+                           >StAZH B III 37</ref></bibl>, Edition: <bibl><ref
+                              target="https://rechtsquellen.sources-online.org/ZH_NF_II_3/SSRQ_ZH_NF_II_3_103">SSRQ ZH NF
+                           II/3, Nr. 103</ref></bibl>). Untervögte stammten aus der lokalen
+                     Bevölkerung, in der Regel aus wirtschaftlich guten Verhältnissen, und
+                     übernahmen auch gerichtliche Aufgaben, wie die Leitung der örtlichen Gerichte.
+                     1618 gab es in <placeName ref="LOC_47.36583_8.67896">Greifensee</placeName>
+                     vier Untervögte, welche für die Gerichte in <placeName
+                        ref="LOC_47.36583_8.67896">Greifensee</placeName>, <placeName
+                        ref="LOC_47.34713_8.72091">Uster</placeName>, <placeName
+                        ref="LOC_47.37169_8.63869">Fällanden</placeName> und <placeName
+                        ref="LOC_47.33996_8.66778">Maur</placeName> zuständig waren (<bibl><ref
+                           target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=936578"
+                           >StAZH A 123.4, Nr. 63</ref></bibl>, Edition: <bibl><ref
+                              target="https://rechtsquellen.sources-online.org/ZH_NF_II_3/SSRQ_ZH_NF_II_3_093">SSRQ ZH NF
+                           II/3, Nr. 93</ref></bibl>). Das in dieser Quelle genannte Gericht in
+                        <placeName ref="LOC_47.34713_8.72091">Uster</placeName> fand unter der
+                        Dorflinde statt und war für <placeName
+                        ref="LOC_47.3456_8.7123">Kirchuster</placeName>, <placeName
+                        ref="LOC_47.34526_8.70833">Wil</placeName>, <placeName
+                        ref="LOC_47.34422_8.73166">Oberuster</placeName> und <placeName
+                        ref="LOC_47.34088_8.72555">Nossikon</placeName> zuständig. Es konnte aber
+                     von Gerichten aus der ganzen Herrschaft auch an jenes in <placeName
+                        ref="LOC_47.36583_8.67896">Greifensee</placeName> appelliert werden, welches
+                     an der <placeName>Burghalde</placeName> beziehungsweise im
+                        <placeName>Rosengarten</placeName> des <placeName
+                        ref="LOC_47.365051_8.675597">Schlosses Greifensee</placeName> tagte. Beide
+                     sollten alle drei Wochen stattfinden (<bibl><ref
+                           target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=731855"
+                           >StAZH A 123.3, Nr. 6</ref></bibl>, Edition: <bibl><ref
+                              target="https://rechtsquellen.sources-online.org/ZH_NF_II_3/SSRQ_ZH_NF_II_3_082">SSRQ ZH NF
+                           II/3, Nr. 82</ref></bibl>), was sie von den übrigen Gerichten in der
+                     Herrschafte unterschied, welche nur zweimal pro Jahr, im Frühling und im
+                     Herbst, durchgeführt wurden. </p>
+                  <!-- Elemente des Falls mit Verweis auf Nr. 37 -->
+                  <p>Der Ehrverletzungsfall <persName>Verena Scherrers</persName> und <persName>Anna
+                        Kellers</persName> ist in drei Teile aufgeteilt: Der erste ist die
+                     Gerichtsverhandlung in <placeName ref="LOC_47.34713_8.72091">Uster</placeName>,
+                     geleitet durch den Untervogt von <placeName ref="LOC_47.36583_8.67896"
+                        >Greifensee</placeName>, <persName>Ueli Feusi</persName>, im Auftrag des
+                     Vogts von <placeName ref="LOC_47.36583_8.67896">Greifensee</placeName>,
+                        <persName>Hans Jakob Rohrdorf</persName>. Die daraus resultierenden Aussagen
+                     nehmen den Grossteil der vorliegenden Quelle ein. Da aber
+                        <persName>Feusi</persName> den Ursprung der Reden nicht eruieren konnte und
+                     weil deren Inhalt teilweise der Blutgerichtsbarkeit angehörte, leitete er den
+                     Fall an das <placeName ref="LOC_47.36667_8.55">Zürcher</placeName> Ratsgericht,
+                     die nächsthöhere Instanz, weiter. Der zweite Teil findet sich dementsprechend
+                     in der von ihm eingeleiteten Kundschaft (<bibl><ref
+                           target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=735430"
+                        >StAZH A 123.3, Nr. 37</ref></bibl>, Edition: <bibl><ref target="https://qzh.sources-online.org/quellenstuecke/QZH_086">QZH, Nr. 86
+                        <!-- mur: Nr. und link einfügen; Verweis so richtig? --></ref></bibl>), in welcher
+                     weitere, von <persName>Hans Wyss</persName> eingeladene Zeugen in <placeName
+                        ref="LOC_47.34713_8.72091">Uster</placeName> befragt werden. Aufgrund deren
+                     Aussagen fällte das Zürcher
+                     Ratsgericht sein Urteil, welches den dritten Teil des Gerichtsfalls
+                     konstituiert und am Schluss der hier vorliegenden Quelle zu finden ist. Der Rat
+                     verurteilte zwar die angeklagten Männer zu einer Gefängnisstrafe und legte
+                     fest, dass die Ehre von <persName>Verena Scherrer</persName> und <persName>Anna
+                        Keller</persName> unbeschadet bleiben sollte, jedoch ermahnte er letztere
+                     trotzdem dazu, sich so zu verhalten, wie es sich für Frauen gehöre.</p>
+                  <!-- Sodomie und Ehre -->
+                  <p> Gleichgeschlechtliche Sexualität war als <q>Sodomie</q> im Mittelalter und in
+                     der Frühen Neuzeit ein Vergehen gegen die göttliche Ordnung, welches in <placeName ref ="LOC_47.36667_8.55">Zürich</placeName>
+                     mit dem Tod bestraft wurde und die Ehre der Beschuldigten beeinträchtigte. Das
+                     Konzept der Ehre und somit auch der Ehrverletzung und -wiederherstellung war
+                     zentral für frühneuzeitliche Gesellschaften. Eng verbunden mit Macht, Stand und
+                     Geschlecht, kann die Ehre räumlich verstanden werden, als soziale Erweiterung
+                     einer Person, welche über ihr Ansehen in der Gemeinschaft entschied und auch
+                     vermehrt oder vermindert werden konnte. Ein Ehrverlust hatte folglich
+                     schwerwiegende Auswirkungen, wodurch Ehrverletzungen ernste Vergehen
+                     waren, zu Gewalt führen konnten und der Schlichtung durch die Obrigkeit
+                     bedurften, um den Frieden zwischen den beteiligten Parteien wiederherzustellen.
+                     Ehre war aber auch ein Gut, welches anhand von Ehrstrafen durch die
+                     frühneuzeitliche Rechtsprechung beschädigt werden konnte. Vor diesem
+                     Hintergrund ist auch die im Urteil enthaltene Aussage des Zürcher Rates zu
+                     sehen, mit welcher er die Ehre der beiden angeschuldigten Frauen ausdrücklich
+                     für unbeschadet erklärte.</p>
+                  <p>Der Begriff <q>Sodomie</q> umfasste nicht nur gleichgeschlechtliche Sexualität,
+                     sondern wurde für sämtliche als widernatürlich angesehene, also
+                     non-prokreative, Sexualität verwendet, jedoch wird er in den Quellen fast
+                     ausschliesslich dafür verwendet. In anderen Quellenbeständen kann damit auch
+                        <q>Bestialität</q> (der sexuelle Verkehr mit Tieren) gemeint sein, in
+                     Zürcher Akten wird der Begriff aber nicht dafür verwendet. Auch wenn laut
+                     Gesetz sowohl Männer als auch Frauen für <q>Sodomie</q> bestraft werden
+                     konnten, sind letztere kaum in Gerichtsprozessen zu finden. Ausschlaggebend
+                     dafür ist das zeitgenössische Verständnis von Sexualität, welche sie als
+                     vaginale Penetration und Ejakulation identifizierte. Dementsprechend sind in
+                     Gerichtsfällen, welche Sodomie zwischen Frauen behandelten, oft Elemente zu
+                     finden, durch welche sich eine der Frauen dieser Definition beziehungsweise der
+                     männlichen Rolle im Allgemeinen annäherte.</p>
+                  <!-- Literatur -->
+                  <p> Zu Greifensee vgl. <bibl><ref
+                           target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html"
+                           >SSRQ ZH NF II/3</ref>, S. XV-LIX</bibl>,
+                     zu gleichgeschlechtlicher Sexualität vgl. <bibl><ref target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html">Brühlmeier
+                        2022</ref></bibl> und <bibl><ref target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html">Puff 2003</ref></bibl>,
+                     zur Abgrenzung von Bestialität vgl. <bibl><ref target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html">Cáceres Mardones 2022</ref></bibl>.</p>
+               </div>
+            </back>
+         </text>
+      </group>
+   </text>
+</TEI>

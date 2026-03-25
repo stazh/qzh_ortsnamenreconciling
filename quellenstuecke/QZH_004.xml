@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css“?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <respStmt>
+                    <persName>Andrea Schmid-Kunz</persName>
+                    <resp key="transcript"/>
+                </respStmt>
+                <respStmt>
+                    <persName>Michael Schaffner</persName>
+                    <resp key="tagging"/>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <date type="electronic" when="2021-05-01"/>
+                <date type="print" when="2018-12-31"/>
+            </publicationStmt>
+            <seriesStmt xml:id="ssrq-sds-fds">
+                <title>Gelebte Reformation. Zürich 1500-1800</title>
+                <respStmt>
+                    <persName>Francisca Loetz. Unter Mitarbeit von Wolfram Schneider-Lastin</persName>
+                    <resp>Herausgeberschaft</resp>
+                </respStmt>
+                <idno>QZH_004</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4890517">StAZH B II 695, S. 39-40</idno>
+                    </msIdentifier>
+                    <head>Beschluss betreffend Befragung von Mustapha Caffa von Algier und Einholung von Erkundigungen im Kloster Einsiedeln</head>
+                    <msContents>
+                        <msItem>
+                            <textLang>Deutsch</textLang>
+                            <filiation type="current">Eintrag</filiation>
+                            <filiation type="original"><origDate when="1706-07-24"/></filiation>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><material>Papier</material></support>
+                                <extent/>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                       <origin><origDate when="1706-07-24"/></origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>
+                    <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+                </p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc> </profileDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+                    <term ref="key000325">Fremde</term>
+                    <term ref="key000334">Gefängnis</term>
+                    <term ref="key000670">Konfession</term>
+                    <term ref="key005339">Konversion</term>
+                    <term ref="key005473">Nachgang</term>
+                    <term ref="key003408">Taufe</term>
+                </keywords>
+            </textClass>
+            <particDesc default="false"/>
+            <settingDesc default="false"/>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <group>
+            <text>
+                <body>
+                    <pb n="39" facs="StAZH_B_II_695__S__39_.tif"/>
+                    <div><p>        
+                        <lb/>Der im <placeName ref="LOC_Lat_Long">Wellenberg</placeName> ligende, für <persName>Mustafa Caffa</persName>
+                        <lb/>von <placeName ref="LOC_Lat_Long">Algier</placeName> sich außgebende türk, solle durch die
+                        <pb n="40" facs="StAZH_B_II_695__S__40_.tif"/>
+                        <lb/><abbr>hren:</abbr> nachgänger ernstlich und in bysein des
+                        <lb/><abbr>mrs:</abbr> zur bekantnuß der wahrheit vermannet,
+                        <lb/>obe er zu <placeName ref="LOC_Lat_Long">Einsidlen</placeName> gewesen, sich dorten habe
+                        <lb/>tauffen laßen? befraget; auch daß ehrliche
+                        <lb/>herren und burger ihne dorten gesehen, ihme
+                        <lb/>vorgehalten; wann er aber hiervon nichts gestehen
+                        <lb/>wolte, die mehrere information von <abbr>hren:</abbr>
+                        <lb/>prelaten zu <placeName ref="LOC_Lat_Long">Einsidlen</placeName> selbst per expressum
+                        <lb/>eingehollet werden.</p>
+                    </div>
+        </body>
+                <back>
+                    <div>
+                        <p>In diesem einzigartigen Fall lässt sich verfolgen, wie konsequent der <orgName>Rat</orgName> die
+                            Geschichte des Türken <persName>Caffa</persName> alias <persName>Cara</persName> zu überprüfen suchte, der sich als versklavter
+                            osmanischer Muslim und geflüchteter Galeerenflüchtling ausgab, welcher zum Reformiertentum
+                            konvertiert sei. Offenbar hielt der <orgName>Rat</orgName> die Darlegungen des schliesslich als Betrüger
+                            aufgedeckten Mannes für glaubwürdig genug, um vielfältige Erkundigungen einzuziehen.
+                            Ausserdem weisen die Akten darauf hin, dass <persName>Caffa</persName> seine vermeintliche Konversion als
+                            symbolisches Kapital einzusetzen vermochte, um sich von den jeweiligen Orten unterstützen zu
+                            lassen, an denen er seine Geschichte verkaufte.</p>
+                    </div>
+                </back>
+    </text>
+        </group>
+    </text>
+</TEI>

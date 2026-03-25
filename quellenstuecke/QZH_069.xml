@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='../../Ressourcen/Stylesheet.xsl'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Quellen zur Zürcher Geschichte</title>
+                <respStmt>
+                    <persName>Patrick Rüegg. Mit einem Kommentar von Michael
+                        Schaffner</persName>
+                    <resp key="transcript"/>
+                </respStmt>
+                <respStmt>
+                    <persName>Sarah Murer</persName>
+                    <resp key="tagging"/>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Staatsarchiv des Kantons Zürich</publisher>
+                <date type="electronic" when="2021-05-01"/>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Quellen zur Zürcher Geschichte</title>
+                <respStmt>
+                    <persName>Staatsarchiv des Kantons Zürich</persName>
+                    <resp>Herausgeberschaft</resp>
+                </respStmt>
+                <idno>QZH_069</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1155858"
+                            >STAZH C II 12, Nr. 261</idno>
+                    </msIdentifier>
+                    <head>Burgrecht der Stadt Zürich mit dem Kloster Rüti</head>
+                    <msContents>
+                        <summary>Bürgermeister, Rat und Grosser Rat der Stadt Zürich nehmen, in Anerkennung der Dienste des Abtes Gottfried von Rüti, ihn, sein Kloster, dessen Leute und Besitz unter ihren besonderen Schutz und versprechen, sie künftig wie andere Bürger zu unterstützen und zu beraten. Als Gegenleistung soll der Abt jährlich am Martinstag fünf Gulden an die Stadt zahlen. Bei weltlichen Streitigkeiten mit Angehörigen Zürichs soll zunächst das geistliche Gericht angerufen werden. Kann der Streit dadurch nicht beigelegt werden, wird die Angelegenheit vor das Zürcher Gericht gebracht. Die geistliche Gerichtsbarkeit und pfarrlichen Freiheiten des Klosters bleiben davon unberührt, es sei denn, beide Seiten seien damit einverstanden.
+                        Bürgermeister, Rat und Grosser Rat der Stadt Zürich siegeln mit dem kleineren Stadtsiegel.</summary>
+                        <msItem>
+                            <textLang>Deutsch</textLang>
+                            <filiation type="current">Original</filiation>
+                            <filiation type="original"><origDate when="1401-12-29"
+                            />29.12.1401</filiation>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material>Pergament</material>
+                                </support>
+                                <extent>
+                                    <dimensions type="leaves">
+                                        <height unit="cm" quantity="25.5" />
+                                        <width unit="cm" quantity="16.0" />
+                                    </dimensions>
+                                    <dimensions type="plica">
+                                        <width unit="cm" quantity="5.0" />
+                                    </dimensions>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                        <sealDesc>
+                            <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1"
+                                nontei:material="wax" nontei:shape="round"
+                                nontei:attachment="sealed on a parchment tag"
+                                nontei:condition="damaged">
+                                <persName role="sigillant"
+                                    >Stadt Zürich, kleineres Stadtsiegel</persName>
+                            </seal>
+                        </sealDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origDate when="1401-12-29"/></origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>
+                    <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+                </p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc> </profileDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+                    <term ref="key000173">Bündnis</term>
+                    <term ref="key000263">Burgrecht</term>
+                    <term ref="key004629">Geistliches Gericht</term>
+                    <term ref="key000057">Gericht</term>
+                    <term ref="key000010">Kloster</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+   <text>
+      <body>
+         <div>
+             <!-- Kollationiert msr, 06.05.2025 -->
+          <p>
+              <pb n="r" facs="C_II_12__Nr__261__r_.tif"/>
+                    <seg><lb/>Wir, der burgermeister, die raͤt und burger gemeinlich der statt
+                            <placeName ref="LOC_47.37721_8.52731">Zürich</placeName>, tuͦn kunt und
+                        verjehen offenlich <lb/>mit disem brief, das wir angesehen haben die
+                        fru̍ntlich, nu̍tzlich dienst, so der erwirdig geistlich her, her
+                            <lb/><persName>Goͤtfrid</persName>, apt des gotzhus ze <placeName
+                            ref="LOC_Lat_Long"
+                        >Rüty</placeName><!-- habe untersch. Geotags für Rüti und Kloster Rüti verwendet -->,
+                        uns und unser statt dis und vil getan hat und in ku̍nftigen ziten wol
+                        <lb/>fürbaz tuͦn mag und dar umb, so haben wir den selben apt
+                            <persName>Goͤtfrid</persName>, sin gotzhus, ir lu̍t und ir guͦt in unsre
+                            sun<lb break="no"/>derliche fru̍ntschaft und schirm genomen und haben
+                        oͧch mit guͦten tru̍wen gelopt für uns und unser nach<lb break="no"/>komen
+                        den vorgenempten apt <persName>Goͤtfrid</persName> und sin obgenent gotzhus
+                        und ir nachkomen, ir lu̍t und guͦt, so zuͦ inen gehoͤrent, <lb/>hinen hin ze
+                        schirmen, inen ze helffen und ze raten, als andern unser ingesessen burgern,
+                        ungefarlich.</seg>
+                    <seg>Und sol oͧch <lb/>der <choice>
+                            <abbr>vorgen</abbr>
+                            <expan>vorgenante</expan>
+                        </choice> apt, sin gotzhus und all sin nachkomen, wellecher jemer hinen hin
+                        apt da selbs ze <placeName ref="LOC_Lat_Long">Rüti</placeName>, uns
+                        <lb/>jerlich uff sant <persName ref="GND_118578308">Martis</persName> tag
+                            <num value="5">fünf</num> guldin guͦter und geber an geld und an gewicht
+                        uns und unser gemeinen <lb/>statt ze stu̍r geben und da mit su̍llen si uns
+                        jeklichs jares gestu̍ret han, ungefarlich.</seg>
+                    <seg>Wer aber, dz der <lb/>obgenempte apt oder sin nachkomen zuͦ deheinem, der
+                        zuͦ uns dien, von <placeName ref="LOC_47.37721_8.52731">Zürich</placeName>,
+                        gehoͤret, im oder hie nach dehein an<lb break="no"/>sprach getonn umb
+                        sachen, die weltlich werin, den oder die mugen die selben, der apt oder sin
+                        nachkomen, <lb/>mit geistlichem gericht manen und tribende si sich mit inen
+                        in einem bescheiden zill richtin, und si ob <lb/>legen. Taͤtin si dz nicht,
+                        wenn dann darnach wir, die von <placeName ref="LOC_Lat_Long"
+                            >Zürich</placeName>, dem vorgenempten apt <persName>Goͤtfrid</persName>
+                        ald sinen nach<lb break="no"/>komen mit unseren briefen oder botten darumb <choice>
+                            <abbr>embn</abbr>
+                            <expan>embieten</expan>
+                        </choice>, so sullen si die selben sach in guͦtem still lassen ligen
+                        <lb/>und su̍llent dann für uns gen <placeName ref="LOC_Lat_Long"
+                            >Zu̍rich</placeName> umb die sach komen und su̍llen wir iren widersachen
+                        her fu̍r uns <lb/>gebieten und wes wir uns dann gemeinlich oder der merteil
+                        under uns nach beider teilen ansprach und <lb/>wider red erkennen, dz sol
+                        war und staͤt beliben.</seg>
+                    <seg>Wir haben oͧch dem selben apt <persName>Goͤtfrid</persName> und sinen
+                            nach<lb break="no"/>komen vor gelassen ir pfafflich fryheit und
+                        geistlich gericht, dz si mit uns noch wir mit inen darumb <lb/>nicht ze
+                        schaffen su̍llen haben, wir tuͦn es dann ze beiden siten gern.</seg>
+                    <seg>Herüber ze einem waren und <lb/>staͤtten urkund aller vorgeschriben dingen,
+                        so haben wir unser statt insigel, dz minder, offenlich ge<lb break="no"
+                        />henket an disen brief, der geben ist an dem nechsten <origDate
+                            when="1401-12-29">donrstag vor dem yngenden jar, do man zelt <lb/>von
+                            Christi geburt vierzehen hundert jar, darnach in dem andern
+                            jar.</origDate></seg></p>
+                   <p> <lb/>Per magistrum civium et consules<note>Maximilian Gamer und Philipp Roelli von der Fachstelle Latein der Universität Zürich sei herzlich für ihre Hilfe bei der Transkription dieses Vermerks gedankt.</note></p>
+             <pb n="v" facs="C_II_12__Nr__261__v_.tif"/>
+             <p><lb/>Das gotshaus <placeName ref="LOC_Lat_Long">Rüti</placeName> <abbr>betr</abbr><expan>betreffend</expan>.</p>
+             <p><lb/>Der schirmbrieff</p>
+         </div>
+      </body>
+       <back>
+           <div><p>Aufgrund zahlreicher Schenkungen, Käufe und Tauschvorgänge entwickelte sich die Prämonstratenserabtei 
+               <placeName ref="LOC_Lat_Long">Rüti</placeName> zu einem der wichtigsten Herrschaftsträger im spätmittelalterlichen Zürcher Oberland (vgl. dazu den Kommentar zum Erwerb der Patronats- und Zehntenrechte in <placeName ref="LOC_Lat_Long">Fehraltorf</placeName>: <bibl><ref target="https://qzh.sources-online.org/quellenstuecke/QZH_070">QZH, Nr. 70</ref></bibl>). </p>
+           <p>Im Kontext des Ausgreifens der städtischen Territorialherrschaft gelangte <placeName
+                    ref="LOC_47.37721_8.52731">Zürich</placeName> auch in die Nähe des Einflussbereichs
+                des Klosters <placeName ref="LOC_Lat_Long">Rüti</placeName>. Der Vertrag
+                regelte das Verhältnis der beiden Herrschaftsträger und stellt die Abtei in den
+                Schutz der Stadt. Die vorliegende Urkunde war eines der Schriftstücke, das nach der
+                Reformation im Kontext der Auseinandersetzung mit <persName ref="GND_1089463588"
+                    >Sebastian Hegner</persName>, dem letzten Konventualen von <placeName
+                    ref="LOC_Lat_Long">Rüti</placeName>, in der Stadt <placeName
+                    ref="LOC_Lat_Long">Baden</placeName> hinterlegt wurde (vgl. <bibl><ref
+                        target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4772955">StAZH
+                        C V 3.5 a, Nr. 1</ref></bibl>). <persName ref="GND_1089463588"
+                    >Hegner</persName> hatte vor der Tagsatzung nicht zuletzt unter Berufung auf den
+                Burgrechtsvertrag argumentiert, dass <placeName ref="LOC_Lat_Long"
+                    >Zürich</placeName> 1525 mit der Aufhebung des Klosters gegen seine
+                Schirmpflicht verstossen habe.</p>
+           <p>Für die Auseinandersetzung mit <persName ref="GND_1089463588">Sebastian Hegner</persName> vgl.  <bibl><ref target="https://qzh.sources-online.org/quellenstuecke/QZH_072">QZH, Nr. 72</ref></bibl>. 
+               Für die Auflösung des Klosters in der Reformation vgl. <bibl><ref target="https://qzh.sources-online.org/quellenstuecke/QZH_071">QZH, Nr. 71</ref></bibl>.</p>
+       </div></back>
+   </text>
+</TEI>

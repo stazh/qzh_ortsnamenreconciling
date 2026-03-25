@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='../../Ressourcen/Stylesheet.xsl'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Quellen zur Zürcher Geschichte</title>
+				<respStmt>
+					<persName>Silvia Barzaghi; David Schlittler; Lea Wettler</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Sarah Murer; Michael Schaffner</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Staatsarchiv des Kantons Zürich</publisher>
+				<date type="electronic" when="2021-05-01"/>
+			</publicationStmt>
+			<seriesStmt>
+				<title>Territorienbildung der Städte im Spätmittelalter</title>
+				<respStmt>
+					<persName>Laura Bitterli und Simon Teuscher</persName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>QZH_049</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=5125015"
+							>StAZH A 124.1, Nr. 21</idno>
+					</msIdentifier>
+					<head>Zeugenaussagen (Kundschaften) betreffend hohe und niedere Gerichtsbarkeit sowie militärische Dienste in der Herrschaft Grüningen
+					</head>
+					<msContents>
+						<summary>Die befragten Männer geben Auskunft zu verschiedenen Ereignissen, welche die kleinen und hohen Gerichte (Vogtgericht, Blutgericht) sowie militärische Dienste in der Herrschaft Grüningen betreffen. </summary>
+						<msItem>
+							<textLang>Deutsch</textLang>
+							<filiation type="current">Aufzeichnungen (Einzelblatt)</filiation>
+							<filiation type="original"><origDate from="1436-01-01" to="1439-12-31"></origDate></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support><material>Papier</material></support>
+								<extent/>
+							</supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin><origDate from="1436-01-01" to="1439-12-31"></origDate></origin>
+					</history>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<editorialDecl>
+				<p>
+					<ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+				</p>
+			</editorialDecl>
+		</encodingDesc>
+		<profileDesc> </profileDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term ref="key000479">Dienstpflicht</term>
+						<term ref="key000057">Gericht</term>
+						<term ref="key000305">Grenze</term>
+						<term ref="key003994">Hochgerichtsbarkeit</term>
+						<term ref="key003261">Kundschaft</term>
+					<term ref="key001101">Wehrdienst</term>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<pb n='1' facs="A_124_1__Nr__20__S__1_.tif"/>
+			<head><placeName ref="LOC_Lat_Long">Bintzikon</placeName></head>
+			<p>
+				<lb/><persName>Stoffel Muggly</persName> von <del><placeName ref="LOC_Lat_Long">Kemraten</placeName></del> seit, daz sich vor etwaz jaren gefuegt hat,
+				<lb/>daz einer, hies der <persName>Wismann</persName> uff dem hof inn <placeName>Bonen</placeName>, dar uff jetz <persName>Cueny Obhoeltzer</persName>
+				<lb/>sesshaft ist, sas, dem wart gebotten, dem vogt von <placeName ref="LOC_47.27938_8.76205">Grueningen</placeName> gehorsamy
+				<lb/>ze tuon <del>zef</del> und ze swerren. Als dann ein ander, der in der herschaft <placeName ref="LOC_47.27938_8.76205">Grueningen</placeName>
+				<lb/>hochen und kleinnen gerichten sitzet, des spart er sich, wolt darzuo nit als
+				<lb/>willig sin. Also schikt vogt <persName>Hagnoew</persName> inn und ander, hiess sy den <persName>Wismann</persName>
+				<lb/>fachen, also fiengen sy ihn, fuorten inn gen <placeName ref="LOC_47.27938_8.76205">Grueningen</placeName>. <del>Also enbet der</del>
+				<lb/><del><persName>Wißman</persName> mines herren von  <persName ref="GND_120633957">Toggenburg<!-- Grafen von Toggenburg --></persName> amplûten, dz sy im usß dem turn</del>
+				<lb/><del>hulffen. Also mochten sy im nit helffen, wolten sich ouch des nit annemme,</del>
+				<lb/><del>dann daz</del> Do swur er minen herren von <placeName ref="LOC_Lat_Long">Zurich</placeName> <del>swur</del> und <add place="above">tatt ynen</add> gehorsamy, <del>tett</del> als ein
+				<lb/>ander ir hindersaess und straften inn vogte <persName>Hagnoew</persName> umb ein buoss. Er
+				<lb/>seit ouch, daz der <persName>Wisman</persName> dar nach uff dem selben hof zwarent
+				<lb/>gevangen und allweg gen <placeName ref="LOC_47.27938_8.76205">Grueningen</placeName> gefuert und da gestraft wart,
+				<lb/>daz er nit vernam, daz je jeman dar in u̍tzit rette.</p>
+			<p><lb/><persName>Lûty Zender</persName> von <placeName ref="LOC_Lat_Long">Bintzikon</placeName> <choice><abbr>d</abbr><expan>dicit</expan></choice>, als <persName>Stoffel Muggly</persName> dann daz er den
+				<lb/><persName>Wisman</persName> selb nit fieng.</p>
+			<p><lb/><persName>Heini Mûrer</persName> von <placeName ref="LOC_Lat_Long">Opptikon</placeName> <choice><abbr>d</abbr><expan>dicit</expan></choice>, als <persName>Lûty Zender</persName> und daz er den <persName>Wisman</persName>,
+				<lb/>als der sines wips frûnd waz, half ustädingen und auch sin bûrg wart.</p>
+			<p><lb/><persName>Hans Heintz</persName> von <placeName ref="LOC_Lat_Long">Ûrikon</placeName> seit, daz im wol wissent ist, in den ziten
+				<lb/>do min herren von <placeName ref="LOC_47.37721_8.52731">Zürich</placeName> <placeName ref="LOC_47.27938_8.76205">Grueningen</placeName> innamen, daz da einer, hies der <persName>Hûppy</persName>,
+				<lb/>sass uff dem hof <placeName ref="LOC_Lat_Long">Im Geheisch</placeName>, da jetz <persName>Cuony Obhoeltzer</persName> sitzt. Und als
+				<lb/>die von <placeName ref="LOC_Lat_Long">Wald</placeName> etwaz widerspaenig waren und den von <placeName ref="LOC_Lat_Long">Zúrich</placeName> nit swerren
+				<lb/>wolten, da reiset und dienet der selb <persName>Hûppy</persName> mit den von <placeName ref="LOC_Lat_Long">Wald</placeName> und
+				<lb/>do die von <placeName ref="LOC_Lat_Long">Wald</placeName> dar zuo twungen und bracht wurden von minem
+				<lb/>herren von <persName ref="GND_120633957">Toggenburg<!-- Grafen von Toggenburg --></persName> und minen herren von <placeName ref="LOC_Lat_Long">Zûrich</placeName>, daz sy den von <placeName ref="LOC_Lat_Long">Zurich</placeName>
+				<lb/>swerren muosten. Do swuor der selb <persName>Hûppy</persName> ouch gen <placeName ref="LOC_Lat_Long">Zurich</placeName> und tett als
+				<lb/>ein ander hofman.</p>
+			<p><lb/><persName>Heinrich Bletscher</persName>, jetz vogt ze <placeName ref="LOC_Lat_Long">Kiburg</placeName> <choice><abbr>d</abbr><expan>dicit</expan></choice>, daz in den tagen, do er vogt
+				<lb/>ze <placeName ref="LOC_47.27938_8.76205">Grueningen</placeName> wart und im daz ampt swuor, im fúrkam, daz einer, hies
+				<lb/>der <persName>Wisman</persName>, sas uff dem hof <placeName ref="LOC_Lat_Long">Im Geheisch</placeName>, im nit gesworn hett. Also
+				<lb/>enbot er im zuo im ze komen, im ze hulden, als ein ander hofman ze
+				<lb/><placeName ref="LOC_Lat_Long">Wald</placeName>. <del>des spart er sich e</del> Also hatt er dar inn sumnisse, do hies
+				<lb/>vogt <persName>Bletscher</persName> inn vachen, leit inn gen <placeName ref="LOC_Lat_Long">Grüningen</placeName> inn turn, lag dar<lb break="no"/>inn
+				 ein tag. Do nam er inn herus und swuor im von miner herren von
+				<lb/><placeName ref="LOC_Lat_Long">Zúrich</placeName> wegen, als ein ander hofman<add place="margin"><lb/>und straft
+					<lb/>inn ouch der
+					<lb/><persName>Bletscher</persName> umb
+					<lb/>die ungehorsamy,
+					<lb/>daz er sich gespert
+					<lb/>hat, umb ein buoss,
+					<lb/>die er <gap reason="illegible" unit="cm" quantity="2"/>.</add>. Und vernam der <persName>Bletscher</persName> nie, daz je jeman dar
+				<lb/>oder <unclear>dawider</unclear> u̍tzit rette.</p>
+			<pb n='2' facs="A_124_1__Nr__20__S__2_.tif"/>
+			<p>
+				<lb/><persName>Heini Schufelberger</persName>, <choice><abbr>d</abbr><expan>dicit</expan></choice>, daz in den ziten, do man weß entschûtten walt,
+				<lb/>einer uff dem hof <placeName ref="LOC_Lat_Long">Im Geheisch</placeName> sass, hies <persName>Hans Hûppy</persName>, der reiset und
+				<lb/>dienet mit den von <placeName ref="LOC_47.27938_8.76205">Grueningen</placeName>, hatt liep und leid mit inen.</p>
+			<p><lb/><persName>Heini Brendly</persName> <choice><abbr>d</abbr><expan>dicit</expan></choice> als der <persName>Schufelberger</persName> und so vil mer, daz der <persName>Hûppy</persName>
+				<lb/>allweg gen <placeName ref="LOC_Lat_Long">Wald</placeName> ze gericht gieng und da hin twinghörig waz
+				<lb/>und all dienst gen <placeName ref="LOC_47.27938_8.76205">Grueningen</placeName> tett.</p>
+			<p><lb/><persName>Peter Gûntersperger</persName> <choice><abbr>d</abbr><expan>dicit</expan></choice>, daz einer uff dem hof <placeName ref="LOC_Lat_Long">Im Geheisch</placeName> sas,
+				<lb/>hies der <persName>Hûppy</persName>, der reiset und dienet mit den <placeName ref="LOC_Lat_Long">Wald</placeName>, hatt lieb
+				<lb/>und leid mit inen, als ein ander hofman.</p>
+			<p><lb/><persName>Uely von Tobel</persName> <choice><abbr>d</abbr><expan>dicit</expan></choice>, als <persName>Peter Gûntersperger</persName> und so vil mer, wenn
+				<lb/>man meyen oder herbst gericht ze <placeName ref="LOC_Lat_Long">Wald</placeName> hatt, daz dann der <persName>Hûppy</persName>
+				<lb/>allweg ziger und anken zuo dem gericht bracht, daz sy aessen
+				<lb/>und waz twinghoerig daselbs hin.</p>
+			<p><lb/><persName>Heiri Wartis</persName> <choice><abbr>d</abbr><expan>dicit</expan></choice>, als <persName>Uely von Tobel</persName> und daz im der <persName>Hûppy</persName> selb
+				<lb/>uß sinem mund seit, daz er gern und willenklich den gerichten
+				<lb/>ze <placeName ref="LOC_Lat_Long">Wald</placeName> gehersam were.</p>
+			<p><lb/><persName>Hans Buman</persName> <choice><abbr>d</abbr><expan>dicit</expan></choice>, daz im der <persName>Hûppy</persName>, der uff dem hof <placeName ref="LOC_Lat_Long">Im Geheisch</placeName> sas,
+				<lb/>selb seit, daz er mit der herschaft <placeName ref="LOC_47.27938_8.76205">Grueningen</placeName> gen <placeName ref="LOC_Lat_Long">Glarus</placeName> zoch
+				<lb/>und reiset.</p>
+			<p><lb/><persName>Rudy Buman</persName> <choice><abbr>d</abbr><expan>dicit</expan></choice> als <persName>Hans Buman</persName>.</p>
+			<p><lb/><persName>Heini Boller</persName>, der elter, von <placeName ref="LOC_Lat_Long">Esslingen</placeName>, <add place="above">ist ob 70 jare alt</add>, <choice><abbr>d</abbr><expan>dicit</expan></choice>, daz im wol wissent ist, in den
+				<lb/>ziten, do min herren von <persName ref="GND_118544233">Oesterrich<!-- Habsburger --></persName> ze <placeName ref="LOC_Lat_Long">Sempach</placeName> erslagen wart und daz
+				<lb/>ampt <placeName ref="LOC_47.27938_8.76205">Grueningen</placeName> noch dennocht zuo der herschaft gehort, daz sy da
+				<lb/>daz ampt gen <placeName ref="LOC_Lat_Long">Lindoew</placeName>, daz den von <placeName ref="LOC_Lat_Long">Zúrich</placeName> zuogehort, zoch da einen
+				<lb/>grosß roub nam und daz dozemal einer, hies der <persName>Hûppy</persName>, sas uff dem
+				<lb/>hof <placeName ref="LOC_Lat_Long">Im Geheisch</placeName>, mit inen zoch und ir hoptman was und ze
+				<lb/>vortzeichen hatt der <persName>Hûppy</persName> ein gruonnen schopen an.
+			</p>
+		</body>
+		<back>
+			<div><p>
+				Zu den Grüninger Kundschaften vgl. den Kommentar zu <bibl><ref target="https://qzh.sources-online.org/quellenstuecke/QZH_044">QZH, Nr. 44</ref></bibl>.
+			</p></div>
+		</back>
+	</text>
+</TEI>

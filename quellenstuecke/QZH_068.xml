@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='../../Ressourcen/Stylesheet.xsl'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Quellen zur Zürcher Geschichte</title>
+                <respStmt>
+                    <persName>Anina Steinmann. Mit einem Kommentar von Michael
+                        Schaffner</persName>
+                    <resp key="transcript"/>
+                </respStmt>
+                <respStmt>
+                    <persName>Michael Schaffner</persName>
+                    <resp key="tagging"/>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Staatsarchiv des Kantons Zürich</publisher>
+                <date type="electronic" when="2021-05-01"/>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Quellen zur Zürcher Geschichte</title>
+                <respStmt>
+                    <persName>Staatsarchiv des Kantons Zürich</persName>
+                    <resp>Herausgeberschaft</resp>
+                </respStmt>
+                <idno>QZH_068</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=355898">StAZH B I 278 (S. 571-572)</idno>
+                    </msIdentifier>
+                    <head>Stiftung eines Zinses vom Zehnten von Winterthur an das Kloster Rüti durch Hans von Klingenberg für eine Jahrzeit zugunsten seines Vaters</head>
+                    <msContents>
+                    <summary>Da sein Vater, Ritter Hans von Klingenberg selig, mit vielen andern Rittern und Knechten zu Glaris fiel und nun im Kloster Ruti begraben ist, vermacht Ritter Hans von Klingenberg, Herr von Twiel, dem Abt Bilgri und dem Konvent des Prämonstratenserklosters Ruti jährlich 5 Saum Wein ab seinem Zehnten in Winterthur für eine Jahrzeit. Falls es am Wein mangelt, schuldet Klingenberg dafür 10 Mütt Kernen Winterthurer Mass. Der Zins in Wein oder Korn kann er mit 100 Pfund alten Haller oder gängiger Winterthurer Münze ablösen, Rüti muss das Geld aber wieder für die Jahrzeitstiftung anlegen. Hans von Klingenberg siegelt.</summary>
+                        <msItem>
+                            <textLang>Deutsch</textLang>
+                            <filiation type="current">Abschrift</filiation>
+                            <filiation type="original"><origDate from="1441-01-01" to="1441-12-31"></origDate></filiation>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><material>Papier</material></support>
+                                <extent/>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origDate when="1390-06-18"/>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>
+                    <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+                </p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc> </profileDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+                    <term ref="key005395">Grabstätte</term>
+                    <term ref="key000150">Jahrzeit</term>
+                    <term ref="key000010">Kloster</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+ <text>
+  <group>
+   <text>
+    <body corresp="Sigle1">
+     <div>
+         <pb n="571" facs="B_I_278__S__571_.tif"/>
+         <head><lb/>Pro <choice><abbr>qnqe</abbr><expan>quinque</expan></choice> zeumis vini in <placeName ref="LOC_47.50564_8.72413">Winterthur</placeName></head>
+      <p>
+                            <seg><lb/>Ich, <persName>Hans von Klingenberg</persName>,
+                                    <abbr>hr</abbr> ze <placeName ref="LOC_47.76471_8.81902"
+                                    >Twiel</placeName>, ritter, tuͦn kunt <lb/>allen den, die disen
+                                brieff ansehent oder hörrent lesen:</seg>
+                            <seg><lb/>Als min lieber <abbr>hr</abbr> und vatter selig,
+                                    <abbr>hr</abbr>
+                                <placeName>Hans von <lb/>Klingenberg</placeName>, ritter, leider ze
+                                    <placeName ref="LOC_47.04057_9.06804">Glaruß</placeName> verlor
+                                mit <lb/>andern herren, rittern und knechten und der nu ze
+                                    <lb/><placeName ref="LOC_47.2592_8.849">Ru̍ti</placeName> in dem
+                                closter vergraben ist, da sol man wissen, <lb/>das ich fu̍r mich und
+                                alle min erben dem <choice>
+                                    <abbr>erwird</abbr>
+                                    <expan>erwirdigen</expan>
+                                </choice>
+                                <lb/>herren, abt <placeName>Bilgrin</placeName> des gotzhus ze
+                                    <placeName ref="LOC_47.2592_8.849">Ru̍ti</placeName>, sinem
+                                convent <lb/>und allen sinen nachkommen, die man nempt <choice>
+                                    <abbr>pmon</abbr>
+                                    <expan>prämonstratenser</expan>
+                                </choice>, <lb/>gesetzt han, durch des <choice>
+                                    <abbr>eg</abbr>
+                                    <expan>egenannten</expan>
+                                </choice> mins lieben vatters seligen <lb/>sel heil willen, uff
+                                minem zehenden, so ich ze <lb/><placeName ref="LOC_47.50564_8.72413"
+                                    >Winterthur</placeName> hab, <num value="5">fu̍nff</num> soͧm
+                                wines, die man dem <lb/><choice>
+                                    <abbr>vorg</abbr>
+                                    <expan>vorgenannten</expan>
+                                </choice> minem herren, dem abt, sinem convent und <lb/>sinen
+                                nachkommen jerlich uff <date when="--04-25">sant <choice>
+                                        <abbr>Marc</abbr>
+                                        <expan>Marcus</expan>
+                                    </choice> tag</date> geben <lb/>sol, aͧn alles sumen.</seg><seg>
+                                Wer aber, das mir oder den <lb/>minen nit win von dem <choice>
+                                    <abbr>obg</abbr>
+                                    <expan>obgenannten</expan>
+                                </choice> zehenden wurde, <lb/>so sond doch ich und alle min erben
+                                den <choice>
+                                    <abbr>obg</abbr>
+                                    <expan>obgenannten</expan>
+                                </choice>
+                                <lb/>herren von <placeName ref="LOC_47.2592_8.849">Ru̍ti</placeName>
+                                und iren nachkommen geben und <lb/>unntzogenlich weren uff das <choice>
+                                    <abbr>eg</abbr>
+                                    <expan>egenannte</expan>
+                                </choice> zil zechen <lb/>mu̍t kernen Winterthur meß fu̍r die <choice>
+                                    <abbr>eg</abbr>
+                                    <expan>egenannten</expan>
+                                </choice>
+                                <num value="5">fu̍nf</num>
+                                <lb/>soͧm wins und darumb sond die <choice>
+                                    <abbr>eg</abbr>
+                                    <expan>egenannten</expan>
+                                </choice>
+                                <abbr>hren</abbr> von <lb/><placeName ref="LOC_47.2592_8.849"
+                                    >Ru̍ti</placeName> jerlich desselben mins vattern und aller
+                                miner <lb/>vor der jarzit, began zuͦ den ziten, als es in irem
+                                <lb/>jarzit buͦch verschriben statt.</seg> <seg>Wenn aber ich oder
+                            <lb/>min erben die <choice>
+                                <abbr>eg</abbr>
+                                <expan>egenannten</expan>
+                            </choice> fu̍nff soͧm wingeltz oder die <lb/>zechen mu̍t kernen geltz ab
+                            loͤsen wellen, dz <lb/>mugen ich oder min erben wol tuͦn mit hundert
+                            <lb/>pfund guͦter allter <choice>
+                                <abbr>hlr</abbr>
+                                <expan>heller</expan>
+                            </choice> oder der mu̍ntz, die denn ze <lb/><placeName
+                                ref="LOC_47.50564_8.72413">Winterthur</placeName> geng und geb ist.
+                            Und so dz beschicht, <lb/>so sond doch die <choice>
+                                <abbr>obgs</abbr>
+                                <expan>obgesagten</expan>
+                            </choice> herren von <placeName ref="LOC_47.2592_8.849"
+                                >Ru̍ti</placeName> die selben <lb/><num value="100">hundert</num>  <choice>
+                                <abbr>hlr</abbr>
+                                <expan>heller</expan>
+                            </choice> wider anlegen an ein gelegen guͦt.</seg></p>
+         <pb n="572" facs="B_I_278__S__572_.tif"/>
+       <p><seg><lb/>Da mit das <choice>
+                                    <abbr>vorg</abbr>
+                                    <expan>vorgenannte</expan>
+                                </choice> jarzit begangen werd ewenklich <lb/>doch mit miner oder
+                                mitt miner erben, ob ich nit wer <lb/>willen und wu̍ssen, aͧn
+                                geverd, und won ich die <lb/><choice>
+                                    <abbr>obg</abbr>
+                                    <expan>obgenannte</expan>
+                                </choice> gab, durch des <choice>
+                                    <abbr>obg</abbr>
+                                    <expan>obgenannten</expan>
+                                </choice> mins vattern, miner vordern <lb/>und miner sele heil
+                                willen, so recht und redlich <lb/>gen den <choice>
+                                    <abbr>vorg</abbr>
+                                    <expan>vorgenannten</expan>
+                                </choice> minen herren von <placeName ref="LOC_47.2592_8.849"
+                                    >Ru̍ti</placeName> getan <lb/>han mit aller der ehaffti und
+                                sicherheit, worten <lb/>und werchen, so dar zuͦ gehort und man tuͦn
+                                <lb/>solt.</seg>
+                            <seg>So han ich, der <choice>
+                                    <abbr>vorg</abbr>
+                                    <expan>vorgenannte</expan>
+                                </choice>
+                                <persName>Hans von Klingenberg</persName>, <lb/>ritter, ze offem
+                                urkund der warheyt und einer <lb/>gezu̍gnisse diser sach min eigen
+                                insigel offen gehenkt <lb/>an disen brieff, <choice>
+                                    <abbr>dat</abbr>
+                                    <expan>datum</expan>
+                                </choice> an <origDate when="1390-06-18">samstag vor sant <choice>
+                                        <abbr>Joh</abbr>
+                                        <expan>Johannis</expan>
+                                    </choice>, <lb/>baptiste, anno <choice>
+                                        <abbr>dm</abbr>
+                                        <expan>domini</expan>
+                                    </choice> m<hi rend="sup">o</hi> ccc<hi rend="sup">o</hi>
+                                    lxxxxo.</origDate></seg>
+                        </p>
+     </div>
+    </body>
+    
+    <back>
+     <div>
+     <p>
+         Die vorliegende Abschrift einer Jahrzeitstiftung entstammt dem im Jahr 1441 angelegten sogenannten Diplomatar von <placeName ref="LOC_47.2592_8.849">Rüti</placeName>, 
+         dem wichtigsten Kopialbuch der 
+         Prämonstratenserabtei. Es umfasst, neben einer in Latein verfassten Gründungsgeschichte, Abschriften von 410 Urkunden von der 
+         Gründungszeit des Klosters bis zur Entstehung des Diplomatars. Als Hauptanlass für seine Verschriftlichung dürfte der 
+         Alte Zürichkrieg und das damit zusammenhängende Bedürfnis zur Sicherung der Herrschaftstitel und Einkünfte der Abtei anzusehen sein (<bibl><ref target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html">Zangger 1991</ref>, S. 62-64</bibl>).</p>
+         <p>Die Jahrzeitstiftung hat die Schlacht von <placeName ref="LOC_47.09775_9.06361"
+                                >Näfels</placeName> des Jahres 1388 als Hintergrund. Auf
+                            österreichischer Seite fielen in dieser kriegerischen Auseinandersetzung
+                            unter anderem Ritter <persName>Hans von Wagenberg</persName>, der Bruder
+                            des damals amtierenden Abtes von Rüti, sowie Ritter <persName>Hans von
+                                Klingenberg</persName>, der Vater des gleichnamigen
+                            Jahrzeitstifters. Abt <persName>Bilgeri</persName> von <placeName
+                                ref="LOC_47.2592_8.849">Rüti</placeName> überführte mit Erlaubnis
+                            der Glarner 1389 den Leichnam seines Bruders zusammen mit rund 120
+                            weiteren Gefallenen in das Kloster, wo sie bestattet wurden. Ein Jahr
+                            später erfolgte die vorliegend edierte Jahrzeitstiftung, die sich auf
+                            die Bestattung des <persName>Hans von Klingenberg</persName> in
+                                <placeName ref="LOC_47.2592_8.849">Rüti</placeName> bezieht.</p> <p>Die
+                            Klosterkirche von <placeName ref="LOC_47.2592_8.849">Rüti</placeName>
+                            wurde im 14. Jahrhundert zur Begräbniskirche der <persName>Grafen von
+                                Toggenburg</persName> und weiterer ritteradliger Geschlechter der
+                            Umgebung, darunter die <persName>Herren von Hinwil</persName>.</p>
+         <p>Zum Diplomatar von <placeName ref="LOC_47.2592_8.849">Rüti</placeName> vgl. <bibl><ref target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html">Zangger 1991</ref>, S. 62-65</bibl>; zur Bestattung der Gefallenen von <placeName ref="LOC_47.09775_9.06361">Näfels</placeName> und der Funktion des Klosters 
+             <placeName ref="LOC_47.2592_8.849">Rüti</placeName> als Grablege des Adels vgl. <bibl><ref target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html">HS IV</ref>, S. 515-516</bibl>; <bibl><ref target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html">Illi 1993</ref></bibl>.
+         
+     </p>
+     </div>
+    </back>
+    
+   </text>
+  </group>
+ </text>
+</TEI>  

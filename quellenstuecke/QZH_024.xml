@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css“?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <respStmt>
+                    <persName>Katja Rehmann</persName>
+                    <resp key="transcript"/>
+                </respStmt>
+                <respStmt>
+                    <persName>Michael Schaffner</persName>
+                    <resp key="tagging"/>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <date type="electronic" when="2021-05-01"/>
+                <date type="print" when="2018-12-31"/>
+            </publicationStmt>
+            <seriesStmt xml:id="ssrq-sds-fds">
+                <title>Quellen zur Zürcher Geschichte</title>
+                <respStmt>
+                    <persName>Staatsarchiv des Kantons Zürich</persName>
+                    <resp>Herausgeberschaft</resp>
+                </respStmt>
+                <idno>QZH_024</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4703855">StAZH A 27.11.4, Nr. 23</idno>
+                    </msIdentifier>
+                    <head>Nachgang betreffend eine Auseinandersetzung zwischen Felix Brunner und seinem Vater</head>
+                    <msContents>
+                        <summary>Über Felix Brunner von Uster wird Kundschaft eingeholt, weil er seinen Vater mit
+                            einem ungezückten Messer verletzt haben soll. Er gibt an, dies aus Versehen getan zu haben,
+                            da der Vater betrunken und ohne Licht im Wohnbereich gewütet habe. Der Unfall sei im Gerangel
+                            mit ihm geschehen. Brunner beschreibt, dass sein Vater mehrmals pro Woche so stark betrunken
+                            nach Hause komme, dass alle im Haus vor ihm flüchten müssten. Er erwähnt weiter den Unmut des
+                            Vaters darüber, dass er, Felix Brunner, halbseitig gelähmt und deswegen arbeitsunfähig sei.
+                            Felix Brunner wird mit mehreren Tagen Haft und den Verfahrenskosten gestraft. Allerdings soll
+                            auch der Vater bezüglich seines Trinkens und wegen des unangemessenen Umgangs mit seinen Kindern
+                            ermahnt werden.</summary>     
+                        <msItem>
+                            <textLang>Deutsch</textLang>
+                            <filiation type="current">Aufzeichnungen (Doppelblatt)</filiation>
+                            <filiation type="original"><origDate when="1560-06-26"/></filiation>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><material>Papier</material></support>
+                                <extent/>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origDate when="1560-06-26"/></origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>
+                    <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+                </p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc> </profileDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+                    <term ref="key003396">Alkohol</term>
+                    <term ref="key000816">Familie</term>
+                    <term ref="key111111">Häusliche Gewalt</term>
+                    <term ref="key111112">Körperliche Behinderung</term>
+                    <term ref="key003394">Körperverletzung</term>
+                    <term ref="key003496">Krankheiten</term>
+                    <term ref="key005473">Nachgang</term>
+                    <term ref="key000480">Urfehde</term>
+                </keywords>
+            </textClass>
+            <particDesc default="false"/>
+            <settingDesc default="false"/>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <group>
+            <text>
+                <body corresp="Sigle1">
+                    <pb n="1" facs="A_27_11_4__Nr__23__S__1_.tif"/>
+                    <div>
+                        <p><seg><persName>Felix Brunner</persName> von <subst><del><placeName ref="LOC_Lat_Long">Mur</placeName></del><add
+                            place="above" type="sign"><placeName ref="LOC_Lat_Long">Uster</placeName></add></subst> gipt nachvolgenden
+                            bescheid:</seg> <seg><lb/>Als sin vatter verschine zyt, wie ouch andre mal, heim<lb break="no"/>komen
+                            unnd gar <del>une</del> unwüssender dingen gwesen <lb/>unnd <del>syne</del> etwas gsagt, das
+                            im sin bruder widersprochen, da <subst><del>da</del><add place="right margin"
+                                >wer</add></subst>
+                            <lb/>der fatter ufgewüscht <add place="above">und gsagt,</add> ob er dann meine, das er luͤge.
+</seg>                            <seg><lb/>Und also ein andern <add place="left margin" type="sign">nachts inn <del>d</del></add>
+                            inn der stuben <add place="left margin" type="sign">darinn dhein liecht gweßen</add> hin und
+                            wider gestossen <lb/>unnd zogen, da er erzürnt worden, das sy aber also <lb/>ein weßen
+                            anfiengen, und inn einem zorn den weid<lb break="no"/>mer mit der scheiden erwüscht und im
+                            leider ein streich <lb/>entgangen, <add place="left margin" type="sign">da er nit gwüsst,
+                                <subst><del>wer ob</del><add place="above">wellichen</add></subst>
+                                <lb/>er troffen und aber den <lb/>weidmer nit uß zuckt.</add></seg> <seg>Deßhalb sin underthenigiste
+                            pitt und <add place="above">beger</add>, umb <lb/>gottes willen <subst><del>umb</del><add
+                                place="above">der</add></subst> gnade, dann er sin vatter merteils <lb/>einer wuchen zwei oder drü 
+                            mal heim kome, <subst><del>und</del><add
+                                        place="above">das</add></subst> sy im <lb/>alle entrünen müßen, so gar unwüßent sige er.
+                            <del>Im</del>
+                            <lb/>Er <add place="left margin">sin vatter</add> habe ouch gantz ein unwillen ab im
+                            deßwegen, <lb/>das er leider von gott angriffen, das er an einer syten <lb/>lam und deß halb
+                            nit werchen könne, <del>trage</del> also das <lb/>er zum dickern mal sage, er welte, das inn
+                            der tüfel <lb/>hete. Wellichs inn dann mechtig beellende <add place="left margin" type="sign">und <del>synem nit werchen möchte</del>
+                                <lb/>frylich nit by imm be<lb break="no"/>lyben</add>. Und <lb/>so er were, wie billich ein
+                            vatter sin sölte, were <lb/>inen allen mit einandern wol. <del>Darumb die <lb/>nothurfft
+                                ervorderte insechens bi im zethuͦn, <lb/>darumb er um inn sin selbs und aller namen
+                                <lb/>underthenig peten, alß damit</del> Wellten sy sich alle gegen <lb/>im halten und
+                            tragen, das fürter dhein klag ab ime <lb/>komen müße.</seg></p></div>
+                        <pb n="2" facs="A_27_11_4__Nr__23__S__4_.tif"/>
+                       <div>
+                           <head type="subtitle"><persName>Felix Brunner</persName> von <del>Muri</del>
+                               <placeName ref="LOC_Lat_Long">Uster</placeName>.</head>
+                        <p>
+                            <seg><lb/>Ist erkännt, das <persName>Brunner</persName> noch <lb/>bis samstag im
+                                <placeName ref="LOC_Lat_Long">Wellenberg</placeName> liggen, <lb/>und demnach, nach erleggung des <lb/>costens,
+                            uff ein urfecht ledig glassen. <lb/>Darnëbent sölle im eins und gnuͦg <lb/>gseit, ouch der
+                            vatter von <abbr>m.</abbr>
+                                <persName ref="GND_1074070615">Cuͦnraten <lb/>Aͤscher</persName> beschickt, im sin fel des un<lb break="no"
+                            />messigen trinckens mit dapferkeit <lb/>fürgehalten, und zu besserung sines <lb/>lebens
+                            vermant werden, und also <lb/>sich gëgen kinden, wie sich gezimpt, <lb/>hinfüro gebürlich
+                            halten.</seg> <seg>Actum <lb/><origDate when="1560-06-26">mitwuch, den 26. junij anno 60</origDate>,
+                            <lb/><abbr>pnt</abbr>
+                                <abbr>h</abbr> burgermeister <persName ref="GND_143657992">Müller</persName>, statt<lb break="no"/>halter und
+                            <abbr>beid reth</abbr>.</seg>
+                        </p>
+                    </div>
+                    <div>
+                        <ab place="verso middle" type="dorsal" hand="hand18c">Felix Brunners von
+                            <placeName ref="LOC_Lat_Long">Uster</placeName> unzimmendes verhalten gegen seinem vatter. <origDate when="1560"
+                                >1560</origDate>.</ab>
+                    </div>
+                </body>
+            </text>
+            </group>
+    </text>
+</TEI>

@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Quellen zur Zürcher Geschichte</title>
+                <respStmt>
+                    <persName>Rainer Hugener</persName>
+                    <resp key="transcript"/>
+                </respStmt>
+                <respStmt>
+                    <persName>Rainer Hugener</persName>
+                    <resp key="tagging"/>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Staatsarchiv des Kantons Zürich</publisher>
+                <date type="electronic" when="2024-10-10"/>
+                <date type="print" when="2024-10-10"/>
+            </publicationStmt>
+            <seriesStmt xml:id="ssrq-sds-fds">
+                <title>Quellen zur Zürcher Geschichte</title>
+                <respStmt>
+                    <persName>Staatsarchiv des Kantons Zürich</persName>
+                    <resp>Herausgeberschaft</resp>
+                </respStmt>
+                <idno>QZH_099</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4654370"
+                            >StAZH C II 6, Nr. 995</idno>
+                    </msIdentifier>
+                    <head>Verleihung eines Grundstücks in Leimbach durch die Zürcher Äbtissin an das
+                        Kloster St. Blasien</head>
+                    <msContents>
+                        <summary>Äbtissin Elisabeth von Zürich verleiht dem Kloster St. Blasien im
+                            Schwarzwald gegen einen jährlichen Zins von einem Pfennig ein Grundstück
+                            in Leimbach, das ihr Konrad Wisso, Kirchherr von Dinhard, und seine noch
+                            minderjährigen Geschwister Walpurga und Wisso mit Zustimmung ihres
+                            Vormunds Rudolf von Beggenhofen zu diesem Zweck übergeben haben. Konrad
+                            Wisso und seine Geschwister haben dafür von den Prokuratoren des Abtes
+                            von St. Blasien, Hugo von Mülimatten und Berchtold von Stampfenfach, 19
+                            Mark Silber erhalten. Als Hauptbürgen sollen Heinrich de Curia und
+                            Rudolf von Beggenhofen sicherstellen, dass die minderjährigen
+                            Geschwister Wisso und Walpurga ihre Verzichtserklärung erneuern, sobald
+                            sie volljährig werden. Nach etwas vergangener Zeit erklärt Adelheid, die
+                            Witwe des Ritters Konrad Wisso, mit Zustimmung ihres Vormunds Rudolf von
+                            Beggenhofen ihren Verzicht auf das Leibding an diesem Grundstück. Die
+                            Äbtissin und der Zürcher Rat siegeln.</summary>
+                        <msItem>
+                            <textLang>Latein</textLang>
+                            <filiation type="current">Orginal</filiation>
+                            <filiation type="original"><origDate from="1275-01-26" to="1275-04-09"
+                                /></filiation>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><material>Pergament</material></support>
+                                <extent><dimensions type="leaves">
+                                        <height unit="cm" quantity="29.0"/>
+                                        <width unit="cm" quantity="27.5"/>
+                                    </dimensions><dimensions type="plica">
+                                        <width unit="cm" quantity="2.5"/>
+                                    </dimensions></extent>
+                            </supportDesc>
+                        </objectDesc>
+                        <sealDesc>
+                            <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1"
+                                nontei:material="wax" nontei:shape="oval"
+                                nontei:attachment="sealed_on_a_cord" nontei:condition="damaged">
+                                <persName role="sigillant">Elisabeth von Wetzikon, Äbtissin des
+                                    Fraumünsters</persName>
+                            </seal>
+                            <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="2"
+                                nontei:attachment="sealed_on_a_cord" nontei:condition="absent">
+                                <persName role="sigillant">Stadt Zürich</persName>
+                            </seal>
+                        </sealDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origDate from="1275-01-26" to="1275-04-09"/></origin>
+                    </history>
+                    <additional>
+                        <listBibl>
+                            <head>Edition</head>
+                            <bibl><bibl><ref
+                                        target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html"
+                                        >UBZH</ref>, Bd. 4, Nr. 1580</bibl> (vgl. <bibl><ref
+                                        target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html"
+                                        >UBZH</ref>, Bd. 12, S. 340)</bibl></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>
+                    <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+                </p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc> </profileDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+                    <term ref="key000369">Kauf</term>
+                    <term ref="key000818">Leibgeding</term>
+                    <term ref="key000997">Vormundschaft</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <pb facs="C_II_6__Nr__995__r_.tif"/>
+                <p><persName ref="GND_140327096">Elizabeth</persName>, dei gratia abbatissa
+                    monasterii <placeName ref="LOC_Lat_Long">Thuricensis</placeName>, universis
+                    presentium inspectoribus noticiam subscriptorum. Propter memorie fragilitatem ex
+                    brevi hominum <lb/>vita et prepeti cursu temporum emergentem temporaliter gesta
+                    scripture testimonio perhennantur. Huius rei causa presenti scripto
+                    patefacimius, <persName>Chuͦnradum dictum Album</persName>, recto<lb break="no"
+                    />rem ecclesie in <placeName ref="LOC_Lat_Long">Thynart</placeName>, sua
+                    auctoritate, <persName>Walpurgim</persName>, sororem suam, et
+                        <persName>Wizzen</persName>, fratrem eorundem minores annis auctorante
+                        <persName>Ruͦdolfo de Beggenhoven</persName> mi<lb/>lite, tutore ipsorum
+                    pupillorum, predium, quod habebant in <placeName ref="LOC_Lat_Long"
+                        >Leinbach</placeName> ex successione paterna, liberum et absolutum in manus
+                    nostras ea lege tradidisse et resignasse, ut <lb/><persName>Hugoni de
+                        Mulimattun</persName>, canonico Thuricensi, et <persName>Bertholdo de
+                        Stamphibach</persName>, procuratoribus honorabilium in Christo <space
+                        unit="cm" quantity="1"/> abbatis et conventus <placeName
+                        ref="LOC_Lat_Long">Sancti Blasii Nigre Silve</placeName>, <lb/>sub annuo
+                    censu unius denarii concederemus, quod nos effectui mancipantes eisdem
+                    procuratoribus nomine et vice dictorum abbatis et conventus recipientibus ipsum
+                    predium <lb/>cum pascuis, pratis, aqueductibus et aliis juribus quibuslibet
+                    hereditario jure concessimus perpetualiter possidendum, pro quibus traditione,
+                    resignatione et concessione ipsi <lb/>procuratores ex parte abbatis solverunt
+                    decem et novem marcas argenti ponderis Thuricensis dictis rectori, fratri
+                    eiusdem et sorori, quas numeratas et solutas in usus suos <lb/>converterunt,
+                    exceptioni non numerate pecunie, deceptioni ultra dimidiam justi precii,
+                    beneficio restitutionis ratione minoris etatis vel alio quovis modo ipsis
+                    competenti cum <lb/>omni alio legis, canonis, consuetudinis, statuti, privilegii
+                    auxilio renunciantes, promittentes et astringentes se sub pena dupli ipsius
+                    precii de evictione teneri et in quo<lb break="no"/>libet expensis propriis
+                    defendere foro et judicio, super observatione premissorum corporaliter prestito
+                    sacramento. Obligarunt <supplied reason="ommitted">se</supplied> insuper et
+                    promiserunt principaliter <persName>Heinricus de Curia</persName>, <lb/><persName><choice>
+                            <abbr>Ruͦ</abbr>
+                            <expan>Ruͦdolfus</expan>
+                        </choice> de Beggenhoven</persName> milites, se facturos et curaturos, ut,
+                    postquam sepefati <persName>Wizze</persName> et <persName>Walpurgis</persName>
+                    ad etatem devenerint legitimam, renunciabunt seu potius renun<lb break="no"
+                    />ciationem et traditionem antedictam innovabunt in manus nostras, ut et nos
+                    concessionem sub modo et forma suprascriptis ad cautelam dumtaxat habundantem
+                    ratificemus et in<lb break="np"/>novemus, fidejussoribus super hoc datis
+                        <persName>Ruͤdegero Manez</persName>, <space unit="cm" quantity="1"/>
+                    <persName>Dietlen</persName>, <persName><choice>
+                            <abbr>Heinr</abbr>
+                            <expan>Heinrico</expan>
+                        </choice> Sculteto</persName>, <persName>Wilhelmo Bochlin</persName>
+                    militibus, qui unâ cum principalibus fide data se, si premissa per <lb/>pupillos
+                    factos majores neglecta fuerint, in obstagium juxta castri consuetudinem
+                        <placeName ref="LOC_Lat_Long">Thuricensis</placeName> recipient usque
+                    ad complementum premissorum. Et si alteruter principalium vel <lb/>aliquis
+                    fidejussorum medio tempore decesserint, infra mensem <choice>
+                        <sic>dictus</sic>
+                        <corr>dicti</corr>
+                    </choice>
+                    <persName>de Curia</persName> et <persName>de Beggenhoven</persName> vel alter
+                    eorum alium eque ydoneum substituent,alioquin omnes in obstagium <lb/>usque ad
+                    substitutionem alterius se sine calumpnia et fraude presentabunt. Acta sunt hec
+                        <origPlace ref="LOC_Lat_Long">Thuregi</origPlace>, in domo nostra
+                    claustrali, <origDate when="1275-01-26">anno domini mͦ ccͦ lxxͦ vͦ, vii [[kal]]
+                        Februarii, indictio<lb break="no"/>ne tercia</origDate>, presentibus
+                        <persName>Rinwino Marci</persName>o, canonico Thuricensi, <persName>Heinrico
+                        de Rosseberch</persName>, <persName>Heinrico de Basilea</persName>,
+                        <persName>Heinrico Manezzen</persName> magistris, canonicis Thuricensibus,
+                    magistro <persName>Heinrico</persName>, <lb/>rectore ecclesie in Tuͤbelndorf,
+                        <persName>Jacobo Molendinario</persName>, <persName>Uͦlrico de
+                        Schonowert</persName>, militibus, <persName>Heinrico dicto Wesin</persName>,
+                        <persName>Ottone de Mulimat</persName>, <persName>Philippo in
+                        Gassun</persName> et aliis multis <lb/>fide dignis.</p>
+                <p><lb/>Nos in evidentiam suprascriptorum et infrascriptorum nostrum sigillum, quo
+                    et conventus noster utitur, presentibus duximus apponendum.</p>
+                <p><lb/>Procedente tempore<note>Diese Stelle bezieht sich auf die Zeitspanne, die
+                        seit der Ausstellung durch die Äbtissin am <date when="1275-01-26">26.
+                            Januar 1275</date> bis zur Verzichtserkärung durch die Mutter von
+                            <persName>Konrad Wisso</persName> am <date when="1275-04-09">9. April
+                            1275</date> vergangen ist.</note>
+                    <persName>Adelheidis</persName>, uxor quondam <persName>Cuͦnradi militis dicti
+                        Wizzen</persName>, cui usufructus in prefato predio ab eodem milite fuerat
+                    constitutus, auctoritate et <lb/>consensu <persName><choice>
+                            <abbr>R</abbr>
+                            <expan>Ruͦdolfi</expan>
+                        </choice> de Beggenhove</persName>n militis, curatoris seu advocati sui
+                    legitimi, publice in manus antedictorum procuratorum ipsi usufructui renunciavit
+                    libere et expresse <lb/>prestito sacramento, ne contra ipsam renunciationem
+                    verbo vel facto faceret vel fieri a quovis procuraret. Acta sunt hec sub porta
+                    domus dictorum <persName>Wizzen</persName>, anno et <lb/>indictione prenotatis,
+                    v idus Aprilis, presentibus <persName>Johanne Dapifero</persName>, canonico
+                    Thuricensi, <persName>Heinrico de Rosseberch</persName>, <persName>Heinrico de
+                        Basilea</persName> magistris, canonicis Thuricensibus, <persName><choice>
+                            <abbr>Ruͤ</abbr>
+                            <expan>Ruͤdegero</expan>
+                        </choice> Manez</persName>, <lb/><persName><choice>
+                            <abbr>H</abbr>
+                            <expan>Heinrico</expan>
+                        </choice> de Curia</persName>, <persName><choice>
+                            <abbr>R</abbr>
+                            <expan>Ruͦdolfo</expan>
+                        </choice> Molendinario</persName>, <persName><choice>
+                            <abbr>Uͦl</abbr>
+                            <expan>Uͦlrico</expan>
+                        </choice> de Schonowert</persName> militibus, <persName>Johanne
+                        Luhs</persName>, <persName>Philippo in Gassun</persName>, <persName>Cuͦnrado
+                        Manez</persName>, <persName>Ottone de Mulimattun</persName>.</p>
+                <p><lb/>Nos consules Thuricenses, quorum nomina sunt hec: <persName>Johannes
+                        Manez</persName>, <persName><choice>
+                            <abbr>H</abbr>
+                            <expan>Heinricus</expan>
+                        </choice> de Curia</persName>, <persName><choice>
+                            <abbr>H</abbr>
+                            <expan>Heinricus</expan>
+                        </choice> Scultetus</persName>, <persName><choice>
+                            <abbr>Wil</abbr>
+                            <expan>Wilhelmus</expan>
+                        </choice> Bokli</persName>, <persName><choice>
+                            <abbr>H</abbr>
+                            <expan>Heinricus</expan>
+                        </choice> de Klotun</persName> milites, <persName>Waltherus de Sancto
+                        Petro</persName>, <persName>Johannes de <lb/>Basilea</persName>,
+                        <persName>Wernherus Marchwart</persName>, <persName>Johannes
+                        Pistor</persName>, <persName>Willo</persName>, <persName>Philippus in
+                        Gassun</persName>, <persName>Petrus Wolfleibsch</persName>, quia premissa
+                    vera cognovimus, presentibus sigillum civium Thuricensium appen<lb break="no"
+                    />dimus de rogatu contrahentium et consensu. </p>
+                <pb facs="C_II_6__Nr__995__v_.tif"/>
+            </div>
+        </body>
+        <back>
+            <div>
+                <p>Das Staatsarchiv des Kantons Zürich ediert diese Urkunde aufgrund der
+                    Ersterwähnung von <placeName ref="LOC_Lat_Long">Dinhard</placeName>, die
+                    sich 2025 zum 750. Mal jährt (<bibl>HLS, <ref
+                            target="https://hls-dhs-dss.ch/de/articles/000143">Dinhard</ref></bibl>;
+                        <bibl>Ortsnamen.ch, <ref
+                            target="https://search.ortsnamen.ch/de/record/802000216"
+                        >Dinhard</ref></bibl>). Die Urkunde behandelt die Verleihung eines
+                    Grundstücks in <placeName ref="LOC_Lat_Long">Leimbach</placeName>, enthält
+                    aber beiläufig auch die erste Erwähnung der Ortschaft <placeName
+                        ref="LOC_Lat_Long">Dinhard</placeName> (<orig>Thynart</orig>) im
+                    Zürcher Weinland. Während das verliehene Gut in unmittelbarer Nähe der Stadt
+                        <placeName ref="LOC_47.37721_8.52731">Zürich</placeName> lag und die handelnden
+                    Personen allesamt der stadtzürcherischen Oberschicht angehörten, wird der
+                    ursprüngliche Besitzer des betreffenden Grundstücks <persName>Konrad
+                        Wisso</persName> (lateinisch Albus), der ebenfalls einem alten ritteradligen
+                    Ratsgeschlecht der Stadt Zürich entstammte, als Kirchherr (<orig>rector
+                        ecclesie</orig>) von Dinhard bezeichnet. Diese Bezeichnung verwendete man im
+                    Gebiet der Nordostschweiz für den Inhaber der Pfarreirechte. Dies konnte ein
+                    Kleriker sein, der das Amt des örtlichen Priesters selber ausübte. Nicht selten
+                    handelte es sich aber um einen Laien, der mit der Pfarrpfründe belehnt war und
+                    den Gottesdienst durch einen Leutpriester als Vikar besorgen liess (<bibl><ref
+                            target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html"
+                            >Idiotikon</ref>, Bd. 2, Sp 1533</bibl>). Wie aus verschiedenen anderen
+                    Quellen hervorgeht, war der hier genannte <persName>Konrad Wisso</persName>
+                    tatsächlich selber ein Geistlicher, der indessen diverse weitere kirchliche
+                    Pfründen anhäufte und dafür 1307 von Papst <persName ref="GND_118723529">Clemens
+                        V.</persName> dispensiert wurde; demnach war er nicht nur Kirchherr in
+                        <placeName ref="LOC_Lat_Long">Dinhard</placeName>, sondern auch in
+                        <placeName ref="LOC_Lat_Long">Kirchdorf</placeName>, <placeName
+                        ref="LOC_Lat_Long">Egg</placeName>, <placeName
+                        ref="LOC_Lat_Long">Jonen</placeName>, <placeName
+                        ref="LOC_Lat_Long">Lausen</placeName> und <placeName
+                        ref="LOC_Lat_Long">Schneisingen</placeName> sowie Chorherr am
+                    Zürcher Grossmünster (<bibl><ref
+                            target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html"
+                            >UBZH</ref>, Bd. 8, Nr. 2894</bibl>). Er verstarb am 28. April 1322 als
+                    Propst des Stifts <placeName ref="LOC_Lat_Long">Zurzach</placeName>
+                            (<bibl><ref
+                            target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html"
+                            >UBZH</ref>, Bd. 4, S. 291, Anm. 1</bibl>).</p>
+                <p>Durch die Erwähnung des Kirchherrn ist zugleich die Existenz der Pfarrkirche von
+                    Dinhard zu diesem Zeitpunkt belegt. Da Dinhard damals Sitz eines Dekanats war,
+                    muss die dortige Kirche allerdings zeitlich einiges weiter zurückreichen, waren
+                    Dekanate doch normalerweise an alte Pfarreien gebunden (<bibl><ref
+                            target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html"
+                            >UBZH</ref>, Bd. 4, S. 291, Anm. 1</bibl>; <bibl><ref
+                            target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html"
+                            >Kläui 1973</ref>, S.
+                    9-16</bibl><!-- Kläui, Hans: Um die Anfänge und die älteste Geschichte der Kirche Dinhard, in: Verein der Freunde der Paul Kläui-Bibliothek Uster (Hg.): Wappen, Orte, Namen, Geschlechter. Festschrift zum 75. Geburtstag von Hans Kläui, Winterthur 1981, S. 321-327.-->).
+                    Dies wird durch den archäologischen Befund gestützt, wonach die ältesten in der
+                    Kirche Dinhard gefundenen Mauerreste wohl bis ins 8. Jahrhundert zurückreichen
+                            (<bibl><ref
+                            target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html"
+                            >Drack 1975</ref>, S.
+                    42-57</bibl><!-- Drack, Walter: Dinhard. Reformierte Kirche, in: Zürcher Denkmalpflege. 7. Bericht 1970-1974, 1. Teil, Zürich 1975, S. 42-57. -->).
+                    Das Dekanat wird ebenfalls im Jahr 1275 erstmals erwähnt (<orig>in decanatu
+                        Tinhart</orig>, <orig>decanus in Tinhart</orig>), und zwar in einer Liste
+                    der Zehntabgaben für den päpstlichen Kreuzzug, dem so genannten <orig>Liber
+                        decimationis</orig>. Demnach gehörten zum Dekanat Dinhard auch die
+                    Chorherrenstifte in <placeName ref="LOC_Lat_Long">Embrach</placeName>
+                    und auf dem <placeName ref="LOC_Lat_Long">Heiligberg</placeName> sowie
+                    die Kirchen in <placeName ref="LOC_Lat_Long">Dättlikon</placeName>,
+                        <placeName ref="LOC_Lat_Long">Berg am Irchel</placeName>, <placeName
+                        ref="LOC_Lat_Long">Seuzach</placeName>, <placeName
+                        ref="LOC_Lat_Long">Lufingen</placeName>, <placeName
+                        ref="LOC_Lat_Long">Andelfingen</placeName>, <placeName
+                        ref="LOC_Lat_Long">Veltheim</placeName>, <placeName
+                        ref="LOC_Lat_Long">Buch am Irchel</placeName>, <placeName
+                        ref="LOC_Lat_Long">Rorbas</placeName>, <placeName
+                        ref="LOC_Lat_Long">Winterthur</placeName>, <placeName
+                        ref="LOC_Lat_Long">Wülflingen</placeName>, <placeName
+                        ref="LOC_Lat_Long">Neftenbach</placeName> und <placeName
+                        ref="LOC_Lat_Long">Pfungen</placeName> (<bibl><ref
+                            target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html"
+                            >Person-Weber, Liber decimationis</ref>, S. 318, 328, 347-348, 373,
+                        401</bibl>; <bibl><ref
+                            target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html"
+                            >Urbare und Rödel Zürich</ref>, S. 78-80</bibl>).</p>
+                <p>Den Kirchensatz von Dinhard, also das Recht, den dortigen Pfarrer einzusetzen,
+                    besassen die Freiherren von Klingen, die ihn im 14. Jahrhundert an Winterthurer
+                    Bürger verliehen. 1427 kam er an das Chorherrenstift Embrach, 1524 an Zürich.
+                        (<bibl>HLS, <ref target=" https://hls-dhs-dss.ch/de/articles/000143"
+                            >Dinhard</ref></bibl>).</p>
+            </div>
+        </back>
+    </text>
+</TEI>

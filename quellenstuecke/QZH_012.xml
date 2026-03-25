@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css“?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0"
+ xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <respStmt>
+     <persName>Andrea Schmid-Kunz</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Michael Schaffner</persName>
+     <resp key="tagging"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <date type="electronic" when="2021-05-01"/>
+    <date type="print" when="2018-12-31"/>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Gelebte Reformation. Zürich 1500-1800</title>
+    <respStmt>
+     <persName>Francisca Loetz. Unter Mitarbeit von Wolfram Schneider-Lastin</persName>
+     <resp>Herausgeberschaft</resp>
+    </respStmt>
+    <idno>QZH_012</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier>
+      <idno>ZBZ Ms J 143</idno>
+     </msIdentifier>
+     <head>Brief von Heinrich Bullinger an Agatha Zoller</head>
+     <msContents>
+      <msItem>
+       <textLang>Deutsch</textLang>
+       <filiation type="current">Aufzeichnungen (Einzelblatt)</filiation>
+       <filiation type="original"><origDate when="1561-07-06"/></filiation>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <history>
+       <origin><origDate from="1608-01-01" to="1608-12-31">Datierung aufgrund des
+        Inhalts</origDate></origin>
+      </history>
+      <objectDesc>
+       <supportDesc>
+        <support><material>Papier</material></support>
+        <extent/>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin><origDate when="1561-07-06"/></origin>
+     </history>
+     <additional>
+      <listBibl>
+       <head>Transkription</head>
+       <bibl><ref target="https://www.bullinger-digital.ch/letter/4862">Bullinger Digital</ref>, Nr. 4862</bibl>
+      </listBibl>
+     </additional>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p>
+     <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+    </p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc> </profileDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term ref="key005398">Heiligenverehrung</term>
+     <term ref="key000670">Konfession</term>
+     <term ref="key000301">Pfarrer</term>
+    </keywords>
+   </textClass>
+   <particDesc default="false"/>
+   <settingDesc default="false"/>
+  </profileDesc>
+ </teiHeader>
+ <text>
+  <group>
+   <text>
+    <body>
+     <pb n="1"/>
+     <div>
+      <p><lb/>Ein schön bildtnuß der menschwerdung
+       <lb/>unsers herrn <persName ref="GND_118557513">Jesu Christi</persName> (uß der
+       <lb/>reinen jungkfrauen <persName ref="GND_118640909">Maria</persName>) und siner
+       <lb/>erlösung, mit dem er durch seinen
+       <lb/>todt uns von dem seligen todt erlößt,
+       <lb/>unser einiger erlöser und heiland ist,
+       <lb/><persName>Mathei</persName> 1. <abbr>cap.</abbr>
+       <lb/><persName ref="GND_118640909">Maria</persName> hat empfangen von dem heiligen geist, hat
+       <lb/>geboren einen sohn und den genennpt <persName ref="GND_118557513">Jesus</persName>,
+       <lb/>dann er macht sein volk selig und ledig von sinen
+       <lb/>sünden,
+       <lb/>1608.</p>
+       <head type="subtitle"><lb/>Vorred</head>
+      <p>
+       <lb/>An die edel und tugentryche jungfrau
+       <lb/><persName>Agatha Zollerin</persName>, sin liebe gefatter. 
+       <lb/>Die alten verstendigen habent vor vil jaren das gemäl wol und recht
+       <lb/>gebraucht, nit zur üppigkeit und unzucht oder hoffart zu pflantzen, auch nit aber<lb break="no"/>glauben 
+       und abgötterei zepflantzen und anzerichten, sunder allerlei tugenden, besunder ehrliche 
+       <lb/>thaten, unser heil und seligkeit anzubilden und fuüzutragen.
+       Habend es
+       <lb/><choice><abbr>halben</abbr><expan>derhalben</expan></choice> nit in die kilchen gestellt, sunder in ihren hüseren behalten, und
+       findt
+       <lb/>man noch vil schöner kunstlicher gemälen und bilderen, di vorzeiten nutzlich
+       <lb/>gedicht und gemacht worden sind, dererlei auch dz ein ist. Dann eüwere
+       <lb/>liebe schwöster <abbr>fr.</abbr> <persName>Verena Aescherin</persName>, selig, nit unlang vor irer vermechlung
+       <lb/>gar kunstlich und schön mit vil mhü und arbeit abgewürkt, und also ein
+       <lb/>kostlicher tafet gemacht hat, da ir etwan (noch bei leben üwer erenden fürge<lb break="no"/>liebten
+        <abbr>fr.</abbr> muter, welche zwaren aller zucht eer und tugent ein krön ge<pb break="no" n="2"/>wesen), 
+       von mir des gemäls ußlegung gehört, und darumb, als das
+       <lb/>thuch an eüch erbswyß gefallen, und ir das von wegen der schwöster
+       <lb/>selligen lieb und wehrt hieltend, an mich begärtend, das ich den verstand
+       <lb/>des gemäels gschrifftlich eüch zu eeren und gefallen ußlegen und
+       <lb/>begriffen wölle, welches ich gutwillig angenommen, und eüch zu lieb und
+       <lb/>eeren diese ußlegnung dises gewürkten tuchs bschriben hab, welche ich eüch
+       <lb/>hiemit zuschik, mit begär, dieselbig von mir in gutem ufzunemmen.
+       <lb/>Gott bewar eüch ewigklich. Datum <placeName ref="LOC_47.37721_8.52731">Zürich</placeName> <abbr>d.</abbr> <origDate when="1561-07-06">6. julii anno do<lb break="no"/>mini 
+        1561</origDate>. <persName ref="GND_118517384">Heinrich Bullinger</persName>.</p>
+      <head type="subtitle">Summa des tuchs.</head> 
+      <p>
+       <lb/>Dieses abgewürkt tuch ist ein bildner oder ein bildtnuß, 
+       <lb/>begrifft ein gantze summa der menschwerdung und erlösung unsers
+       <lb/>herren <persName ref="GND_118557513">Jesu Christi</persName>, wi er von einer jungfraun gebohren, uns arme
+       <lb/>sünder mit seinem tod und blut vergiessen von dem ewigen
+       <lb/>tod erlößt und unser aller einiger ewiger heiland worden syge
+       <lb/>und damit das recht verstanden werde, will ich ordelich von allen
+       <lb/>stucken bericht geben.<note>Hier bricht die Kopie ab.</note>
+      </p>
+     </div>
+    </body>
+    <back>
+     <div>
+      <p><persName ref="GND_118517384">Heinrich Bullinger</persName> zerstreut in seinem
+       Schreiben an <persName>Agatha Zoller</persName> deren Bedenken, der von ihrer Schwester 1554
+       hergestellte und von ihr ererbte Wirkteppich über die Verkündigung an <persName ref="GND_118640909">Maria</persName>
+       könne gegen das biblische Bilderverbot verstossen. Aus dem in einer
+       unvollständigen Kopie erhaltenen Schreiben wird <persName ref="GND_118517384">Bullingers</persName> klare Unterscheidung
+       zwischen <q>Götze</q> und Bild ersichtlich: Der Wandbehang sei kein Objekt falscher
+       Anbetung, sondern ein frommes Kunstwerk. Dass rund 25 Jahre nach den
+       reformatorischen Ereignissen ein Wirkteppich an das spätmittelalterliche
+       marianische Bildthema anknüpfte und <persName ref="GND_118517384">Bullinger</persName> daran keinen Anstoss nahm,
+       illustriert, dass in der frühen Reformationszeit <persName ref="GND_118640909">Maria</persName> in Form eines Kunstwerks
+       als Gottesmutter geehrt, aber nicht als <q>Götze</q> angebetet werden
+       konnte.
+      </p>
+     </div>
+    </back>
+   </text>
+  </group>
+ </text>
+</TEI>

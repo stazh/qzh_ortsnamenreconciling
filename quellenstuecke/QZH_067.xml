@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Quellen zur Zürcher Geschichte</title>
+                <respStmt>
+                    <persName>Walter Letsch</persName>
+                    <resp key="transcript"/>
+                </respStmt>
+                <respStmt>
+                    <persName>Denia Stettler</persName>
+                    <resp key="tagging"/>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Staatsarchiv des Kantons Zürich</publisher>
+                <date type="electronic" when="2024-10-10"/>
+                <date type="print" when="2024-10-10"/>
+            </publicationStmt>
+            <seriesStmt xml:id="ssrq-sds-fds">
+                <title>Quellen zur Zürcher Geschichte</title>
+                <respStmt>
+                    <persName>Staatsarchiv des Kantons Zürich</persName>
+                    <resp>Herausgeberschaft</resp>
+                </respStmt>
+                <idno>QZH_067</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=435585"
+                            >StAZH C IV 6.5, Nr. 51</idno>
+                    </msIdentifier>
+                    <head>Versetzung der Heimsteuer und Morgengabe von Elsbeth Keller auf eine Gült
+                        aus Bülach und ein Haus in Zürich</head>
+                    <msContents>
+                        <summary>Bürgermeister, Räte und Zunftmeister der Stadt Zürich beurkunden,
+                            dass ihr Mitbürger Rudolf Kiel die Heimsteuer seiner Frau Elsbeth Keller
+                            in der Höhe von 522 1/2 Pfund Zürcher Pfennig mit einer Gült von 20
+                            Gulden aus Bülach und die Morgengabe in der Höhe von 100 Gulden mit
+                            seinem Haus im Markt genannt zur Meisen versichert hat. Ausserdem
+                            vermacht Kiel seiner Frau nach dem neuen Gesetz, vorbehalten die
+                            Ansprüche seiner Gläubiger und der Stadt, sein Haus und Hof sowie die
+                            Trotte und ungefähr 3 Juchart Reben mit einem Baumgarten in Honrain als
+                            Leibding. Nach ihrem Tod fällt die Liegenschaft an die rechtmässigen
+                            Erben. Stadtsiegel fehlt.</summary>
+                        <msItem>
+                            <textLang>Deutsch</textLang>
+                            <filiation type="current">Orginal</filiation>
+                            <filiation type="original"><origDate when="1444-08-20"/></filiation>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><material>Pergament</material></support>
+                                <extent><dimensions type="leaves">
+                                        <height unit="cm" quantity="20"/>
+                                        <width unit="cm" quantity="31"/>
+                                    </dimensions><dimensions type="plica">
+                                        <width unit="cm" quantity="2.5"/>
+                                    </dimensions></extent>
+                            </supportDesc>
+                        </objectDesc>
+                        <sealDesc>
+                            <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1"
+                                nontei:condition="absent">
+                                <persName role="sigillant">Stadt Zürich</persName>
+                            </seal>
+                        </sealDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origDate when="1444-08-20"/><origPlace>Bülach</origPlace></origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>
+                    <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+                </p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc> </profileDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+                    <term ref="key003398">Aussteuer</term>
+                    <term ref="key005098">Eherecht</term>
+                    <term ref="key000597">Erbrecht</term>
+                    <term ref="key000818">Leibgeding</term>
+                    <term ref="key000112">Morgengabe</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <pb facs="C_IV_6_5__Nr__51__r_.tif"/>
+                <p>Wir, der burgermeister, der naͧchgeschriben raͧtt und die zunftmeister gemeinlich
+                    der statt <placeName ref="LOC_Lat_Long">Zu̍rich</placeName>, tuͦnd kunt
+                    menglichen <lb/>mit disem brieff, das für uns kam <persName>Ruͦdolff
+                        Kiel</persName>, unser burger, offnet und verjach, wie das er in sinem
+                    gewalt hett fu̍nff hundert <lb/>zwentzig und dritthalb pfund Zu̍richer pfening,
+                    die froͧw <persName>Elßbethan Kellerin</persName>, siner elichen wirtin, recht
+                    eigen werind, als sy im die <lb/>in heinstu̍r wis an barem gelt zuͦ bracht hett,
+                    und hundert guͦt Rinsch guldin, die er iro des ersten morgens, als sy in einer
+                        brutt<lb break="no"/>wise von im uffstuͦnd, zuͦ rechter fryer morgengab
+                    geben hat. Die obgenanten fünff hundert zwentzig und dritthalb pfund heinstüre
+                    <lb/>und hundert guldin morgengab alle in sinem gewalt laͧgind und liggen
+                    soͤltint in aller der wiß und maͧß, als ob sy laͧgint an eigen <lb/>und erb nach
+                    unser statt <placeName ref="LOC_Lat_Long">Zu̍rich</placeName> recht. Und
+                    also satzt er iro die obgenanten fünff hundert zwentzig und dritthalb pfund
+                    pfening <lb/>und hundert guldin, ir morgengab, namlich die jetzgeseiten summe
+                    heinstür uff sin zwentzig guldin geltz, so er hat zuͦ <placeName
+                        ref="LOC_Lat_Long">Bu̍llach</placeName>, die <lb/>sin eigen guͦt
+                    sind, und die hundert guldin morgengab uff sin hus und hofstatt in unser meren
+                    statt im markt gelegen, genant <lb/>zuͦ der Meisen, mit aller zuͦgehoͤrt. Also
+                    und mit dem underscheid, das die egenante froͧw <persName>Elßbetha</persName>,
+                    sin eliche wirtin, und ir erben <lb/>namlich die obgenanten fünffhundert
+                    zwentzig und dritthalb pfund heinstür uff den zwentzig guldin geltz zuͦ
+                        <placeName ref="LOC_Lat_Long">Bu̍llach</placeName> und <lb/>die
+                    hundert guldin morgengab uff dem hus zur Meisen nutzen, bruchen und niessen
+                    soͤllent und moͤgent, alle die wile und sy dero anderswa an eigen oder erb ald
+                    suss in ander weg nit usgericht noch usgewist sind, daran sy denn habend syend
+                        unge<lb break="no"/>farlich, <choice>
+                        <abbr><unclear>ffu̍ro</unclear></abbr>
+                        <expan>hinfu̍ro</expan>
+                    </choice> ordnot und macht der obgenant <persName>Ruͦdolff Kiel</persName> nach
+                    unser statt nu̍wen gesetzt, sinen gelten und unser statt <lb/>recht unschedlich,
+                    der obgenanten froͧw <persName>Elßbethan</persName>, siner elichen wirtin, sin
+                    hus, hofstatt, trott und dry juchart reben, minder <lb/>oder mer ungevarlich,
+                    zuͦ <placeName ref="LOC_Lat_Long">Honren</placeName> gelegen, mit
+                    boͧmgarten, usgelend und aller zuͦgehoͤrde zuͦ einem rechten lipding. Also
+                    <lb/>und mit dem geding, ist, das er vor ir von tods wegen abgaͧt, wer inn denn
+                    erben oder dehein guͦt von im zu̍chen wil über <lb/>das, so sinen gelten
+                    vergulten wirt und unser statt recht genuͦg beschicht, der sol der obgenanten
+                    siner elichen wirtin das <lb/>vorgenante hus, hofstatt, trotten und dry juchart
+                    reben zuͦ <placeName ref="LOC_Lat_Long">Honren</placeName> gelegen, mit
+                    boͧmgarten, usgelend und aller zuͦgehoͤrt <lb/>gütlich volgen und werden
+                    laͧssen. Das alles sol und mag sy denn in lipsdings wise untz zuͦ end ir leptag
+                    nutzen, bruchen und <lb/>niessen. Und wenn sy von diser zit ist gescheiden, so
+                    sol das egenante hus, hofstatt, trotten und dry juchart reben zuͦ <placeName
+                        ref="LOC_Lat_Long">Honren</placeName>
+                    <lb/>gelegen, mit boͧmgarten, usgelend und aller zuͦgehoͤrt gentzlich widerumb
+                    vallen an ir obgenanten mans rechten erben, aͧn <lb/>mengklichs sumen, irrung
+                    und widerrede, alles ungevarlich. Und zuͦ warem, vestem urkund aller
+                    vorgeschribner ding, <lb/>wan wir dis gesechen und gehoͤrt und unsern gunst und
+                    willen darzuͦ geben hand, so habend wir unser statt insigel offenlich
+                    <lb/>laͧssen henken an disen brieff, der geben ist uff den <origDate
+                        when="1444-08-20">zwentzigosten tag des manodes ougsten, do man von der
+                        geburt Cristy zalt <lb/>viertzechenhundert viertzig und vier
+                    jare</origDate>. Unser, des rattes, namen sind her <persName>Johanns
+                        Swend</persName>, her <persName>Goͤtz Escher</persName>, rittere
+                        <lb/><persName>Johans Wüst</persName>, <persName ref="GND_143657062">Johans
+                        Keller</persName>, <persName>Johans Grebel</persName>, <persName>Ruͤdger
+                        Stuͦdler</persName>, <persName>Niclaus Brenwald</persName>,
+                        <persName>Cuͦnrat von Chaͧm</persName>, <persName>Jacob Bachs</persName>,
+                        <persName>Johans <lb/>Vink</persName>, <persName>Johans Amptz</persName> und
+                        <persName>Pentelly Hagnoͧwer</persName>. Der zunftmeister namen sind
+                        <persName>Heinrich Gumpost</persName>, <persName>Johans Stu̍ssy</persName>,
+                        <persName>Beringer Habyssen</persName>, <lb/><persName>Heinrich
+                        Wettiswiler</persName>, <persName>Wernher Kambly</persName>,
+                        <persName>Uͦlrich Reig</persName>, <persName>Johans Dietschi</persName>,
+                        <persName>Johans Binder</persName>, <persName>Uͦlrich Fry</persName>,
+                        <persName>Johans Wirtz</persName>, <persName>Johans <lb/>Ellend</persName>
+                    und <persName>Cuͦnrat Akly</persName>
+                    <abbr>etc</abbr>.<note>Obwohl zu diesem Zeitpunkt eigentlich schon der
+                        Baptistalrat im Amt war, sind hier die Namen der Vertreter des Natalrats
+                        aufgeführt.</note></p>
+                <ab type="plica">Presentibus <lb/>her <persName><choice>
+                            <abbr>Jo</abbr>
+                            <expan>Johans</expan>
+                        </choice> Swend</persName>
+                    <lb/>her <persName>Goͤtz Escher</persName>.</ab>
+                <pb facs="C_IV_6_5__Nr__51__v_.tif"/>
+                <ab type="dorsal" hand="laterHand">Froͧw <persName>Elßbeta Kellerin</persName>,
+                        <lb/><persName>Ruͦdolff Kiels</persName> wib</ab>
+                <ab type="dorsal" hand="laterHand">Satzungbrieff umb v <hi rend="sup">c</hi> xxiij ℔
+                    <lb/>uff die zwentzig guldin zuͦ <placeName ref="LOC_Lat_Long"
+                        >Bu̍lach</placeName>, anno <abbr>etc</abbr> xliiij</ab>
+                <ab type="dorsal" hand="laterHand">Versicherung <persName>Rudolff Kielen</persName>
+                    frauwen um ihr zugebracht <lb/> guth, <origDate when="1444">1444</origDate></ab>
+            </div>
+        </body>
+        <back>
+            <div>
+                <p>Im Rahmen von Eheschliessungen wurden im Mittelalter verschiedene
+                    Gütertransaktionen getätigt, die insbesondere der langfristigen finanziellen
+                    Absicherung von Frauen dienten. Zu den unterschiedlichen Funktionsweisen solcher
+                    Heimsteuern, Morgengaben und Widerlegungen vgl. den Kommentar zu <ref
+                        target="https://qzh.sources-online.org/exist/apps/qzh/quellenstuecke/QZH_063"
+                        >QZH, Nr. 63</ref>, für weitere Fälle auch <ref
+                        target="https://qzh.sources-online.org/exist/apps/qzh/quellenstuecke/QZH_064"
+                        >QZH, Nr. 64</ref> (1357), <ref
+                        target="https://qzh.sources-online.org/exist/apps/qzh/quellenstuecke/QZH_065"
+                        > QZH, Nr. 65</ref> (1360) und <ref
+                        target="https://qzh.sources-online.org/exist/apps/qzh/quellenstuecke/QZH_066"
+                        > QZH, Nr. 66</ref> (1430).</p>
+            </div>
+        </back>
+    </text>
+</TEI>

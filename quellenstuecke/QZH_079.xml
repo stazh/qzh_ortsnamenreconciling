@@ -1,0 +1,742 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='../../Ressourcen/Stylesheet.xsl'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Quellen zur Zürcher Geschichte</title>
+				<respStmt>
+					<persName>Helena Dobiess. Mit einem Kommentar von Helena Dobiess und Michael
+						Schaffner</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Helena Dobiess und Michael Schaffner</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Staatsarchiv des Kantons Zürich</publisher>
+				<date type="electronic" when="2021-05-01"/>
+			</publicationStmt>
+			<seriesStmt>
+				<title>Quellen zur Zürcher Geschichte</title>
+				<respStmt>
+					<persName>Staatsarchiv des Kantons Zürich</persName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>QZH_079</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=434341"
+							>STaZH A 97.2, Nr. 1</idno>
+					</msIdentifier>
+					<head>Offnung von Binzikon</head>
+					<msContents>
+						<summary>Die Offnung des Gerichtsorts (Dingstatt) Binzikon wird mit Wissen
+							und Willen von Bürgermeister und Rat der Stadt Zürich sowie der
+							Hausgenossen von Binzikon erneuert. Die Bestimmungen betreffen im
+							Einzelnen die Abhaltung des freien Gerichts in Binzikon zweimal jährlich
+							im Mai und im Herbst durch den Herrn von Gruͤningen, die Abhaltung des
+							Gerichts in Bertschikon in jedem dritten Jahr, die Durchführung eines
+							Nachgerichts in Gruͤningen auf der Letzi, die Zugehörigkeit der Dörfer
+							Binzikon, Egg (Freienegg), Gossau, Bertschikon, Ottikon, Wernetshausen
+							und Itzikon zum Gerichtsbezirk, die Verlesung der Offnung an der
+							Gerichtsversammlung und die Verpflichtung der Hausgenossen zur
+							Anwesenheit (1-3), die Urteilssprechung (4-7), das Güterrecht von
+							Einheimischen und Auswärtigen (8-15), das Erbrecht, Eherecht und
+							Ehegüterrecht, einschliesslich Erwähnung der Ehegenossame mit den
+							Klöstern Einsiedeln, St. Gallen, Reichenau, Pfäfers, Schänis und den
+							Stiften Grossmünster Zürich und Säckingen sowie Einzug von Fall und Lass
+							durch den Herrn von Gruͤningen (16-35; 38-45). Des Weiteren enthält die
+							Offnung Bestimmungen zum Strafrecht und der Ahndung von Gewaltdelikten
+							(37-38) sowie einen Bussenkatalog (46-52). </summary>
+						<msItem>
+							<textLang>Deutsch</textLang>
+							<filiation type="current">Entwurf, Heft (6 Blätter)</filiation>
+							<filiation type="original"><origDate when="1435-06-01"/></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support><material>Papier</material></support>
+								<extent/>
+							</supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin><origDate when="1435-06-01"/></origin>
+					</history>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<editorialDecl>
+				<p>
+					<ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+				</p>
+			</editorialDecl>
+		</encodingDesc>
+		<profileDesc> </profileDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term ref="key000012">Offnung</term>
+					<term ref="key000335">Nutzungsrecht</term>
+					<term ref="key000497">Mündlichkeit</term>
+					<term ref="key000471">Schriftlichkeit</term>
+					<term ref="key000112">Morgengabe</term>
+					<term ref="key000010">Kloster</term>
+					<term ref="key000057">Gericht</term>
+					<term ref="key000597">Erbrecht</term>
+					<term ref="key000468">Rechtsgewohnheit</term>
+					<term ref="key000863">Ehe</term>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="1" facs="A_97_2__Nr__1__S__1_.tif"/>
+						<!-- kollationiert msr, 05.11.2024 / 21.01.2025 -->
+
+						<p><choice>
+								<abbr>Jhs Xrs</abbr>
+								<expan><persName ref="GND_118557513">Jesus
+									Christus</persName></expan>
+							</choice>
+							<persName ref="GND_118640909">Maria</persName></p>
+						<p><seg n="1">
+								<lb/>Hie nachgeschriben findet man die fryheit und dz recht der
+									dingst<damage agent="hole"><supplied resp="dob"
+									>att</supplied></damage>
+								<lb/>ze <placeName ref="LOC_47.27632_8.75851">Bintzikon</placeName>
+								und der husgenoßen, so in die selben dingstatt gehoͤre<damage
+									agent="hole"><supplied resp="dob">n</supplied></damage>
+								<lb/>und ist diser rodel ernuwert und gemacht mit <subst>
+									<del>gunst</del>
+									<add place="inline">wissen</add>
+								</subst>
+								<lb/>und willen unser gnedigen heren, des burgermeisters und raͤten
+								der <lb/>statt <placeName ref="LOC_47.36667_8.55"
+								>Zurich</placeName>, ouch gemeinen husgenossen, so in die dingstatt
+									z<damage agent="hole"><supplied resp="dob">e</supplied></damage>
+								<lb/><placeName ref="LOC_47.27632_8.75851">Bintzikon</placeName>
+								gehoͤrent. Uff den <origDate when="1435-06-01">xxx tag meyen, dz was
+									die nec<damage agent="hole"><supplied resp="dob"
+										>hst</supplied></damage>
+									<lb/>mitwuch vor dem heilgen pfingstag, do man zalt von d<damage
+										agent="hole"><supplied resp="dob">er</supplied></damage>
+									<lb/>geburt vierzechenhundert drissig und im fu̍ften
+									jar.</origDate></seg>
+						</p>
+						<p>
+							<seg n="2"><lb/>Des ersten ist ze wissen, dz in dem dorff ze <placeName
+									ref="LOC_47.27632_8.75851">Bintzikon</placeName>
+								<lb/>ein frye dingstatt ist, und sol ein herr, der <placeName
+									ref="LOC_47.28333_8.75">Gruͤningen</placeName>
+								<lb/><subst>
+									<del>von</del>
+									<add place="above">zu</add>
+								</subst> unser herren von <placeName ref="LOC_47.36667_8.55"
+									>Zürich</placeName> handen inn hat, zwurent im <lb/>jar daselbs
+								richten ze meyen und ze herbst und sullt <lb/>die gericht am dritten
+								jar ze <placeName ref="LOC_47.32023_8.75775">Bertschikon</placeName>
+								sin in aller wise und <lb/>masse als ze <placeName
+									ref="LOC_47.27632_8.75851">Bintzikon</placeName>, und sol der
+								gerichten jetweders <lb/>sin nach tag haben ze <placeName
+									ref="LOC_47.28333_8.75">Gruͤningen</placeName> uff der letzy und
+								sol <lb/>man sy verkunden ab <num value="14">xiiij</num> tagen und
+								under <num value="3">dry</num> wuchen <lb/>ze hus, ze hof ald under
+								ougen. Und in die selben gericht <lb/>gehoͤrent dise nachgeschribnen
+									<num value="7">siben</num> doͤrffer: <placeName
+									ref="LOC_47.27632_8.75851">Bintzikon</placeName>,
+									<lb/><placeName ref="LOC_47.29762_8.69432">Fryenegg</placeName>,
+									<placeName ref="LOC_47.3051_8.75831">Gossoͧw</placeName>,
+									<placeName ref="LOC_47.32023_8.75775">Bertschikon</placeName>,
+									<placeName ref="LOC_47.2946_8.78194">Opptikon</placeName>,
+									<placeName ref="LOC_47.28125_8.77341">Intzikon</placeName>
+								<lb/>und <placeName ref="LOC_47.29914_8.86462"
+									>Wernoltzhusen</placeName>. </seg></p>
+						<p>
+							<seg n="3"><lb/>Und wer da innrent etters hat <num value="7">siben</num>
+								schuͦch wit <lb/>fu̍rsich oder hindersich, der sol by der offnung
+								sin vor <lb/>dem herren, der <placeName ref="LOC_47.28333_8.75"
+									>Gruͤningen</placeName> innhat oder vor sinem <lb/>richter, so
+								man da gericht hat. Kumpt er aber nit <lb/>zuͦ der offnung, so ist
+								er verfallen dem vogt <num value="3">iij</num>  <add place="above"
+										><abbr>dn</abbr></add>. Er <lb/>kome dann zuͦ dem nachtag
+								und muge usziechen <lb/>ehaft not, die inn gesumpt hab, so sol er
+								der <lb/><num value="3">iij</num>  <abbr>dn</abbr> ledig sin ze
+								geben. <add place="above">Und</add> ist er darumb gepfendet, <lb/>so
+								sol man im sine pfand wider geben, ob er die ehaft <lb/>not zuͦ dem
+								nachtag erzellen mag, die inn gesumpt <lb/>hat, als vorstat.
+							</seg></p>
+						<pb n="2" facs="A_97_2__Nr__1__S__2_.tif"/>
+						<p>
+							<seg n="4"><lb/>Und wenn die offnung furkumpt und man umb die guͤter
+								<lb/>richten sol, so mugent die husgenoss einen fryen dar setzen
+								<lb/>ze richten, oder sy mugend einen vogt laßen richten, weders
+								<lb/>sy wellent, in aller wise und masse, als ob ein fryer da
+								saͤsse. </seg></p>
+						<p>
+							<seg n="5"><lb/>Es sol ouch ein vogt by dem fryen sitzen ze gericht und
+								<lb/>wenn es an ein buͦss gat, so sol der vogt den richtstab in die
+								<lb/>hand nemen und darumb richten. </seg></p>
+						<p>
+							<seg n="6"><lb/>Es ensol ouch umb die selben fryen guͦt nieman erteillen
+								<lb/>nach ufheben, denn der, der selben güter hat innrent
+								<lb/>etters <num value="7">vij</num> schuͦch wit fur̍sich oder
+								hindersich ald aber ein <lb/>rechten fry. </seg></p>
+						<p>
+							<seg n="7"><lb/>Bescheche es ouch, dz umb die selben guͤter urteilen
+								<lb/>stoͤssig wurden, die sol der merer teil schidigen und <lb/>nit
+								der her ze <placeName ref="LOC_47.28333_8.75"
+								>Gruͤningen</placeName>.</seg></p>
+						<p>
+							<seg n="8"><lb/>Were ouch, dz einer die selben guͤter ze <placeName
+									ref="LOC_47.27632_8.75851">Bintzikon</placeName> anspreche
+								<lb/>und darumb urteilen stoͤssig wurden, die sullent gan <lb/>gen
+									<placeName ref="LOC_47.28333_8.75">Gruͤningen</placeName> uff
+								die letzy an den nach tag, und <lb/>weder teil vor ze <placeName
+									ref="LOC_47.27632_8.75851">Bintzikon</placeName> dz merer behept
+								hat, behept <lb/>ouch der dz merer <subst>
+									<del>im</del>
+									<add place="above">am</add>
+								</subst> nach tag, so sol im sin sach gefallen <lb/>sin. Ist aber,
+								dz er ze <placeName ref="LOC_47.27632_8.75851">Bintzikon</placeName>
+								dz merer behept und zuͦ <lb/>dem nachtag dz minder, so hat es sich
+								gemischet, <lb/>so sol es gan darnach in den nechsten dingtag
+								<lb/>und weder teil denn dz merer behept, dem sol sin <lb/>sach
+								gentzlich gefallen sin.</seg></p>
+						<pb n="3" facs="A_97_2__Nr__1__S__3_.tif"/>
+						<p>
+							<seg n="9"><lb/>Fuͤgte sich ouch, dz einer dem andern sin ligend guͦt
+								anspreche und <lb/>er im dz nit anbeheben moͤcht, der ald die
+								sullent dz bessren <lb/>und ablegen dem herren ze <placeName
+									ref="LOC_47.28333_8.75">Gruͤningen</placeName> mit <num
+									value="6">sechs</num> pfund <abbr>dn</abbr> und <lb/>dem kleger
+								mit <num value="3">dry</num>  <abbr>dn</abbr>.</seg></p>
+						<p>
+							<seg n="10"><lb/>Ist ouch, dz ein gast her in kunt, der nit der fryen
+								guͤter hat und <lb/>er einem andren sine ligende guͤter anspricht,
+								der sol geben <lb/>einem vogt ze <placeName ref="LOC_47.28333_8.75"
+									>Gruͤningen</placeName>
+								<num value="5">v</num>  und <num value="4">iiij</num>
+								<abbr>dn</abbr> und sol dem widersachen <lb/>trostung geben, ob er
+								des rechten von im bedarff, dz er dz hievon <lb/>im neme und hie
+								laͧsse. Tuͦt dz der gast, so sol man im als forderlich <lb/>und wol
+								richten, als einen husgenoßen. Und mag der gast nit <lb/>trostung
+								haben, so sol er einen gelerten eid swerren, ob sin der <lb/>innder
+								nit enbern wil, ob er des rechten von im bedurffe, dz <add
+									place="above">im</add> dz <lb/>der usser hie lasse und genuͦg
+								tuͤge. Und ist, dz der usser icht buͦssvellig <lb/>wirt, darumb mag
+								im der her ze <placeName ref="LOC_47.28333_8.75"
+									>Gruͤningen</placeName> heften und besorgen, <lb/>dz im umb die
+								buͦss und dem kleger umb sin ansprach genuͦg <lb/>bescheche, ob er
+								mit gericht und urteil och vellig wirt. <lb/>Tuͦt der usser das
+								nicht, so sol man im nit richten und sol <lb/>von hinnan gan
+								ungericht und sol nit klagen, dz er rechtlos <lb/>gelassen
+									<del>haben</del> sye.</seg></p>
+						<p>
+							<seg n="11"><lb/>Were auch, dz einer ein guͦt <num value="3">dru̍</num>
+								jare vor einem, der in lantz ist, unan<lb break="no"/>sprechig hat
+								und <num value="9">nu̍n</num> jar vor einem, der ussrent lantz ist,
+								behept, <lb/>dz es im vor gericht nit angesprochen wirt, den sol ein
+								herr ze <lb/><placeName ref="LOC_47.28333_8.75"
+									>Gruͤningen</placeName> und ein gewer da by halten und schirmen,
+								wie <lb/>oder weles wegs im dz guͦt ankomen ist.</seg></p>
+						<pb n="4" facs="A_97_2__Nr__1__S__4_.tif"/>
+						<p>
+							<seg n="12"><lb/>Ist ouch, dz sich der guͤter eines oder mer hinus
+								vergat, mag da ein <lb/>inndra so vil guͦtz haben, als der erst koͤf
+								beschehen ist, und git <lb/>darzuͦ ein bescheidnen winkoͤff, so sol
+								und mag er dz vergangen <lb/>guͦt umb so vil geltz herwider
+								inziechen mit dem rechten, nach <lb/>dem koͤff in den nechsten <num
+									value="3">dry</num> jaren und nit lenger. Und wer, dz <lb/>der
+								usser dz gelt von dem inndren in dem zit nit nemen woͤlt, <lb/>so
+								sol er dz gelt in ein tuͤchly winden und <num value="2">zwen</num>
+								erber man zuͦ im <lb/>nemen, die des gezu̍gen syen. Und sol dem
+								ussren dz gelt ze der <lb/>hussellen inwerffen, und dz sol als guͦt
+								kraft haben, dz den <lb/>inndren nieman davon stossen sol, weder
+								erben noch geteilit, und <lb/>sol inn da by schirmen und halten ein
+								herr ze <placeName ref="LOC_47.28333_8.75">Gruͤningen</placeName>
+								und <lb/>dz gericht.</seg></p>
+						<p>
+							<seg n="13"><lb/>Wer ouch, dz einer oder mer ir ligend guͦt verkoͤffen
+								woͤlten oder muͤsten, <lb/>als vil und dik sy verkoͤffent, so
+								su̍llent sy dem herren ze <placeName ref="LOC_47.28333_8.75"
+									>Gruͤningen</placeName>
+								<lb/>kein dritten <abbr>dn</abbr> davon nit geben, aber zuchent sy
+								hinus <lb/>hinder einen eigenen herren oder in ein richstatt mit
+								demselben <lb/>gelt, so sullent sy dem herren ze <placeName
+									ref="LOC_47.28333_8.75">Gruͤningen</placeName>
+								<subst>
+									<del>kein</del>
+									<add place="above">den</add>
+								</subst> dritten <abbr>dn</abbr>
+								<lb/>hie lassen. Ist aber, dz er es isset hinder dem heren ze
+									<placeName ref="LOC_47.28333_8.75">Gruͤningen</placeName>,
+								<lb/>ald <add place="above">ob er</add> in der selben graffschaft
+								hinder einem zun ligen muͤste und <lb/>ander herberg nit hette, so
+								sol er aber kein dritten <abbr>dn</abbr> geben.</seg></p>
+						<p><del>Kaͤme es ouch, dz e</del></p>
+						<p>
+							<seg n="14"><lb/>Doch ist hierinn ouch ussgelaßen, welicher uss der <choice>
+									<abbr>obgeß</abbr>
+									<expan>obgeßagten</expan>
+								</choice> dingstatt <lb/>her hinder unßer heren von <placeName
+									ref="LOC_47.36667_8.55">Zu̍rich</placeName> in ir statt oder in
+								iro gericht <lb/>an den <placeName ref="LOC_47.23129_8.70336"
+									>Zu̍richse</placeName> zuge und untz an sin tod hinder inen
+								<lb/>belibe, der <add place="above">selb</add> sol kein dritten
+									<abbr>dn</abbr> geben. Welicher aber uff ufsatz <lb/>ein zit
+								hinder unßer herren von <placeName ref="LOC_47.36667_8.55">Zu̍rich</placeName> ziechen woͤlt
+								und dann wider <lb/>von inen, umb dz er des dritten <abbr>dn</abbr>
+								ledig wurde, der <lb/>sol aber dann von dem guͦt allem, so er ußer
+								der dingstatt <lb/>gezogen hette, als vorstat, den dritten
+									<abbr>dn</abbr> geben. Es were <lb/>dann, dz er wider in die
+								dingstatt zuge, dz er ouch wol <lb/>tuͦn moͤcht, so ist er aber <add
+									place="above">ledig</add> des dritten <abbr>dn</abbr> ze geben
+									<del>ledig</del>. <lb/>Herin ist aber namlich usbedinget, ob
+								einer guͤter verkoͤfte, <lb/>die frye guͤter oder mannlechen weren,
+								davon ist er nit <lb/>gebunden kein dritten <abbr>dn</abbr> ze geben
+								dem herren, er zieche joch <lb/>mit dem gelt, war er welle. Doch sol
+								dz der herschaft <lb/><placeName ref="LOC_47.28333_8.75"
+									>Gruͤningen</placeName> an allen andren iren fryheiten, rechten,
+								gnaden und <lb/>guten gewonheiten, als die von alter herkomen ist,
+								gantz unschedlich sin.</seg></p>
+						<pb n="5" facs="A_97_2__Nr__1__S__5_.tif"/>
+						<p>
+							<seg n="15"><lb/>Were ouch, dz einer oder mer sin ligend guͦt verkoͤffen
+								woͤlt, es sye eige<damage agent="hole"><supplied resp="msr"
+										>n</supplied></damage>
+								<lb/>erb oder lechen, dz sol er des ersten feil bieten den nechsten
+									get<damage agent="hole"><supplied resp="msr"
+									>eiliten</supplied></damage>, <lb/>wellent es die nit koͤffen,
+								so mag er dz guͦt dar nach verkoͤffen <lb/>und feil bieten, wem er
+								wil.</seg></p>
+						<p>
+							<seg n="16"><lb/>Es ist ouch ze wissen, dz wir genoßen sint unsere kind
+								ze geben <lb/>und ze nemen zuͦ dis nachgeschribnen <num value="7"
+									>siben</num> gotz hu̍sern: <lb/>Des ersten zuͦ unßer lieben
+								froͧwen gen <placeName ref="LOC_47.12693_8.75345"
+									>Einsideln</placeName>, gen <del><add place="above"><placeName
+											ref="LOC_47.36667_8.55">Zürich</placeName> ze sant
+										Reglen, gen</add></del>
+								<placeName ref="LOC_47.42328_9.37741">Sant <lb/>Gallen</placeName>,
+								in die <placeName ref="LOC_47.69336_9.0675">Richenoͧw</placeName>,
+								gen <add place="above">
+									<placeName ref="LOC_47.36667_8.55">Zu̍rich</placeName> ze
+										<placeName ref="LOC_47.3702_8.54">Sant
+									Regulen</placeName>,</add> gen <placeName
+									ref="LOC_46.99019_9.50201">Pfaͤfers</placeName>, gen <placeName
+									ref="LOC_47.15973_9.04546">Schennis</placeName> und gen
+									<lb/><placeName ref="LOC_47.5539_7.9343">Sekingen</placeName>,
+								und sol uns dz kein herr ze <placeName ref="LOC_47.28333_8.75"
+									>Gruͤningen</placeName> nit werren <lb/>noch vorsin.</seg></p>
+						<p>
+							<seg n="17"><lb/>Und ist, dz ein froͧw in die genossamy hinus kunt, dero
+								lib noch <lb/>guͦt hat ein her ze <placeName ref="LOC_47.28333_8.75"
+									>Gruͤningen</placeName> nit fu̍ro nachzefragen. Ist <lb/>ouch,
+								dz ein froͧw her in dis dingstatt kunt, dero lib noch guͦt <lb/>sol
+								nieman nachfragen.</seg></p>
+						<p>
+							<seg n="18"><lb/>Were ouch, dz ein man oder me von todes wegen abgienge,
+								der <lb/>zuͦ den vorgeschribnen gotzu̍sern genos ist, der sol einem
+								herren <lb/>ze <placeName ref="LOC_47.28333_8.75"
+									>Gruͤningen</placeName> dz best lebend hoͧpt ze fal geben, wo er
+								<lb/>joch in der dingstatt geborn ist.</seg></p>
+						<p>
+							<seg n="19"><lb/>Ist auch, dz ein man hinus kunt, dem hat ein herr ze
+									<lb/><placeName ref="LOC_47.28333_8.75">Gruͤningen</placeName>
+								umb ein gewonlichnen dienst nachzejagen <lb/>und ze fragen, ob er
+								von <del>d</del><add place="inline">t</add>odes wegen abgang, dz er
+								<lb/>wiss, wo er sin fall nemen sulle.</seg></p>
+						<p>
+							<seg n="20"><lb/>Wo ouch <num value="4">vier</num> gebruͤder sint oder
+								ander, die teil und gemein sament <lb/>hand, als vil dero ist,
+								stirbt da je der eltest under inen ab, den <lb/>hat ein her ze
+									<placeName ref="LOC_47.28333_8.75">Gruͤningen</placeName> ze
+								fallen. Ist aber, dz die jungen <lb/>vor dem alten absterbent, als
+								vil der ist, so sol sy der her nicht <lb/>fallen, alle die wile der
+								eltest lebet, die wile sy teil <lb/>und gemein mit einander
+								hand.</seg></p>
+						<pb n="6" facs="A_97_2__Nr__1__S__6_.tif"/>
+						<p>
+							<seg n="21"><lb/>Es ist ouch der dingstatt recht, es syen man, froͧwen,
+								knaben, tochteren, <lb/>jung oder alt, wer die sint, die teil und
+								gemein sament hand, dz <lb/>die su̍llent und mugend einander erben,
+								doch dem genanten <lb/>heren an sinem fall unschedlich.</seg></p>
+						<p>
+							<seg n="22"><lb/>Ist ouch, dz man oder wib von todes wegen abgand aͧn
+								liberben, <lb/>so sol und mag de her ze <placeName
+									ref="LOC_47.28333_8.75">Gruͤningen</placeName> nemen alles ir
+								varend <lb/>gut. Es sye dan, dz sy fryg lu̍t syend oder dz das guͦt
+								vergeben <lb/>sye nach der dingstatt recht.</seg></p>
+						<p>
+							<seg n="23"><lb/>Wenn ouch man oder froͧwen in dz todbett koment, mugent
+								<lb/>sy denn von dem bett fur dz <add place="above">a</add>tach <num
+									value="7">siben</num> schuͦch usgan, aͦn <lb/>fürren, aͦn stab,
+								aͦn stangen und aͦn ander behelff der lu̍ten, <lb/>so sullent und
+								mugent sy iro varend guͦt vergeben, wem <lb/>sy wellent, nach der
+								dingstatt recht und gewonheit, doch <lb/>dem genanten heren an sinem
+								valle unschedlich.</seg></p>
+						<p>
+							<seg n="24"><lb/>Und wolte dz der herr nit geloͧben, dz die gibt also
+								beschechen <lb/>wer, mugent sy denn <num value="2">zwen</num> erben
+								unversprochen man haben, die dz <lb/>gesechen und gehoͤrt hand, dz
+								die gibt also beschechen ist, <lb/>so sol sy fu̍ro nieman an dem
+								guͦt sumen, weder heren noch <lb/>ander lu̍t.</seg></p>
+						<p>
+							<seg n="25"><lb/>Und wz sy im tottbett begriffen mugend mit ir henden,
+								<lb/>aͦn zuͦtragen, dz sullent und mugent sy geben, wem sy
+								wellent.</seg></p>
+						<p>
+							<seg n="26"><lb/>Ist ouch, dz ein vatter eliche kind <del>hat</del> oder
+								andre kind hat, so <lb/>mag er einem kind furer oder mer geben dann
+								dem andern, ob er wil, <lb/>aber die muͦter sol einem kind nit
+									<del>mer geben</del> fu̍rer noch mer <lb/>geben dann dem andern.
+								Und weliche kind sine vatte und muͦter <lb/>erb usgewist werdent,
+								die sullent dann andre iro geschwistergit <lb/>ungesumpt laßen an
+								vatter und muͦter erb, untz an einen rechten <lb/>anfall, nach der
+								statt <placeName ref="LOC_47.36667_8.55">Zürich </placeName>
+								recht.</seg></p>
+						<pb n="7" facs="A_97_2__Nr__1__S__7_.tif"/>
+						<p>
+							<seg n="27"><lb/><note>An dieser Stelle findet ein Handwechsel
+									statt.</note>Es ist ouch der husgenossen und der dingstatt
+								recht, das ein ledig froͧw, die nit ein eman hat noch elich
+								<lb/>kind, kunt sy von krankheit wegen in das tottbett, mag sy fur
+								das atach ussgan <num value="7">siben</num> schuͦch ferer, <lb/>aͦn
+								stab, aͦn stangen und aͦn der lu̍t helff mit ir vogt, ob sy den
+								haben mag, so mag sy ir varent <lb/>guͦt geben, wem sy lust. Hat sy
+								aber dannzemal deheinen vogt, so mag sy doch ir varent guͦt gen,
+								<lb/>wem sy wil, und sol und mag das als guͦt krafft han, als es mit
+								ir vogt geschehen were. Und <lb/>wölt das ein heren ze <placeName
+									ref="LOC_47.28333_8.75">Gruͤningen</placeName> nit geloben, mag
+								man das mit <num value="2">zwein</num> erbern, unversprochnen
+								<lb/>mannen wisen, die das gesehen und gehört hand, das die frow
+								also die gibt nach der dingstatt ge<lb break="no"/>wonnheit und
+								recht getan hat, so sol sy fu̍ro an dem guͦt nieman beku̍mbern noch
+								sumen.</seg></p>
+						<p>
+							<seg n="28"><lb/>Ist ouch, das ein froͧw hinuß kunt und sy ein
+								ungenossen man nimpt, der lip und guͦt haͧt der herr <lb/>ze
+									<placeName ref="LOC_47.28333_8.75">Gruͤningen</placeName>
+								nachzefraͧgen und ir kuͤnden.</seg></p>
+						<p>
+							<seg n="29"><lb/>Kunt ouch ein tochter, die nicht beraͧten ist, hinuß
+								und sy davor stirbt, der lip und guͦt hat ouch <lb/>der genant herr
+								nachzefragen.</seg></p>
+						<p>
+							<del><lb/>Es ist ouch der hussgenossen und der dingstatt recht, wenn
+								sich ein froͧw entgurt hat und sy <lb/>zuͦ ir eman an das bett kunt,
+								was sy dannzemal von varender hab hat, das sol alles des <lb/>mans
+								sin.</del>
+						</p>
+						<p>
+							<seg n="30"><lb/>Wirt ouch ein kind wislos, das im sin vatter abgangen
+								ist, und es nit als vil vernunfft haͧt ald <lb/>nit reden kan, haͧt
+								es dann ein erbern man, mit dem es vor gericht bevogtet ist, nimpt
+								er daz <lb/>kind an sin arm, so mag er mit desselben kindz hand und
+								mit sin selbs mund des kinds varent <lb/>guͦt vergen, wenn er wil
+								oder dem er sin dann gan, aͦn allein im selb.</seg></p>
+						<p>
+							<seg n="31"><lb/>Haͧt ouch das kind keinen vogt nit, nimpt es dann der
+								nechst vattermag an sin arme, so maͧg er <lb/>ouch das varent guͦt
+								vergen wem er wil, aͦn im selb, mit des kindtz hand und mit sin
+								selbs mund, <lb/>und sol und mag das als guͦt krafft han, als es des
+								kindz rechter vogt getaͧn hett.</seg></p>
+						<p>
+							<seg n="32"><lb/>Man sol ouch wissen, was nach der dingstatt recht zuͦ
+								ligendem guͦt hoͤren sol: Des ersten harnisch, <lb/>wagen, karren,
+								hu̍ser und alle ungeschliffen waͧffen.</seg></p>
+						<p>
+							<seg n="33"><lb/>Were ouch, das korn uff dem feld stuͤnd, alle die wile
+								es in samnoten lit, und es nit under <lb/>die wid komen ist, so
+								heisset und ist es ligend guͦt. Ist es aber komen under die wid und
+								es <lb/>nit an den samnoten lit, so hoͤrt es ze varendem guͦt und
+								hoͤrt denn dem herren ze <placeName ref="LOC_47.28333_8.75"
+									>Gruͤningen</placeName>
+								<lb/>zuͦ, der sol es schaffen, das es uff das guͦt gefuͤrt und da
+								getroͤschen werd und es mit <lb/>verbunden sak von dannen fuͤren und
+								sol how und strow uff dem guͦt beliben lan.</seg></p>
+						<p>
+							<seg n="34"><lb/>Were ouch das ein <num value="1">j</num> kast in einer
+								wand stuͤnd, das er die wand verwese, so hört der kast <lb/>ouch ze
+								ligendem guͦt und nit ze varendem.</seg></p>
+						<pb n="8" facs="A_97_2__Nr__1__S__8_.tif"/>
+						<p>
+							<seg n="35"><lb/>Wenn froͧwen oder man her in dis dingstatt komend, als
+								vil ir ist, die eins heren eigen sint, ist das die <lb/>selben lu̍t
+								hie jar und tag by ir eigen brot und kost sitzend, von ir herren
+								unversprochen, so sond sy <lb/>dannenthin gen <placeName
+									ref="LOC_47.28333_8.75">Gruͤningen</placeName> hoͤren und sol sy
+								der her daselbs dannenthin halten und schirmen, <lb/>als ander
+								husgenossen.</seg></p>
+						<p>
+							<seg n="36"><lb/>Were ouch, das man oder froͧwen einandern icht taͤtind
+								an den tod, mugend sy da trostung finden <lb/>oder han fu̍r ein
+								recht ze komen, so sol sy der herr nicht turnen, es were dann, das
+								es unerlich sachen <lb/>anruͦrte, darumb so mag sy der her ze
+									<placeName ref="LOC_47.28333_8.75">Gruͤningen</placeName> oder
+								sin amptlu̍t in trostung nemen ald sy <lb/>turnen, weders er
+								wil.</seg></p>
+						<p>
+							<seg n="37"><lb/>Ist ouch, das einer oder me, als vil der ist, sament
+								stoͤssig werdent, als vast, das sy einander wundent <lb/>oder uff
+								den tod einander schlachent, kunt da jeman zuͦ, es sigen fru̍nd,
+								gesellen oder nachgeburn, und <lb/>sy darinnen in ein bringent und
+								richtend, e, das die sach dem herren oder sinen amptlu̍ten klaget
+								wirt, <lb/>so hat der herr noch die amptlu̍t das nit ze werren, noch
+								darzuͦ ze griffen, ob sy also verricht werdent, <lb/>es treffe dann
+								unerlich sachen an, die sol noch mag nieman richten noch darzuͦ
+								tuͦn, dann mit <lb/>des herren ze <placeName ref="LOC_47.28333_8.75"
+									>Gruͤningen</placeName> und der amptlu̍ten willen und
+								wissen.</seg></p>
+						<p>
+							<seg n="38"><del><lb/>Ist ouch, das froͧwen oder tochtran in dis
+									dingstatt koment, die by der e sitzent, die sond und mugent
+									<lb/>habent alles, das recht, fryheit und gnaͧd, in aller wis
+									und mass, als die froͧwen und tochtren hand, <lb/>die nach der
+									dingstatt gewonheit und recht enpfangen und genomen sint. Und
+									ist, das der man <lb/>vor ir von todz wegen abgaͧt, so sol die
+									frow des varenden guͦtz erben <num value="2">zwen</num> teil ze
+									eigen und <lb/><num value="2">zwen</num> teil des ligenden guͦtz
+									ze lipding, und das niessen mit verbundem sak unwuͤstlich, und
+									<lb/>sol ouch <num value="2">zwen</num> teil gelten. Und were,
+									das die frowen die geltschuld ze swaͤr beduͤcht, das der
+									<lb/>man ze vil gelten soͤlt, so mag sy von ligender und
+									varender hab staͧn und gar nicht gelten, <lb/>es waͤri dann, das
+									sy die schuld mit ir vogt mit ir hand oder von mund versprochen
+									und verheissen <lb/>hett.</del></seg>
+						</p>
+						<p>
+							<seg n="39"><lb/>Wo auch zwey mentschen elich ze samen koment, <subst>
+									<add place="left margin">wenn dann die <lb/>froͧw <del>und
+											wil</del> zuͦ ira man an <lb/>dz bett nider kumpt und
+										sich <lb/>entgurt, wz <lb/>sy dann ze mal varentz <lb/>guͦtz
+										hat, so <lb/>bald sy sich ent<lb break="no"/>gurt, dz ist
+										<lb/>des mans, <del>eigen</del>
+										<lb/>und stirbt sy vor <lb/>dem man ab, so erbt der man von
+										iro alles ir varend guͦt. Wer aber, dz der man vor der
+										froͧwen absturbe</add>
+									<del>ist da, dz die frow <lb/>oder man vor der froͧwen
+										abstirbt</del>
+								</subst> so sol die froͧw des ersten nemen, <lb/><del>und sol man
+									ira söllenklich usrichten</del> wz sy zuͦ irem man braͤcht hatt,
+								<lb/> dz sye ligend oder varend guͦt <add place="above">nu̍tzit
+									usgenomen, ouch iro morgengab</add>, darzuͦ so sol man iro ouch
+								verwisen, <add place="bottom">als verr sy dz alles vorhanden ist und
+									sy <del>zu</del> dz <lb/>zoͧigen kan und mit iro eid kuntbar
+									machet,</add>
+								<lb/>den dritteil in varendem guͦt, wz ira man hinder im lasset,
+								darus <lb/>sol sy dann den dritteil, so ir man schuldig ist,
+								bezalen. Woͤlte sy <lb/>aber den dritten <abbr>dn</abbr> nit gelten
+								der schuld, so ir man schuldig ist, so <lb/>sol ouch sy den dritteil
+									<del>dn</del> von iro man nit erben, und sol da<lb break="no"
+								/>mit der schuld ze bezalen für ir man ledig sin, <del>sy hab dann
+									jemalen</del>
+								<lb/><del>u̍tzit verhafft</del>. Es were dan, dz sy die schuld mit
+								ir vogt mit ir hand <lb/>oder von mund versprochen und verheissen
+								hette.</seg></p>
+						<p>
+							<del><lb/> Weder frowen ouch ein morgengab geben wirt, die sy zoͧigen
+								kan, die sol und mag sy behaben mit <lb/>iro selbs hand, es sig
+								dann, das sy die morgengab versworn hab vor offnem gericht, als
+								recht ist.</del>
+						</p>
+						<pb n="9" facs="A_97_2__Nr__1__S__9_.tif"/>
+						<p>
+							<del><lb/>Was ouch ein froͧw zuͦ ir man braͧcht hat, das vorhanden ist,
+								es sig morgengaͧb oder ander guͦt, das <lb/>sy zoigen kan und das sy
+								mit ir eid kuntber machet, das soͤl man ir lassen vollangen und
+								<lb/>ir verschroten gewand.</del>
+						</p>
+						<p>
+							<seg n="40"><lb/>Wir mugend ouch einander u̍ber unser ligend und varent
+								guͦt ze geteillit und ze gemeinder <lb/>nemen und zemen stossen, es
+								sigind man, frowen, jung ald alt, wer die sind, und sol das
+								offenlich <lb/>vor gericht geschehen, als recht ist, wa das ist, da
+								man die vogt von <placeName ref="LOC_47.28333_8.75"
+									>Gruͤningen</placeName> byhaben mag.</seg></p>
+						<p>
+							<seg n="41"><lb/>Wir hussgenossen sullen und mugen ouch unser recht und
+								fryheit mit unser selbs handen <lb/>behan, erteillen und darumb
+								ufhan, weliche dann in die dingstatt hoͤrend.</seg></p>
+						<p>
+							<seg n="42"><lb/>Wir soͤllen ouch unser ligende guͤter niena gewinnen
+								noch verlieren dann in den rechten gedingen. <lb/>Und were, das wir
+								der selben guͤter deheins jena anderswa verluͤren dann in den selben
+								gedingen, <lb/>das sol uns dehein schaden bringen.</seg></p>
+						<p>
+							<seg n="43"><lb/>Es ist ouch ze wissen, das man in den <num value="4"
+									>vier</num> gedingen niendert umb richten sol, dann umb eigen
+								und <lb/>erb. Und mag man umb ander sachen, welicher hand das ist,
+								ungericht lassen, es well dann der richter <lb/>suss gern tuͦn und
+								es der husgenossen und des richters will ist.</seg></p>
+						<p>
+							<seg n="44"><lb/>Wer ouch vor gericht bevogtet wirt, es sigin froͧwen,
+									<del>oder</del> man, alt oder jung, der sol dem richter
+								<lb/>geben <num value="1">ein</num> kopff win.</seg></p>
+						<p>
+							<seg n="45"><lb/>Es sond ouch, es sigint ingesessen burger ze <placeName
+									ref="LOC_47.28333_8.75">Gruͤningen</placeName> oder ussburger,
+								die dahin hoͤrent, alle die <lb/>gnad, fryheit und das recht haben
+								umb all sachen, in aller der wis und masse, als die dingstatt
+								<lb/>ze <placeName ref="LOC_47.27632_8.75851">Bintzikon</placeName>
+								hat, allein ußgenomen umb ir buͦssen <del>und umb ir wilen &amp;
+									recht, die zwey sond</del>, <add place="left margin"> und iro
+									heimstu̍r</add>
+								<add place="above">dz</add> sol <lb/>usgesetzt sin.</seg></p>
+						<p>
+							<seg n="46"><lb/>Hie nach vindet man <subst>
+									<del>all</del>
+									<add place="above">die</add>
+								</subst> buͦssen, die der herschafft ze <placeName
+									ref="LOC_47.28333_8.75">Gruͤningen</placeName> von der dingstatt
+								wegen ze <lb/><placeName ref="LOC_47.27632_8.75851"
+									>Bintzikon</placeName> zuͦgehoͤrt, und sint der burger ze
+									<placeName ref="LOC_47.28333_8.75">Gruͤningen</placeName>
+								buͦssen und frefninen herzuͦ nicht begriffen.</seg></p>
+						<p>
+							<seg n="47"><lb/>Die erst buͦss ist, so ein gericht fu̍r ein u̍berbracht
+								verbannen ist, als vil und dik das u̍berhoͤrig <lb/>wirt, das sol
+								man bessren mit <num value="3">iij</num>  <abbr>dn</abbr>. Und
+								woͤlt sin ze vil werden, so mag der richter mit <lb/>urteil erfarn,
+								was darumb recht sig, nach gewonheit der dingstatt.</seg></p>
+						<pb n="10" facs="A_97_2__Nr__1__S__10_.tif"/>
+						<p>
+							<seg n="48"><lb/>Der den andern frefnet under sinem ruͦssigen rafen, der
+								den andern uss sinem hus vordert und <lb/>heischet, ald der dem
+								andern an sin er redet, der jeglichs sol abgeleit werden dem herren
+								ze <lb/><placeName ref="LOC_47.28333_8.75">Gruͤningen</placeName>
+								mit <num value="12">xij</num>  <abbr>dn</abbr> und dem kleger mit
+									<num value="6">vj</num> . </seg></p>
+						<p>
+							<seg n="49"><lb/>Was ouch unerlicher sachen sind, die uner antreffent,
+								die sond abgeleit werden nach des <lb/>genanten herren
+							gnad.</seg></p>
+						<p>
+							<seg n="50"><lb/>Wer ouch den andern u̍ber erret, u̍ber zu̍nnt, u̍ber
+								schnidet, u̍ber mayet, wundet oder <lb/>herdvellig machet ald
+								bluͦtru̍nsig machet, was soͤlicher frefni sint, der jeglichs bessert
+								dem <lb/>herren ze <placeName ref="LOC_47.28333_8.75"
+									>Gruͤningen</placeName>
+								<num value="6">vj</num>  <abbr>dn</abbr> und dem kleger <num
+									value="3">dru̍</num> pfund. Ist, das es dem genanten <lb/>herren
+								ald sinen amptlu̍ten klagt wirt, oder ob es fu̍r gericht kunt, so
+								ist es geklagt, ist <lb/>aber, das es dem herren noch sinen
+								amptlu̍ten nit klagt noch fu̍rbraͤcht wirt, so hand <lb/>sy der sach
+								nicht nach ze greiffen noch damit ze schaffen.</seg></p>
+						<p>
+							<seg n="51"><lb/>Man sol ouch schaffen, das dem kleger umb sin buͦssen,
+								die im zuͦgehoͤrent an des gerichtz <lb/>ring, vertroͤst
+							werd.</seg></p>
+						<p>
+							<seg n="52"><lb/>Ouch ist ze wissen, das der obgenant herr ein froͧwen
+								umb aller hand buͦssen bessern mag, als davor <lb/>von den mannen
+								geschriben staͧt, doch das die froͧw des mans guͦt nicht me
+								verlieren mag <lb/>dann <num value="18">xviij</num>
+								<abbr>dn</abbr>.</seg></p>
+					</div>
+					<pb n="11" facs="A_97_2__Nr__1__S__11_.tif"/>
+					<pb n="12" facs="A_97_2__Nr__1__S__12_.tif"/>
+					<div>
+						<ab type="dorsal"><lb/>Dingstattrodel.</ab>
+					</div>
+					<div>
+						<ab type="dorsal">Rodel der dingstatt zu <placeName
+								ref="LOC_47.27632_8.75851">Binzikon</placeName>, <date when="1435"
+								>1435</date>.</ab>
+					</div>
+				</body>
+				<back>
+					<div><p>Offnungen sind Rechtsquellen aus dem ländlichen Raum aus der Zeit des
+						Spätmittelalters und der Frühen Neuzeit. Sie dienten der Festsetzung von
+						Rechtsnormen zur Regelung von Konflikten zwischen den Bevölkerung einer
+						Ortschaft und deren Herrschaft. Die Regelungen kamen an der in der Regel
+						zweimal jährlich stattfindenden, als Ding oder Täding bezeichneten
+						Gerichtsversammlung zur Anwendung und wurden dort gleichzeitig periodisch
+						erneuert. In den verschiedenen Artikeln des vorliegenden Binziker
+						Dingstattrodels werden insbesondere das Erbrecht, das Eherecht und die
+						Unterscheidung von liegendem und fahrendem Gut behandelt. Zudem enthält er
+						eine Bussenverordnung und Bestimmungen zum Ablauf des Gerichts selbst. </p>
+					<p>Den in Offnungen festgehaltenen Bestimmungen liegen Prozesse der
+						Verschriftlichung mündlich überlieferter Rechtsgewohnheiten sowie der
+						Kompilation und Überarbeitung bestehender Verträge, Urteile, Privilegien
+						oder Satzungen zugrunde. Auch bereits verschriftlichte Offnungen wurden im
+						Lauf der Zeit immer wieder überarbeitet. Solche redaktionellen Eingriffe
+						erfolgten nicht selten vor dem Hintergrund sich verändernder
+						Herrschaftsorganisation, so auch in der Offnung von <placeName
+							ref="LOC_47.27632_8.75851">Binzikon</placeName>. Im Dingstattrodel sind
+						zwei verschiedene, unterschiedlich zu datierende Hände erkennbar. Der
+						ältere, zweite Teil des Rodels stammt wohl aus der Zeit vor 1408, dem Jahr,
+						in dem die Herrschaft <placeName ref="LOC_47.28333_8.75"
+							>Grüningen</placeName> als Pfandschaft an die Stadt <placeName
+							ref="LOC_47.36667_8.55">Zürich</placeName> gelangte und fortan von
+						dieser als Landvogtei verwaltet wurde. So findet in diesem früheren Teil
+							<placeName ref="LOC_47.36667_8.55">Zürich</placeName> keine Erwähnung;
+						erst im Frühling 1435 ergänzte ein wohl von der Stadt beauftragter Schreiber
+						den zu Beginn des Rodels stehenden, ausführlicheren Teil mit Einleitung und
+						der Datumsangabe (<bibl><ref
+								target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html"
+								>Hanselmann 1997</ref>, S. 35</bibl>). </p>
+					<p>Neben der vorliegenden Fassung ist die Offnung von <placeName
+							ref="LOC_47.27632_8.75851">Binzikon</placeName> auch in der aus dem 16.
+						Jahrhundert stammenden Kompilation von Landvogt <persName
+							ref="GND_1089406568">Jörg Berger</persName>, dem sogenannten Bergerbuch
+								(<bibl><ref
+								target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=289244"
+								>StAZH F II a 185</ref></bibl>), überliefert. Von allen im
+						Bergerbuch verzeichneten Offnungen ist jene von <placeName
+							ref="LOC_47.27632_8.75851">Binzikon</placeName> die älteste. Sie diente
+						auch anderen Offnungen aus dem Gebiet als Vorlage; der Inhalt der später
+						verfassten Offnung von <placeName ref="LOC_47.27856_8.84156"
+							>Dürnten</placeName> beispielsweise ist zu einem grossen Teil dem
+						Binziker Dingstattrodel entnommen. Generell spiegeln die zahlreichen
+						verschiedenen Offnungen, die im Gebiet der Landvogtei
+							<placeName ref="LOC_47.28333_8.75">Grüningen</placeName> galten, die heterogene Zusammensetzung
+						der Herrschaft wider. Nebst dem Dingstattrodel von <placeName
+							ref="LOC_47.27632_8.75851">Binzikon</placeName> und der Offnung von
+							<placeName ref="LOC_47.27856_8.84156">Dürnten</placeName> hatten die
+						Ortschaften <placeName ref="LOC_47.27942_8.86162">Oberdürnten</placeName>,
+							<placeName ref="LOC_47.31279_8.72325">Mönchaltorf</placeName>,
+							<placeName ref="LOC_47.28706_8.92092">Wald</placeName> und <placeName
+							ref="LOC_47.33663_8.94127">Fischenthal</placeName> sowie die Häuser
+							<placeName ref="LOC_47.26652_8.82808">Bubikon</placeName> und
+							<placeName ref="LOC_47.346284_8.864490">Greifenberg</placeName> jeweils eigene Offnungen. </p>
+					<p>Zu den Offnungen von <placeName ref="LOC_47.27856_8.84156"
+							>Dürnten</placeName> und <placeName ref="LOC_47.27632_8.75851"
+							>Binzikon</placeName> vgl. <bibl><ref
+								target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html"
+								>Hanselmann 1997</ref></bibl>; <bibl><ref
+								target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html"
+								>Schauberg, Zürcherische Rechtsquellen</ref>, S. 38-40</bibl>; zu
+						Offnungen im Allgemeinen vgl. <bibl><ref
+								target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html"
+								>HLS</ref></bibl>, <bibl><ref
+								target="https://hls-dhs-dss.ch/de/articles/008946/2011-11-02/"
+								>Offnungen</ref></bibl>; <bibl><ref
+								target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html"
+								>Teuscher 2001</ref></bibl>; zur Ortsgeschichte von Grüningen im
+						Spätmittelalter vgl. <bibl><ref
+								target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html"
+								>Brühlmeier 2008</ref></bibl>; <bibl><ref
+								target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html"
+								>Leutenegger 1989</ref></bibl>; zur Editionssituation der Zürcher
+						Offnungen im Allgemeinen vgl. <bibl><ref
+								target="https://suche.staatsarchiv.djiktzh.ch/Dateien/304/D1523837.pdf"
+								>StAZH A 97</ref></bibl>.</p></div>
+				</back>
+			</text>
+		</group>
+	</text>
+</TEI>

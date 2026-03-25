@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='../../Ressourcen/Stylesheet.xsl'?>
+<?xml-model href="http://www.tei-c.org/ns/1.0" type="application/xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Quellen zur Zürcher Geschichte</title>
+                <respStmt>
+                    <persName>Patrick Rüegg. Mit einem Kommentar von Patrick Rüegg</persName>
+                    <resp key="transcript"/>
+                </respStmt>
+                <respStmt>
+                    <persName>Patrick Rüegg</persName>
+                    <resp key="tagging"/>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Staatsarchiv des Kantons Zürich</publisher>
+                <date type="electronic" when="2021-05-01"/>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Quellen zur Zürcher Geschichte</title>
+                <respStmt>
+                    <persName>Staatsarchiv des Kantons Zürich</persName>
+                    <resp>Herausgeberschaft</resp>
+                </respStmt>
+                <idno>QZH_037</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?id=5088954"
+                            >StAZH A 16, Nr. 25.8</idno>
+                    </msIdentifier>
+                    <head>Bericht von Georg Christoph Tobler und Hans Heinrich Vögeli, Geistliche 
+                        an der Predigerkirche, an das Ratsgericht über Besuche im Spital bei der
+                        wegen Kindstötung angeklagten Anna Keller</head>
+                    <msContents>
+                        <summary>
+                            Pfarrer Georg Christoph Tobler und Diakon Hans Heinrich Vögeli schreiben, dass sie gemeinsam mit einem ungenannten 
+                            Spitalgeistlichen regelmässige Seelsorgebesuche («Hirtenbesuche») bei der wegen Kindsmord angeklagten Anna Keller im 
+                            Spital vorgenommen hätten. In diesen Gesprächen sei Keller insbesondere über ihre Gemütsbeschaffenheit und ihre Kenntnisse des christlichen 
+                            Glaubens ausgefragt worden. Das anfänglich bescheidene religiöse Wissen Kellers sei durch den geduldigen Unterricht der Geistlichen verbessert worden. 
+                            Die Gefangene sei zudem an die Hauptpflicht des Menschen, Gott zu erkennen und zu dienen, erinnert worden sowie auf die Konsequenzen der irdischen Sünden 
+                            im Jenseits hingewiesen worden. Tobler und Vögeli berichten aber auch, dass sie die Angeklagte an die Gnade Gottes und die Macht des Gebetes erinnert hätten. 
+                            Die belehrenden Worte der Geistlichen habe Keller demütig und reuig aufgenommen.
+                        </summary>
+                        <msItem>
+                            <textLang>Deutsch</textLang>
+                            <filiation type="current">Aufzeichnung (Doppelblatt)</filiation>
+                            <filiation type="original">
+                                <origDate when="1770-03-16"/>
+                            </filiation>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material>Papier</material>
+                                </support>
+                                <extent/>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origDate when="1770-03-16"/></origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>
+                    <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+                </p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc> </profileDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+                    <term ref="key005343">Ausserehelicher Geschlechtsverkehr</term>
+                    <term ref="key0005333">Schwangerschaft</term>
+                    <term ref="key005447">Uneheliche Geburt</term>
+                    <term ref="key111114">Kindstötung</term>
+                    <term ref="key000334">Gefängnis</term>
+                    <term ref="key005473">Nachgang</term>
+                    <term ref="key003009">Gebet</term>
+                    <term ref="key003559">Spital</term>
+                    <term ref="key003994">Hochgerichtsbarkeit</term>
+                    <term ref="key000604">Todesstrafe</term>
+                    <term ref="key003648">Geistlichkeit</term>
+                    <term ref="key111119">Seelsorge</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <group>
+            <text>
+                <body corresp="Sigle1">
+                    <pb n="1" facs="A_16__Nr__25_8__S__1_.tif"/>
+                    <p><lb/>Gnädiger herr burgermeister,
+                    <lb/>hochgeachte, hochedelgeborne, hochedle, fromme,
+                    <lb/>ehren und nohtveste, vorneme, vorsichtige und hochweise,
+                    <lb/>gnädig gebietende herren und obere!</p>
+                    <p><lb/>In schuldigster gehorsame gegen dero hochobrigkeitlichen
+                    <lb/>befehl, sub 14. <choice><abbr>curr.<hi rend="sup">tis</hi></abbr><expan>currentis</expan></choice>, einen bericht abzustatten von der 
+                        <lb/>seit dem 7. Febr. im <placeName>Spital</placeName>, nun aber im <placeName ref="LOC_Lat_Long">Wellenberg</placeName> gefangenen 
+                    <lb/><persName>Anna Keller</persName> von <placeName ref="LOC_Lat_Long">Reütlingen</placeName> betreffend deroselben erkantnus und 
+                    <lb/>gemühtsbeschaffenheit, bezeügen harmit wir beyde seelsorgere 
+                    <lb/>bey der christlichen gemeine zum <placeName ref="LOC_Lat_Long">Predigeren</placeName>, daß wir dem gnädig
+                    <lb/>aufgetragenen <abbr>hoh.</abbr> befehl zufolg über dise ganze zeit unsere 
+                    <lb/>hirtenbesuche bey diser elenden person im namen gottes gemachet 
+                    <lb/>(welches auch pastor ordinarius im <placeName>Spital</placeName> fleißig gethan) und 
+                    <lb/>so vil gewahret, daß dise <persName>Kellerin</persName> im anfang zimlich unwissend,
+                    <lb/>noch mehr aber gantz verstokt <abbr>u.</abbr> verhärtet gewesen. Nach ange<lb break="no"/>wendeten 
+                    getreüen bemühungen aber, durch deütlichen unterricht von
+                    <lb/>gott <abbr>u.</abbr> dem menschen <abbr>u.</abbr> der <choice><abbr>menschl.</abbr><expan>menschlichen</expan></choice> haubtpflicht, der erkentnis 
+                    <lb/><abbr>u.</abbr> dienst gottes, von der sünd, dero unbill gegen das höchste 
+                    <lb/>gut <abbr>u.</abbr> den traurigen folgen derselben, von der unumgänglich nöthigen,
+                        <lb/>aufrichtigen <abbr>u.</abbr> thätlichen rückkehr des sünders zu gott <abbr>u.</abbr> seiner 
+                        <lb/>gnade <abbr>u.</abbr> so weiter. Wie auch durch gläubiges gebeth mit ihro
+                        <lb/><abbr>u.</abbr> für sie zu gott <add place="above">haben wir</add> durch göttliche gnade so vil von selbiger 
+                        <lb/>hören <abbr>u.</abbr> sehen können, daß sie nun die unendliche hoheit, heiligkeit 
+                        <lb/><abbr>u.</abbr> gnade gottes beßer erkennen <abbr>u.</abbr>, wie sie unter häuffigen thränen
+                    <lb/>öfters bezeüget, auch recht herzlich glauben gelernet, danahen sie auch
+                        <lb/>hoffentlich nach der gegebenen anleitung <abbr>u.</abbr> ernstlich ermahnungen
+                        <lb/>in zukunft alle warheit gestehen, <abbr>u.</abbr> allen fehrneren vernünftigen
+                        <lb/><abbr>u.</abbr> christlichen buß <abbr>u.</abbr> glaubenslehren ein offen ohr <abbr>u.</abbr> hertz schenken wird. 
+                        <lb/>Gott schenke ihro buß <abbr>u.</abbr> verzeihung ihrer schwehren mißthaten zur
+                    <lb/>errettung ihrer seele durch <persName ref="GND_118557513">Jesum Christum</persName>, seinen sohn, unseren
+                    <lb/>hochgelobten erlöser. Er vergaume aber auch unsere <choice><abbr>l.</abbr><expan>lobliche</expan></choice> statt
+                        <lb/><abbr>u.</abbr>land vor so schrecklichen <abbr>u.</abbr> thätlichen verläugnungen unsers allerheiligsten glaubens
+                    <pb n="2" facs="A_16__Nr__25_8__S__2_.tif"/>
+                        <lb/>glaubens <abbr>u.</abbr> gebe dem gantzen volk ein herz <abbr>u.</abbr> einen weg, 
+                        <lb/>daß sie ihn fürchten, <abbr>u.</abbr> nimmermehr abtrünnig von
+                        <lb/>ihme <abbr>u.</abbr> seinen heiligen <abbr>u.</abbr> nicht beschwehrlichen gebotten werden. </p>
+                    <p><lb/>Wir unterschreiben uns mit aller wahren ehrfurcht, 
+                        <lb/>liebe, treü <abbr>u.</abbr> gehorsam lebenslang zubleiben.</p>
+                    <p><lb/>Gnädiger herr burgermeister, 
+                    <lb/>hochgeehrte, hochweise, gnädige
+                        <lb/>herren <abbr>u.</abbr> obere, 
+                    <lb/>hochderoselben 
+                    <lb/>redlich zugethane kirchen dienere,
+                        <lb/>burger <abbr>u.</abbr> diener
+                    <lb/><persName ref="GND_1089383738">Georg Christoff Tobler</persName>, pfarrer zu <placeName ref="LOC_Lat_Long">Predigern</placeName>.
+                    <lb/><persName ref="GND_1089450052">Hans Heinrich Vögeli</persName>, diacon daselbst.</p>
+                    <p><lb/>Den <origDate when="1770-03-16">16. martii 
+                        <lb/>1770</origDate>.</p>
+                </body>
+                    
+                <back>
+                    <div>
+                        <p>
+                            Die 23-jährige <persName>Anna Keller</persName> stammte aus <placeName ref="LOC_Lat_Long">Reutlingen</placeName> bei <placeName ref="LOC_Lat_Long">Winterthur</placeName> und war bei einem Tischmacher im <placeName ref="LOC_Lat_Long">Zürcher</placeName> <placeName>Kratzquartier</placeName> 
+                            als Dienstmagd tätig. Als ihre uneheliche Schwangerschaft entdeckt wurde (der Kindsvater war wohl ihr Dienstherr), schickte 
+                            dieser sie weg und sie gebar ihren Sohn heimlich auf einem Abort. Dort durchtrennte sie gemäss den Verhörakten die Nabelschnur 
+                            und liess das Kind in den Abort fallen. Ihre Tat wurde allerdings bald entdeckt, worauf sie wegen Kindstötung angeklagt wurde.</p> 
+                            <p>Aufgrund ihres schlechten Gesundheitszustands musste sie jedoch bereits kurz nach ihrer Festnahme ins <placeName>Spital</placeName> gebracht werden. 
+                            Dort wurde sie auf Anordnung des Ratsgerichts von Pfarrer <persName ref="GND_1089383738">Georg Christoph Tobler</persName> und Diakon <persName ref="GND_1089450052">Hans Heinrich Vögeli</persName>, Geistliche an der 
+                            nahegelegenen <placeName ref="LOC_Lat_Long">Predigerkirche</placeName>, besucht. Der Auftrag des Rats an die Geistlichen lautete zwar offiziell, die Gefangene auf 
+                            die christliche Dimension ihrer begangenen Tat aufmerksam zu machen. Praktisch dürfte der Rat aber auch ermittlungstechnische Ziele 
+                            verfolgt haben: Die Nachgänger und der Rat schienen mit der Kooperationsbereitschaft <persName>Kellers</persName> in den Verhören nicht zufrieden gewesen 
+                            zu sein und erhofften sich wohl, dass die Gespräche der Geistlichen mit <persName>Keller</persName> zu mehr Erkenntnissen, sprich wahrheitsgetreuen Aussagen 
+                            Kellers, führen würden. <persName ref="GND_1089383738">Tobler</persName> und <persName ref="GND_1089450052">Vögeli</persName> stellen in ihrem Bericht ihre Bemühungen dar, dieses Ziel zu erreichen: Indem sie die Gefangene 
+                            durch Glaubenslehre zum Gehorsam gegenüber Gott ermahnten, hielten sie sie gleichzeitig auch zur Kooperation mit der Obrigkeit in den 
+                            anstehenden Verhören an. </p>
+                            <p>Die Pfarrer verfolgten mit ihren Berichten über <persName>Anna Keller</persName> zusätzlich die Intention, ihre geleistete Seelsorgearbeit bei den 
+                            Gefangenen als erfolgreich und idealtypisch darzustellen und nahmen dabei eine Doppelfunktion zwischen Kirche und Staat ein, indem sie 
+                            sowohl die weltlichen Ermittlungen unterstützten als auch das seelsorgerische Ziel verfolgten, dass Gott den Gefangenen im Jenseits Gnade gewährt.</p>
+                        <p>Für weitere Briefe der Geistlichen zu <persName>Anna Keller</persName> vgl. <bibl><ref target="https://qzh.sources-online.org/quellenstuecke/QZH_038">QZH, Nr. 38</ref></bibl> und <bibl><ref target="https://qzh.sources-online.org/quellenstuecke/QZH_039">QZH, Nr. 39</ref></bibl>; 
+                            zum Fall der <persName>Anna Keller</persName> und allgemein zur Gefangenenseelsorge im 18. Jahrhundert 
+                            vgl. <bibl><ref target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html">Rüegg 2023</ref></bibl>;
+                            für weitere Strafuntersuchungen wegen Kindstötung vgl. die Fälle von <persName>Anna Oberholz</persName> und <persName>Regula Dolder</persName> (<bibl><ref target="https://qzh.sources-online.org/quellenstuecke/QZH_030">QZH, Nr. 30</ref></bibl>; 
+                                <bibl><ref target="https://qzh.sources-online.org/exist/apps/qzh/quellenstuecke/QZH_031">QZH, Nr. 31</ref></bibl>).
+                            
+                        </p>
+                    </div>
+                </back>
+            </text>
+        </group>
+    </text>
+</TEI>

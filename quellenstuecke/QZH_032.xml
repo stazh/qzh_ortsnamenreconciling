@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css“?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0"
+  xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <respStmt>
+          <persName>Katja Rehmann. Mit einem Kommentar von Michael Schaffner</persName>
+          <resp key="transcript"/>
+        </respStmt>
+        <respStmt>
+          <persName>Katja Rehmann; Michael Schaffner</persName>
+          <resp key="tagging"/>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <date type="electronic" when="2021-05-01"/>
+        <date type="print" when="2018-12-31"/>
+      </publicationStmt>
+      <seriesStmt xml:id="ssrq-sds-fds">
+        <title>Quellen zur Zürcher Geschichte</title>
+        <respStmt>
+          <persName>Staatsarchiv des Kantons Zürich</persName>
+          <resp>Herausgeberschaft</resp>
+        </respStmt>
+        <idno>QZH_032</idno>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <idno>ZBZ Ms L 459, S. 433-438</idno>
+          </msIdentifier>
+          <head>Ordnung der Nachgänger der Stadt Zürich</head>
+          <msContents>
+          <summary>Die Anleitung zum Verhalten der Nachgänger bei Verhören beginnt mit einem Teil
+            zum Umgang mit den Gefangenen. Darin werden die Nachgänger angewiesen, geduldig zu
+            sein. Den Gefangenen sollen die eingegangenen Klagen ohne Nennung der Namen dargelegt
+            und sie zur Aussage aufgefordert werden. Diese soll protokolliert werden. Im Rahmen
+            der Befragung sollen die Nachgänger folgende Fragen klären: Wer, was, wie, wo, wann,
+            womit und mit welcher Absicht die Tat begangen wurde. Weiter wird vorgegeben, dass die
+            Folter erst angewendet werden soll, wenn die Gefangenen bereits von Prädikanten
+            besucht wurden und danach noch immer kein Geständnis vorliegt. Die Folter soll massvoll
+            geschehen und auch nur, wenn genügend Anzeichen der Tat vorhanden seien. Ansonsten soll
+            weder gefoltert noch verurteilt werden. Im zweiten Teil wird aufgelistet, welche
+            Informationen zum Gefangenen aufgenommen werden sollen. Diese sind: Name, Stand,
+            Beruf, Alter und wie die Person inhaftiert wurde sowie die Tatumstände und
+            Informationen zu weiteren an der Tat Beteiligten. Die Aussage des Gefangenen soll erst
+            nach der Folter und nicht währenddessen protokolliert werden. Im dritten Teil wird
+            festgehalten, dass nach zweimaligem Verhör den Gefangenen die erste Aussage erneut zur
+            Bestätigung vorgelesen werden soll. Bleibt die Bestätigung aus, folgt erneut die
+            Anwendung der Folter. Es wird angeführt, dass diese entsprechend gewisser Richtlinien
+            angewandt werden muss. Ausserdem sollen die Nachgänger dem Gefangenen nicht die
+            Umstände der Tat vorsagen, da er von sich aus berichten soll. Der vierte Teil setzt
+            sich mit der Pflicht des Schreibers auseinander, wobei die grosse Verantwortung der
+            Schreiber und Nachgänger betont wird. Dementsprechend kämen junge Schreiber auch nur
+            unter Anleitung von älteren in Frage. Der letzte Teil unterrichtet die Nachgänger im
+            Spenden von christlichem Trost sowie darin, wie die Angeklagten zum Ablegen eines
+            Geständnisses zu ermuntern seien.</summary>
+            <msItem>
+                            <textLang>Deutsch</textLang>
+                            <filiation type="current">Aufzeichnungen (3 Doppelblätter; 3
+                                Einzelblätter)</filiation>
+                            <filiation type="original"><origDate from="1700-01-01" to="1700-12-31">Datierung aufgrund der Schreiberhand und des Inhalts</origDate></filiation>
+                        </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <support><material>Papier</material></support>
+                <extent/>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+          <history>
+                        <origin><origDate from="1700-01-01" to="1700-12-31"/></origin>
+                    </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>
+          <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc> </profileDesc>
+    <profileDesc>
+      <textClass default="false">
+        <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+          <term ref="key003261">Kundschaft</term>
+          <term ref="key005473">Nachgang</term>
+          <term ref="key003389">Gefangenschaft</term>
+          <term ref="key000334">Gefängnis</term>
+          <term ref="key003369">Folter</term>
+          <term ref="key000078">Zeugnis</term>
+          <term ref="key000051">Schreiber</term>
+        </keywords>
+      </textClass>
+      <particDesc default="false"/>
+      <settingDesc default="false"/>
+    </profileDesc>
+  </teiHeader>
+
+  <text>
+    <group>
+      <text>
+        <body corresp="Sigle1">
+          <div>
+            <pb n="433" facs="Ms_L_459_0001.tif"/>
+            <head>Wie sich die herren nachgänger <lb/>zuͦ verhalten.</head>
+            <p>
+              <add place="right margin">Underricht, <lb/>wie man sich <lb/>by den gefang<lb break="no"
+                />nen verhalten <lb/>sol.</add>
+              <lb/>Wan sy in die gefangenschafft kommend, sol<lb break="no"/>lend sich gegen dem
+              gefangnen sanfftmüt<lb break="no"/>ig und nit lydenlich erzeigen, ihnen die einge<lb
+                break="no"/>langten schryben und bricht ohne namsung der <lb/>persohnen fürhalten,
+              ihrer antwort begehren <lb/>und ordenlich verzeichnen lassen.</p>
+            <p>
+              <lb/>Wan anfangs ein einfache bekantnuß her<lb break="no"/>fürkombt, habend die
+              verordneten nachgänger <lb/>dißer siben stuckh und umbständ zubefraagen, <lb/>nammlich
+              wer, was, wie, wo, wann, <lb/>womit und zu was end hin die that be<lb break="no"
+              />schehen sey?</p>
+            <p><lb/>Zur marter sol man nit eylen, sonder den <lb/>gefangnen zuvor daß leben erleyden
+              und <lb/>durch die herren predicanten selbige besuchen <lb/>laßen, die ihnen die
+              schwere und größe der <lb/>begangnen sünden uß gottes wort zuverstahn <lb/>gebind. Alß
+              dan uff nit erfolgend bekant<lb break="no"/>nuss mag man mit der marter, jedoch mit
+                mass<lb break="no"/>en <lb/>fürfahren.</p>
+            <p><lb/>Wo nit gnugsame anzeigungen einer miss<lb break="no"/>that verhanden, sol man
+              den gefangnen darumb <lb/>nit befraagen und uff hör sagen ald argwohn <pb n="434" facs="Ms_L_459_0002.tif"/>
+              <lb/>niemand gepeyniget werden. Und ob auch uß <lb/>peyn der marter die mißethat
+              bekant wurde, <lb/>sol doch dero nit geglaubt nach jemandth da<lb break="no"/>ruff
+              verurtheilt werden.</p>
+          </div>
+          <div>
+            <head type="subtitle">Wie man die gefangnen <lb/>examinieren sol.</head>
+            <p>Den gefangnen sol man fraagen umb synen nammen, <lb/>synen stand und nahrung, syn
+              alter, wan und wie <lb/>er in verhafftung kommen, was die ursachen und wz <lb/>er für
+              gespanen gehabt, welches alles er erzellen <lb/>sol ohn einiches vorsprechen.</p>
+            <p><lb/>Es sol auch deß gefangnen ußag, so er an der mar<lb break="no"/>ter bekendt, nit
+              angenommen ald uffgeschriben <lb/>werden, sonder erst, wan er von der marter gelassen
+              <lb/>ist.</p>
+          </div>
+          <div>
+            <head type="subtitle">Wie weit man mit der <lb/>marter procedieren sol.</head>
+            <p>Wan der gefangne 2 mal verhört worden, muͦß <lb/>man ihme die erste ussag wider
+              vorläßen und <lb/>ihn selbige bestettigen laßen. Wil er daß bekente <lb/>wider
+              verlaugnen, so muͦß man ihne mit der <lb/>pynlichen fraag wider angryffen.
+              Unbegührliche <lb/>zwangmittel, die wahrheit zuͦ erzwingen, sol man <lb/>meiden und
+              sich der ungewohnlichen marter nit <lb/>gebruchen, dan was gott verborgen haben wil,
+              <pb n="435" facs="Ms_L_459_0003.tif"/>
+              <lb/>sol durch unordenliche marter nit herausgezwung<lb break="no"/>en werden.
+              <lb/>Man sol auch keinen gfangnen die umbständ <lb/>der mißethat vorsagen, sonder ihne
+              die ganze <lb/>sach selbs anzeigen lassen.</p>
+          </div>
+          <div>
+            <head type="subtitle">Des schrybers pflicht.</head>
+            <p><lb/>Man vermeint zwahren, es seye umb die <lb/>verordneten nachgänger und deroselben
+              schryber <lb/>ein geringe und schlächte sach, es habe kein noth, <lb/>es habe kein
+              gfahr <abbr>etc</abbr>. Wan man aber betrach<lb break="no"/>tet, daß der oberkeit nüt
+              höhers und größers zu<lb break="no"/>richten übergeben ist alß über daß blut deß
+              mentschen, <lb/>so hat es wyt ein ander ussehen und erforderet <lb/>die sach vil ein
+              nachdencklicheren verstand, in dem <lb/>sich sowol die verordneten nachgänger als der
+              schryber <lb/>an den gefangnen am höchsten versündigen könend <lb/>und glychsam der
+              himmel oder die hell verdienen, <lb/><del>w</del> sonderlich ein schryber, wan er
+              namblich durch <lb/>unbedachtsame mit einem einzigen wort den schuld<lb break="no"
+              />igen machet lauffen laßen oder den unschuldigen lycht<lb break="no"/>lich in gefahr
+              lybs und lebens bringen thut. Insonderheit <lb/>sol diß ein schryber wol in acht
+              nemmen, dz er kein<lb break="no"/>em gefangnen nit wölle zböst, sondern jederwylen zuͦ
+              <lb/>best schrybe, es seige der maleficant so groß und schwer, <lb/>als er wolle, auch
+              keine junge schryber zu gebruchen, <lb/>sy seyind dan von elteren angeführt. Ist kurz,
+              wie man <lb/>sich gegen den gefangnen zuͦverhalten.</p>
+          </div>
+          <pb n="436" facs="Ms_L_459_0004.tif"/>
+          <div>
+            <head type="subtitle">Wie man den gefangnen <lb/>zuͦsprechen und trösten sol.</head>
+            <p>
+              <add place="left margin">Herren leütpriesters <lb/><persName ref="GND_102534357"
+                  >Leemans</persName><note>Gemeint
+                  ist <persName ref="GND_102534357">Burkhard Leemann</persName>, Grossmünsterpfarrer
+                  und Antistes der Stadt <placeName ref="LOC_47.37721_8.52731">Zürich</placeName>
+                  zwischen 1592 und 1613 und Verfasser des Zürcher Katechismus von 1594.</note> selig</add></p>
+            <p><lb/>Wyl du nun ein christ, so hastu auch gelehrnet <lb/>dynen willen dem willen
+              gottes zuͦ underwerffen. <lb/>Wyl es nun gottes will ist, das du in gefangen<lb
+                break="no"/>schafft kommen, warumb solt es auch nit dyn will syn?</p>
+            <p><lb/>Frylich ist ein gefangner mann ein armer mann: <lb/>Die gefangenschafft ist dz
+              zuchthuß gottes, darinnen er <lb/>dich wegen deiner missethat wil verbeßeren.</p>
+            <p><lb/>Die wyl nun gott gezehlt nit nur alle härlin <lb/>unßers haubts und keines
+              derselben ohne sy<lb break="no"/>nen willen uff die erden fallt, alßo ist auch gott
+              <lb/>der, der den sünden ein zihl steckt und wan gott <lb/>jez dynen sünden nit ein
+              zihl gesteckt hete und <lb/>nit in gefangenschafft kommen, so werist in denselbigen
+              <lb/>fürgefahren und entlich darinen gar zuͦ grund <lb/>gangen.</p>
+            <p><lb/>Es ist dir vil weger, du leydest hie ein kurze straff <lb/>weder dz du eewig
+              verlohren werdist.</p>
+            <p><lb/>Gottes güte ist groß gegen uns armen sünderen, aber <lb/>dieselbig zuͦ erlangen,
+              muͦß man erstes die sünd im <lb/>herzen bekennen, welches ist der erste stäg und wäg
+              <lb/>zur verzeichung. Uff die erkandtnuß muß folgen <lb/>die bekandtnuß mit dem mund.
+              Und mit dem <lb/><choice>
+                <abbr>h</abbr>
+                <expan>herren</expan>
+              </choice>
+              <persName ref="GND_118523929">David</persName> sprechen: <quote>Da ich myne sünden
+                  ver<lb break="no"/>schwygen wolte, verschmacktetend mirs myne ge<pb break="no"
+                    n="437" facs="Ms_L_459_0005.tif"/>beini.</quote><note>Es handelt sich um ein Zitat aus Psalm 32, 3.</note>
+              Auff die <add place="above">mundtliche</add> bekandtnuss folget dan reüw <lb/>und leid
+              über die begangnen sünden.</p>
+            <p><lb/>Wo nun die erkandtnuß im herzen, die be<lb break="no"/>kandtnuss mit dem mundt
+              und reüw und leid <lb/>über die begangnen sünden beschicht, daruff folget sich<lb
+                break="no"/>die verzyhung der sünden und eewigs leben. </p>
+            <p><lb/>König <persName ref="GND_118605100">Salomon</persName> sagt: <quote>Wer syne
+                sünden bekänt, der <lb/>wird barmherzigkeit erlangen, wer sy aber <lb/>verlaugnet,
+                dem wird nit gelingen.</quote><note>Das Zitat stammt aus Sprüche, 28, 13.</note></p>
+            <p><lb/>Gottes barmherzigkeit erscheint sich auch auch uß dem, <lb/>dass er offt durch
+              die sünden von sünden errettet, <lb/>ja so gar ist gott geneigt, dass er auch unßere
+              <lb/>mißethaten uns zum besten ausdeuten wil und <lb/>unß durch die sünd und zytlichen
+              todt vom eewigen <lb/>todt und verdamnuß erlößen wil.</p>
+            <p><lb/>Es wil sich gott vergnügen laßen mit einem buss <lb break="no"/>fertigen,
+              zytlichen todt, damit der ander todt <lb/>kein gwalt an unß habe.</p>
+            <p><lb/>Alle sünden werdend offenbar werden, vor dem <lb/>richterstuͦl <persName
+                ref="GND_118557513">Christi</persName>, aber die sünden nit, über <lb/>welche ein
+              mentsch hie in zyt reüw und leid getragen, <lb/>die werdend nit offenbahr, sonder mit
+              der gnad <lb/>gottes bedeckt blyben. Wie zuͦ sehen an den jüngeren <lb/><persName
+                ref="GND_118557513">Christi</persName>, die sich vor syner ufferständtnuss der<lb
+                break="no"/>selben mit keinem wort gegen ihnen gedacht. <lb/>Wan wir unßer ellend
+              zytlich leben betrachtend, <lb/>so findend wir, dz der mentsch underworffen ist <pb
+                n="438" facs="Ms_L_459_0006.tif"/>
+              <lb/>allerley trübsalen, großen jahmer, crütz und lyden. <lb/>Unßere erste stimme, wan
+              wir gebohren werdend, ist <lb/>weinen.</p>
+            <p><lb/>Dass beste leben müßend wir zuͦbringen mit arbeiten <lb/>und stryten und
+              endtlich ist sterben unßer fyrabendt.</p>
+            <p><lb/>Hie auff erden ist ja nichts, darumb ein mentsch <lb/>begähren sol lang zuͦ
+              leben. Es ist doch diß arme <lb/>leben anders nüt dan trübsal haben, arbeiten, kemp<lb
+                break="no"/>fen, stryten, und zuͦ letst der todt.</p>
+            <p><lb/>Es ist am fyrabendt der welt da kein besserung <lb/>zuͦ hoffen.</p>
+            <p><lb/>Es hat schon vor mehr alß 1600 Jahren geheißen, es <lb/>sey am abend der welt,
+              warumb solt es <lb/>nit nun mehr nacht by uns syn.</p>
+            <p><lb/>Wie sälig ist dan, der syn armes traum leben bald <lb/>enden und mit wahren
+              reüwen begangner sünden <lb/>in himmel kommen kan.</p>
+            <p><lb/>Hieruff kan man dem gefangnen die freüde deß <lb/>ewigen lebens gar trostlich
+              ankünden.</p>
+          </div>
+        </body>
+
+        <back>
+          <div><p>Als Nachgänge wurden zunächst im engeren Sinn Verfahren vor dem Ratsgericht
+            bezeichnet, die durch den Rat von Amtes wegen eröffnet wurden (vgl. dazu die Ordnung der
+            Stadt <placeName ref="LOC_47.37721_8.52731">Zürich</placeName> zur Durchführung von Nachgängen aus dem Jahr 1498: <bibl><ref target="https://rechtsquellen.sources-online.org/ZH_NF_I_1_3/SSRQ_ZH_NF_I_1_3_060">SSRQ ZH NF I/1/3, Nr.
+            60</ref></bibl>). In der Frühen Neuzeit – und so auch in der vorliegenden Ordnung – wurde dieser
+            Begriff jedoch allgemeiner für alle durch den Rat geführten gerichtlichen Untersuchungen
+            verwendet. Die Protokolle von Befragungen im Zuge von Nachgängen sind heute im
+            Wesentlichen im Bestand <bibl><ref target="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4629511">A 27</ref></bibl> enthalten.</p> <p>Die Datierung der vorliegenden Aufzeichnung ins
+            17. Jahrhundert ergibt sich neben der Schreiberhand aus der Erwähnung des Antistes
+              <persName ref="GND_102534357">Burkhard Leemann</persName> (1531-1613), auf den die Ausführungen theologischen Inhalts in der
+            zweiten Hälfte des Textes zurückgehen.</p> <p>Zur Durchführung von Befragungen entsandte der
+            Rat für gewöhnlich zwei Vertreter aus seinen eigenen Reihen zu den Gefangenen. Diese
+            Abgeordneten wurden als Nachgänger bezeichnet. Alternativ oder zusätzlich zu diesem
+            Vorgehen wurden örtliche Vögte und weitere Amtleute sowie gegebenenfalls Angehörige der
+            Dorfgemeinschaft um ihre Stellungnahmen ersucht.</p> <p>Über die vorliegende allgemeine
+            Anweisung hinaus dürften für einzelne Befragungen spezifische Anweisungen durch den Rat
+            erlassen worden sein, die nicht oder nur in Ausnahmefällen überliefert sind (<bibl><ref target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html">Loetz 2002</ref>,
+              S. 99</bibl>).</p> <p>Die Fragen der Nachgänger sowie die Aussagen der Gefangenen wurden in <placeName ref="LOC_47.37721_8.52731">Zürich</placeName> im
+            16. und 17. Jahrhundert durch die Schreiber nicht wörtlich im Stil einer
+            inquisitorischen Befragung protokolliert, sondern als Paraphrase in meist indirekter
+            Rede zusammengefasst. Über die genauen Fragen der Nachgänger lassen sich deshalb oftmals
+            nur Vermutungen anstellen. Zudem wurden die Personalien der Verhörten in diesem Zeitraum
+            nicht systematisch erfasst. Eine inquisitorische Standardisierung der Gerichtsprotokolle
+            nach dem Prinzip des <q>gebrochenen Blatts</q>, auf dem links die Fragen und rechts die Antworten notiert sind, erfolgte in Zürich erst im 18. Jahrhundert (<bibl><ref target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html">Loetz
+            2002</ref>, S. 100-101</bibl>). Die Akten der Kundschaften und Nachgänge sind in der Regel
+                Reinschriften und dürften damit einen Prozess der Redaktion durchlaufen haben (vgl. dazu die Untersuchung gegen <persName>Regula Dolder</persName>: <bibl><ref target="https://qzh.sources-online.org/quellenstuecke/QZH_031">QZH, Nr. 31</ref></bibl>). Sie
+            können auch deshalb nicht ohne Weiteres mit den Aussagen der Befragten gleichgesetzt werden. In
+            der vorliegenden Anleitung wird jedoch durchaus die hohe Bedeutung der inhaltlich
+            getreuen Wiedergabe der Aussagen und damit verbunden die grosse Verantwortung der
+            Schreiber betont.</p>
+            <p>Zum vorliegenden Quellenstück vgl. <bibl><ref target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html">Loetz 2002</ref>, S. 98-99</bibl>; allgemein zum
+              Bestand der Kundschaften und Nachgänge vgl. <bibl><ref target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html">Loetz 2022</ref>, S. 451-454</bibl>; <bibl><ref target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html">Loetz 2002</ref>, S.
+                97-111</bibl>; <bibl><ref target="https://qzh.sources-online.org/exist/apps/qzh/literaturverzeichnis.html">Ruoff 1941</ref></bibl>.</p> </div>
+        </back>
+
+      </text>
+    </group>
+  </text>
+</TEI>
