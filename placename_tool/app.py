@@ -17,11 +17,15 @@ from flask import Flask, render_template, jsonify, request
 import requests
 from lxml import etree
 
+try:
+    from .xml_scan import PLACEHOLDER, replace_placeholder_refs, scan_xml_files
+except ImportError:
+    from xml_scan import PLACEHOLDER, replace_placeholder_refs, scan_xml_files
+
 app = Flask(__name__)
 
 # Configuration
 XML_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'quellenstuecke')
-PLACEHOLDER = 'LOC_Lat_Long'
 
 # In-memory state for resolved/skipped place names
 resolved_places = {}  # {place_name_text: {"lat": ..., "lng": ..., "source": ...}}
@@ -404,7 +408,7 @@ def index():
 @app.route('/api/placenames')
 def get_placenames():
     """Return all unique place names with LOC_Lat_Long and their occurrences."""
-    place_names = scan_xml_files()
+    place_names = scan_xml_files(XML_DIR)
     result = []
     with state_lock:
         for name, occurrences in sorted(place_names.items()):
@@ -534,13 +538,7 @@ def apply_changes():
                 content = f.read()
 
             original = content
-            for name, coords in current_resolved.items():
-                ref_value = f'LOC_{coords["lat"]}_{coords["lng"]}'
-                # Replace LOC_Lat_Long in placeName tags with this specific text
-                pattern_re = re.compile(
-                    rf'(<placeName\s+ref=")LOC_Lat_Long(">{re.escape(name)}</placeName>)'
-                )
-                content = pattern_re.sub(rf'\g<1>{ref_value}\g<2>', content)
+            content = replace_placeholder_refs(content, current_resolved)
 
             if content != original:
                 with open(filepath, 'w', encoding='utf-8') as f:
