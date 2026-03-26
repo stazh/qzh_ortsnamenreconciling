@@ -16,11 +16,15 @@ from flask import Flask, render_template, jsonify, request
 import requests
 from lxml import etree
 
+try:
+    from .xml_scan import PLACEHOLDER, scan_xml_files
+except ImportError:
+    from xml_scan import PLACEHOLDER, scan_xml_files
+
 app = Flask(__name__)
 
 # Configuration
 XML_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'quellenstuecke')
-PLACEHOLDER = 'LOC_Lat_Long'
 
 # In-memory state for resolved/skipped place names
 resolved_places = {}  # {place_name_text: {"lat": ..., "lng": ..., "source": ...}}
@@ -89,51 +93,6 @@ def parse_ewkt_coords(ewkt_str):
         return round(y, 5), round(x, 5)  # EWKT is (lng, lat)
     else:
         return None
-
-
-# ─── XML scanning ────────────────────────────────────────────────────────────
-
-def scan_xml_files():
-    """Scan all XML files and return place names with LOC_Lat_Long."""
-    pattern = os.path.join(XML_DIR, '*.xml')
-    files = sorted(glob.glob(pattern))
-    place_names = {}  # {text: [{"file": ..., "line": ...}, ...]}
-
-    for filepath in files:
-        try:
-            with open(filepath, 'r', encoding='utf-8') as f:
-                for line_num, line in enumerate(f, 1):
-                    # Clean line whitespace for better display
-                    clean_line = line.strip()
-                    # Find all placeName tags with LOC_Lat_Long in this line
-                    # We use a non-greedy match to handle multiple tags on one line
-                    for m in re.finditer(
-                        r'<placeName\s+ref="(?:LOC_Lat_Long|LOC_[-\d._]+)">([^<]+)</placeName>',
-                        clean_line
-                    ):
-                        name = m.group(1).strip()
-                        if name not in place_names:
-                            place_names[name] = []
-                            
-                        # Wrap the specific tag in a marked span so the frontend can highlight it
-                        start, end = m.span()
-                        # Extract a window of context (e.g., up to 100 chars before and after)
-                        context_start = max(0, start - 150)
-                        context_end = min(len(clean_line), end + 150)
-                        
-                        context_prefix = ("..." if context_start > 0 else "") + clean_line[context_start:start]
-                        context_suffix = clean_line[end:context_end] + ("..." if context_end < len(clean_line) else "")
-                        
-                        place_names[name].append({
-                            'file': os.path.basename(filepath),
-                            'line': line_num,
-                            'context': f"{context_prefix}<mark class='bg-yellow-500/30 text-yellow-200 px-1 rounded'>{m.group(0)}</mark>{context_suffix}",
-                            'exact_name': name
-                        })
-        except Exception as e:
-            print(f"Error reading {filepath}: {e}")
-
-    return place_names
 
 
 # ─── API search functions ────────────────────────────────────────────────────
@@ -345,7 +304,7 @@ def index():
 @app.route('/api/placenames')
 def get_placenames():
     """Return all unique place names with LOC_Lat_Long and their occurrences."""
-    place_names = scan_xml_files()
+    place_names = scan_xml_files(XML_DIR)
     result = []
     with state_lock:
         for name, occurrences in sorted(place_names.items()):
@@ -476,7 +435,7 @@ def apply_changes():
                 ref_value = f'LOC_{coords["lat"]}_{coords["lng"]}'
                 # Replace LOC_Lat_Long in placeName tags with this specific text
                 pattern_re = re.compile(
-                    rf'(<placeName\s+ref=")LOC_Lat_Long(">{re.escape(name)}</placeName>)'
+                    rf'(<placeName\s+ref="){re.escape(PLACEHOLDER)}(">{re.escape(name)}</placeName>)'
                 )
                 content = pattern_re.sub(rf'\g<1>{ref_value}\g<2>', content)
 
