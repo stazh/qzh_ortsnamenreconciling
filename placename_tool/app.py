@@ -11,6 +11,7 @@ import math
 import json
 import glob
 import threading
+from difflib import SequenceMatcher
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from flask import Flask, render_template, jsonify, request
 import requests
@@ -134,6 +135,64 @@ def scan_xml_files():
             print(f"Error reading {filepath}: {e}")
 
     return place_names
+
+
+def get_recognized_places():
+    """Return place names that already have coordinates in XML refs."""
+    pattern = os.path.join(XML_DIR, '*.xml')
+    files = sorted(glob.glob(pattern))
+    recognized = {}  # {name: {"lat": ..., "lng": ..., "count": ...}}
+    coord_re = re.compile(
+        r'<placeName\s+ref="LOC_(-?\d+(?:\.\d+)?)_(-?\d+(?:\.\d+)?)">([^<]+)</placeName>'
+    )
+
+    for filepath in files:
+        try:
+            with open(filepath, 'r', encoding='utf-8') as f:
+                content = f.read()
+            for match in coord_re.finditer(content):
+                lat = round(float(match.group(1)), 5)
+                lng = round(float(match.group(2)), 5)
+                name = match.group(3).strip()
+                if name in recognized:
+                    recognized[name]['count'] += 1
+                else:
+                    recognized[name] = {'lat': lat, 'lng': lng, 'count': 1}
+        except Exception as e:
+            print(f"Error reading recognized places from {filepath}: {e}")
+    return recognized
+
+
+def search_recognized_places(name, limit=2):
+    """Return the closest string matches from already-recognized XML places."""
+    recognized = get_recognized_places()
+    query = name.strip().lower()
+    if not query:
+        return []
+
+    ranked = []
+    for place_name, coords in recognized.items():
+        candidate = place_name.lower()
+        score = SequenceMatcher(None, query, candidate).ratio()
+        # Slight boost if one name contains the other.
+        if query in candidate or candidate in query:
+            score += 0.2
+        ranked.append((score, place_name, coords))
+
+    ranked.sort(key=lambda x: x[0], reverse=True)
+
+    results = []
+    for score, place_name, coords in ranked[:limit]:
+        results.append({
+            'source': 'Bereits erkannte Orte (XML)',
+            'name': place_name,
+            'description': f'Ähnlichkeit: {score:.2f}, Vorkommen: {coords["count"]}',
+            'lat': coords['lat'],
+            'lng': coords['lng'],
+            'url': '',
+            'id': f'xml:{place_name}'
+        })
+    return results
 
 
 # ─── API search functions ────────────────────────────────────────────────────
@@ -380,6 +439,9 @@ def search_place():
         return jsonify({'error': 'Missing name parameter'}), 400
 
     all_results = []
+
+    # Add 1-2 closest matches from already recognized places in XML.
+    all_results.extend(search_recognized_places(name, limit=2))
 
     # Search all sources in parallel
     with ThreadPoolExecutor(max_workers=4) as executor:
