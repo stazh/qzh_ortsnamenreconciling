@@ -17,9 +17,9 @@ import requests
 from lxml import etree
 
 try:
-    from .xml_scan import PLACEHOLDER, scan_xml_files
+    from .xml_scan import PLACEHOLDER, replace_placeholder_refs, scan_xml_files
 except ImportError:
-    from xml_scan import PLACEHOLDER, scan_xml_files
+    from xml_scan import PLACEHOLDER, replace_placeholder_refs, scan_xml_files
 
 app = Flask(__name__)
 
@@ -431,13 +431,7 @@ def apply_changes():
                 content = f.read()
 
             original = content
-            for name, coords in current_resolved.items():
-                ref_value = f'LOC_{coords["lat"]}_{coords["lng"]}'
-                # Replace LOC_Lat_Long in placeName tags with this specific text
-                pattern_re = re.compile(
-                    rf'(<placeName\s+ref="){re.escape(PLACEHOLDER)}(">{re.escape(name)}</placeName>)'
-                )
-                content = pattern_re.sub(rf'\g<1>{ref_value}\g<2>', content)
+            content = replace_placeholder_refs(content, current_resolved)
 
             if content != original:
                 with open(filepath, 'w', encoding='utf-8') as f:
