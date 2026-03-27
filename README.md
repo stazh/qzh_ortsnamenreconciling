@@ -1,4 +1,4 @@
-# sasel
+# QZH Ortsnamenreconciling
 
 Diese App hilft dabei, Ortsnamen in TEI-XML-Dateien nachzupflegen.
 
