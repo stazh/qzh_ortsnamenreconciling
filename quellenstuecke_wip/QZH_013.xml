@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css“?>
+<!--<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0"
+ xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" n="1234" xml:lang="de">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <respStmt>
+     <persName>Andrea Schmid-Kunz</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Michael Schaffner</persName>
+     <resp key="tagging"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <date type="electronic" when="2021-05-01"/>
+    <date type="print" when="2018-12-31"/>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Gelebte Reformation. Zürich 1500-1800</title>
+    <respStmt>
+     <persName>Francisca Loetz. Unter Mitarbeit von Wolfram Schneider-Lastin</persName>
+     <resp>Herausgeberschaft</resp>
+    </respStmt>
+    <idno>QZH_013</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier>
+      <idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=4890606">StAZH E I 30.29, Nr. 1</idno>
+     </msIdentifier>
+     <head>Schreiben des Pfarrers von Flaach mit Bitte um Unterstützung für die Finanzierung einer Pfarrstelle in der Gemeinde Dorf</head>
+     <msContents>
+      <msItem>
+       <textLang>Deutsch</textLang>
+       <filiation type="current">Aufzeichnungen (Einzelblatt)</filiation>
+       <filiation type="original"></filiation>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support><material>Papier</material></support>
+        <extent/>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history><origin><origDate when="1583-11-06"/></origin></history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p>
+     <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+    </p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc> </profileDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term ref="key000149">Gottesdienst</term>
+     <term ref="key000212">Löhne</term>
+     <term ref="key000301">Pfarrer</term>
+     <term ref="key000637">Pfarrei</term>
+    </keywords>
+   </textClass>
+   <particDesc default="false"/>
+   <settingDesc default="false"/>
+  </profileDesc>
+ </teiHeader>
+ <text>
+  <group>
+   <text>
+    <body>
+     <pb n="1" facs="StAZH_E_I_30_29__Nr__1__S__1_.tif"/>
+     <div><p>
+      <seg><lb/>An die frommen, fürsichtigen, eerenvesten und wysen herren
+       <lb/>burgermeister <persName ref="GND_143680544">Kambli</persName>, beide herren seckelmeister und herrenn
+       <lb/>obmann <persName ref="GND_143657062">Käller</persName>, myne gnädigen und gebietenden herrenn.</seg></p>
+      <p><seg><lb/>Gottes gnad, sampt minem fründtlichen gruͦß, auch
+      underthenigen diensten jeder zit zevor,
+      <lb/>fromme, fürsichtige, eersamme und wyse, gnedige herren.</seg> <seg>Die ursach mynes schribens an
+      <lb/><abbr>ü.</abbr> ersam wyßheit ist dise:    Es sind verschiner
+      zit vor üch, unseren gnedigen herren,
+       <lb/>erschinen die anwält der gmeind <placeName ref="LOC_47.57117_8.65006">Dorff</placeName> in der herrschaft <placeName ref="LOC_47.59284_8.67544">Andelfingen</placeName>, mit
+      <lb/>deemütiger bitt ir, unser gnedig herren welltind inen auch ein stür und hilff
+       thuͦn,
+      <lb/>daamit sy mit Gottes wort versächen, und inen das heilig evangelium in irem
+       <lb/>kilchli und capell verkünt und predget möchte werden, dann sy sunst zuͦ der pfarr
+       <lb/><placeName ref="LOC_47.59284_8.67544">Andelfingen</placeName> hörend, daahin si auch bißher gangen sind.</seg></p>
+      <p><seg><lb/>Diewyl sich aber ir gmeind umb vil gemeeret, der kilchwäg eben wyt, sy auch all
+      <lb/>arbeitsame und müde lüt sind, auch vil junger und alter lüten under inne sigind,
+      <lb/>die etwan minder ze kilchen gangen weder sich gebürt:    In ansächung des und anders
+       <lb/>hand si an irem herr pfarrer und <abbr>h.</abbr> obervogt geworben, ob inen nit zuͦglaan
+      <lb/>möchte werden, diewyl sy ein eigen kilchli und capell habind, das man inen uff
+      <lb/>iren kosten auch am <abbr>h.</abbr> sontag ein leer und predig theti, wellind sy nüt dester
+      <lb/>minder sich nit von der pfarr kilch absünderen, sonder ire kindli daa laßen
+      tauffen,
+      <lb/>ire eeen daa bestäten, das nachtmaal <abbr>s</abbr> herren mit inne uf die heiligen tag
+      empfachen,
+      <lb/>auch die zinstag predig so vil inne müglich besuchen.    Hand inen die vorgenannten
+      <lb/>herren das nit wellen weeren, sonder inen ire yfer und christenliche wolmeinung
+      <lb/>laßen gefallen.    Hieruf sy an mich gewerben hand, das ich inen welli zewillen
+      <lb/>werden und inen umb gottes willen, auch umb ein eerlichen lon, das <abbr>h.</abbr> evangelium
+      <lb/>verkünden    Wiewol ich mich nun dest nie versächen und ich min alter und kilch,
+      <lb/>auch dienst fürgewänt, hand si doch nit wellen abstaan, und mich leschtlich
+      bewegt,
+      <lb/>das ich inen bin ze willen worden, und hab si jetz bis in das viert jaar naach
+      miner
+      <lb/>gethaaner predig am sontag vor mittag versächen, davon si mir jerlich gäben
+      <lb/>hand etwan xx, etwan xxv. <abbr>fl</abbr>.</seg></p>
+      <p><seg><lb/>Diewyl sy aber arm sind und auch im gmeinen seckel nit vil hand, sonder das gält
+      also
+      <lb/>zesamesammlent und stürend, sind sy rätig worden, ein underthenige bit an üwer
+       <lb/>ersam wyßheit zetuͦn, das ir iren us gnaaden ein
+       stür und hilf hieran thuͦn
+       <lb/>wellint, diewyl si meer theils all ir zins und zächenden gan <placeName ref="LOC_47.4789_8.70215">Dös</placeName><!-- msr: Töss, Kloster --> in das kloster
+      <lb/>gäbint.    Habend mich jetz gebätten, diewyl inen
+      noch kein antwort worden, <abbr>ü</abbr>
+       <lb/><abbr>er.</abbr> wißheit zuͦberichten, das ir meinung gar nit
+      sige, das sy eines eignen predigers
+      <lb/>begärint, und also understaan wöltind ein eigne pfarr ufzerichten, und sich von
+      <lb/>irer erhaften alten pfarr abzeschräntzen, sonder allein dorum, das si und ire
+      kinder
+      <lb/>dester bas im glauben und in gottes wort und willen berichtet werdind und in allem
+       guͦten
+       <lb/>zuͦnämmend. Diewyl ich nun anders nüt bi inne spür,
+      dann ein christenlich yfer und
+      <lb/>das sy mit allem flys und ernst Gottes wort hörend, ist min dienstlich underthenige
+      bit
+      <lb/>an <abbr>e. e. w.</abbr>, wollint si in gnaden bedencken und ir demuͤtige bit erhören.</seg></p>
+      <p><seg><lb/>Hiemit tuͦn ich <abbr>ü. e. w.</abbr> gott dem herren
+       befälchen, bit hiebi, wellind mich und die minen alizit
+      <lb/>in gnaaden befolchen haben. Datum den <origDate when="1583-11-06">6 novembris a<hi rend="sup">o</hi>
+      1583</origDate>.
+       <lb/><abbr>Ü. e. w.</abbr> <abbr>underth.</abbr> diener <persName>Hans Löüw</persName>, pfarrer zuͦ <placeName ref="LOC_47.57608_8.60633">Flaach</placeName>.</seg></p>
+      <pb n="2" facs="StAZH_E_I_30_29__Nr__1__S__2_.tif"/>
+      <p><lb/>Demm frommen, erenvesten, fürsichtigen
+      <lb/>ersamen und wysen herren <persName ref="GND_143680544">Hans
+       <lb/>Kambli</persName>, burgermeister der statt <placeName ref="LOC_47.36667_8.55">Zü<lb break="no"/>rich</placeName>, 
+      mynem gnedigen herrenn.
+      <lb/>Umb ein stür, einem predicannten,
+      <lb/>so ein gmeind zu <placeName ref="LOC_47.57117_8.65006">Dorff</placeName> mit pre<lb break="no"/>digen 
+      versichen.
+      <lb/><placeName ref="LOC_47.57117_8.65006">Dorff</placeName></p></div>
+    </body>
+    <back>
+     <div>
+      <p>Pfarrer <persName>Hans Leu</persName> bittet im Namen der
+       Gemeinde <placeName ref="LOC_47.57117_8.65006">Dorf</placeName> um Unterstützung für die Finanzierung der Pfarrstelle. Das
+       beharrliche Bemühen der Gemeinde, in der vorhandenen Kapelle und Kirche einen
+       eigenen Prädikanten unterhalten zu können, zeugt von der Bedeutung der
+       Dorfkirche in den ländlichen Gemeinden.
+      </p>
+     </div>
+    </back>
+   </text>
+  </group>
+ </text>
+</TEI>

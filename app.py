@@ -11,16 +11,21 @@ import math
 import json
 import glob
 import threading
+from difflib import SequenceMatcher
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from flask import Flask, render_template, jsonify, request
 import requests
 from lxml import etree
 
+try:
+    from .xml_scan import PLACEHOLDER, replace_placeholder_refs, scan_xml_files
+except ImportError:
+    from xml_scan import PLACEHOLDER, replace_placeholder_refs, scan_xml_files
+
 app = Flask(__name__)
 
 # Configuration
-XML_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'quellenstuecke')
-PLACEHOLDER = 'LOC_Lat_Long'
+XML_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), '.', 'quellenstuecke_wip')
 
 # In-memory state for resolved/skipped place names
 resolved_places = {}  # {place_name_text: {"lat": ..., "lng": ..., "source": ...}}
@@ -91,49 +96,64 @@ def parse_ewkt_coords(ewkt_str):
         return None
 
 
-# ─── XML scanning ────────────────────────────────────────────────────────────
 
-def scan_xml_files():
-    """Scan all XML files and return place names with LOC_Lat_Long."""
+
+def get_recognized_places():
+    """Return place names that already have coordinates in XML refs."""
     pattern = os.path.join(XML_DIR, '*.xml')
     files = sorted(glob.glob(pattern))
-    place_names = {}  # {text: [{"file": ..., "line": ...}, ...]}
+    recognized = {}  # {name: {"lat": ..., "lng": ..., "count": ...}}
+    coord_re = re.compile(
+        r'<placeName\s+ref="LOC_(-?\d+(?:\.\d+)?)_(-?\d+(?:\.\d+)?)">([^<]+)</placeName>'
+    )
 
     for filepath in files:
         try:
             with open(filepath, 'r', encoding='utf-8') as f:
-                for line_num, line in enumerate(f, 1):
-                    # Clean line whitespace for better display
-                    clean_line = line.strip()
-                    # Find all placeName tags with LOC_Lat_Long in this line
-                    # We use a non-greedy match to handle multiple tags on one line
-                    for m in re.finditer(
-                        r'<placeName\s+ref="(?:LOC_Lat_Long|LOC_[-\d._]+)">([^<]+)</placeName>',
-                        clean_line
-                    ):
-                        name = m.group(1).strip()
-                        if name not in place_names:
-                            place_names[name] = []
-                            
-                        # Wrap the specific tag in a marked span so the frontend can highlight it
-                        start, end = m.span()
-                        # Extract a window of context (e.g., up to 100 chars before and after)
-                        context_start = max(0, start - 150)
-                        context_end = min(len(clean_line), end + 150)
-                        
-                        context_prefix = ("..." if context_start > 0 else "") + clean_line[context_start:start]
-                        context_suffix = clean_line[end:context_end] + ("..." if context_end < len(clean_line) else "")
-                        
-                        place_names[name].append({
-                            'file': os.path.basename(filepath),
-                            'line': line_num,
-                            'context': f"{context_prefix}<mark class='bg-yellow-500/30 text-yellow-200 px-1 rounded'>{m.group(0)}</mark>{context_suffix}",
-                            'exact_name': name
-                        })
+                content = f.read()
+            for match in coord_re.finditer(content):
+                lat = round(float(match.group(1)), 5)
+                lng = round(float(match.group(2)), 5)
+                name = match.group(3).strip()
+                if name in recognized:
+                    recognized[name]['count'] += 1
+                else:
+                    recognized[name] = {'lat': lat, 'lng': lng, 'count': 1}
         except Exception as e:
-            print(f"Error reading {filepath}: {e}")
+            print(f"Error reading recognized places from {filepath}: {e}")
+    return recognized
 
-    return place_names
+
+def search_recognized_places(name, limit=2):
+    """Return the closest string matches from already-recognized XML places."""
+    recognized = get_recognized_places()
+    query = name.strip().lower()
+    if not query:
+        return []
+
+    ranked = []
+    for place_name, coords in recognized.items():
+        candidate = place_name.lower()
+        score = SequenceMatcher(None, query, candidate).ratio()
+        # Slight boost if one name contains the other.
+        if query in candidate or candidate in query:
+            score += 0.2
+        ranked.append((score, place_name, coords))
+
+    ranked.sort(key=lambda x: x[0], reverse=True)
+
+    results = []
+    for score, place_name, coords in ranked[:limit]:
+        results.append({
+            'source': 'Bereits erkannte Orte (XML)',
+            'name': place_name,
+            'description': f'Ähnlichkeit: {score:.2f}, Vorkommen: {coords["count"]}',
+            'lat': coords['lat'],
+            'lng': coords['lng'],
+            'url': '',
+            'id': f'xml:{place_name}'
+        })
+    return results
 
 
 # ─── API search functions ────────────────────────────────────────────────────
@@ -345,7 +365,7 @@ def index():
 @app.route('/api/placenames')
 def get_placenames():
     """Return all unique place names with LOC_Lat_Long and their occurrences."""
-    place_names = scan_xml_files()
+    place_names = scan_xml_files(XML_DIR)
     result = []
     with state_lock:
         for name, occurrences in sorted(place_names.items()):
@@ -380,6 +400,9 @@ def search_place():
         return jsonify({'error': 'Missing name parameter'}), 400
 
     all_results = []
+
+    # Add 1-2 closest matches from already recognized places in XML.
+    all_results.extend(search_recognized_places(name, limit=2))
 
     # Search all sources in parallel
     with ThreadPoolExecutor(max_workers=4) as executor:
@@ -472,13 +495,7 @@ def apply_changes():
                 content = f.read()
 
             original = content
-            for name, coords in current_resolved.items():
-                ref_value = f'LOC_{coords["lat"]}_{coords["lng"]}'
-                # Replace LOC_Lat_Long in placeName tags with this specific text
-                pattern_re = re.compile(
-                    rf'(<placeName\s+ref=")LOC_Lat_Long(">{re.escape(name)}</placeName>)'
-                )
-                content = pattern_re.sub(rf'\g<1>{ref_value}\g<2>', content)
+            content = replace_placeholder_refs(content, current_resolved)
 
             if content != original:
                 with open(filepath, 'w', encoding='utf-8') as f:
