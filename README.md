@@ -17,6 +17,9 @@ Sie durchsucht alle XML-Dateien im Ordner `quellenstuecke_wip` nach `<placeName>
 - erlaubt manuelle Koordinaten-Eingabe
 - schreibt bestätigte Koordinaten als `LOC_<lat>_<lng>` zurück in die XML-Dateien
 
+![Main Interface](screenshots/detail_view.png)
+*Detailansicht eines Ortes mit Kontextbeispielen, manueller Eingabe und API-Vorschlägen.*
+
 ## Voraussetzungen
 
 - Python 3.10 oder neuer
