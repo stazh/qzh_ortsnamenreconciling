@@ -25,7 +25,7 @@ except ImportError:
 app = Flask(__name__)
 
 # Configuration
-XML_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'quellenstuecke')
+XML_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), '.', 'quellenstuecke_wip')
 
 # In-memory state for resolved/skipped place names
 resolved_places = {}  # {place_name_text: {"lat": ..., "lng": ..., "source": ...}}
